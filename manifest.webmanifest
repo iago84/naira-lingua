@@ -1,0 +1,14 @@
+{
+  "name": "naira·lingua",
+  "short_name": "naira·lingua",
+  "description": "Aprende cualquier idioma desde y hacia cualquier otro. Gratis y abierto.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#faf6ee",
+  "theme_color": "#b06a2c",
+  "lang": "es",
+  "icons": [
+    { "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
