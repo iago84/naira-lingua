@@ -1,0 +1,19 @@
+{ "id": "it-u1-l1", "lang": "it", "unit": 1, "lesson": 1,
+  "title": { "it": "Saluti", "es": "Saludos" },
+  "objectives": { "es": ["Saludar, despedirse y dar las gracias"] },
+  "dialogue": [
+    { "speaker": "A", "it": "Ciao!", "es": "¡Hola!", "concept": "c:saludos.hola" },
+    { "speaker": "B", "it": "Ciao, come stai?", "es": "Hola, ¿cómo estás?" },
+    { "speaker": "A", "it": "Bene, grazie.", "es": "Bien, gracias.",
+      "concept": "c:saludos.gracias" },
+    { "speaker": "B", "it": "Arrivederci!", "es": "¡Adiós!", "concept": "c:saludos.adios" }
+  ],
+  "explanation": { "es": "«Ciao» sirve para saludar y despedirse informalmente; «arrivederci» es la despedida formal." },
+  "tables": [
+    { "type": "verb", "title": "essere (ser/estar)", "columns": ["persona", "presente"],
+      "rows": [["io", "sono"], ["tu", "sei"], ["lui/lei", "è"],
+               ["noi", "siamo"], ["voi", "siete"], ["loro", "sono"]] },
+    { "type": "adjective", "title": "grande (grande)", "columns": ["masc/fem", "plural"],
+      "rows": [["grande", "grandi"]] }
+  ],
+  "exercises": [], "concepts": ["c:saludos.hola", "c:saludos.gracias", "c:saludos.adios"] }
