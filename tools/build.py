@@ -1,0 +1,26 @@
+"""Compila el corpus a un dataset plano para la web."""
+from __future__ import annotations
+import datetime, sys
+from pathlib import Path
+from . import common
+
+
+def run(repo_dir) -> None:
+    repo = Path(repo_dir)
+    concepts = common.read_jsonl(repo / "corpus" / "concepts.jsonl")
+    langs, counts = [], {}
+    for lang_dir in sorted(p for p in (repo / "corpus" / "languages").iterdir()
+                           if p.is_dir()):
+        terms = common.read_jsonl(lang_dir / "terms.jsonl")
+        common.write_json(repo / "data" / f"terms.{lang_dir.name}.json", terms)
+        langs.append(lang_dir.name)
+        counts[lang_dir.name] = len(terms)
+    manifest = {"generated": datetime.datetime.now(datetime.UTC).isoformat(),
+                "concepts": len(concepts), "languages": langs, "counts": counts}
+    common.write_json(repo / "data" / "manifest.json", manifest)
+    common.write_json(repo / "data" / "concepts.json", concepts)
+    print(f"build ok: {len(concepts)} conceptos, idiomas={langs}")
+
+
+if __name__ == "__main__":
+    run(sys.argv[1] if len(sys.argv) > 1 else ".")
