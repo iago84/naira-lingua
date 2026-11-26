@@ -10,6 +10,8 @@
 
 **Repo:** `F:\TRABAJO\TO WORK ON QUICK\TRABAJO EXTRA\naira-lingua` (rama `main`).
 
+> **Nota de entorno (Windows / Node 24):** ejecuta los tests de JS con `node --test` (sin argumentos descubre `**/*.test.js`) o `node --test js/tests/*.test.js`. El literal `node --test js/tests` falla en esta versión de Node.
+
 ---
 
 ## Estructura de ficheros
