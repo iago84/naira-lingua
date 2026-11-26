@@ -1755,8 +1755,9 @@ async function getLessons(lang) {
 function currentPair() {
   const s = store.getState();
   const langs = manifest?.languages ?? [];
-  const src = s.lastPair?.src && langs.includes(s.lastPair.src) ? s.lastPair.src : "es";
-  let tgt = s.lastPair?.tgt && langs.includes(s.lastPair.tgt) ? s.lastPair.tgt : "fr";
+  // Los idiomas válidos son los del manifiesto (no hay "es" en el corpus).
+  const src = s.lastPair?.src && langs.includes(s.lastPair.src) ? s.lastPair.src : langs[0];
+  let tgt = s.lastPair?.tgt && langs.includes(s.lastPair.tgt) ? s.lastPair.tgt : langs.find((l) => l !== src);
   if (tgt === src) tgt = langs.find((l) => l !== src) ?? tgt;
   return { src, tgt };
 }
