@@ -1,0 +1,101 @@
+[
+  {
+    "concepts": [
+      "c:saludos.hola",
+      "c:saludos.gracias",
+      "c:saludos.adios"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:saludos.hola",
+        "es": "¡Hola!",
+        "fr": "Bonjour !",
+        "speaker": "A"
+      },
+      {
+        "es": "¡Hola! ¿Qué tal?",
+        "fr": "Salut ! Ça va ?",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:saludos.gracias",
+        "es": "Bien, gracias.",
+        "fr": "Ça va bien, merci.",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:saludos.adios",
+        "es": "¡Adiós!",
+        "fr": "Au revoir !",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "es": "«Bonjour» es el saludo estándar de día; «salut» es informal. «Merci» agradece y «au revoir» despide."
+    },
+    "id": "fr-u1-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "es": [
+        "Saludar, despedirse y dar las gracias"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "persona",
+          "presente"
+        ],
+        "rows": [
+          [
+            "je",
+            "suis"
+          ],
+          [
+            "tu",
+            "es"
+          ],
+          [
+            "il/elle",
+            "est"
+          ],
+          [
+            "nous",
+            "sommes"
+          ],
+          [
+            "vous",
+            "êtes"
+          ],
+          [
+            "ils/elles",
+            "sont"
+          ]
+        ],
+        "title": "être (ser/estar)",
+        "type": "verb"
+      },
+      {
+        "columns": [
+          "masc",
+          "fem"
+        ],
+        "rows": [
+          [
+            "grand",
+            "grande"
+          ]
+        ],
+        "title": "grand (grande)",
+        "type": "adjective"
+      }
+    ],
+    "title": {
+      "es": "Saludos",
+      "fr": "Salutations"
+    },
+    "unit": 1
+  }
+]

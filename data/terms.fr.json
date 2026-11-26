@@ -1,0 +1,110 @@
+[
+  {
+    "concept": "c:saludos-y-expresiones.hola",
+    "ipa": "bɔ̃.ʒuʁ",
+    "lang": "fr",
+    "license": "CC-BY-SA-4.0",
+    "pos": "interj",
+    "review": "verified",
+    "source": "manual_verified",
+    "source_ref": null,
+    "term": "bonjour",
+    "translit": null
+  },
+  {
+    "concept": "c:saludos-y-expresiones.adios",
+    "ipa": "o ʁə.vwaʁ",
+    "lang": "fr",
+    "license": "CC-BY-SA-4.0",
+    "pos": "interj",
+    "review": "verified",
+    "source": "manual_verified",
+    "source_ref": null,
+    "term": "au revoir",
+    "translit": null
+  },
+  {
+    "concept": "c:saludos-y-expresiones.gracias",
+    "ipa": "mɛʁ.si",
+    "lang": "fr",
+    "license": "CC-BY-SA-4.0",
+    "pos": "interj",
+    "review": "verified",
+    "source": "manual_verified",
+    "source_ref": null,
+    "term": "merci",
+    "translit": null
+  },
+  {
+    "concept": "c:saludos-y-expresiones.por-favor",
+    "ipa": "sil vu plɛ",
+    "lang": "fr",
+    "license": "CC-BY-SA-4.0",
+    "pos": "interj",
+    "review": "verified",
+    "source": "manual_verified",
+    "source_ref": null,
+    "term": "s'il vous plaît",
+    "translit": null
+  },
+  {
+    "concept": "c:saludos-y-expresiones.si",
+    "ipa": "wi",
+    "lang": "fr",
+    "license": "CC-BY-SA-4.0",
+    "pos": "adv",
+    "review": "verified",
+    "source": "manual_verified",
+    "source_ref": null,
+    "term": "oui",
+    "translit": null
+  },
+  {
+    "concept": "c:saludos-y-expresiones.no",
+    "ipa": "nɔ̃",
+    "lang": "fr",
+    "license": "CC-BY-SA-4.0",
+    "pos": "adv",
+    "review": "verified",
+    "source": "manual_verified",
+    "source_ref": null,
+    "term": "non",
+    "translit": null
+  },
+  {
+    "concept": "c:numeros.uno",
+    "ipa": "œ̃",
+    "lang": "fr",
+    "license": "CC-BY-SA-4.0",
+    "pos": "num",
+    "review": "verified",
+    "source": "manual_verified",
+    "source_ref": null,
+    "term": "un",
+    "translit": null
+  },
+  {
+    "concept": "c:numeros.dos",
+    "ipa": "dø",
+    "lang": "fr",
+    "license": "CC-BY-SA-4.0",
+    "pos": "num",
+    "review": "verified",
+    "source": "manual_verified",
+    "source_ref": null,
+    "term": "deux",
+    "translit": null
+  },
+  {
+    "concept": "c:numeros.tres",
+    "ipa": "tʁwa",
+    "lang": "fr",
+    "license": "CC-BY-SA-4.0",
+    "pos": "num",
+    "review": "verified",
+    "source": "manual_verified",
+    "source_ref": null,
+    "term": "trois",
+    "translit": null
+  }
+]

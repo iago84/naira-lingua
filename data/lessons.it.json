@@ -1,0 +1,101 @@
+[
+  {
+    "concepts": [
+      "c:saludos.hola",
+      "c:saludos.gracias",
+      "c:saludos.adios"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:saludos.hola",
+        "es": "¡Hola!",
+        "it": "Ciao!",
+        "speaker": "A"
+      },
+      {
+        "es": "Hola, ¿cómo estás?",
+        "it": "Ciao, come stai?",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:saludos.gracias",
+        "es": "Bien, gracias.",
+        "it": "Bene, grazie.",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:saludos.adios",
+        "es": "¡Adiós!",
+        "it": "Arrivederci!",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "es": "«Ciao» sirve para saludar y despedirse informalmente; «arrivederci» es la despedida formal."
+    },
+    "id": "it-u1-l1",
+    "lang": "it",
+    "lesson": 1,
+    "objectives": {
+      "es": [
+        "Saludar, despedirse y dar las gracias"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "persona",
+          "presente"
+        ],
+        "rows": [
+          [
+            "io",
+            "sono"
+          ],
+          [
+            "tu",
+            "sei"
+          ],
+          [
+            "lui/lei",
+            "è"
+          ],
+          [
+            "noi",
+            "siamo"
+          ],
+          [
+            "voi",
+            "siete"
+          ],
+          [
+            "loro",
+            "sono"
+          ]
+        ],
+        "title": "essere (ser/estar)",
+        "type": "verb"
+      },
+      {
+        "columns": [
+          "masc/fem",
+          "plural"
+        ],
+        "rows": [
+          [
+            "grande",
+            "grandi"
+          ]
+        ],
+        "title": "grande (grande)",
+        "type": "adjective"
+      }
+    ],
+    "title": {
+      "es": "Saludos",
+      "it": "Saluti"
+    },
+    "unit": 1
+  }
+]

@@ -8,15 +8,23 @@ from . import common
 def run(repo_dir) -> None:
     repo = Path(repo_dir)
     concepts = common.read_jsonl(repo / "corpus" / "concepts.jsonl")
-    langs, counts = [], {}
+    langs, counts, lesson_counts = [], {}, {}
     for lang_dir in sorted(p for p in (repo / "corpus" / "languages").iterdir()
                            if p.is_dir()):
         terms = common.read_jsonl(lang_dir / "terms.jsonl")
         common.write_json(repo / "data" / f"terms.{lang_dir.name}.json", terms)
+        lessons = []
+        lesson_dir = lang_dir / "lessons"
+        if lesson_dir.exists():
+            for fp in sorted(lesson_dir.glob("*.json")):
+                lessons.append(common.read_json(fp, default={}))
+        common.write_json(repo / "data" / f"lessons.{lang_dir.name}.json", lessons)
         langs.append(lang_dir.name)
         counts[lang_dir.name] = len(terms)
+        lesson_counts[lang_dir.name] = len(lessons)
     manifest = {"generated": datetime.datetime.now(datetime.UTC).isoformat(),
-                "concepts": len(concepts), "languages": langs, "counts": counts}
+                "concepts": len(concepts), "languages": langs, "counts": counts,
+                "lessons": lesson_counts}
     common.write_json(repo / "data" / "manifest.json", manifest)
     common.write_json(repo / "data" / "concepts.json", concepts)
     print(f"build ok: {len(concepts)} conceptos, idiomas={langs}")
