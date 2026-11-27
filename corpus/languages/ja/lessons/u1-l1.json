@@ -17,77 +17,77 @@
       "concept": "c:saludos-y-expresiones.hola",
       "en": "Hello.",
       "es": "hola",
-      "ja": "詳しくはこちら",
+      "ja": "こんにちは",
       "speaker": "A"
     },
     {
       "concept": "c:saludos-y-expresiones.buenos-dias",
       "en": "Good morning.",
       "es": "buenos días",
-      "ja": "朝はおやすみ。",
+      "ja": "おはようございます",
       "speaker": "B"
     },
     {
       "concept": "c:saludos-y-expresiones.buenas-tardes",
       "en": "Good afternoon.",
       "es": "buenas tardes",
-      "ja": "夕方からお越し下さい。",
+      "ja": "こんにちは",
       "speaker": "A"
     },
     {
       "concept": "c:saludos-y-expresiones.buenas-noches",
       "en": "Good night.",
       "es": "buenas noches",
-      "ja": "夜は、",
+      "ja": "こんばんは",
       "speaker": "B"
     },
     {
       "concept": "c:saludos-y-expresiones.gracias",
       "en": "Thank you.",
       "es": "gracias",
-      "ja": "ありがとうございます。",
+      "ja": "ありがとう",
       "speaker": "A"
     },
     {
       "concept": "c:saludos-y-expresiones.por-favor",
       "en": "Please.",
       "es": "por favor",
-      "ja": "是非、どうぞよろしくお願いします。",
+      "ja": "お願いします",
       "speaker": "B"
     },
     {
       "concept": "c:saludos-y-expresiones.perdon-disculpe",
       "en": "Excuse me / excuse",
       "es": "perdón / disculpe",
-      "ja": "私を抜く/言い訳",
+      "ja": "すみません",
       "speaker": "A"
     },
     {
       "concept": "c:saludos-y-expresiones.adios",
       "en": "Bye.",
       "es": "adiós",
-      "ja": "ツイート",
+      "ja": "さようなら",
       "speaker": "B"
     },
     {
       "concept": "c:saludos-y-expresiones.hasta-luego",
       "en": "See you later.",
       "es": "hasta luego",
-      "ja": "あとで見て下さい。",
+      "ja": "またね",
       "speaker": "A"
     },
     {
       "concept": "c:saludos-y-expresiones.si",
       "en": "Yes",
       "es": "sí",
-      "ja": "あり はい",
+      "ja": "はい",
       "speaker": "B"
     },
     {
       "concept": "c:saludos-y-expresiones.no",
       "en": "No.",
       "es": "no",
-      "ja": "ナンバー",
+      "ja": "いいえ",
       "speaker": "A"
     }
   ],
@@ -126,57 +126,57 @@
         [
           "hola",
           "Hello.",
-          "詳しくはこちら"
+          "こんにちは"
         ],
         [
           "buenos días",
           "Good morning.",
-          "朝はおやすみ。"
+          "おはようございます"
         ],
         [
           "buenas tardes",
           "Good afternoon.",
-          "夕方からお越し下さい。"
+          "こんにちは"
         ],
         [
           "buenas noches",
           "Good night.",
-          "夜は、"
+          "こんばんは"
         ],
         [
           "gracias",
           "Thank you.",
-          "ありがとうございます。"
+          "ありがとう"
         ],
         [
           "por favor",
           "Please.",
-          "是非、どうぞよろしくお願いします。"
+          "お願いします"
         ],
         [
           "perdón / disculpe",
           "Excuse me / excuse",
-          "私を抜く/言い訳"
+          "すみません"
         ],
         [
           "adiós",
           "Bye.",
-          "ツイート"
+          "さようなら"
         ],
         [
           "hasta luego",
           "See you later.",
-          "あとで見て下さい。"
+          "またね"
         ],
         [
           "sí",
           "Yes",
-          "あり はい"
+          "はい"
         ],
         [
           "no",
           "No.",
-          "ナンバー"
+          "いいえ"
         ]
       ],
       "title": "es · en · ja",

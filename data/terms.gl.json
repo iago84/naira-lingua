@@ -5,10 +5,11 @@
     "lang": "gl",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
-    "source": "libretranslate",
+    "review": "verified",
+    "reviewer": "ai-curated",
+    "source": "curated:core",
     "source_ref": "argos es-gl",
-    "term": "Hola.",
+    "term": "Ola",
     "translit": null
   },
   {

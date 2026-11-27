@@ -18,77 +18,77 @@
         "concept": "c:saludos-y-expresiones.hola",
         "en": "Hello.",
         "es": "hola",
-        "ja": "詳しくはこちら",
+        "ja": "こんにちは",
         "speaker": "A"
       },
       {
         "concept": "c:saludos-y-expresiones.buenos-dias",
         "en": "Good morning.",
         "es": "buenos días",
-        "ja": "朝はおやすみ。",
+        "ja": "おはようございます",
         "speaker": "B"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-tardes",
         "en": "Good afternoon.",
         "es": "buenas tardes",
-        "ja": "夕方からお越し下さい。",
+        "ja": "こんにちは",
         "speaker": "A"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-noches",
         "en": "Good night.",
         "es": "buenas noches",
-        "ja": "夜は、",
+        "ja": "こんばんは",
         "speaker": "B"
       },
       {
         "concept": "c:saludos-y-expresiones.gracias",
         "en": "Thank you.",
         "es": "gracias",
-        "ja": "ありがとうございます。",
+        "ja": "ありがとう",
         "speaker": "A"
       },
       {
         "concept": "c:saludos-y-expresiones.por-favor",
         "en": "Please.",
         "es": "por favor",
-        "ja": "是非、どうぞよろしくお願いします。",
+        "ja": "お願いします",
         "speaker": "B"
       },
       {
         "concept": "c:saludos-y-expresiones.perdon-disculpe",
         "en": "Excuse me / excuse",
         "es": "perdón / disculpe",
-        "ja": "私を抜く/言い訳",
+        "ja": "すみません",
         "speaker": "A"
       },
       {
         "concept": "c:saludos-y-expresiones.adios",
         "en": "Bye.",
         "es": "adiós",
-        "ja": "ツイート",
+        "ja": "さようなら",
         "speaker": "B"
       },
       {
         "concept": "c:saludos-y-expresiones.hasta-luego",
         "en": "See you later.",
         "es": "hasta luego",
-        "ja": "あとで見て下さい。",
+        "ja": "またね",
         "speaker": "A"
       },
       {
         "concept": "c:saludos-y-expresiones.si",
         "en": "Yes",
         "es": "sí",
-        "ja": "あり はい",
+        "ja": "はい",
         "speaker": "B"
       },
       {
         "concept": "c:saludos-y-expresiones.no",
         "en": "No.",
         "es": "no",
-        "ja": "ナンバー",
+        "ja": "いいえ",
         "speaker": "A"
       }
     ],
@@ -127,57 +127,57 @@
           [
             "hola",
             "Hello.",
-            "詳しくはこちら"
+            "こんにちは"
           ],
           [
             "buenos días",
             "Good morning.",
-            "朝はおやすみ。"
+            "おはようございます"
           ],
           [
             "buenas tardes",
             "Good afternoon.",
-            "夕方からお越し下さい。"
+            "こんにちは"
           ],
           [
             "buenas noches",
             "Good night.",
-            "夜は、"
+            "こんばんは"
           ],
           [
             "gracias",
             "Thank you.",
-            "ありがとうございます。"
+            "ありがとう"
           ],
           [
             "por favor",
             "Please.",
-            "是非、どうぞよろしくお願いします。"
+            "お願いします"
           ],
           [
             "perdón / disculpe",
             "Excuse me / excuse",
-            "私を抜く/言い訳"
+            "すみません"
           ],
           [
             "adiós",
             "Bye.",
-            "ツイート"
+            "さようなら"
           ],
           [
             "hasta luego",
             "See you later.",
-            "あとで見て下さい。"
+            "またね"
           ],
           [
             "sí",
             "Yes",
-            "あり はい"
+            "はい"
           ],
           [
             "no",
             "No.",
-            "ナンバー"
+            "いいえ"
           ]
         ],
         "title": "es · en · ja",
@@ -833,77 +833,77 @@
         "concept": "c:numeros.uno",
         "en": "one",
         "es": "uno",
-        "ja": "ワンポイント",
+        "ja": "一",
         "speaker": "B"
       },
       {
         "concept": "c:numeros.dos",
         "en": "two",
         "es": "dos",
-        "ja": "ツイート",
+        "ja": "二",
         "speaker": "A"
       },
       {
         "concept": "c:numeros.tres",
         "en": "three",
         "es": "tres",
-        "ja": "ツイート",
+        "ja": "三",
         "speaker": "B"
       },
       {
         "concept": "c:numeros.cuatro",
         "en": "4",
         "es": "cuatro",
-        "ja": "日: 4",
+        "ja": "四",
         "speaker": "A"
       },
       {
         "concept": "c:numeros.cinco",
         "en": "five",
         "es": "cinco",
-        "ja": "五十音順",
+        "ja": "五",
         "speaker": "B"
       },
       {
         "concept": "c:numeros.seis",
         "en": "6",
         "es": "seis",
-        "ja": "七五三十六",
+        "ja": "六",
         "speaker": "A"
       },
       {
         "concept": "c:numeros.siete",
         "en": "seven",
         "es": "siete",
-        "ja": "七五三十二",
+        "ja": "七",
         "speaker": "B"
       },
       {
         "concept": "c:numeros.ocho",
         "en": "8",
         "es": "ocho",
-        "ja": "日报社(8月27日)",
+        "ja": "八",
         "speaker": "A"
       },
       {
         "concept": "c:numeros.nueve",
         "en": "9",
         "es": "nueve",
-        "ja": "日・祝",
+        "ja": "九",
         "speaker": "B"
       },
       {
         "concept": "c:numeros.diez",
         "en": "10",
         "es": "diez",
-        "ja": "日 10",
+        "ja": "十",
         "speaker": "A"
       },
       {
         "concept": "c:numeros.once",
         "en": "11",
         "es": "once",
-        "ja": "日: 11",
+        "ja": "十一",
         "speaker": "B"
       }
     ],
@@ -947,57 +947,57 @@
           [
             "uno",
             "one",
-            "ワンポイント"
+            "一"
           ],
           [
             "dos",
             "two",
-            "ツイート"
+            "二"
           ],
           [
             "tres",
             "three",
-            "ツイート"
+            "三"
           ],
           [
             "cuatro",
             "4",
-            "日: 4"
+            "四"
           ],
           [
             "cinco",
             "five",
-            "五十音順"
+            "五"
           ],
           [
             "seis",
             "6",
-            "七五三十六"
+            "六"
           ],
           [
             "siete",
             "seven",
-            "七五三十二"
+            "七"
           ],
           [
             "ocho",
             "8",
-            "日报社(8月27日)"
+            "八"
           ],
           [
             "nueve",
             "9",
-            "日・祝"
+            "九"
           ],
           [
             "diez",
             "10",
-            "日 10"
+            "十"
           ],
           [
             "once",
             "11",
-            "日: 11"
+            "十一"
           ]
         ],
         "title": "es · en · ja",
@@ -1031,42 +1031,42 @@
         "concept": "c:colores.rojo",
         "en": "red",
         "es": "rojo",
-        "ja": "レッド",
+        "ja": "赤",
         "speaker": "A"
       },
       {
         "concept": "c:colores.azul",
         "en": "blue",
         "es": "azul",
-        "ja": "青森県",
+        "ja": "青",
         "speaker": "B"
       },
       {
         "concept": "c:colores.verde",
         "en": "green",
         "es": "verde",
-        "ja": "緑がかった",
+        "ja": "緑",
         "speaker": "A"
       },
       {
         "concept": "c:colores.amarillo",
         "en": "yellow",
         "es": "amarillo",
-        "ja": "イエロー",
+        "ja": "黄色",
         "speaker": "B"
       },
       {
         "concept": "c:colores.negro",
         "en": "black",
         "es": "negro",
-        "ja": "黒い",
+        "ja": "黒",
         "speaker": "A"
       },
       {
         "concept": "c:colores.blanco",
         "en": "white",
         "es": "blanco",
-        "ja": "フリガナ",
+        "ja": "白",
         "speaker": "B"
       },
       {
@@ -1087,28 +1087,28 @@
         "concept": "c:colores.morado-violeta",
         "en": "purple / violet",
         "es": "morado / violeta",
-        "ja": "パープル/バイオレット",
+        "ja": "紫",
         "speaker": "A"
       },
       {
         "concept": "c:colores.marron",
         "en": "brown",
         "es": "marrón",
-        "ja": "ブラウン",
+        "ja": "茶色",
         "speaker": "B"
       },
       {
         "concept": "c:colores.gris",
         "en": "grey",
         "es": "gris",
-        "ja": "グレー",
+        "ja": "灰色",
         "speaker": "A"
       },
       {
         "concept": "c:colores.dorado",
         "en": "gold",
         "es": "dorado",
-        "ja": "ゴールド",
+        "ja": "金色",
         "speaker": "B"
       }
     ],
@@ -1147,32 +1147,32 @@
           [
             "rojo",
             "red",
-            "レッド"
+            "赤"
           ],
           [
             "azul",
             "blue",
-            "青森県"
+            "青"
           ],
           [
             "verde",
             "green",
-            "緑がかった"
+            "緑"
           ],
           [
             "amarillo",
             "yellow",
-            "イエロー"
+            "黄色"
           ],
           [
             "negro",
             "black",
-            "黒い"
+            "黒"
           ],
           [
             "blanco",
             "white",
-            "フリガナ"
+            "白"
           ],
           [
             "naranja",
@@ -1187,22 +1187,22 @@
           [
             "morado / violeta",
             "purple / violet",
-            "パープル/バイオレット"
+            "紫"
           ],
           [
             "marrón",
             "brown",
-            "ブラウン"
+            "茶色"
           ],
           [
             "gris",
             "grey",
-            "グレー"
+            "灰色"
           ],
           [
             "dorado",
             "gold",
-            "ゴールド"
+            "金色"
           ]
         ],
         "title": "es · en · ja",

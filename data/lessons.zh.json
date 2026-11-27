@@ -19,28 +19,28 @@
         "en": "Hello.",
         "es": "hola",
         "speaker": "A",
-        "zh": "哈啰"
+        "zh": "你好"
       },
       {
         "concept": "c:saludos-y-expresiones.buenos-dias",
         "en": "Good morning.",
         "es": "buenos días",
         "speaker": "B",
-        "zh": "早上好,我刚从你那回来"
+        "zh": "早上好"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-tardes",
         "en": "Good afternoon.",
         "es": "buenas tardes",
         "speaker": "A",
-        "zh": "下午好,我说,我..."
+        "zh": "下午好"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-noches",
         "en": "Good night.",
         "es": "buenas noches",
         "speaker": "B",
-        "zh": "晚安,我需要你帮忙。"
+        "zh": "晚安"
       },
       {
         "concept": "c:saludos-y-expresiones.gracias",
@@ -61,14 +61,14 @@
         "en": "Excuse me / excuse",
         "es": "perdón / disculpe",
         "speaker": "A",
-        "zh": "对不起,对不起"
+        "zh": "对不起"
       },
       {
         "concept": "c:saludos-y-expresiones.adios",
         "en": "Bye.",
         "es": "adiós",
         "speaker": "B",
-        "zh": "再见。"
+        "zh": "再见"
       },
       {
         "concept": "c:saludos-y-expresiones.hasta-luego",
@@ -82,14 +82,14 @@
         "en": "Yes",
         "es": "sí",
         "speaker": "B",
-        "zh": "对"
+        "zh": "是"
       },
       {
         "concept": "c:saludos-y-expresiones.no",
         "en": "No.",
         "es": "no",
         "speaker": "A",
-        "zh": "没有"
+        "zh": "不"
       }
     ],
     "exercises": [],
@@ -127,22 +127,22 @@
           [
             "hola",
             "Hello.",
-            "哈啰"
+            "你好"
           ],
           [
             "buenos días",
             "Good morning.",
-            "早上好,我刚从你那回来"
+            "早上好"
           ],
           [
             "buenas tardes",
             "Good afternoon.",
-            "下午好,我说,我..."
+            "下午好"
           ],
           [
             "buenas noches",
             "Good night.",
-            "晚安,我需要你帮忙。"
+            "晚安"
           ],
           [
             "gracias",
@@ -157,12 +157,12 @@
           [
             "perdón / disculpe",
             "Excuse me / excuse",
-            "对不起,对不起"
+            "对不起"
           ],
           [
             "adiós",
             "Bye.",
-            "再见。"
+            "再见"
           ],
           [
             "hasta luego",
@@ -172,12 +172,12 @@
           [
             "sí",
             "Yes",
-            "对"
+            "是"
           ],
           [
             "no",
             "No.",
-            "没有"
+            "不"
           ]
         ],
         "title": "es · en · zh",
@@ -827,84 +827,84 @@
         "en": "zero",
         "es": "cero",
         "speaker": "A",
-        "zh": "0 个"
+        "zh": "零"
       },
       {
         "concept": "c:numeros.uno",
         "en": "one",
         "es": "uno",
         "speaker": "B",
-        "zh": "单曲"
+        "zh": "一"
       },
       {
         "concept": "c:numeros.dos",
         "en": "two",
         "es": "dos",
         "speaker": "A",
-        "zh": "双"
+        "zh": "二"
       },
       {
         "concept": "c:numeros.tres",
         "en": "three",
         "es": "tres",
         "speaker": "B",
-        "zh": "3个"
+        "zh": "三"
       },
       {
         "concept": "c:numeros.cuatro",
         "en": "4",
         "es": "cuatro",
         "speaker": "A",
-        "zh": "4 国家"
+        "zh": "四"
       },
       {
         "concept": "c:numeros.cinco",
         "en": "five",
         "es": "cinco",
         "speaker": "B",
-        "zh": "5个"
+        "zh": "五"
       },
       {
         "concept": "c:numeros.seis",
         "en": "6",
         "es": "seis",
         "speaker": "A",
-        "zh": "6 中文无改动"
+        "zh": "六"
       },
       {
         "concept": "c:numeros.siete",
         "en": "seven",
         "es": "siete",
         "speaker": "B",
-        "zh": "7个"
+        "zh": "七"
       },
       {
         "concept": "c:numeros.ocho",
         "en": "8",
         "es": "ocho",
         "speaker": "A",
-        "zh": "7个P-4"
+        "zh": "八"
       },
       {
         "concept": "c:numeros.nueve",
         "en": "9",
         "es": "nueve",
         "speaker": "B",
-        "zh": "3 国家"
+        "zh": "九"
       },
       {
         "concept": "c:numeros.diez",
         "en": "10",
         "es": "diez",
         "speaker": "A",
-        "zh": "10个"
+        "zh": "十"
       },
       {
         "concept": "c:numeros.once",
         "en": "11",
         "es": "once",
         "speaker": "B",
-        "zh": "11 中文无改动。"
+        "zh": "十一"
       }
     ],
     "exercises": [],
@@ -942,62 +942,62 @@
           [
             "cero",
             "zero",
-            "0 个"
+            "零"
           ],
           [
             "uno",
             "one",
-            "单曲"
+            "一"
           ],
           [
             "dos",
             "two",
-            "双"
+            "二"
           ],
           [
             "tres",
             "three",
-            "3个"
+            "三"
           ],
           [
             "cuatro",
             "4",
-            "4 国家"
+            "四"
           ],
           [
             "cinco",
             "five",
-            "5个"
+            "五"
           ],
           [
             "seis",
             "6",
-            "6 中文无改动"
+            "六"
           ],
           [
             "siete",
             "seven",
-            "7个"
+            "七"
           ],
           [
             "ocho",
             "8",
-            "7个P-4"
+            "八"
           ],
           [
             "nueve",
             "9",
-            "3 国家"
+            "九"
           ],
           [
             "diez",
             "10",
-            "10个"
+            "十"
           ],
           [
             "once",
             "11",
-            "11 中文无改动。"
+            "十一"
           ]
         ],
         "title": "es · en · zh",
@@ -1074,7 +1074,7 @@
         "en": "orange",
         "es": "naranja",
         "speaker": "A",
-        "zh": "橙色( 橙色)"
+        "zh": "橙色"
       },
       {
         "concept": "c:colores.rosa",
@@ -1088,7 +1088,7 @@
         "en": "purple / violet",
         "es": "morado / violeta",
         "speaker": "A",
-        "zh": "紫色/紫色( 紫色)"
+        "zh": "紫色"
       },
       {
         "concept": "c:colores.marron",
@@ -1177,7 +1177,7 @@
           [
             "naranja",
             "orange",
-            "橙色( 橙色)"
+            "橙色"
           ],
           [
             "rosa",
@@ -1187,7 +1187,7 @@
           [
             "morado / violeta",
             "purple / violet",
-            "紫色/紫色( 紫色)"
+            "紫色"
           ],
           [
             "marrón",

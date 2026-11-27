@@ -19,84 +19,84 @@
       "en": "zero",
       "es": "cero",
       "speaker": "A",
-      "zh": "0 个"
+      "zh": "零"
     },
     {
       "concept": "c:numeros.uno",
       "en": "one",
       "es": "uno",
       "speaker": "B",
-      "zh": "单曲"
+      "zh": "一"
     },
     {
       "concept": "c:numeros.dos",
       "en": "two",
       "es": "dos",
       "speaker": "A",
-      "zh": "双"
+      "zh": "二"
     },
     {
       "concept": "c:numeros.tres",
       "en": "three",
       "es": "tres",
       "speaker": "B",
-      "zh": "3个"
+      "zh": "三"
     },
     {
       "concept": "c:numeros.cuatro",
       "en": "4",
       "es": "cuatro",
       "speaker": "A",
-      "zh": "4 国家"
+      "zh": "四"
     },
     {
       "concept": "c:numeros.cinco",
       "en": "five",
       "es": "cinco",
       "speaker": "B",
-      "zh": "5个"
+      "zh": "五"
     },
     {
       "concept": "c:numeros.seis",
       "en": "6",
       "es": "seis",
       "speaker": "A",
-      "zh": "6 中文无改动"
+      "zh": "六"
     },
     {
       "concept": "c:numeros.siete",
       "en": "seven",
       "es": "siete",
       "speaker": "B",
-      "zh": "7个"
+      "zh": "七"
     },
     {
       "concept": "c:numeros.ocho",
       "en": "8",
       "es": "ocho",
       "speaker": "A",
-      "zh": "7个P-4"
+      "zh": "八"
     },
     {
       "concept": "c:numeros.nueve",
       "en": "9",
       "es": "nueve",
       "speaker": "B",
-      "zh": "3 国家"
+      "zh": "九"
     },
     {
       "concept": "c:numeros.diez",
       "en": "10",
       "es": "diez",
       "speaker": "A",
-      "zh": "10个"
+      "zh": "十"
     },
     {
       "concept": "c:numeros.once",
       "en": "11",
       "es": "once",
       "speaker": "B",
-      "zh": "11 中文无改动。"
+      "zh": "十一"
     }
   ],
   "exercises": [],
@@ -134,62 +134,62 @@
         [
           "cero",
           "zero",
-          "0 个"
+          "零"
         ],
         [
           "uno",
           "one",
-          "单曲"
+          "一"
         ],
         [
           "dos",
           "two",
-          "双"
+          "二"
         ],
         [
           "tres",
           "three",
-          "3个"
+          "三"
         ],
         [
           "cuatro",
           "4",
-          "4 国家"
+          "四"
         ],
         [
           "cinco",
           "five",
-          "5个"
+          "五"
         ],
         [
           "seis",
           "6",
-          "6 中文无改动"
+          "六"
         ],
         [
           "siete",
           "seven",
-          "7个"
+          "七"
         ],
         [
           "ocho",
           "8",
-          "7个P-4"
+          "八"
         ],
         [
           "nueve",
           "9",
-          "3 国家"
+          "九"
         ],
         [
           "diez",
           "10",
-          "10个"
+          "十"
         ],
         [
           "once",
           "11",
-          "11 中文无改动。"
+          "十一"
         ]
       ],
       "title": "es · en · zh",

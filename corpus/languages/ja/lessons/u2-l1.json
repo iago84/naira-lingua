@@ -25,77 +25,77 @@
       "concept": "c:numeros.uno",
       "en": "one",
       "es": "uno",
-      "ja": "ワンポイント",
+      "ja": "一",
       "speaker": "B"
     },
     {
       "concept": "c:numeros.dos",
       "en": "two",
       "es": "dos",
-      "ja": "ツイート",
+      "ja": "二",
       "speaker": "A"
     },
     {
       "concept": "c:numeros.tres",
       "en": "three",
       "es": "tres",
-      "ja": "ツイート",
+      "ja": "三",
       "speaker": "B"
     },
     {
       "concept": "c:numeros.cuatro",
       "en": "4",
       "es": "cuatro",
-      "ja": "日: 4",
+      "ja": "四",
       "speaker": "A"
     },
     {
       "concept": "c:numeros.cinco",
       "en": "five",
       "es": "cinco",
-      "ja": "五十音順",
+      "ja": "五",
       "speaker": "B"
     },
     {
       "concept": "c:numeros.seis",
       "en": "6",
       "es": "seis",
-      "ja": "七五三十六",
+      "ja": "六",
       "speaker": "A"
     },
     {
       "concept": "c:numeros.siete",
       "en": "seven",
       "es": "siete",
-      "ja": "七五三十二",
+      "ja": "七",
       "speaker": "B"
     },
     {
       "concept": "c:numeros.ocho",
       "en": "8",
       "es": "ocho",
-      "ja": "日报社(8月27日)",
+      "ja": "八",
       "speaker": "A"
     },
     {
       "concept": "c:numeros.nueve",
       "en": "9",
       "es": "nueve",
-      "ja": "日・祝",
+      "ja": "九",
       "speaker": "B"
     },
     {
       "concept": "c:numeros.diez",
       "en": "10",
       "es": "diez",
-      "ja": "日 10",
+      "ja": "十",
       "speaker": "A"
     },
     {
       "concept": "c:numeros.once",
       "en": "11",
       "es": "once",
-      "ja": "日: 11",
+      "ja": "十一",
       "speaker": "B"
     }
   ],
@@ -139,57 +139,57 @@
         [
           "uno",
           "one",
-          "ワンポイント"
+          "一"
         ],
         [
           "dos",
           "two",
-          "ツイート"
+          "二"
         ],
         [
           "tres",
           "three",
-          "ツイート"
+          "三"
         ],
         [
           "cuatro",
           "4",
-          "日: 4"
+          "四"
         ],
         [
           "cinco",
           "five",
-          "五十音順"
+          "五"
         ],
         [
           "seis",
           "6",
-          "七五三十六"
+          "六"
         ],
         [
           "siete",
           "seven",
-          "七五三十二"
+          "七"
         ],
         [
           "ocho",
           "8",
-          "日报社(8月27日)"
+          "八"
         ],
         [
           "nueve",
           "9",
-          "日・祝"
+          "九"
         ],
         [
           "diez",
           "10",
-          "日 10"
+          "十"
         ],
         [
           "once",
           "11",
-          "日: 11"
+          "十一"
         ]
       ],
       "title": "es · en · ja",

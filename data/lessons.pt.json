@@ -60,7 +60,7 @@
         "concept": "c:saludos-y-expresiones.perdon-disculpe",
         "en": "Excuse me / excuse",
         "es": "perdón / disculpe",
-        "pt": "Desculpe-me, desculpe-me.",
+        "pt": "Desculpe-me",
         "speaker": "A"
       },
       {
@@ -157,7 +157,7 @@
           [
             "perdón / disculpe",
             "Excuse me / excuse",
-            "Desculpe-me, desculpe-me."
+            "Desculpe-me"
           ],
           [
             "adiós",

@@ -18,7 +18,7 @@
         "concept": "c:saludos-y-expresiones.hola",
         "en": "Hello.",
         "es": "hola",
-        "gl": "Hola.",
+        "gl": "Ola",
         "speaker": "A"
       },
       {
@@ -127,7 +127,7 @@
           [
             "hola",
             "Hello.",
-            "Hola."
+            "Ola"
           ],
           [
             "buenos días",

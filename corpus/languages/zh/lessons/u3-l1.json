@@ -61,7 +61,7 @@
       "en": "orange",
       "es": "naranja",
       "speaker": "A",
-      "zh": "橙色( 橙色)"
+      "zh": "橙色"
     },
     {
       "concept": "c:colores.rosa",
@@ -75,7 +75,7 @@
       "en": "purple / violet",
       "es": "morado / violeta",
       "speaker": "A",
-      "zh": "紫色/紫色( 紫色)"
+      "zh": "紫色"
     },
     {
       "concept": "c:colores.marron",
@@ -164,7 +164,7 @@
         [
           "naranja",
           "orange",
-          "橙色( 橙色)"
+          "橙色"
         ],
         [
           "rosa",
@@ -174,7 +174,7 @@
         [
           "morado / violeta",
           "purple / violet",
-          "紫色/紫色( 紫色)"
+          "紫色"
         ],
         [
           "marrón",

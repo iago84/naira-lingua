@@ -149,10 +149,11 @@
     "lang": "pt",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
-    "source": "libretranslate",
+    "review": "verified",
+    "reviewer": "ai-curated",
+    "source": "curated:core",
     "source_ref": "argos es-pt",
-    "term": "Desculpe-me, desculpe-me.",
+    "term": "Desculpe-me",
     "translit": null
   },
   {
