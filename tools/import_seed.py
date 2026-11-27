@@ -6,10 +6,16 @@ from . import common
 
 
 def build_rows(pack: list[dict], lang: str, existing_concepts: list[dict]):
+    """Convierte un pack en (conceptos nuevos, términos).
+
+    Si un ítem del pack trae ``concept`` (id explícito) se respeta; así se
+    preservan conceptos distintos que comparten la misma ``gloss_es`` (p. ej.
+    la misma glosa en dos dominios), que de otro modo colapsarían en uno solo.
+    """
     index = {c["gloss_es"]: c["id"] for c in existing_concepts if c.get("gloss_es")}
     new_concepts, terms = [], []
     for item in pack:
-        cid = index.get(item["gloss_es"])
+        cid = item.get("concept") or index.get(item["gloss_es"])
         if cid is None:
             cid = f"c:{common.slugify(item['domain'])}.{common.slugify(item['gloss_es'])}"
             index[item["gloss_es"]] = cid

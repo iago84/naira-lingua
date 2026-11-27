@@ -20,3 +20,12 @@ def test_seed_reuses_existing_concept():
     concepts, terms = import_seed.build_rows(PACK, lang="fr", existing_concepts=existing)
     assert concepts == []
     assert terms[0]["concept"] == "c:saludos.hola"
+
+def test_seed_honours_explicit_concept_id():
+    pack = [{"concept": "c:otro.hola", "gloss_es": "hola", "domain": "otro",
+             "term": "bonjour", "source": "manual", "license": "CC-BY-SA-4.0",
+             "review": "verified"}]
+    existing = [{"id": "c:saludos.hola", "domain": "saludos", "gloss_es": "hola"}]
+    concepts, terms = import_seed.build_rows(pack, lang="fr", existing_concepts=existing)
+    assert concepts == []
+    assert terms[0]["concept"] == "c:otro.hola"
