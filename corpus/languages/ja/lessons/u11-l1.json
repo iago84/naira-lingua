@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:ropa-y-accesorios.ropa",
+    "c:ropa-y-accesorios.camisa",
+    "c:ropa-y-accesorios.camiseta",
+    "c:ropa-y-accesorios.pantalon",
+    "c:ropa-y-accesorios.vaqueros-jeans",
+    "c:ropa-y-accesorios.pantalones-cortos",
+    "c:ropa-y-accesorios.falda",
+    "c:ropa-y-accesorios.vestido",
+    "c:ropa-y-accesorios.sari",
+    "c:ropa-y-accesorios.salwar-kameez",
+    "c:ropa-y-accesorios.kurta",
+    "c:ropa-y-accesorios.pijama"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:ropa-y-accesorios.ropa",
+      "en": "clothing",
+      "es": "ropa",
+      "ja": "衣類の服",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.camisa",
+      "en": "shirt",
+      "es": "camisa",
+      "ja": "シャツ",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.camiseta",
+      "en": "T-shirt",
+      "es": "camiseta",
+      "ja": "Tシャツ",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.pantalon",
+      "en": "Pants",
+      "es": "pantalón",
+      "ja": "パンツ",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+      "en": "jeans / jans",
+      "es": "vaqueros / jeans",
+      "ja": "ジーンズ/ジャン",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.pantalones-cortos",
+      "en": "Short pants",
+      "es": "pantalones cortos",
+      "ja": "ショートパンツ",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.falda",
+      "en": "skirt",
+      "es": "falda",
+      "ja": "スカート",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.vestido",
+      "en": "dress up",
+      "es": "vestido",
+      "ja": "ドレスアップ",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.sari",
+      "en": "sari",
+      "es": "sari",
+      "ja": "サーリ",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.salwar-kameez",
+      "en": "salwar kameez",
+      "es": "salwar kameez",
+      "ja": "サルワー・カメエズ",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.kurta",
+      "en": "kurta",
+      "es": "kurta",
+      "ja": "クリタ",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.pijama",
+      "en": "pajamas",
+      "es": "pijama",
+      "ja": "パジャマ",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Clothes and accessories, with words useful for clothes shopping.",
+    "es": "Prendas y accesorios, con palabras útiles para comprar ropa.",
+    "ja": "ペンやアクセサリー、着替えを買うための便利な言葉。"
+  },
+  "generator": "build_lessons",
+  "id": "ja-u11-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name clothes",
+      "Go shopping"
+    ],
+    "es": [
+      "Nombrar prendas de ropa",
+      "Ir de compras"
+    ],
+    "ja": [
+      "服を着る",
+      "ショッピング"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "ropa",
+          "clothing",
+          "衣類の服"
+        ],
+        [
+          "camisa",
+          "shirt",
+          "シャツ"
+        ],
+        [
+          "camiseta",
+          "T-shirt",
+          "Tシャツ"
+        ],
+        [
+          "pantalón",
+          "Pants",
+          "パンツ"
+        ],
+        [
+          "vaqueros / jeans",
+          "jeans / jans",
+          "ジーンズ/ジャン"
+        ],
+        [
+          "pantalones cortos",
+          "Short pants",
+          "ショートパンツ"
+        ],
+        [
+          "falda",
+          "skirt",
+          "スカート"
+        ],
+        [
+          "vestido",
+          "dress up",
+          "ドレスアップ"
+        ],
+        [
+          "sari",
+          "sari",
+          "サーリ"
+        ],
+        [
+          "salwar kameez",
+          "salwar kameez",
+          "サルワー・カメエズ"
+        ],
+        [
+          "kurta",
+          "kurta",
+          "クリタ"
+        ],
+        [
+          "pijama",
+          "pajamas",
+          "パジャマ"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Clothing and accessories",
+    "es": "La ropa y los accesorios",
+    "ja": "衣類および付属品"
+  },
+  "unit": 11
+}

@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:comida-y-bebida.comida-comer",
+    "c:comida-y-bebida.comida-formal",
+    "c:comida-y-bebida.desayuno",
+    "c:comida-y-bebida.almuerzo",
+    "c:comida-y-bebida.cena",
+    "c:comida-y-bebida.agua",
+    "c:comida-y-bebida.leche",
+    "c:comida-y-bebida.te",
+    "c:comida-y-bebida.cafe",
+    "c:comida-y-bebida.zumo-jugo",
+    "c:comida-y-bebida.lassi-yogur-batido",
+    "c:comida-y-bebida.alcohol-vino"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:comida-y-bebida.comida-comer",
+      "en": "food / eat",
+      "es": "comida / comer",
+      "speaker": "A",
+      "zh": "食物/进食"
+    },
+    {
+      "concept": "c:comida-y-bebida.comida-formal",
+      "en": "food (formal)",
+      "es": "comida (formal)",
+      "speaker": "B",
+      "zh": "粮食(正规)"
+    },
+    {
+      "concept": "c:comida-y-bebida.desayuno",
+      "en": "breakfast",
+      "es": "desayuno",
+      "speaker": "A",
+      "zh": "早餐 早饭"
+    },
+    {
+      "concept": "c:comida-y-bebida.almuerzo",
+      "en": "lunch",
+      "es": "almuerzo",
+      "speaker": "B",
+      "zh": "午饭"
+    },
+    {
+      "concept": "c:comida-y-bebida.cena",
+      "en": "dinner",
+      "es": "cena",
+      "speaker": "A",
+      "zh": "晚饭"
+    },
+    {
+      "concept": "c:comida-y-bebida.agua",
+      "en": "water",
+      "es": "agua",
+      "speaker": "B",
+      "zh": "水 水"
+    },
+    {
+      "concept": "c:comida-y-bebida.leche",
+      "en": "milk",
+      "es": "leche",
+      "speaker": "A",
+      "zh": "牛奶 牛奶"
+    },
+    {
+      "concept": "c:comida-y-bebida.te",
+      "en": "tea",
+      "es": "té",
+      "speaker": "B",
+      "zh": "茶叶"
+    },
+    {
+      "concept": "c:comida-y-bebida.cafe",
+      "en": "coffee",
+      "es": "café",
+      "speaker": "A",
+      "zh": "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡"
+    },
+    {
+      "concept": "c:comida-y-bebida.zumo-jugo",
+      "en": "juice / juices",
+      "es": "zumo / jugo",
+      "speaker": "B",
+      "zh": "果汁/果汁(含水)"
+    },
+    {
+      "concept": "c:comida-y-bebida.lassi-yogur-batido",
+      "en": "lassi (yoghurt beaten)",
+      "es": "lassi (yogur batido)",
+      "speaker": "A",
+      "zh": "腊西(被犹太教殴打)"
+    },
+    {
+      "concept": "c:comida-y-bebida.alcohol-vino",
+      "en": "alcohol / wine",
+      "es": "alcohol / vino",
+      "speaker": "B",
+      "zh": "酒/酒(酒) 酒(酒) 酒(酒)"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Basic foods and drinks, very useful when shopping or eating out.",
+    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
+    "zh": "基本食物和饮料,在外购入或吃时非常有用."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u6-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name food and drinks",
+      "Order in a restaurant"
+    ],
+    "es": [
+      "Nombrar alimentos y bebidas",
+      "Pedir en un restaurante"
+    ],
+    "zh": [
+      "指定食物和饮料",
+      "问问餐厅"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "comida / comer",
+          "food / eat",
+          "食物/进食"
+        ],
+        [
+          "comida (formal)",
+          "food (formal)",
+          "粮食(正规)"
+        ],
+        [
+          "desayuno",
+          "breakfast",
+          "早餐 早饭"
+        ],
+        [
+          "almuerzo",
+          "lunch",
+          "午饭"
+        ],
+        [
+          "cena",
+          "dinner",
+          "晚饭"
+        ],
+        [
+          "agua",
+          "water",
+          "水 水"
+        ],
+        [
+          "leche",
+          "milk",
+          "牛奶 牛奶"
+        ],
+        [
+          "té",
+          "tea",
+          "茶叶"
+        ],
+        [
+          "café",
+          "coffee",
+          "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡"
+        ],
+        [
+          "zumo / jugo",
+          "juice / juices",
+          "果汁/果汁(含水)"
+        ],
+        [
+          "lassi (yogur batido)",
+          "lassi (yoghurt beaten)",
+          "腊西(被犹太教殴打)"
+        ],
+        [
+          "alcohol / vino",
+          "alcohol / wine",
+          "酒/酒(酒) 酒(酒) 酒(酒)"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Food and drink",
+    "es": "La comida y la bebida",
+    "zh": "食物和饮料"
+  },
+  "unit": 6
+}

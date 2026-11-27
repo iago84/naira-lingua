@@ -1,0 +1,163 @@
+{
+  "concepts": [
+    "c:saludos-y-expresiones.hola",
+    "c:saludos-y-expresiones.buenos-dias",
+    "c:saludos-y-expresiones.buenas-tardes",
+    "c:saludos-y-expresiones.buenas-noches",
+    "c:saludos-y-expresiones.gracias",
+    "c:saludos-y-expresiones.por-favor",
+    "c:saludos-y-expresiones.perdon-disculpe",
+    "c:saludos-y-expresiones.adios",
+    "c:saludos-y-expresiones.hasta-luego",
+    "c:saludos-y-expresiones.si",
+    "c:saludos-y-expresiones.no"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:saludos-y-expresiones.hola",
+      "en": "Hello.",
+      "es": "hola",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenos-dias",
+      "en": "Good morning.",
+      "es": "buenos días",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-tardes",
+      "en": "Good afternoon.",
+      "es": "buenas tardes",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-noches",
+      "en": "Good night.",
+      "es": "buenas noches",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.gracias",
+      "en": "Thank you.",
+      "es": "gracias",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.por-favor",
+      "en": "Please.",
+      "es": "por favor",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.perdon-disculpe",
+      "en": "Excuse me / excuse",
+      "es": "perdón / disculpe",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.adios",
+      "en": "Bye.",
+      "es": "adiós",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.hasta-luego",
+      "en": "See you later.",
+      "es": "hasta luego",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.si",
+      "en": "Yes",
+      "es": "sí",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.no",
+      "en": "No.",
+      "es": "no",
+      "speaker": "A"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Basic courtesy expressions to open and close a conversation.",
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
+  },
+  "generator": "build_lessons",
+  "id": "en-u1-l1",
+  "lang": "en",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Greet and say goodbye",
+      "Thank and say please"
+    ],
+    "es": [
+      "Saludar y despedirse",
+      "Dar las gracias y pedir por favor"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en"
+      ],
+      "rows": [
+        [
+          "hola",
+          "Hello."
+        ],
+        [
+          "buenos días",
+          "Good morning."
+        ],
+        [
+          "buenas tardes",
+          "Good afternoon."
+        ],
+        [
+          "buenas noches",
+          "Good night."
+        ],
+        [
+          "gracias",
+          "Thank you."
+        ],
+        [
+          "por favor",
+          "Please."
+        ],
+        [
+          "perdón / disculpe",
+          "Excuse me / excuse"
+        ],
+        [
+          "adiós",
+          "Bye."
+        ],
+        [
+          "hasta luego",
+          "See you later."
+        ],
+        [
+          "sí",
+          "Yes"
+        ],
+        [
+          "no",
+          "No."
+        ]
+      ],
+      "title": "es · en",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Greetings and courtesy",
+    "es": "Saludos y cortesía"
+  },
+  "unit": 1
+}

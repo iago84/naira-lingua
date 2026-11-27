@@ -1,0 +1,199 @@
+{
+  "concepts": [
+    "c:ciudad-y-lugares.ciudad",
+    "c:ciudad-y-lugares.pueblo-aldea",
+    "c:ciudad-y-lugares.pais",
+    "c:ciudad-y-lugares.estado-provincia",
+    "c:ciudad-y-lugares.capital",
+    "c:ciudad-y-lugares.zona-area",
+    "c:ciudad-y-lugares.calle-carretera",
+    "c:ciudad-y-lugares.callejon",
+    "c:ciudad-y-lugares.cruce-interseccion",
+    "c:ciudad-y-lugares.puente",
+    "c:ciudad-y-lugares.plaza",
+    "c:ciudad-y-lugares.mercado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:ciudad-y-lugares.ciudad",
+      "en": "city",
+      "es": "ciudad",
+      "speaker": "A",
+      "sw": "jiji / mji"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.pueblo-aldea",
+      "en": "village / town",
+      "es": "pueblo / aldea",
+      "speaker": "B",
+      "sw": "kijiji"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.pais",
+      "en": "country",
+      "es": "país",
+      "speaker": "A",
+      "sw": "nchi / taifa"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.estado-provincia",
+      "en": "State / province",
+      "es": "estado / provincia",
+      "speaker": "B",
+      "sw": "jimbo / mkoa"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.capital",
+      "en": "capital",
+      "es": "capital",
+      "speaker": "A",
+      "sw": "mji mkuu"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.zona-area",
+      "en": "area / zone",
+      "es": "zona / área",
+      "speaker": "B",
+      "sw": "eneo / sehemu"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.calle-carretera",
+      "en": "Street / road",
+      "es": "calle / carretera",
+      "speaker": "A",
+      "sw": "barabara / mtaa"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.callejon",
+      "en": "alley",
+      "es": "callejón",
+      "speaker": "B",
+      "sw": "callejón"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.cruce-interseccion",
+      "en": "cross / intersection",
+      "es": "cruce / intersección",
+      "speaker": "A",
+      "sw": "makutano / njia panda"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.puente",
+      "en": "bridge",
+      "es": "puente",
+      "speaker": "B",
+      "sw": "daraja"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.plaza",
+      "en": "square",
+      "es": "plaza",
+      "speaker": "A",
+      "sw": "uwanja / mahali pa wazi"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.mercado",
+      "en": "market",
+      "es": "mercado",
+      "speaker": "B",
+      "sw": "soko"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Places in the city to move around and ask for directions.",
+    "es": "Lugares de la ciudad para moverse y pedir indicaciones."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u10-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name places in the city",
+      "Ask for directions"
+    ],
+    "es": [
+      "Nombrar lugares de la ciudad",
+      "Pedir direcciones"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "ciudad",
+          "city",
+          "jiji / mji"
+        ],
+        [
+          "pueblo / aldea",
+          "village / town",
+          "kijiji"
+        ],
+        [
+          "país",
+          "country",
+          "nchi / taifa"
+        ],
+        [
+          "estado / provincia",
+          "State / province",
+          "jimbo / mkoa"
+        ],
+        [
+          "capital",
+          "capital",
+          "mji mkuu"
+        ],
+        [
+          "zona / área",
+          "area / zone",
+          "eneo / sehemu"
+        ],
+        [
+          "calle / carretera",
+          "Street / road",
+          "barabara / mtaa"
+        ],
+        [
+          "callejón",
+          "alley",
+          "callejón"
+        ],
+        [
+          "cruce / intersección",
+          "cross / intersection",
+          "makutano / njia panda"
+        ],
+        [
+          "puente",
+          "bridge",
+          "daraja"
+        ],
+        [
+          "plaza",
+          "square",
+          "uwanja / mahali pa wazi"
+        ],
+        [
+          "mercado",
+          "market",
+          "soko"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "City and places",
+    "es": "La ciudad y los lugares"
+  },
+  "unit": 10
+}

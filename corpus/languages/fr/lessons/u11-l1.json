@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:ropa-y-accesorios.ropa",
+    "c:ropa-y-accesorios.camisa",
+    "c:ropa-y-accesorios.camiseta",
+    "c:ropa-y-accesorios.pantalon",
+    "c:ropa-y-accesorios.vaqueros-jeans",
+    "c:ropa-y-accesorios.pantalones-cortos",
+    "c:ropa-y-accesorios.falda",
+    "c:ropa-y-accesorios.vestido",
+    "c:ropa-y-accesorios.sari",
+    "c:ropa-y-accesorios.salwar-kameez",
+    "c:ropa-y-accesorios.kurta",
+    "c:ropa-y-accesorios.pijama"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:ropa-y-accesorios.ropa",
+      "en": "clothing",
+      "es": "ropa",
+      "fr": "vêtements",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.camisa",
+      "en": "shirt",
+      "es": "camisa",
+      "fr": "chemise",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.camiseta",
+      "en": "T-shirt",
+      "es": "camiseta",
+      "fr": "T-shirt",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.pantalon",
+      "en": "Pants",
+      "es": "pantalón",
+      "fr": "Pantalons",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+      "en": "jeans / jans",
+      "es": "vaqueros / jeans",
+      "fr": "jeans / jans",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.pantalones-cortos",
+      "en": "Short pants",
+      "es": "pantalones cortos",
+      "fr": "Pantalon court",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.falda",
+      "en": "skirt",
+      "es": "falda",
+      "fr": "jupe",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.vestido",
+      "en": "dress up",
+      "es": "vestido",
+      "fr": "Habille-toi",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.sari",
+      "en": "sari",
+      "es": "sari",
+      "fr": "sari",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.salwar-kameez",
+      "en": "salwar kameez",
+      "es": "salwar kameez",
+      "fr": "salwar kameez",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.kurta",
+      "en": "kurta",
+      "es": "kurta",
+      "fr": "Kurta",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ropa-y-accesorios.pijama",
+      "en": "pajamas",
+      "es": "pijama",
+      "fr": "pyjama",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Clothes and accessories, with words useful for clothes shopping.",
+    "es": "Prendas y accesorios, con palabras útiles para comprar ropa.",
+    "fr": "Stylos et accessoires, avec des mots utiles pour acheter des vêtements."
+  },
+  "generator": "build_lessons",
+  "id": "fr-u11-l1",
+  "lang": "fr",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name clothes",
+      "Go shopping"
+    ],
+    "es": [
+      "Nombrar prendas de ropa",
+      "Ir de compras"
+    ],
+    "fr": [
+      "Désigner des vêtements",
+      "Aller faire des courses"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "fr"
+      ],
+      "rows": [
+        [
+          "ropa",
+          "clothing",
+          "vêtements"
+        ],
+        [
+          "camisa",
+          "shirt",
+          "chemise"
+        ],
+        [
+          "camiseta",
+          "T-shirt",
+          "T-shirt"
+        ],
+        [
+          "pantalón",
+          "Pants",
+          "Pantalons"
+        ],
+        [
+          "vaqueros / jeans",
+          "jeans / jans",
+          "jeans / jans"
+        ],
+        [
+          "pantalones cortos",
+          "Short pants",
+          "Pantalon court"
+        ],
+        [
+          "falda",
+          "skirt",
+          "jupe"
+        ],
+        [
+          "vestido",
+          "dress up",
+          "Habille-toi"
+        ],
+        [
+          "sari",
+          "sari",
+          "sari"
+        ],
+        [
+          "salwar kameez",
+          "salwar kameez",
+          "salwar kameez"
+        ],
+        [
+          "kurta",
+          "kurta",
+          "Kurta"
+        ],
+        [
+          "pijama",
+          "pajamas",
+          "pyjama"
+        ]
+      ],
+      "title": "es · en · fr",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Clothing and accessories",
+    "es": "La ropa y los accesorios",
+    "fr": "Vêtements et accessoires"
+  },
+  "unit": 11
+}

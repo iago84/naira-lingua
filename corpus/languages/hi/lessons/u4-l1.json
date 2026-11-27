@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:familia-y-personas.familia",
+    "c:familia-y-personas.madre",
+    "c:familia-y-personas.padre",
+    "c:familia-y-personas.padres",
+    "c:familia-y-personas.hijo",
+    "c:familia-y-personas.hija",
+    "c:familia-y-personas.nino-a",
+    "c:familia-y-personas.hermano",
+    "c:familia-y-personas.hermana",
+    "c:familia-y-personas.hermanos",
+    "c:familia-y-personas.abuelo-paterno",
+    "c:familia-y-personas.abuela-paterna"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:familia-y-personas.familia",
+      "en": "Family",
+      "es": "familia",
+      "hi": "परिवार",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.madre",
+      "en": "Mother",
+      "es": "madre",
+      "hi": "माँ",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.padre",
+      "en": "Father",
+      "es": "padre",
+      "hi": "पिता",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.padres",
+      "en": "parents",
+      "es": "padres",
+      "hi": "माता-पिता",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.hijo",
+      "en": "child",
+      "es": "hijo",
+      "hi": "बेटा",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.hija",
+      "en": "daughter",
+      "es": "hija",
+      "hi": "बेटी",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.nino-a",
+      "en": "child",
+      "es": "niño/a",
+      "hi": "बच्चा",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.hermano",
+      "en": "brother",
+      "es": "hermano",
+      "hi": "भाई",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.hermana",
+      "en": "sister",
+      "es": "hermana",
+      "hi": "बहन",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.hermanos",
+      "en": "brothers",
+      "es": "hermanos",
+      "hi": "भाई-बहन",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.abuelo-paterno",
+      "en": "paternal grandfather",
+      "es": "abuelo paterno",
+      "hi": "दादा",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.abuela-paterna",
+      "en": "Father's grandmother",
+      "es": "abuela paterna",
+      "hi": "दादी",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Words to refer to family and the people around you.",
+    "es": "Palabras para referirse a la familia y a las personas cercanas.",
+    "hi": "उनके पास परिवार और लोगों के बारे में जानने का शब्द है।"
+  },
+  "generator": "build_lessons",
+  "id": "hi-u4-l1",
+  "lang": "hi",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name family members",
+      "Talk about people"
+    ],
+    "es": [
+      "Nombrar a los miembros de la familia",
+      "Hablar de personas"
+    ],
+    "hi": [
+      "परिवार के सदस्यों को नियुक्त करना",
+      "लोगों के बारे में बात करें"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "hi"
+      ],
+      "rows": [
+        [
+          "familia",
+          "Family",
+          "परिवार"
+        ],
+        [
+          "madre",
+          "Mother",
+          "माँ"
+        ],
+        [
+          "padre",
+          "Father",
+          "पिता"
+        ],
+        [
+          "padres",
+          "parents",
+          "माता-पिता"
+        ],
+        [
+          "hijo",
+          "child",
+          "बेटा"
+        ],
+        [
+          "hija",
+          "daughter",
+          "बेटी"
+        ],
+        [
+          "niño/a",
+          "child",
+          "बच्चा"
+        ],
+        [
+          "hermano",
+          "brother",
+          "भाई"
+        ],
+        [
+          "hermana",
+          "sister",
+          "बहन"
+        ],
+        [
+          "hermanos",
+          "brothers",
+          "भाई-बहन"
+        ],
+        [
+          "abuelo paterno",
+          "paternal grandfather",
+          "दादा"
+        ],
+        [
+          "abuela paterna",
+          "Father's grandmother",
+          "दादी"
+        ]
+      ],
+      "title": "es · en · hi",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Family and people",
+    "es": "La familia y las personas",
+    "hi": "परिवार और व्यक्ति"
+  },
+  "unit": 4
+}

@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:trabajo-y-profesiones.trabajo-labor",
+    "c:trabajo-y-profesiones.empleo-trabajo",
+    "c:trabajo-y-profesiones.profesion-oficio",
+    "c:trabajo-y-profesiones.negocio-profesion",
+    "c:trabajo-y-profesiones.empresa-compania",
+    "c:trabajo-y-profesiones.oficina",
+    "c:trabajo-y-profesiones.oficina-despacho",
+    "c:trabajo-y-profesiones.dueno-propietario",
+    "c:trabajo-y-profesiones.jefe-a",
+    "c:trabajo-y-profesiones.empleado-a",
+    "c:trabajo-y-profesiones.colega",
+    "c:trabajo-y-profesiones.equipo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:trabajo-y-profesiones.trabajo-labor",
+      "de": "Arbeit /",
+      "en": "work /",
+      "es": "trabajo / labor",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+      "de": "Beschäftigung/Arbeit",
+      "en": "employment / work",
+      "es": "empleo / trabajo",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.profesion-oficio",
+      "de": "Beruf/Handel",
+      "en": "profession / trade",
+      "es": "profesión / oficio",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.negocio-profesion",
+      "de": "Gewerbe/Beruf",
+      "en": "business / profession",
+      "es": "negocio / profesión",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empresa-compania",
+      "de": "Unternehmen/Unternehmen",
+      "en": "company / enterprise",
+      "es": "empresa / compañía",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.oficina",
+      "de": "Büro",
+      "en": "office",
+      "es": "oficina",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.oficina-despacho",
+      "de": "Büro/",
+      "en": "office /",
+      "es": "oficina / despacho",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.dueno-propietario",
+      "de": "Eigentümer/Eigentümer",
+      "en": "owner / proprietor",
+      "es": "dueño / propietario",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.jefe-a",
+      "de": "Chef",
+      "en": "Chief",
+      "es": "jefe/a",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empleado-a",
+      "de": "Arbeitnehmer",
+      "en": "employee",
+      "es": "empleado/a",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.colega",
+      "de": "- Tut mir leid, Kumpel.",
+      "en": "- I'm sorry, buddy.",
+      "es": "colega",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.equipo",
+      "de": "Ausrüstung",
+      "en": "equipment",
+      "es": "equipo",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "de": "Berufe und Worte der Weltarbeit.",
+    "en": "Professions and words from the world of work.",
+    "es": "Profesiones y palabras del mundo laboral."
+  },
+  "generator": "build_lessons",
+  "id": "de-u12-l1",
+  "lang": "de",
+  "lesson": 1,
+  "objectives": {
+    "de": [
+      "Berufe",
+      "Sprechen Sie über Arbeit"
+    ],
+    "en": [
+      "Name professions",
+      "Talk about work"
+    ],
+    "es": [
+      "Nombrar profesiones",
+      "Hablar del trabajo"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "de"
+      ],
+      "rows": [
+        [
+          "trabajo / labor",
+          "work /",
+          "Arbeit /"
+        ],
+        [
+          "empleo / trabajo",
+          "employment / work",
+          "Beschäftigung/Arbeit"
+        ],
+        [
+          "profesión / oficio",
+          "profession / trade",
+          "Beruf/Handel"
+        ],
+        [
+          "negocio / profesión",
+          "business / profession",
+          "Gewerbe/Beruf"
+        ],
+        [
+          "empresa / compañía",
+          "company / enterprise",
+          "Unternehmen/Unternehmen"
+        ],
+        [
+          "oficina",
+          "office",
+          "Büro"
+        ],
+        [
+          "oficina / despacho",
+          "office /",
+          "Büro/"
+        ],
+        [
+          "dueño / propietario",
+          "owner / proprietor",
+          "Eigentümer/Eigentümer"
+        ],
+        [
+          "jefe/a",
+          "Chief",
+          "Chef"
+        ],
+        [
+          "empleado/a",
+          "employee",
+          "Arbeitnehmer"
+        ],
+        [
+          "colega",
+          "- I'm sorry, buddy.",
+          "- Tut mir leid, Kumpel."
+        ],
+        [
+          "equipo",
+          "equipment",
+          "Ausrüstung"
+        ]
+      ],
+      "title": "es · en · de",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "de": "Arbeit und Berufe",
+    "en": "Work and professions",
+    "es": "El trabajo y las profesiones"
+  },
+  "unit": 12
+}

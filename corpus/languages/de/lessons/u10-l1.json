@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:ciudad-y-lugares.ciudad",
+    "c:ciudad-y-lugares.pueblo-aldea",
+    "c:ciudad-y-lugares.pais",
+    "c:ciudad-y-lugares.estado-provincia",
+    "c:ciudad-y-lugares.capital",
+    "c:ciudad-y-lugares.zona-area",
+    "c:ciudad-y-lugares.calle-carretera",
+    "c:ciudad-y-lugares.callejon",
+    "c:ciudad-y-lugares.cruce-interseccion",
+    "c:ciudad-y-lugares.puente",
+    "c:ciudad-y-lugares.plaza",
+    "c:ciudad-y-lugares.mercado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:ciudad-y-lugares.ciudad",
+      "de": "Stadt",
+      "en": "city",
+      "es": "ciudad",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.pueblo-aldea",
+      "de": "Dorf/Stadt",
+      "en": "village / town",
+      "es": "pueblo / aldea",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.pais",
+      "de": "Land",
+      "en": "country",
+      "es": "país",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.estado-provincia",
+      "de": "Staat/Provinz",
+      "en": "State / province",
+      "es": "estado / provincia",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.capital",
+      "de": "Kapital",
+      "en": "capital",
+      "es": "capital",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.zona-area",
+      "de": "Gebiet/Zone",
+      "en": "area / zone",
+      "es": "zona / área",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.calle-carretera",
+      "de": "Straße/Straße",
+      "en": "Street / road",
+      "es": "calle / carretera",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.callejon",
+      "de": "Gasse",
+      "en": "alley",
+      "es": "callejón",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.cruce-interseccion",
+      "de": "Kreuzung/Kreuzungspunkt",
+      "en": "cross / intersection",
+      "es": "cruce / intersección",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.puente",
+      "de": "Brücke",
+      "en": "bridge",
+      "es": "puente",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.plaza",
+      "de": "Quadrat",
+      "en": "square",
+      "es": "plaza",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.mercado",
+      "de": "Markt",
+      "en": "market",
+      "es": "mercado",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "de": "Orte in der Stadt zu bewegen und fragen Sie nach Richtungen.",
+    "en": "Places in the city to move around and ask for directions.",
+    "es": "Lugares de la ciudad para moverse y pedir indicaciones."
+  },
+  "generator": "build_lessons",
+  "id": "de-u10-l1",
+  "lang": "de",
+  "lesson": 1,
+  "objectives": {
+    "de": [
+      "Namen Orte in der Stadt",
+      "Fragen Sie nach Adressen"
+    ],
+    "en": [
+      "Name places in the city",
+      "Ask for directions"
+    ],
+    "es": [
+      "Nombrar lugares de la ciudad",
+      "Pedir direcciones"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "de"
+      ],
+      "rows": [
+        [
+          "ciudad",
+          "city",
+          "Stadt"
+        ],
+        [
+          "pueblo / aldea",
+          "village / town",
+          "Dorf/Stadt"
+        ],
+        [
+          "país",
+          "country",
+          "Land"
+        ],
+        [
+          "estado / provincia",
+          "State / province",
+          "Staat/Provinz"
+        ],
+        [
+          "capital",
+          "capital",
+          "Kapital"
+        ],
+        [
+          "zona / área",
+          "area / zone",
+          "Gebiet/Zone"
+        ],
+        [
+          "calle / carretera",
+          "Street / road",
+          "Straße/Straße"
+        ],
+        [
+          "callejón",
+          "alley",
+          "Gasse"
+        ],
+        [
+          "cruce / intersección",
+          "cross / intersection",
+          "Kreuzung/Kreuzungspunkt"
+        ],
+        [
+          "puente",
+          "bridge",
+          "Brücke"
+        ],
+        [
+          "plaza",
+          "square",
+          "Quadrat"
+        ],
+        [
+          "mercado",
+          "market",
+          "Markt"
+        ]
+      ],
+      "title": "es · en · de",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "de": "Die Stadt und die Orte",
+    "en": "City and places",
+    "es": "La ciudad y los lugares"
+  },
+  "unit": 10
+}

@@ -1,0 +1,199 @@
+{
+  "concepts": [
+    "c:numeros.cero",
+    "c:numeros.uno",
+    "c:numeros.dos",
+    "c:numeros.tres",
+    "c:numeros.cuatro",
+    "c:numeros.cinco",
+    "c:numeros.seis",
+    "c:numeros.siete",
+    "c:numeros.ocho",
+    "c:numeros.nueve",
+    "c:numeros.diez",
+    "c:numeros.once"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:numeros.cero",
+      "en": "zero",
+      "es": "cero",
+      "speaker": "A",
+      "sw": "sifuri"
+    },
+    {
+      "concept": "c:numeros.uno",
+      "en": "one",
+      "es": "uno",
+      "speaker": "B",
+      "sw": "moja"
+    },
+    {
+      "concept": "c:numeros.dos",
+      "en": "two",
+      "es": "dos",
+      "speaker": "A",
+      "sw": "mbili"
+    },
+    {
+      "concept": "c:numeros.tres",
+      "en": "three",
+      "es": "tres",
+      "speaker": "B",
+      "sw": "tatu"
+    },
+    {
+      "concept": "c:numeros.cuatro",
+      "en": "4",
+      "es": "cuatro",
+      "speaker": "A",
+      "sw": "nne"
+    },
+    {
+      "concept": "c:numeros.cinco",
+      "en": "five",
+      "es": "cinco",
+      "speaker": "B",
+      "sw": "tano"
+    },
+    {
+      "concept": "c:numeros.seis",
+      "en": "6",
+      "es": "seis",
+      "speaker": "A",
+      "sw": "sita"
+    },
+    {
+      "concept": "c:numeros.siete",
+      "en": "seven",
+      "es": "siete",
+      "speaker": "B",
+      "sw": "saba"
+    },
+    {
+      "concept": "c:numeros.ocho",
+      "en": "8",
+      "es": "ocho",
+      "speaker": "A",
+      "sw": "nane"
+    },
+    {
+      "concept": "c:numeros.nueve",
+      "en": "9",
+      "es": "nueve",
+      "speaker": "B",
+      "sw": "tisa"
+    },
+    {
+      "concept": "c:numeros.diez",
+      "en": "10",
+      "es": "diez",
+      "speaker": "A",
+      "sw": "kumi"
+    },
+    {
+      "concept": "c:numeros.once",
+      "en": "11",
+      "es": "once",
+      "speaker": "B",
+      "sw": "kumi na moja"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Everyday numbers: used to count, give your age and talk about prices.",
+    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u2-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Count from zero to ten",
+      "Recognise basic numbers"
+    ],
+    "es": [
+      "Contar del cero al diez",
+      "Reconocer los números básicos"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "cero",
+          "zero",
+          "sifuri"
+        ],
+        [
+          "uno",
+          "one",
+          "moja"
+        ],
+        [
+          "dos",
+          "two",
+          "mbili"
+        ],
+        [
+          "tres",
+          "three",
+          "tatu"
+        ],
+        [
+          "cuatro",
+          "4",
+          "nne"
+        ],
+        [
+          "cinco",
+          "five",
+          "tano"
+        ],
+        [
+          "seis",
+          "6",
+          "sita"
+        ],
+        [
+          "siete",
+          "seven",
+          "saba"
+        ],
+        [
+          "ocho",
+          "8",
+          "nane"
+        ],
+        [
+          "nueve",
+          "9",
+          "tisa"
+        ],
+        [
+          "diez",
+          "10",
+          "kumi"
+        ],
+        [
+          "once",
+          "11",
+          "kumi na moja"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Numbers",
+    "es": "Los números"
+  },
+  "unit": 2
+}

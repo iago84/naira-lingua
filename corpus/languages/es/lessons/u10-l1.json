@@ -1,0 +1,174 @@
+{
+  "concepts": [
+    "c:ciudad-y-lugares.ciudad",
+    "c:ciudad-y-lugares.pueblo-aldea",
+    "c:ciudad-y-lugares.pais",
+    "c:ciudad-y-lugares.estado-provincia",
+    "c:ciudad-y-lugares.capital",
+    "c:ciudad-y-lugares.zona-area",
+    "c:ciudad-y-lugares.calle-carretera",
+    "c:ciudad-y-lugares.callejon",
+    "c:ciudad-y-lugares.cruce-interseccion",
+    "c:ciudad-y-lugares.puente",
+    "c:ciudad-y-lugares.plaza",
+    "c:ciudad-y-lugares.mercado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:ciudad-y-lugares.ciudad",
+      "en": "city",
+      "es": "ciudad",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.pueblo-aldea",
+      "en": "village / town",
+      "es": "pueblo / aldea",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.pais",
+      "en": "country",
+      "es": "país",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.estado-provincia",
+      "en": "State / province",
+      "es": "estado / provincia",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.capital",
+      "en": "capital",
+      "es": "capital",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.zona-area",
+      "en": "area / zone",
+      "es": "zona / área",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.calle-carretera",
+      "en": "Street / road",
+      "es": "calle / carretera",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.callejon",
+      "en": "alley",
+      "es": "callejón",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.cruce-interseccion",
+      "en": "cross / intersection",
+      "es": "cruce / intersección",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.puente",
+      "en": "bridge",
+      "es": "puente",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.plaza",
+      "en": "square",
+      "es": "plaza",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.mercado",
+      "en": "market",
+      "es": "mercado",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Places in the city to move around and ask for directions.",
+    "es": "Lugares de la ciudad para moverse y pedir indicaciones."
+  },
+  "generator": "build_lessons",
+  "id": "es-u10-l1",
+  "lang": "es",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name places in the city",
+      "Ask for directions"
+    ],
+    "es": [
+      "Nombrar lugares de la ciudad",
+      "Pedir direcciones"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en"
+      ],
+      "rows": [
+        [
+          "ciudad",
+          "city"
+        ],
+        [
+          "pueblo / aldea",
+          "village / town"
+        ],
+        [
+          "país",
+          "country"
+        ],
+        [
+          "estado / provincia",
+          "State / province"
+        ],
+        [
+          "capital",
+          "capital"
+        ],
+        [
+          "zona / área",
+          "area / zone"
+        ],
+        [
+          "calle / carretera",
+          "Street / road"
+        ],
+        [
+          "callejón",
+          "alley"
+        ],
+        [
+          "cruce / intersección",
+          "cross / intersection"
+        ],
+        [
+          "puente",
+          "bridge"
+        ],
+        [
+          "plaza",
+          "square"
+        ],
+        [
+          "mercado",
+          "market"
+        ]
+      ],
+      "title": "es · en",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "City and places",
+    "es": "La ciudad y los lugares"
+  },
+  "unit": 10
+}

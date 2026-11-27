@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:familia-y-personas.familia",
+    "c:familia-y-personas.madre",
+    "c:familia-y-personas.padre",
+    "c:familia-y-personas.padres",
+    "c:familia-y-personas.hijo",
+    "c:familia-y-personas.hija",
+    "c:familia-y-personas.nino-a",
+    "c:familia-y-personas.hermano",
+    "c:familia-y-personas.hermana",
+    "c:familia-y-personas.hermanos",
+    "c:familia-y-personas.abuelo-paterno",
+    "c:familia-y-personas.abuela-paterna"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:familia-y-personas.familia",
+      "en": "Family",
+      "es": "familia",
+      "gl": "Familia",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.madre",
+      "en": "Mother",
+      "es": "madre",
+      "gl": "Mamá",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.padre",
+      "en": "Father",
+      "es": "padre",
+      "gl": "Pai",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.padres",
+      "en": "parents",
+      "es": "padres",
+      "gl": "pais",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.hijo",
+      "en": "child",
+      "es": "hijo",
+      "gl": "Neno",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.hija",
+      "en": "daughter",
+      "es": "hija",
+      "gl": "filla",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.nino-a",
+      "en": "child",
+      "es": "niño/a",
+      "gl": "Neno",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.hermano",
+      "en": "brother",
+      "es": "hermano",
+      "gl": "Irmán",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.hermana",
+      "en": "sister",
+      "es": "hermana",
+      "gl": "irmá",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.hermanos",
+      "en": "brothers",
+      "es": "hermanos",
+      "gl": "irmáns",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.abuelo-paterno",
+      "en": "paternal grandfather",
+      "es": "abuelo paterno",
+      "gl": "Avó materno",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.abuela-paterna",
+      "en": "Father's grandmother",
+      "es": "abuela paterna",
+      "gl": "Avó da avoa do pai",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Words to refer to family and the people around you.",
+    "es": "Palabras para referirse a la familia y a las personas cercanas.",
+    "gl": "Palabras para falar da familia e das persoas próximas."
+  },
+  "generator": "build_lessons",
+  "id": "gl-u4-l1",
+  "lang": "gl",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name family members",
+      "Talk about people"
+    ],
+    "es": [
+      "Nombrar a los miembros de la familia",
+      "Hablar de personas"
+    ],
+    "gl": [
+      "Nomeamento de membros da familia",
+      "Falar sobre a xente"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "gl"
+      ],
+      "rows": [
+        [
+          "familia",
+          "Family",
+          "Familia"
+        ],
+        [
+          "madre",
+          "Mother",
+          "Mamá"
+        ],
+        [
+          "padre",
+          "Father",
+          "Pai"
+        ],
+        [
+          "padres",
+          "parents",
+          "pais"
+        ],
+        [
+          "hijo",
+          "child",
+          "Neno"
+        ],
+        [
+          "hija",
+          "daughter",
+          "filla"
+        ],
+        [
+          "niño/a",
+          "child",
+          "Neno"
+        ],
+        [
+          "hermano",
+          "brother",
+          "Irmán"
+        ],
+        [
+          "hermana",
+          "sister",
+          "irmá"
+        ],
+        [
+          "hermanos",
+          "brothers",
+          "irmáns"
+        ],
+        [
+          "abuelo paterno",
+          "paternal grandfather",
+          "Avó materno"
+        ],
+        [
+          "abuela paterna",
+          "Father's grandmother",
+          "Avó da avoa do pai"
+        ]
+      ],
+      "title": "es · en · gl",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Family and people",
+    "es": "La familia y las personas",
+    "gl": "Familia e individuos"
+  },
+  "unit": 4
+}

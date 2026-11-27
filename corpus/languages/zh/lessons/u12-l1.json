@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:trabajo-y-profesiones.trabajo-labor",
+    "c:trabajo-y-profesiones.empleo-trabajo",
+    "c:trabajo-y-profesiones.profesion-oficio",
+    "c:trabajo-y-profesiones.negocio-profesion",
+    "c:trabajo-y-profesiones.empresa-compania",
+    "c:trabajo-y-profesiones.oficina",
+    "c:trabajo-y-profesiones.oficina-despacho",
+    "c:trabajo-y-profesiones.dueno-propietario",
+    "c:trabajo-y-profesiones.jefe-a",
+    "c:trabajo-y-profesiones.empleado-a",
+    "c:trabajo-y-profesiones.colega",
+    "c:trabajo-y-profesiones.equipo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:trabajo-y-profesiones.trabajo-labor",
+      "en": "work /",
+      "es": "trabajo / labor",
+      "speaker": "A",
+      "zh": "工作/时间"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+      "en": "employment / work",
+      "es": "empleo / trabajo",
+      "speaker": "B",
+      "zh": "就业/工作"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.profesion-oficio",
+      "en": "profession / trade",
+      "es": "profesión / oficio",
+      "speaker": "A",
+      "zh": "职业/行业"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.negocio-profesion",
+      "en": "business / profession",
+      "es": "negocio / profesión",
+      "speaker": "B",
+      "zh": "商业/专业"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empresa-compania",
+      "en": "company / enterprise",
+      "es": "empresa / compañía",
+      "speaker": "A",
+      "zh": "公司/企业"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.oficina",
+      "en": "office",
+      "es": "oficina",
+      "speaker": "B",
+      "zh": "办公室"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.oficina-despacho",
+      "en": "office /",
+      "es": "oficina / despacho",
+      "speaker": "A",
+      "zh": "办公室/"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.dueno-propietario",
+      "en": "owner / proprietor",
+      "es": "dueño / propietario",
+      "speaker": "B",
+      "zh": "拥有者/业主"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.jefe-a",
+      "en": "Chief",
+      "es": "jefe/a",
+      "speaker": "A",
+      "zh": "处长"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empleado-a",
+      "en": "employee",
+      "es": "empleado/a",
+      "speaker": "B",
+      "zh": "雇员"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.colega",
+      "en": "- I'm sorry, buddy.",
+      "es": "colega",
+      "speaker": "A",
+      "zh": "- 对不起,伙计。"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.equipo",
+      "en": "equipment",
+      "es": "equipo",
+      "speaker": "B",
+      "zh": "设备"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Professions and words from the world of work.",
+    "es": "Profesiones y palabras del mundo laboral.",
+    "zh": "业与道相出世间活."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u12-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name professions",
+      "Talk about work"
+    ],
+    "es": [
+      "Nombrar profesiones",
+      "Hablar del trabajo"
+    ],
+    "zh": [
+      "任命职业",
+      "说到工作"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "trabajo / labor",
+          "work /",
+          "工作/时间"
+        ],
+        [
+          "empleo / trabajo",
+          "employment / work",
+          "就业/工作"
+        ],
+        [
+          "profesión / oficio",
+          "profession / trade",
+          "职业/行业"
+        ],
+        [
+          "negocio / profesión",
+          "business / profession",
+          "商业/专业"
+        ],
+        [
+          "empresa / compañía",
+          "company / enterprise",
+          "公司/企业"
+        ],
+        [
+          "oficina",
+          "office",
+          "办公室"
+        ],
+        [
+          "oficina / despacho",
+          "office /",
+          "办公室/"
+        ],
+        [
+          "dueño / propietario",
+          "owner / proprietor",
+          "拥有者/业主"
+        ],
+        [
+          "jefe/a",
+          "Chief",
+          "处长"
+        ],
+        [
+          "empleado/a",
+          "employee",
+          "雇员"
+        ],
+        [
+          "colega",
+          "- I'm sorry, buddy.",
+          "- 对不起,伙计。"
+        ],
+        [
+          "equipo",
+          "equipment",
+          "设备"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Work and professions",
+    "es": "El trabajo y las profesiones",
+    "zh": "工作和职业"
+  },
+  "unit": 12
+}

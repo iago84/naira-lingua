@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:numeros.cero",
+    "c:numeros.uno",
+    "c:numeros.dos",
+    "c:numeros.tres",
+    "c:numeros.cuatro",
+    "c:numeros.cinco",
+    "c:numeros.seis",
+    "c:numeros.siete",
+    "c:numeros.ocho",
+    "c:numeros.nueve",
+    "c:numeros.diez",
+    "c:numeros.once"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:numeros.cero",
+      "en": "zero",
+      "es": "cero",
+      "ja": "ゼロ",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.uno",
+      "en": "one",
+      "es": "uno",
+      "ja": "ワンポイント",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.dos",
+      "en": "two",
+      "es": "dos",
+      "ja": "ツイート",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.tres",
+      "en": "three",
+      "es": "tres",
+      "ja": "ツイート",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.cuatro",
+      "en": "4",
+      "es": "cuatro",
+      "ja": "日: 4",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.cinco",
+      "en": "five",
+      "es": "cinco",
+      "ja": "五十音順",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.seis",
+      "en": "6",
+      "es": "seis",
+      "ja": "七五三十六",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.siete",
+      "en": "seven",
+      "es": "siete",
+      "ja": "七五三十二",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.ocho",
+      "en": "8",
+      "es": "ocho",
+      "ja": "日报社(8月27日)",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.nueve",
+      "en": "9",
+      "es": "nueve",
+      "ja": "日・祝",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.diez",
+      "en": "10",
+      "es": "diez",
+      "ja": "日 10",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.once",
+      "en": "11",
+      "es": "once",
+      "ja": "日: 11",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Everyday numbers: used to count, give your age and talk about prices.",
+    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
+    "ja": "日数:カウント、年齢および価格に使用されます。"
+  },
+  "generator": "build_lessons",
+  "id": "ja-u2-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Count from zero to ten",
+      "Recognise basic numbers"
+    ],
+    "es": [
+      "Contar del cero al diez",
+      "Reconocer los números básicos"
+    ],
+    "ja": [
+      "ゼロから10までのカウント",
+      "基本数字を認識する"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "cero",
+          "zero",
+          "ゼロ"
+        ],
+        [
+          "uno",
+          "one",
+          "ワンポイント"
+        ],
+        [
+          "dos",
+          "two",
+          "ツイート"
+        ],
+        [
+          "tres",
+          "three",
+          "ツイート"
+        ],
+        [
+          "cuatro",
+          "4",
+          "日: 4"
+        ],
+        [
+          "cinco",
+          "five",
+          "五十音順"
+        ],
+        [
+          "seis",
+          "6",
+          "七五三十六"
+        ],
+        [
+          "siete",
+          "seven",
+          "七五三十二"
+        ],
+        [
+          "ocho",
+          "8",
+          "日报社(8月27日)"
+        ],
+        [
+          "nueve",
+          "9",
+          "日・祝"
+        ],
+        [
+          "diez",
+          "10",
+          "日 10"
+        ],
+        [
+          "once",
+          "11",
+          "日: 11"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Numbers",
+    "es": "Los números",
+    "ja": "数字"
+  },
+  "unit": 2
+}

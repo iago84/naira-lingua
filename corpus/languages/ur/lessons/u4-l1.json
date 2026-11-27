@@ -1,0 +1,199 @@
+{
+  "concepts": [
+    "c:familia-y-personas.familia",
+    "c:familia-y-personas.madre",
+    "c:familia-y-personas.padre",
+    "c:familia-y-personas.padres",
+    "c:familia-y-personas.hijo",
+    "c:familia-y-personas.hija",
+    "c:familia-y-personas.nino-a",
+    "c:familia-y-personas.hermano",
+    "c:familia-y-personas.hermana",
+    "c:familia-y-personas.hermanos",
+    "c:familia-y-personas.abuelo-paterno",
+    "c:familia-y-personas.abuela-paterna"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:familia-y-personas.familia",
+      "en": "Family",
+      "es": "familia",
+      "speaker": "A",
+      "ur": "خاندان"
+    },
+    {
+      "concept": "c:familia-y-personas.madre",
+      "en": "Mother",
+      "es": "madre",
+      "speaker": "B",
+      "ur": "ماں / والدہ"
+    },
+    {
+      "concept": "c:familia-y-personas.padre",
+      "en": "Father",
+      "es": "padre",
+      "speaker": "A",
+      "ur": "باپ / والد"
+    },
+    {
+      "concept": "c:familia-y-personas.padres",
+      "en": "parents",
+      "es": "padres",
+      "speaker": "B",
+      "ur": "ماتا-پِتا"
+    },
+    {
+      "concept": "c:familia-y-personas.hijo",
+      "en": "child",
+      "es": "hijo",
+      "speaker": "A",
+      "ur": "بیٹا"
+    },
+    {
+      "concept": "c:familia-y-personas.hija",
+      "en": "daughter",
+      "es": "hija",
+      "speaker": "B",
+      "ur": "بیٹی"
+    },
+    {
+      "concept": "c:familia-y-personas.nino-a",
+      "en": "child",
+      "es": "niño/a",
+      "speaker": "A",
+      "ur": "بچچا"
+    },
+    {
+      "concept": "c:familia-y-personas.hermano",
+      "en": "brother",
+      "es": "hermano",
+      "speaker": "B",
+      "ur": "بھائی"
+    },
+    {
+      "concept": "c:familia-y-personas.hermana",
+      "en": "sister",
+      "es": "hermana",
+      "speaker": "A",
+      "ur": "بہن"
+    },
+    {
+      "concept": "c:familia-y-personas.hermanos",
+      "en": "brothers",
+      "es": "hermanos",
+      "speaker": "B",
+      "ur": "بھاای-بہن"
+    },
+    {
+      "concept": "c:familia-y-personas.abuelo-paterno",
+      "en": "paternal grandfather",
+      "es": "abuelo paterno",
+      "speaker": "A",
+      "ur": "دادا"
+    },
+    {
+      "concept": "c:familia-y-personas.abuela-paterna",
+      "en": "Father's grandmother",
+      "es": "abuela paterna",
+      "speaker": "B",
+      "ur": "دادی"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Words to refer to family and the people around you.",
+    "es": "Palabras para referirse a la familia y a las personas cercanas."
+  },
+  "generator": "build_lessons",
+  "id": "ur-u4-l1",
+  "lang": "ur",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name family members",
+      "Talk about people"
+    ],
+    "es": [
+      "Nombrar a los miembros de la familia",
+      "Hablar de personas"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ur"
+      ],
+      "rows": [
+        [
+          "familia",
+          "Family",
+          "خاندان"
+        ],
+        [
+          "madre",
+          "Mother",
+          "ماں / والدہ"
+        ],
+        [
+          "padre",
+          "Father",
+          "باپ / والد"
+        ],
+        [
+          "padres",
+          "parents",
+          "ماتا-پِتا"
+        ],
+        [
+          "hijo",
+          "child",
+          "بیٹا"
+        ],
+        [
+          "hija",
+          "daughter",
+          "بیٹی"
+        ],
+        [
+          "niño/a",
+          "child",
+          "بچچا"
+        ],
+        [
+          "hermano",
+          "brother",
+          "بھائی"
+        ],
+        [
+          "hermana",
+          "sister",
+          "بہن"
+        ],
+        [
+          "hermanos",
+          "brothers",
+          "بھاای-بہن"
+        ],
+        [
+          "abuelo paterno",
+          "paternal grandfather",
+          "دادا"
+        ],
+        [
+          "abuela paterna",
+          "Father's grandmother",
+          "دادی"
+        ]
+      ],
+      "title": "es · en · ur",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Family and people",
+    "es": "La familia y las personas"
+  },
+  "unit": 4
+}

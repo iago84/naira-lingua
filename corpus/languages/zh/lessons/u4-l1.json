@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:familia-y-personas.familia",
+    "c:familia-y-personas.madre",
+    "c:familia-y-personas.padre",
+    "c:familia-y-personas.padres",
+    "c:familia-y-personas.hijo",
+    "c:familia-y-personas.hija",
+    "c:familia-y-personas.nino-a",
+    "c:familia-y-personas.hermano",
+    "c:familia-y-personas.hermana",
+    "c:familia-y-personas.hermanos",
+    "c:familia-y-personas.abuelo-paterno",
+    "c:familia-y-personas.abuela-paterna"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:familia-y-personas.familia",
+      "en": "Family",
+      "es": "familia",
+      "speaker": "A",
+      "zh": "家庭"
+    },
+    {
+      "concept": "c:familia-y-personas.madre",
+      "en": "Mother",
+      "es": "madre",
+      "speaker": "B",
+      "zh": "妈妈"
+    },
+    {
+      "concept": "c:familia-y-personas.padre",
+      "en": "Father",
+      "es": "padre",
+      "speaker": "A",
+      "zh": "父亲"
+    },
+    {
+      "concept": "c:familia-y-personas.padres",
+      "en": "parents",
+      "es": "padres",
+      "speaker": "B",
+      "zh": "父母亲"
+    },
+    {
+      "concept": "c:familia-y-personas.hijo",
+      "en": "child",
+      "es": "hijo",
+      "speaker": "A",
+      "zh": "儿童"
+    },
+    {
+      "concept": "c:familia-y-personas.hija",
+      "en": "daughter",
+      "es": "hija",
+      "speaker": "B",
+      "zh": "女儿,你这小姑娘"
+    },
+    {
+      "concept": "c:familia-y-personas.nino-a",
+      "en": "child",
+      "es": "niño/a",
+      "speaker": "A",
+      "zh": "儿童"
+    },
+    {
+      "concept": "c:familia-y-personas.hermano",
+      "en": "brother",
+      "es": "hermano",
+      "speaker": "B",
+      "zh": "哥哥,你这混蛋"
+    },
+    {
+      "concept": "c:familia-y-personas.hermana",
+      "en": "sister",
+      "es": "hermana",
+      "speaker": "A",
+      "zh": "姐姐,你这小姑娘"
+    },
+    {
+      "concept": "c:familia-y-personas.hermanos",
+      "en": "brothers",
+      "es": "hermanos",
+      "speaker": "B",
+      "zh": "哥哥们"
+    },
+    {
+      "concept": "c:familia-y-personas.abuelo-paterno",
+      "en": "paternal grandfather",
+      "es": "abuelo paterno",
+      "speaker": "A",
+      "zh": "爷爷"
+    },
+    {
+      "concept": "c:familia-y-personas.abuela-paterna",
+      "en": "Father's grandmother",
+      "es": "abuela paterna",
+      "speaker": "B",
+      "zh": "父亲的外婆"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Words to refer to family and the people around you.",
+    "es": "Palabras para referirse a la familia y a las personas cercanas.",
+    "zh": "指亲相近之人所出."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u4-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name family members",
+      "Talk about people"
+    ],
+    "es": [
+      "Nombrar a los miembros de la familia",
+      "Hablar de personas"
+    ],
+    "zh": [
+      "任命家庭成员",
+      "说人"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "familia",
+          "Family",
+          "家庭"
+        ],
+        [
+          "madre",
+          "Mother",
+          "妈妈"
+        ],
+        [
+          "padre",
+          "Father",
+          "父亲"
+        ],
+        [
+          "padres",
+          "parents",
+          "父母亲"
+        ],
+        [
+          "hijo",
+          "child",
+          "儿童"
+        ],
+        [
+          "hija",
+          "daughter",
+          "女儿,你这小姑娘"
+        ],
+        [
+          "niño/a",
+          "child",
+          "儿童"
+        ],
+        [
+          "hermano",
+          "brother",
+          "哥哥,你这混蛋"
+        ],
+        [
+          "hermana",
+          "sister",
+          "姐姐,你这小姑娘"
+        ],
+        [
+          "hermanos",
+          "brothers",
+          "哥哥们"
+        ],
+        [
+          "abuelo paterno",
+          "paternal grandfather",
+          "爷爷"
+        ],
+        [
+          "abuela paterna",
+          "Father's grandmother",
+          "父亲的外婆"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Family and people",
+    "es": "La familia y las personas",
+    "zh": "家庭和个人"
+  },
+  "unit": 4
+}

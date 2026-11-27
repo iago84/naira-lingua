@@ -70,7 +70,21 @@ def translate_all(texts, target, endpoint, source="es", pivot=PIVOT, batch=BATCH
     return rows
 
 
-def run(repo_dir, lang: str, translate=None, endpoint=DEFAULT_ENDPOINT) -> int:
+def _anchor_pack(todo: list[dict]) -> list[dict]:
+    """Pack del idioma ancla (``source``): el término es la propia glosa.
+
+    El corpus ancla en español, así que el español no se traduce: sus términos
+    son las glosas, verificadas por construcción.
+    """
+    return [{"concept": c["id"], "gloss_es": c["gloss_es"], "domain": c["domain"],
+             "icon": c.get("icon"), "term": c["gloss_es"], "translit": None,
+             "ipa": None, "pos": None, "source": "corpus_anchor",
+             "source_ref": None, "license": "CC-BY-SA-4.0",
+             "review": "verified"} for c in todo]
+
+
+def run(repo_dir, lang: str, translate=None, endpoint=DEFAULT_ENDPOINT,
+        source="es") -> int:
     repo = Path(repo_dir)
     concepts = common.read_jsonl(repo / "corpus" / "concepts.jsonl")
     terms_path = repo / "corpus" / "languages" / lang / "terms.jsonl"
@@ -81,20 +95,23 @@ def run(repo_dir, lang: str, translate=None, endpoint=DEFAULT_ENDPOINT) -> int:
         print(f"{lang}: nada que hacer (cobertura completa)")
         return 0
 
-    translate = translate or (lambda texts: translate_all(texts, lang, endpoint))
-    translated = translate([c["gloss_es"] for c in todo])
-
-    pack = []
-    for concept, term in zip(todo, translated):
-        term = (term or "").strip()
-        if not term:
-            continue
-        pack.append({"concept": concept["id"],
-                     "gloss_es": concept["gloss_es"], "domain": concept["domain"],
-                     "icon": concept.get("icon"), "term": term, "translit": None,
-                     "ipa": None, "pos": None, "source": "libretranslate",
-                     "source_ref": f"argos es-{lang}", "license": "CC-BY-SA-4.0",
-                     "review": "auto_imported"})
+    if lang == source:
+        pack = _anchor_pack(todo)
+    else:
+        translate = translate or (lambda texts: translate_all(texts, lang, endpoint,
+                                                              source=source))
+        translated = translate([c["gloss_es"] for c in todo])
+        pack = []
+        for concept, term in zip(todo, translated):
+            term = (term or "").strip()
+            if not term:
+                continue
+            pack.append({"concept": concept["id"],
+                         "gloss_es": concept["gloss_es"], "domain": concept["domain"],
+                         "icon": concept.get("icon"), "term": term, "translit": None,
+                         "ipa": None, "pos": None, "source": "libretranslate",
+                         "source_ref": f"argos {source}-{lang}", "license": "CC-BY-SA-4.0",
+                         "review": "auto_imported"})
     common.write_jsonl(repo / "corpus" / "_seed" / f"{lang}.auto.jsonl", pack)
 
     new_concepts, term_rows = import_seed.build_rows(pack, lang, concepts)
@@ -112,19 +129,26 @@ def main(argv=None) -> int:
     parser.add_argument("langs", nargs="*", help="idiomas destino (por defecto fr it)")
     parser.add_argument("--engine", choices=("http", "argo"),
                         default=os.environ.get("SEED_ENGINE", "http"))
+    parser.add_argument("--source", default="es",
+                        help="idioma de las glosas / ancla del corpus")
     parser.add_argument("--endpoint",
                         default=os.environ.get("LIBRETRANSLATE_URL", DEFAULT_ENDPOINT))
     args = parser.parse_args(argv)
     langs = args.langs or ["fr", "it"]
     if args.engine == "argo":
         from .argo_engine import ArgoTranslator
-        translator = ArgoTranslator()
+        translator = None
         for lg in langs:
-            run(args.repo, lg,
-                translate=lambda texts, lg=lg: translator.translate(texts, lg))
+            if lg == args.source:  # el idioma ancla no se traduce
+                run(args.repo, lg, source=args.source)
+                continue
+            if translator is None:
+                translator = ArgoTranslator(source=args.source)
+            run(args.repo, lg, source=args.source,
+                translate=lambda texts, lg=lg, tr=translator: tr.translate(texts, lg))
     else:
         for lg in langs:
-            run(args.repo, lg, endpoint=args.endpoint)
+            run(args.repo, lg, endpoint=args.endpoint, source=args.source)
     return 0
 
 

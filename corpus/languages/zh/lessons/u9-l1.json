@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:animales.animal",
+    "c:animales.perro",
+    "c:animales.gato",
+    "c:animales.vaca",
+    "c:animales.buey-toro",
+    "c:animales.bufalo",
+    "c:animales.caballo",
+    "c:animales.burro-asno",
+    "c:animales.cabra",
+    "c:animales.oveja",
+    "c:animales.cerdo",
+    "c:animales.gallina"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:animales.animal",
+      "en": "animal",
+      "es": "animal",
+      "speaker": "A",
+      "zh": "动物"
+    },
+    {
+      "concept": "c:animales.perro",
+      "en": "dog",
+      "es": "perro",
+      "speaker": "B",
+      "zh": "狗类"
+    },
+    {
+      "concept": "c:animales.gato",
+      "en": "cat",
+      "es": "gato",
+      "speaker": "A",
+      "zh": "猫"
+    },
+    {
+      "concept": "c:animales.vaca",
+      "en": "cow",
+      "es": "vaca",
+      "speaker": "B",
+      "zh": "黄牛"
+    },
+    {
+      "concept": "c:animales.buey-toro",
+      "en": "ox / bull",
+      "es": "buey / toro",
+      "speaker": "A",
+      "zh": "牛/牛(公牛)"
+    },
+    {
+      "concept": "c:animales.bufalo",
+      "en": "buffalo",
+      "es": "búfalo",
+      "speaker": "B",
+      "zh": "水牛队"
+    },
+    {
+      "concept": "c:animales.caballo",
+      "en": "horse",
+      "es": "caballo",
+      "speaker": "A",
+      "zh": "马"
+    },
+    {
+      "concept": "c:animales.burro-asno",
+      "en": "donkey / ass",
+      "es": "burro / asno",
+      "speaker": "B",
+      "zh": "驴子/驴子"
+    },
+    {
+      "concept": "c:animales.cabra",
+      "en": "goat",
+      "es": "cabra",
+      "speaker": "A",
+      "zh": "山羊(山羊)"
+    },
+    {
+      "concept": "c:animales.oveja",
+      "en": "sheep",
+      "es": "oveja",
+      "speaker": "B",
+      "zh": "羊头"
+    },
+    {
+      "concept": "c:animales.cerdo",
+      "en": "pig",
+      "es": "cerdo",
+      "speaker": "A",
+      "zh": "猪"
+    },
+    {
+      "concept": "c:animales.gallina",
+      "en": "chicken",
+      "es": "gallina",
+      "speaker": "B",
+      "zh": "鸡肉"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Common animals, both domestic and wild.",
+    "es": "Animales frecuentes, tanto domésticos como salvajes.",
+    "zh": "常出家畜及野生等."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u9-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name common animals",
+      "Describe animals"
+    ],
+    "es": [
+      "Nombrar animales comunes",
+      "Describir animales"
+    ],
+    "zh": [
+      "普通动物名称",
+      "描述动物"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "animal",
+          "animal",
+          "动物"
+        ],
+        [
+          "perro",
+          "dog",
+          "狗类"
+        ],
+        [
+          "gato",
+          "cat",
+          "猫"
+        ],
+        [
+          "vaca",
+          "cow",
+          "黄牛"
+        ],
+        [
+          "buey / toro",
+          "ox / bull",
+          "牛/牛(公牛)"
+        ],
+        [
+          "búfalo",
+          "buffalo",
+          "水牛队"
+        ],
+        [
+          "caballo",
+          "horse",
+          "马"
+        ],
+        [
+          "burro / asno",
+          "donkey / ass",
+          "驴子/驴子"
+        ],
+        [
+          "cabra",
+          "goat",
+          "山羊(山羊)"
+        ],
+        [
+          "oveja",
+          "sheep",
+          "羊头"
+        ],
+        [
+          "cerdo",
+          "pig",
+          "猪"
+        ],
+        [
+          "gallina",
+          "chicken",
+          "鸡肉"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Animals",
+    "es": "Los animales",
+    "zh": "动物"
+  },
+  "unit": 9
+}

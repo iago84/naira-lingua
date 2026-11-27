@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:colores.rojo",
+    "c:colores.azul",
+    "c:colores.verde",
+    "c:colores.amarillo",
+    "c:colores.negro",
+    "c:colores.blanco",
+    "c:colores.naranja",
+    "c:colores.rosa",
+    "c:colores.morado-violeta",
+    "c:colores.marron",
+    "c:colores.gris",
+    "c:colores.dorado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:colores.rojo",
+      "en": "red",
+      "es": "rojo",
+      "it": "rosso",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.azul",
+      "en": "blue",
+      "es": "azul",
+      "it": "blu",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:colores.verde",
+      "en": "green",
+      "es": "verde",
+      "it": "verde",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.amarillo",
+      "en": "yellow",
+      "es": "amarillo",
+      "it": "giallo",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:colores.negro",
+      "en": "black",
+      "es": "negro",
+      "it": "nero",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.blanco",
+      "en": "white",
+      "es": "blanco",
+      "it": "bianco",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:colores.naranja",
+      "en": "orange",
+      "es": "naranja",
+      "it": "arancione",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.rosa",
+      "en": "pink",
+      "es": "rosa",
+      "it": "rosa",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:colores.morado-violeta",
+      "en": "purple / violet",
+      "es": "morado / violeta",
+      "it": "viola / violetta",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.marron",
+      "en": "brown",
+      "es": "marrón",
+      "it": "marrone",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:colores.gris",
+      "en": "grey",
+      "es": "gris",
+      "it": "grigio",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.dorado",
+      "en": "gold",
+      "es": "dorado",
+      "it": "oro",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Colours are used to describe objects, clothes and places.",
+    "es": "Los colores sirven para describir objetos, ropa y lugares.",
+    "it": "I colori servono a descrivere oggetti, vestiti e luoghi."
+  },
+  "generator": "build_lessons",
+  "id": "it-u3-l1",
+  "lang": "it",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name basic colours",
+      "Describe objects by colour"
+    ],
+    "es": [
+      "Nombrar los colores básicos",
+      "Describir objetos por su color"
+    ],
+    "it": [
+      "Nome dei colori di base",
+      "Descrivere oggetti per colore"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "it"
+      ],
+      "rows": [
+        [
+          "rojo",
+          "red",
+          "rosso"
+        ],
+        [
+          "azul",
+          "blue",
+          "blu"
+        ],
+        [
+          "verde",
+          "green",
+          "verde"
+        ],
+        [
+          "amarillo",
+          "yellow",
+          "giallo"
+        ],
+        [
+          "negro",
+          "black",
+          "nero"
+        ],
+        [
+          "blanco",
+          "white",
+          "bianco"
+        ],
+        [
+          "naranja",
+          "orange",
+          "arancione"
+        ],
+        [
+          "rosa",
+          "pink",
+          "rosa"
+        ],
+        [
+          "morado / violeta",
+          "purple / violet",
+          "viola / violetta"
+        ],
+        [
+          "marrón",
+          "brown",
+          "marrone"
+        ],
+        [
+          "gris",
+          "grey",
+          "grigio"
+        ],
+        [
+          "dorado",
+          "gold",
+          "oro"
+        ]
+      ],
+      "title": "es · en · it",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Colours",
+    "es": "Los colores",
+    "it": "I colori"
+  },
+  "unit": 3
+}

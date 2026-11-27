@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:animales.animal",
+    "c:animales.perro",
+    "c:animales.gato",
+    "c:animales.vaca",
+    "c:animales.buey-toro",
+    "c:animales.bufalo",
+    "c:animales.caballo",
+    "c:animales.burro-asno",
+    "c:animales.cabra",
+    "c:animales.oveja",
+    "c:animales.cerdo",
+    "c:animales.gallina"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:animales.animal",
+      "en": "animal",
+      "es": "animal",
+      "ja": "アニマル",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.perro",
+      "en": "dog",
+      "es": "perro",
+      "ja": "犬の猫",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.gato",
+      "en": "cat",
+      "es": "gato",
+      "ja": "猫ちゃん",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.vaca",
+      "en": "cow",
+      "es": "vaca",
+      "ja": "牛の",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.buey-toro",
+      "en": "ox / bull",
+      "es": "buey / toro",
+      "ja": "OX/ブル",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.bufalo",
+      "en": "buffalo",
+      "es": "búfalo",
+      "ja": "バッファロー",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.caballo",
+      "en": "horse",
+      "es": "caballo",
+      "ja": "馬の騎乗",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.burro-asno",
+      "en": "donkey / ass",
+      "es": "burro / asno",
+      "ja": "ドンキー/アス",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.cabra",
+      "en": "goat",
+      "es": "cabra",
+      "ja": "ゴート",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.oveja",
+      "en": "sheep",
+      "es": "oveja",
+      "ja": "ヒツジ",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.cerdo",
+      "en": "pig",
+      "es": "cerdo",
+      "ja": "チャイブ",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.gallina",
+      "en": "chicken",
+      "es": "gallina",
+      "ja": "チキン",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Common animals, both domestic and wild.",
+    "es": "Animales frecuentes, tanto domésticos como salvajes.",
+    "ja": "動物、国内・野生の両種。"
+  },
+  "generator": "build_lessons",
+  "id": "ja-u9-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name common animals",
+      "Describe animals"
+    ],
+    "es": [
+      "Nombrar animales comunes",
+      "Describir animales"
+    ],
+    "ja": [
+      "名称 一般動物",
+      "動物を記述する"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "animal",
+          "animal",
+          "アニマル"
+        ],
+        [
+          "perro",
+          "dog",
+          "犬の猫"
+        ],
+        [
+          "gato",
+          "cat",
+          "猫ちゃん"
+        ],
+        [
+          "vaca",
+          "cow",
+          "牛の"
+        ],
+        [
+          "buey / toro",
+          "ox / bull",
+          "OX/ブル"
+        ],
+        [
+          "búfalo",
+          "buffalo",
+          "バッファロー"
+        ],
+        [
+          "caballo",
+          "horse",
+          "馬の騎乗"
+        ],
+        [
+          "burro / asno",
+          "donkey / ass",
+          "ドンキー/アス"
+        ],
+        [
+          "cabra",
+          "goat",
+          "ゴート"
+        ],
+        [
+          "oveja",
+          "sheep",
+          "ヒツジ"
+        ],
+        [
+          "cerdo",
+          "pig",
+          "チャイブ"
+        ],
+        [
+          "gallina",
+          "chicken",
+          "チキン"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Animals",
+    "es": "Los animales",
+    "ja": "動物たち"
+  },
+  "unit": 9
+}

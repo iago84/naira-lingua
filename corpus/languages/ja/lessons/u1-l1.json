@@ -1,0 +1,192 @@
+{
+  "concepts": [
+    "c:saludos-y-expresiones.hola",
+    "c:saludos-y-expresiones.buenos-dias",
+    "c:saludos-y-expresiones.buenas-tardes",
+    "c:saludos-y-expresiones.buenas-noches",
+    "c:saludos-y-expresiones.gracias",
+    "c:saludos-y-expresiones.por-favor",
+    "c:saludos-y-expresiones.perdon-disculpe",
+    "c:saludos-y-expresiones.adios",
+    "c:saludos-y-expresiones.hasta-luego",
+    "c:saludos-y-expresiones.si",
+    "c:saludos-y-expresiones.no"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:saludos-y-expresiones.hola",
+      "en": "Hello.",
+      "es": "hola",
+      "ja": "詳しくはこちら",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenos-dias",
+      "en": "Good morning.",
+      "es": "buenos días",
+      "ja": "朝はおやすみ。",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-tardes",
+      "en": "Good afternoon.",
+      "es": "buenas tardes",
+      "ja": "夕方からお越し下さい。",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-noches",
+      "en": "Good night.",
+      "es": "buenas noches",
+      "ja": "夜は、",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.gracias",
+      "en": "Thank you.",
+      "es": "gracias",
+      "ja": "ありがとうございます。",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.por-favor",
+      "en": "Please.",
+      "es": "por favor",
+      "ja": "是非、どうぞよろしくお願いします。",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.perdon-disculpe",
+      "en": "Excuse me / excuse",
+      "es": "perdón / disculpe",
+      "ja": "私を抜く/言い訳",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.adios",
+      "en": "Bye.",
+      "es": "adiós",
+      "ja": "ツイート",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.hasta-luego",
+      "en": "See you later.",
+      "es": "hasta luego",
+      "ja": "あとで見て下さい。",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.si",
+      "en": "Yes",
+      "es": "sí",
+      "ja": "あり はい",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.no",
+      "en": "No.",
+      "es": "no",
+      "ja": "ナンバー",
+      "speaker": "A"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Basic courtesy expressions to open and close a conversation.",
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
+    "ja": "礼儀の基本的な表現は、会話を開閉します。"
+  },
+  "generator": "build_lessons",
+  "id": "ja-u1-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Greet and say goodbye",
+      "Thank and say please"
+    ],
+    "es": [
+      "Saludar y despedirse",
+      "Dar las gracias y pedir por favor"
+    ],
+    "ja": [
+      "ご挨拶と挨拶",
+      "よろしくお願いします"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "hola",
+          "Hello.",
+          "詳しくはこちら"
+        ],
+        [
+          "buenos días",
+          "Good morning.",
+          "朝はおやすみ。"
+        ],
+        [
+          "buenas tardes",
+          "Good afternoon.",
+          "夕方からお越し下さい。"
+        ],
+        [
+          "buenas noches",
+          "Good night.",
+          "夜は、"
+        ],
+        [
+          "gracias",
+          "Thank you.",
+          "ありがとうございます。"
+        ],
+        [
+          "por favor",
+          "Please.",
+          "是非、どうぞよろしくお願いします。"
+        ],
+        [
+          "perdón / disculpe",
+          "Excuse me / excuse",
+          "私を抜く/言い訳"
+        ],
+        [
+          "adiós",
+          "Bye.",
+          "ツイート"
+        ],
+        [
+          "hasta luego",
+          "See you later.",
+          "あとで見て下さい。"
+        ],
+        [
+          "sí",
+          "Yes",
+          "あり はい"
+        ],
+        [
+          "no",
+          "No.",
+          "ナンバー"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Greetings and courtesy",
+    "es": "Saludos y cortesía",
+    "ja": "ご挨拶と礼儀"
+  },
+  "unit": 1
+}

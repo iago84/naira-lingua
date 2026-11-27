@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:trabajo-y-profesiones.trabajo-labor",
+    "c:trabajo-y-profesiones.empleo-trabajo",
+    "c:trabajo-y-profesiones.profesion-oficio",
+    "c:trabajo-y-profesiones.negocio-profesion",
+    "c:trabajo-y-profesiones.empresa-compania",
+    "c:trabajo-y-profesiones.oficina",
+    "c:trabajo-y-profesiones.oficina-despacho",
+    "c:trabajo-y-profesiones.dueno-propietario",
+    "c:trabajo-y-profesiones.jefe-a",
+    "c:trabajo-y-profesiones.empleado-a",
+    "c:trabajo-y-profesiones.colega",
+    "c:trabajo-y-profesiones.equipo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:trabajo-y-profesiones.trabajo-labor",
+      "en": "work /",
+      "es": "trabajo / labor",
+      "hi": "काम",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+      "en": "employment / work",
+      "es": "empleo / trabajo",
+      "hi": "नौकरी",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.profesion-oficio",
+      "en": "profession / trade",
+      "es": "profesión / oficio",
+      "hi": "पेशा",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.negocio-profesion",
+      "en": "business / profession",
+      "es": "negocio / profesión",
+      "hi": "व्यवसाय",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empresa-compania",
+      "en": "company / enterprise",
+      "es": "empresa / compañía",
+      "hi": "कंपनी",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.oficina",
+      "en": "office",
+      "es": "oficina",
+      "hi": "कार्यालय",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.oficina-despacho",
+      "en": "office /",
+      "es": "oficina / despacho",
+      "hi": "दफ़्तर",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.dueno-propietario",
+      "en": "owner / proprietor",
+      "es": "dueño / propietario",
+      "hi": "मालिक",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.jefe-a",
+      "en": "Chief",
+      "es": "jefe/a",
+      "hi": "बॉस",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empleado-a",
+      "en": "employee",
+      "es": "empleado/a",
+      "hi": "कर्मचारी",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.colega",
+      "en": "- I'm sorry, buddy.",
+      "es": "colega",
+      "hi": "सहकर्मी",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.equipo",
+      "en": "equipment",
+      "es": "equipo",
+      "hi": "टीम",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Professions and words from the world of work.",
+    "es": "Profesiones y palabras del mundo laboral.",
+    "hi": "दुनिया के कार्यों का प्रचार और वचन।"
+  },
+  "generator": "build_lessons",
+  "id": "hi-u12-l1",
+  "lang": "hi",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name professions",
+      "Talk about work"
+    ],
+    "es": [
+      "Nombrar profesiones",
+      "Hablar del trabajo"
+    ],
+    "hi": [
+      "Appoint पेशे",
+      "काम के बारे में बात करें"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "hi"
+      ],
+      "rows": [
+        [
+          "trabajo / labor",
+          "work /",
+          "काम"
+        ],
+        [
+          "empleo / trabajo",
+          "employment / work",
+          "नौकरी"
+        ],
+        [
+          "profesión / oficio",
+          "profession / trade",
+          "पेशा"
+        ],
+        [
+          "negocio / profesión",
+          "business / profession",
+          "व्यवसाय"
+        ],
+        [
+          "empresa / compañía",
+          "company / enterprise",
+          "कंपनी"
+        ],
+        [
+          "oficina",
+          "office",
+          "कार्यालय"
+        ],
+        [
+          "oficina / despacho",
+          "office /",
+          "दफ़्तर"
+        ],
+        [
+          "dueño / propietario",
+          "owner / proprietor",
+          "मालिक"
+        ],
+        [
+          "jefe/a",
+          "Chief",
+          "बॉस"
+        ],
+        [
+          "empleado/a",
+          "employee",
+          "कर्मचारी"
+        ],
+        [
+          "colega",
+          "- I'm sorry, buddy.",
+          "सहकर्मी"
+        ],
+        [
+          "equipo",
+          "equipment",
+          "टीम"
+        ]
+      ],
+      "title": "es · en · hi",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Work and professions",
+    "es": "El trabajo y las profesiones",
+    "hi": "कार्य और व्यवसाय"
+  },
+  "unit": 12
+}

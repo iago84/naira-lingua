@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:casa-y-hogar.casa-hogar",
+    "c:casa-y-hogar.edificio-casa",
+    "c:casa-y-hogar.apartamento",
+    "c:casa-y-hogar.habitacion-cuarto",
+    "c:casa-y-hogar.sala-de-estar",
+    "c:casa-y-hogar.dormitorio",
+    "c:casa-y-hogar.cocina-habitacion",
+    "c:casa-y-hogar.bano",
+    "c:casa-y-hogar.inodoro-lavabo",
+    "c:casa-y-hogar.balcon",
+    "c:casa-y-hogar.techo-azotea",
+    "c:casa-y-hogar.pared"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:casa-y-hogar.casa-hogar",
+      "en": "Home / home",
+      "es": "casa / hogar",
+      "speaker": "A",
+      "zh": "家/家 家 (中文(简体) )."
+    },
+    {
+      "concept": "c:casa-y-hogar.edificio-casa",
+      "en": "building / house",
+      "es": "edificio / casa",
+      "speaker": "B",
+      "zh": "建筑/住房"
+    },
+    {
+      "concept": "c:casa-y-hogar.apartamento",
+      "en": "apartment",
+      "es": "apartamento",
+      "speaker": "A",
+      "zh": "公寓( 公寓)"
+    },
+    {
+      "concept": "c:casa-y-hogar.habitacion-cuarto",
+      "en": "room / bedroom",
+      "es": "habitación / cuarto",
+      "speaker": "B",
+      "zh": "房间/卧室"
+    },
+    {
+      "concept": "c:casa-y-hogar.sala-de-estar",
+      "en": "living room",
+      "es": "sala de estar",
+      "speaker": "A",
+      "zh": "客厅"
+    },
+    {
+      "concept": "c:casa-y-hogar.dormitorio",
+      "en": "bedroom",
+      "es": "dormitorio",
+      "speaker": "B",
+      "zh": "卧室"
+    },
+    {
+      "concept": "c:casa-y-hogar.cocina-habitacion",
+      "en": "kitchen (room)",
+      "es": "cocina (habitación)",
+      "speaker": "A",
+      "zh": "厨房(房间)"
+    },
+    {
+      "concept": "c:casa-y-hogar.bano",
+      "en": "bathroom",
+      "es": "baño",
+      "speaker": "B",
+      "zh": "卫生间"
+    },
+    {
+      "concept": "c:casa-y-hogar.inodoro-lavabo",
+      "en": "toilet / sink",
+      "es": "inodoro / lavabo",
+      "speaker": "A",
+      "zh": "厕所/水槽"
+    },
+    {
+      "concept": "c:casa-y-hogar.balcon",
+      "en": "balcony",
+      "es": "balcón",
+      "speaker": "B",
+      "zh": "阳台"
+    },
+    {
+      "concept": "c:casa-y-hogar.techo-azotea",
+      "en": "roof / rooftop",
+      "es": "techo / azotea",
+      "speaker": "A",
+      "zh": "屋顶/屋顶"
+    },
+    {
+      "concept": "c:casa-y-hogar.pared",
+      "en": "wall",
+      "es": "pared",
+      "speaker": "B",
+      "zh": "墙"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "House vocabulary: rooms, furniture and everyday objects.",
+    "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos.",
+    "zh": "房屋词汇:房间,家具和日常物品."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u7-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name parts of the house",
+      "Describe household objects"
+    ],
+    "es": [
+      "Nombrar partes de la casa",
+      "Describir objetos del hogar"
+    ],
+    "zh": [
+      "房子的单位名称",
+      "描述家庭对象"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "casa / hogar",
+          "Home / home",
+          "家/家 家 (中文(简体) )."
+        ],
+        [
+          "edificio / casa",
+          "building / house",
+          "建筑/住房"
+        ],
+        [
+          "apartamento",
+          "apartment",
+          "公寓( 公寓)"
+        ],
+        [
+          "habitación / cuarto",
+          "room / bedroom",
+          "房间/卧室"
+        ],
+        [
+          "sala de estar",
+          "living room",
+          "客厅"
+        ],
+        [
+          "dormitorio",
+          "bedroom",
+          "卧室"
+        ],
+        [
+          "cocina (habitación)",
+          "kitchen (room)",
+          "厨房(房间)"
+        ],
+        [
+          "baño",
+          "bathroom",
+          "卫生间"
+        ],
+        [
+          "inodoro / lavabo",
+          "toilet / sink",
+          "厕所/水槽"
+        ],
+        [
+          "balcón",
+          "balcony",
+          "阳台"
+        ],
+        [
+          "techo / azotea",
+          "roof / rooftop",
+          "屋顶/屋顶"
+        ],
+        [
+          "pared",
+          "wall",
+          "墙"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Home and household",
+    "es": "La casa y el hogar",
+    "zh": "房子和家 房子和家 房子和家 房子和家 房子和家 房子和家 房子和家"
+  },
+  "unit": 7
+}

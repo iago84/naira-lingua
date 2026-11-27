@@ -11,11 +11,11 @@ export function renderStudy({ t, pairs, i, flipped }) {
   }
   const card = pairs[i];
   const front = `
-    <div class="term">${esc(card.src)}</div>
+    <div class="term" dir="auto">${esc(card.src)}</div>
     ${card.srcIpa ? `<div class="sub">${esc(card.srcIpa)}</div>` : ""}
     <div class="sub">${esc(card.icon)} ${esc(card.domain)}</div>`;
   const back = `
-    <div class="term">${esc(card.tgt)}</div>
+    <div class="term" dir="auto">${esc(card.tgt)}</div>
     ${card.tgtIpa ? `<div class="sub">${esc(card.tgtIpa)}</div>` : ""}
     ${card.tgtTranslit ? `<div class="sub">${esc(card.tgtTranslit)}</div>` : ""}`;
   const actions = flipped

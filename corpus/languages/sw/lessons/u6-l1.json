@@ -1,0 +1,199 @@
+{
+  "concepts": [
+    "c:comida-y-bebida.comida-comer",
+    "c:comida-y-bebida.comida-formal",
+    "c:comida-y-bebida.desayuno",
+    "c:comida-y-bebida.almuerzo",
+    "c:comida-y-bebida.cena",
+    "c:comida-y-bebida.agua",
+    "c:comida-y-bebida.leche",
+    "c:comida-y-bebida.te",
+    "c:comida-y-bebida.cafe",
+    "c:comida-y-bebida.zumo-jugo",
+    "c:comida-y-bebida.lassi-yogur-batido",
+    "c:comida-y-bebida.alcohol-vino"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:comida-y-bebida.comida-comer",
+      "en": "food / eat",
+      "es": "comida / comer",
+      "speaker": "A",
+      "sw": "comida"
+    },
+    {
+      "concept": "c:comida-y-bebida.comida-formal",
+      "en": "food (formal)",
+      "es": "comida (formal)",
+      "speaker": "B",
+      "sw": "chakula"
+    },
+    {
+      "concept": "c:comida-y-bebida.desayuno",
+      "en": "breakfast",
+      "es": "desayuno",
+      "speaker": "A",
+      "sw": "kiamsha kinywa / kifungua kinywa"
+    },
+    {
+      "concept": "c:comida-y-bebida.almuerzo",
+      "en": "lunch",
+      "es": "almuerzo",
+      "speaker": "B",
+      "sw": "chakula cha mchana"
+    },
+    {
+      "concept": "c:comida-y-bebida.cena",
+      "en": "dinner",
+      "es": "cena",
+      "speaker": "A",
+      "sw": "chakula cha jioni"
+    },
+    {
+      "concept": "c:comida-y-bebida.agua",
+      "en": "water",
+      "es": "agua",
+      "speaker": "B",
+      "sw": "maji"
+    },
+    {
+      "concept": "c:comida-y-bebida.leche",
+      "en": "milk",
+      "es": "leche",
+      "speaker": "A",
+      "sw": "maziwa"
+    },
+    {
+      "concept": "c:comida-y-bebida.te",
+      "en": "tea",
+      "es": "té",
+      "speaker": "B",
+      "sw": "chai"
+    },
+    {
+      "concept": "c:comida-y-bebida.cafe",
+      "en": "coffee",
+      "es": "café",
+      "speaker": "A",
+      "sw": "kahawa"
+    },
+    {
+      "concept": "c:comida-y-bebida.zumo-jugo",
+      "en": "juice / juices",
+      "es": "zumo / jugo",
+      "speaker": "B",
+      "sw": "zumo"
+    },
+    {
+      "concept": "c:comida-y-bebida.lassi-yogur-batido",
+      "en": "lassi (yoghurt beaten)",
+      "es": "lassi (yogur batido)",
+      "speaker": "A",
+      "sw": "lassi"
+    },
+    {
+      "concept": "c:comida-y-bebida.alcohol-vino",
+      "en": "alcohol / wine",
+      "es": "alcohol / vino",
+      "speaker": "B",
+      "sw": "divai / mvinyo"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Basic foods and drinks, very useful when shopping or eating out.",
+    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u6-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name food and drinks",
+      "Order in a restaurant"
+    ],
+    "es": [
+      "Nombrar alimentos y bebidas",
+      "Pedir en un restaurante"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "comida / comer",
+          "food / eat",
+          "comida"
+        ],
+        [
+          "comida (formal)",
+          "food (formal)",
+          "chakula"
+        ],
+        [
+          "desayuno",
+          "breakfast",
+          "kiamsha kinywa / kifungua kinywa"
+        ],
+        [
+          "almuerzo",
+          "lunch",
+          "chakula cha mchana"
+        ],
+        [
+          "cena",
+          "dinner",
+          "chakula cha jioni"
+        ],
+        [
+          "agua",
+          "water",
+          "maji"
+        ],
+        [
+          "leche",
+          "milk",
+          "maziwa"
+        ],
+        [
+          "té",
+          "tea",
+          "chai"
+        ],
+        [
+          "café",
+          "coffee",
+          "kahawa"
+        ],
+        [
+          "zumo / jugo",
+          "juice / juices",
+          "zumo"
+        ],
+        [
+          "lassi (yogur batido)",
+          "lassi (yoghurt beaten)",
+          "lassi"
+        ],
+        [
+          "alcohol / vino",
+          "alcohol / wine",
+          "divai / mvinyo"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Food and drink",
+    "es": "La comida y la bebida"
+  },
+  "unit": 6
+}

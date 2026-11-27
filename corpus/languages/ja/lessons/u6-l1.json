@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:comida-y-bebida.comida-comer",
+    "c:comida-y-bebida.comida-formal",
+    "c:comida-y-bebida.desayuno",
+    "c:comida-y-bebida.almuerzo",
+    "c:comida-y-bebida.cena",
+    "c:comida-y-bebida.agua",
+    "c:comida-y-bebida.leche",
+    "c:comida-y-bebida.te",
+    "c:comida-y-bebida.cafe",
+    "c:comida-y-bebida.zumo-jugo",
+    "c:comida-y-bebida.lassi-yogur-batido",
+    "c:comida-y-bebida.alcohol-vino"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:comida-y-bebida.comida-comer",
+      "en": "food / eat",
+      "es": "comida / comer",
+      "ja": "食・食べ方",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.comida-formal",
+      "en": "food (formal)",
+      "es": "comida (formal)",
+      "ja": "食品(フォーマル)",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:comida-y-bebida.desayuno",
+      "en": "breakfast",
+      "es": "desayuno",
+      "ja": "朝ごはん",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.almuerzo",
+      "en": "lunch",
+      "es": "almuerzo",
+      "ja": "ランチ",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:comida-y-bebida.cena",
+      "en": "dinner",
+      "es": "cena",
+      "ja": "ディナー",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.agua",
+      "en": "water",
+      "es": "agua",
+      "ja": "ウォータークラス",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:comida-y-bebida.leche",
+      "en": "milk",
+      "es": "leche",
+      "ja": "ミルク",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.te",
+      "en": "tea",
+      "es": "té",
+      "ja": "ティーチャー",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:comida-y-bebida.cafe",
+      "en": "coffee",
+      "es": "café",
+      "ja": "コーヒー",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.zumo-jugo",
+      "en": "juice / juices",
+      "es": "zumo / jugo",
+      "ja": "ジュース/ジュース",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:comida-y-bebida.lassi-yogur-batido",
+      "en": "lassi (yoghurt beaten)",
+      "es": "lassi (yogur batido)",
+      "ja": "lassi (ヨーグルトの殴打)",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.alcohol-vino",
+      "en": "alcohol / wine",
+      "es": "alcohol / vino",
+      "ja": "アルコール・ワイン",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Basic foods and drinks, very useful when shopping or eating out.",
+    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
+    "ja": "家庭外で購入したり食べるときに、基本的な食べ物や飲み物は非常に便利です。"
+  },
+  "generator": "build_lessons",
+  "id": "ja-u6-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name food and drinks",
+      "Order in a restaurant"
+    ],
+    "es": [
+      "Nombrar alimentos y bebidas",
+      "Pedir en un restaurante"
+    ],
+    "ja": [
+      "飲食・飲料の企画",
+      "お食事処にお願い"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "comida / comer",
+          "food / eat",
+          "食・食べ方"
+        ],
+        [
+          "comida (formal)",
+          "food (formal)",
+          "食品(フォーマル)"
+        ],
+        [
+          "desayuno",
+          "breakfast",
+          "朝ごはん"
+        ],
+        [
+          "almuerzo",
+          "lunch",
+          "ランチ"
+        ],
+        [
+          "cena",
+          "dinner",
+          "ディナー"
+        ],
+        [
+          "agua",
+          "water",
+          "ウォータークラス"
+        ],
+        [
+          "leche",
+          "milk",
+          "ミルク"
+        ],
+        [
+          "té",
+          "tea",
+          "ティーチャー"
+        ],
+        [
+          "café",
+          "coffee",
+          "コーヒー"
+        ],
+        [
+          "zumo / jugo",
+          "juice / juices",
+          "ジュース/ジュース"
+        ],
+        [
+          "lassi (yogur batido)",
+          "lassi (yoghurt beaten)",
+          "lassi (ヨーグルトの殴打)"
+        ],
+        [
+          "alcohol / vino",
+          "alcohol / wine",
+          "アルコール・ワイン"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Food and drink",
+    "es": "La comida y la bebida",
+    "ja": "フード&ドリンク"
+  },
+  "unit": 6
+}

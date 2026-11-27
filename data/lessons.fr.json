@@ -1,101 +1,2449 @@
 [
   {
     "concepts": [
-      "c:saludos.hola",
-      "c:saludos.gracias",
-      "c:saludos.adios"
+      "c:saludos-y-expresiones.hola",
+      "c:saludos-y-expresiones.buenos-dias",
+      "c:saludos-y-expresiones.buenas-tardes",
+      "c:saludos-y-expresiones.buenas-noches",
+      "c:saludos-y-expresiones.gracias",
+      "c:saludos-y-expresiones.por-favor",
+      "c:saludos-y-expresiones.perdon-disculpe",
+      "c:saludos-y-expresiones.adios",
+      "c:saludos-y-expresiones.hasta-luego",
+      "c:saludos-y-expresiones.si",
+      "c:saludos-y-expresiones.no"
     ],
     "dialogue": [
       {
-        "concept": "c:saludos.hola",
-        "es": "¡Hola!",
-        "fr": "Bonjour !",
+        "concept": "c:saludos-y-expresiones.hola",
+        "en": "Hello.",
+        "es": "hola",
+        "fr": "bonjour",
         "speaker": "A"
       },
       {
-        "es": "¡Hola! ¿Qué tal?",
-        "fr": "Salut ! Ça va ?",
+        "concept": "c:saludos-y-expresiones.buenos-dias",
+        "en": "Good morning.",
+        "es": "buenos días",
+        "fr": "Bonjour.",
         "speaker": "B"
       },
       {
-        "concept": "c:saludos.gracias",
-        "es": "Bien, gracias.",
-        "fr": "Ça va bien, merci.",
+        "concept": "c:saludos-y-expresiones.buenas-tardes",
+        "en": "Good afternoon.",
+        "es": "buenas tardes",
+        "fr": "Bonjour.",
         "speaker": "A"
       },
       {
-        "concept": "c:saludos.adios",
-        "es": "¡Adiós!",
-        "fr": "Au revoir !",
+        "concept": "c:saludos-y-expresiones.buenas-noches",
+        "en": "Good night.",
+        "es": "buenas noches",
+        "fr": "Bonne nuit.",
         "speaker": "B"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.gracias",
+        "en": "Thank you.",
+        "es": "gracias",
+        "fr": "merci",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.por-favor",
+        "en": "Please.",
+        "es": "por favor",
+        "fr": "s'il vous plaît",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.perdon-disculpe",
+        "en": "Excuse me / excuse",
+        "es": "perdón / disculpe",
+        "fr": "Excusez-moi / excusez-vous",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.adios",
+        "en": "Bye.",
+        "es": "adiós",
+        "fr": "au revoir",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.hasta-luego",
+        "en": "See you later.",
+        "es": "hasta luego",
+        "fr": "A tout à l'heure.",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.si",
+        "en": "Yes",
+        "es": "sí",
+        "fr": "oui",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.no",
+        "en": "No.",
+        "es": "no",
+        "fr": "non",
+        "speaker": "A"
       }
     ],
     "exercises": [],
     "explanation": {
-      "es": "«Bonjour» es el saludo estándar de día; «salut» es informal. «Merci» agradece y «au revoir» despide."
+      "en": "Basic courtesy expressions to open and close a conversation.",
+      "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
+      "fr": "Expressions de courtoisie pour ouvrir et clore une conversation."
     },
+    "generator": "build_lessons",
     "id": "fr-u1-l1",
     "lang": "fr",
     "lesson": 1,
     "objectives": {
+      "en": [
+        "Greet and say goodbye",
+        "Thank and say please"
+      ],
       "es": [
-        "Saludar, despedirse y dar las gracias"
+        "Saludar y despedirse",
+        "Dar las gracias y pedir por favor"
+      ],
+      "fr": [
+        "Salutation et adieu",
+        "Merci et demandez-lui"
       ]
     },
     "tables": [
       {
         "columns": [
-          "persona",
-          "presente"
+          "es",
+          "en",
+          "fr"
         ],
         "rows": [
           [
-            "je",
-            "suis"
+            "hola",
+            "Hello.",
+            "bonjour"
           ],
           [
-            "tu",
-            "es"
+            "buenos días",
+            "Good morning.",
+            "Bonjour."
           ],
           [
-            "il/elle",
-            "est"
+            "buenas tardes",
+            "Good afternoon.",
+            "Bonjour."
           ],
           [
-            "nous",
-            "sommes"
+            "buenas noches",
+            "Good night.",
+            "Bonne nuit."
           ],
           [
-            "vous",
-            "êtes"
+            "gracias",
+            "Thank you.",
+            "merci"
           ],
           [
-            "ils/elles",
-            "sont"
+            "por favor",
+            "Please.",
+            "s'il vous plaît"
+          ],
+          [
+            "perdón / disculpe",
+            "Excuse me / excuse",
+            "Excusez-moi / excusez-vous"
+          ],
+          [
+            "adiós",
+            "Bye.",
+            "au revoir"
+          ],
+          [
+            "hasta luego",
+            "See you later.",
+            "A tout à l'heure."
+          ],
+          [
+            "sí",
+            "Yes",
+            "oui"
+          ],
+          [
+            "no",
+            "No.",
+            "non"
           ]
         ],
-        "title": "être (ser/estar)",
-        "type": "verb"
-      },
-      {
-        "columns": [
-          "masc",
-          "fem"
-        ],
-        "rows": [
-          [
-            "grand",
-            "grande"
-          ]
-        ],
-        "title": "grand (grande)",
-        "type": "adjective"
+        "title": "es · en · fr",
+        "type": "vocabulary"
       }
     ],
     "title": {
-      "es": "Saludos",
-      "fr": "Salutations"
+      "en": "Greetings and courtesy",
+      "es": "Saludos y cortesía",
+      "fr": "Salutations et courtoisie"
     },
     "unit": 1
+  },
+  {
+    "concepts": [
+      "c:ciudad-y-lugares.ciudad",
+      "c:ciudad-y-lugares.pueblo-aldea",
+      "c:ciudad-y-lugares.pais",
+      "c:ciudad-y-lugares.estado-provincia",
+      "c:ciudad-y-lugares.capital",
+      "c:ciudad-y-lugares.zona-area",
+      "c:ciudad-y-lugares.calle-carretera",
+      "c:ciudad-y-lugares.callejon",
+      "c:ciudad-y-lugares.cruce-interseccion",
+      "c:ciudad-y-lugares.puente",
+      "c:ciudad-y-lugares.plaza",
+      "c:ciudad-y-lugares.mercado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:ciudad-y-lugares.ciudad",
+        "en": "city",
+        "es": "ciudad",
+        "fr": "ville",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.pueblo-aldea",
+        "en": "village / town",
+        "es": "pueblo / aldea",
+        "fr": "village / ville",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.pais",
+        "en": "country",
+        "es": "país",
+        "fr": "Pays",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.estado-provincia",
+        "en": "State / province",
+        "es": "estado / provincia",
+        "fr": "État/province",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.capital",
+        "en": "capital",
+        "es": "capital",
+        "fr": "capitaux",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.zona-area",
+        "en": "area / zone",
+        "es": "zona / área",
+        "fr": "zone/zone",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.calle-carretera",
+        "en": "Street / road",
+        "es": "calle / carretera",
+        "fr": "Rue/route",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.callejon",
+        "en": "alley",
+        "es": "callejón",
+        "fr": "ruelle",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.cruce-interseccion",
+        "en": "cross / intersection",
+        "es": "cruce / intersección",
+        "fr": "Croix/intersection",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.puente",
+        "en": "bridge",
+        "es": "puente",
+        "fr": "pont",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.plaza",
+        "en": "square",
+        "es": "plaza",
+        "fr": "carré",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.mercado",
+        "en": "market",
+        "es": "mercado",
+        "fr": "marché",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Places in the city to move around and ask for directions.",
+      "es": "Lugares de la ciudad para moverse y pedir indicaciones.",
+      "fr": "Des endroits dans la ville pour se déplacer et demander des directions."
+    },
+    "generator": "build_lessons",
+    "id": "fr-u10-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name places in the city",
+        "Ask for directions"
+      ],
+      "es": [
+        "Nombrar lugares de la ciudad",
+        "Pedir direcciones"
+      ],
+      "fr": [
+        "Nom des lieux dans la ville",
+        "Demander des adresses"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "rows": [
+          [
+            "ciudad",
+            "city",
+            "ville"
+          ],
+          [
+            "pueblo / aldea",
+            "village / town",
+            "village / ville"
+          ],
+          [
+            "país",
+            "country",
+            "Pays"
+          ],
+          [
+            "estado / provincia",
+            "State / province",
+            "État/province"
+          ],
+          [
+            "capital",
+            "capital",
+            "capitaux"
+          ],
+          [
+            "zona / área",
+            "area / zone",
+            "zone/zone"
+          ],
+          [
+            "calle / carretera",
+            "Street / road",
+            "Rue/route"
+          ],
+          [
+            "callejón",
+            "alley",
+            "ruelle"
+          ],
+          [
+            "cruce / intersección",
+            "cross / intersection",
+            "Croix/intersection"
+          ],
+          [
+            "puente",
+            "bridge",
+            "pont"
+          ],
+          [
+            "plaza",
+            "square",
+            "carré"
+          ],
+          [
+            "mercado",
+            "market",
+            "marché"
+          ]
+        ],
+        "title": "es · en · fr",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "City and places",
+      "es": "La ciudad y los lugares",
+      "fr": "La ville et les lieux"
+    },
+    "unit": 10
+  },
+  {
+    "concepts": [
+      "c:ropa-y-accesorios.ropa",
+      "c:ropa-y-accesorios.camisa",
+      "c:ropa-y-accesorios.camiseta",
+      "c:ropa-y-accesorios.pantalon",
+      "c:ropa-y-accesorios.vaqueros-jeans",
+      "c:ropa-y-accesorios.pantalones-cortos",
+      "c:ropa-y-accesorios.falda",
+      "c:ropa-y-accesorios.vestido",
+      "c:ropa-y-accesorios.sari",
+      "c:ropa-y-accesorios.salwar-kameez",
+      "c:ropa-y-accesorios.kurta",
+      "c:ropa-y-accesorios.pijama"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:ropa-y-accesorios.ropa",
+        "en": "clothing",
+        "es": "ropa",
+        "fr": "vêtements",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.camisa",
+        "en": "shirt",
+        "es": "camisa",
+        "fr": "chemise",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.camiseta",
+        "en": "T-shirt",
+        "es": "camiseta",
+        "fr": "T-shirt",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pantalon",
+        "en": "Pants",
+        "es": "pantalón",
+        "fr": "Pantalons",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+        "en": "jeans / jans",
+        "es": "vaqueros / jeans",
+        "fr": "jeans / jans",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pantalones-cortos",
+        "en": "Short pants",
+        "es": "pantalones cortos",
+        "fr": "Pantalon court",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.falda",
+        "en": "skirt",
+        "es": "falda",
+        "fr": "jupe",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.vestido",
+        "en": "dress up",
+        "es": "vestido",
+        "fr": "Habille-toi",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.sari",
+        "en": "sari",
+        "es": "sari",
+        "fr": "sari",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.salwar-kameez",
+        "en": "salwar kameez",
+        "es": "salwar kameez",
+        "fr": "salwar kameez",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.kurta",
+        "en": "kurta",
+        "es": "kurta",
+        "fr": "Kurta",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pijama",
+        "en": "pajamas",
+        "es": "pijama",
+        "fr": "pyjama",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Clothes and accessories, with words useful for clothes shopping.",
+      "es": "Prendas y accesorios, con palabras útiles para comprar ropa.",
+      "fr": "Stylos et accessoires, avec des mots utiles pour acheter des vêtements."
+    },
+    "generator": "build_lessons",
+    "id": "fr-u11-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name clothes",
+        "Go shopping"
+      ],
+      "es": [
+        "Nombrar prendas de ropa",
+        "Ir de compras"
+      ],
+      "fr": [
+        "Désigner des vêtements",
+        "Aller faire des courses"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "rows": [
+          [
+            "ropa",
+            "clothing",
+            "vêtements"
+          ],
+          [
+            "camisa",
+            "shirt",
+            "chemise"
+          ],
+          [
+            "camiseta",
+            "T-shirt",
+            "T-shirt"
+          ],
+          [
+            "pantalón",
+            "Pants",
+            "Pantalons"
+          ],
+          [
+            "vaqueros / jeans",
+            "jeans / jans",
+            "jeans / jans"
+          ],
+          [
+            "pantalones cortos",
+            "Short pants",
+            "Pantalon court"
+          ],
+          [
+            "falda",
+            "skirt",
+            "jupe"
+          ],
+          [
+            "vestido",
+            "dress up",
+            "Habille-toi"
+          ],
+          [
+            "sari",
+            "sari",
+            "sari"
+          ],
+          [
+            "salwar kameez",
+            "salwar kameez",
+            "salwar kameez"
+          ],
+          [
+            "kurta",
+            "kurta",
+            "Kurta"
+          ],
+          [
+            "pijama",
+            "pajamas",
+            "pyjama"
+          ]
+        ],
+        "title": "es · en · fr",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Clothing and accessories",
+      "es": "La ropa y los accesorios",
+      "fr": "Vêtements et accessoires"
+    },
+    "unit": 11
+  },
+  {
+    "concepts": [
+      "c:trabajo-y-profesiones.trabajo-labor",
+      "c:trabajo-y-profesiones.empleo-trabajo",
+      "c:trabajo-y-profesiones.profesion-oficio",
+      "c:trabajo-y-profesiones.negocio-profesion",
+      "c:trabajo-y-profesiones.empresa-compania",
+      "c:trabajo-y-profesiones.oficina",
+      "c:trabajo-y-profesiones.oficina-despacho",
+      "c:trabajo-y-profesiones.dueno-propietario",
+      "c:trabajo-y-profesiones.jefe-a",
+      "c:trabajo-y-profesiones.empleado-a",
+      "c:trabajo-y-profesiones.colega",
+      "c:trabajo-y-profesiones.equipo"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:trabajo-y-profesiones.trabajo-labor",
+        "en": "work /",
+        "es": "trabajo / labor",
+        "fr": "Travail /",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+        "en": "employment / work",
+        "es": "empleo / trabajo",
+        "fr": "emploi / travail",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.profesion-oficio",
+        "en": "profession / trade",
+        "es": "profesión / oficio",
+        "fr": "profession / commerce",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.negocio-profesion",
+        "en": "business / profession",
+        "es": "negocio / profesión",
+        "fr": "entreprise / profession",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empresa-compania",
+        "en": "company / enterprise",
+        "es": "empresa / compañía",
+        "fr": "entreprise / société",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.oficina",
+        "en": "office",
+        "es": "oficina",
+        "fr": "Bureau",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.oficina-despacho",
+        "en": "office /",
+        "es": "oficina / despacho",
+        "fr": "bureau /",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.dueno-propietario",
+        "en": "owner / proprietor",
+        "es": "dueño / propietario",
+        "fr": "propriétaire / titulaire",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.jefe-a",
+        "en": "Chief",
+        "es": "jefe/a",
+        "fr": "Chef",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empleado-a",
+        "en": "employee",
+        "es": "empleado/a",
+        "fr": "salarié",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.colega",
+        "en": "- I'm sorry, buddy.",
+        "es": "colega",
+        "fr": "- Désolé, mon pote.",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.equipo",
+        "en": "equipment",
+        "es": "equipo",
+        "fr": "Matériel",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Professions and words from the world of work.",
+      "es": "Profesiones y palabras del mundo laboral.",
+      "fr": "Professions et mots du travail mondial."
+    },
+    "generator": "build_lessons",
+    "id": "fr-u12-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name professions",
+        "Talk about work"
+      ],
+      "es": [
+        "Nombrar profesiones",
+        "Hablar del trabajo"
+      ],
+      "fr": [
+        "Nommer des professions",
+        "Parlez de travail"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "rows": [
+          [
+            "trabajo / labor",
+            "work /",
+            "Travail /"
+          ],
+          [
+            "empleo / trabajo",
+            "employment / work",
+            "emploi / travail"
+          ],
+          [
+            "profesión / oficio",
+            "profession / trade",
+            "profession / commerce"
+          ],
+          [
+            "negocio / profesión",
+            "business / profession",
+            "entreprise / profession"
+          ],
+          [
+            "empresa / compañía",
+            "company / enterprise",
+            "entreprise / société"
+          ],
+          [
+            "oficina",
+            "office",
+            "Bureau"
+          ],
+          [
+            "oficina / despacho",
+            "office /",
+            "bureau /"
+          ],
+          [
+            "dueño / propietario",
+            "owner / proprietor",
+            "propriétaire / titulaire"
+          ],
+          [
+            "jefe/a",
+            "Chief",
+            "Chef"
+          ],
+          [
+            "empleado/a",
+            "employee",
+            "salarié"
+          ],
+          [
+            "colega",
+            "- I'm sorry, buddy.",
+            "- Désolé, mon pote."
+          ],
+          [
+            "equipo",
+            "equipment",
+            "Matériel"
+          ]
+        ],
+        "title": "es · en · fr",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Work and professions",
+      "es": "El trabajo y las profesiones",
+      "fr": "Travail et professions"
+    },
+    "unit": 12
+  },
+  {
+    "concepts": [
+      "c:numeros.cero",
+      "c:numeros.uno",
+      "c:numeros.dos",
+      "c:numeros.tres",
+      "c:numeros.cuatro",
+      "c:numeros.cinco",
+      "c:numeros.seis",
+      "c:numeros.siete",
+      "c:numeros.ocho",
+      "c:numeros.nueve",
+      "c:numeros.diez",
+      "c:numeros.once"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:numeros.cero",
+        "en": "zero",
+        "es": "cero",
+        "fr": "zéro",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.uno",
+        "en": "one",
+        "es": "uno",
+        "fr": "un",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:numeros.dos",
+        "en": "two",
+        "es": "dos",
+        "fr": "deux",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.tres",
+        "en": "three",
+        "es": "tres",
+        "fr": "trois",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:numeros.cuatro",
+        "en": "4",
+        "es": "cuatro",
+        "fr": "4",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.cinco",
+        "en": "five",
+        "es": "cinco",
+        "fr": "cinq",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:numeros.seis",
+        "en": "6",
+        "es": "seis",
+        "fr": "6",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.siete",
+        "en": "seven",
+        "es": "siete",
+        "fr": "sept",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:numeros.ocho",
+        "en": "8",
+        "es": "ocho",
+        "fr": "8",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.nueve",
+        "en": "9",
+        "es": "nueve",
+        "fr": "9",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:numeros.diez",
+        "en": "10",
+        "es": "diez",
+        "fr": "10",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.once",
+        "en": "11",
+        "es": "once",
+        "fr": "11",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Everyday numbers: used to count, give your age and talk about prices.",
+      "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
+      "fr": "Les numéros du jour à ce jour: ils sont utilisés pour le comptage, l'âge et le prix."
+    },
+    "generator": "build_lessons",
+    "id": "fr-u2-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Count from zero to ten",
+        "Recognise basic numbers"
+      ],
+      "es": [
+        "Contar del cero al diez",
+        "Reconocer los números básicos"
+      ],
+      "fr": [
+        "Nombre de zéro à dix",
+        "Reconnaître les numéros de base"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "rows": [
+          [
+            "cero",
+            "zero",
+            "zéro"
+          ],
+          [
+            "uno",
+            "one",
+            "un"
+          ],
+          [
+            "dos",
+            "two",
+            "deux"
+          ],
+          [
+            "tres",
+            "three",
+            "trois"
+          ],
+          [
+            "cuatro",
+            "4",
+            "4"
+          ],
+          [
+            "cinco",
+            "five",
+            "cinq"
+          ],
+          [
+            "seis",
+            "6",
+            "6"
+          ],
+          [
+            "siete",
+            "seven",
+            "sept"
+          ],
+          [
+            "ocho",
+            "8",
+            "8"
+          ],
+          [
+            "nueve",
+            "9",
+            "9"
+          ],
+          [
+            "diez",
+            "10",
+            "10"
+          ],
+          [
+            "once",
+            "11",
+            "11"
+          ]
+        ],
+        "title": "es · en · fr",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Numbers",
+      "es": "Los números",
+      "fr": "Les chiffres"
+    },
+    "unit": 2
+  },
+  {
+    "concepts": [
+      "c:colores.rojo",
+      "c:colores.azul",
+      "c:colores.verde",
+      "c:colores.amarillo",
+      "c:colores.negro",
+      "c:colores.blanco",
+      "c:colores.naranja",
+      "c:colores.rosa",
+      "c:colores.morado-violeta",
+      "c:colores.marron",
+      "c:colores.gris",
+      "c:colores.dorado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:colores.rojo",
+        "en": "red",
+        "es": "rojo",
+        "fr": "rouge",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.azul",
+        "en": "blue",
+        "es": "azul",
+        "fr": "bleu",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:colores.verde",
+        "en": "green",
+        "es": "verde",
+        "fr": "vert",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.amarillo",
+        "en": "yellow",
+        "es": "amarillo",
+        "fr": "jaune",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:colores.negro",
+        "en": "black",
+        "es": "negro",
+        "fr": "noir",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.blanco",
+        "en": "white",
+        "es": "blanco",
+        "fr": "blanc",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:colores.naranja",
+        "en": "orange",
+        "es": "naranja",
+        "fr": "orange",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.rosa",
+        "en": "pink",
+        "es": "rosa",
+        "fr": "rose",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:colores.morado-violeta",
+        "en": "purple / violet",
+        "es": "morado / violeta",
+        "fr": "pourpre/violet",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.marron",
+        "en": "brown",
+        "es": "marrón",
+        "fr": "marron",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:colores.gris",
+        "en": "grey",
+        "es": "gris",
+        "fr": "gris",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.dorado",
+        "en": "gold",
+        "es": "dorado",
+        "fr": "or",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Colours are used to describe objects, clothes and places.",
+      "es": "Los colores sirven para describir objetos, ropa y lugares.",
+      "fr": "Les couleurs servent à décrire des objets, des vêtements et des lieux."
+    },
+    "generator": "build_lessons",
+    "id": "fr-u3-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name basic colours",
+        "Describe objects by colour"
+      ],
+      "es": [
+        "Nombrar los colores básicos",
+        "Describir objetos por su color"
+      ],
+      "fr": [
+        "Nommez les couleurs de base",
+        "Décrire les objets par couleur"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "rows": [
+          [
+            "rojo",
+            "red",
+            "rouge"
+          ],
+          [
+            "azul",
+            "blue",
+            "bleu"
+          ],
+          [
+            "verde",
+            "green",
+            "vert"
+          ],
+          [
+            "amarillo",
+            "yellow",
+            "jaune"
+          ],
+          [
+            "negro",
+            "black",
+            "noir"
+          ],
+          [
+            "blanco",
+            "white",
+            "blanc"
+          ],
+          [
+            "naranja",
+            "orange",
+            "orange"
+          ],
+          [
+            "rosa",
+            "pink",
+            "rose"
+          ],
+          [
+            "morado / violeta",
+            "purple / violet",
+            "pourpre/violet"
+          ],
+          [
+            "marrón",
+            "brown",
+            "marron"
+          ],
+          [
+            "gris",
+            "grey",
+            "gris"
+          ],
+          [
+            "dorado",
+            "gold",
+            "or"
+          ]
+        ],
+        "title": "es · en · fr",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Colours",
+      "es": "Los colores",
+      "fr": "Les couleurs"
+    },
+    "unit": 3
+  },
+  {
+    "concepts": [
+      "c:familia-y-personas.familia",
+      "c:familia-y-personas.madre",
+      "c:familia-y-personas.padre",
+      "c:familia-y-personas.padres",
+      "c:familia-y-personas.hijo",
+      "c:familia-y-personas.hija",
+      "c:familia-y-personas.nino-a",
+      "c:familia-y-personas.hermano",
+      "c:familia-y-personas.hermana",
+      "c:familia-y-personas.hermanos",
+      "c:familia-y-personas.abuelo-paterno",
+      "c:familia-y-personas.abuela-paterna"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:familia-y-personas.familia",
+        "en": "Family",
+        "es": "familia",
+        "fr": "Famille",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.madre",
+        "en": "Mother",
+        "es": "madre",
+        "fr": "Mère",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:familia-y-personas.padre",
+        "en": "Father",
+        "es": "padre",
+        "fr": "Père",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.padres",
+        "en": "parents",
+        "es": "padres",
+        "fr": "parents",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:familia-y-personas.hijo",
+        "en": "child",
+        "es": "hijo",
+        "fr": "enfant",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.hija",
+        "en": "daughter",
+        "es": "hija",
+        "fr": "fille",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:familia-y-personas.nino-a",
+        "en": "child",
+        "es": "niño/a",
+        "fr": "enfant",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.hermano",
+        "en": "brother",
+        "es": "hermano",
+        "fr": "frère",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:familia-y-personas.hermana",
+        "en": "sister",
+        "es": "hermana",
+        "fr": "soeur",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.hermanos",
+        "en": "brothers",
+        "es": "hermanos",
+        "fr": "frères",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:familia-y-personas.abuelo-paterno",
+        "en": "paternal grandfather",
+        "es": "abuelo paterno",
+        "fr": "grand-père paternel",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.abuela-paterna",
+        "en": "Father's grandmother",
+        "es": "abuela paterna",
+        "fr": "La grand-mère de père",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Words to refer to family and the people around you.",
+      "es": "Palabras para referirse a la familia y a las personas cercanas.",
+      "fr": "Des mots à faire référence à la famille et aux gens qui sont proches."
+    },
+    "generator": "build_lessons",
+    "id": "fr-u4-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name family members",
+        "Talk about people"
+      ],
+      "es": [
+        "Nombrar a los miembros de la familia",
+        "Hablar de personas"
+      ],
+      "fr": [
+        "Nommer des membres de la famille",
+        "Parlez des gens"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "rows": [
+          [
+            "familia",
+            "Family",
+            "Famille"
+          ],
+          [
+            "madre",
+            "Mother",
+            "Mère"
+          ],
+          [
+            "padre",
+            "Father",
+            "Père"
+          ],
+          [
+            "padres",
+            "parents",
+            "parents"
+          ],
+          [
+            "hijo",
+            "child",
+            "enfant"
+          ],
+          [
+            "hija",
+            "daughter",
+            "fille"
+          ],
+          [
+            "niño/a",
+            "child",
+            "enfant"
+          ],
+          [
+            "hermano",
+            "brother",
+            "frère"
+          ],
+          [
+            "hermana",
+            "sister",
+            "soeur"
+          ],
+          [
+            "hermanos",
+            "brothers",
+            "frères"
+          ],
+          [
+            "abuelo paterno",
+            "paternal grandfather",
+            "grand-père paternel"
+          ],
+          [
+            "abuela paterna",
+            "Father's grandmother",
+            "La grand-mère de père"
+          ]
+        ],
+        "title": "es · en · fr",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Family and people",
+      "es": "La familia y las personas",
+      "fr": "Famille et individus"
+    },
+    "unit": 4
+  },
+  {
+    "concepts": [
+      "c:cuerpo-humano.cuerpo",
+      "c:cuerpo-humano.cabeza",
+      "c:cuerpo-humano.cabello-pelo",
+      "c:cuerpo-humano.cara-rostro",
+      "c:cuerpo-humano.frente",
+      "c:cuerpo-humano.ojo",
+      "c:cuerpo-humano.ojos",
+      "c:cuerpo-humano.ceja",
+      "c:cuerpo-humano.parpado-pestana",
+      "c:cuerpo-humano.oreja-oido",
+      "c:cuerpo-humano.nariz",
+      "c:cuerpo-humano.boca"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:cuerpo-humano.cuerpo",
+        "en": "body",
+        "es": "cuerpo",
+        "fr": "corps",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.cabeza",
+        "en": "head",
+        "es": "cabeza",
+        "fr": "tête",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:cuerpo-humano.cabello-pelo",
+        "en": "hair / hair-",
+        "es": "cabello / pelo",
+        "fr": "cheveux / cheveux...",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.cara-rostro",
+        "en": "face / side",
+        "es": "cara / rostro",
+        "fr": "face/face",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:cuerpo-humano.frente",
+        "en": "front",
+        "es": "frente",
+        "fr": "devant",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.ojo",
+        "en": "eye",
+        "es": "ojo",
+        "fr": "yeux",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:cuerpo-humano.ojos",
+        "en": "eyes",
+        "es": "ojos",
+        "fr": "yeux",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.ceja",
+        "en": "Beef",
+        "es": "ceja",
+        "fr": "Boeuf",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:cuerpo-humano.parpado-pestana",
+        "en": "eyelid / tab",
+        "es": "párpado / pestaña",
+        "fr": "paupière / onglet",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.oreja-oido",
+        "en": "ear / ears",
+        "es": "oreja / oído",
+        "fr": "oreille / oreilles",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:cuerpo-humano.nariz",
+        "en": "nose",
+        "es": "nariz",
+        "fr": "nez",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.boca",
+        "en": "mouth",
+        "es": "boca",
+        "fr": "bouche",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Parts of the body, useful to talk about health and care.",
+      "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
+      "fr": "Les parties du corps, utiles pour parler de santé et de soins."
+    },
+    "generator": "build_lessons",
+    "id": "fr-u5-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name parts of the body",
+        "Talk about health"
+      ],
+      "es": [
+        "Nombrar las partes del cuerpo",
+        "Hablar de la salud"
+      ],
+      "fr": [
+        "Nom des parties du corps",
+        "Parlons de santé"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "rows": [
+          [
+            "cuerpo",
+            "body",
+            "corps"
+          ],
+          [
+            "cabeza",
+            "head",
+            "tête"
+          ],
+          [
+            "cabello / pelo",
+            "hair / hair-",
+            "cheveux / cheveux..."
+          ],
+          [
+            "cara / rostro",
+            "face / side",
+            "face/face"
+          ],
+          [
+            "frente",
+            "front",
+            "devant"
+          ],
+          [
+            "ojo",
+            "eye",
+            "yeux"
+          ],
+          [
+            "ojos",
+            "eyes",
+            "yeux"
+          ],
+          [
+            "ceja",
+            "Beef",
+            "Boeuf"
+          ],
+          [
+            "párpado / pestaña",
+            "eyelid / tab",
+            "paupière / onglet"
+          ],
+          [
+            "oreja / oído",
+            "ear / ears",
+            "oreille / oreilles"
+          ],
+          [
+            "nariz",
+            "nose",
+            "nez"
+          ],
+          [
+            "boca",
+            "mouth",
+            "bouche"
+          ]
+        ],
+        "title": "es · en · fr",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "The human body",
+      "es": "El cuerpo humano",
+      "fr": "Le corps humain"
+    },
+    "unit": 5
+  },
+  {
+    "concepts": [
+      "c:comida-y-bebida.comida-comer",
+      "c:comida-y-bebida.comida-formal",
+      "c:comida-y-bebida.desayuno",
+      "c:comida-y-bebida.almuerzo",
+      "c:comida-y-bebida.cena",
+      "c:comida-y-bebida.agua",
+      "c:comida-y-bebida.leche",
+      "c:comida-y-bebida.te",
+      "c:comida-y-bebida.cafe",
+      "c:comida-y-bebida.zumo-jugo",
+      "c:comida-y-bebida.lassi-yogur-batido",
+      "c:comida-y-bebida.alcohol-vino"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:comida-y-bebida.comida-comer",
+        "en": "food / eat",
+        "es": "comida / comer",
+        "fr": "Alimentation / alimentation",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.comida-formal",
+        "en": "food (formal)",
+        "es": "comida (formal)",
+        "fr": "alimentaire (formel)",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:comida-y-bebida.desayuno",
+        "en": "breakfast",
+        "es": "desayuno",
+        "fr": "Petit déjeuner",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.almuerzo",
+        "en": "lunch",
+        "es": "almuerzo",
+        "fr": "Déjeuner",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:comida-y-bebida.cena",
+        "en": "dinner",
+        "es": "cena",
+        "fr": "Dîner",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.agua",
+        "en": "water",
+        "es": "agua",
+        "fr": "eau",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:comida-y-bebida.leche",
+        "en": "milk",
+        "es": "leche",
+        "fr": "lait",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.te",
+        "en": "tea",
+        "es": "té",
+        "fr": "thé",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:comida-y-bebida.cafe",
+        "en": "coffee",
+        "es": "café",
+        "fr": "café",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.zumo-jugo",
+        "en": "juice / juices",
+        "es": "zumo / jugo",
+        "fr": "jus / jus",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:comida-y-bebida.lassi-yogur-batido",
+        "en": "lassi (yoghurt beaten)",
+        "es": "lassi (yogur batido)",
+        "fr": "lassi (yoghurt battu)",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.alcohol-vino",
+        "en": "alcohol / wine",
+        "es": "alcohol / vino",
+        "fr": "alcool / vin",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Basic foods and drinks, very useful when shopping or eating out.",
+      "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
+      "fr": "Nourriture et boissons de base, très utile pour acheter ou manger en dehors de la maison."
+    },
+    "generator": "build_lessons",
+    "id": "fr-u6-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name food and drinks",
+        "Order in a restaurant"
+      ],
+      "es": [
+        "Nombrar alimentos y bebidas",
+        "Pedir en un restaurante"
+      ],
+      "fr": [
+        "Désigner les aliments et boissons",
+        "Demandez dans un restaurant"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "rows": [
+          [
+            "comida / comer",
+            "food / eat",
+            "Alimentation / alimentation"
+          ],
+          [
+            "comida (formal)",
+            "food (formal)",
+            "alimentaire (formel)"
+          ],
+          [
+            "desayuno",
+            "breakfast",
+            "Petit déjeuner"
+          ],
+          [
+            "almuerzo",
+            "lunch",
+            "Déjeuner"
+          ],
+          [
+            "cena",
+            "dinner",
+            "Dîner"
+          ],
+          [
+            "agua",
+            "water",
+            "eau"
+          ],
+          [
+            "leche",
+            "milk",
+            "lait"
+          ],
+          [
+            "té",
+            "tea",
+            "thé"
+          ],
+          [
+            "café",
+            "coffee",
+            "café"
+          ],
+          [
+            "zumo / jugo",
+            "juice / juices",
+            "jus / jus"
+          ],
+          [
+            "lassi (yogur batido)",
+            "lassi (yoghurt beaten)",
+            "lassi (yoghurt battu)"
+          ],
+          [
+            "alcohol / vino",
+            "alcohol / wine",
+            "alcool / vin"
+          ]
+        ],
+        "title": "es · en · fr",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Food and drink",
+      "es": "La comida y la bebida",
+      "fr": "Produits alimentaires et boissons"
+    },
+    "unit": 6
+  },
+  {
+    "concepts": [
+      "c:casa-y-hogar.casa-hogar",
+      "c:casa-y-hogar.edificio-casa",
+      "c:casa-y-hogar.apartamento",
+      "c:casa-y-hogar.habitacion-cuarto",
+      "c:casa-y-hogar.sala-de-estar",
+      "c:casa-y-hogar.dormitorio",
+      "c:casa-y-hogar.cocina-habitacion",
+      "c:casa-y-hogar.bano",
+      "c:casa-y-hogar.inodoro-lavabo",
+      "c:casa-y-hogar.balcon",
+      "c:casa-y-hogar.techo-azotea",
+      "c:casa-y-hogar.pared"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:casa-y-hogar.casa-hogar",
+        "en": "Home / home",
+        "es": "casa / hogar",
+        "fr": "Accueil / maison",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.edificio-casa",
+        "en": "building / house",
+        "es": "edificio / casa",
+        "fr": "bâtiment / maison",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:casa-y-hogar.apartamento",
+        "en": "apartment",
+        "es": "apartamento",
+        "fr": "appartement",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.habitacion-cuarto",
+        "en": "room / bedroom",
+        "es": "habitación / cuarto",
+        "fr": "chambre / chambre",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:casa-y-hogar.sala-de-estar",
+        "en": "living room",
+        "es": "sala de estar",
+        "fr": "salon",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.dormitorio",
+        "en": "bedroom",
+        "es": "dormitorio",
+        "fr": "chambre à coucher",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:casa-y-hogar.cocina-habitacion",
+        "en": "kitchen (room)",
+        "es": "cocina (habitación)",
+        "fr": "cuisine (salle)",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.bano",
+        "en": "bathroom",
+        "es": "baño",
+        "fr": "salle de bain",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:casa-y-hogar.inodoro-lavabo",
+        "en": "toilet / sink",
+        "es": "inodoro / lavabo",
+        "fr": "toilettes / lavabo",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.balcon",
+        "en": "balcony",
+        "es": "balcón",
+        "fr": "balcon",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:casa-y-hogar.techo-azotea",
+        "en": "roof / rooftop",
+        "es": "techo / azotea",
+        "fr": "toit / toit",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.pared",
+        "en": "wall",
+        "es": "pared",
+        "fr": "mur",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "House vocabulary: rooms, furniture and everyday objects.",
+      "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos.",
+      "fr": "Vocabulaire de la maison: chambres, meubles et objets quotidiens."
+    },
+    "generator": "build_lessons",
+    "id": "fr-u7-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name parts of the house",
+        "Describe household objects"
+      ],
+      "es": [
+        "Nombrar partes de la casa",
+        "Describir objetos del hogar"
+      ],
+      "fr": [
+        "Nom des parties de la maison",
+        "Décrire les objets ménagers"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "rows": [
+          [
+            "casa / hogar",
+            "Home / home",
+            "Accueil / maison"
+          ],
+          [
+            "edificio / casa",
+            "building / house",
+            "bâtiment / maison"
+          ],
+          [
+            "apartamento",
+            "apartment",
+            "appartement"
+          ],
+          [
+            "habitación / cuarto",
+            "room / bedroom",
+            "chambre / chambre"
+          ],
+          [
+            "sala de estar",
+            "living room",
+            "salon"
+          ],
+          [
+            "dormitorio",
+            "bedroom",
+            "chambre à coucher"
+          ],
+          [
+            "cocina (habitación)",
+            "kitchen (room)",
+            "cuisine (salle)"
+          ],
+          [
+            "baño",
+            "bathroom",
+            "salle de bain"
+          ],
+          [
+            "inodoro / lavabo",
+            "toilet / sink",
+            "toilettes / lavabo"
+          ],
+          [
+            "balcón",
+            "balcony",
+            "balcon"
+          ],
+          [
+            "techo / azotea",
+            "roof / rooftop",
+            "toit / toit"
+          ],
+          [
+            "pared",
+            "wall",
+            "mur"
+          ]
+        ],
+        "title": "es · en · fr",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Home and household",
+      "es": "La casa y el hogar",
+      "fr": "La maison et la maison"
+    },
+    "unit": 7
+  },
+  {
+    "concepts": [
+      "c:tiempo-y-calendario.tiempo-hora",
+      "c:tiempo-y-calendario.reloj-hora",
+      "c:tiempo-y-calendario.minuto",
+      "c:tiempo-y-calendario.segundo-tiempo",
+      "c:tiempo-y-calendario.hora-duracion",
+      "c:tiempo-y-calendario.manana-temprano",
+      "c:tiempo-y-calendario.mediodia-tarde",
+      "c:tiempo-y-calendario.tarde-atardecer",
+      "c:tiempo-y-calendario.noche",
+      "c:tiempo-y-calendario.medianoche",
+      "c:tiempo-y-calendario.dia",
+      "c:tiempo-y-calendario.hoy"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:tiempo-y-calendario.tiempo-hora",
+        "en": "time / hour",
+        "es": "tiempo / hora",
+        "fr": "durée / heure",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.reloj-hora",
+        "en": "clock / time",
+        "es": "reloj / hora",
+        "fr": "heure / horloge",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.minuto",
+        "en": "minute",
+        "es": "minuto",
+        "fr": "minute",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.segundo-tiempo",
+        "en": "second (time)",
+        "es": "segundo (tiempo)",
+        "fr": "deuxième (temps)",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.hora-duracion",
+        "en": "time (duration)",
+        "es": "hora (duración)",
+        "fr": "durée",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.manana-temprano",
+        "en": "(early)",
+        "es": "mañana (temprano)",
+        "fr": "(début)",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.mediodia-tarde",
+        "en": "noon / afternoon",
+        "es": "mediodía / tarde",
+        "fr": "midi / après-midi",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.tarde-atardecer",
+        "en": "late / evening",
+        "es": "tarde / atardecer",
+        "fr": "tard / soir",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.noche",
+        "en": "night",
+        "es": "noche",
+        "fr": "nuit",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.medianoche",
+        "en": "midnight",
+        "es": "medianoche",
+        "fr": "minuit",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.dia",
+        "en": "day",
+        "es": "día",
+        "fr": "jour",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.hoy",
+        "en": "Today",
+        "es": "hoy",
+        "fr": "Aujourd'hui",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Words to place actions in time: days, months and seasons.",
+      "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones.",
+      "fr": "Mots pour placer les actions dans le temps: jours, mois et saisons."
+    },
+    "generator": "build_lessons",
+    "id": "fr-u8-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Say days, months and seasons",
+        "Talk about dates"
+      ],
+      "es": [
+        "Decir días, meses y estaciones",
+        "Hablar de fechas"
+      ],
+      "fr": [
+        "Disons jours, mois et saisons",
+        "Parlez des dates"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "rows": [
+          [
+            "tiempo / hora",
+            "time / hour",
+            "durée / heure"
+          ],
+          [
+            "reloj / hora",
+            "clock / time",
+            "heure / horloge"
+          ],
+          [
+            "minuto",
+            "minute",
+            "minute"
+          ],
+          [
+            "segundo (tiempo)",
+            "second (time)",
+            "deuxième (temps)"
+          ],
+          [
+            "hora (duración)",
+            "time (duration)",
+            "durée"
+          ],
+          [
+            "mañana (temprano)",
+            "(early)",
+            "(début)"
+          ],
+          [
+            "mediodía / tarde",
+            "noon / afternoon",
+            "midi / après-midi"
+          ],
+          [
+            "tarde / atardecer",
+            "late / evening",
+            "tard / soir"
+          ],
+          [
+            "noche",
+            "night",
+            "nuit"
+          ],
+          [
+            "medianoche",
+            "midnight",
+            "minuit"
+          ],
+          [
+            "día",
+            "day",
+            "jour"
+          ],
+          [
+            "hoy",
+            "Today",
+            "Aujourd'hui"
+          ]
+        ],
+        "title": "es · en · fr",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Time and calendar",
+      "es": "El tiempo y el calendario",
+      "fr": "Heure et calendrier"
+    },
+    "unit": 8
+  },
+  {
+    "concepts": [
+      "c:animales.animal",
+      "c:animales.perro",
+      "c:animales.gato",
+      "c:animales.vaca",
+      "c:animales.buey-toro",
+      "c:animales.bufalo",
+      "c:animales.caballo",
+      "c:animales.burro-asno",
+      "c:animales.cabra",
+      "c:animales.oveja",
+      "c:animales.cerdo",
+      "c:animales.gallina"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:animales.animal",
+        "en": "animal",
+        "es": "animal",
+        "fr": "Animaux",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.perro",
+        "en": "dog",
+        "es": "perro",
+        "fr": "chien",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:animales.gato",
+        "en": "cat",
+        "es": "gato",
+        "fr": "chat",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.vaca",
+        "en": "cow",
+        "es": "vaca",
+        "fr": "vache",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:animales.buey-toro",
+        "en": "ox / bull",
+        "es": "buey / toro",
+        "fr": "boeuf/boeuf",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.bufalo",
+        "en": "buffalo",
+        "es": "búfalo",
+        "fr": "buffle",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:animales.caballo",
+        "en": "horse",
+        "es": "caballo",
+        "fr": "cheval",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.burro-asno",
+        "en": "donkey / ass",
+        "es": "burro / asno",
+        "fr": "ânes / cul",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:animales.cabra",
+        "en": "goat",
+        "es": "cabra",
+        "fr": "Chèvre",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.oveja",
+        "en": "sheep",
+        "es": "oveja",
+        "fr": "ovins",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:animales.cerdo",
+        "en": "pig",
+        "es": "cerdo",
+        "fr": "porc",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.gallina",
+        "en": "chicken",
+        "es": "gallina",
+        "fr": "poulet",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Common animals, both domestic and wild.",
+      "es": "Animales frecuentes, tanto domésticos como salvajes.",
+      "fr": "Les animaux sont fréquents, domestiques et sauvages."
+    },
+    "generator": "build_lessons",
+    "id": "fr-u9-l1",
+    "lang": "fr",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name common animals",
+        "Describe animals"
+      ],
+      "es": [
+        "Nombrar animales comunes",
+        "Describir animales"
+      ],
+      "fr": [
+        "Nom des animaux communs",
+        "Décrire les animaux"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "rows": [
+          [
+            "animal",
+            "animal",
+            "Animaux"
+          ],
+          [
+            "perro",
+            "dog",
+            "chien"
+          ],
+          [
+            "gato",
+            "cat",
+            "chat"
+          ],
+          [
+            "vaca",
+            "cow",
+            "vache"
+          ],
+          [
+            "buey / toro",
+            "ox / bull",
+            "boeuf/boeuf"
+          ],
+          [
+            "búfalo",
+            "buffalo",
+            "buffle"
+          ],
+          [
+            "caballo",
+            "horse",
+            "cheval"
+          ],
+          [
+            "burro / asno",
+            "donkey / ass",
+            "ânes / cul"
+          ],
+          [
+            "cabra",
+            "goat",
+            "Chèvre"
+          ],
+          [
+            "oveja",
+            "sheep",
+            "ovins"
+          ],
+          [
+            "cerdo",
+            "pig",
+            "porc"
+          ],
+          [
+            "gallina",
+            "chicken",
+            "poulet"
+          ]
+        ],
+        "title": "es · en · fr",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Animals",
+      "es": "Los animales",
+      "fr": "Animaux"
+    },
+    "unit": 9
   }
 ]

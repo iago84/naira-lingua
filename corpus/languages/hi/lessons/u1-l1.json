@@ -1,0 +1,192 @@
+{
+  "concepts": [
+    "c:saludos-y-expresiones.hola",
+    "c:saludos-y-expresiones.buenos-dias",
+    "c:saludos-y-expresiones.buenas-tardes",
+    "c:saludos-y-expresiones.buenas-noches",
+    "c:saludos-y-expresiones.gracias",
+    "c:saludos-y-expresiones.por-favor",
+    "c:saludos-y-expresiones.perdon-disculpe",
+    "c:saludos-y-expresiones.adios",
+    "c:saludos-y-expresiones.hasta-luego",
+    "c:saludos-y-expresiones.si",
+    "c:saludos-y-expresiones.no"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:saludos-y-expresiones.hola",
+      "en": "Hello.",
+      "es": "hola",
+      "hi": "नमस्ते",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenos-dias",
+      "en": "Good morning.",
+      "es": "buenos días",
+      "hi": "शुभ प्रभात",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-tardes",
+      "en": "Good afternoon.",
+      "es": "buenas tardes",
+      "hi": "शुभ संध्या",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-noches",
+      "en": "Good night.",
+      "es": "buenas noches",
+      "hi": "शुभ रात्रि",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.gracias",
+      "en": "Thank you.",
+      "es": "gracias",
+      "hi": "धन्यवाद",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.por-favor",
+      "en": "Please.",
+      "es": "por favor",
+      "hi": "कृपया",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.perdon-disculpe",
+      "en": "Excuse me / excuse",
+      "es": "perdón / disculpe",
+      "hi": "माफ़ कीजिए",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.adios",
+      "en": "Bye.",
+      "es": "adiós",
+      "hi": "अलविदा",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.hasta-luego",
+      "en": "See you later.",
+      "es": "hasta luego",
+      "hi": "फिर मिलेंगे",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.si",
+      "en": "Yes",
+      "es": "sí",
+      "hi": "हाँ",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.no",
+      "en": "No.",
+      "es": "no",
+      "hi": "नहीं",
+      "speaker": "A"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Basic courtesy expressions to open and close a conversation.",
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
+    "hi": "एक संवाद खोलने और बंद करने के लिए सौजन्य की मूल अभिव्यक्ति।"
+  },
+  "generator": "build_lessons",
+  "id": "hi-u1-l1",
+  "lang": "hi",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Greet and say goodbye",
+      "Thank and say please"
+    ],
+    "es": [
+      "Saludar y despedirse",
+      "Dar las gracias y pedir por favor"
+    ],
+    "hi": [
+      "नमस्ते और अलविदा कह",
+      "धन्यवाद और पूछो"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "hi"
+      ],
+      "rows": [
+        [
+          "hola",
+          "Hello.",
+          "नमस्ते"
+        ],
+        [
+          "buenos días",
+          "Good morning.",
+          "शुभ प्रभात"
+        ],
+        [
+          "buenas tardes",
+          "Good afternoon.",
+          "शुभ संध्या"
+        ],
+        [
+          "buenas noches",
+          "Good night.",
+          "शुभ रात्रि"
+        ],
+        [
+          "gracias",
+          "Thank you.",
+          "धन्यवाद"
+        ],
+        [
+          "por favor",
+          "Please.",
+          "कृपया"
+        ],
+        [
+          "perdón / disculpe",
+          "Excuse me / excuse",
+          "माफ़ कीजिए"
+        ],
+        [
+          "adiós",
+          "Bye.",
+          "अलविदा"
+        ],
+        [
+          "hasta luego",
+          "See you later.",
+          "फिर मिलेंगे"
+        ],
+        [
+          "sí",
+          "Yes",
+          "हाँ"
+        ],
+        [
+          "no",
+          "No.",
+          "नहीं"
+        ]
+      ],
+      "title": "es · en · hi",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Greetings and courtesy",
+    "es": "Saludos y cortesía",
+    "hi": "बधाई और सौजन्य"
+  },
+  "unit": 1
+}

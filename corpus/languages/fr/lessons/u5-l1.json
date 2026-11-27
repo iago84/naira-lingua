@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:cuerpo-humano.cuerpo",
+    "c:cuerpo-humano.cabeza",
+    "c:cuerpo-humano.cabello-pelo",
+    "c:cuerpo-humano.cara-rostro",
+    "c:cuerpo-humano.frente",
+    "c:cuerpo-humano.ojo",
+    "c:cuerpo-humano.ojos",
+    "c:cuerpo-humano.ceja",
+    "c:cuerpo-humano.parpado-pestana",
+    "c:cuerpo-humano.oreja-oido",
+    "c:cuerpo-humano.nariz",
+    "c:cuerpo-humano.boca"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:cuerpo-humano.cuerpo",
+      "en": "body",
+      "es": "cuerpo",
+      "fr": "corps",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.cabeza",
+      "en": "head",
+      "es": "cabeza",
+      "fr": "tête",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:cuerpo-humano.cabello-pelo",
+      "en": "hair / hair-",
+      "es": "cabello / pelo",
+      "fr": "cheveux / cheveux...",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.cara-rostro",
+      "en": "face / side",
+      "es": "cara / rostro",
+      "fr": "face/face",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:cuerpo-humano.frente",
+      "en": "front",
+      "es": "frente",
+      "fr": "devant",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.ojo",
+      "en": "eye",
+      "es": "ojo",
+      "fr": "yeux",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:cuerpo-humano.ojos",
+      "en": "eyes",
+      "es": "ojos",
+      "fr": "yeux",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.ceja",
+      "en": "Beef",
+      "es": "ceja",
+      "fr": "Boeuf",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:cuerpo-humano.parpado-pestana",
+      "en": "eyelid / tab",
+      "es": "párpado / pestaña",
+      "fr": "paupière / onglet",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.oreja-oido",
+      "en": "ear / ears",
+      "es": "oreja / oído",
+      "fr": "oreille / oreilles",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:cuerpo-humano.nariz",
+      "en": "nose",
+      "es": "nariz",
+      "fr": "nez",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.boca",
+      "en": "mouth",
+      "es": "boca",
+      "fr": "bouche",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Parts of the body, useful to talk about health and care.",
+    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
+    "fr": "Les parties du corps, utiles pour parler de santé et de soins."
+  },
+  "generator": "build_lessons",
+  "id": "fr-u5-l1",
+  "lang": "fr",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name parts of the body",
+      "Talk about health"
+    ],
+    "es": [
+      "Nombrar las partes del cuerpo",
+      "Hablar de la salud"
+    ],
+    "fr": [
+      "Nom des parties du corps",
+      "Parlons de santé"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "fr"
+      ],
+      "rows": [
+        [
+          "cuerpo",
+          "body",
+          "corps"
+        ],
+        [
+          "cabeza",
+          "head",
+          "tête"
+        ],
+        [
+          "cabello / pelo",
+          "hair / hair-",
+          "cheveux / cheveux..."
+        ],
+        [
+          "cara / rostro",
+          "face / side",
+          "face/face"
+        ],
+        [
+          "frente",
+          "front",
+          "devant"
+        ],
+        [
+          "ojo",
+          "eye",
+          "yeux"
+        ],
+        [
+          "ojos",
+          "eyes",
+          "yeux"
+        ],
+        [
+          "ceja",
+          "Beef",
+          "Boeuf"
+        ],
+        [
+          "párpado / pestaña",
+          "eyelid / tab",
+          "paupière / onglet"
+        ],
+        [
+          "oreja / oído",
+          "ear / ears",
+          "oreille / oreilles"
+        ],
+        [
+          "nariz",
+          "nose",
+          "nez"
+        ],
+        [
+          "boca",
+          "mouth",
+          "bouche"
+        ]
+      ],
+      "title": "es · en · fr",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "The human body",
+    "es": "El cuerpo humano",
+    "fr": "Le corps humain"
+  },
+  "unit": 5
+}

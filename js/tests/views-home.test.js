@@ -18,7 +18,7 @@ test("renderPick lista idiomas y modos", () => {
     t: tt, langs: ["es", "fr", "it"], src: "es", tgt: "fr",
     mode: "study", domains: ["saludos", "numeros"], domain: "",
   });
-  assert.match(html, /<option value="it">it<\/option>/);
+  assert.match(html, /value="it">🇮🇹 Italiano<\/option>/);
   assert.match(html, /value="quiz"/);
   assert.match(html, /value="saludos"/);
 });

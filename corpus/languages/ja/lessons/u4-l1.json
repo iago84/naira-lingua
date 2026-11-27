@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:familia-y-personas.familia",
+    "c:familia-y-personas.madre",
+    "c:familia-y-personas.padre",
+    "c:familia-y-personas.padres",
+    "c:familia-y-personas.hijo",
+    "c:familia-y-personas.hija",
+    "c:familia-y-personas.nino-a",
+    "c:familia-y-personas.hermano",
+    "c:familia-y-personas.hermana",
+    "c:familia-y-personas.hermanos",
+    "c:familia-y-personas.abuelo-paterno",
+    "c:familia-y-personas.abuela-paterna"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:familia-y-personas.familia",
+      "en": "Family",
+      "es": "familia",
+      "ja": "家族の家族",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.madre",
+      "en": "Mother",
+      "es": "madre",
+      "ja": "お母さん",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.padre",
+      "en": "Father",
+      "es": "padre",
+      "ja": "父母の",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.padres",
+      "en": "parents",
+      "es": "padres",
+      "ja": "親子",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.hijo",
+      "en": "child",
+      "es": "hijo",
+      "ja": "チャイルド",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.hija",
+      "en": "daughter",
+      "es": "hija",
+      "ja": "娘",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.nino-a",
+      "en": "child",
+      "es": "niño/a",
+      "ja": "チャイルド",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.hermano",
+      "en": "brother",
+      "es": "hermano",
+      "ja": "兄ちゃん",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.hermana",
+      "en": "sister",
+      "es": "hermana",
+      "ja": "姉さん",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.hermanos",
+      "en": "brothers",
+      "es": "hermanos",
+      "ja": "兄弟姉妹",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:familia-y-personas.abuelo-paterno",
+      "en": "paternal grandfather",
+      "es": "abuelo paterno",
+      "ja": "祖父",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:familia-y-personas.abuela-paterna",
+      "en": "Father's grandmother",
+      "es": "abuela paterna",
+      "ja": "父の祖母",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Words to refer to family and the people around you.",
+    "es": "Palabras para referirse a la familia y a las personas cercanas.",
+    "ja": "親しい家族や人について語る言葉。"
+  },
+  "generator": "build_lessons",
+  "id": "ja-u4-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name family members",
+      "Talk about people"
+    ],
+    "es": [
+      "Nombrar a los miembros de la familia",
+      "Hablar de personas"
+    ],
+    "ja": [
+      "家族を任命する",
+      "人について話します"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "familia",
+          "Family",
+          "家族の家族"
+        ],
+        [
+          "madre",
+          "Mother",
+          "お母さん"
+        ],
+        [
+          "padre",
+          "Father",
+          "父母の"
+        ],
+        [
+          "padres",
+          "parents",
+          "親子"
+        ],
+        [
+          "hijo",
+          "child",
+          "チャイルド"
+        ],
+        [
+          "hija",
+          "daughter",
+          "娘"
+        ],
+        [
+          "niño/a",
+          "child",
+          "チャイルド"
+        ],
+        [
+          "hermano",
+          "brother",
+          "兄ちゃん"
+        ],
+        [
+          "hermana",
+          "sister",
+          "姉さん"
+        ],
+        [
+          "hermanos",
+          "brothers",
+          "兄弟姉妹"
+        ],
+        [
+          "abuelo paterno",
+          "paternal grandfather",
+          "祖父"
+        ],
+        [
+          "abuela paterna",
+          "Father's grandmother",
+          "父の祖母"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Family and people",
+    "es": "La familia y las personas",
+    "ja": "ご家族・個人"
+  },
+  "unit": 4
+}

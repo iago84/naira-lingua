@@ -1,0 +1,199 @@
+{
+  "concepts": [
+    "c:trabajo-y-profesiones.trabajo-labor",
+    "c:trabajo-y-profesiones.empleo-trabajo",
+    "c:trabajo-y-profesiones.profesion-oficio",
+    "c:trabajo-y-profesiones.negocio-profesion",
+    "c:trabajo-y-profesiones.empresa-compania",
+    "c:trabajo-y-profesiones.oficina",
+    "c:trabajo-y-profesiones.oficina-despacho",
+    "c:trabajo-y-profesiones.dueno-propietario",
+    "c:trabajo-y-profesiones.jefe-a",
+    "c:trabajo-y-profesiones.empleado-a",
+    "c:trabajo-y-profesiones.colega",
+    "c:trabajo-y-profesiones.equipo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:trabajo-y-profesiones.trabajo-labor",
+      "en": "work /",
+      "es": "trabajo / labor",
+      "speaker": "A",
+      "sw": "trabajo"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+      "en": "employment / work",
+      "es": "empleo / trabajo",
+      "speaker": "B",
+      "sw": "empleo"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.profesion-oficio",
+      "en": "profession / trade",
+      "es": "profesión / oficio",
+      "speaker": "A",
+      "sw": "profesión"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.negocio-profesion",
+      "en": "business / profession",
+      "es": "negocio / profesión",
+      "speaker": "B",
+      "sw": "negocio"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empresa-compania",
+      "en": "company / enterprise",
+      "es": "empresa / compañía",
+      "speaker": "A",
+      "sw": "empresa"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.oficina",
+      "en": "office",
+      "es": "oficina",
+      "speaker": "B",
+      "sw": "ofisi — oficina"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.oficina-despacho",
+      "en": "office /",
+      "es": "oficina / despacho",
+      "speaker": "A",
+      "sw": "ofisi"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.dueno-propietario",
+      "en": "owner / proprietor",
+      "es": "dueño / propietario",
+      "speaker": "B",
+      "sw": "mmiliki"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.jefe-a",
+      "en": "Chief",
+      "es": "jefe/a",
+      "speaker": "A",
+      "sw": "bosi / mkuu — jefe/a"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empleado-a",
+      "en": "employee",
+      "es": "empleado/a",
+      "speaker": "B",
+      "sw": "mfanyakazi / mwajiriwa"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.colega",
+      "en": "- I'm sorry, buddy.",
+      "es": "colega",
+      "speaker": "A",
+      "sw": "mfanyakazi mwenzake"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.equipo",
+      "en": "equipment",
+      "es": "equipo",
+      "speaker": "B",
+      "sw": "equipo — equipo"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Professions and words from the world of work.",
+    "es": "Profesiones y palabras del mundo laboral."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u12-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name professions",
+      "Talk about work"
+    ],
+    "es": [
+      "Nombrar profesiones",
+      "Hablar del trabajo"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "trabajo / labor",
+          "work /",
+          "trabajo"
+        ],
+        [
+          "empleo / trabajo",
+          "employment / work",
+          "empleo"
+        ],
+        [
+          "profesión / oficio",
+          "profession / trade",
+          "profesión"
+        ],
+        [
+          "negocio / profesión",
+          "business / profession",
+          "negocio"
+        ],
+        [
+          "empresa / compañía",
+          "company / enterprise",
+          "empresa"
+        ],
+        [
+          "oficina",
+          "office",
+          "ofisi — oficina"
+        ],
+        [
+          "oficina / despacho",
+          "office /",
+          "ofisi"
+        ],
+        [
+          "dueño / propietario",
+          "owner / proprietor",
+          "mmiliki"
+        ],
+        [
+          "jefe/a",
+          "Chief",
+          "bosi / mkuu — jefe/a"
+        ],
+        [
+          "empleado/a",
+          "employee",
+          "mfanyakazi / mwajiriwa"
+        ],
+        [
+          "colega",
+          "- I'm sorry, buddy.",
+          "mfanyakazi mwenzake"
+        ],
+        [
+          "equipo",
+          "equipment",
+          "equipo — equipo"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Work and professions",
+    "es": "El trabajo y las profesiones"
+  },
+  "unit": 12
+}

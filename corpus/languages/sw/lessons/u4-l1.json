@@ -1,0 +1,199 @@
+{
+  "concepts": [
+    "c:familia-y-personas.familia",
+    "c:familia-y-personas.madre",
+    "c:familia-y-personas.padre",
+    "c:familia-y-personas.padres",
+    "c:familia-y-personas.hijo",
+    "c:familia-y-personas.hija",
+    "c:familia-y-personas.nino-a",
+    "c:familia-y-personas.hermano",
+    "c:familia-y-personas.hermana",
+    "c:familia-y-personas.hermanos",
+    "c:familia-y-personas.abuelo-paterno",
+    "c:familia-y-personas.abuela-paterna"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:familia-y-personas.familia",
+      "en": "Family",
+      "es": "familia",
+      "speaker": "A",
+      "sw": "familia / jamaa"
+    },
+    {
+      "concept": "c:familia-y-personas.madre",
+      "en": "Mother",
+      "es": "madre",
+      "speaker": "B",
+      "sw": "mama"
+    },
+    {
+      "concept": "c:familia-y-personas.padre",
+      "en": "Father",
+      "es": "padre",
+      "speaker": "A",
+      "sw": "baba"
+    },
+    {
+      "concept": "c:familia-y-personas.padres",
+      "en": "parents",
+      "es": "padres",
+      "speaker": "B",
+      "sw": "wazazi"
+    },
+    {
+      "concept": "c:familia-y-personas.hijo",
+      "en": "child",
+      "es": "hijo",
+      "speaker": "A",
+      "sw": "mtoto wa kiume / mwana"
+    },
+    {
+      "concept": "c:familia-y-personas.hija",
+      "en": "daughter",
+      "es": "hija",
+      "speaker": "B",
+      "sw": "mtoto wa kike / binti"
+    },
+    {
+      "concept": "c:familia-y-personas.nino-a",
+      "en": "child",
+      "es": "niño/a",
+      "speaker": "A",
+      "sw": "niño/a"
+    },
+    {
+      "concept": "c:familia-y-personas.hermano",
+      "en": "brother",
+      "es": "hermano",
+      "speaker": "B",
+      "sw": "kaka / ndugu wa kiume"
+    },
+    {
+      "concept": "c:familia-y-personas.hermana",
+      "en": "sister",
+      "es": "hermana",
+      "speaker": "A",
+      "sw": "dada / ndugu wa kike"
+    },
+    {
+      "concept": "c:familia-y-personas.hermanos",
+      "en": "brothers",
+      "es": "hermanos",
+      "speaker": "B",
+      "sw": "hermanos"
+    },
+    {
+      "concept": "c:familia-y-personas.abuelo-paterno",
+      "en": "paternal grandfather",
+      "es": "abuelo paterno",
+      "speaker": "A",
+      "sw": "babu"
+    },
+    {
+      "concept": "c:familia-y-personas.abuela-paterna",
+      "en": "Father's grandmother",
+      "es": "abuela paterna",
+      "speaker": "B",
+      "sw": "bibi"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Words to refer to family and the people around you.",
+    "es": "Palabras para referirse a la familia y a las personas cercanas."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u4-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name family members",
+      "Talk about people"
+    ],
+    "es": [
+      "Nombrar a los miembros de la familia",
+      "Hablar de personas"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "familia",
+          "Family",
+          "familia / jamaa"
+        ],
+        [
+          "madre",
+          "Mother",
+          "mama"
+        ],
+        [
+          "padre",
+          "Father",
+          "baba"
+        ],
+        [
+          "padres",
+          "parents",
+          "wazazi"
+        ],
+        [
+          "hijo",
+          "child",
+          "mtoto wa kiume / mwana"
+        ],
+        [
+          "hija",
+          "daughter",
+          "mtoto wa kike / binti"
+        ],
+        [
+          "niño/a",
+          "child",
+          "niño/a"
+        ],
+        [
+          "hermano",
+          "brother",
+          "kaka / ndugu wa kiume"
+        ],
+        [
+          "hermana",
+          "sister",
+          "dada / ndugu wa kike"
+        ],
+        [
+          "hermanos",
+          "brothers",
+          "hermanos"
+        ],
+        [
+          "abuelo paterno",
+          "paternal grandfather",
+          "babu"
+        ],
+        [
+          "abuela paterna",
+          "Father's grandmother",
+          "bibi"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Family and people",
+    "es": "La familia y las personas"
+  },
+  "unit": 4
+}

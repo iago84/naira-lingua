@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:animales.animal",
+    "c:animales.perro",
+    "c:animales.gato",
+    "c:animales.vaca",
+    "c:animales.buey-toro",
+    "c:animales.bufalo",
+    "c:animales.caballo",
+    "c:animales.burro-asno",
+    "c:animales.cabra",
+    "c:animales.oveja",
+    "c:animales.cerdo",
+    "c:animales.gallina"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:animales.animal",
+      "en": "animal",
+      "es": "animal",
+      "pt": "animal",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.perro",
+      "en": "dog",
+      "es": "perro",
+      "pt": "cão",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.gato",
+      "en": "cat",
+      "es": "gato",
+      "pt": "gato",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.vaca",
+      "en": "cow",
+      "es": "vaca",
+      "pt": "vaca",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.buey-toro",
+      "en": "ox / bull",
+      "es": "buey / toro",
+      "pt": "boi/boi",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.bufalo",
+      "en": "buffalo",
+      "es": "búfalo",
+      "pt": "búfalo",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.caballo",
+      "en": "horse",
+      "es": "caballo",
+      "pt": "cavalo",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.burro-asno",
+      "en": "donkey / ass",
+      "es": "burro / asno",
+      "pt": "burro / asno",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.cabra",
+      "en": "goat",
+      "es": "cabra",
+      "pt": "cabra",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.oveja",
+      "en": "sheep",
+      "es": "oveja",
+      "pt": "Ovelha",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.cerdo",
+      "en": "pig",
+      "es": "cerdo",
+      "pt": "Suínos",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.gallina",
+      "en": "chicken",
+      "es": "gallina",
+      "pt": "frango",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Common animals, both domestic and wild.",
+    "es": "Animales frecuentes, tanto domésticos como salvajes.",
+    "pt": "Animais frequentes, domésticos e selvagens."
+  },
+  "generator": "build_lessons",
+  "id": "pt-u9-l1",
+  "lang": "pt",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name common animals",
+      "Describe animals"
+    ],
+    "es": [
+      "Nombrar animales comunes",
+      "Describir animales"
+    ],
+    "pt": [
+      "Nome dos animais comuns",
+      "Descrever os animais"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "pt"
+      ],
+      "rows": [
+        [
+          "animal",
+          "animal",
+          "animal"
+        ],
+        [
+          "perro",
+          "dog",
+          "cão"
+        ],
+        [
+          "gato",
+          "cat",
+          "gato"
+        ],
+        [
+          "vaca",
+          "cow",
+          "vaca"
+        ],
+        [
+          "buey / toro",
+          "ox / bull",
+          "boi/boi"
+        ],
+        [
+          "búfalo",
+          "buffalo",
+          "búfalo"
+        ],
+        [
+          "caballo",
+          "horse",
+          "cavalo"
+        ],
+        [
+          "burro / asno",
+          "donkey / ass",
+          "burro / asno"
+        ],
+        [
+          "cabra",
+          "goat",
+          "cabra"
+        ],
+        [
+          "oveja",
+          "sheep",
+          "Ovelha"
+        ],
+        [
+          "cerdo",
+          "pig",
+          "Suínos"
+        ],
+        [
+          "gallina",
+          "chicken",
+          "frango"
+        ]
+      ],
+      "title": "es · en · pt",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Animals",
+    "es": "Los animales",
+    "pt": "Animais"
+  },
+  "unit": 9
+}

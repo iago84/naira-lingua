@@ -23,8 +23,8 @@ export function renderLesson({ t, lesson, uiLang, srcLang }) {
   const title = textFor(lesson.title, uiLang);
   const dialogue = (lesson.dialogue || []).map((line) => `
     <p><strong>${esc(line.speaker)}:</strong>
-      <span lang="${esc(lesson.lang)}">${esc(line[lesson.lang] ?? "")}</span>
-      <br><span class="muted" lang="${esc(srcLang)}">${esc(line[srcLang] ?? line.es ?? "")}</span>
+      <span lang="${esc(lesson.lang)}" dir="auto">${esc(line[lesson.lang] ?? "")}</span>
+      <br><span class="muted" lang="${esc(srcLang)}" dir="auto">${esc(line[srcLang] ?? line.es ?? "")}</span>
     </p>`).join("");
   const explanation = textFor(lesson.explanation, uiLang);
   const tables = (lesson.tables || []).map((tb) => `

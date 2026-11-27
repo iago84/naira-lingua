@@ -1,1 +1,2449 @@
-[]
+[
+  {
+    "concepts": [
+      "c:saludos-y-expresiones.hola",
+      "c:saludos-y-expresiones.buenos-dias",
+      "c:saludos-y-expresiones.buenas-tardes",
+      "c:saludos-y-expresiones.buenas-noches",
+      "c:saludos-y-expresiones.gracias",
+      "c:saludos-y-expresiones.por-favor",
+      "c:saludos-y-expresiones.perdon-disculpe",
+      "c:saludos-y-expresiones.adios",
+      "c:saludos-y-expresiones.hasta-luego",
+      "c:saludos-y-expresiones.si",
+      "c:saludos-y-expresiones.no"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:saludos-y-expresiones.hola",
+        "en": "Hello.",
+        "es": "hola",
+        "hi": "नमस्ते",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.buenos-dias",
+        "en": "Good morning.",
+        "es": "buenos días",
+        "hi": "शुभ प्रभात",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.buenas-tardes",
+        "en": "Good afternoon.",
+        "es": "buenas tardes",
+        "hi": "शुभ संध्या",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.buenas-noches",
+        "en": "Good night.",
+        "es": "buenas noches",
+        "hi": "शुभ रात्रि",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.gracias",
+        "en": "Thank you.",
+        "es": "gracias",
+        "hi": "धन्यवाद",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.por-favor",
+        "en": "Please.",
+        "es": "por favor",
+        "hi": "कृपया",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.perdon-disculpe",
+        "en": "Excuse me / excuse",
+        "es": "perdón / disculpe",
+        "hi": "माफ़ कीजिए",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.adios",
+        "en": "Bye.",
+        "es": "adiós",
+        "hi": "अलविदा",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.hasta-luego",
+        "en": "See you later.",
+        "es": "hasta luego",
+        "hi": "फिर मिलेंगे",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.si",
+        "en": "Yes",
+        "es": "sí",
+        "hi": "हाँ",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.no",
+        "en": "No.",
+        "es": "no",
+        "hi": "नहीं",
+        "speaker": "A"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Basic courtesy expressions to open and close a conversation.",
+      "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
+      "hi": "एक संवाद खोलने और बंद करने के लिए सौजन्य की मूल अभिव्यक्ति।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u1-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Greet and say goodbye",
+        "Thank and say please"
+      ],
+      "es": [
+        "Saludar y despedirse",
+        "Dar las gracias y pedir por favor"
+      ],
+      "hi": [
+        "नमस्ते और अलविदा कह",
+        "धन्यवाद और पूछो"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "hola",
+            "Hello.",
+            "नमस्ते"
+          ],
+          [
+            "buenos días",
+            "Good morning.",
+            "शुभ प्रभात"
+          ],
+          [
+            "buenas tardes",
+            "Good afternoon.",
+            "शुभ संध्या"
+          ],
+          [
+            "buenas noches",
+            "Good night.",
+            "शुभ रात्रि"
+          ],
+          [
+            "gracias",
+            "Thank you.",
+            "धन्यवाद"
+          ],
+          [
+            "por favor",
+            "Please.",
+            "कृपया"
+          ],
+          [
+            "perdón / disculpe",
+            "Excuse me / excuse",
+            "माफ़ कीजिए"
+          ],
+          [
+            "adiós",
+            "Bye.",
+            "अलविदा"
+          ],
+          [
+            "hasta luego",
+            "See you later.",
+            "फिर मिलेंगे"
+          ],
+          [
+            "sí",
+            "Yes",
+            "हाँ"
+          ],
+          [
+            "no",
+            "No.",
+            "नहीं"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Greetings and courtesy",
+      "es": "Saludos y cortesía",
+      "hi": "बधाई और सौजन्य"
+    },
+    "unit": 1
+  },
+  {
+    "concepts": [
+      "c:ciudad-y-lugares.ciudad",
+      "c:ciudad-y-lugares.pueblo-aldea",
+      "c:ciudad-y-lugares.pais",
+      "c:ciudad-y-lugares.estado-provincia",
+      "c:ciudad-y-lugares.capital",
+      "c:ciudad-y-lugares.zona-area",
+      "c:ciudad-y-lugares.calle-carretera",
+      "c:ciudad-y-lugares.callejon",
+      "c:ciudad-y-lugares.cruce-interseccion",
+      "c:ciudad-y-lugares.puente",
+      "c:ciudad-y-lugares.plaza",
+      "c:ciudad-y-lugares.mercado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:ciudad-y-lugares.ciudad",
+        "en": "city",
+        "es": "ciudad",
+        "hi": "शहर",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.pueblo-aldea",
+        "en": "village / town",
+        "es": "pueblo / aldea",
+        "hi": "गाँव",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.pais",
+        "en": "country",
+        "es": "país",
+        "hi": "देश",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.estado-provincia",
+        "en": "State / province",
+        "es": "estado / provincia",
+        "hi": "राज्य",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.capital",
+        "en": "capital",
+        "es": "capital",
+        "hi": "राजधानी",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.zona-area",
+        "en": "area / zone",
+        "es": "zona / área",
+        "hi": "इलाका",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.calle-carretera",
+        "en": "Street / road",
+        "es": "calle / carretera",
+        "hi": "सड़क",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.callejon",
+        "en": "alley",
+        "es": "callejón",
+        "hi": "गली",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.cruce-interseccion",
+        "en": "cross / intersection",
+        "es": "cruce / intersección",
+        "hi": "चौराहा",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.puente",
+        "en": "bridge",
+        "es": "puente",
+        "hi": "पुल",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.plaza",
+        "en": "square",
+        "es": "plaza",
+        "hi": "चौक",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.mercado",
+        "en": "market",
+        "es": "mercado",
+        "hi": "बाज़ार",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Places in the city to move around and ask for directions.",
+      "es": "Lugares de la ciudad para moverse y pedir indicaciones.",
+      "hi": "शहर में स्थानों को स्थानांतरित करने और दिशा के लिए पूछने के लिए।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u10-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name places in the city",
+        "Ask for directions"
+      ],
+      "es": [
+        "Nombrar lugares de la ciudad",
+        "Pedir direcciones"
+      ],
+      "hi": [
+        "शहर में नाम स्थान",
+        "पते के लिए पूछो"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "ciudad",
+            "city",
+            "शहर"
+          ],
+          [
+            "pueblo / aldea",
+            "village / town",
+            "गाँव"
+          ],
+          [
+            "país",
+            "country",
+            "देश"
+          ],
+          [
+            "estado / provincia",
+            "State / province",
+            "राज्य"
+          ],
+          [
+            "capital",
+            "capital",
+            "राजधानी"
+          ],
+          [
+            "zona / área",
+            "area / zone",
+            "इलाका"
+          ],
+          [
+            "calle / carretera",
+            "Street / road",
+            "सड़क"
+          ],
+          [
+            "callejón",
+            "alley",
+            "गली"
+          ],
+          [
+            "cruce / intersección",
+            "cross / intersection",
+            "चौराहा"
+          ],
+          [
+            "puente",
+            "bridge",
+            "पुल"
+          ],
+          [
+            "plaza",
+            "square",
+            "चौक"
+          ],
+          [
+            "mercado",
+            "market",
+            "बाज़ार"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "City and places",
+      "es": "La ciudad y los lugares",
+      "hi": "शहर और जगह"
+    },
+    "unit": 10
+  },
+  {
+    "concepts": [
+      "c:ropa-y-accesorios.ropa",
+      "c:ropa-y-accesorios.camisa",
+      "c:ropa-y-accesorios.camiseta",
+      "c:ropa-y-accesorios.pantalon",
+      "c:ropa-y-accesorios.vaqueros-jeans",
+      "c:ropa-y-accesorios.pantalones-cortos",
+      "c:ropa-y-accesorios.falda",
+      "c:ropa-y-accesorios.vestido",
+      "c:ropa-y-accesorios.sari",
+      "c:ropa-y-accesorios.salwar-kameez",
+      "c:ropa-y-accesorios.kurta",
+      "c:ropa-y-accesorios.pijama"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:ropa-y-accesorios.ropa",
+        "en": "clothing",
+        "es": "ropa",
+        "hi": "कपड़े",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.camisa",
+        "en": "shirt",
+        "es": "camisa",
+        "hi": "शर्ट",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.camiseta",
+        "en": "T-shirt",
+        "es": "camiseta",
+        "hi": "टी-शर्ट",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pantalon",
+        "en": "Pants",
+        "es": "pantalón",
+        "hi": "पैंट",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+        "en": "jeans / jans",
+        "es": "vaqueros / jeans",
+        "hi": "जींस",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pantalones-cortos",
+        "en": "Short pants",
+        "es": "pantalones cortos",
+        "hi": "शॉर्ट्स",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.falda",
+        "en": "skirt",
+        "es": "falda",
+        "hi": "स्कर्ट",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.vestido",
+        "en": "dress up",
+        "es": "vestido",
+        "hi": "ड्रेस",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.sari",
+        "en": "sari",
+        "es": "sari",
+        "hi": "साड़ी",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.salwar-kameez",
+        "en": "salwar kameez",
+        "es": "salwar kameez",
+        "hi": "सलवार कमीज़",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.kurta",
+        "en": "kurta",
+        "es": "kurta",
+        "hi": "कुर्ता",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pijama",
+        "en": "pajamas",
+        "es": "pijama",
+        "hi": "पायजामा",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Clothes and accessories, with words useful for clothes shopping.",
+      "es": "Prendas y accesorios, con palabras útiles para comprar ropa.",
+      "hi": "कलम और सामान, उपयोगी शब्दों के साथ कपड़े खरीदने के लिए।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u11-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name clothes",
+        "Go shopping"
+      ],
+      "es": [
+        "Nombrar prendas de ropa",
+        "Ir de compras"
+      ],
+      "hi": [
+        "Appoint clothes",
+        "खरीदारी"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "ropa",
+            "clothing",
+            "कपड़े"
+          ],
+          [
+            "camisa",
+            "shirt",
+            "शर्ट"
+          ],
+          [
+            "camiseta",
+            "T-shirt",
+            "टी-शर्ट"
+          ],
+          [
+            "pantalón",
+            "Pants",
+            "पैंट"
+          ],
+          [
+            "vaqueros / jeans",
+            "jeans / jans",
+            "जींस"
+          ],
+          [
+            "pantalones cortos",
+            "Short pants",
+            "शॉर्ट्स"
+          ],
+          [
+            "falda",
+            "skirt",
+            "स्कर्ट"
+          ],
+          [
+            "vestido",
+            "dress up",
+            "ड्रेस"
+          ],
+          [
+            "sari",
+            "sari",
+            "साड़ी"
+          ],
+          [
+            "salwar kameez",
+            "salwar kameez",
+            "सलवार कमीज़"
+          ],
+          [
+            "kurta",
+            "kurta",
+            "कुर्ता"
+          ],
+          [
+            "pijama",
+            "pajamas",
+            "पायजामा"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Clothing and accessories",
+      "es": "La ropa y los accesorios",
+      "hi": "वस्त्र और सामान"
+    },
+    "unit": 11
+  },
+  {
+    "concepts": [
+      "c:trabajo-y-profesiones.trabajo-labor",
+      "c:trabajo-y-profesiones.empleo-trabajo",
+      "c:trabajo-y-profesiones.profesion-oficio",
+      "c:trabajo-y-profesiones.negocio-profesion",
+      "c:trabajo-y-profesiones.empresa-compania",
+      "c:trabajo-y-profesiones.oficina",
+      "c:trabajo-y-profesiones.oficina-despacho",
+      "c:trabajo-y-profesiones.dueno-propietario",
+      "c:trabajo-y-profesiones.jefe-a",
+      "c:trabajo-y-profesiones.empleado-a",
+      "c:trabajo-y-profesiones.colega",
+      "c:trabajo-y-profesiones.equipo"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:trabajo-y-profesiones.trabajo-labor",
+        "en": "work /",
+        "es": "trabajo / labor",
+        "hi": "काम",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+        "en": "employment / work",
+        "es": "empleo / trabajo",
+        "hi": "नौकरी",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.profesion-oficio",
+        "en": "profession / trade",
+        "es": "profesión / oficio",
+        "hi": "पेशा",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.negocio-profesion",
+        "en": "business / profession",
+        "es": "negocio / profesión",
+        "hi": "व्यवसाय",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empresa-compania",
+        "en": "company / enterprise",
+        "es": "empresa / compañía",
+        "hi": "कंपनी",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.oficina",
+        "en": "office",
+        "es": "oficina",
+        "hi": "कार्यालय",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.oficina-despacho",
+        "en": "office /",
+        "es": "oficina / despacho",
+        "hi": "दफ़्तर",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.dueno-propietario",
+        "en": "owner / proprietor",
+        "es": "dueño / propietario",
+        "hi": "मालिक",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.jefe-a",
+        "en": "Chief",
+        "es": "jefe/a",
+        "hi": "बॉस",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empleado-a",
+        "en": "employee",
+        "es": "empleado/a",
+        "hi": "कर्मचारी",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.colega",
+        "en": "- I'm sorry, buddy.",
+        "es": "colega",
+        "hi": "सहकर्मी",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.equipo",
+        "en": "equipment",
+        "es": "equipo",
+        "hi": "टीम",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Professions and words from the world of work.",
+      "es": "Profesiones y palabras del mundo laboral.",
+      "hi": "दुनिया के कार्यों का प्रचार और वचन।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u12-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name professions",
+        "Talk about work"
+      ],
+      "es": [
+        "Nombrar profesiones",
+        "Hablar del trabajo"
+      ],
+      "hi": [
+        "Appoint पेशे",
+        "काम के बारे में बात करें"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "trabajo / labor",
+            "work /",
+            "काम"
+          ],
+          [
+            "empleo / trabajo",
+            "employment / work",
+            "नौकरी"
+          ],
+          [
+            "profesión / oficio",
+            "profession / trade",
+            "पेशा"
+          ],
+          [
+            "negocio / profesión",
+            "business / profession",
+            "व्यवसाय"
+          ],
+          [
+            "empresa / compañía",
+            "company / enterprise",
+            "कंपनी"
+          ],
+          [
+            "oficina",
+            "office",
+            "कार्यालय"
+          ],
+          [
+            "oficina / despacho",
+            "office /",
+            "दफ़्तर"
+          ],
+          [
+            "dueño / propietario",
+            "owner / proprietor",
+            "मालिक"
+          ],
+          [
+            "jefe/a",
+            "Chief",
+            "बॉस"
+          ],
+          [
+            "empleado/a",
+            "employee",
+            "कर्मचारी"
+          ],
+          [
+            "colega",
+            "- I'm sorry, buddy.",
+            "सहकर्मी"
+          ],
+          [
+            "equipo",
+            "equipment",
+            "टीम"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Work and professions",
+      "es": "El trabajo y las profesiones",
+      "hi": "कार्य और व्यवसाय"
+    },
+    "unit": 12
+  },
+  {
+    "concepts": [
+      "c:numeros.cero",
+      "c:numeros.uno",
+      "c:numeros.dos",
+      "c:numeros.tres",
+      "c:numeros.cuatro",
+      "c:numeros.cinco",
+      "c:numeros.seis",
+      "c:numeros.siete",
+      "c:numeros.ocho",
+      "c:numeros.nueve",
+      "c:numeros.diez",
+      "c:numeros.once"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:numeros.cero",
+        "en": "zero",
+        "es": "cero",
+        "hi": "शून्य",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.uno",
+        "en": "one",
+        "es": "uno",
+        "hi": "एक",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:numeros.dos",
+        "en": "two",
+        "es": "dos",
+        "hi": "दो",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.tres",
+        "en": "three",
+        "es": "tres",
+        "hi": "तीन",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:numeros.cuatro",
+        "en": "4",
+        "es": "cuatro",
+        "hi": "चार",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.cinco",
+        "en": "five",
+        "es": "cinco",
+        "hi": "पाँच",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:numeros.seis",
+        "en": "6",
+        "es": "seis",
+        "hi": "छह",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.siete",
+        "en": "seven",
+        "es": "siete",
+        "hi": "सात",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:numeros.ocho",
+        "en": "8",
+        "es": "ocho",
+        "hi": "आठ",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.nueve",
+        "en": "9",
+        "es": "nueve",
+        "hi": "नौ",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:numeros.diez",
+        "en": "10",
+        "es": "diez",
+        "hi": "दस",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:numeros.once",
+        "en": "11",
+        "es": "once",
+        "hi": "ग्यारह",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Everyday numbers: used to count, give your age and talk about prices.",
+      "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
+      "hi": "दिन की संख्या आज तक: वे गिनती, उम्र और मूल्य के लिए उपयोग किए जाते हैं।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u2-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Count from zero to ten",
+        "Recognise basic numbers"
+      ],
+      "es": [
+        "Contar del cero al diez",
+        "Reconocer los números básicos"
+      ],
+      "hi": [
+        "शून्य से दस तक की गणना",
+        "बुनियादी संख्याओं को पहचानें"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "cero",
+            "zero",
+            "शून्य"
+          ],
+          [
+            "uno",
+            "one",
+            "एक"
+          ],
+          [
+            "dos",
+            "two",
+            "दो"
+          ],
+          [
+            "tres",
+            "three",
+            "तीन"
+          ],
+          [
+            "cuatro",
+            "4",
+            "चार"
+          ],
+          [
+            "cinco",
+            "five",
+            "पाँच"
+          ],
+          [
+            "seis",
+            "6",
+            "छह"
+          ],
+          [
+            "siete",
+            "seven",
+            "सात"
+          ],
+          [
+            "ocho",
+            "8",
+            "आठ"
+          ],
+          [
+            "nueve",
+            "9",
+            "नौ"
+          ],
+          [
+            "diez",
+            "10",
+            "दस"
+          ],
+          [
+            "once",
+            "11",
+            "ग्यारह"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Numbers",
+      "es": "Los números",
+      "hi": "संख्या"
+    },
+    "unit": 2
+  },
+  {
+    "concepts": [
+      "c:colores.rojo",
+      "c:colores.azul",
+      "c:colores.verde",
+      "c:colores.amarillo",
+      "c:colores.negro",
+      "c:colores.blanco",
+      "c:colores.naranja",
+      "c:colores.rosa",
+      "c:colores.morado-violeta",
+      "c:colores.marron",
+      "c:colores.gris",
+      "c:colores.dorado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:colores.rojo",
+        "en": "red",
+        "es": "rojo",
+        "hi": "लाल",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.azul",
+        "en": "blue",
+        "es": "azul",
+        "hi": "नीला",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:colores.verde",
+        "en": "green",
+        "es": "verde",
+        "hi": "हरा",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.amarillo",
+        "en": "yellow",
+        "es": "amarillo",
+        "hi": "पीला",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:colores.negro",
+        "en": "black",
+        "es": "negro",
+        "hi": "काला",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.blanco",
+        "en": "white",
+        "es": "blanco",
+        "hi": "सफ़ेद",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:colores.naranja",
+        "en": "orange",
+        "es": "naranja",
+        "hi": "नारंगी",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.rosa",
+        "en": "pink",
+        "es": "rosa",
+        "hi": "गुलाबी",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:colores.morado-violeta",
+        "en": "purple / violet",
+        "es": "morado / violeta",
+        "hi": "बैंगनी",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.marron",
+        "en": "brown",
+        "es": "marrón",
+        "hi": "भूरा",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:colores.gris",
+        "en": "grey",
+        "es": "gris",
+        "hi": "स्लेटी",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:colores.dorado",
+        "en": "gold",
+        "es": "dorado",
+        "hi": "सुनहरा",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Colours are used to describe objects, clothes and places.",
+      "es": "Los colores sirven para describir objetos, ropa y lugares.",
+      "hi": "रंग वस्तुओं, कपड़े और स्थानों का वर्णन करने के लिए काम करते हैं।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u3-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name basic colours",
+        "Describe objects by colour"
+      ],
+      "es": [
+        "Nombrar los colores básicos",
+        "Describir objetos por su color"
+      ],
+      "hi": [
+        "मूल रंग नाम",
+        "रंग से ऑब्जेक्ट्स का वर्णन करें"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "rojo",
+            "red",
+            "लाल"
+          ],
+          [
+            "azul",
+            "blue",
+            "नीला"
+          ],
+          [
+            "verde",
+            "green",
+            "हरा"
+          ],
+          [
+            "amarillo",
+            "yellow",
+            "पीला"
+          ],
+          [
+            "negro",
+            "black",
+            "काला"
+          ],
+          [
+            "blanco",
+            "white",
+            "सफ़ेद"
+          ],
+          [
+            "naranja",
+            "orange",
+            "नारंगी"
+          ],
+          [
+            "rosa",
+            "pink",
+            "गुलाबी"
+          ],
+          [
+            "morado / violeta",
+            "purple / violet",
+            "बैंगनी"
+          ],
+          [
+            "marrón",
+            "brown",
+            "भूरा"
+          ],
+          [
+            "gris",
+            "grey",
+            "स्लेटी"
+          ],
+          [
+            "dorado",
+            "gold",
+            "सुनहरा"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Colours",
+      "es": "Los colores",
+      "hi": "रंग"
+    },
+    "unit": 3
+  },
+  {
+    "concepts": [
+      "c:familia-y-personas.familia",
+      "c:familia-y-personas.madre",
+      "c:familia-y-personas.padre",
+      "c:familia-y-personas.padres",
+      "c:familia-y-personas.hijo",
+      "c:familia-y-personas.hija",
+      "c:familia-y-personas.nino-a",
+      "c:familia-y-personas.hermano",
+      "c:familia-y-personas.hermana",
+      "c:familia-y-personas.hermanos",
+      "c:familia-y-personas.abuelo-paterno",
+      "c:familia-y-personas.abuela-paterna"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:familia-y-personas.familia",
+        "en": "Family",
+        "es": "familia",
+        "hi": "परिवार",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.madre",
+        "en": "Mother",
+        "es": "madre",
+        "hi": "माँ",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:familia-y-personas.padre",
+        "en": "Father",
+        "es": "padre",
+        "hi": "पिता",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.padres",
+        "en": "parents",
+        "es": "padres",
+        "hi": "माता-पिता",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:familia-y-personas.hijo",
+        "en": "child",
+        "es": "hijo",
+        "hi": "बेटा",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.hija",
+        "en": "daughter",
+        "es": "hija",
+        "hi": "बेटी",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:familia-y-personas.nino-a",
+        "en": "child",
+        "es": "niño/a",
+        "hi": "बच्चा",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.hermano",
+        "en": "brother",
+        "es": "hermano",
+        "hi": "भाई",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:familia-y-personas.hermana",
+        "en": "sister",
+        "es": "hermana",
+        "hi": "बहन",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.hermanos",
+        "en": "brothers",
+        "es": "hermanos",
+        "hi": "भाई-बहन",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:familia-y-personas.abuelo-paterno",
+        "en": "paternal grandfather",
+        "es": "abuelo paterno",
+        "hi": "दादा",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:familia-y-personas.abuela-paterna",
+        "en": "Father's grandmother",
+        "es": "abuela paterna",
+        "hi": "दादी",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Words to refer to family and the people around you.",
+      "es": "Palabras para referirse a la familia y a las personas cercanas.",
+      "hi": "उनके पास परिवार और लोगों के बारे में जानने का शब्द है।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u4-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name family members",
+        "Talk about people"
+      ],
+      "es": [
+        "Nombrar a los miembros de la familia",
+        "Hablar de personas"
+      ],
+      "hi": [
+        "परिवार के सदस्यों को नियुक्त करना",
+        "लोगों के बारे में बात करें"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "familia",
+            "Family",
+            "परिवार"
+          ],
+          [
+            "madre",
+            "Mother",
+            "माँ"
+          ],
+          [
+            "padre",
+            "Father",
+            "पिता"
+          ],
+          [
+            "padres",
+            "parents",
+            "माता-पिता"
+          ],
+          [
+            "hijo",
+            "child",
+            "बेटा"
+          ],
+          [
+            "hija",
+            "daughter",
+            "बेटी"
+          ],
+          [
+            "niño/a",
+            "child",
+            "बच्चा"
+          ],
+          [
+            "hermano",
+            "brother",
+            "भाई"
+          ],
+          [
+            "hermana",
+            "sister",
+            "बहन"
+          ],
+          [
+            "hermanos",
+            "brothers",
+            "भाई-बहन"
+          ],
+          [
+            "abuelo paterno",
+            "paternal grandfather",
+            "दादा"
+          ],
+          [
+            "abuela paterna",
+            "Father's grandmother",
+            "दादी"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Family and people",
+      "es": "La familia y las personas",
+      "hi": "परिवार और व्यक्ति"
+    },
+    "unit": 4
+  },
+  {
+    "concepts": [
+      "c:cuerpo-humano.cuerpo",
+      "c:cuerpo-humano.cabeza",
+      "c:cuerpo-humano.cabello-pelo",
+      "c:cuerpo-humano.cara-rostro",
+      "c:cuerpo-humano.frente",
+      "c:cuerpo-humano.ojo",
+      "c:cuerpo-humano.ojos",
+      "c:cuerpo-humano.ceja",
+      "c:cuerpo-humano.parpado-pestana",
+      "c:cuerpo-humano.oreja-oido",
+      "c:cuerpo-humano.nariz",
+      "c:cuerpo-humano.boca"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:cuerpo-humano.cuerpo",
+        "en": "body",
+        "es": "cuerpo",
+        "hi": "शरीर",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.cabeza",
+        "en": "head",
+        "es": "cabeza",
+        "hi": "सिर",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:cuerpo-humano.cabello-pelo",
+        "en": "hair / hair-",
+        "es": "cabello / pelo",
+        "hi": "बाल",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.cara-rostro",
+        "en": "face / side",
+        "es": "cara / rostro",
+        "hi": "चेहरा",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:cuerpo-humano.frente",
+        "en": "front",
+        "es": "frente",
+        "hi": "माथा",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.ojo",
+        "en": "eye",
+        "es": "ojo",
+        "hi": "आँख",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:cuerpo-humano.ojos",
+        "en": "eyes",
+        "es": "ojos",
+        "hi": "आँखें",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.ceja",
+        "en": "Beef",
+        "es": "ceja",
+        "hi": "भौंह",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:cuerpo-humano.parpado-pestana",
+        "en": "eyelid / tab",
+        "es": "párpado / pestaña",
+        "hi": "पलक",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.oreja-oido",
+        "en": "ear / ears",
+        "es": "oreja / oído",
+        "hi": "कान",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:cuerpo-humano.nariz",
+        "en": "nose",
+        "es": "nariz",
+        "hi": "नाक",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:cuerpo-humano.boca",
+        "en": "mouth",
+        "es": "boca",
+        "hi": "मुँह",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Parts of the body, useful to talk about health and care.",
+      "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
+      "hi": "शरीर के अंगों, स्वास्थ्य और देखभाल की बात करने में उपयोगी है।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u5-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name parts of the body",
+        "Talk about health"
+      ],
+      "es": [
+        "Nombrar las partes del cuerpo",
+        "Hablar de la salud"
+      ],
+      "hi": [
+        "शरीर के अंगों का नाम",
+        "स्वास्थ्य के बारे में बात करें"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "cuerpo",
+            "body",
+            "शरीर"
+          ],
+          [
+            "cabeza",
+            "head",
+            "सिर"
+          ],
+          [
+            "cabello / pelo",
+            "hair / hair-",
+            "बाल"
+          ],
+          [
+            "cara / rostro",
+            "face / side",
+            "चेहरा"
+          ],
+          [
+            "frente",
+            "front",
+            "माथा"
+          ],
+          [
+            "ojo",
+            "eye",
+            "आँख"
+          ],
+          [
+            "ojos",
+            "eyes",
+            "आँखें"
+          ],
+          [
+            "ceja",
+            "Beef",
+            "भौंह"
+          ],
+          [
+            "párpado / pestaña",
+            "eyelid / tab",
+            "पलक"
+          ],
+          [
+            "oreja / oído",
+            "ear / ears",
+            "कान"
+          ],
+          [
+            "nariz",
+            "nose",
+            "नाक"
+          ],
+          [
+            "boca",
+            "mouth",
+            "मुँह"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "The human body",
+      "es": "El cuerpo humano",
+      "hi": "मानव शरीर"
+    },
+    "unit": 5
+  },
+  {
+    "concepts": [
+      "c:comida-y-bebida.comida-comer",
+      "c:comida-y-bebida.comida-formal",
+      "c:comida-y-bebida.desayuno",
+      "c:comida-y-bebida.almuerzo",
+      "c:comida-y-bebida.cena",
+      "c:comida-y-bebida.agua",
+      "c:comida-y-bebida.leche",
+      "c:comida-y-bebida.te",
+      "c:comida-y-bebida.cafe",
+      "c:comida-y-bebida.zumo-jugo",
+      "c:comida-y-bebida.lassi-yogur-batido",
+      "c:comida-y-bebida.alcohol-vino"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:comida-y-bebida.comida-comer",
+        "en": "food / eat",
+        "es": "comida / comer",
+        "hi": "खाना",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.comida-formal",
+        "en": "food (formal)",
+        "es": "comida (formal)",
+        "hi": "भोजन",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:comida-y-bebida.desayuno",
+        "en": "breakfast",
+        "es": "desayuno",
+        "hi": "नाश्ता",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.almuerzo",
+        "en": "lunch",
+        "es": "almuerzo",
+        "hi": "दोपहर का खाना",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:comida-y-bebida.cena",
+        "en": "dinner",
+        "es": "cena",
+        "hi": "रात का खाना",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.agua",
+        "en": "water",
+        "es": "agua",
+        "hi": "पानी",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:comida-y-bebida.leche",
+        "en": "milk",
+        "es": "leche",
+        "hi": "दूध",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.te",
+        "en": "tea",
+        "es": "té",
+        "hi": "चाय",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:comida-y-bebida.cafe",
+        "en": "coffee",
+        "es": "café",
+        "hi": "कॉफ़ी",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.zumo-jugo",
+        "en": "juice / juices",
+        "es": "zumo / jugo",
+        "hi": "जूस",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:comida-y-bebida.lassi-yogur-batido",
+        "en": "lassi (yoghurt beaten)",
+        "es": "lassi (yogur batido)",
+        "hi": "लस्सी",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:comida-y-bebida.alcohol-vino",
+        "en": "alcohol / wine",
+        "es": "alcohol / vino",
+        "hi": "शराब",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Basic foods and drinks, very useful when shopping or eating out.",
+      "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
+      "hi": "मूल भोजन और पेय, घर के बाहर खरीद या खाने पर बहुत उपयोगी होते हैं।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u6-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name food and drinks",
+        "Order in a restaurant"
+      ],
+      "es": [
+        "Nombrar alimentos y bebidas",
+        "Pedir en un restaurante"
+      ],
+      "hi": [
+        "भोजन और पेय",
+        "एक रेस्तरां में पूछो"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "comida / comer",
+            "food / eat",
+            "खाना"
+          ],
+          [
+            "comida (formal)",
+            "food (formal)",
+            "भोजन"
+          ],
+          [
+            "desayuno",
+            "breakfast",
+            "नाश्ता"
+          ],
+          [
+            "almuerzo",
+            "lunch",
+            "दोपहर का खाना"
+          ],
+          [
+            "cena",
+            "dinner",
+            "रात का खाना"
+          ],
+          [
+            "agua",
+            "water",
+            "पानी"
+          ],
+          [
+            "leche",
+            "milk",
+            "दूध"
+          ],
+          [
+            "té",
+            "tea",
+            "चाय"
+          ],
+          [
+            "café",
+            "coffee",
+            "कॉफ़ी"
+          ],
+          [
+            "zumo / jugo",
+            "juice / juices",
+            "जूस"
+          ],
+          [
+            "lassi (yogur batido)",
+            "lassi (yoghurt beaten)",
+            "लस्सी"
+          ],
+          [
+            "alcohol / vino",
+            "alcohol / wine",
+            "शराब"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Food and drink",
+      "es": "La comida y la bebida",
+      "hi": "खाद्य और पेय"
+    },
+    "unit": 6
+  },
+  {
+    "concepts": [
+      "c:casa-y-hogar.casa-hogar",
+      "c:casa-y-hogar.edificio-casa",
+      "c:casa-y-hogar.apartamento",
+      "c:casa-y-hogar.habitacion-cuarto",
+      "c:casa-y-hogar.sala-de-estar",
+      "c:casa-y-hogar.dormitorio",
+      "c:casa-y-hogar.cocina-habitacion",
+      "c:casa-y-hogar.bano",
+      "c:casa-y-hogar.inodoro-lavabo",
+      "c:casa-y-hogar.balcon",
+      "c:casa-y-hogar.techo-azotea",
+      "c:casa-y-hogar.pared"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:casa-y-hogar.casa-hogar",
+        "en": "Home / home",
+        "es": "casa / hogar",
+        "hi": "घर",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.edificio-casa",
+        "en": "building / house",
+        "es": "edificio / casa",
+        "hi": "मकान",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:casa-y-hogar.apartamento",
+        "en": "apartment",
+        "es": "apartamento",
+        "hi": "अपार्टमेंट",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.habitacion-cuarto",
+        "en": "room / bedroom",
+        "es": "habitación / cuarto",
+        "hi": "कमरा",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:casa-y-hogar.sala-de-estar",
+        "en": "living room",
+        "es": "sala de estar",
+        "hi": "बैठक",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.dormitorio",
+        "en": "bedroom",
+        "es": "dormitorio",
+        "hi": "शयनकक्ष",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:casa-y-hogar.cocina-habitacion",
+        "en": "kitchen (room)",
+        "es": "cocina (habitación)",
+        "hi": "रसोई",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.bano",
+        "en": "bathroom",
+        "es": "baño",
+        "hi": "बाथरूम",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:casa-y-hogar.inodoro-lavabo",
+        "en": "toilet / sink",
+        "es": "inodoro / lavabo",
+        "hi": "शौचालय",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.balcon",
+        "en": "balcony",
+        "es": "balcón",
+        "hi": "बालकनी",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:casa-y-hogar.techo-azotea",
+        "en": "roof / rooftop",
+        "es": "techo / azotea",
+        "hi": "छत",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:casa-y-hogar.pared",
+        "en": "wall",
+        "es": "pared",
+        "hi": "दीवार",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "House vocabulary: rooms, furniture and everyday objects.",
+      "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos.",
+      "hi": "घर का शब्दावली: कमरे, फर्नीचर और दैनिक वस्तुएं।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u7-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name parts of the house",
+        "Describe household objects"
+      ],
+      "es": [
+        "Nombrar partes de la casa",
+        "Describir objetos del hogar"
+      ],
+      "hi": [
+        "घर के नाम भागों",
+        "घरेलू वस्तुओं का वर्णन करें"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "casa / hogar",
+            "Home / home",
+            "घर"
+          ],
+          [
+            "edificio / casa",
+            "building / house",
+            "मकान"
+          ],
+          [
+            "apartamento",
+            "apartment",
+            "अपार्टमेंट"
+          ],
+          [
+            "habitación / cuarto",
+            "room / bedroom",
+            "कमरा"
+          ],
+          [
+            "sala de estar",
+            "living room",
+            "बैठक"
+          ],
+          [
+            "dormitorio",
+            "bedroom",
+            "शयनकक्ष"
+          ],
+          [
+            "cocina (habitación)",
+            "kitchen (room)",
+            "रसोई"
+          ],
+          [
+            "baño",
+            "bathroom",
+            "बाथरूम"
+          ],
+          [
+            "inodoro / lavabo",
+            "toilet / sink",
+            "शौचालय"
+          ],
+          [
+            "balcón",
+            "balcony",
+            "बालकनी"
+          ],
+          [
+            "techo / azotea",
+            "roof / rooftop",
+            "छत"
+          ],
+          [
+            "pared",
+            "wall",
+            "दीवार"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Home and household",
+      "es": "La casa y el hogar",
+      "hi": "घर और घर"
+    },
+    "unit": 7
+  },
+  {
+    "concepts": [
+      "c:tiempo-y-calendario.tiempo-hora",
+      "c:tiempo-y-calendario.reloj-hora",
+      "c:tiempo-y-calendario.minuto",
+      "c:tiempo-y-calendario.segundo-tiempo",
+      "c:tiempo-y-calendario.hora-duracion",
+      "c:tiempo-y-calendario.manana-temprano",
+      "c:tiempo-y-calendario.mediodia-tarde",
+      "c:tiempo-y-calendario.tarde-atardecer",
+      "c:tiempo-y-calendario.noche",
+      "c:tiempo-y-calendario.medianoche",
+      "c:tiempo-y-calendario.dia",
+      "c:tiempo-y-calendario.hoy"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:tiempo-y-calendario.tiempo-hora",
+        "en": "time / hour",
+        "es": "tiempo / hora",
+        "hi": "समय",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.reloj-hora",
+        "en": "clock / time",
+        "es": "reloj / hora",
+        "hi": "घड़ी",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.minuto",
+        "en": "minute",
+        "es": "minuto",
+        "hi": "मिनट",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.segundo-tiempo",
+        "en": "second (time)",
+        "es": "segundo (tiempo)",
+        "hi": "सेकंड",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.hora-duracion",
+        "en": "time (duration)",
+        "es": "hora (duración)",
+        "hi": "घंटा",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.manana-temprano",
+        "en": "(early)",
+        "es": "mañana (temprano)",
+        "hi": "सुबह",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.mediodia-tarde",
+        "en": "noon / afternoon",
+        "es": "mediodía / tarde",
+        "hi": "दोपहर",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.tarde-atardecer",
+        "en": "late / evening",
+        "es": "tarde / atardecer",
+        "hi": "शाम",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.noche",
+        "en": "night",
+        "es": "noche",
+        "hi": "रात",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.medianoche",
+        "en": "midnight",
+        "es": "medianoche",
+        "hi": "आधी रात",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.dia",
+        "en": "day",
+        "es": "día",
+        "hi": "दिन",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.hoy",
+        "en": "Today",
+        "es": "hoy",
+        "hi": "आज",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Words to place actions in time: days, months and seasons.",
+      "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones.",
+      "hi": "समय में क्रियाओं को रखने के लिए शब्द: दिन, महीने और मौसम।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u8-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Say days, months and seasons",
+        "Talk about dates"
+      ],
+      "es": [
+        "Decir días, meses y estaciones",
+        "Hablar de fechas"
+      ],
+      "hi": [
+        "दिन, महीने और मौसम",
+        "तारीखों के बारे में बात करें"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "tiempo / hora",
+            "time / hour",
+            "समय"
+          ],
+          [
+            "reloj / hora",
+            "clock / time",
+            "घड़ी"
+          ],
+          [
+            "minuto",
+            "minute",
+            "मिनट"
+          ],
+          [
+            "segundo (tiempo)",
+            "second (time)",
+            "सेकंड"
+          ],
+          [
+            "hora (duración)",
+            "time (duration)",
+            "घंटा"
+          ],
+          [
+            "mañana (temprano)",
+            "(early)",
+            "सुबह"
+          ],
+          [
+            "mediodía / tarde",
+            "noon / afternoon",
+            "दोपहर"
+          ],
+          [
+            "tarde / atardecer",
+            "late / evening",
+            "शाम"
+          ],
+          [
+            "noche",
+            "night",
+            "रात"
+          ],
+          [
+            "medianoche",
+            "midnight",
+            "आधी रात"
+          ],
+          [
+            "día",
+            "day",
+            "दिन"
+          ],
+          [
+            "hoy",
+            "Today",
+            "आज"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Time and calendar",
+      "es": "El tiempo y el calendario",
+      "hi": "समय और कैलेंडर"
+    },
+    "unit": 8
+  },
+  {
+    "concepts": [
+      "c:animales.animal",
+      "c:animales.perro",
+      "c:animales.gato",
+      "c:animales.vaca",
+      "c:animales.buey-toro",
+      "c:animales.bufalo",
+      "c:animales.caballo",
+      "c:animales.burro-asno",
+      "c:animales.cabra",
+      "c:animales.oveja",
+      "c:animales.cerdo",
+      "c:animales.gallina"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:animales.animal",
+        "en": "animal",
+        "es": "animal",
+        "hi": "जानवर",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.perro",
+        "en": "dog",
+        "es": "perro",
+        "hi": "कुत्ता",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:animales.gato",
+        "en": "cat",
+        "es": "gato",
+        "hi": "बिल्ली",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.vaca",
+        "en": "cow",
+        "es": "vaca",
+        "hi": "गाय",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:animales.buey-toro",
+        "en": "ox / bull",
+        "es": "buey / toro",
+        "hi": "बैल",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.bufalo",
+        "en": "buffalo",
+        "es": "búfalo",
+        "hi": "भैंस",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:animales.caballo",
+        "en": "horse",
+        "es": "caballo",
+        "hi": "घोड़ा",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.burro-asno",
+        "en": "donkey / ass",
+        "es": "burro / asno",
+        "hi": "गधा",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:animales.cabra",
+        "en": "goat",
+        "es": "cabra",
+        "hi": "बकरी",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.oveja",
+        "en": "sheep",
+        "es": "oveja",
+        "hi": "भेड़",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:animales.cerdo",
+        "en": "pig",
+        "es": "cerdo",
+        "hi": "सूअर",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:animales.gallina",
+        "en": "chicken",
+        "es": "gallina",
+        "hi": "मुर्गी",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Common animals, both domestic and wild.",
+      "es": "Animales frecuentes, tanto domésticos como salvajes.",
+      "hi": "अक्सर जानवरों, घरेलू और जंगली दोनों।"
+    },
+    "generator": "build_lessons",
+    "id": "hi-u9-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name common animals",
+        "Describe animals"
+      ],
+      "es": [
+        "Nombrar animales comunes",
+        "Describir animales"
+      ],
+      "hi": [
+        "नाम आम जानवर",
+        "जानवरों का वर्णन करें"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "animal",
+            "animal",
+            "जानवर"
+          ],
+          [
+            "perro",
+            "dog",
+            "कुत्ता"
+          ],
+          [
+            "gato",
+            "cat",
+            "बिल्ली"
+          ],
+          [
+            "vaca",
+            "cow",
+            "गाय"
+          ],
+          [
+            "buey / toro",
+            "ox / bull",
+            "बैल"
+          ],
+          [
+            "búfalo",
+            "buffalo",
+            "भैंस"
+          ],
+          [
+            "caballo",
+            "horse",
+            "घोड़ा"
+          ],
+          [
+            "burro / asno",
+            "donkey / ass",
+            "गधा"
+          ],
+          [
+            "cabra",
+            "goat",
+            "बकरी"
+          ],
+          [
+            "oveja",
+            "sheep",
+            "भेड़"
+          ],
+          [
+            "cerdo",
+            "pig",
+            "सूअर"
+          ],
+          [
+            "gallina",
+            "chicken",
+            "मुर्गी"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Animals",
+      "es": "Los animales",
+      "hi": "पशु"
+    },
+    "unit": 9
+  }
+]

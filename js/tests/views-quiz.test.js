@@ -17,7 +17,14 @@ test("buildQuestions usa el mismo dominio para los distractores", () => {
   const q = qs[0];
   assert.equal(q.answer, "bonjour");
   assert.ok(q.options.includes("bonjour"));
-  assert.equal(q.options.length, 2); // solo otro concepto del dominio 'saludos'
+  assert.equal(new Set(q.options).size, q.options.length); // sin repetidos
+});
+
+test("buildQuestions completa con otros dominios si el dominio es pequeño", () => {
+  const qs = buildQuestions(PAIRS, () => 0.5);
+  const q = qs[0];
+  // 'saludos' sólo aporta 1 distractor ('merci'); se rellena con 'un' (numeros).
+  assert.ok(q.options.includes("un"));
 });
 
 test("renderQuiz muestra pregunta y opciones", () => {

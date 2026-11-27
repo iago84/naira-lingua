@@ -28,11 +28,11 @@ export function renderDictionary({ t, concepts, byLang, query = "", domain = "" 
 
   const rows = filtered.map((c) => {
     const langs = Object.entries(c._terms)
-      .map(([lg, tm]) => `<li><span class="muted">${esc(lg)}</span> ${esc(tm.term)}</li>`)
+      .map(([lg, tm]) => `<li><span class="muted">${esc(lg)}</span> <span dir="auto">${esc(tm.term)}</span></li>`)
       .join("");
     return `<div class="card">
       <div class="muted">${esc(c.domain)} · ${esc(c.id)}</div>
-      <p>${esc(c.gloss_es)}</p>
+      <p dir="auto">${esc(c.gloss_es)}</p>
       <ul>${langs}</ul>
     </div>`;
   }).join("");

@@ -1,0 +1,2449 @@
+[
+  {
+    "concepts": [
+      "c:saludos-y-expresiones.hola",
+      "c:saludos-y-expresiones.buenos-dias",
+      "c:saludos-y-expresiones.buenas-tardes",
+      "c:saludos-y-expresiones.buenas-noches",
+      "c:saludos-y-expresiones.gracias",
+      "c:saludos-y-expresiones.por-favor",
+      "c:saludos-y-expresiones.perdon-disculpe",
+      "c:saludos-y-expresiones.adios",
+      "c:saludos-y-expresiones.hasta-luego",
+      "c:saludos-y-expresiones.si",
+      "c:saludos-y-expresiones.no"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:saludos-y-expresiones.hola",
+        "en": "Hello.",
+        "es": "hola",
+        "speaker": "A",
+        "zh": "哈啰"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.buenos-dias",
+        "en": "Good morning.",
+        "es": "buenos días",
+        "speaker": "B",
+        "zh": "早上好,我刚从你那回来"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.buenas-tardes",
+        "en": "Good afternoon.",
+        "es": "buenas tardes",
+        "speaker": "A",
+        "zh": "下午好,我说,我..."
+      },
+      {
+        "concept": "c:saludos-y-expresiones.buenas-noches",
+        "en": "Good night.",
+        "es": "buenas noches",
+        "speaker": "B",
+        "zh": "晚安,我需要你帮忙。"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.gracias",
+        "en": "Thank you.",
+        "es": "gracias",
+        "speaker": "A",
+        "zh": "谢谢"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.por-favor",
+        "en": "Please.",
+        "es": "por favor",
+        "speaker": "B",
+        "zh": "请"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.perdon-disculpe",
+        "en": "Excuse me / excuse",
+        "es": "perdón / disculpe",
+        "speaker": "A",
+        "zh": "对不起,对不起"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.adios",
+        "en": "Bye.",
+        "es": "adiós",
+        "speaker": "B",
+        "zh": "再见。"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.hasta-luego",
+        "en": "See you later.",
+        "es": "hasta luego",
+        "speaker": "A",
+        "zh": "回头见"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.si",
+        "en": "Yes",
+        "es": "sí",
+        "speaker": "B",
+        "zh": "对"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.no",
+        "en": "No.",
+        "es": "no",
+        "speaker": "A",
+        "zh": "没有"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Basic courtesy expressions to open and close a conversation.",
+      "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
+      "zh": "基本表达礼节,开口闭口."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u1-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Greet and say goodbye",
+        "Thank and say please"
+      ],
+      "es": [
+        "Saludar y despedirse",
+        "Dar las gracias y pedir por favor"
+      ],
+      "zh": [
+        "问候和道别",
+        "麻烦你多谢一下"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "hola",
+            "Hello.",
+            "哈啰"
+          ],
+          [
+            "buenos días",
+            "Good morning.",
+            "早上好,我刚从你那回来"
+          ],
+          [
+            "buenas tardes",
+            "Good afternoon.",
+            "下午好,我说,我..."
+          ],
+          [
+            "buenas noches",
+            "Good night.",
+            "晚安,我需要你帮忙。"
+          ],
+          [
+            "gracias",
+            "Thank you.",
+            "谢谢"
+          ],
+          [
+            "por favor",
+            "Please.",
+            "请"
+          ],
+          [
+            "perdón / disculpe",
+            "Excuse me / excuse",
+            "对不起,对不起"
+          ],
+          [
+            "adiós",
+            "Bye.",
+            "再见。"
+          ],
+          [
+            "hasta luego",
+            "See you later.",
+            "回头见"
+          ],
+          [
+            "sí",
+            "Yes",
+            "对"
+          ],
+          [
+            "no",
+            "No.",
+            "没有"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Greetings and courtesy",
+      "es": "Saludos y cortesía",
+      "zh": "问候和礼貌"
+    },
+    "unit": 1
+  },
+  {
+    "concepts": [
+      "c:ciudad-y-lugares.ciudad",
+      "c:ciudad-y-lugares.pueblo-aldea",
+      "c:ciudad-y-lugares.pais",
+      "c:ciudad-y-lugares.estado-provincia",
+      "c:ciudad-y-lugares.capital",
+      "c:ciudad-y-lugares.zona-area",
+      "c:ciudad-y-lugares.calle-carretera",
+      "c:ciudad-y-lugares.callejon",
+      "c:ciudad-y-lugares.cruce-interseccion",
+      "c:ciudad-y-lugares.puente",
+      "c:ciudad-y-lugares.plaza",
+      "c:ciudad-y-lugares.mercado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:ciudad-y-lugares.ciudad",
+        "en": "city",
+        "es": "ciudad",
+        "speaker": "A",
+        "zh": "城市( C)"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.pueblo-aldea",
+        "en": "village / town",
+        "es": "pueblo / aldea",
+        "speaker": "B",
+        "zh": "村庄/城镇"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.pais",
+        "en": "country",
+        "es": "país",
+        "speaker": "A",
+        "zh": "国家"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.estado-provincia",
+        "en": "State / province",
+        "es": "estado / provincia",
+        "speaker": "B",
+        "zh": "州/省"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.capital",
+        "en": "capital",
+        "es": "capital",
+        "speaker": "A",
+        "zh": "资本"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.zona-area",
+        "en": "area / zone",
+        "es": "zona / área",
+        "speaker": "B",
+        "zh": "区域/区"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.calle-carretera",
+        "en": "Street / road",
+        "es": "calle / carretera",
+        "speaker": "A",
+        "zh": "街道/道路"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.callejon",
+        "en": "alley",
+        "es": "callejón",
+        "speaker": "B",
+        "zh": "巷子(小巷)"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.cruce-interseccion",
+        "en": "cross / intersection",
+        "es": "cruce / intersección",
+        "speaker": "A",
+        "zh": "交叉/相交点"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.puente",
+        "en": "bridge",
+        "es": "puente",
+        "speaker": "B",
+        "zh": "桥"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.plaza",
+        "en": "square",
+        "es": "plaza",
+        "speaker": "A",
+        "zh": "平方圆"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.mercado",
+        "en": "market",
+        "es": "mercado",
+        "speaker": "B",
+        "zh": "市场"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Places in the city to move around and ask for directions.",
+      "es": "Lugares de la ciudad para moverse y pedir indicaciones.",
+      "zh": "入城取地以行并问道."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u10-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name places in the city",
+        "Ask for directions"
+      ],
+      "es": [
+        "Nombrar lugares de la ciudad",
+        "Pedir direcciones"
+      ],
+      "zh": [
+        "城市名称",
+        "询问地址"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "ciudad",
+            "city",
+            "城市( C)"
+          ],
+          [
+            "pueblo / aldea",
+            "village / town",
+            "村庄/城镇"
+          ],
+          [
+            "país",
+            "country",
+            "国家"
+          ],
+          [
+            "estado / provincia",
+            "State / province",
+            "州/省"
+          ],
+          [
+            "capital",
+            "capital",
+            "资本"
+          ],
+          [
+            "zona / área",
+            "area / zone",
+            "区域/区"
+          ],
+          [
+            "calle / carretera",
+            "Street / road",
+            "街道/道路"
+          ],
+          [
+            "callejón",
+            "alley",
+            "巷子(小巷)"
+          ],
+          [
+            "cruce / intersección",
+            "cross / intersection",
+            "交叉/相交点"
+          ],
+          [
+            "puente",
+            "bridge",
+            "桥"
+          ],
+          [
+            "plaza",
+            "square",
+            "平方圆"
+          ],
+          [
+            "mercado",
+            "market",
+            "市场"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "City and places",
+      "es": "La ciudad y los lugares",
+      "zh": "城市和地点"
+    },
+    "unit": 10
+  },
+  {
+    "concepts": [
+      "c:ropa-y-accesorios.ropa",
+      "c:ropa-y-accesorios.camisa",
+      "c:ropa-y-accesorios.camiseta",
+      "c:ropa-y-accesorios.pantalon",
+      "c:ropa-y-accesorios.vaqueros-jeans",
+      "c:ropa-y-accesorios.pantalones-cortos",
+      "c:ropa-y-accesorios.falda",
+      "c:ropa-y-accesorios.vestido",
+      "c:ropa-y-accesorios.sari",
+      "c:ropa-y-accesorios.salwar-kameez",
+      "c:ropa-y-accesorios.kurta",
+      "c:ropa-y-accesorios.pijama"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:ropa-y-accesorios.ropa",
+        "en": "clothing",
+        "es": "ropa",
+        "speaker": "A",
+        "zh": "服装"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.camisa",
+        "en": "shirt",
+        "es": "camisa",
+        "speaker": "B",
+        "zh": "衬衫"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.camiseta",
+        "en": "T-shirt",
+        "es": "camiseta",
+        "speaker": "A",
+        "zh": "T恤"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pantalon",
+        "en": "Pants",
+        "es": "pantalón",
+        "speaker": "B",
+        "zh": "裤子"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+        "en": "jeans / jans",
+        "es": "vaqueros / jeans",
+        "speaker": "A",
+        "zh": "牛仔裤/牛仔裤"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pantalones-cortos",
+        "en": "Short pants",
+        "es": "pantalones cortos",
+        "speaker": "B",
+        "zh": "短裤"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.falda",
+        "en": "skirt",
+        "es": "falda",
+        "speaker": "A",
+        "zh": "线条"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.vestido",
+        "en": "dress up",
+        "es": "vestido",
+        "speaker": "B",
+        "zh": "穿起来"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.sari",
+        "en": "sari",
+        "es": "sari",
+        "speaker": "A",
+        "zh": "萨里"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.salwar-kameez",
+        "en": "salwar kameez",
+        "es": "salwar kameez",
+        "speaker": "B",
+        "zh": "萨尔瓦尔·卡米兹"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.kurta",
+        "en": "kurta",
+        "es": "kurta",
+        "speaker": "A",
+        "zh": "库尔塔"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pijama",
+        "en": "pajamas",
+        "es": "pijama",
+        "speaker": "B",
+        "zh": "睡衣(Shopple) : 睡衣(Phase, suffer-s."
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Clothes and accessories, with words useful for clothes shopping.",
+      "es": "Prendas y accesorios, con palabras útiles para comprar ropa.",
+      "zh": "笔和饰品,有用词来购买衣服."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u11-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name clothes",
+        "Go shopping"
+      ],
+      "es": [
+        "Nombrar prendas de ropa",
+        "Ir de compras"
+      ],
+      "zh": [
+        "指定服装",
+        "买东西去"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "ropa",
+            "clothing",
+            "服装"
+          ],
+          [
+            "camisa",
+            "shirt",
+            "衬衫"
+          ],
+          [
+            "camiseta",
+            "T-shirt",
+            "T恤"
+          ],
+          [
+            "pantalón",
+            "Pants",
+            "裤子"
+          ],
+          [
+            "vaqueros / jeans",
+            "jeans / jans",
+            "牛仔裤/牛仔裤"
+          ],
+          [
+            "pantalones cortos",
+            "Short pants",
+            "短裤"
+          ],
+          [
+            "falda",
+            "skirt",
+            "线条"
+          ],
+          [
+            "vestido",
+            "dress up",
+            "穿起来"
+          ],
+          [
+            "sari",
+            "sari",
+            "萨里"
+          ],
+          [
+            "salwar kameez",
+            "salwar kameez",
+            "萨尔瓦尔·卡米兹"
+          ],
+          [
+            "kurta",
+            "kurta",
+            "库尔塔"
+          ],
+          [
+            "pijama",
+            "pajamas",
+            "睡衣(Shopple) : 睡衣(Phase, suffer-s."
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Clothing and accessories",
+      "es": "La ropa y los accesorios",
+      "zh": "服装和配件"
+    },
+    "unit": 11
+  },
+  {
+    "concepts": [
+      "c:trabajo-y-profesiones.trabajo-labor",
+      "c:trabajo-y-profesiones.empleo-trabajo",
+      "c:trabajo-y-profesiones.profesion-oficio",
+      "c:trabajo-y-profesiones.negocio-profesion",
+      "c:trabajo-y-profesiones.empresa-compania",
+      "c:trabajo-y-profesiones.oficina",
+      "c:trabajo-y-profesiones.oficina-despacho",
+      "c:trabajo-y-profesiones.dueno-propietario",
+      "c:trabajo-y-profesiones.jefe-a",
+      "c:trabajo-y-profesiones.empleado-a",
+      "c:trabajo-y-profesiones.colega",
+      "c:trabajo-y-profesiones.equipo"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:trabajo-y-profesiones.trabajo-labor",
+        "en": "work /",
+        "es": "trabajo / labor",
+        "speaker": "A",
+        "zh": "工作/时间"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+        "en": "employment / work",
+        "es": "empleo / trabajo",
+        "speaker": "B",
+        "zh": "就业/工作"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.profesion-oficio",
+        "en": "profession / trade",
+        "es": "profesión / oficio",
+        "speaker": "A",
+        "zh": "职业/行业"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.negocio-profesion",
+        "en": "business / profession",
+        "es": "negocio / profesión",
+        "speaker": "B",
+        "zh": "商业/专业"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empresa-compania",
+        "en": "company / enterprise",
+        "es": "empresa / compañía",
+        "speaker": "A",
+        "zh": "公司/企业"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.oficina",
+        "en": "office",
+        "es": "oficina",
+        "speaker": "B",
+        "zh": "办公室"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.oficina-despacho",
+        "en": "office /",
+        "es": "oficina / despacho",
+        "speaker": "A",
+        "zh": "办公室/"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.dueno-propietario",
+        "en": "owner / proprietor",
+        "es": "dueño / propietario",
+        "speaker": "B",
+        "zh": "拥有者/业主"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.jefe-a",
+        "en": "Chief",
+        "es": "jefe/a",
+        "speaker": "A",
+        "zh": "处长"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empleado-a",
+        "en": "employee",
+        "es": "empleado/a",
+        "speaker": "B",
+        "zh": "雇员"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.colega",
+        "en": "- I'm sorry, buddy.",
+        "es": "colega",
+        "speaker": "A",
+        "zh": "- 对不起,伙计。"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.equipo",
+        "en": "equipment",
+        "es": "equipo",
+        "speaker": "B",
+        "zh": "设备"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Professions and words from the world of work.",
+      "es": "Profesiones y palabras del mundo laboral.",
+      "zh": "业与道相出世间活."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u12-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name professions",
+        "Talk about work"
+      ],
+      "es": [
+        "Nombrar profesiones",
+        "Hablar del trabajo"
+      ],
+      "zh": [
+        "任命职业",
+        "说到工作"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "trabajo / labor",
+            "work /",
+            "工作/时间"
+          ],
+          [
+            "empleo / trabajo",
+            "employment / work",
+            "就业/工作"
+          ],
+          [
+            "profesión / oficio",
+            "profession / trade",
+            "职业/行业"
+          ],
+          [
+            "negocio / profesión",
+            "business / profession",
+            "商业/专业"
+          ],
+          [
+            "empresa / compañía",
+            "company / enterprise",
+            "公司/企业"
+          ],
+          [
+            "oficina",
+            "office",
+            "办公室"
+          ],
+          [
+            "oficina / despacho",
+            "office /",
+            "办公室/"
+          ],
+          [
+            "dueño / propietario",
+            "owner / proprietor",
+            "拥有者/业主"
+          ],
+          [
+            "jefe/a",
+            "Chief",
+            "处长"
+          ],
+          [
+            "empleado/a",
+            "employee",
+            "雇员"
+          ],
+          [
+            "colega",
+            "- I'm sorry, buddy.",
+            "- 对不起,伙计。"
+          ],
+          [
+            "equipo",
+            "equipment",
+            "设备"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Work and professions",
+      "es": "El trabajo y las profesiones",
+      "zh": "工作和职业"
+    },
+    "unit": 12
+  },
+  {
+    "concepts": [
+      "c:numeros.cero",
+      "c:numeros.uno",
+      "c:numeros.dos",
+      "c:numeros.tres",
+      "c:numeros.cuatro",
+      "c:numeros.cinco",
+      "c:numeros.seis",
+      "c:numeros.siete",
+      "c:numeros.ocho",
+      "c:numeros.nueve",
+      "c:numeros.diez",
+      "c:numeros.once"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:numeros.cero",
+        "en": "zero",
+        "es": "cero",
+        "speaker": "A",
+        "zh": "0 个"
+      },
+      {
+        "concept": "c:numeros.uno",
+        "en": "one",
+        "es": "uno",
+        "speaker": "B",
+        "zh": "单曲"
+      },
+      {
+        "concept": "c:numeros.dos",
+        "en": "two",
+        "es": "dos",
+        "speaker": "A",
+        "zh": "双"
+      },
+      {
+        "concept": "c:numeros.tres",
+        "en": "three",
+        "es": "tres",
+        "speaker": "B",
+        "zh": "3个"
+      },
+      {
+        "concept": "c:numeros.cuatro",
+        "en": "4",
+        "es": "cuatro",
+        "speaker": "A",
+        "zh": "4 国家"
+      },
+      {
+        "concept": "c:numeros.cinco",
+        "en": "five",
+        "es": "cinco",
+        "speaker": "B",
+        "zh": "5个"
+      },
+      {
+        "concept": "c:numeros.seis",
+        "en": "6",
+        "es": "seis",
+        "speaker": "A",
+        "zh": "6 中文无改动"
+      },
+      {
+        "concept": "c:numeros.siete",
+        "en": "seven",
+        "es": "siete",
+        "speaker": "B",
+        "zh": "7个"
+      },
+      {
+        "concept": "c:numeros.ocho",
+        "en": "8",
+        "es": "ocho",
+        "speaker": "A",
+        "zh": "7个P-4"
+      },
+      {
+        "concept": "c:numeros.nueve",
+        "en": "9",
+        "es": "nueve",
+        "speaker": "B",
+        "zh": "3 国家"
+      },
+      {
+        "concept": "c:numeros.diez",
+        "en": "10",
+        "es": "diez",
+        "speaker": "A",
+        "zh": "10个"
+      },
+      {
+        "concept": "c:numeros.once",
+        "en": "11",
+        "es": "once",
+        "speaker": "B",
+        "zh": "11 中文无改动。"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Everyday numbers: used to count, give your age and talk about prices.",
+      "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
+      "zh": "至今的日数:用于计数,年龄和价格."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u2-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Count from zero to ten",
+        "Recognise basic numbers"
+      ],
+      "es": [
+        "Contar del cero al diez",
+        "Reconocer los números básicos"
+      ],
+      "zh": [
+        "从0到10计数",
+        "识别基本数字"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "cero",
+            "zero",
+            "0 个"
+          ],
+          [
+            "uno",
+            "one",
+            "单曲"
+          ],
+          [
+            "dos",
+            "two",
+            "双"
+          ],
+          [
+            "tres",
+            "three",
+            "3个"
+          ],
+          [
+            "cuatro",
+            "4",
+            "4 国家"
+          ],
+          [
+            "cinco",
+            "five",
+            "5个"
+          ],
+          [
+            "seis",
+            "6",
+            "6 中文无改动"
+          ],
+          [
+            "siete",
+            "seven",
+            "7个"
+          ],
+          [
+            "ocho",
+            "8",
+            "7个P-4"
+          ],
+          [
+            "nueve",
+            "9",
+            "3 国家"
+          ],
+          [
+            "diez",
+            "10",
+            "10个"
+          ],
+          [
+            "once",
+            "11",
+            "11 中文无改动。"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Numbers",
+      "es": "Los números",
+      "zh": "数字"
+    },
+    "unit": 2
+  },
+  {
+    "concepts": [
+      "c:colores.rojo",
+      "c:colores.azul",
+      "c:colores.verde",
+      "c:colores.amarillo",
+      "c:colores.negro",
+      "c:colores.blanco",
+      "c:colores.naranja",
+      "c:colores.rosa",
+      "c:colores.morado-violeta",
+      "c:colores.marron",
+      "c:colores.gris",
+      "c:colores.dorado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:colores.rojo",
+        "en": "red",
+        "es": "rojo",
+        "speaker": "A",
+        "zh": "红色"
+      },
+      {
+        "concept": "c:colores.azul",
+        "en": "blue",
+        "es": "azul",
+        "speaker": "B",
+        "zh": "蓝色"
+      },
+      {
+        "concept": "c:colores.verde",
+        "en": "green",
+        "es": "verde",
+        "speaker": "A",
+        "zh": "绿色"
+      },
+      {
+        "concept": "c:colores.amarillo",
+        "en": "yellow",
+        "es": "amarillo",
+        "speaker": "B",
+        "zh": "黄色"
+      },
+      {
+        "concept": "c:colores.negro",
+        "en": "black",
+        "es": "negro",
+        "speaker": "A",
+        "zh": "黑色"
+      },
+      {
+        "concept": "c:colores.blanco",
+        "en": "white",
+        "es": "blanco",
+        "speaker": "B",
+        "zh": "白色"
+      },
+      {
+        "concept": "c:colores.naranja",
+        "en": "orange",
+        "es": "naranja",
+        "speaker": "A",
+        "zh": "橙色( 橙色)"
+      },
+      {
+        "concept": "c:colores.rosa",
+        "en": "pink",
+        "es": "rosa",
+        "speaker": "B",
+        "zh": "粉红色"
+      },
+      {
+        "concept": "c:colores.morado-violeta",
+        "en": "purple / violet",
+        "es": "morado / violeta",
+        "speaker": "A",
+        "zh": "紫色/紫色( 紫色)"
+      },
+      {
+        "concept": "c:colores.marron",
+        "en": "brown",
+        "es": "marrón",
+        "speaker": "B",
+        "zh": "棕色"
+      },
+      {
+        "concept": "c:colores.gris",
+        "en": "grey",
+        "es": "gris",
+        "speaker": "A",
+        "zh": "灰色"
+      },
+      {
+        "concept": "c:colores.dorado",
+        "en": "gold",
+        "es": "dorado",
+        "speaker": "B",
+        "zh": "金色"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Colours are used to describe objects, clothes and places.",
+      "es": "Los colores sirven para describir objetos, ropa y lugares.",
+      "zh": "颜色用来描述物体、衣服和地点。"
+    },
+    "generator": "build_lessons",
+    "id": "zh-u3-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name basic colours",
+        "Describe objects by colour"
+      ],
+      "es": [
+        "Nombrar los colores básicos",
+        "Describir objetos por su color"
+      ],
+      "zh": [
+        "命名基本颜色",
+        "按颜色描述对象"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "rojo",
+            "red",
+            "红色"
+          ],
+          [
+            "azul",
+            "blue",
+            "蓝色"
+          ],
+          [
+            "verde",
+            "green",
+            "绿色"
+          ],
+          [
+            "amarillo",
+            "yellow",
+            "黄色"
+          ],
+          [
+            "negro",
+            "black",
+            "黑色"
+          ],
+          [
+            "blanco",
+            "white",
+            "白色"
+          ],
+          [
+            "naranja",
+            "orange",
+            "橙色( 橙色)"
+          ],
+          [
+            "rosa",
+            "pink",
+            "粉红色"
+          ],
+          [
+            "morado / violeta",
+            "purple / violet",
+            "紫色/紫色( 紫色)"
+          ],
+          [
+            "marrón",
+            "brown",
+            "棕色"
+          ],
+          [
+            "gris",
+            "grey",
+            "灰色"
+          ],
+          [
+            "dorado",
+            "gold",
+            "金色"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Colours",
+      "es": "Los colores",
+      "zh": "颜色"
+    },
+    "unit": 3
+  },
+  {
+    "concepts": [
+      "c:familia-y-personas.familia",
+      "c:familia-y-personas.madre",
+      "c:familia-y-personas.padre",
+      "c:familia-y-personas.padres",
+      "c:familia-y-personas.hijo",
+      "c:familia-y-personas.hija",
+      "c:familia-y-personas.nino-a",
+      "c:familia-y-personas.hermano",
+      "c:familia-y-personas.hermana",
+      "c:familia-y-personas.hermanos",
+      "c:familia-y-personas.abuelo-paterno",
+      "c:familia-y-personas.abuela-paterna"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:familia-y-personas.familia",
+        "en": "Family",
+        "es": "familia",
+        "speaker": "A",
+        "zh": "家庭"
+      },
+      {
+        "concept": "c:familia-y-personas.madre",
+        "en": "Mother",
+        "es": "madre",
+        "speaker": "B",
+        "zh": "妈妈"
+      },
+      {
+        "concept": "c:familia-y-personas.padre",
+        "en": "Father",
+        "es": "padre",
+        "speaker": "A",
+        "zh": "父亲"
+      },
+      {
+        "concept": "c:familia-y-personas.padres",
+        "en": "parents",
+        "es": "padres",
+        "speaker": "B",
+        "zh": "父母亲"
+      },
+      {
+        "concept": "c:familia-y-personas.hijo",
+        "en": "child",
+        "es": "hijo",
+        "speaker": "A",
+        "zh": "儿童"
+      },
+      {
+        "concept": "c:familia-y-personas.hija",
+        "en": "daughter",
+        "es": "hija",
+        "speaker": "B",
+        "zh": "女儿,你这小姑娘"
+      },
+      {
+        "concept": "c:familia-y-personas.nino-a",
+        "en": "child",
+        "es": "niño/a",
+        "speaker": "A",
+        "zh": "儿童"
+      },
+      {
+        "concept": "c:familia-y-personas.hermano",
+        "en": "brother",
+        "es": "hermano",
+        "speaker": "B",
+        "zh": "哥哥,你这混蛋"
+      },
+      {
+        "concept": "c:familia-y-personas.hermana",
+        "en": "sister",
+        "es": "hermana",
+        "speaker": "A",
+        "zh": "姐姐,你这小姑娘"
+      },
+      {
+        "concept": "c:familia-y-personas.hermanos",
+        "en": "brothers",
+        "es": "hermanos",
+        "speaker": "B",
+        "zh": "哥哥们"
+      },
+      {
+        "concept": "c:familia-y-personas.abuelo-paterno",
+        "en": "paternal grandfather",
+        "es": "abuelo paterno",
+        "speaker": "A",
+        "zh": "爷爷"
+      },
+      {
+        "concept": "c:familia-y-personas.abuela-paterna",
+        "en": "Father's grandmother",
+        "es": "abuela paterna",
+        "speaker": "B",
+        "zh": "父亲的外婆"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Words to refer to family and the people around you.",
+      "es": "Palabras para referirse a la familia y a las personas cercanas.",
+      "zh": "指亲相近之人所出."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u4-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name family members",
+        "Talk about people"
+      ],
+      "es": [
+        "Nombrar a los miembros de la familia",
+        "Hablar de personas"
+      ],
+      "zh": [
+        "任命家庭成员",
+        "说人"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "familia",
+            "Family",
+            "家庭"
+          ],
+          [
+            "madre",
+            "Mother",
+            "妈妈"
+          ],
+          [
+            "padre",
+            "Father",
+            "父亲"
+          ],
+          [
+            "padres",
+            "parents",
+            "父母亲"
+          ],
+          [
+            "hijo",
+            "child",
+            "儿童"
+          ],
+          [
+            "hija",
+            "daughter",
+            "女儿,你这小姑娘"
+          ],
+          [
+            "niño/a",
+            "child",
+            "儿童"
+          ],
+          [
+            "hermano",
+            "brother",
+            "哥哥,你这混蛋"
+          ],
+          [
+            "hermana",
+            "sister",
+            "姐姐,你这小姑娘"
+          ],
+          [
+            "hermanos",
+            "brothers",
+            "哥哥们"
+          ],
+          [
+            "abuelo paterno",
+            "paternal grandfather",
+            "爷爷"
+          ],
+          [
+            "abuela paterna",
+            "Father's grandmother",
+            "父亲的外婆"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Family and people",
+      "es": "La familia y las personas",
+      "zh": "家庭和个人"
+    },
+    "unit": 4
+  },
+  {
+    "concepts": [
+      "c:cuerpo-humano.cuerpo",
+      "c:cuerpo-humano.cabeza",
+      "c:cuerpo-humano.cabello-pelo",
+      "c:cuerpo-humano.cara-rostro",
+      "c:cuerpo-humano.frente",
+      "c:cuerpo-humano.ojo",
+      "c:cuerpo-humano.ojos",
+      "c:cuerpo-humano.ceja",
+      "c:cuerpo-humano.parpado-pestana",
+      "c:cuerpo-humano.oreja-oido",
+      "c:cuerpo-humano.nariz",
+      "c:cuerpo-humano.boca"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:cuerpo-humano.cuerpo",
+        "en": "body",
+        "es": "cuerpo",
+        "speaker": "A",
+        "zh": "体型"
+      },
+      {
+        "concept": "c:cuerpo-humano.cabeza",
+        "en": "head",
+        "es": "cabeza",
+        "speaker": "B",
+        "zh": "头"
+      },
+      {
+        "concept": "c:cuerpo-humano.cabello-pelo",
+        "en": "hair / hair-",
+        "es": "cabello / pelo",
+        "speaker": "A",
+        "zh": "发型/发型"
+      },
+      {
+        "concept": "c:cuerpo-humano.cara-rostro",
+        "en": "face / side",
+        "es": "cara / rostro",
+        "speaker": "B",
+        "zh": "相/侧"
+      },
+      {
+        "concept": "c:cuerpo-humano.frente",
+        "en": "front",
+        "es": "frente",
+        "speaker": "A",
+        "zh": "前面"
+      },
+      {
+        "concept": "c:cuerpo-humano.ojo",
+        "en": "eye",
+        "es": "ojo",
+        "speaker": "B",
+        "zh": "双眼"
+      },
+      {
+        "concept": "c:cuerpo-humano.ojos",
+        "en": "eyes",
+        "es": "ojos",
+        "speaker": "A",
+        "zh": "眼睛(双眼)"
+      },
+      {
+        "concept": "c:cuerpo-humano.ceja",
+        "en": "Beef",
+        "es": "ceja",
+        "speaker": "B",
+        "zh": "牛肉"
+      },
+      {
+        "concept": "c:cuerpo-humano.parpado-pestana",
+        "en": "eyelid / tab",
+        "es": "párpado / pestaña",
+        "speaker": "A",
+        "zh": "眼皮/ 标签"
+      },
+      {
+        "concept": "c:cuerpo-humano.oreja-oido",
+        "en": "ear / ears",
+        "es": "oreja / oído",
+        "speaker": "B",
+        "zh": "耳朵/耳朵"
+      },
+      {
+        "concept": "c:cuerpo-humano.nariz",
+        "en": "nose",
+        "es": "nariz",
+        "speaker": "A",
+        "zh": "鼻头"
+      },
+      {
+        "concept": "c:cuerpo-humano.boca",
+        "en": "mouth",
+        "es": "boca",
+        "speaker": "B",
+        "zh": "口号"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Parts of the body, useful to talk about health and care.",
+      "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
+      "zh": "身体的部件,对讨论健康和保健很有帮助。"
+    },
+    "generator": "build_lessons",
+    "id": "zh-u5-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name parts of the body",
+        "Talk about health"
+      ],
+      "es": [
+        "Nombrar las partes del cuerpo",
+        "Hablar de la salud"
+      ],
+      "zh": [
+        "命名身体部件",
+        "讲健康"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "cuerpo",
+            "body",
+            "体型"
+          ],
+          [
+            "cabeza",
+            "head",
+            "头"
+          ],
+          [
+            "cabello / pelo",
+            "hair / hair-",
+            "发型/发型"
+          ],
+          [
+            "cara / rostro",
+            "face / side",
+            "相/侧"
+          ],
+          [
+            "frente",
+            "front",
+            "前面"
+          ],
+          [
+            "ojo",
+            "eye",
+            "双眼"
+          ],
+          [
+            "ojos",
+            "eyes",
+            "眼睛(双眼)"
+          ],
+          [
+            "ceja",
+            "Beef",
+            "牛肉"
+          ],
+          [
+            "párpado / pestaña",
+            "eyelid / tab",
+            "眼皮/ 标签"
+          ],
+          [
+            "oreja / oído",
+            "ear / ears",
+            "耳朵/耳朵"
+          ],
+          [
+            "nariz",
+            "nose",
+            "鼻头"
+          ],
+          [
+            "boca",
+            "mouth",
+            "口号"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "The human body",
+      "es": "El cuerpo humano",
+      "zh": "人体"
+    },
+    "unit": 5
+  },
+  {
+    "concepts": [
+      "c:comida-y-bebida.comida-comer",
+      "c:comida-y-bebida.comida-formal",
+      "c:comida-y-bebida.desayuno",
+      "c:comida-y-bebida.almuerzo",
+      "c:comida-y-bebida.cena",
+      "c:comida-y-bebida.agua",
+      "c:comida-y-bebida.leche",
+      "c:comida-y-bebida.te",
+      "c:comida-y-bebida.cafe",
+      "c:comida-y-bebida.zumo-jugo",
+      "c:comida-y-bebida.lassi-yogur-batido",
+      "c:comida-y-bebida.alcohol-vino"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:comida-y-bebida.comida-comer",
+        "en": "food / eat",
+        "es": "comida / comer",
+        "speaker": "A",
+        "zh": "食物/进食"
+      },
+      {
+        "concept": "c:comida-y-bebida.comida-formal",
+        "en": "food (formal)",
+        "es": "comida (formal)",
+        "speaker": "B",
+        "zh": "粮食(正规)"
+      },
+      {
+        "concept": "c:comida-y-bebida.desayuno",
+        "en": "breakfast",
+        "es": "desayuno",
+        "speaker": "A",
+        "zh": "早餐 早饭"
+      },
+      {
+        "concept": "c:comida-y-bebida.almuerzo",
+        "en": "lunch",
+        "es": "almuerzo",
+        "speaker": "B",
+        "zh": "午饭"
+      },
+      {
+        "concept": "c:comida-y-bebida.cena",
+        "en": "dinner",
+        "es": "cena",
+        "speaker": "A",
+        "zh": "晚饭"
+      },
+      {
+        "concept": "c:comida-y-bebida.agua",
+        "en": "water",
+        "es": "agua",
+        "speaker": "B",
+        "zh": "水 水"
+      },
+      {
+        "concept": "c:comida-y-bebida.leche",
+        "en": "milk",
+        "es": "leche",
+        "speaker": "A",
+        "zh": "牛奶 牛奶"
+      },
+      {
+        "concept": "c:comida-y-bebida.te",
+        "en": "tea",
+        "es": "té",
+        "speaker": "B",
+        "zh": "茶叶"
+      },
+      {
+        "concept": "c:comida-y-bebida.cafe",
+        "en": "coffee",
+        "es": "café",
+        "speaker": "A",
+        "zh": "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡"
+      },
+      {
+        "concept": "c:comida-y-bebida.zumo-jugo",
+        "en": "juice / juices",
+        "es": "zumo / jugo",
+        "speaker": "B",
+        "zh": "果汁/果汁(含水)"
+      },
+      {
+        "concept": "c:comida-y-bebida.lassi-yogur-batido",
+        "en": "lassi (yoghurt beaten)",
+        "es": "lassi (yogur batido)",
+        "speaker": "A",
+        "zh": "腊西(被犹太教殴打)"
+      },
+      {
+        "concept": "c:comida-y-bebida.alcohol-vino",
+        "en": "alcohol / wine",
+        "es": "alcohol / vino",
+        "speaker": "B",
+        "zh": "酒/酒(酒) 酒(酒) 酒(酒)"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Basic foods and drinks, very useful when shopping or eating out.",
+      "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
+      "zh": "基本食物和饮料,在外购入或吃时非常有用."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u6-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name food and drinks",
+        "Order in a restaurant"
+      ],
+      "es": [
+        "Nombrar alimentos y bebidas",
+        "Pedir en un restaurante"
+      ],
+      "zh": [
+        "指定食物和饮料",
+        "问问餐厅"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "comida / comer",
+            "food / eat",
+            "食物/进食"
+          ],
+          [
+            "comida (formal)",
+            "food (formal)",
+            "粮食(正规)"
+          ],
+          [
+            "desayuno",
+            "breakfast",
+            "早餐 早饭"
+          ],
+          [
+            "almuerzo",
+            "lunch",
+            "午饭"
+          ],
+          [
+            "cena",
+            "dinner",
+            "晚饭"
+          ],
+          [
+            "agua",
+            "water",
+            "水 水"
+          ],
+          [
+            "leche",
+            "milk",
+            "牛奶 牛奶"
+          ],
+          [
+            "té",
+            "tea",
+            "茶叶"
+          ],
+          [
+            "café",
+            "coffee",
+            "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡"
+          ],
+          [
+            "zumo / jugo",
+            "juice / juices",
+            "果汁/果汁(含水)"
+          ],
+          [
+            "lassi (yogur batido)",
+            "lassi (yoghurt beaten)",
+            "腊西(被犹太教殴打)"
+          ],
+          [
+            "alcohol / vino",
+            "alcohol / wine",
+            "酒/酒(酒) 酒(酒) 酒(酒)"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Food and drink",
+      "es": "La comida y la bebida",
+      "zh": "食物和饮料"
+    },
+    "unit": 6
+  },
+  {
+    "concepts": [
+      "c:casa-y-hogar.casa-hogar",
+      "c:casa-y-hogar.edificio-casa",
+      "c:casa-y-hogar.apartamento",
+      "c:casa-y-hogar.habitacion-cuarto",
+      "c:casa-y-hogar.sala-de-estar",
+      "c:casa-y-hogar.dormitorio",
+      "c:casa-y-hogar.cocina-habitacion",
+      "c:casa-y-hogar.bano",
+      "c:casa-y-hogar.inodoro-lavabo",
+      "c:casa-y-hogar.balcon",
+      "c:casa-y-hogar.techo-azotea",
+      "c:casa-y-hogar.pared"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:casa-y-hogar.casa-hogar",
+        "en": "Home / home",
+        "es": "casa / hogar",
+        "speaker": "A",
+        "zh": "家/家 家 (中文(简体) )."
+      },
+      {
+        "concept": "c:casa-y-hogar.edificio-casa",
+        "en": "building / house",
+        "es": "edificio / casa",
+        "speaker": "B",
+        "zh": "建筑/住房"
+      },
+      {
+        "concept": "c:casa-y-hogar.apartamento",
+        "en": "apartment",
+        "es": "apartamento",
+        "speaker": "A",
+        "zh": "公寓( 公寓)"
+      },
+      {
+        "concept": "c:casa-y-hogar.habitacion-cuarto",
+        "en": "room / bedroom",
+        "es": "habitación / cuarto",
+        "speaker": "B",
+        "zh": "房间/卧室"
+      },
+      {
+        "concept": "c:casa-y-hogar.sala-de-estar",
+        "en": "living room",
+        "es": "sala de estar",
+        "speaker": "A",
+        "zh": "客厅"
+      },
+      {
+        "concept": "c:casa-y-hogar.dormitorio",
+        "en": "bedroom",
+        "es": "dormitorio",
+        "speaker": "B",
+        "zh": "卧室"
+      },
+      {
+        "concept": "c:casa-y-hogar.cocina-habitacion",
+        "en": "kitchen (room)",
+        "es": "cocina (habitación)",
+        "speaker": "A",
+        "zh": "厨房(房间)"
+      },
+      {
+        "concept": "c:casa-y-hogar.bano",
+        "en": "bathroom",
+        "es": "baño",
+        "speaker": "B",
+        "zh": "卫生间"
+      },
+      {
+        "concept": "c:casa-y-hogar.inodoro-lavabo",
+        "en": "toilet / sink",
+        "es": "inodoro / lavabo",
+        "speaker": "A",
+        "zh": "厕所/水槽"
+      },
+      {
+        "concept": "c:casa-y-hogar.balcon",
+        "en": "balcony",
+        "es": "balcón",
+        "speaker": "B",
+        "zh": "阳台"
+      },
+      {
+        "concept": "c:casa-y-hogar.techo-azotea",
+        "en": "roof / rooftop",
+        "es": "techo / azotea",
+        "speaker": "A",
+        "zh": "屋顶/屋顶"
+      },
+      {
+        "concept": "c:casa-y-hogar.pared",
+        "en": "wall",
+        "es": "pared",
+        "speaker": "B",
+        "zh": "墙"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "House vocabulary: rooms, furniture and everyday objects.",
+      "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos.",
+      "zh": "房屋词汇:房间,家具和日常物品."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u7-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name parts of the house",
+        "Describe household objects"
+      ],
+      "es": [
+        "Nombrar partes de la casa",
+        "Describir objetos del hogar"
+      ],
+      "zh": [
+        "房子的单位名称",
+        "描述家庭对象"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "casa / hogar",
+            "Home / home",
+            "家/家 家 (中文(简体) )."
+          ],
+          [
+            "edificio / casa",
+            "building / house",
+            "建筑/住房"
+          ],
+          [
+            "apartamento",
+            "apartment",
+            "公寓( 公寓)"
+          ],
+          [
+            "habitación / cuarto",
+            "room / bedroom",
+            "房间/卧室"
+          ],
+          [
+            "sala de estar",
+            "living room",
+            "客厅"
+          ],
+          [
+            "dormitorio",
+            "bedroom",
+            "卧室"
+          ],
+          [
+            "cocina (habitación)",
+            "kitchen (room)",
+            "厨房(房间)"
+          ],
+          [
+            "baño",
+            "bathroom",
+            "卫生间"
+          ],
+          [
+            "inodoro / lavabo",
+            "toilet / sink",
+            "厕所/水槽"
+          ],
+          [
+            "balcón",
+            "balcony",
+            "阳台"
+          ],
+          [
+            "techo / azotea",
+            "roof / rooftop",
+            "屋顶/屋顶"
+          ],
+          [
+            "pared",
+            "wall",
+            "墙"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Home and household",
+      "es": "La casa y el hogar",
+      "zh": "房子和家 房子和家 房子和家 房子和家 房子和家 房子和家 房子和家"
+    },
+    "unit": 7
+  },
+  {
+    "concepts": [
+      "c:tiempo-y-calendario.tiempo-hora",
+      "c:tiempo-y-calendario.reloj-hora",
+      "c:tiempo-y-calendario.minuto",
+      "c:tiempo-y-calendario.segundo-tiempo",
+      "c:tiempo-y-calendario.hora-duracion",
+      "c:tiempo-y-calendario.manana-temprano",
+      "c:tiempo-y-calendario.mediodia-tarde",
+      "c:tiempo-y-calendario.tarde-atardecer",
+      "c:tiempo-y-calendario.noche",
+      "c:tiempo-y-calendario.medianoche",
+      "c:tiempo-y-calendario.dia",
+      "c:tiempo-y-calendario.hoy"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:tiempo-y-calendario.tiempo-hora",
+        "en": "time / hour",
+        "es": "tiempo / hora",
+        "speaker": "A",
+        "zh": "时间/小时"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.reloj-hora",
+        "en": "clock / time",
+        "es": "reloj / hora",
+        "speaker": "B",
+        "zh": "时钟/时间"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.minuto",
+        "en": "minute",
+        "es": "minuto",
+        "speaker": "A",
+        "zh": "分钟"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.segundo-tiempo",
+        "en": "second (time)",
+        "es": "segundo (tiempo)",
+        "speaker": "B",
+        "zh": "第二次(时间)"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.hora-duracion",
+        "en": "time (duration)",
+        "es": "hora (duración)",
+        "speaker": "A",
+        "zh": "时间( 期限)"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.manana-temprano",
+        "en": "(early)",
+        "es": "mañana (temprano)",
+        "speaker": "B",
+        "zh": "(早) 问."
+      },
+      {
+        "concept": "c:tiempo-y-calendario.mediodia-tarde",
+        "en": "noon / afternoon",
+        "es": "mediodía / tarde",
+        "speaker": "A",
+        "zh": "中午/下午"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.tarde-atardecer",
+        "en": "late / evening",
+        "es": "tarde / atardecer",
+        "speaker": "B",
+        "zh": "晚/晚上( 晚上)"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.noche",
+        "en": "night",
+        "es": "noche",
+        "speaker": "A",
+        "zh": "晚上( 晚上)"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.medianoche",
+        "en": "midnight",
+        "es": "medianoche",
+        "speaker": "B",
+        "zh": "午夜时分"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.dia",
+        "en": "day",
+        "es": "día",
+        "speaker": "A",
+        "zh": "日数"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.hoy",
+        "en": "Today",
+        "es": "hoy",
+        "speaker": "B",
+        "zh": "今天,我们来"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Words to place actions in time: days, months and seasons.",
+      "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones.",
+      "zh": "将动作放置在时间上的单词:日,月和季."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u8-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Say days, months and seasons",
+        "Talk about dates"
+      ],
+      "es": [
+        "Decir días, meses y estaciones",
+        "Hablar de fechas"
+      ],
+      "zh": [
+        "有天有月,有季节",
+        "谈起日期"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "tiempo / hora",
+            "time / hour",
+            "时间/小时"
+          ],
+          [
+            "reloj / hora",
+            "clock / time",
+            "时钟/时间"
+          ],
+          [
+            "minuto",
+            "minute",
+            "分钟"
+          ],
+          [
+            "segundo (tiempo)",
+            "second (time)",
+            "第二次(时间)"
+          ],
+          [
+            "hora (duración)",
+            "time (duration)",
+            "时间( 期限)"
+          ],
+          [
+            "mañana (temprano)",
+            "(early)",
+            "(早) 问."
+          ],
+          [
+            "mediodía / tarde",
+            "noon / afternoon",
+            "中午/下午"
+          ],
+          [
+            "tarde / atardecer",
+            "late / evening",
+            "晚/晚上( 晚上)"
+          ],
+          [
+            "noche",
+            "night",
+            "晚上( 晚上)"
+          ],
+          [
+            "medianoche",
+            "midnight",
+            "午夜时分"
+          ],
+          [
+            "día",
+            "day",
+            "日数"
+          ],
+          [
+            "hoy",
+            "Today",
+            "今天,我们来"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Time and calendar",
+      "es": "El tiempo y el calendario",
+      "zh": "时间和日历"
+    },
+    "unit": 8
+  },
+  {
+    "concepts": [
+      "c:animales.animal",
+      "c:animales.perro",
+      "c:animales.gato",
+      "c:animales.vaca",
+      "c:animales.buey-toro",
+      "c:animales.bufalo",
+      "c:animales.caballo",
+      "c:animales.burro-asno",
+      "c:animales.cabra",
+      "c:animales.oveja",
+      "c:animales.cerdo",
+      "c:animales.gallina"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:animales.animal",
+        "en": "animal",
+        "es": "animal",
+        "speaker": "A",
+        "zh": "动物"
+      },
+      {
+        "concept": "c:animales.perro",
+        "en": "dog",
+        "es": "perro",
+        "speaker": "B",
+        "zh": "狗类"
+      },
+      {
+        "concept": "c:animales.gato",
+        "en": "cat",
+        "es": "gato",
+        "speaker": "A",
+        "zh": "猫"
+      },
+      {
+        "concept": "c:animales.vaca",
+        "en": "cow",
+        "es": "vaca",
+        "speaker": "B",
+        "zh": "黄牛"
+      },
+      {
+        "concept": "c:animales.buey-toro",
+        "en": "ox / bull",
+        "es": "buey / toro",
+        "speaker": "A",
+        "zh": "牛/牛(公牛)"
+      },
+      {
+        "concept": "c:animales.bufalo",
+        "en": "buffalo",
+        "es": "búfalo",
+        "speaker": "B",
+        "zh": "水牛队"
+      },
+      {
+        "concept": "c:animales.caballo",
+        "en": "horse",
+        "es": "caballo",
+        "speaker": "A",
+        "zh": "马"
+      },
+      {
+        "concept": "c:animales.burro-asno",
+        "en": "donkey / ass",
+        "es": "burro / asno",
+        "speaker": "B",
+        "zh": "驴子/驴子"
+      },
+      {
+        "concept": "c:animales.cabra",
+        "en": "goat",
+        "es": "cabra",
+        "speaker": "A",
+        "zh": "山羊(山羊)"
+      },
+      {
+        "concept": "c:animales.oveja",
+        "en": "sheep",
+        "es": "oveja",
+        "speaker": "B",
+        "zh": "羊头"
+      },
+      {
+        "concept": "c:animales.cerdo",
+        "en": "pig",
+        "es": "cerdo",
+        "speaker": "A",
+        "zh": "猪"
+      },
+      {
+        "concept": "c:animales.gallina",
+        "en": "chicken",
+        "es": "gallina",
+        "speaker": "B",
+        "zh": "鸡肉"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Common animals, both domestic and wild.",
+      "es": "Animales frecuentes, tanto domésticos como salvajes.",
+      "zh": "常出家畜及野生等."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u9-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name common animals",
+        "Describe animals"
+      ],
+      "es": [
+        "Nombrar animales comunes",
+        "Describir animales"
+      ],
+      "zh": [
+        "普通动物名称",
+        "描述动物"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "animal",
+            "animal",
+            "动物"
+          ],
+          [
+            "perro",
+            "dog",
+            "狗类"
+          ],
+          [
+            "gato",
+            "cat",
+            "猫"
+          ],
+          [
+            "vaca",
+            "cow",
+            "黄牛"
+          ],
+          [
+            "buey / toro",
+            "ox / bull",
+            "牛/牛(公牛)"
+          ],
+          [
+            "búfalo",
+            "buffalo",
+            "水牛队"
+          ],
+          [
+            "caballo",
+            "horse",
+            "马"
+          ],
+          [
+            "burro / asno",
+            "donkey / ass",
+            "驴子/驴子"
+          ],
+          [
+            "cabra",
+            "goat",
+            "山羊(山羊)"
+          ],
+          [
+            "oveja",
+            "sheep",
+            "羊头"
+          ],
+          [
+            "cerdo",
+            "pig",
+            "猪"
+          ],
+          [
+            "gallina",
+            "chicken",
+            "鸡肉"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Animals",
+      "es": "Los animales",
+      "zh": "动物"
+    },
+    "unit": 9
+  }
+]

@@ -1,19 +1,192 @@
-{ "id": "fr-u1-l1", "lang": "fr", "unit": 1, "lesson": 1,
-  "title": { "fr": "Salutations", "es": "Saludos" },
-  "objectives": { "es": ["Saludar, despedirse y dar las gracias"] },
+{
+  "concepts": [
+    "c:saludos-y-expresiones.hola",
+    "c:saludos-y-expresiones.buenos-dias",
+    "c:saludos-y-expresiones.buenas-tardes",
+    "c:saludos-y-expresiones.buenas-noches",
+    "c:saludos-y-expresiones.gracias",
+    "c:saludos-y-expresiones.por-favor",
+    "c:saludos-y-expresiones.perdon-disculpe",
+    "c:saludos-y-expresiones.adios",
+    "c:saludos-y-expresiones.hasta-luego",
+    "c:saludos-y-expresiones.si",
+    "c:saludos-y-expresiones.no"
+  ],
   "dialogue": [
-    { "speaker": "A", "fr": "Bonjour !", "es": "¡Hola!", "concept": "c:saludos.hola" },
-    { "speaker": "B", "fr": "Salut ! Ça va ?", "es": "¡Hola! ¿Qué tal?" },
-    { "speaker": "A", "fr": "Ça va bien, merci.", "es": "Bien, gracias.",
-      "concept": "c:saludos.gracias" },
-    { "speaker": "B", "fr": "Au revoir !", "es": "¡Adiós!", "concept": "c:saludos.adios" }
+    {
+      "concept": "c:saludos-y-expresiones.hola",
+      "en": "Hello.",
+      "es": "hola",
+      "fr": "bonjour",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenos-dias",
+      "en": "Good morning.",
+      "es": "buenos días",
+      "fr": "Bonjour.",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-tardes",
+      "en": "Good afternoon.",
+      "es": "buenas tardes",
+      "fr": "Bonjour.",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-noches",
+      "en": "Good night.",
+      "es": "buenas noches",
+      "fr": "Bonne nuit.",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.gracias",
+      "en": "Thank you.",
+      "es": "gracias",
+      "fr": "merci",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.por-favor",
+      "en": "Please.",
+      "es": "por favor",
+      "fr": "s'il vous plaît",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.perdon-disculpe",
+      "en": "Excuse me / excuse",
+      "es": "perdón / disculpe",
+      "fr": "Excusez-moi / excusez-vous",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.adios",
+      "en": "Bye.",
+      "es": "adiós",
+      "fr": "au revoir",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.hasta-luego",
+      "en": "See you later.",
+      "es": "hasta luego",
+      "fr": "A tout à l'heure.",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.si",
+      "en": "Yes",
+      "es": "sí",
+      "fr": "oui",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.no",
+      "en": "No.",
+      "es": "no",
+      "fr": "non",
+      "speaker": "A"
+    }
   ],
-  "explanation": { "es": "«Bonjour» es el saludo estándar de día; «salut» es informal. «Merci» agradece y «au revoir» despide." },
+  "exercises": [],
+  "explanation": {
+    "en": "Basic courtesy expressions to open and close a conversation.",
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
+    "fr": "Expressions de courtoisie pour ouvrir et clore une conversation."
+  },
+  "generator": "build_lessons",
+  "id": "fr-u1-l1",
+  "lang": "fr",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Greet and say goodbye",
+      "Thank and say please"
+    ],
+    "es": [
+      "Saludar y despedirse",
+      "Dar las gracias y pedir por favor"
+    ],
+    "fr": [
+      "Salutation et adieu",
+      "Merci et demandez-lui"
+    ]
+  },
   "tables": [
-    { "type": "verb", "title": "être (ser/estar)", "columns": ["persona", "presente"],
-      "rows": [["je", "suis"], ["tu", "es"], ["il/elle", "est"],
-               ["nous", "sommes"], ["vous", "êtes"], ["ils/elles", "sont"]] },
-    { "type": "adjective", "title": "grand (grande)", "columns": ["masc", "fem"],
-      "rows": [["grand", "grande"]] }
+    {
+      "columns": [
+        "es",
+        "en",
+        "fr"
+      ],
+      "rows": [
+        [
+          "hola",
+          "Hello.",
+          "bonjour"
+        ],
+        [
+          "buenos días",
+          "Good morning.",
+          "Bonjour."
+        ],
+        [
+          "buenas tardes",
+          "Good afternoon.",
+          "Bonjour."
+        ],
+        [
+          "buenas noches",
+          "Good night.",
+          "Bonne nuit."
+        ],
+        [
+          "gracias",
+          "Thank you.",
+          "merci"
+        ],
+        [
+          "por favor",
+          "Please.",
+          "s'il vous plaît"
+        ],
+        [
+          "perdón / disculpe",
+          "Excuse me / excuse",
+          "Excusez-moi / excusez-vous"
+        ],
+        [
+          "adiós",
+          "Bye.",
+          "au revoir"
+        ],
+        [
+          "hasta luego",
+          "See you later.",
+          "A tout à l'heure."
+        ],
+        [
+          "sí",
+          "Yes",
+          "oui"
+        ],
+        [
+          "no",
+          "No.",
+          "non"
+        ]
+      ],
+      "title": "es · en · fr",
+      "type": "vocabulary"
+    }
   ],
-  "exercises": [], "concepts": ["c:saludos.hola", "c:saludos.gracias", "c:saludos.adios"] }
+  "title": {
+    "en": "Greetings and courtesy",
+    "es": "Saludos y cortesía",
+    "fr": "Salutations et courtoisie"
+  },
+  "unit": 1
+}

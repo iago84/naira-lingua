@@ -1,5 +1,6 @@
 // js/main.js
 import { availableLangs, normalizeLang, t as tRaw } from "./i18n.js";
+import { langLabel, isRtl } from "./langs.js";
 import { createStore, defaultStorage } from "./store.js";
 import { createDataSource } from "./data.js";
 import { parseHash, toHash } from "./router.js";
@@ -51,7 +52,7 @@ async function getLessons(lang) {
 function currentPair() {
   const s = store.getState();
   const langs = manifest?.languages ?? [];
-  // Los idiomas válidos son los del manifiesto (no hay "es" en el corpus).
+  // Los idiomas válidos son los del manifiesto compilado.
   const src = s.lastPair?.src && langs.includes(s.lastPair.src) ? s.lastPair.src : langs[0];
   let tgt = s.lastPair?.tgt && langs.includes(s.lastPair.tgt) ? s.lastPair.tgt : langs.find((l) => l !== src);
   if (tgt === src) tgt = langs.find((l) => l !== src) ?? tgt;
@@ -70,7 +71,7 @@ function paintNav(active) {
 function paintUiLang() {
   const sel = document.getElementById("uiLang");
   sel.innerHTML = availableLangs()
-    .map((l) => `<option value="${l}"${l === uiLang ? " selected" : ""}>${l.toUpperCase()}</option>`)
+    .map((l) => `<option value="${l}"${l === uiLang ? " selected" : ""}>${esc(langLabel(l))}</option>`)
     .join("");
 }
 
@@ -82,6 +83,7 @@ async function render() {
   const app = document.getElementById("app");
   const route = parseHash(location.hash);
   document.documentElement.lang = uiLang;
+  document.documentElement.dir = isRtl(uiLang) ? "rtl" : "ltr";
 
   try {
     if (route.name === "home") {

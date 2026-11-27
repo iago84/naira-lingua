@@ -1,0 +1,192 @@
+{
+  "concepts": [
+    "c:saludos-y-expresiones.hola",
+    "c:saludos-y-expresiones.buenos-dias",
+    "c:saludos-y-expresiones.buenas-tardes",
+    "c:saludos-y-expresiones.buenas-noches",
+    "c:saludos-y-expresiones.gracias",
+    "c:saludos-y-expresiones.por-favor",
+    "c:saludos-y-expresiones.perdon-disculpe",
+    "c:saludos-y-expresiones.adios",
+    "c:saludos-y-expresiones.hasta-luego",
+    "c:saludos-y-expresiones.si",
+    "c:saludos-y-expresiones.no"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:saludos-y-expresiones.hola",
+      "de": "Hallo.",
+      "en": "Hello.",
+      "es": "hola",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenos-dias",
+      "de": "Guten Morgen.",
+      "en": "Good morning.",
+      "es": "buenos días",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-tardes",
+      "de": "Guten Tag.",
+      "en": "Good afternoon.",
+      "es": "buenas tardes",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-noches",
+      "de": "Gute Nacht.",
+      "en": "Good night.",
+      "es": "buenas noches",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.gracias",
+      "de": "Vielen Dank.",
+      "en": "Thank you.",
+      "es": "gracias",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.por-favor",
+      "de": "Bitte.",
+      "en": "Please.",
+      "es": "por favor",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.perdon-disculpe",
+      "de": "Entschuldigung / Entschuldigen",
+      "en": "Excuse me / excuse",
+      "es": "perdón / disculpe",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.adios",
+      "de": "Bye.",
+      "en": "Bye.",
+      "es": "adiós",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.hasta-luego",
+      "de": "Bis später.",
+      "en": "See you later.",
+      "es": "hasta luego",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.si",
+      "de": "Ja",
+      "en": "Yes",
+      "es": "sí",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.no",
+      "de": "Nein.",
+      "en": "No.",
+      "es": "no",
+      "speaker": "A"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "de": "Grundlegende ausdrücke der höflichkeit, ein gespräch zu öffnen und abzuschließen.",
+    "en": "Basic courtesy expressions to open and close a conversation.",
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
+  },
+  "generator": "build_lessons",
+  "id": "de-u1-l1",
+  "lang": "de",
+  "lesson": 1,
+  "objectives": {
+    "de": [
+      "Begrüßung und Abschied",
+      "Bitte danken und fragen"
+    ],
+    "en": [
+      "Greet and say goodbye",
+      "Thank and say please"
+    ],
+    "es": [
+      "Saludar y despedirse",
+      "Dar las gracias y pedir por favor"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "de"
+      ],
+      "rows": [
+        [
+          "hola",
+          "Hello.",
+          "Hallo."
+        ],
+        [
+          "buenos días",
+          "Good morning.",
+          "Guten Morgen."
+        ],
+        [
+          "buenas tardes",
+          "Good afternoon.",
+          "Guten Tag."
+        ],
+        [
+          "buenas noches",
+          "Good night.",
+          "Gute Nacht."
+        ],
+        [
+          "gracias",
+          "Thank you.",
+          "Vielen Dank."
+        ],
+        [
+          "por favor",
+          "Please.",
+          "Bitte."
+        ],
+        [
+          "perdón / disculpe",
+          "Excuse me / excuse",
+          "Entschuldigung / Entschuldigen"
+        ],
+        [
+          "adiós",
+          "Bye.",
+          "Bye."
+        ],
+        [
+          "hasta luego",
+          "See you later.",
+          "Bis später."
+        ],
+        [
+          "sí",
+          "Yes",
+          "Ja"
+        ],
+        [
+          "no",
+          "No.",
+          "Nein."
+        ]
+      ],
+      "title": "es · en · de",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "de": "Grüße und Höflichkeit",
+    "en": "Greetings and courtesy",
+    "es": "Saludos y cortesía"
+  },
+  "unit": 1
+}

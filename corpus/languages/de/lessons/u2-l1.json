@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:numeros.cero",
+    "c:numeros.uno",
+    "c:numeros.dos",
+    "c:numeros.tres",
+    "c:numeros.cuatro",
+    "c:numeros.cinco",
+    "c:numeros.seis",
+    "c:numeros.siete",
+    "c:numeros.ocho",
+    "c:numeros.nueve",
+    "c:numeros.diez",
+    "c:numeros.once"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:numeros.cero",
+      "de": "Null",
+      "en": "zero",
+      "es": "cero",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.uno",
+      "de": "1",
+      "en": "one",
+      "es": "uno",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.dos",
+      "de": "zwei",
+      "en": "two",
+      "es": "dos",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.tres",
+      "de": "Drei",
+      "en": "three",
+      "es": "tres",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.cuatro",
+      "de": "4",
+      "en": "4",
+      "es": "cuatro",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.cinco",
+      "de": "5",
+      "en": "five",
+      "es": "cinco",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.seis",
+      "de": "6",
+      "en": "6",
+      "es": "seis",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.siete",
+      "de": "sieben",
+      "en": "seven",
+      "es": "siete",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.ocho",
+      "de": "8",
+      "en": "8",
+      "es": "ocho",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.nueve",
+      "de": "9",
+      "en": "9",
+      "es": "nueve",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.diez",
+      "de": "10",
+      "en": "10",
+      "es": "diez",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.once",
+      "de": "11",
+      "en": "11",
+      "es": "once",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "de": "Die Zahlen des Tages bis heute: Sie werden für Zählen, Alter und Preis verwendet.",
+    "en": "Everyday numbers: used to count, give your age and talk about prices.",
+    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
+  },
+  "generator": "build_lessons",
+  "id": "de-u2-l1",
+  "lang": "de",
+  "lesson": 1,
+  "objectives": {
+    "de": [
+      "Zählen Sie von Null bis Zehn",
+      "Erkennen Sie die Grundzahlen"
+    ],
+    "en": [
+      "Count from zero to ten",
+      "Recognise basic numbers"
+    ],
+    "es": [
+      "Contar del cero al diez",
+      "Reconocer los números básicos"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "de"
+      ],
+      "rows": [
+        [
+          "cero",
+          "zero",
+          "Null"
+        ],
+        [
+          "uno",
+          "one",
+          "1"
+        ],
+        [
+          "dos",
+          "two",
+          "zwei"
+        ],
+        [
+          "tres",
+          "three",
+          "Drei"
+        ],
+        [
+          "cuatro",
+          "4",
+          "4"
+        ],
+        [
+          "cinco",
+          "five",
+          "5"
+        ],
+        [
+          "seis",
+          "6",
+          "6"
+        ],
+        [
+          "siete",
+          "seven",
+          "sieben"
+        ],
+        [
+          "ocho",
+          "8",
+          "8"
+        ],
+        [
+          "nueve",
+          "9",
+          "9"
+        ],
+        [
+          "diez",
+          "10",
+          "10"
+        ],
+        [
+          "once",
+          "11",
+          "11"
+        ]
+      ],
+      "title": "es · en · de",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "de": "Die Nummern",
+    "en": "Numbers",
+    "es": "Los números"
+  },
+  "unit": 2
+}

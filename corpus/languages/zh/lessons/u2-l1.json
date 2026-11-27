@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:numeros.cero",
+    "c:numeros.uno",
+    "c:numeros.dos",
+    "c:numeros.tres",
+    "c:numeros.cuatro",
+    "c:numeros.cinco",
+    "c:numeros.seis",
+    "c:numeros.siete",
+    "c:numeros.ocho",
+    "c:numeros.nueve",
+    "c:numeros.diez",
+    "c:numeros.once"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:numeros.cero",
+      "en": "zero",
+      "es": "cero",
+      "speaker": "A",
+      "zh": "0 个"
+    },
+    {
+      "concept": "c:numeros.uno",
+      "en": "one",
+      "es": "uno",
+      "speaker": "B",
+      "zh": "单曲"
+    },
+    {
+      "concept": "c:numeros.dos",
+      "en": "two",
+      "es": "dos",
+      "speaker": "A",
+      "zh": "双"
+    },
+    {
+      "concept": "c:numeros.tres",
+      "en": "three",
+      "es": "tres",
+      "speaker": "B",
+      "zh": "3个"
+    },
+    {
+      "concept": "c:numeros.cuatro",
+      "en": "4",
+      "es": "cuatro",
+      "speaker": "A",
+      "zh": "4 国家"
+    },
+    {
+      "concept": "c:numeros.cinco",
+      "en": "five",
+      "es": "cinco",
+      "speaker": "B",
+      "zh": "5个"
+    },
+    {
+      "concept": "c:numeros.seis",
+      "en": "6",
+      "es": "seis",
+      "speaker": "A",
+      "zh": "6 中文无改动"
+    },
+    {
+      "concept": "c:numeros.siete",
+      "en": "seven",
+      "es": "siete",
+      "speaker": "B",
+      "zh": "7个"
+    },
+    {
+      "concept": "c:numeros.ocho",
+      "en": "8",
+      "es": "ocho",
+      "speaker": "A",
+      "zh": "7个P-4"
+    },
+    {
+      "concept": "c:numeros.nueve",
+      "en": "9",
+      "es": "nueve",
+      "speaker": "B",
+      "zh": "3 国家"
+    },
+    {
+      "concept": "c:numeros.diez",
+      "en": "10",
+      "es": "diez",
+      "speaker": "A",
+      "zh": "10个"
+    },
+    {
+      "concept": "c:numeros.once",
+      "en": "11",
+      "es": "once",
+      "speaker": "B",
+      "zh": "11 中文无改动。"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Everyday numbers: used to count, give your age and talk about prices.",
+    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
+    "zh": "至今的日数:用于计数,年龄和价格."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u2-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Count from zero to ten",
+      "Recognise basic numbers"
+    ],
+    "es": [
+      "Contar del cero al diez",
+      "Reconocer los números básicos"
+    ],
+    "zh": [
+      "从0到10计数",
+      "识别基本数字"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "cero",
+          "zero",
+          "0 个"
+        ],
+        [
+          "uno",
+          "one",
+          "单曲"
+        ],
+        [
+          "dos",
+          "two",
+          "双"
+        ],
+        [
+          "tres",
+          "three",
+          "3个"
+        ],
+        [
+          "cuatro",
+          "4",
+          "4 国家"
+        ],
+        [
+          "cinco",
+          "five",
+          "5个"
+        ],
+        [
+          "seis",
+          "6",
+          "6 中文无改动"
+        ],
+        [
+          "siete",
+          "seven",
+          "7个"
+        ],
+        [
+          "ocho",
+          "8",
+          "7个P-4"
+        ],
+        [
+          "nueve",
+          "9",
+          "3 国家"
+        ],
+        [
+          "diez",
+          "10",
+          "10个"
+        ],
+        [
+          "once",
+          "11",
+          "11 中文无改动。"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Numbers",
+    "es": "Los números",
+    "zh": "数字"
+  },
+  "unit": 2
+}

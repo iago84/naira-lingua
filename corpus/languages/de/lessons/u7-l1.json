@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:casa-y-hogar.casa-hogar",
+    "c:casa-y-hogar.edificio-casa",
+    "c:casa-y-hogar.apartamento",
+    "c:casa-y-hogar.habitacion-cuarto",
+    "c:casa-y-hogar.sala-de-estar",
+    "c:casa-y-hogar.dormitorio",
+    "c:casa-y-hogar.cocina-habitacion",
+    "c:casa-y-hogar.bano",
+    "c:casa-y-hogar.inodoro-lavabo",
+    "c:casa-y-hogar.balcon",
+    "c:casa-y-hogar.techo-azotea",
+    "c:casa-y-hogar.pared"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:casa-y-hogar.casa-hogar",
+      "de": "Home / Haus",
+      "en": "Home / home",
+      "es": "casa / hogar",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:casa-y-hogar.edificio-casa",
+      "de": "Gebäude / Haus",
+      "en": "building / house",
+      "es": "edificio / casa",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:casa-y-hogar.apartamento",
+      "de": "Wohnung",
+      "en": "apartment",
+      "es": "apartamento",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:casa-y-hogar.habitacion-cuarto",
+      "de": "Zimmer/Schlafzimmer",
+      "en": "room / bedroom",
+      "es": "habitación / cuarto",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:casa-y-hogar.sala-de-estar",
+      "de": "Wohnzimmer",
+      "en": "living room",
+      "es": "sala de estar",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:casa-y-hogar.dormitorio",
+      "de": "Schlafzimmer",
+      "en": "bedroom",
+      "es": "dormitorio",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:casa-y-hogar.cocina-habitacion",
+      "de": "Küche (Zimmer)",
+      "en": "kitchen (room)",
+      "es": "cocina (habitación)",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:casa-y-hogar.bano",
+      "de": "Badezimmer",
+      "en": "bathroom",
+      "es": "baño",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:casa-y-hogar.inodoro-lavabo",
+      "de": "Toilette/Sink",
+      "en": "toilet / sink",
+      "es": "inodoro / lavabo",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:casa-y-hogar.balcon",
+      "de": "Balkon",
+      "en": "balcony",
+      "es": "balcón",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:casa-y-hogar.techo-azotea",
+      "de": "Dach/Dach",
+      "en": "roof / rooftop",
+      "es": "techo / azotea",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:casa-y-hogar.pared",
+      "de": "Wand",
+      "en": "wall",
+      "es": "pared",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "de": "Vokabular des Hauses: Räume, Möbel und Alltagsgegenstände.",
+    "en": "House vocabulary: rooms, furniture and everyday objects.",
+    "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
+  },
+  "generator": "build_lessons",
+  "id": "de-u7-l1",
+  "lang": "de",
+  "lesson": 1,
+  "objectives": {
+    "de": [
+      "Namensteile des Hauses",
+      "Beschreiben Sie Haushaltsgegenstände"
+    ],
+    "en": [
+      "Name parts of the house",
+      "Describe household objects"
+    ],
+    "es": [
+      "Nombrar partes de la casa",
+      "Describir objetos del hogar"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "de"
+      ],
+      "rows": [
+        [
+          "casa / hogar",
+          "Home / home",
+          "Home / Haus"
+        ],
+        [
+          "edificio / casa",
+          "building / house",
+          "Gebäude / Haus"
+        ],
+        [
+          "apartamento",
+          "apartment",
+          "Wohnung"
+        ],
+        [
+          "habitación / cuarto",
+          "room / bedroom",
+          "Zimmer/Schlafzimmer"
+        ],
+        [
+          "sala de estar",
+          "living room",
+          "Wohnzimmer"
+        ],
+        [
+          "dormitorio",
+          "bedroom",
+          "Schlafzimmer"
+        ],
+        [
+          "cocina (habitación)",
+          "kitchen (room)",
+          "Küche (Zimmer)"
+        ],
+        [
+          "baño",
+          "bathroom",
+          "Badezimmer"
+        ],
+        [
+          "inodoro / lavabo",
+          "toilet / sink",
+          "Toilette/Sink"
+        ],
+        [
+          "balcón",
+          "balcony",
+          "Balkon"
+        ],
+        [
+          "techo / azotea",
+          "roof / rooftop",
+          "Dach/Dach"
+        ],
+        [
+          "pared",
+          "wall",
+          "Wand"
+        ]
+      ],
+      "title": "es · en · de",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "de": "Das Haus und das Zuhause",
+    "en": "Home and household",
+    "es": "La casa y el hogar"
+  },
+  "unit": 7
+}

@@ -1,0 +1,199 @@
+{
+  "concepts": [
+    "c:ciudad-y-lugares.ciudad",
+    "c:ciudad-y-lugares.pueblo-aldea",
+    "c:ciudad-y-lugares.pais",
+    "c:ciudad-y-lugares.estado-provincia",
+    "c:ciudad-y-lugares.capital",
+    "c:ciudad-y-lugares.zona-area",
+    "c:ciudad-y-lugares.calle-carretera",
+    "c:ciudad-y-lugares.callejon",
+    "c:ciudad-y-lugares.cruce-interseccion",
+    "c:ciudad-y-lugares.puente",
+    "c:ciudad-y-lugares.plaza",
+    "c:ciudad-y-lugares.mercado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:ciudad-y-lugares.ciudad",
+      "en": "city",
+      "es": "ciudad",
+      "speaker": "A",
+      "ur": "شہر"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.pueblo-aldea",
+      "en": "village / town",
+      "es": "pueblo / aldea",
+      "speaker": "B",
+      "ur": "گاںو"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.pais",
+      "en": "country",
+      "es": "país",
+      "speaker": "A",
+      "ur": "ملک / دیش"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.estado-provincia",
+      "en": "State / province",
+      "es": "estado / provincia",
+      "speaker": "B",
+      "ur": "راجی"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.capital",
+      "en": "capital",
+      "es": "capital",
+      "speaker": "A",
+      "ur": "راجدھانی"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.zona-area",
+      "en": "area / zone",
+      "es": "zona / área",
+      "speaker": "B",
+      "ur": "اِلاکا"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.calle-carretera",
+      "en": "Street / road",
+      "es": "calle / carretera",
+      "speaker": "A",
+      "ur": "سڈک"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.callejon",
+      "en": "alley",
+      "es": "callejón",
+      "speaker": "B",
+      "ur": "گلی"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.cruce-interseccion",
+      "en": "cross / intersection",
+      "es": "cruce / intersección",
+      "speaker": "A",
+      "ur": "چوراہا"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.puente",
+      "en": "bridge",
+      "es": "puente",
+      "speaker": "B",
+      "ur": "پُل"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.plaza",
+      "en": "square",
+      "es": "plaza",
+      "speaker": "A",
+      "ur": "چوک"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.mercado",
+      "en": "market",
+      "es": "mercado",
+      "speaker": "B",
+      "ur": "بازار"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Places in the city to move around and ask for directions.",
+    "es": "Lugares de la ciudad para moverse y pedir indicaciones."
+  },
+  "generator": "build_lessons",
+  "id": "ur-u10-l1",
+  "lang": "ur",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name places in the city",
+      "Ask for directions"
+    ],
+    "es": [
+      "Nombrar lugares de la ciudad",
+      "Pedir direcciones"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ur"
+      ],
+      "rows": [
+        [
+          "ciudad",
+          "city",
+          "شہر"
+        ],
+        [
+          "pueblo / aldea",
+          "village / town",
+          "گاںو"
+        ],
+        [
+          "país",
+          "country",
+          "ملک / دیش"
+        ],
+        [
+          "estado / provincia",
+          "State / province",
+          "راجی"
+        ],
+        [
+          "capital",
+          "capital",
+          "راجدھانی"
+        ],
+        [
+          "zona / área",
+          "area / zone",
+          "اِلاکا"
+        ],
+        [
+          "calle / carretera",
+          "Street / road",
+          "سڈک"
+        ],
+        [
+          "callejón",
+          "alley",
+          "گلی"
+        ],
+        [
+          "cruce / intersección",
+          "cross / intersection",
+          "چوراہا"
+        ],
+        [
+          "puente",
+          "bridge",
+          "پُل"
+        ],
+        [
+          "plaza",
+          "square",
+          "چوک"
+        ],
+        [
+          "mercado",
+          "market",
+          "بازار"
+        ]
+      ],
+      "title": "es · en · ur",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "City and places",
+    "es": "La ciudad y los lugares"
+  },
+  "unit": 10
+}

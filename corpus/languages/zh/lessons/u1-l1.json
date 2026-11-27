@@ -1,0 +1,192 @@
+{
+  "concepts": [
+    "c:saludos-y-expresiones.hola",
+    "c:saludos-y-expresiones.buenos-dias",
+    "c:saludos-y-expresiones.buenas-tardes",
+    "c:saludos-y-expresiones.buenas-noches",
+    "c:saludos-y-expresiones.gracias",
+    "c:saludos-y-expresiones.por-favor",
+    "c:saludos-y-expresiones.perdon-disculpe",
+    "c:saludos-y-expresiones.adios",
+    "c:saludos-y-expresiones.hasta-luego",
+    "c:saludos-y-expresiones.si",
+    "c:saludos-y-expresiones.no"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:saludos-y-expresiones.hola",
+      "en": "Hello.",
+      "es": "hola",
+      "speaker": "A",
+      "zh": "哈啰"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenos-dias",
+      "en": "Good morning.",
+      "es": "buenos días",
+      "speaker": "B",
+      "zh": "早上好,我刚从你那回来"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-tardes",
+      "en": "Good afternoon.",
+      "es": "buenas tardes",
+      "speaker": "A",
+      "zh": "下午好,我说,我..."
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-noches",
+      "en": "Good night.",
+      "es": "buenas noches",
+      "speaker": "B",
+      "zh": "晚安,我需要你帮忙。"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.gracias",
+      "en": "Thank you.",
+      "es": "gracias",
+      "speaker": "A",
+      "zh": "谢谢"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.por-favor",
+      "en": "Please.",
+      "es": "por favor",
+      "speaker": "B",
+      "zh": "请"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.perdon-disculpe",
+      "en": "Excuse me / excuse",
+      "es": "perdón / disculpe",
+      "speaker": "A",
+      "zh": "对不起,对不起"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.adios",
+      "en": "Bye.",
+      "es": "adiós",
+      "speaker": "B",
+      "zh": "再见。"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.hasta-luego",
+      "en": "See you later.",
+      "es": "hasta luego",
+      "speaker": "A",
+      "zh": "回头见"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.si",
+      "en": "Yes",
+      "es": "sí",
+      "speaker": "B",
+      "zh": "对"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.no",
+      "en": "No.",
+      "es": "no",
+      "speaker": "A",
+      "zh": "没有"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Basic courtesy expressions to open and close a conversation.",
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
+    "zh": "基本表达礼节,开口闭口."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u1-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Greet and say goodbye",
+      "Thank and say please"
+    ],
+    "es": [
+      "Saludar y despedirse",
+      "Dar las gracias y pedir por favor"
+    ],
+    "zh": [
+      "问候和道别",
+      "麻烦你多谢一下"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "hola",
+          "Hello.",
+          "哈啰"
+        ],
+        [
+          "buenos días",
+          "Good morning.",
+          "早上好,我刚从你那回来"
+        ],
+        [
+          "buenas tardes",
+          "Good afternoon.",
+          "下午好,我说,我..."
+        ],
+        [
+          "buenas noches",
+          "Good night.",
+          "晚安,我需要你帮忙。"
+        ],
+        [
+          "gracias",
+          "Thank you.",
+          "谢谢"
+        ],
+        [
+          "por favor",
+          "Please.",
+          "请"
+        ],
+        [
+          "perdón / disculpe",
+          "Excuse me / excuse",
+          "对不起,对不起"
+        ],
+        [
+          "adiós",
+          "Bye.",
+          "再见。"
+        ],
+        [
+          "hasta luego",
+          "See you later.",
+          "回头见"
+        ],
+        [
+          "sí",
+          "Yes",
+          "对"
+        ],
+        [
+          "no",
+          "No.",
+          "没有"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Greetings and courtesy",
+    "es": "Saludos y cortesía",
+    "zh": "问候和礼貌"
+  },
+  "unit": 1
+}

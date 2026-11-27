@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:animales.animal",
+    "c:animales.perro",
+    "c:animales.gato",
+    "c:animales.vaca",
+    "c:animales.buey-toro",
+    "c:animales.bufalo",
+    "c:animales.caballo",
+    "c:animales.burro-asno",
+    "c:animales.cabra",
+    "c:animales.oveja",
+    "c:animales.cerdo",
+    "c:animales.gallina"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:animales.animal",
+      "en": "animal",
+      "es": "animal",
+      "hi": "जानवर",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.perro",
+      "en": "dog",
+      "es": "perro",
+      "hi": "कुत्ता",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.gato",
+      "en": "cat",
+      "es": "gato",
+      "hi": "बिल्ली",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.vaca",
+      "en": "cow",
+      "es": "vaca",
+      "hi": "गाय",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.buey-toro",
+      "en": "ox / bull",
+      "es": "buey / toro",
+      "hi": "बैल",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.bufalo",
+      "en": "buffalo",
+      "es": "búfalo",
+      "hi": "भैंस",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.caballo",
+      "en": "horse",
+      "es": "caballo",
+      "hi": "घोड़ा",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.burro-asno",
+      "en": "donkey / ass",
+      "es": "burro / asno",
+      "hi": "गधा",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.cabra",
+      "en": "goat",
+      "es": "cabra",
+      "hi": "बकरी",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.oveja",
+      "en": "sheep",
+      "es": "oveja",
+      "hi": "भेड़",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.cerdo",
+      "en": "pig",
+      "es": "cerdo",
+      "hi": "सूअर",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.gallina",
+      "en": "chicken",
+      "es": "gallina",
+      "hi": "मुर्गी",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Common animals, both domestic and wild.",
+    "es": "Animales frecuentes, tanto domésticos como salvajes.",
+    "hi": "अक्सर जानवरों, घरेलू और जंगली दोनों।"
+  },
+  "generator": "build_lessons",
+  "id": "hi-u9-l1",
+  "lang": "hi",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name common animals",
+      "Describe animals"
+    ],
+    "es": [
+      "Nombrar animales comunes",
+      "Describir animales"
+    ],
+    "hi": [
+      "नाम आम जानवर",
+      "जानवरों का वर्णन करें"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "hi"
+      ],
+      "rows": [
+        [
+          "animal",
+          "animal",
+          "जानवर"
+        ],
+        [
+          "perro",
+          "dog",
+          "कुत्ता"
+        ],
+        [
+          "gato",
+          "cat",
+          "बिल्ली"
+        ],
+        [
+          "vaca",
+          "cow",
+          "गाय"
+        ],
+        [
+          "buey / toro",
+          "ox / bull",
+          "बैल"
+        ],
+        [
+          "búfalo",
+          "buffalo",
+          "भैंस"
+        ],
+        [
+          "caballo",
+          "horse",
+          "घोड़ा"
+        ],
+        [
+          "burro / asno",
+          "donkey / ass",
+          "गधा"
+        ],
+        [
+          "cabra",
+          "goat",
+          "बकरी"
+        ],
+        [
+          "oveja",
+          "sheep",
+          "भेड़"
+        ],
+        [
+          "cerdo",
+          "pig",
+          "सूअर"
+        ],
+        [
+          "gallina",
+          "chicken",
+          "मुर्गी"
+        ]
+      ],
+      "title": "es · en · hi",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Animals",
+    "es": "Los animales",
+    "hi": "पशु"
+  },
+  "unit": 9
+}

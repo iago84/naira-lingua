@@ -1,0 +1,192 @@
+{
+  "concepts": [
+    "c:saludos-y-expresiones.hola",
+    "c:saludos-y-expresiones.buenos-dias",
+    "c:saludos-y-expresiones.buenas-tardes",
+    "c:saludos-y-expresiones.buenas-noches",
+    "c:saludos-y-expresiones.gracias",
+    "c:saludos-y-expresiones.por-favor",
+    "c:saludos-y-expresiones.perdon-disculpe",
+    "c:saludos-y-expresiones.adios",
+    "c:saludos-y-expresiones.hasta-luego",
+    "c:saludos-y-expresiones.si",
+    "c:saludos-y-expresiones.no"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:saludos-y-expresiones.hola",
+      "en": "Hello.",
+      "es": "hola",
+      "gl": "Hola.",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenos-dias",
+      "en": "Good morning.",
+      "es": "buenos días",
+      "gl": "Buenos días.",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-tardes",
+      "en": "Good afternoon.",
+      "es": "buenas tardes",
+      "gl": "Boa tarde.",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.buenas-noches",
+      "en": "Good night.",
+      "es": "buenas noches",
+      "gl": "Boa noite.",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.gracias",
+      "en": "Thank you.",
+      "es": "gracias",
+      "gl": "Gracias.",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.por-favor",
+      "en": "Please.",
+      "es": "por favor",
+      "gl": "Por favor.",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.perdon-disculpe",
+      "en": "Excuse me / excuse",
+      "es": "perdón / disculpe",
+      "gl": "Perdón / Desculpa",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.adios",
+      "en": "Bye.",
+      "es": "adiós",
+      "gl": "Adeus.",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.hasta-luego",
+      "en": "See you later.",
+      "es": "hasta luego",
+      "gl": "Vémonos máis tarde.",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.si",
+      "en": "Yes",
+      "es": "sí",
+      "gl": "Si",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:saludos-y-expresiones.no",
+      "en": "No.",
+      "es": "no",
+      "gl": "Non.",
+      "speaker": "A"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Basic courtesy expressions to open and close a conversation.",
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
+    "gl": "Expresións de cortesía para abrir e pechar unha conversa."
+  },
+  "generator": "build_lessons",
+  "id": "gl-u1-l1",
+  "lang": "gl",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Greet and say goodbye",
+      "Thank and say please"
+    ],
+    "es": [
+      "Saludar y despedirse",
+      "Dar las gracias y pedir por favor"
+    ],
+    "gl": [
+      "Saudos e despedidas",
+      "Grazas e pregunta"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "gl"
+      ],
+      "rows": [
+        [
+          "hola",
+          "Hello.",
+          "Hola."
+        ],
+        [
+          "buenos días",
+          "Good morning.",
+          "Buenos días."
+        ],
+        [
+          "buenas tardes",
+          "Good afternoon.",
+          "Boa tarde."
+        ],
+        [
+          "buenas noches",
+          "Good night.",
+          "Boa noite."
+        ],
+        [
+          "gracias",
+          "Thank you.",
+          "Gracias."
+        ],
+        [
+          "por favor",
+          "Please.",
+          "Por favor."
+        ],
+        [
+          "perdón / disculpe",
+          "Excuse me / excuse",
+          "Perdón / Desculpa"
+        ],
+        [
+          "adiós",
+          "Bye.",
+          "Adeus."
+        ],
+        [
+          "hasta luego",
+          "See you later.",
+          "Vémonos máis tarde."
+        ],
+        [
+          "sí",
+          "Yes",
+          "Si"
+        ],
+        [
+          "no",
+          "No.",
+          "Non."
+        ]
+      ],
+      "title": "es · en · gl",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Greetings and courtesy",
+    "es": "Saludos y cortesía",
+    "gl": "Saúdos e cortesía"
+  },
+  "unit": 1
+}

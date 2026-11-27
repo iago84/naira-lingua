@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:animales.animal",
+    "c:animales.perro",
+    "c:animales.gato",
+    "c:animales.vaca",
+    "c:animales.buey-toro",
+    "c:animales.bufalo",
+    "c:animales.caballo",
+    "c:animales.burro-asno",
+    "c:animales.cabra",
+    "c:animales.oveja",
+    "c:animales.cerdo",
+    "c:animales.gallina"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:animales.animal",
+      "de": "Tier",
+      "en": "animal",
+      "es": "animal",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.perro",
+      "de": "Hund",
+      "en": "dog",
+      "es": "perro",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.gato",
+      "de": "Katze",
+      "en": "cat",
+      "es": "gato",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.vaca",
+      "de": "Kuh",
+      "en": "cow",
+      "es": "vaca",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.buey-toro",
+      "de": "Ochse/Stier",
+      "en": "ox / bull",
+      "es": "buey / toro",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.bufalo",
+      "de": "Büffel",
+      "en": "buffalo",
+      "es": "búfalo",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.caballo",
+      "de": "Pferd",
+      "en": "horse",
+      "es": "caballo",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.burro-asno",
+      "de": "Esel/Esels",
+      "en": "donkey / ass",
+      "es": "burro / asno",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.cabra",
+      "de": "Ziege",
+      "en": "goat",
+      "es": "cabra",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.oveja",
+      "de": "Schafe",
+      "en": "sheep",
+      "es": "oveja",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:animales.cerdo",
+      "de": "Schwein",
+      "en": "pig",
+      "es": "cerdo",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:animales.gallina",
+      "de": "Huhn",
+      "en": "chicken",
+      "es": "gallina",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "de": "Häufige Tiere, sowohl Haus- als auch Wildtiere.",
+    "en": "Common animals, both domestic and wild.",
+    "es": "Animales frecuentes, tanto domésticos como salvajes."
+  },
+  "generator": "build_lessons",
+  "id": "de-u9-l1",
+  "lang": "de",
+  "lesson": 1,
+  "objectives": {
+    "de": [
+      "Name Gemeine Tiere",
+      "Beschreibung der Tiere"
+    ],
+    "en": [
+      "Name common animals",
+      "Describe animals"
+    ],
+    "es": [
+      "Nombrar animales comunes",
+      "Describir animales"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "de"
+      ],
+      "rows": [
+        [
+          "animal",
+          "animal",
+          "Tier"
+        ],
+        [
+          "perro",
+          "dog",
+          "Hund"
+        ],
+        [
+          "gato",
+          "cat",
+          "Katze"
+        ],
+        [
+          "vaca",
+          "cow",
+          "Kuh"
+        ],
+        [
+          "buey / toro",
+          "ox / bull",
+          "Ochse/Stier"
+        ],
+        [
+          "búfalo",
+          "buffalo",
+          "Büffel"
+        ],
+        [
+          "caballo",
+          "horse",
+          "Pferd"
+        ],
+        [
+          "burro / asno",
+          "donkey / ass",
+          "Esel/Esels"
+        ],
+        [
+          "cabra",
+          "goat",
+          "Ziege"
+        ],
+        [
+          "oveja",
+          "sheep",
+          "Schafe"
+        ],
+        [
+          "cerdo",
+          "pig",
+          "Schwein"
+        ],
+        [
+          "gallina",
+          "chicken",
+          "Huhn"
+        ]
+      ],
+      "title": "es · en · de",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "de": "Tiere",
+    "en": "Animals",
+    "es": "Los animales"
+  },
+  "unit": 9
+}

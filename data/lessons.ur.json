@@ -1,1 +1,2377 @@
-[]
+[
+  {
+    "concepts": [
+      "c:saludos-y-expresiones.hola",
+      "c:saludos-y-expresiones.buenos-dias",
+      "c:saludos-y-expresiones.buenas-tardes",
+      "c:saludos-y-expresiones.buenas-noches",
+      "c:saludos-y-expresiones.gracias",
+      "c:saludos-y-expresiones.por-favor",
+      "c:saludos-y-expresiones.perdon-disculpe",
+      "c:saludos-y-expresiones.adios",
+      "c:saludos-y-expresiones.hasta-luego",
+      "c:saludos-y-expresiones.si",
+      "c:saludos-y-expresiones.no"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:saludos-y-expresiones.hola",
+        "en": "Hello.",
+        "es": "hola",
+        "speaker": "A",
+        "ur": "سلام / ہیلو"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.buenos-dias",
+        "en": "Good morning.",
+        "es": "buenos días",
+        "speaker": "B",
+        "ur": "صبح بخیر"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.buenas-tardes",
+        "en": "Good afternoon.",
+        "es": "buenas tardes",
+        "speaker": "A",
+        "ur": "دوپہر بخیر"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.buenas-noches",
+        "en": "Good night.",
+        "es": "buenas noches",
+        "speaker": "B",
+        "ur": "شب بخیر"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.gracias",
+        "en": "Thank you.",
+        "es": "gracias",
+        "speaker": "A",
+        "ur": "شکریہ"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.por-favor",
+        "en": "Please.",
+        "es": "por favor",
+        "speaker": "B",
+        "ur": "براہ کرم / مہربانی"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.perdon-disculpe",
+        "en": "Excuse me / excuse",
+        "es": "perdón / disculpe",
+        "speaker": "A",
+        "ur": "معاف کیجیے"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.adios",
+        "en": "Bye.",
+        "es": "adiós",
+        "speaker": "B",
+        "ur": "الوداع / خدا حافظ"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.hasta-luego",
+        "en": "See you later.",
+        "es": "hasta luego",
+        "speaker": "A",
+        "ur": "پھر ملیں گے"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.si",
+        "en": "Yes",
+        "es": "sí",
+        "speaker": "B",
+        "ur": "ہاں / جی ہاں"
+      },
+      {
+        "concept": "c:saludos-y-expresiones.no",
+        "en": "No.",
+        "es": "no",
+        "speaker": "A",
+        "ur": "نہیں / جی نہیں"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Basic courtesy expressions to open and close a conversation.",
+      "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u1-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Greet and say goodbye",
+        "Thank and say please"
+      ],
+      "es": [
+        "Saludar y despedirse",
+        "Dar las gracias y pedir por favor"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "hola",
+            "Hello.",
+            "سلام / ہیلو"
+          ],
+          [
+            "buenos días",
+            "Good morning.",
+            "صبح بخیر"
+          ],
+          [
+            "buenas tardes",
+            "Good afternoon.",
+            "دوپہر بخیر"
+          ],
+          [
+            "buenas noches",
+            "Good night.",
+            "شب بخیر"
+          ],
+          [
+            "gracias",
+            "Thank you.",
+            "شکریہ"
+          ],
+          [
+            "por favor",
+            "Please.",
+            "براہ کرم / مہربانی"
+          ],
+          [
+            "perdón / disculpe",
+            "Excuse me / excuse",
+            "معاف کیجیے"
+          ],
+          [
+            "adiós",
+            "Bye.",
+            "الوداع / خدا حافظ"
+          ],
+          [
+            "hasta luego",
+            "See you later.",
+            "پھر ملیں گے"
+          ],
+          [
+            "sí",
+            "Yes",
+            "ہاں / جی ہاں"
+          ],
+          [
+            "no",
+            "No.",
+            "نہیں / جی نہیں"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Greetings and courtesy",
+      "es": "Saludos y cortesía"
+    },
+    "unit": 1
+  },
+  {
+    "concepts": [
+      "c:ciudad-y-lugares.ciudad",
+      "c:ciudad-y-lugares.pueblo-aldea",
+      "c:ciudad-y-lugares.pais",
+      "c:ciudad-y-lugares.estado-provincia",
+      "c:ciudad-y-lugares.capital",
+      "c:ciudad-y-lugares.zona-area",
+      "c:ciudad-y-lugares.calle-carretera",
+      "c:ciudad-y-lugares.callejon",
+      "c:ciudad-y-lugares.cruce-interseccion",
+      "c:ciudad-y-lugares.puente",
+      "c:ciudad-y-lugares.plaza",
+      "c:ciudad-y-lugares.mercado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:ciudad-y-lugares.ciudad",
+        "en": "city",
+        "es": "ciudad",
+        "speaker": "A",
+        "ur": "شہر"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.pueblo-aldea",
+        "en": "village / town",
+        "es": "pueblo / aldea",
+        "speaker": "B",
+        "ur": "گاںو"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.pais",
+        "en": "country",
+        "es": "país",
+        "speaker": "A",
+        "ur": "ملک / دیش"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.estado-provincia",
+        "en": "State / province",
+        "es": "estado / provincia",
+        "speaker": "B",
+        "ur": "راجی"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.capital",
+        "en": "capital",
+        "es": "capital",
+        "speaker": "A",
+        "ur": "راجدھانی"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.zona-area",
+        "en": "area / zone",
+        "es": "zona / área",
+        "speaker": "B",
+        "ur": "اِلاکا"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.calle-carretera",
+        "en": "Street / road",
+        "es": "calle / carretera",
+        "speaker": "A",
+        "ur": "سڈک"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.callejon",
+        "en": "alley",
+        "es": "callejón",
+        "speaker": "B",
+        "ur": "گلی"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.cruce-interseccion",
+        "en": "cross / intersection",
+        "es": "cruce / intersección",
+        "speaker": "A",
+        "ur": "چوراہا"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.puente",
+        "en": "bridge",
+        "es": "puente",
+        "speaker": "B",
+        "ur": "پُل"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.plaza",
+        "en": "square",
+        "es": "plaza",
+        "speaker": "A",
+        "ur": "چوک"
+      },
+      {
+        "concept": "c:ciudad-y-lugares.mercado",
+        "en": "market",
+        "es": "mercado",
+        "speaker": "B",
+        "ur": "بازار"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Places in the city to move around and ask for directions.",
+      "es": "Lugares de la ciudad para moverse y pedir indicaciones."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u10-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name places in the city",
+        "Ask for directions"
+      ],
+      "es": [
+        "Nombrar lugares de la ciudad",
+        "Pedir direcciones"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "ciudad",
+            "city",
+            "شہر"
+          ],
+          [
+            "pueblo / aldea",
+            "village / town",
+            "گاںو"
+          ],
+          [
+            "país",
+            "country",
+            "ملک / دیش"
+          ],
+          [
+            "estado / provincia",
+            "State / province",
+            "راجی"
+          ],
+          [
+            "capital",
+            "capital",
+            "راجدھانی"
+          ],
+          [
+            "zona / área",
+            "area / zone",
+            "اِلاکا"
+          ],
+          [
+            "calle / carretera",
+            "Street / road",
+            "سڈک"
+          ],
+          [
+            "callejón",
+            "alley",
+            "گلی"
+          ],
+          [
+            "cruce / intersección",
+            "cross / intersection",
+            "چوراہا"
+          ],
+          [
+            "puente",
+            "bridge",
+            "پُل"
+          ],
+          [
+            "plaza",
+            "square",
+            "چوک"
+          ],
+          [
+            "mercado",
+            "market",
+            "بازار"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "City and places",
+      "es": "La ciudad y los lugares"
+    },
+    "unit": 10
+  },
+  {
+    "concepts": [
+      "c:ropa-y-accesorios.ropa",
+      "c:ropa-y-accesorios.camisa",
+      "c:ropa-y-accesorios.camiseta",
+      "c:ropa-y-accesorios.pantalon",
+      "c:ropa-y-accesorios.vaqueros-jeans",
+      "c:ropa-y-accesorios.pantalones-cortos",
+      "c:ropa-y-accesorios.falda",
+      "c:ropa-y-accesorios.vestido",
+      "c:ropa-y-accesorios.sari",
+      "c:ropa-y-accesorios.salwar-kameez",
+      "c:ropa-y-accesorios.kurta",
+      "c:ropa-y-accesorios.pijama"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:ropa-y-accesorios.ropa",
+        "en": "clothing",
+        "es": "ropa",
+        "speaker": "A",
+        "ur": "کپڈے"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.camisa",
+        "en": "shirt",
+        "es": "camisa",
+        "speaker": "B",
+        "ur": "شرٹ"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.camiseta",
+        "en": "T-shirt",
+        "es": "camiseta",
+        "speaker": "A",
+        "ur": "ٹی-شرٹ"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pantalon",
+        "en": "Pants",
+        "es": "pantalón",
+        "speaker": "B",
+        "ur": "پےںٹ"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+        "en": "jeans / jans",
+        "es": "vaqueros / jeans",
+        "speaker": "A",
+        "ur": "جیںس"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pantalones-cortos",
+        "en": "Short pants",
+        "es": "pantalones cortos",
+        "speaker": "B",
+        "ur": "شارٹس"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.falda",
+        "en": "skirt",
+        "es": "falda",
+        "speaker": "A",
+        "ur": "سکرٹ"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.vestido",
+        "en": "dress up",
+        "es": "vestido",
+        "speaker": "B",
+        "ur": "ڈرےس"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.sari",
+        "en": "sari",
+        "es": "sari",
+        "speaker": "A",
+        "ur": "ساڈی"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.salwar-kameez",
+        "en": "salwar kameez",
+        "es": "salwar kameez",
+        "speaker": "B",
+        "ur": "سلوار کمیج"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.kurta",
+        "en": "kurta",
+        "es": "kurta",
+        "speaker": "A",
+        "ur": "کُرتا"
+      },
+      {
+        "concept": "c:ropa-y-accesorios.pijama",
+        "en": "pajamas",
+        "es": "pijama",
+        "speaker": "B",
+        "ur": "پایجاما"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Clothes and accessories, with words useful for clothes shopping.",
+      "es": "Prendas y accesorios, con palabras útiles para comprar ropa."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u11-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name clothes",
+        "Go shopping"
+      ],
+      "es": [
+        "Nombrar prendas de ropa",
+        "Ir de compras"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "ropa",
+            "clothing",
+            "کپڈے"
+          ],
+          [
+            "camisa",
+            "shirt",
+            "شرٹ"
+          ],
+          [
+            "camiseta",
+            "T-shirt",
+            "ٹی-شرٹ"
+          ],
+          [
+            "pantalón",
+            "Pants",
+            "پےںٹ"
+          ],
+          [
+            "vaqueros / jeans",
+            "jeans / jans",
+            "جیںس"
+          ],
+          [
+            "pantalones cortos",
+            "Short pants",
+            "شارٹس"
+          ],
+          [
+            "falda",
+            "skirt",
+            "سکرٹ"
+          ],
+          [
+            "vestido",
+            "dress up",
+            "ڈرےس"
+          ],
+          [
+            "sari",
+            "sari",
+            "ساڈی"
+          ],
+          [
+            "salwar kameez",
+            "salwar kameez",
+            "سلوار کمیج"
+          ],
+          [
+            "kurta",
+            "kurta",
+            "کُرتا"
+          ],
+          [
+            "pijama",
+            "pajamas",
+            "پایجاما"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Clothing and accessories",
+      "es": "La ropa y los accesorios"
+    },
+    "unit": 11
+  },
+  {
+    "concepts": [
+      "c:trabajo-y-profesiones.trabajo-labor",
+      "c:trabajo-y-profesiones.empleo-trabajo",
+      "c:trabajo-y-profesiones.profesion-oficio",
+      "c:trabajo-y-profesiones.negocio-profesion",
+      "c:trabajo-y-profesiones.empresa-compania",
+      "c:trabajo-y-profesiones.oficina",
+      "c:trabajo-y-profesiones.oficina-despacho",
+      "c:trabajo-y-profesiones.dueno-propietario",
+      "c:trabajo-y-profesiones.jefe-a",
+      "c:trabajo-y-profesiones.empleado-a",
+      "c:trabajo-y-profesiones.colega",
+      "c:trabajo-y-profesiones.equipo"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:trabajo-y-profesiones.trabajo-labor",
+        "en": "work /",
+        "es": "trabajo / labor",
+        "speaker": "A",
+        "ur": "کام"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+        "en": "employment / work",
+        "es": "empleo / trabajo",
+        "speaker": "B",
+        "ur": "نوکری"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.profesion-oficio",
+        "en": "profession / trade",
+        "es": "profesión / oficio",
+        "speaker": "A",
+        "ur": "پےشا"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.negocio-profesion",
+        "en": "business / profession",
+        "es": "negocio / profesión",
+        "speaker": "B",
+        "ur": "ویوسای"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empresa-compania",
+        "en": "company / enterprise",
+        "es": "empresa / compañía",
+        "speaker": "A",
+        "ur": "کںپنی"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.oficina",
+        "en": "office",
+        "es": "oficina",
+        "speaker": "B",
+        "ur": "کاریالی — oficina"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.oficina-despacho",
+        "en": "office /",
+        "es": "oficina / despacho",
+        "speaker": "A",
+        "ur": "دپھتر"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.dueno-propietario",
+        "en": "owner / proprietor",
+        "es": "dueño / propietario",
+        "speaker": "B",
+        "ur": "مالِک"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.jefe-a",
+        "en": "Chief",
+        "es": "jefe/a",
+        "speaker": "A",
+        "ur": "باس — jefe/a"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.empleado-a",
+        "en": "employee",
+        "es": "empleado/a",
+        "speaker": "B",
+        "ur": "کرمچاری"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.colega",
+        "en": "- I'm sorry, buddy.",
+        "es": "colega",
+        "speaker": "A",
+        "ur": "سہکرمی"
+      },
+      {
+        "concept": "c:trabajo-y-profesiones.equipo",
+        "en": "equipment",
+        "es": "equipo",
+        "speaker": "B",
+        "ur": "ٹیم — equipo"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Professions and words from the world of work.",
+      "es": "Profesiones y palabras del mundo laboral."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u12-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name professions",
+        "Talk about work"
+      ],
+      "es": [
+        "Nombrar profesiones",
+        "Hablar del trabajo"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "trabajo / labor",
+            "work /",
+            "کام"
+          ],
+          [
+            "empleo / trabajo",
+            "employment / work",
+            "نوکری"
+          ],
+          [
+            "profesión / oficio",
+            "profession / trade",
+            "پےشا"
+          ],
+          [
+            "negocio / profesión",
+            "business / profession",
+            "ویوسای"
+          ],
+          [
+            "empresa / compañía",
+            "company / enterprise",
+            "کںپنی"
+          ],
+          [
+            "oficina",
+            "office",
+            "کاریالی — oficina"
+          ],
+          [
+            "oficina / despacho",
+            "office /",
+            "دپھتر"
+          ],
+          [
+            "dueño / propietario",
+            "owner / proprietor",
+            "مالِک"
+          ],
+          [
+            "jefe/a",
+            "Chief",
+            "باس — jefe/a"
+          ],
+          [
+            "empleado/a",
+            "employee",
+            "کرمچاری"
+          ],
+          [
+            "colega",
+            "- I'm sorry, buddy.",
+            "سہکرمی"
+          ],
+          [
+            "equipo",
+            "equipment",
+            "ٹیم — equipo"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Work and professions",
+      "es": "El trabajo y las profesiones"
+    },
+    "unit": 12
+  },
+  {
+    "concepts": [
+      "c:numeros.cero",
+      "c:numeros.uno",
+      "c:numeros.dos",
+      "c:numeros.tres",
+      "c:numeros.cuatro",
+      "c:numeros.cinco",
+      "c:numeros.seis",
+      "c:numeros.siete",
+      "c:numeros.ocho",
+      "c:numeros.nueve",
+      "c:numeros.diez",
+      "c:numeros.once"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:numeros.cero",
+        "en": "zero",
+        "es": "cero",
+        "speaker": "A",
+        "ur": "صفر"
+      },
+      {
+        "concept": "c:numeros.uno",
+        "en": "one",
+        "es": "uno",
+        "speaker": "B",
+        "ur": "ایک"
+      },
+      {
+        "concept": "c:numeros.dos",
+        "en": "two",
+        "es": "dos",
+        "speaker": "A",
+        "ur": "دو"
+      },
+      {
+        "concept": "c:numeros.tres",
+        "en": "three",
+        "es": "tres",
+        "speaker": "B",
+        "ur": "تین"
+      },
+      {
+        "concept": "c:numeros.cuatro",
+        "en": "4",
+        "es": "cuatro",
+        "speaker": "A",
+        "ur": "چار"
+      },
+      {
+        "concept": "c:numeros.cinco",
+        "en": "five",
+        "es": "cinco",
+        "speaker": "B",
+        "ur": "پانچ"
+      },
+      {
+        "concept": "c:numeros.seis",
+        "en": "6",
+        "es": "seis",
+        "speaker": "A",
+        "ur": "چھ"
+      },
+      {
+        "concept": "c:numeros.siete",
+        "en": "seven",
+        "es": "siete",
+        "speaker": "B",
+        "ur": "سات"
+      },
+      {
+        "concept": "c:numeros.ocho",
+        "en": "8",
+        "es": "ocho",
+        "speaker": "A",
+        "ur": "آٹھ"
+      },
+      {
+        "concept": "c:numeros.nueve",
+        "en": "9",
+        "es": "nueve",
+        "speaker": "B",
+        "ur": "نو"
+      },
+      {
+        "concept": "c:numeros.diez",
+        "en": "10",
+        "es": "diez",
+        "speaker": "A",
+        "ur": "دس"
+      },
+      {
+        "concept": "c:numeros.once",
+        "en": "11",
+        "es": "once",
+        "speaker": "B",
+        "ur": "گیارہ"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Everyday numbers: used to count, give your age and talk about prices.",
+      "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u2-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Count from zero to ten",
+        "Recognise basic numbers"
+      ],
+      "es": [
+        "Contar del cero al diez",
+        "Reconocer los números básicos"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "cero",
+            "zero",
+            "صفر"
+          ],
+          [
+            "uno",
+            "one",
+            "ایک"
+          ],
+          [
+            "dos",
+            "two",
+            "دو"
+          ],
+          [
+            "tres",
+            "three",
+            "تین"
+          ],
+          [
+            "cuatro",
+            "4",
+            "چار"
+          ],
+          [
+            "cinco",
+            "five",
+            "پانچ"
+          ],
+          [
+            "seis",
+            "6",
+            "چھ"
+          ],
+          [
+            "siete",
+            "seven",
+            "سات"
+          ],
+          [
+            "ocho",
+            "8",
+            "آٹھ"
+          ],
+          [
+            "nueve",
+            "9",
+            "نو"
+          ],
+          [
+            "diez",
+            "10",
+            "دس"
+          ],
+          [
+            "once",
+            "11",
+            "گیارہ"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Numbers",
+      "es": "Los números"
+    },
+    "unit": 2
+  },
+  {
+    "concepts": [
+      "c:colores.rojo",
+      "c:colores.azul",
+      "c:colores.verde",
+      "c:colores.amarillo",
+      "c:colores.negro",
+      "c:colores.blanco",
+      "c:colores.naranja",
+      "c:colores.rosa",
+      "c:colores.morado-violeta",
+      "c:colores.marron",
+      "c:colores.gris",
+      "c:colores.dorado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:colores.rojo",
+        "en": "red",
+        "es": "rojo",
+        "speaker": "A",
+        "ur": "لال / سرخ"
+      },
+      {
+        "concept": "c:colores.azul",
+        "en": "blue",
+        "es": "azul",
+        "speaker": "B",
+        "ur": "نیلا"
+      },
+      {
+        "concept": "c:colores.verde",
+        "en": "green",
+        "es": "verde",
+        "speaker": "A",
+        "ur": "ہرا / سبز"
+      },
+      {
+        "concept": "c:colores.amarillo",
+        "en": "yellow",
+        "es": "amarillo",
+        "speaker": "B",
+        "ur": "پیلا / زرد"
+      },
+      {
+        "concept": "c:colores.negro",
+        "en": "black",
+        "es": "negro",
+        "speaker": "A",
+        "ur": "کالا / سیاہ"
+      },
+      {
+        "concept": "c:colores.blanco",
+        "en": "white",
+        "es": "blanco",
+        "speaker": "B",
+        "ur": "سفید"
+      },
+      {
+        "concept": "c:colores.naranja",
+        "en": "orange",
+        "es": "naranja",
+        "speaker": "A",
+        "ur": "نارںگی"
+      },
+      {
+        "concept": "c:colores.rosa",
+        "en": "pink",
+        "es": "rosa",
+        "speaker": "B",
+        "ur": "گُلابی"
+      },
+      {
+        "concept": "c:colores.morado-violeta",
+        "en": "purple / violet",
+        "es": "morado / violeta",
+        "speaker": "A",
+        "ur": "بےںگنی"
+      },
+      {
+        "concept": "c:colores.marron",
+        "en": "brown",
+        "es": "marrón",
+        "speaker": "B",
+        "ur": "بھورا"
+      },
+      {
+        "concept": "c:colores.gris",
+        "en": "grey",
+        "es": "gris",
+        "speaker": "A",
+        "ur": "سلےٹی"
+      },
+      {
+        "concept": "c:colores.dorado",
+        "en": "gold",
+        "es": "dorado",
+        "speaker": "B",
+        "ur": "سُنہرا"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Colours are used to describe objects, clothes and places.",
+      "es": "Los colores sirven para describir objetos, ropa y lugares."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u3-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name basic colours",
+        "Describe objects by colour"
+      ],
+      "es": [
+        "Nombrar los colores básicos",
+        "Describir objetos por su color"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "rojo",
+            "red",
+            "لال / سرخ"
+          ],
+          [
+            "azul",
+            "blue",
+            "نیلا"
+          ],
+          [
+            "verde",
+            "green",
+            "ہرا / سبز"
+          ],
+          [
+            "amarillo",
+            "yellow",
+            "پیلا / زرد"
+          ],
+          [
+            "negro",
+            "black",
+            "کالا / سیاہ"
+          ],
+          [
+            "blanco",
+            "white",
+            "سفید"
+          ],
+          [
+            "naranja",
+            "orange",
+            "نارںگی"
+          ],
+          [
+            "rosa",
+            "pink",
+            "گُلابی"
+          ],
+          [
+            "morado / violeta",
+            "purple / violet",
+            "بےںگنی"
+          ],
+          [
+            "marrón",
+            "brown",
+            "بھورا"
+          ],
+          [
+            "gris",
+            "grey",
+            "سلےٹی"
+          ],
+          [
+            "dorado",
+            "gold",
+            "سُنہرا"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Colours",
+      "es": "Los colores"
+    },
+    "unit": 3
+  },
+  {
+    "concepts": [
+      "c:familia-y-personas.familia",
+      "c:familia-y-personas.madre",
+      "c:familia-y-personas.padre",
+      "c:familia-y-personas.padres",
+      "c:familia-y-personas.hijo",
+      "c:familia-y-personas.hija",
+      "c:familia-y-personas.nino-a",
+      "c:familia-y-personas.hermano",
+      "c:familia-y-personas.hermana",
+      "c:familia-y-personas.hermanos",
+      "c:familia-y-personas.abuelo-paterno",
+      "c:familia-y-personas.abuela-paterna"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:familia-y-personas.familia",
+        "en": "Family",
+        "es": "familia",
+        "speaker": "A",
+        "ur": "خاندان"
+      },
+      {
+        "concept": "c:familia-y-personas.madre",
+        "en": "Mother",
+        "es": "madre",
+        "speaker": "B",
+        "ur": "ماں / والدہ"
+      },
+      {
+        "concept": "c:familia-y-personas.padre",
+        "en": "Father",
+        "es": "padre",
+        "speaker": "A",
+        "ur": "باپ / والد"
+      },
+      {
+        "concept": "c:familia-y-personas.padres",
+        "en": "parents",
+        "es": "padres",
+        "speaker": "B",
+        "ur": "ماتا-پِتا"
+      },
+      {
+        "concept": "c:familia-y-personas.hijo",
+        "en": "child",
+        "es": "hijo",
+        "speaker": "A",
+        "ur": "بیٹا"
+      },
+      {
+        "concept": "c:familia-y-personas.hija",
+        "en": "daughter",
+        "es": "hija",
+        "speaker": "B",
+        "ur": "بیٹی"
+      },
+      {
+        "concept": "c:familia-y-personas.nino-a",
+        "en": "child",
+        "es": "niño/a",
+        "speaker": "A",
+        "ur": "بچچا"
+      },
+      {
+        "concept": "c:familia-y-personas.hermano",
+        "en": "brother",
+        "es": "hermano",
+        "speaker": "B",
+        "ur": "بھائی"
+      },
+      {
+        "concept": "c:familia-y-personas.hermana",
+        "en": "sister",
+        "es": "hermana",
+        "speaker": "A",
+        "ur": "بہن"
+      },
+      {
+        "concept": "c:familia-y-personas.hermanos",
+        "en": "brothers",
+        "es": "hermanos",
+        "speaker": "B",
+        "ur": "بھاای-بہن"
+      },
+      {
+        "concept": "c:familia-y-personas.abuelo-paterno",
+        "en": "paternal grandfather",
+        "es": "abuelo paterno",
+        "speaker": "A",
+        "ur": "دادا"
+      },
+      {
+        "concept": "c:familia-y-personas.abuela-paterna",
+        "en": "Father's grandmother",
+        "es": "abuela paterna",
+        "speaker": "B",
+        "ur": "دادی"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Words to refer to family and the people around you.",
+      "es": "Palabras para referirse a la familia y a las personas cercanas."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u4-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name family members",
+        "Talk about people"
+      ],
+      "es": [
+        "Nombrar a los miembros de la familia",
+        "Hablar de personas"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "familia",
+            "Family",
+            "خاندان"
+          ],
+          [
+            "madre",
+            "Mother",
+            "ماں / والدہ"
+          ],
+          [
+            "padre",
+            "Father",
+            "باپ / والد"
+          ],
+          [
+            "padres",
+            "parents",
+            "ماتا-پِتا"
+          ],
+          [
+            "hijo",
+            "child",
+            "بیٹا"
+          ],
+          [
+            "hija",
+            "daughter",
+            "بیٹی"
+          ],
+          [
+            "niño/a",
+            "child",
+            "بچچا"
+          ],
+          [
+            "hermano",
+            "brother",
+            "بھائی"
+          ],
+          [
+            "hermana",
+            "sister",
+            "بہن"
+          ],
+          [
+            "hermanos",
+            "brothers",
+            "بھاای-بہن"
+          ],
+          [
+            "abuelo paterno",
+            "paternal grandfather",
+            "دادا"
+          ],
+          [
+            "abuela paterna",
+            "Father's grandmother",
+            "دادی"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Family and people",
+      "es": "La familia y las personas"
+    },
+    "unit": 4
+  },
+  {
+    "concepts": [
+      "c:cuerpo-humano.cuerpo",
+      "c:cuerpo-humano.cabeza",
+      "c:cuerpo-humano.cabello-pelo",
+      "c:cuerpo-humano.cara-rostro",
+      "c:cuerpo-humano.frente",
+      "c:cuerpo-humano.ojo",
+      "c:cuerpo-humano.ojos",
+      "c:cuerpo-humano.ceja",
+      "c:cuerpo-humano.parpado-pestana",
+      "c:cuerpo-humano.oreja-oido",
+      "c:cuerpo-humano.nariz",
+      "c:cuerpo-humano.boca"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:cuerpo-humano.cuerpo",
+        "en": "body",
+        "es": "cuerpo",
+        "speaker": "A",
+        "ur": "شریر"
+      },
+      {
+        "concept": "c:cuerpo-humano.cabeza",
+        "en": "head",
+        "es": "cabeza",
+        "speaker": "B",
+        "ur": "سر"
+      },
+      {
+        "concept": "c:cuerpo-humano.cabello-pelo",
+        "en": "hair / hair-",
+        "es": "cabello / pelo",
+        "speaker": "A",
+        "ur": "بال"
+      },
+      {
+        "concept": "c:cuerpo-humano.cara-rostro",
+        "en": "face / side",
+        "es": "cara / rostro",
+        "speaker": "B",
+        "ur": "چےہرا"
+      },
+      {
+        "concept": "c:cuerpo-humano.frente",
+        "en": "front",
+        "es": "frente",
+        "speaker": "A",
+        "ur": "ماتھا"
+      },
+      {
+        "concept": "c:cuerpo-humano.ojo",
+        "en": "eye",
+        "es": "ojo",
+        "speaker": "B",
+        "ur": "آنکھ"
+      },
+      {
+        "concept": "c:cuerpo-humano.ojos",
+        "en": "eyes",
+        "es": "ojos",
+        "speaker": "A",
+        "ur": "آںکھےں"
+      },
+      {
+        "concept": "c:cuerpo-humano.ceja",
+        "en": "Beef",
+        "es": "ceja",
+        "speaker": "B",
+        "ur": "بھوںہ"
+      },
+      {
+        "concept": "c:cuerpo-humano.parpado-pestana",
+        "en": "eyelid / tab",
+        "es": "párpado / pestaña",
+        "speaker": "A",
+        "ur": "پلک"
+      },
+      {
+        "concept": "c:cuerpo-humano.oreja-oido",
+        "en": "ear / ears",
+        "es": "oreja / oído",
+        "speaker": "B",
+        "ur": "کان"
+      },
+      {
+        "concept": "c:cuerpo-humano.nariz",
+        "en": "nose",
+        "es": "nariz",
+        "speaker": "A",
+        "ur": "ناک"
+      },
+      {
+        "concept": "c:cuerpo-humano.boca",
+        "en": "mouth",
+        "es": "boca",
+        "speaker": "B",
+        "ur": "مُںہ"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Parts of the body, useful to talk about health and care.",
+      "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u5-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name parts of the body",
+        "Talk about health"
+      ],
+      "es": [
+        "Nombrar las partes del cuerpo",
+        "Hablar de la salud"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "cuerpo",
+            "body",
+            "شریر"
+          ],
+          [
+            "cabeza",
+            "head",
+            "سر"
+          ],
+          [
+            "cabello / pelo",
+            "hair / hair-",
+            "بال"
+          ],
+          [
+            "cara / rostro",
+            "face / side",
+            "چےہرا"
+          ],
+          [
+            "frente",
+            "front",
+            "ماتھا"
+          ],
+          [
+            "ojo",
+            "eye",
+            "آنکھ"
+          ],
+          [
+            "ojos",
+            "eyes",
+            "آںکھےں"
+          ],
+          [
+            "ceja",
+            "Beef",
+            "بھوںہ"
+          ],
+          [
+            "párpado / pestaña",
+            "eyelid / tab",
+            "پلک"
+          ],
+          [
+            "oreja / oído",
+            "ear / ears",
+            "کان"
+          ],
+          [
+            "nariz",
+            "nose",
+            "ناک"
+          ],
+          [
+            "boca",
+            "mouth",
+            "مُںہ"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "The human body",
+      "es": "El cuerpo humano"
+    },
+    "unit": 5
+  },
+  {
+    "concepts": [
+      "c:comida-y-bebida.comida-comer",
+      "c:comida-y-bebida.comida-formal",
+      "c:comida-y-bebida.desayuno",
+      "c:comida-y-bebida.almuerzo",
+      "c:comida-y-bebida.cena",
+      "c:comida-y-bebida.agua",
+      "c:comida-y-bebida.leche",
+      "c:comida-y-bebida.te",
+      "c:comida-y-bebida.cafe",
+      "c:comida-y-bebida.zumo-jugo",
+      "c:comida-y-bebida.lassi-yogur-batido",
+      "c:comida-y-bebida.alcohol-vino"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:comida-y-bebida.comida-comer",
+        "en": "food / eat",
+        "es": "comida / comer",
+        "speaker": "A",
+        "ur": "کھانا"
+      },
+      {
+        "concept": "c:comida-y-bebida.comida-formal",
+        "en": "food (formal)",
+        "es": "comida (formal)",
+        "speaker": "B",
+        "ur": "بھوجن"
+      },
+      {
+        "concept": "c:comida-y-bebida.desayuno",
+        "en": "breakfast",
+        "es": "desayuno",
+        "speaker": "A",
+        "ur": "ناشتا"
+      },
+      {
+        "concept": "c:comida-y-bebida.almuerzo",
+        "en": "lunch",
+        "es": "almuerzo",
+        "speaker": "B",
+        "ur": "دوپہر کا کھانا"
+      },
+      {
+        "concept": "c:comida-y-bebida.cena",
+        "en": "dinner",
+        "es": "cena",
+        "speaker": "A",
+        "ur": "رات کا کھانا"
+      },
+      {
+        "concept": "c:comida-y-bebida.agua",
+        "en": "water",
+        "es": "agua",
+        "speaker": "B",
+        "ur": "پانی"
+      },
+      {
+        "concept": "c:comida-y-bebida.leche",
+        "en": "milk",
+        "es": "leche",
+        "speaker": "A",
+        "ur": "دودھ"
+      },
+      {
+        "concept": "c:comida-y-bebida.te",
+        "en": "tea",
+        "es": "té",
+        "speaker": "B",
+        "ur": "چای"
+      },
+      {
+        "concept": "c:comida-y-bebida.cafe",
+        "en": "coffee",
+        "es": "café",
+        "speaker": "A",
+        "ur": "کاپھی"
+      },
+      {
+        "concept": "c:comida-y-bebida.zumo-jugo",
+        "en": "juice / juices",
+        "es": "zumo / jugo",
+        "speaker": "B",
+        "ur": "جوس"
+      },
+      {
+        "concept": "c:comida-y-bebida.lassi-yogur-batido",
+        "en": "lassi (yoghurt beaten)",
+        "es": "lassi (yogur batido)",
+        "speaker": "A",
+        "ur": "لسسی"
+      },
+      {
+        "concept": "c:comida-y-bebida.alcohol-vino",
+        "en": "alcohol / wine",
+        "es": "alcohol / vino",
+        "speaker": "B",
+        "ur": "شراب"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Basic foods and drinks, very useful when shopping or eating out.",
+      "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u6-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name food and drinks",
+        "Order in a restaurant"
+      ],
+      "es": [
+        "Nombrar alimentos y bebidas",
+        "Pedir en un restaurante"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "comida / comer",
+            "food / eat",
+            "کھانا"
+          ],
+          [
+            "comida (formal)",
+            "food (formal)",
+            "بھوجن"
+          ],
+          [
+            "desayuno",
+            "breakfast",
+            "ناشتا"
+          ],
+          [
+            "almuerzo",
+            "lunch",
+            "دوپہر کا کھانا"
+          ],
+          [
+            "cena",
+            "dinner",
+            "رات کا کھانا"
+          ],
+          [
+            "agua",
+            "water",
+            "پانی"
+          ],
+          [
+            "leche",
+            "milk",
+            "دودھ"
+          ],
+          [
+            "té",
+            "tea",
+            "چای"
+          ],
+          [
+            "café",
+            "coffee",
+            "کاپھی"
+          ],
+          [
+            "zumo / jugo",
+            "juice / juices",
+            "جوس"
+          ],
+          [
+            "lassi (yogur batido)",
+            "lassi (yoghurt beaten)",
+            "لسسی"
+          ],
+          [
+            "alcohol / vino",
+            "alcohol / wine",
+            "شراب"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Food and drink",
+      "es": "La comida y la bebida"
+    },
+    "unit": 6
+  },
+  {
+    "concepts": [
+      "c:casa-y-hogar.casa-hogar",
+      "c:casa-y-hogar.edificio-casa",
+      "c:casa-y-hogar.apartamento",
+      "c:casa-y-hogar.habitacion-cuarto",
+      "c:casa-y-hogar.sala-de-estar",
+      "c:casa-y-hogar.dormitorio",
+      "c:casa-y-hogar.cocina-habitacion",
+      "c:casa-y-hogar.bano",
+      "c:casa-y-hogar.inodoro-lavabo",
+      "c:casa-y-hogar.balcon",
+      "c:casa-y-hogar.techo-azotea",
+      "c:casa-y-hogar.pared"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:casa-y-hogar.casa-hogar",
+        "en": "Home / home",
+        "es": "casa / hogar",
+        "speaker": "A",
+        "ur": "گھر"
+      },
+      {
+        "concept": "c:casa-y-hogar.edificio-casa",
+        "en": "building / house",
+        "es": "edificio / casa",
+        "speaker": "B",
+        "ur": "مکان"
+      },
+      {
+        "concept": "c:casa-y-hogar.apartamento",
+        "en": "apartment",
+        "es": "apartamento",
+        "speaker": "A",
+        "ur": "اپارٹمےںٹ"
+      },
+      {
+        "concept": "c:casa-y-hogar.habitacion-cuarto",
+        "en": "room / bedroom",
+        "es": "habitación / cuarto",
+        "speaker": "B",
+        "ur": "کمرا"
+      },
+      {
+        "concept": "c:casa-y-hogar.sala-de-estar",
+        "en": "living room",
+        "es": "sala de estar",
+        "speaker": "A",
+        "ur": "بےٹھک"
+      },
+      {
+        "concept": "c:casa-y-hogar.dormitorio",
+        "en": "bedroom",
+        "es": "dormitorio",
+        "speaker": "B",
+        "ur": "شینککش"
+      },
+      {
+        "concept": "c:casa-y-hogar.cocina-habitacion",
+        "en": "kitchen (room)",
+        "es": "cocina (habitación)",
+        "speaker": "A",
+        "ur": "رسوای"
+      },
+      {
+        "concept": "c:casa-y-hogar.bano",
+        "en": "bathroom",
+        "es": "baño",
+        "speaker": "B",
+        "ur": "باتھروم"
+      },
+      {
+        "concept": "c:casa-y-hogar.inodoro-lavabo",
+        "en": "toilet / sink",
+        "es": "inodoro / lavabo",
+        "speaker": "A",
+        "ur": "شوچالی"
+      },
+      {
+        "concept": "c:casa-y-hogar.balcon",
+        "en": "balcony",
+        "es": "balcón",
+        "speaker": "B",
+        "ur": "بالکنی"
+      },
+      {
+        "concept": "c:casa-y-hogar.techo-azotea",
+        "en": "roof / rooftop",
+        "es": "techo / azotea",
+        "speaker": "A",
+        "ur": "چھت"
+      },
+      {
+        "concept": "c:casa-y-hogar.pared",
+        "en": "wall",
+        "es": "pared",
+        "speaker": "B",
+        "ur": "دیوار"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "House vocabulary: rooms, furniture and everyday objects.",
+      "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u7-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name parts of the house",
+        "Describe household objects"
+      ],
+      "es": [
+        "Nombrar partes de la casa",
+        "Describir objetos del hogar"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "casa / hogar",
+            "Home / home",
+            "گھر"
+          ],
+          [
+            "edificio / casa",
+            "building / house",
+            "مکان"
+          ],
+          [
+            "apartamento",
+            "apartment",
+            "اپارٹمےںٹ"
+          ],
+          [
+            "habitación / cuarto",
+            "room / bedroom",
+            "کمرا"
+          ],
+          [
+            "sala de estar",
+            "living room",
+            "بےٹھک"
+          ],
+          [
+            "dormitorio",
+            "bedroom",
+            "شینککش"
+          ],
+          [
+            "cocina (habitación)",
+            "kitchen (room)",
+            "رسوای"
+          ],
+          [
+            "baño",
+            "bathroom",
+            "باتھروم"
+          ],
+          [
+            "inodoro / lavabo",
+            "toilet / sink",
+            "شوچالی"
+          ],
+          [
+            "balcón",
+            "balcony",
+            "بالکنی"
+          ],
+          [
+            "techo / azotea",
+            "roof / rooftop",
+            "چھت"
+          ],
+          [
+            "pared",
+            "wall",
+            "دیوار"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Home and household",
+      "es": "La casa y el hogar"
+    },
+    "unit": 7
+  },
+  {
+    "concepts": [
+      "c:tiempo-y-calendario.tiempo-hora",
+      "c:tiempo-y-calendario.reloj-hora",
+      "c:tiempo-y-calendario.minuto",
+      "c:tiempo-y-calendario.segundo-tiempo",
+      "c:tiempo-y-calendario.hora-duracion",
+      "c:tiempo-y-calendario.manana-temprano",
+      "c:tiempo-y-calendario.mediodia-tarde",
+      "c:tiempo-y-calendario.tarde-atardecer",
+      "c:tiempo-y-calendario.noche",
+      "c:tiempo-y-calendario.medianoche",
+      "c:tiempo-y-calendario.dia",
+      "c:tiempo-y-calendario.hoy"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:tiempo-y-calendario.tiempo-hora",
+        "en": "time / hour",
+        "es": "tiempo / hora",
+        "speaker": "A",
+        "ur": "سمی"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.reloj-hora",
+        "en": "clock / time",
+        "es": "reloj / hora",
+        "speaker": "B",
+        "ur": "گھڈی"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.minuto",
+        "en": "minute",
+        "es": "minuto",
+        "speaker": "A",
+        "ur": "مِنٹ"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.segundo-tiempo",
+        "en": "second (time)",
+        "es": "segundo (tiempo)",
+        "speaker": "B",
+        "ur": "سےکںڈ"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.hora-duracion",
+        "en": "time (duration)",
+        "es": "hora (duración)",
+        "speaker": "A",
+        "ur": "گھںٹا"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.manana-temprano",
+        "en": "(early)",
+        "es": "mañana (temprano)",
+        "speaker": "B",
+        "ur": "سُبہ — mañana (temprano)"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.mediodia-tarde",
+        "en": "noon / afternoon",
+        "es": "mediodía / tarde",
+        "speaker": "A",
+        "ur": "دوپہر — mediodía / tarde"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.tarde-atardecer",
+        "en": "late / evening",
+        "es": "tarde / atardecer",
+        "speaker": "B",
+        "ur": "شام — tarde / atardecer"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.noche",
+        "en": "night",
+        "es": "noche",
+        "speaker": "A",
+        "ur": "رات — noche"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.medianoche",
+        "en": "midnight",
+        "es": "medianoche",
+        "speaker": "B",
+        "ur": "آدھی رات"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.dia",
+        "en": "day",
+        "es": "día",
+        "speaker": "A",
+        "ur": "دِن — día"
+      },
+      {
+        "concept": "c:tiempo-y-calendario.hoy",
+        "en": "Today",
+        "es": "hoy",
+        "speaker": "B",
+        "ur": "آج — hoy"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Words to place actions in time: days, months and seasons.",
+      "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u8-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Say days, months and seasons",
+        "Talk about dates"
+      ],
+      "es": [
+        "Decir días, meses y estaciones",
+        "Hablar de fechas"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "tiempo / hora",
+            "time / hour",
+            "سمی"
+          ],
+          [
+            "reloj / hora",
+            "clock / time",
+            "گھڈی"
+          ],
+          [
+            "minuto",
+            "minute",
+            "مِنٹ"
+          ],
+          [
+            "segundo (tiempo)",
+            "second (time)",
+            "سےکںڈ"
+          ],
+          [
+            "hora (duración)",
+            "time (duration)",
+            "گھںٹا"
+          ],
+          [
+            "mañana (temprano)",
+            "(early)",
+            "سُبہ — mañana (temprano)"
+          ],
+          [
+            "mediodía / tarde",
+            "noon / afternoon",
+            "دوپہر — mediodía / tarde"
+          ],
+          [
+            "tarde / atardecer",
+            "late / evening",
+            "شام — tarde / atardecer"
+          ],
+          [
+            "noche",
+            "night",
+            "رات — noche"
+          ],
+          [
+            "medianoche",
+            "midnight",
+            "آدھی رات"
+          ],
+          [
+            "día",
+            "day",
+            "دِن — día"
+          ],
+          [
+            "hoy",
+            "Today",
+            "آج — hoy"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Time and calendar",
+      "es": "El tiempo y el calendario"
+    },
+    "unit": 8
+  },
+  {
+    "concepts": [
+      "c:animales.animal",
+      "c:animales.perro",
+      "c:animales.gato",
+      "c:animales.vaca",
+      "c:animales.buey-toro",
+      "c:animales.bufalo",
+      "c:animales.caballo",
+      "c:animales.burro-asno",
+      "c:animales.cabra",
+      "c:animales.oveja",
+      "c:animales.cerdo",
+      "c:animales.gallina"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:animales.animal",
+        "en": "animal",
+        "es": "animal",
+        "speaker": "A",
+        "ur": "جانور"
+      },
+      {
+        "concept": "c:animales.perro",
+        "en": "dog",
+        "es": "perro",
+        "speaker": "B",
+        "ur": "کتا"
+      },
+      {
+        "concept": "c:animales.gato",
+        "en": "cat",
+        "es": "gato",
+        "speaker": "A",
+        "ur": "بلی"
+      },
+      {
+        "concept": "c:animales.vaca",
+        "en": "cow",
+        "es": "vaca",
+        "speaker": "B",
+        "ur": "گای"
+      },
+      {
+        "concept": "c:animales.buey-toro",
+        "en": "ox / bull",
+        "es": "buey / toro",
+        "speaker": "A",
+        "ur": "بےل"
+      },
+      {
+        "concept": "c:animales.bufalo",
+        "en": "buffalo",
+        "es": "búfalo",
+        "speaker": "B",
+        "ur": "بھےںس"
+      },
+      {
+        "concept": "c:animales.caballo",
+        "en": "horse",
+        "es": "caballo",
+        "speaker": "A",
+        "ur": "گھوڈا"
+      },
+      {
+        "concept": "c:animales.burro-asno",
+        "en": "donkey / ass",
+        "es": "burro / asno",
+        "speaker": "B",
+        "ur": "گدھا"
+      },
+      {
+        "concept": "c:animales.cabra",
+        "en": "goat",
+        "es": "cabra",
+        "speaker": "A",
+        "ur": "بکری"
+      },
+      {
+        "concept": "c:animales.oveja",
+        "en": "sheep",
+        "es": "oveja",
+        "speaker": "B",
+        "ur": "بھےڈ"
+      },
+      {
+        "concept": "c:animales.cerdo",
+        "en": "pig",
+        "es": "cerdo",
+        "speaker": "A",
+        "ur": "سوار"
+      },
+      {
+        "concept": "c:animales.gallina",
+        "en": "chicken",
+        "es": "gallina",
+        "speaker": "B",
+        "ur": "مُرگی"
+      }
+    ],
+    "exercises": [],
+    "explanation": {
+      "en": "Common animals, both domestic and wild.",
+      "es": "Animales frecuentes, tanto domésticos como salvajes."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u9-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name common animals",
+        "Describe animals"
+      ],
+      "es": [
+        "Nombrar animales comunes",
+        "Describir animales"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "animal",
+            "animal",
+            "جانور"
+          ],
+          [
+            "perro",
+            "dog",
+            "کتا"
+          ],
+          [
+            "gato",
+            "cat",
+            "بلی"
+          ],
+          [
+            "vaca",
+            "cow",
+            "گای"
+          ],
+          [
+            "buey / toro",
+            "ox / bull",
+            "بےل"
+          ],
+          [
+            "búfalo",
+            "buffalo",
+            "بھےںس"
+          ],
+          [
+            "caballo",
+            "horse",
+            "گھوڈا"
+          ],
+          [
+            "burro / asno",
+            "donkey / ass",
+            "گدھا"
+          ],
+          [
+            "cabra",
+            "goat",
+            "بکری"
+          ],
+          [
+            "oveja",
+            "sheep",
+            "بھےڈ"
+          ],
+          [
+            "cerdo",
+            "pig",
+            "سوار"
+          ],
+          [
+            "gallina",
+            "chicken",
+            "مُرگی"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Animals",
+      "es": "Los animales"
+    },
+    "unit": 9
+  }
+]

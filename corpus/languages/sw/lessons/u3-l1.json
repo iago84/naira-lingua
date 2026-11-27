@@ -1,0 +1,199 @@
+{
+  "concepts": [
+    "c:colores.rojo",
+    "c:colores.azul",
+    "c:colores.verde",
+    "c:colores.amarillo",
+    "c:colores.negro",
+    "c:colores.blanco",
+    "c:colores.naranja",
+    "c:colores.rosa",
+    "c:colores.morado-violeta",
+    "c:colores.marron",
+    "c:colores.gris",
+    "c:colores.dorado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:colores.rojo",
+      "en": "red",
+      "es": "rojo",
+      "speaker": "A",
+      "sw": "nyekundu"
+    },
+    {
+      "concept": "c:colores.azul",
+      "en": "blue",
+      "es": "azul",
+      "speaker": "B",
+      "sw": "bluu / samawati"
+    },
+    {
+      "concept": "c:colores.verde",
+      "en": "green",
+      "es": "verde",
+      "speaker": "A",
+      "sw": "kijani"
+    },
+    {
+      "concept": "c:colores.amarillo",
+      "en": "yellow",
+      "es": "amarillo",
+      "speaker": "B",
+      "sw": "njano / manjano"
+    },
+    {
+      "concept": "c:colores.negro",
+      "en": "black",
+      "es": "negro",
+      "speaker": "A",
+      "sw": "nyeusi"
+    },
+    {
+      "concept": "c:colores.blanco",
+      "en": "white",
+      "es": "blanco",
+      "speaker": "B",
+      "sw": "nyeupe"
+    },
+    {
+      "concept": "c:colores.naranja",
+      "en": "orange",
+      "es": "naranja",
+      "speaker": "A",
+      "sw": "rangi ya chungwa / machungwa"
+    },
+    {
+      "concept": "c:colores.rosa",
+      "en": "pink",
+      "es": "rosa",
+      "speaker": "B",
+      "sw": "waridi / pinki"
+    },
+    {
+      "concept": "c:colores.morado-violeta",
+      "en": "purple / violet",
+      "es": "morado / violeta",
+      "speaker": "A",
+      "sw": "zambarau / urujuani"
+    },
+    {
+      "concept": "c:colores.marron",
+      "en": "brown",
+      "es": "marrón",
+      "speaker": "B",
+      "sw": "kahawia"
+    },
+    {
+      "concept": "c:colores.gris",
+      "en": "grey",
+      "es": "gris",
+      "speaker": "A",
+      "sw": "kijivu"
+    },
+    {
+      "concept": "c:colores.dorado",
+      "en": "gold",
+      "es": "dorado",
+      "speaker": "B",
+      "sw": "dhahabu / rangi ya dhahabu"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Colours are used to describe objects, clothes and places.",
+    "es": "Los colores sirven para describir objetos, ropa y lugares."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u3-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name basic colours",
+      "Describe objects by colour"
+    ],
+    "es": [
+      "Nombrar los colores básicos",
+      "Describir objetos por su color"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "rojo",
+          "red",
+          "nyekundu"
+        ],
+        [
+          "azul",
+          "blue",
+          "bluu / samawati"
+        ],
+        [
+          "verde",
+          "green",
+          "kijani"
+        ],
+        [
+          "amarillo",
+          "yellow",
+          "njano / manjano"
+        ],
+        [
+          "negro",
+          "black",
+          "nyeusi"
+        ],
+        [
+          "blanco",
+          "white",
+          "nyeupe"
+        ],
+        [
+          "naranja",
+          "orange",
+          "rangi ya chungwa / machungwa"
+        ],
+        [
+          "rosa",
+          "pink",
+          "waridi / pinki"
+        ],
+        [
+          "morado / violeta",
+          "purple / violet",
+          "zambarau / urujuani"
+        ],
+        [
+          "marrón",
+          "brown",
+          "kahawia"
+        ],
+        [
+          "gris",
+          "grey",
+          "kijivu"
+        ],
+        [
+          "dorado",
+          "gold",
+          "dhahabu / rangi ya dhahabu"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Colours",
+    "es": "Los colores"
+  },
+  "unit": 3
+}

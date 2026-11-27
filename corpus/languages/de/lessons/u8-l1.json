@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:tiempo-y-calendario.tiempo-hora",
+    "c:tiempo-y-calendario.reloj-hora",
+    "c:tiempo-y-calendario.minuto",
+    "c:tiempo-y-calendario.segundo-tiempo",
+    "c:tiempo-y-calendario.hora-duracion",
+    "c:tiempo-y-calendario.manana-temprano",
+    "c:tiempo-y-calendario.mediodia-tarde",
+    "c:tiempo-y-calendario.tarde-atardecer",
+    "c:tiempo-y-calendario.noche",
+    "c:tiempo-y-calendario.medianoche",
+    "c:tiempo-y-calendario.dia",
+    "c:tiempo-y-calendario.hoy"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:tiempo-y-calendario.tiempo-hora",
+      "de": "Zeit/Stunde",
+      "en": "time / hour",
+      "es": "tiempo / hora",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tiempo-y-calendario.reloj-hora",
+      "de": "Uhrzeit/Zeit",
+      "en": "clock / time",
+      "es": "reloj / hora",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:tiempo-y-calendario.minuto",
+      "de": "Minute",
+      "en": "minute",
+      "es": "minuto",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tiempo-y-calendario.segundo-tiempo",
+      "de": "zweite (Zeit)",
+      "en": "second (time)",
+      "es": "segundo (tiempo)",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:tiempo-y-calendario.hora-duracion",
+      "de": "Zeit (Dauer)",
+      "en": "time (duration)",
+      "es": "hora (duración)",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tiempo-y-calendario.manana-temprano",
+      "de": "(früh)",
+      "en": "(early)",
+      "es": "mañana (temprano)",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:tiempo-y-calendario.mediodia-tarde",
+      "de": "Mittag/Nachmittag",
+      "en": "noon / afternoon",
+      "es": "mediodía / tarde",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tiempo-y-calendario.tarde-atardecer",
+      "de": "spät/abends",
+      "en": "late / evening",
+      "es": "tarde / atardecer",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:tiempo-y-calendario.noche",
+      "de": "Nacht",
+      "en": "night",
+      "es": "noche",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tiempo-y-calendario.medianoche",
+      "de": "Mitternacht",
+      "en": "midnight",
+      "es": "medianoche",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:tiempo-y-calendario.dia",
+      "de": "Tag",
+      "en": "day",
+      "es": "día",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tiempo-y-calendario.hoy",
+      "de": "Heute",
+      "en": "Today",
+      "es": "hoy",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "de": "Wörter, um Aktionen in der Zeit zu platzieren: Tage, Monate und Jahreszeiten.",
+    "en": "Words to place actions in time: days, months and seasons.",
+    "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."
+  },
+  "generator": "build_lessons",
+  "id": "de-u8-l1",
+  "lang": "de",
+  "lesson": 1,
+  "objectives": {
+    "de": [
+      "Sagen Sie Tage, Monate und Jahreszeiten",
+      "Sprechen Sie über Termine"
+    ],
+    "en": [
+      "Say days, months and seasons",
+      "Talk about dates"
+    ],
+    "es": [
+      "Decir días, meses y estaciones",
+      "Hablar de fechas"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "de"
+      ],
+      "rows": [
+        [
+          "tiempo / hora",
+          "time / hour",
+          "Zeit/Stunde"
+        ],
+        [
+          "reloj / hora",
+          "clock / time",
+          "Uhrzeit/Zeit"
+        ],
+        [
+          "minuto",
+          "minute",
+          "Minute"
+        ],
+        [
+          "segundo (tiempo)",
+          "second (time)",
+          "zweite (Zeit)"
+        ],
+        [
+          "hora (duración)",
+          "time (duration)",
+          "Zeit (Dauer)"
+        ],
+        [
+          "mañana (temprano)",
+          "(early)",
+          "(früh)"
+        ],
+        [
+          "mediodía / tarde",
+          "noon / afternoon",
+          "Mittag/Nachmittag"
+        ],
+        [
+          "tarde / atardecer",
+          "late / evening",
+          "spät/abends"
+        ],
+        [
+          "noche",
+          "night",
+          "Nacht"
+        ],
+        [
+          "medianoche",
+          "midnight",
+          "Mitternacht"
+        ],
+        [
+          "día",
+          "day",
+          "Tag"
+        ],
+        [
+          "hoy",
+          "Today",
+          "Heute"
+        ]
+      ],
+      "title": "es · en · de",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "de": "Uhrzeit und Kalender",
+    "en": "Time and calendar",
+    "es": "El tiempo y el calendario"
+  },
+  "unit": 8
+}

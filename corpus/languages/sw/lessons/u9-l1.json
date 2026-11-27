@@ -1,0 +1,199 @@
+{
+  "concepts": [
+    "c:animales.animal",
+    "c:animales.perro",
+    "c:animales.gato",
+    "c:animales.vaca",
+    "c:animales.buey-toro",
+    "c:animales.bufalo",
+    "c:animales.caballo",
+    "c:animales.burro-asno",
+    "c:animales.cabra",
+    "c:animales.oveja",
+    "c:animales.cerdo",
+    "c:animales.gallina"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:animales.animal",
+      "en": "animal",
+      "es": "animal",
+      "speaker": "A",
+      "sw": "mnyama / wanyama"
+    },
+    {
+      "concept": "c:animales.perro",
+      "en": "dog",
+      "es": "perro",
+      "speaker": "B",
+      "sw": "mbwa"
+    },
+    {
+      "concept": "c:animales.gato",
+      "en": "cat",
+      "es": "gato",
+      "speaker": "A",
+      "sw": "paka"
+    },
+    {
+      "concept": "c:animales.vaca",
+      "en": "cow",
+      "es": "vaca",
+      "speaker": "B",
+      "sw": "ng'ombe wa kike"
+    },
+    {
+      "concept": "c:animales.buey-toro",
+      "en": "ox / bull",
+      "es": "buey / toro",
+      "speaker": "A",
+      "sw": "buey"
+    },
+    {
+      "concept": "c:animales.bufalo",
+      "en": "buffalo",
+      "es": "búfalo",
+      "speaker": "B",
+      "sw": "nyati"
+    },
+    {
+      "concept": "c:animales.caballo",
+      "en": "horse",
+      "es": "caballo",
+      "speaker": "A",
+      "sw": "farasi"
+    },
+    {
+      "concept": "c:animales.burro-asno",
+      "en": "donkey / ass",
+      "es": "burro / asno",
+      "speaker": "B",
+      "sw": "punda"
+    },
+    {
+      "concept": "c:animales.cabra",
+      "en": "goat",
+      "es": "cabra",
+      "speaker": "A",
+      "sw": "mbuzi"
+    },
+    {
+      "concept": "c:animales.oveja",
+      "en": "sheep",
+      "es": "oveja",
+      "speaker": "B",
+      "sw": "kondoo"
+    },
+    {
+      "concept": "c:animales.cerdo",
+      "en": "pig",
+      "es": "cerdo",
+      "speaker": "A",
+      "sw": "nguruwe"
+    },
+    {
+      "concept": "c:animales.gallina",
+      "en": "chicken",
+      "es": "gallina",
+      "speaker": "B",
+      "sw": "kuku jike"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Common animals, both domestic and wild.",
+    "es": "Animales frecuentes, tanto domésticos como salvajes."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u9-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name common animals",
+      "Describe animals"
+    ],
+    "es": [
+      "Nombrar animales comunes",
+      "Describir animales"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "animal",
+          "animal",
+          "mnyama / wanyama"
+        ],
+        [
+          "perro",
+          "dog",
+          "mbwa"
+        ],
+        [
+          "gato",
+          "cat",
+          "paka"
+        ],
+        [
+          "vaca",
+          "cow",
+          "ng'ombe wa kike"
+        ],
+        [
+          "buey / toro",
+          "ox / bull",
+          "buey"
+        ],
+        [
+          "búfalo",
+          "buffalo",
+          "nyati"
+        ],
+        [
+          "caballo",
+          "horse",
+          "farasi"
+        ],
+        [
+          "burro / asno",
+          "donkey / ass",
+          "punda"
+        ],
+        [
+          "cabra",
+          "goat",
+          "mbuzi"
+        ],
+        [
+          "oveja",
+          "sheep",
+          "kondoo"
+        ],
+        [
+          "cerdo",
+          "pig",
+          "nguruwe"
+        ],
+        [
+          "gallina",
+          "chicken",
+          "kuku jike"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Animals",
+    "es": "Los animales"
+  },
+  "unit": 9
+}

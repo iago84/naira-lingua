@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:numeros.cero",
+    "c:numeros.uno",
+    "c:numeros.dos",
+    "c:numeros.tres",
+    "c:numeros.cuatro",
+    "c:numeros.cinco",
+    "c:numeros.seis",
+    "c:numeros.siete",
+    "c:numeros.ocho",
+    "c:numeros.nueve",
+    "c:numeros.diez",
+    "c:numeros.once"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:numeros.cero",
+      "en": "zero",
+      "es": "cero",
+      "hi": "शून्य",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.uno",
+      "en": "one",
+      "es": "uno",
+      "hi": "एक",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.dos",
+      "en": "two",
+      "es": "dos",
+      "hi": "दो",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.tres",
+      "en": "three",
+      "es": "tres",
+      "hi": "तीन",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.cuatro",
+      "en": "4",
+      "es": "cuatro",
+      "hi": "चार",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.cinco",
+      "en": "five",
+      "es": "cinco",
+      "hi": "पाँच",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.seis",
+      "en": "6",
+      "es": "seis",
+      "hi": "छह",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.siete",
+      "en": "seven",
+      "es": "siete",
+      "hi": "सात",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.ocho",
+      "en": "8",
+      "es": "ocho",
+      "hi": "आठ",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.nueve",
+      "en": "9",
+      "es": "nueve",
+      "hi": "नौ",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:numeros.diez",
+      "en": "10",
+      "es": "diez",
+      "hi": "दस",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:numeros.once",
+      "en": "11",
+      "es": "once",
+      "hi": "ग्यारह",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Everyday numbers: used to count, give your age and talk about prices.",
+    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
+    "hi": "दिन की संख्या आज तक: वे गिनती, उम्र और मूल्य के लिए उपयोग किए जाते हैं।"
+  },
+  "generator": "build_lessons",
+  "id": "hi-u2-l1",
+  "lang": "hi",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Count from zero to ten",
+      "Recognise basic numbers"
+    ],
+    "es": [
+      "Contar del cero al diez",
+      "Reconocer los números básicos"
+    ],
+    "hi": [
+      "शून्य से दस तक की गणना",
+      "बुनियादी संख्याओं को पहचानें"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "hi"
+      ],
+      "rows": [
+        [
+          "cero",
+          "zero",
+          "शून्य"
+        ],
+        [
+          "uno",
+          "one",
+          "एक"
+        ],
+        [
+          "dos",
+          "two",
+          "दो"
+        ],
+        [
+          "tres",
+          "three",
+          "तीन"
+        ],
+        [
+          "cuatro",
+          "4",
+          "चार"
+        ],
+        [
+          "cinco",
+          "five",
+          "पाँच"
+        ],
+        [
+          "seis",
+          "6",
+          "छह"
+        ],
+        [
+          "siete",
+          "seven",
+          "सात"
+        ],
+        [
+          "ocho",
+          "8",
+          "आठ"
+        ],
+        [
+          "nueve",
+          "9",
+          "नौ"
+        ],
+        [
+          "diez",
+          "10",
+          "दस"
+        ],
+        [
+          "once",
+          "11",
+          "ग्यारह"
+        ]
+      ],
+      "title": "es · en · hi",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Numbers",
+    "es": "Los números",
+    "hi": "संख्या"
+  },
+  "unit": 2
+}

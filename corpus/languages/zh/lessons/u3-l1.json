@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:colores.rojo",
+    "c:colores.azul",
+    "c:colores.verde",
+    "c:colores.amarillo",
+    "c:colores.negro",
+    "c:colores.blanco",
+    "c:colores.naranja",
+    "c:colores.rosa",
+    "c:colores.morado-violeta",
+    "c:colores.marron",
+    "c:colores.gris",
+    "c:colores.dorado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:colores.rojo",
+      "en": "red",
+      "es": "rojo",
+      "speaker": "A",
+      "zh": "红色"
+    },
+    {
+      "concept": "c:colores.azul",
+      "en": "blue",
+      "es": "azul",
+      "speaker": "B",
+      "zh": "蓝色"
+    },
+    {
+      "concept": "c:colores.verde",
+      "en": "green",
+      "es": "verde",
+      "speaker": "A",
+      "zh": "绿色"
+    },
+    {
+      "concept": "c:colores.amarillo",
+      "en": "yellow",
+      "es": "amarillo",
+      "speaker": "B",
+      "zh": "黄色"
+    },
+    {
+      "concept": "c:colores.negro",
+      "en": "black",
+      "es": "negro",
+      "speaker": "A",
+      "zh": "黑色"
+    },
+    {
+      "concept": "c:colores.blanco",
+      "en": "white",
+      "es": "blanco",
+      "speaker": "B",
+      "zh": "白色"
+    },
+    {
+      "concept": "c:colores.naranja",
+      "en": "orange",
+      "es": "naranja",
+      "speaker": "A",
+      "zh": "橙色( 橙色)"
+    },
+    {
+      "concept": "c:colores.rosa",
+      "en": "pink",
+      "es": "rosa",
+      "speaker": "B",
+      "zh": "粉红色"
+    },
+    {
+      "concept": "c:colores.morado-violeta",
+      "en": "purple / violet",
+      "es": "morado / violeta",
+      "speaker": "A",
+      "zh": "紫色/紫色( 紫色)"
+    },
+    {
+      "concept": "c:colores.marron",
+      "en": "brown",
+      "es": "marrón",
+      "speaker": "B",
+      "zh": "棕色"
+    },
+    {
+      "concept": "c:colores.gris",
+      "en": "grey",
+      "es": "gris",
+      "speaker": "A",
+      "zh": "灰色"
+    },
+    {
+      "concept": "c:colores.dorado",
+      "en": "gold",
+      "es": "dorado",
+      "speaker": "B",
+      "zh": "金色"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Colours are used to describe objects, clothes and places.",
+    "es": "Los colores sirven para describir objetos, ropa y lugares.",
+    "zh": "颜色用来描述物体、衣服和地点。"
+  },
+  "generator": "build_lessons",
+  "id": "zh-u3-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name basic colours",
+      "Describe objects by colour"
+    ],
+    "es": [
+      "Nombrar los colores básicos",
+      "Describir objetos por su color"
+    ],
+    "zh": [
+      "命名基本颜色",
+      "按颜色描述对象"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "rojo",
+          "red",
+          "红色"
+        ],
+        [
+          "azul",
+          "blue",
+          "蓝色"
+        ],
+        [
+          "verde",
+          "green",
+          "绿色"
+        ],
+        [
+          "amarillo",
+          "yellow",
+          "黄色"
+        ],
+        [
+          "negro",
+          "black",
+          "黑色"
+        ],
+        [
+          "blanco",
+          "white",
+          "白色"
+        ],
+        [
+          "naranja",
+          "orange",
+          "橙色( 橙色)"
+        ],
+        [
+          "rosa",
+          "pink",
+          "粉红色"
+        ],
+        [
+          "morado / violeta",
+          "purple / violet",
+          "紫色/紫色( 紫色)"
+        ],
+        [
+          "marrón",
+          "brown",
+          "棕色"
+        ],
+        [
+          "gris",
+          "grey",
+          "灰色"
+        ],
+        [
+          "dorado",
+          "gold",
+          "金色"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Colours",
+    "es": "Los colores",
+    "zh": "颜色"
+  },
+  "unit": 3
+}

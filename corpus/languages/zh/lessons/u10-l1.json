@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:ciudad-y-lugares.ciudad",
+    "c:ciudad-y-lugares.pueblo-aldea",
+    "c:ciudad-y-lugares.pais",
+    "c:ciudad-y-lugares.estado-provincia",
+    "c:ciudad-y-lugares.capital",
+    "c:ciudad-y-lugares.zona-area",
+    "c:ciudad-y-lugares.calle-carretera",
+    "c:ciudad-y-lugares.callejon",
+    "c:ciudad-y-lugares.cruce-interseccion",
+    "c:ciudad-y-lugares.puente",
+    "c:ciudad-y-lugares.plaza",
+    "c:ciudad-y-lugares.mercado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:ciudad-y-lugares.ciudad",
+      "en": "city",
+      "es": "ciudad",
+      "speaker": "A",
+      "zh": "城市( C)"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.pueblo-aldea",
+      "en": "village / town",
+      "es": "pueblo / aldea",
+      "speaker": "B",
+      "zh": "村庄/城镇"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.pais",
+      "en": "country",
+      "es": "país",
+      "speaker": "A",
+      "zh": "国家"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.estado-provincia",
+      "en": "State / province",
+      "es": "estado / provincia",
+      "speaker": "B",
+      "zh": "州/省"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.capital",
+      "en": "capital",
+      "es": "capital",
+      "speaker": "A",
+      "zh": "资本"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.zona-area",
+      "en": "area / zone",
+      "es": "zona / área",
+      "speaker": "B",
+      "zh": "区域/区"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.calle-carretera",
+      "en": "Street / road",
+      "es": "calle / carretera",
+      "speaker": "A",
+      "zh": "街道/道路"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.callejon",
+      "en": "alley",
+      "es": "callejón",
+      "speaker": "B",
+      "zh": "巷子(小巷)"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.cruce-interseccion",
+      "en": "cross / intersection",
+      "es": "cruce / intersección",
+      "speaker": "A",
+      "zh": "交叉/相交点"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.puente",
+      "en": "bridge",
+      "es": "puente",
+      "speaker": "B",
+      "zh": "桥"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.plaza",
+      "en": "square",
+      "es": "plaza",
+      "speaker": "A",
+      "zh": "平方圆"
+    },
+    {
+      "concept": "c:ciudad-y-lugares.mercado",
+      "en": "market",
+      "es": "mercado",
+      "speaker": "B",
+      "zh": "市场"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Places in the city to move around and ask for directions.",
+    "es": "Lugares de la ciudad para moverse y pedir indicaciones.",
+    "zh": "入城取地以行并问道."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u10-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name places in the city",
+      "Ask for directions"
+    ],
+    "es": [
+      "Nombrar lugares de la ciudad",
+      "Pedir direcciones"
+    ],
+    "zh": [
+      "城市名称",
+      "询问地址"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "ciudad",
+          "city",
+          "城市( C)"
+        ],
+        [
+          "pueblo / aldea",
+          "village / town",
+          "村庄/城镇"
+        ],
+        [
+          "país",
+          "country",
+          "国家"
+        ],
+        [
+          "estado / provincia",
+          "State / province",
+          "州/省"
+        ],
+        [
+          "capital",
+          "capital",
+          "资本"
+        ],
+        [
+          "zona / área",
+          "area / zone",
+          "区域/区"
+        ],
+        [
+          "calle / carretera",
+          "Street / road",
+          "街道/道路"
+        ],
+        [
+          "callejón",
+          "alley",
+          "巷子(小巷)"
+        ],
+        [
+          "cruce / intersección",
+          "cross / intersection",
+          "交叉/相交点"
+        ],
+        [
+          "puente",
+          "bridge",
+          "桥"
+        ],
+        [
+          "plaza",
+          "square",
+          "平方圆"
+        ],
+        [
+          "mercado",
+          "market",
+          "市场"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "City and places",
+    "es": "La ciudad y los lugares",
+    "zh": "城市和地点"
+  },
+  "unit": 10
+}

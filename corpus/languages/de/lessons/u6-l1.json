@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:comida-y-bebida.comida-comer",
+    "c:comida-y-bebida.comida-formal",
+    "c:comida-y-bebida.desayuno",
+    "c:comida-y-bebida.almuerzo",
+    "c:comida-y-bebida.cena",
+    "c:comida-y-bebida.agua",
+    "c:comida-y-bebida.leche",
+    "c:comida-y-bebida.te",
+    "c:comida-y-bebida.cafe",
+    "c:comida-y-bebida.zumo-jugo",
+    "c:comida-y-bebida.lassi-yogur-batido",
+    "c:comida-y-bebida.alcohol-vino"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:comida-y-bebida.comida-comer",
+      "de": "Nahrung / essen",
+      "en": "food / eat",
+      "es": "comida / comer",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.comida-formal",
+      "de": "Lebensmittel (formal)",
+      "en": "food (formal)",
+      "es": "comida (formal)",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:comida-y-bebida.desayuno",
+      "de": "Frühstück",
+      "en": "breakfast",
+      "es": "desayuno",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.almuerzo",
+      "de": "Mittagessen",
+      "en": "lunch",
+      "es": "almuerzo",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:comida-y-bebida.cena",
+      "de": "Abendessen",
+      "en": "dinner",
+      "es": "cena",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.agua",
+      "de": "Wasser",
+      "en": "water",
+      "es": "agua",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:comida-y-bebida.leche",
+      "de": "Milch",
+      "en": "milk",
+      "es": "leche",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.te",
+      "de": "Tee",
+      "en": "tea",
+      "es": "té",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:comida-y-bebida.cafe",
+      "de": "Kaffee",
+      "en": "coffee",
+      "es": "café",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.zumo-jugo",
+      "de": "Saft/Säfte",
+      "en": "juice / juices",
+      "es": "zumo / jugo",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:comida-y-bebida.lassi-yogur-batido",
+      "de": "Lassi (Joghurt geschlagen)",
+      "en": "lassi (yoghurt beaten)",
+      "es": "lassi (yogur batido)",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:comida-y-bebida.alcohol-vino",
+      "de": "Alkohol/Wein",
+      "en": "alcohol / wine",
+      "es": "alcohol / vino",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "de": "Grundnahrungsmittel und Getränke, sehr nützlich beim Kauf oder Essen außerhalb von zu Hause.",
+    "en": "Basic foods and drinks, very useful when shopping or eating out.",
+    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
+  },
+  "generator": "build_lessons",
+  "id": "de-u6-l1",
+  "lang": "de",
+  "lesson": 1,
+  "objectives": {
+    "de": [
+      "Bezeichnete Speisen und Getränke",
+      "Fragen Sie in einem Restaurant"
+    ],
+    "en": [
+      "Name food and drinks",
+      "Order in a restaurant"
+    ],
+    "es": [
+      "Nombrar alimentos y bebidas",
+      "Pedir en un restaurante"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "de"
+      ],
+      "rows": [
+        [
+          "comida / comer",
+          "food / eat",
+          "Nahrung / essen"
+        ],
+        [
+          "comida (formal)",
+          "food (formal)",
+          "Lebensmittel (formal)"
+        ],
+        [
+          "desayuno",
+          "breakfast",
+          "Frühstück"
+        ],
+        [
+          "almuerzo",
+          "lunch",
+          "Mittagessen"
+        ],
+        [
+          "cena",
+          "dinner",
+          "Abendessen"
+        ],
+        [
+          "agua",
+          "water",
+          "Wasser"
+        ],
+        [
+          "leche",
+          "milk",
+          "Milch"
+        ],
+        [
+          "té",
+          "tea",
+          "Tee"
+        ],
+        [
+          "café",
+          "coffee",
+          "Kaffee"
+        ],
+        [
+          "zumo / jugo",
+          "juice / juices",
+          "Saft/Säfte"
+        ],
+        [
+          "lassi (yogur batido)",
+          "lassi (yoghurt beaten)",
+          "Lassi (Joghurt geschlagen)"
+        ],
+        [
+          "alcohol / vino",
+          "alcohol / wine",
+          "Alkohol/Wein"
+        ]
+      ],
+      "title": "es · en · de",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "de": "Speisen und Getränke",
+    "en": "Food and drink",
+    "es": "La comida y la bebida"
+  },
+  "unit": 6
+}

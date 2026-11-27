@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:trabajo-y-profesiones.trabajo-labor",
+    "c:trabajo-y-profesiones.empleo-trabajo",
+    "c:trabajo-y-profesiones.profesion-oficio",
+    "c:trabajo-y-profesiones.negocio-profesion",
+    "c:trabajo-y-profesiones.empresa-compania",
+    "c:trabajo-y-profesiones.oficina",
+    "c:trabajo-y-profesiones.oficina-despacho",
+    "c:trabajo-y-profesiones.dueno-propietario",
+    "c:trabajo-y-profesiones.jefe-a",
+    "c:trabajo-y-profesiones.empleado-a",
+    "c:trabajo-y-profesiones.colega",
+    "c:trabajo-y-profesiones.equipo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:trabajo-y-profesiones.trabajo-labor",
+      "en": "work /",
+      "es": "trabajo / labor",
+      "ja": "作品 /",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+      "en": "employment / work",
+      "es": "empleo / trabajo",
+      "ja": "雇用・仕事",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.profesion-oficio",
+      "en": "profession / trade",
+      "es": "profesión / oficio",
+      "ja": "職業/貿易",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.negocio-profesion",
+      "en": "business / profession",
+      "es": "negocio / profesión",
+      "ja": "業務・職業",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empresa-compania",
+      "en": "company / enterprise",
+      "es": "empresa / compañía",
+      "ja": "会社/企業",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.oficina",
+      "en": "office",
+      "es": "oficina",
+      "ja": "事務所案内",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.oficina-despacho",
+      "en": "office /",
+      "es": "oficina / despacho",
+      "ja": "事務所 /",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.dueno-propietario",
+      "en": "owner / proprietor",
+      "es": "dueño / propietario",
+      "ja": "オーナー/プロピュータ",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.jefe-a",
+      "en": "Chief",
+      "es": "jefe/a",
+      "ja": "チーフ",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.empleado-a",
+      "en": "employee",
+      "es": "empleado/a",
+      "ja": "社員雇用",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.colega",
+      "en": "- I'm sorry, buddy.",
+      "es": "colega",
+      "ja": "- 申し訳ありません、このコンテンツはただ今 アメリカ英語 のみです。",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:trabajo-y-profesiones.equipo",
+      "en": "equipment",
+      "es": "equipo",
+      "ja": "設備機器",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Professions and words from the world of work.",
+    "es": "Profesiones y palabras del mundo laboral.",
+    "ja": "世界の働き方と言葉を問いかけます。"
+  },
+  "generator": "build_lessons",
+  "id": "ja-u12-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name professions",
+      "Talk about work"
+    ],
+    "es": [
+      "Nombrar profesiones",
+      "Hablar del trabajo"
+    ],
+    "ja": [
+      "視点の職業",
+      "作品について"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "trabajo / labor",
+          "work /",
+          "作品 /"
+        ],
+        [
+          "empleo / trabajo",
+          "employment / work",
+          "雇用・仕事"
+        ],
+        [
+          "profesión / oficio",
+          "profession / trade",
+          "職業/貿易"
+        ],
+        [
+          "negocio / profesión",
+          "business / profession",
+          "業務・職業"
+        ],
+        [
+          "empresa / compañía",
+          "company / enterprise",
+          "会社/企業"
+        ],
+        [
+          "oficina",
+          "office",
+          "事務所案内"
+        ],
+        [
+          "oficina / despacho",
+          "office /",
+          "事務所 /"
+        ],
+        [
+          "dueño / propietario",
+          "owner / proprietor",
+          "オーナー/プロピュータ"
+        ],
+        [
+          "jefe/a",
+          "Chief",
+          "チーフ"
+        ],
+        [
+          "empleado/a",
+          "employee",
+          "社員雇用"
+        ],
+        [
+          "colega",
+          "- I'm sorry, buddy.",
+          "- 申し訳ありません、このコンテンツはただ今 アメリカ英語 のみです。"
+        ],
+        [
+          "equipo",
+          "equipment",
+          "設備機器"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Work and professions",
+    "es": "El trabajo y las profesiones",
+    "ja": "働きと職業"
+  },
+  "unit": 12
+}

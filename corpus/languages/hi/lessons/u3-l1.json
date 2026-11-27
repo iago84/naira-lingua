@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:colores.rojo",
+    "c:colores.azul",
+    "c:colores.verde",
+    "c:colores.amarillo",
+    "c:colores.negro",
+    "c:colores.blanco",
+    "c:colores.naranja",
+    "c:colores.rosa",
+    "c:colores.morado-violeta",
+    "c:colores.marron",
+    "c:colores.gris",
+    "c:colores.dorado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:colores.rojo",
+      "en": "red",
+      "es": "rojo",
+      "hi": "लाल",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.azul",
+      "en": "blue",
+      "es": "azul",
+      "hi": "नीला",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:colores.verde",
+      "en": "green",
+      "es": "verde",
+      "hi": "हरा",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.amarillo",
+      "en": "yellow",
+      "es": "amarillo",
+      "hi": "पीला",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:colores.negro",
+      "en": "black",
+      "es": "negro",
+      "hi": "काला",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.blanco",
+      "en": "white",
+      "es": "blanco",
+      "hi": "सफ़ेद",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:colores.naranja",
+      "en": "orange",
+      "es": "naranja",
+      "hi": "नारंगी",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.rosa",
+      "en": "pink",
+      "es": "rosa",
+      "hi": "गुलाबी",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:colores.morado-violeta",
+      "en": "purple / violet",
+      "es": "morado / violeta",
+      "hi": "बैंगनी",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.marron",
+      "en": "brown",
+      "es": "marrón",
+      "hi": "भूरा",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:colores.gris",
+      "en": "grey",
+      "es": "gris",
+      "hi": "स्लेटी",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:colores.dorado",
+      "en": "gold",
+      "es": "dorado",
+      "hi": "सुनहरा",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Colours are used to describe objects, clothes and places.",
+    "es": "Los colores sirven para describir objetos, ropa y lugares.",
+    "hi": "रंग वस्तुओं, कपड़े और स्थानों का वर्णन करने के लिए काम करते हैं।"
+  },
+  "generator": "build_lessons",
+  "id": "hi-u3-l1",
+  "lang": "hi",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name basic colours",
+      "Describe objects by colour"
+    ],
+    "es": [
+      "Nombrar los colores básicos",
+      "Describir objetos por su color"
+    ],
+    "hi": [
+      "मूल रंग नाम",
+      "रंग से ऑब्जेक्ट्स का वर्णन करें"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "hi"
+      ],
+      "rows": [
+        [
+          "rojo",
+          "red",
+          "लाल"
+        ],
+        [
+          "azul",
+          "blue",
+          "नीला"
+        ],
+        [
+          "verde",
+          "green",
+          "हरा"
+        ],
+        [
+          "amarillo",
+          "yellow",
+          "पीला"
+        ],
+        [
+          "negro",
+          "black",
+          "काला"
+        ],
+        [
+          "blanco",
+          "white",
+          "सफ़ेद"
+        ],
+        [
+          "naranja",
+          "orange",
+          "नारंगी"
+        ],
+        [
+          "rosa",
+          "pink",
+          "गुलाबी"
+        ],
+        [
+          "morado / violeta",
+          "purple / violet",
+          "बैंगनी"
+        ],
+        [
+          "marrón",
+          "brown",
+          "भूरा"
+        ],
+        [
+          "gris",
+          "grey",
+          "स्लेटी"
+        ],
+        [
+          "dorado",
+          "gold",
+          "सुनहरा"
+        ]
+      ],
+      "title": "es · en · hi",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Colours",
+    "es": "Los colores",
+    "hi": "रंग"
+  },
+  "unit": 3
+}

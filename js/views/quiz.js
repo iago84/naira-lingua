@@ -3,12 +3,22 @@ import { esc, shuffle } from "../util.js";
 import { page } from "./common.js";
 import { toHash } from "../router.js";
 
+const OPTION_TARGET = 4; // 1 correcta + 3 distractores
+
 export function buildQuestions(pairs, rng = Math.random) {
+  const pool = [...new Set(pairs.map((p) => p.tgt))];
   return pairs.map((p) => {
     const sameDomain = pairs
       .filter((o) => o.concept !== p.concept && o.domain === p.domain)
       .map((o) => o.tgt);
-    const distractors = shuffle([...new Set(sameDomain)], rng).slice(0, 3);
+    let distractors = shuffle([...new Set(sameDomain)], rng).slice(0, OPTION_TARGET - 1);
+    if (distractors.length < OPTION_TARGET - 1) {
+      // Respaldo: si el dominio tiene pocos conceptos, completa con otros.
+      const used = new Set([p.tgt, ...distractors]);
+      const extra = shuffle(pool.filter((t) => !used.has(t)), rng)
+        .slice(0, OPTION_TARGET - 1 - distractors.length);
+      distractors = [...distractors, ...extra];
+    }
     const options = shuffle([p.tgt, ...distractors], rng);
     return { concept: p.concept, prompt: p.src, answer: p.tgt, options };
   });
@@ -21,7 +31,7 @@ export function renderQuiz({ t, q, i, total, chosen }) {
       if (o === q.answer) cls += " correct";
     }
     const state = chosen ? ` data-chosen="${chosen === o ? "1" : "0"}"` : "";
-    return `<button class="${cls}" data-opt="${esc(o)}"${state}
+    return `<button class="${cls}" data-opt="${esc(o)}" dir="auto"${state}
       ${chosen ? "disabled" : ""}>${esc(o)}</button>`;
   }).join("");
   const feedback = chosen
@@ -35,7 +45,7 @@ export function renderQuiz({ t, q, i, total, chosen }) {
   return page(t("quiz.title"), `
     <p class="muted">${i + 1} / ${total}</p>
     <p>${esc(t("quiz.question"))}</p>
-    <div class="card flashcard"><div class="term">${esc(q.prompt)}</div></div>
+    <div class="card flashcard"><div class="term" dir="auto">${esc(q.prompt)}</div></div>
     <div class="row" id="options">${opts}</div>
     ${feedback}`);
 }

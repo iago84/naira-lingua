@@ -1,0 +1,205 @@
+{
+  "concepts": [
+    "c:cuerpo-humano.cuerpo",
+    "c:cuerpo-humano.cabeza",
+    "c:cuerpo-humano.cabello-pelo",
+    "c:cuerpo-humano.cara-rostro",
+    "c:cuerpo-humano.frente",
+    "c:cuerpo-humano.ojo",
+    "c:cuerpo-humano.ojos",
+    "c:cuerpo-humano.ceja",
+    "c:cuerpo-humano.parpado-pestana",
+    "c:cuerpo-humano.oreja-oido",
+    "c:cuerpo-humano.nariz",
+    "c:cuerpo-humano.boca"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:cuerpo-humano.cuerpo",
+      "en": "body",
+      "es": "cuerpo",
+      "ja": "ボディ",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.cabeza",
+      "en": "head",
+      "es": "cabeza",
+      "ja": "ヘッド",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:cuerpo-humano.cabello-pelo",
+      "en": "hair / hair-",
+      "es": "cabello / pelo",
+      "ja": "毛/髪-",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.cara-rostro",
+      "en": "face / side",
+      "es": "cara / rostro",
+      "ja": "表面/側面",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:cuerpo-humano.frente",
+      "en": "front",
+      "es": "frente",
+      "ja": "プレス",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.ojo",
+      "en": "eye",
+      "es": "ojo",
+      "ja": "目指す",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:cuerpo-humano.ojos",
+      "en": "eyes",
+      "es": "ojos",
+      "ja": "目指す",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.ceja",
+      "en": "Beef",
+      "es": "ceja",
+      "ja": "ビーフ・チキン",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:cuerpo-humano.parpado-pestana",
+      "en": "eyelid / tab",
+      "es": "párpado / pestaña",
+      "ja": "まぶた/タブ",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.oreja-oido",
+      "en": "ear / ears",
+      "es": "oreja / oído",
+      "ja": "耳/耳",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:cuerpo-humano.nariz",
+      "en": "nose",
+      "es": "nariz",
+      "ja": "ノーズ",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:cuerpo-humano.boca",
+      "en": "mouth",
+      "es": "boca",
+      "ja": "口腔内",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [],
+  "explanation": {
+    "en": "Parts of the body, useful to talk about health and care.",
+    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
+    "ja": "身体部分は、健康とケアについて話するのに便利です。"
+  },
+  "generator": "build_lessons",
+  "id": "ja-u5-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name parts of the body",
+      "Talk about health"
+    ],
+    "es": [
+      "Nombrar las partes del cuerpo",
+      "Hablar de la salud"
+    ],
+    "ja": [
+      "体部を名付けて下さい",
+      "健康に関する話"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "cuerpo",
+          "body",
+          "ボディ"
+        ],
+        [
+          "cabeza",
+          "head",
+          "ヘッド"
+        ],
+        [
+          "cabello / pelo",
+          "hair / hair-",
+          "毛/髪-"
+        ],
+        [
+          "cara / rostro",
+          "face / side",
+          "表面/側面"
+        ],
+        [
+          "frente",
+          "front",
+          "プレス"
+        ],
+        [
+          "ojo",
+          "eye",
+          "目指す"
+        ],
+        [
+          "ojos",
+          "eyes",
+          "目指す"
+        ],
+        [
+          "ceja",
+          "Beef",
+          "ビーフ・チキン"
+        ],
+        [
+          "párpado / pestaña",
+          "eyelid / tab",
+          "まぶた/タブ"
+        ],
+        [
+          "oreja / oído",
+          "ear / ears",
+          "耳/耳"
+        ],
+        [
+          "nariz",
+          "nose",
+          "ノーズ"
+        ],
+        [
+          "boca",
+          "mouth",
+          "口腔内"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "The human body",
+    "es": "El cuerpo humano",
+    "ja": "人体について"
+  },
+  "unit": 5
+}
