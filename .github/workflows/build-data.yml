@@ -1,0 +1,50 @@
+name: Regenerar data/
+
+# Regenera el dataset compilado (data/) desde el corpus cuando este o las
+# herramientas cambian, y lo commitea. La fecha del manifiesto es determinista
+# (se deriva del último commit que tocó corpus/), así que sólo se commitea si el
+# contenido cambia de verdad.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "corpus/**"
+      - "tools/**"
+      - ".github/workflows/build-data.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-data-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (historia completa para la fecha determinista)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Validar corpus y compilar dataset
+        run: python -m tools.check_all .
+
+      - name: Commit data/ si cambió
+        run: |
+          if [ -z "$(git status --porcelain data)" ]; then
+            echo "data/ sin cambios; nada que hacer."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "chore(data): regenerar dataset [skip ci]"
+          git push

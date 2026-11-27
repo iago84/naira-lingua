@@ -19,3 +19,14 @@ def test_build_writes_manifest_and_language_files(tmp_path):
     assert manifest["concepts"] == 1
     assert "fr" in manifest["languages"]
     assert (tmp_path / "data" / "terms.fr.json").exists()
+
+
+def test_build_generated_is_deterministic(tmp_path, monkeypatch):
+    _corpus(tmp_path)
+    monkeypatch.setenv("SOURCE_DATE_EPOCH", "1700000000")
+    build.run(tmp_path)
+    first = json.loads((tmp_path / "data" / "manifest.json").read_text(encoding="utf-8"))
+    build.run(tmp_path)
+    second = json.loads((tmp_path / "data" / "manifest.json").read_text(encoding="utf-8"))
+    assert first["generated"] == second["generated"]
+    assert first["generated"].startswith("2023-11-14")

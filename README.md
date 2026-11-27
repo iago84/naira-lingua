@@ -38,6 +38,13 @@ python -m tools.check_all .
 ## Publicar en GitHub Pages
 
 El sitio se sirve desde la rama `main` en la **raíz** del repositorio. `data/`
-debe estar **versionado** (Pages no ejecuta Python). Si en el futuro se añade
-una GitHub Action, esta regenerará `data/` de forma determinista con
-`python -m tools.build .`.
+debe estar **versionado** (Pages no ejecuta Python).
+
+El workflow [`.github/workflows/build-data.yml`](.github/workflows/build-data.yml)
+regenera `data/` automáticamente: cuando un push a `main` toca `corpus/` o
+`tools/`, valida el corpus y recompila el dataset, commiteando `data/` si cambió.
+La fecha del manifiesto es **determinista** (proviene del último commit que tocó
+`corpus/`), así que no se generan commits vacíos. También puede lanzarse a mano
+desde la pestaña *Actions* (`workflow_dispatch`).
+
+Para reproducir el resultado en local basta `python -m tools.check_all .`.
