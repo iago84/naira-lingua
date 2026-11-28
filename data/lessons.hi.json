@@ -6613,7 +6613,7 @@
       },
       {
         "concept": "c:tiempo-y-calendario.manana-temprano",
-        "en": "(early)",
+        "en": "morning",
         "es": "mañana (temprano)",
         "hi": "सुबह",
         "speaker": "B",
@@ -6876,7 +6876,7 @@
           ],
           [
             "mañana (temprano)",
-            "(early)",
+            "morning",
             "सुबह"
           ],
           [

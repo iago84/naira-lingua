@@ -56,11 +56,11 @@
     },
     {
       "concept": "c:tiempo-y-calendario.manana-temprano",
-      "en": "(early)",
+      "en": "morning",
       "es": "mañana (temprano)",
-      "ja": "(早々)",
+      "ja": "朝",
       "speaker": "B",
-      "translit": "( sousou )"
+      "translit": "asa"
     },
     {
       "concept": "c:tiempo-y-calendario.mediodia-tarde",
@@ -119,13 +119,13 @@
           "answerTranslit": "jikan / jikan",
           "concept": "c:tiempo-y-calendario.tiempo-hora",
           "optionTranslit": {
-            "(早々)": "( sousou )",
             "ツイート": "tsuiito",
             "日頃から": "higoro kara",
-            "時間/時間": "jikan / jikan"
+            "時間/時間": "jikan / jikan",
+            "朝": "asa"
           },
           "options": [
-            "(早々)",
+            "朝",
             "日頃から",
             "時間/時間",
             "ツイート"
@@ -205,17 +205,17 @@
           "prompt": "hora (duración)"
         },
         {
-          "answer": "(早々)",
-          "answerTranslit": "( sousou )",
+          "answer": "朝",
+          "answerTranslit": "asa",
           "concept": "c:tiempo-y-calendario.manana-temprano",
           "optionTranslit": {
-            "(早々)": "( sousou )",
             "日・祝": "nichi ・ shuku",
             "昼・午後": "hiru ・ gogo",
-            "時間/時間": "jikan / jikan"
+            "時間/時間": "jikan / jikan",
+            "朝": "asa"
           },
           "options": [
-            "(早々)",
+            "朝",
             "日・祝",
             "時間/時間",
             "昼・午後"
@@ -319,8 +319,8 @@
         ],
         [
           "mañana (temprano)",
-          "(early)",
-          "(早々)"
+          "morning",
+          "朝"
         ],
         [
           "mediodía / tarde",

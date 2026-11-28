@@ -16815,13 +16815,13 @@
     "concept": "c:tiempo-y-calendario.manana-temprano",
     "lang": "ur",
     "license": "CC-BY-SA-4.0",
-    "review": "verified",
+    "review": "needs_review",
     "reviewer": "migrate_v1",
     "script": "arabic",
-    "source": "legacy_v1",
-    "source_ref": "card:1402",
-    "term": "سُبہ — mañana (temprano)",
-    "translit": "subah"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "سُبہ",
+    "translit": null
   },
   {
     "concept": "c:tiempo-y-calendario.mediodia-tarde",

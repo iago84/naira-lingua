@@ -51,9 +51,9 @@
     },
     {
       "concept": "c:tiempo-y-calendario.manana-temprano",
-      "en": "(early)",
+      "en": "morning",
       "es": "mañana (temprano)",
-      "pt": "(início)",
+      "pt": "manhã",
       "speaker": "B"
     },
     {
@@ -106,7 +106,7 @@
           "answer": "tempo / hora",
           "concept": "c:tiempo-y-calendario.tiempo-hora",
           "options": [
-            "(início)",
+            "manhã",
             "Hoje",
             "tempo / hora",
             "minuto"
@@ -158,10 +158,10 @@
           "prompt": "hora (duración)"
         },
         {
-          "answer": "(início)",
+          "answer": "manhã",
           "concept": "c:tiempo-y-calendario.manana-temprano",
           "options": [
-            "(início)",
+            "manhã",
             "dia",
             "tempo / hora",
             "meio- dia / tarde"
@@ -251,8 +251,8 @@
         ],
         [
           "mañana (temprano)",
-          "(early)",
-          "(início)"
+          "morning",
+          "manhã"
         ],
         [
           "mediodía / tarde",

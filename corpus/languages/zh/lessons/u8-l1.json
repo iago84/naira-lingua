@@ -56,11 +56,11 @@
     },
     {
       "concept": "c:tiempo-y-calendario.manana-temprano",
-      "en": "(early)",
+      "en": "morning",
       "es": "mañana (temprano)",
       "speaker": "B",
-      "translit": "( zǎo )  wèn .",
-      "zh": "(早) 问."
+      "translit": "zǎo shàng",
+      "zh": "早上"
     },
     {
       "concept": "c:tiempo-y-calendario.mediodia-tarde",
@@ -107,8 +107,8 @@
       "en": "Today",
       "es": "hoy",
       "speaker": "B",
-      "translit": "jīn tiān , wǒ men lái",
-      "zh": "今天,我们来"
+      "translit": "jīn tiān",
+      "zh": "今天"
     }
   ],
   "exercises": [
@@ -119,14 +119,14 @@
           "answerTranslit": "shí jiān / xiǎo shí",
           "concept": "c:tiempo-y-calendario.tiempo-hora",
           "optionTranslit": {
-            "(早) 问.": "( zǎo )  wèn .",
-            "今天,我们来": "jīn tiān , wǒ men lái",
+            "今天": "jīn tiān",
             "分钟": "fēn zhōng",
+            "早上": "zǎo shàng",
             "时间/小时": "shí jiān / xiǎo shí"
           },
           "options": [
-            "(早) 问.",
-            "今天,我们来",
+            "早上",
+            "今天",
             "时间/小时",
             "分钟"
           ],
@@ -205,17 +205,17 @@
           "prompt": "hora (duración)"
         },
         {
-          "answer": "(早) 问.",
-          "answerTranslit": "( zǎo )  wèn .",
+          "answer": "早上",
+          "answerTranslit": "zǎo shàng",
           "concept": "c:tiempo-y-calendario.manana-temprano",
           "optionTranslit": {
-            "(早) 问.": "( zǎo )  wèn .",
             "中午/下午": "zhōng wǔ / xià wǔ",
             "日数": "rì shù",
+            "早上": "zǎo shàng",
             "时间/小时": "shí jiān / xiǎo shí"
           },
           "options": [
-            "(早) 问.",
+            "早上",
             "日数",
             "时间/小时",
             "中午/下午"
@@ -228,7 +228,7 @@
           "concept": "c:tiempo-y-calendario.mediodia-tarde",
           "optionTranslit": {
             "中午/下午": "zhōng wǔ / xià wǔ",
-            "今天,我们来": "jīn tiān , wǒ men lái",
+            "今天": "jīn tiān",
             "分钟": "fēn zhōng",
             "时间/小时": "shí jiān / xiǎo shí"
           },
@@ -236,7 +236,7 @@
             "时间/小时",
             "分钟",
             "中午/下午",
-            "今天,我们来"
+            "今天"
           ],
           "prompt": "mediodía / tarde"
         },
@@ -319,8 +319,8 @@
         ],
         [
           "mañana (temprano)",
-          "(early)",
-          "(早) 问."
+          "morning",
+          "早上"
         ],
         [
           "mediodía / tarde",
@@ -350,7 +350,7 @@
         [
           "hoy",
           "Today",
-          "今天,我们来"
+          "今天"
         ]
       ],
       "title": "es · en · zh",

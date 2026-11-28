@@ -142,12 +142,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "(非正式)",
-    "translit": "( fēi zhèng shì )"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "谢谢",
+    "translit": "xiè xiè"
   },
   {
     "concept": "c:saludos-y-expresiones.por-favor",
@@ -261,12 +261,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "好,好,好,我先走,我们走",
-    "translit": "hǎo , hǎo , hǎo , wǒ xiān zǒu , wǒ men zǒu"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "好的",
+    "translit": "hǎo de"
   },
   {
     "concept": "c:saludos-y-expresiones.si",
@@ -575,12 +575,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "恭喜你,我很高兴",
-    "translit": "gōng xǐ nǐ , wǒ hěn gāo xìng"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "恭喜",
+    "translit": "gōng xǐ"
   },
   {
     "concept": "c:saludos-y-expresiones.feliz-cumpleanos",
@@ -627,12 +627,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "我的名字是,我叫罗克",
-    "translit": "wǒ de míng zì shì , wǒ jiào luó kè"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "我叫",
+    "translit": "wǒ jiào"
   },
   {
     "concept": "c:saludos-y-expresiones.encantado-de-conocerle",
@@ -705,12 +705,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "我知道,我记得",
-    "translit": "wǒ zhī dào , wǒ jì de"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "我知道",
+    "translit": "wǒ zhī dào"
   },
   {
     "concept": "c:saludos-y-expresiones.no-te-preocupes",
@@ -952,12 +952,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "很好,我说,我...",
-    "translit": "hěn hǎo , wǒ shuō , wǒ ..."
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "很好",
+    "translit": "hěn hǎo"
   },
   {
     "concept": "c:saludos-y-expresiones.bien-hecho",
@@ -1017,12 +1017,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "旅途愉快,我...",
-    "translit": "lǚ tú yú kuài , wǒ ..."
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "旅途愉快",
+    "translit": "lǚ tú yú kuài"
   },
   {
     "concept": "c:saludos-y-expresiones.nos-vemos-pronto",
@@ -1056,12 +1056,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "等到明天,我再告诉你",
-    "translit": "děng dào míng tiān , wǒ zài gào sù nǐ"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "明天见",
+    "translit": "míng tiān jiàn"
   },
   {
     "concept": "c:saludos-y-expresiones.ahora-mismo",
@@ -1316,12 +1316,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "今天,我们来",
-    "translit": "jīn tiān , wǒ men lái"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "今天",
+    "translit": "jīn tiān"
   },
   {
     "concept": "c:numeros.cero",
@@ -1523,12 +1523,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "14 , 简称",
-    "translit": "14 ,  jiǎn chēng"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "十四",
+    "translit": "shí sì"
   },
   {
     "concept": "c:numeros.quince",
@@ -2978,12 +2978,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "奶油,你来点什么?",
-    "translit": "nǎi yóu , nǐ lái diǎn shén me ?"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "奶油色",
+    "translit": "nǎi yóu sè"
   },
   {
     "concept": "c:colores.beige",
@@ -3381,12 +3381,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "女儿,你这小姑娘",
-    "translit": "nǚ ér , nǐ zhè xiǎo gū niáng"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "女儿",
+    "translit": "nǚ ér"
   },
   {
     "concept": "c:familia-y-personas.nino-a",
@@ -3407,12 +3407,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "哥哥,你这混蛋",
-    "translit": "gē gē , nǐ zhè hùn dàn"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "兄弟",
+    "translit": "xiōng dì"
   },
   {
     "concept": "c:familia-y-personas.hermana",
@@ -3420,12 +3420,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "姐姐,你这小姑娘",
-    "translit": "jiě jiě , nǐ zhè xiǎo gū niáng"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "姐妹",
+    "translit": "jiě mèi"
   },
   {
     "concept": "c:familia-y-personas.hermanos",
@@ -3485,12 +3485,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "外婆,你这个老奶奶",
-    "translit": "wài pó , nǐ zhè ge lǎo nǎi nǎi"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "外婆",
+    "translit": "wài pó"
   },
   {
     "concept": "c:familia-y-personas.nieto",
@@ -3563,12 +3563,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "阿姨,妈妈",
-    "translit": "ā yí , mā mā"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "姨妈",
+    "translit": "yí mā"
   },
   {
     "concept": "c:familia-y-personas.tia-hermana-del-padre",
@@ -3667,12 +3667,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "老婆,你这小姑娘",
-    "translit": "lǎo pó , nǐ zhè xiǎo gū niáng"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "妻子",
+    "translit": "qī zǐ"
   },
   {
     "concept": "c:familia-y-personas.novio-boda",
@@ -3810,12 +3810,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "男人,你这混蛋",
-    "translit": "nán rén , nǐ zhè hùn dàn"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "男人",
+    "translit": "nán rén"
   },
   {
     "concept": "c:familia-y-personas.mujer",
@@ -4239,12 +4239,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "丈夫的妹妹(她),",
-    "translit": "zhàng fū de mèi mèi ( tā ),"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "小姑子",
+    "translit": "xiǎo gū zi"
   },
   {
     "concept": "c:familia-y-personas.cunado-esposo-de-hermana",
@@ -4278,12 +4278,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "儿子,狗娘养的",
-    "translit": "ér zi , gǒu niáng yǎng de"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "女婿",
+    "translit": "nǚ xù"
   },
   {
     "concept": "c:familia-y-personas.nuera",
@@ -4291,12 +4291,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "女儿,我爱她",
-    "translit": "nǚ ér , wǒ ài tā"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "儿媳",
+    "translit": "ér xí"
   },
   {
     "concept": "c:familia-y-personas.pariente",
@@ -5071,12 +5071,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "大腿,大腿,大腿,大腿,大腿,大腿,大腿,大腿,大腿,大腿,大腿,大腿,大腿,大腿,大腿,大腿",
-    "translit": "dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ , dà tuǐ"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "大腿",
+    "translit": "dà tuǐ"
   },
   {
     "concept": "c:cuerpo-humano.rodilla",
@@ -5617,12 +5617,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "累,你觉得我累了吗?",
-    "translit": "lèi , nǐ jué de wǒ lèi le ma ?"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "累",
+    "translit": "lèi"
   },
   {
     "concept": "c:cuerpo-humano.sueno-dormir",
@@ -5656,12 +5656,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "渴了,我说",
-    "translit": "kě le , wǒ shuō"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "口渴",
+    "translit": "kǒu kě"
   },
   {
     "concept": "c:cuerpo-humano.energia",
@@ -5786,12 +5786,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "胃痛,我说",
-    "translit": "wèi tòng , wǒ shuō"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "胃痛",
+    "translit": "wèi tòng"
   },
   {
     "concept": "c:cuerpo-humano.mareo",
@@ -6423,12 +6423,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "姜子,金鸡",
-    "translit": "jiāng zi , jīn jī"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "姜",
+    "translit": "jiāng"
   },
   {
     "concept": "c:comida-y-bebida.ajo",
@@ -6566,12 +6566,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "南瓜,你这小狗",
-    "translit": "nán guā , nǐ zhè xiǎo gǒu"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "南瓜",
+    "translit": "nán guā"
   },
   {
     "concept": "c:comida-y-bebida.okra",
@@ -6579,12 +6579,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "秋葵,秋葵",
-    "translit": "qiū kuí , qiū kuí"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "秋葵",
+    "translit": "qiū kuí"
   },
   {
     "concept": "c:comida-y-bebida.fruta",
@@ -6761,12 +6761,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "桃子,你这小红桃",
-    "translit": "táo zi , nǐ zhè xiǎo hóng táo"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "桃子",
+    "translit": "táo zi"
   },
   {
     "concept": "c:comida-y-bebida.pera",
@@ -7021,12 +7021,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "甜美的,亲爱的",
-    "translit": "tián měi de , qīn ài de"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "甜",
+    "translit": "tián"
   },
   {
     "concept": "c:comida-y-bebida.salado",
@@ -7307,12 +7307,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "嚼了,我吃过",
-    "translit": "jué le , wǒ chī guò"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "咀嚼",
+    "translit": "jǔ jué"
   },
   {
     "concept": "c:comida-y-bebida.comedor-restaurante",
@@ -7528,12 +7528,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
-    "translit": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s."
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "睡衣",
+    "translit": "shuì yī"
   },
   {
     "concept": "c:ropa-y-accesorios.abrigo-chaqueta",
@@ -7905,12 +7905,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "穿好衣服,穿着好衣服",
-    "translit": "chuān hǎo yī fú , chuān zhe hǎo yī fú"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "穿",
+    "translit": "chuān"
   },
   {
     "concept": "c:ropa-y-accesorios.quitarse-ropa",
@@ -10661,12 +10661,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "公平,我爱她。",
-    "translit": "gōng píng , wǒ ài tā 。"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "集市",
+    "translit": "jí shì"
   },
   {
     "concept": "c:ciudad-y-lugares.campo-abierto-terreno",
@@ -12767,12 +12767,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "秋天,我在这里",
-    "translit": "qiū tiān , wǒ zài zhè lǐ"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "秋天",
+    "translit": "qiū tiān"
   },
   {
     "concept": "c:naturaleza-y-clima.monzon",
@@ -12975,12 +12975,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "(早) 问.",
-    "translit": "( zǎo )  wèn ."
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "早上",
+    "translit": "zǎo shàng"
   },
   {
     "concept": "c:naturaleza-y-clima.mediodia-tarde",
@@ -13729,12 +13729,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "老虎,你这小狗",
-    "translit": "lǎo hǔ , nǐ zhè xiǎo gǒu"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "老虎",
+    "translit": "lǎo hǔ"
   },
   {
     "concept": "c:animales.elefante",
@@ -13755,12 +13755,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "熊,你这只熊",
-    "translit": "xióng , nǐ zhè zhǐ xióng"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "熊",
+    "translit": "xióng"
   },
   {
     "concept": "c:animales.lobo",
@@ -13833,12 +13833,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "兔子,你这小兔子",
-    "translit": "tù zi , nǐ zhè xiǎo tù zi"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "兔子",
+    "translit": "tù zi"
   },
   {
     "concept": "c:animales.raton-rata",
@@ -14106,12 +14106,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "蝴蝶,蝴蝶,蝴蝶,蝴蝶",
-    "translit": "hú dié , hú dié , hú dié , hú dié"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "蝴蝶",
+    "translit": "hú dié"
   },
   {
     "concept": "c:animales.abeja",
@@ -14119,12 +14119,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "蜜蜂,你这小黄蜂",
-    "translit": "mì fēng , nǐ zhè xiǎo huáng fēng"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "蜜蜂",
+    "translit": "mì fēng"
   },
   {
     "concept": "c:animales.hormiga",
@@ -14184,12 +14184,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "蝎子,你这只蝎子",
-    "translit": "xiē zi , nǐ zhè zhǐ xiē zi"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "蝎子",
+    "translit": "xiē zi"
   },
   {
     "concept": "c:animales.insecto-bicho",
@@ -14483,12 +14483,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "小狗,你这小狗",
-    "translit": "xiǎo gǒu , nǐ zhè xiǎo gǒu"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "小狗",
+    "translit": "xiǎo gǒu"
   },
   {
     "concept": "c:animales.gatito",
@@ -15029,12 +15029,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "走路去工作,走开",
-    "translit": "zǒu lù qù gōng zuò , zǒu kāi"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "走路",
+    "translit": "zǒu lù"
   },
   {
     "concept": "c:verbos-comunes.correr",
@@ -15562,12 +15562,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "等待,请等待",
-    "translit": "děng dài , qǐng děng dài"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "等待",
+    "translit": "děng dài"
   },
   {
     "concept": "c:verbos-comunes.ayudar",
@@ -16004,12 +16004,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "同意,我们...",
-    "translit": "tóng yì , wǒ men ..."
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "同意",
+    "translit": "tóng yì"
   },
   {
     "concept": "c:verbos-comunes.negar-rechazar",
@@ -16641,12 +16641,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "不好,你来这干嘛?",
-    "translit": "bù hǎo , nǐ lái zhè gàn má ?"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "坏",
+    "translit": "huài"
   },
   {
     "concept": "c:adjetivos.grande",
@@ -16771,12 +16771,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "丑陋的,你这混蛋",
-    "translit": "chǒu lòu de , nǐ zhè hùn dàn"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "丑",
+    "translit": "chǒu"
   },
   {
     "concept": "c:adjetivos.limpio-claro",
@@ -17083,12 +17083,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "安静地,冷静地",
-    "translit": "ān jìng dì , lěng jìng dì"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "安静",
+    "translit": "ān jìng"
   },
   {
     "concept": "c:adjetivos.asustado",
@@ -17109,12 +17109,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "勇敢的,你应该知道",
-    "translit": "yǒng gǎn de , nǐ yīng gāi zhī dào"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "勇敢",
+    "translit": "yǒng gǎn"
   },
   {
     "concept": "c:adjetivos.inteligente",
@@ -17278,12 +17278,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "(时间)",
-    "translit": "( shí jiān )"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "自由",
+    "translit": "zì yóu"
   },
   {
     "concept": "c:adjetivos.listo-preparado",
@@ -17499,12 +17499,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "有趣,你觉得呢?",
-    "translit": "yǒu qù , nǐ jué de ne ?"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "有趣",
+    "translit": "yǒu qù"
   },
   {
     "concept": "c:adjetivos.aburrido",
@@ -17785,12 +17785,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "甜美的,亲爱的",
-    "translit": "tián měi de , qīn ài de"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "甜",
+    "translit": "tián"
   },
   {
     "concept": "c:adjetivos.salado",
@@ -17967,12 +17967,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "病了,你这混蛋",
-    "translit": "bìng le , nǐ zhè hùn dàn"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "生病",
+    "translit": "shēng bìng"
   },
   {
     "concept": "c:adjetivos.maduro-cocido",
@@ -18253,12 +18253,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "(早) 问.",
-    "translit": "( zǎo )  wèn ."
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "早上",
+    "translit": "zǎo shàng"
   },
   {
     "concept": "c:tiempo-y-calendario.mediodia-tarde",
@@ -18331,12 +18331,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "今天,我们来",
-    "translit": "jīn tiān , wǒ men lái"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "今天",
+    "translit": "jīn tiān"
   },
   {
     "concept": "c:tiempo-y-calendario.manana-futuro",
@@ -18344,12 +18344,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "(未来)",
-    "translit": "( wèi lái )"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "明天",
+    "translit": "míng tiān"
   },
   {
     "concept": "c:tiempo-y-calendario.ayer",
@@ -18357,12 +18357,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "昨天,我说",
-    "translit": "zuó tiān , wǒ shuō"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "昨天",
+    "translit": "zuó tiān"
   },
   {
     "concept": "c:tiempo-y-calendario.pasado-manana",
@@ -18370,12 +18370,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "后天,我说",
-    "translit": "hòu tiān , wǒ shuō"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "后天",
+    "translit": "hòu tiān"
   },
   {
     "concept": "c:tiempo-y-calendario.anteayer",
@@ -18383,12 +18383,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "之前,我说",
-    "translit": "zhī qián , wǒ shuō"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "前天",
+    "translit": "qián tiān"
   },
   {
     "concept": "c:tiempo-y-calendario.semana",
@@ -18721,12 +18721,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "11月(半天),将举行为期一年的研讨会。",
-    "translit": "11 yuè ( bàn tiān ), jiāng jǔ xíng wéi qī yī nián de yán tǎo huì 。"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "十一月",
+    "translit": "shí yī yuè"
   },
   {
     "concept": "c:tiempo-y-calendario.diciembre",
@@ -19579,12 +19579,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "- 对不起,伙计。",
-    "translit": "-  duì bù qǐ , huǒ jì 。"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "同事",
+    "translit": "tóng shì"
   },
   {
     "concept": "c:trabajo-y-profesiones.equipo",
@@ -20632,12 +20632,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "和尚,你来干什么?",
-    "translit": "hé shàng , nǐ lái gàn shén me ?"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "和尚",
+    "translit": "hé shàng"
   },
   {
     "concept": "c:trabajo-y-profesiones.voluntario-a",
@@ -24415,12 +24415,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "(法律) 国家",
-    "translit": "( fǎ lǜ )  guó jiā"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "法律",
+    "translit": "fǎ lǜ"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.religion-deber",
@@ -24896,12 +24896,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "瑜伽,你这小混蛋",
-    "translit": "yú jiā , nǐ zhè xiǎo hùn dàn"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "瑜伽",
+    "translit": "yú jiā"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.meditacion",
@@ -25936,12 +25936,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "晚安,再见",
-    "translit": "wǎn ān , zài jiàn"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "晚安",
+    "translit": "wǎn ān"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.no-he-entendido",
@@ -25949,12 +25949,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "我不明白,我不明白 说不定你还得去",
-    "translit": "wǒ bù míng bái , wǒ bù míng bái   shuō bù dìng nǐ hái dé qù"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "我不明白",
+    "translit": "wǒ bù míng bái"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.hable-despacio-por-favor",
@@ -25962,12 +25962,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "说话慢点,拜托",
-    "translit": "shuō huà màn diǎn , bài tuō"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "请说慢一点",
+    "translit": "qǐng shuō màn yì diǎn"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.digalo-otra-vez-por-favor",
@@ -26027,12 +26027,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "十分富有,非常美味",
-    "translit": "shí fēn fù yǒu , fēi cháng měi wèi"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "很好吃",
+    "translit": "hěn hǎo chī"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.estoy-lleno-satisfecho",
@@ -26040,12 +26040,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "我满了,满意了",
-    "translit": "wǒ mǎn le , mǎn yì le"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "我吃饱了",
+    "translit": "wǒ chī bǎo le"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.tengo-hambre",
@@ -26144,12 +26144,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "开火,开火!",
-    "translit": "kāi huǒ , kāi huǒ !"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "火",
+    "translit": "huǒ"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.esto-es-mio",
@@ -26209,12 +26209,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "没关系的,没关系",
-    "translit": "méi guān xì de , méi guān xì"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "没关系",
+    "translit": "méi guān xì"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.perdon-por-el-retraso",
@@ -26222,12 +26222,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "对不起,你耽误了",
-    "translit": "duì bù qǐ , nǐ dān wù le"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "抱歉迟到了",
+    "translit": "bào qiàn chí dào le"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.es-usted-muy-amable",
@@ -26287,12 +26287,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "小心点,小心",
-    "translit": "xiǎo xīn diǎn , xiǎo xīn"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "小心",
+    "translit": "xiǎo xīn"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.diviertete-que-te-diviertas",
@@ -26300,12 +26300,12 @@
     "lang": "zh",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "han",
-    "source": "libretranslate",
-    "source_ref": "argos es-zh",
-    "term": "玩得开心点,玩得开心点",
-    "translit": "wán dé kāi xīn diǎn , wán dé kāi xīn diǎn"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "玩得开心",
+    "translit": "wán dé kāi xīn"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.mis-mejores-deseos-para-usted",

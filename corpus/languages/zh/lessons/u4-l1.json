@@ -59,8 +59,8 @@
       "en": "daughter",
       "es": "hija",
       "speaker": "B",
-      "translit": "nǚ ér , nǐ zhè xiǎo gū niáng",
-      "zh": "女儿,你这小姑娘"
+      "translit": "nǚ ér",
+      "zh": "女儿"
     },
     {
       "concept": "c:familia-y-personas.nino-a",
@@ -75,16 +75,16 @@
       "en": "brother",
       "es": "hermano",
       "speaker": "B",
-      "translit": "gē gē , nǐ zhè hùn dàn",
-      "zh": "哥哥,你这混蛋"
+      "translit": "xiōng dì",
+      "zh": "兄弟"
     },
     {
       "concept": "c:familia-y-personas.hermana",
       "en": "sister",
       "es": "hermana",
       "speaker": "A",
-      "translit": "jiě jiě , nǐ zhè xiǎo gū niáng",
-      "zh": "姐姐,你这小姑娘"
+      "translit": "jiě mèi",
+      "zh": "姐妹"
     },
     {
       "concept": "c:familia-y-personas.hermanos",
@@ -119,14 +119,14 @@
           "answerTranslit": "jiā tíng",
           "concept": "c:familia-y-personas.familia",
           "optionTranslit": {
-            "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+            "兄弟": "xiōng dì",
             "哥哥们": "gē gē men",
             "家庭": "jiā tíng",
             "父亲的外婆": "fù qīn de wài pó"
           },
           "options": [
             "哥哥们",
-            "哥哥,你这混蛋",
+            "兄弟",
             "父亲的外婆",
             "家庭"
           ],
@@ -137,14 +137,14 @@
           "answerTranslit": "mā mā",
           "concept": "c:familia-y-personas.madre",
           "optionTranslit": {
-            "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+            "女儿": "nǚ ér",
             "妈妈": "mā mā",
             "家庭": "jiā tíng",
             "父亲的外婆": "fù qīn de wài pó"
           },
           "options": [
             "父亲的外婆",
-            "女儿,你这小姑娘",
+            "女儿",
             "家庭",
             "妈妈"
           ],
@@ -174,12 +174,12 @@
           "concept": "c:familia-y-personas.padres",
           "optionTranslit": {
             "儿童": "ér tóng",
-            "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+            "兄弟": "xiōng dì",
             "家庭": "jiā tíng",
             "父母亲": "fù mǔ qīn"
           },
           "options": [
-            "哥哥,你这混蛋",
+            "兄弟",
             "父母亲",
             "家庭",
             "儿童"
@@ -192,12 +192,12 @@
           "concept": "c:familia-y-personas.hijo",
           "optionTranslit": {
             "儿童": "ér tóng",
-            "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+            "女儿": "nǚ ér",
             "妈妈": "mā mā",
             "爷爷": "yé yé"
           },
           "options": [
-            "女儿,你这小姑娘",
+            "女儿",
             "爷爷",
             "妈妈",
             "儿童"
@@ -205,18 +205,18 @@
           "prompt": "hijo"
         },
         {
-          "answer": "女儿,你这小姑娘",
-          "answerTranslit": "nǚ ér , nǐ zhè xiǎo gū niáng",
+          "answer": "女儿",
+          "answerTranslit": "nǚ ér",
           "concept": "c:familia-y-personas.hija",
           "optionTranslit": {
             "儿童": "ér tóng",
-            "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+            "女儿": "nǚ ér",
             "妈妈": "mā mā",
             "父母亲": "fù mǔ qīn"
           },
           "options": [
             "儿童",
-            "女儿,你这小姑娘",
+            "女儿",
             "妈妈",
             "父母亲"
           ],
@@ -241,18 +241,18 @@
           "prompt": "niño/a"
         },
         {
-          "answer": "哥哥,你这混蛋",
-          "answerTranslit": "gē gē , nǐ zhè hùn dàn",
+          "answer": "兄弟",
+          "answerTranslit": "xiōng dì",
           "concept": "c:familia-y-personas.hermano",
           "optionTranslit": {
             "儿童": "ér tóng",
-            "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+            "兄弟": "xiōng dì",
             "哥哥们": "gē gē men",
             "妈妈": "mā mā"
           },
           "options": [
             "妈妈",
-            "哥哥,你这混蛋",
+            "兄弟",
             "儿童",
             "哥哥们"
           ],
@@ -320,7 +320,7 @@
         [
           "hija",
           "daughter",
-          "女儿,你这小姑娘"
+          "女儿"
         ],
         [
           "niño/a",
@@ -330,12 +330,12 @@
         [
           "hermano",
           "brother",
-          "哥哥,你这混蛋"
+          "兄弟"
         ],
         [
           "hermana",
           "sister",
-          "姐姐,你这小姑娘"
+          "姐妹"
         ],
         [
           "hermanos",

@@ -107,8 +107,8 @@
       "en": "pajamas",
       "es": "pijama",
       "speaker": "B",
-      "translit": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
-      "zh": "睡衣(Shopple) : 睡衣(Phase, suffer-s."
+      "translit": "shuì yī",
+      "zh": "睡衣"
     }
   ],
   "exercises": [
@@ -137,7 +137,7 @@
           "answerTranslit": "chèn shān",
           "concept": "c:ropa-y-accesorios.camisa",
           "optionTranslit": {
-            "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+            "睡衣": "shuì yī",
             "短裤": "duǎn kù",
             "穿起来": "chuān qǐ lái",
             "衬衫": "chèn shān"
@@ -145,7 +145,7 @@
           "options": [
             "衬衫",
             "短裤",
-            "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+            "睡衣",
             "穿起来"
           ],
           "prompt": "camisa"
@@ -157,12 +157,12 @@
           "optionTranslit": {
             "T恤": "T xù",
             "库尔塔": "kù ěr tǎ",
-            "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+            "睡衣": "shuì yī",
             "穿起来": "chuān qǐ lái"
           },
           "options": [
             "T恤",
-            "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+            "睡衣",
             "穿起来",
             "库尔塔"
           ],
@@ -174,14 +174,14 @@
           "concept": "c:ropa-y-accesorios.pantalon",
           "optionTranslit": {
             "服装": "fú zhuāng",
-            "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+            "睡衣": "shuì yī",
             "萨尔瓦尔·卡米兹": "sà ěr wǎ ěr · kǎ mǐ zī",
             "裤子": "kù zi"
           },
           "options": [
             "服装",
             "裤子",
-            "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+            "睡衣",
             "萨尔瓦尔·卡米兹"
           ],
           "prompt": "pantalón"
@@ -246,14 +246,14 @@
           "concept": "c:ropa-y-accesorios.vestido",
           "optionTranslit": {
             "服装": "fú zhuāng",
-            "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+            "睡衣": "shuì yī",
             "穿起来": "chuān qǐ lái",
             "裤子": "kù zi"
           },
           "options": [
             "服装",
             "穿起来",
-            "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+            "睡衣",
             "裤子"
           ],
           "prompt": "vestido"
@@ -350,7 +350,7 @@
         [
           "pijama",
           "pajamas",
-          "睡衣(Shopple) : 睡衣(Phase, suffer-s."
+          "睡衣"
         ]
       ],
       "title": "es · en · zh",

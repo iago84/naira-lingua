@@ -99,8 +99,8 @@
       "en": "- I'm sorry, buddy.",
       "es": "colega",
       "speaker": "A",
-      "translit": "-  duì bù qǐ , huǒ jì 。",
-      "zh": "- 对不起,伙计。"
+      "translit": "tóng shì",
+      "zh": "同事"
     },
     {
       "concept": "c:trabajo-y-profesiones.equipo",
@@ -345,7 +345,7 @@
         [
           "colega",
           "- I'm sorry, buddy.",
-          "- 对不起,伙计。"
+          "同事"
         ],
         [
           "equipo",

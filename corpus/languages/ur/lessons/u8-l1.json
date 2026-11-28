@@ -56,11 +56,10 @@
     },
     {
       "concept": "c:tiempo-y-calendario.manana-temprano",
-      "en": "(early)",
+      "en": "morning",
       "es": "mañana (temprano)",
       "speaker": "B",
-      "translit": "subah",
-      "ur": "سُبہ — mañana (temprano)"
+      "ur": "سُبہ"
     },
     {
       "concept": "c:tiempo-y-calendario.mediodia-tarde",
@@ -121,11 +120,10 @@
           "optionTranslit": {
             "آج — hoy": "aaj",
             "سمی": "samay",
-            "سُبہ — mañana (temprano)": "subah",
             "مِنٹ": "minaṭ"
           },
           "options": [
-            "سُبہ — mañana (temprano)",
+            "سُبہ",
             "آج — hoy",
             "سمی",
             "مِنٹ"
@@ -205,17 +203,15 @@
           "prompt": "hora (duración)"
         },
         {
-          "answer": "سُبہ — mañana (temprano)",
-          "answerTranslit": "subah",
+          "answer": "سُبہ",
           "concept": "c:tiempo-y-calendario.manana-temprano",
           "optionTranslit": {
             "دوپہر — mediodía / tarde": "dopahar",
             "دِن — día": "din",
-            "سمی": "samay",
-            "سُبہ — mañana (temprano)": "subah"
+            "سمی": "samay"
           },
           "options": [
-            "سُبہ — mañana (temprano)",
+            "سُبہ",
             "دِن — día",
             "سمی",
             "دوپہر — mediodía / tarde"
@@ -319,8 +315,8 @@
         ],
         [
           "mañana (temprano)",
-          "(early)",
-          "سُبہ — mañana (temprano)"
+          "morning",
+          "سُبہ"
         ],
         [
           "mediodía / tarde",

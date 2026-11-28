@@ -27,8 +27,8 @@
       "en": "bad",
       "es": "malo",
       "speaker": "B",
-      "translit": "bù hǎo , nǐ lái zhè gàn má ?",
-      "zh": "不好,你来这干嘛?"
+      "translit": "huài",
+      "zh": "坏"
     },
     {
       "concept": "c:adjetivos.grande",
@@ -107,8 +107,8 @@
       "en": "ugly",
       "es": "feo",
       "speaker": "B",
-      "translit": "chǒu lòu de , nǐ zhè hùn dàn",
-      "zh": "丑陋的,你这混蛋"
+      "translit": "chǒu",
+      "zh": "丑"
     }
   ],
   "exercises": [
@@ -133,19 +133,19 @@
           "prompt": "bueno"
         },
         {
-          "answer": "不好,你来这干嘛?",
-          "answerTranslit": "bù hǎo , nǐ lái zhè gàn má ?",
+          "answer": "坏",
+          "answerTranslit": "huài",
           "concept": "c:adjetivos.malo",
           "optionTranslit": {
-            "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
             "低/ 短数": "dī /  duǎn shù",
+            "坏": "huài",
             "小数": "xiǎo shù",
             "新建( N)": "xīn jiàn ( N)"
           },
           "options": [
             "小数",
             "低/ 短数",
-            "不好,你来这干嘛?",
+            "坏",
             "新建( N)"
           ],
           "prompt": "malo"
@@ -155,15 +155,15 @@
           "answerTranslit": "dà kuài",
           "concept": "c:adjetivos.grande",
           "optionTranslit": {
-            "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
             "不错。": "bù cuò 。",
+            "坏": "huài",
             "大块": "dà kuài",
             "长/高": "zhǎng / gāo"
           },
           "options": [
             "长/高",
             "不错。",
-            "不好,你来这干嘛?",
+            "坏",
             "大块"
           ],
           "prompt": "grande"
@@ -173,13 +173,13 @@
           "answerTranslit": "xiǎo shù",
           "concept": "c:adjetivos.pequeno",
           "optionTranslit": {
-            "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+            "坏": "huài",
             "小数": "xiǎo shù",
             "新建( N)": "xīn jiàn ( N)",
             "旧( 人)": "jiù (  rén )"
           },
           "options": [
-            "不好,你来这干嘛?",
+            "坏",
             "小数",
             "新建( N)",
             "旧( 人)"
@@ -227,7 +227,7 @@
           "answerTranslit": "xīn jiàn ( N)",
           "concept": "c:adjetivos.nuevo",
           "optionTranslit": {
-            "丑陋的,你这混蛋": "chǒu lòu de , nǐ zhè hùn dàn",
+            "丑": "chǒu",
             "低/ 短数": "dī /  duǎn shù",
             "新建( N)": "xīn jiàn ( N)",
             "旧( 人)": "jiù (  rén )"
@@ -235,7 +235,7 @@
           "options": [
             "旧( 人)",
             "新建( N)",
-            "丑陋的,你这混蛋",
+            "丑",
             "低/ 短数"
           ],
           "prompt": "nuevo"
@@ -245,13 +245,13 @@
           "answerTranslit": "jiù / gǔ",
           "concept": "c:adjetivos.viejo-antiguo",
           "optionTranslit": {
-            "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+            "坏": "huài",
             "年轻": "nián qīng",
             "旧/古": "jiù / gǔ",
             "美丽相貌": "měi lì xiàng mào"
           },
           "options": [
-            "不好,你来这干嘛?",
+            "坏",
             "年轻",
             "旧/古",
             "美丽相貌"
@@ -300,7 +300,7 @@
         [
           "malo",
           "bad",
-          "不好,你来这干嘛?"
+          "坏"
         ],
         [
           "grande",
@@ -350,7 +350,7 @@
         [
           "feo",
           "ugly",
-          "丑陋的,你这混蛋"
+          "丑"
         ]
       ],
       "title": "es · en · zh",

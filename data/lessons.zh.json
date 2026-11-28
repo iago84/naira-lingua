@@ -824,8 +824,8 @@
         "en": "pajamas",
         "es": "pijama",
         "speaker": "B",
-        "translit": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
-        "zh": "睡衣(Shopple) : 睡衣(Phase, suffer-s."
+        "translit": "shuì yī",
+        "zh": "睡衣"
       }
     ],
     "exercises": [
@@ -854,7 +854,7 @@
             "answerTranslit": "chèn shān",
             "concept": "c:ropa-y-accesorios.camisa",
             "optionTranslit": {
-              "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+              "睡衣": "shuì yī",
               "短裤": "duǎn kù",
               "穿起来": "chuān qǐ lái",
               "衬衫": "chèn shān"
@@ -862,7 +862,7 @@
             "options": [
               "衬衫",
               "短裤",
-              "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+              "睡衣",
               "穿起来"
             ],
             "prompt": "camisa"
@@ -874,12 +874,12 @@
             "optionTranslit": {
               "T恤": "T xù",
               "库尔塔": "kù ěr tǎ",
-              "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+              "睡衣": "shuì yī",
               "穿起来": "chuān qǐ lái"
             },
             "options": [
               "T恤",
-              "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+              "睡衣",
               "穿起来",
               "库尔塔"
             ],
@@ -891,14 +891,14 @@
             "concept": "c:ropa-y-accesorios.pantalon",
             "optionTranslit": {
               "服装": "fú zhuāng",
-              "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+              "睡衣": "shuì yī",
               "萨尔瓦尔·卡米兹": "sà ěr wǎ ěr · kǎ mǐ zī",
               "裤子": "kù zi"
             },
             "options": [
               "服装",
               "裤子",
-              "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+              "睡衣",
               "萨尔瓦尔·卡米兹"
             ],
             "prompt": "pantalón"
@@ -963,14 +963,14 @@
             "concept": "c:ropa-y-accesorios.vestido",
             "optionTranslit": {
               "服装": "fú zhuāng",
-              "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+              "睡衣": "shuì yī",
               "穿起来": "chuān qǐ lái",
               "裤子": "kù zi"
             },
             "options": [
               "服装",
               "穿起来",
-              "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+              "睡衣",
               "裤子"
             ],
             "prompt": "vestido"
@@ -1067,7 +1067,7 @@
           [
             "pijama",
             "pajamas",
-            "睡衣(Shopple) : 睡衣(Phase, suffer-s."
+            "睡衣"
           ]
         ],
         "title": "es · en · zh",
@@ -1181,8 +1181,8 @@
         "en": "- I'm sorry, buddy.",
         "es": "colega",
         "speaker": "A",
-        "translit": "-  duì bù qǐ , huǒ jì 。",
-        "zh": "- 对不起,伙计。"
+        "translit": "tóng shì",
+        "zh": "同事"
       },
       {
         "concept": "c:trabajo-y-profesiones.equipo",
@@ -1427,7 +1427,7 @@
           [
             "colega",
             "- I'm sorry, buddy.",
-            "- 对不起,伙计。"
+            "同事"
           ],
           [
             "equipo",
@@ -1839,8 +1839,8 @@
         "en": "bad",
         "es": "malo",
         "speaker": "B",
-        "translit": "bù hǎo , nǐ lái zhè gàn má ?",
-        "zh": "不好,你来这干嘛?"
+        "translit": "huài",
+        "zh": "坏"
       },
       {
         "concept": "c:adjetivos.grande",
@@ -1919,8 +1919,8 @@
         "en": "ugly",
         "es": "feo",
         "speaker": "B",
-        "translit": "chǒu lòu de , nǐ zhè hùn dàn",
-        "zh": "丑陋的,你这混蛋"
+        "translit": "chǒu",
+        "zh": "丑"
       }
     ],
     "exercises": [
@@ -1945,19 +1945,19 @@
             "prompt": "bueno"
           },
           {
-            "answer": "不好,你来这干嘛?",
-            "answerTranslit": "bù hǎo , nǐ lái zhè gàn má ?",
+            "answer": "坏",
+            "answerTranslit": "huài",
             "concept": "c:adjetivos.malo",
             "optionTranslit": {
-              "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
               "低/ 短数": "dī /  duǎn shù",
+              "坏": "huài",
               "小数": "xiǎo shù",
               "新建( N)": "xīn jiàn ( N)"
             },
             "options": [
               "小数",
               "低/ 短数",
-              "不好,你来这干嘛?",
+              "坏",
               "新建( N)"
             ],
             "prompt": "malo"
@@ -1967,15 +1967,15 @@
             "answerTranslit": "dà kuài",
             "concept": "c:adjetivos.grande",
             "optionTranslit": {
-              "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
               "不错。": "bù cuò 。",
+              "坏": "huài",
               "大块": "dà kuài",
               "长/高": "zhǎng / gāo"
             },
             "options": [
               "长/高",
               "不错。",
-              "不好,你来这干嘛?",
+              "坏",
               "大块"
             ],
             "prompt": "grande"
@@ -1985,13 +1985,13 @@
             "answerTranslit": "xiǎo shù",
             "concept": "c:adjetivos.pequeno",
             "optionTranslit": {
-              "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+              "坏": "huài",
               "小数": "xiǎo shù",
               "新建( N)": "xīn jiàn ( N)",
               "旧( 人)": "jiù (  rén )"
             },
             "options": [
-              "不好,你来这干嘛?",
+              "坏",
               "小数",
               "新建( N)",
               "旧( 人)"
@@ -2039,7 +2039,7 @@
             "answerTranslit": "xīn jiàn ( N)",
             "concept": "c:adjetivos.nuevo",
             "optionTranslit": {
-              "丑陋的,你这混蛋": "chǒu lòu de , nǐ zhè hùn dàn",
+              "丑": "chǒu",
               "低/ 短数": "dī /  duǎn shù",
               "新建( N)": "xīn jiàn ( N)",
               "旧( 人)": "jiù (  rén )"
@@ -2047,7 +2047,7 @@
             "options": [
               "旧( 人)",
               "新建( N)",
-              "丑陋的,你这混蛋",
+              "丑",
               "低/ 短数"
             ],
             "prompt": "nuevo"
@@ -2057,13 +2057,13 @@
             "answerTranslit": "jiù / gǔ",
             "concept": "c:adjetivos.viejo-antiguo",
             "optionTranslit": {
-              "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+              "坏": "huài",
               "年轻": "nián qīng",
               "旧/古": "jiù / gǔ",
               "美丽相貌": "měi lì xiàng mào"
             },
             "options": [
-              "不好,你来这干嘛?",
+              "坏",
               "年轻",
               "旧/古",
               "美丽相貌"
@@ -2112,7 +2112,7 @@
           [
             "malo",
             "bad",
-            "不好,你来这干嘛?"
+            "坏"
           ],
           [
             "grande",
@@ -2162,7 +2162,7 @@
           [
             "feo",
             "ugly",
-            "丑陋的,你这混蛋"
+            "丑"
           ]
         ],
         "title": "es · en · zh",
@@ -5156,8 +5156,8 @@
         "en": "daughter",
         "es": "hija",
         "speaker": "B",
-        "translit": "nǚ ér , nǐ zhè xiǎo gū niáng",
-        "zh": "女儿,你这小姑娘"
+        "translit": "nǚ ér",
+        "zh": "女儿"
       },
       {
         "concept": "c:familia-y-personas.nino-a",
@@ -5172,16 +5172,16 @@
         "en": "brother",
         "es": "hermano",
         "speaker": "B",
-        "translit": "gē gē , nǐ zhè hùn dàn",
-        "zh": "哥哥,你这混蛋"
+        "translit": "xiōng dì",
+        "zh": "兄弟"
       },
       {
         "concept": "c:familia-y-personas.hermana",
         "en": "sister",
         "es": "hermana",
         "speaker": "A",
-        "translit": "jiě jiě , nǐ zhè xiǎo gū niáng",
-        "zh": "姐姐,你这小姑娘"
+        "translit": "jiě mèi",
+        "zh": "姐妹"
       },
       {
         "concept": "c:familia-y-personas.hermanos",
@@ -5216,14 +5216,14 @@
             "answerTranslit": "jiā tíng",
             "concept": "c:familia-y-personas.familia",
             "optionTranslit": {
-              "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+              "兄弟": "xiōng dì",
               "哥哥们": "gē gē men",
               "家庭": "jiā tíng",
               "父亲的外婆": "fù qīn de wài pó"
             },
             "options": [
               "哥哥们",
-              "哥哥,你这混蛋",
+              "兄弟",
               "父亲的外婆",
               "家庭"
             ],
@@ -5234,14 +5234,14 @@
             "answerTranslit": "mā mā",
             "concept": "c:familia-y-personas.madre",
             "optionTranslit": {
-              "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+              "女儿": "nǚ ér",
               "妈妈": "mā mā",
               "家庭": "jiā tíng",
               "父亲的外婆": "fù qīn de wài pó"
             },
             "options": [
               "父亲的外婆",
-              "女儿,你这小姑娘",
+              "女儿",
               "家庭",
               "妈妈"
             ],
@@ -5271,12 +5271,12 @@
             "concept": "c:familia-y-personas.padres",
             "optionTranslit": {
               "儿童": "ér tóng",
-              "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+              "兄弟": "xiōng dì",
               "家庭": "jiā tíng",
               "父母亲": "fù mǔ qīn"
             },
             "options": [
-              "哥哥,你这混蛋",
+              "兄弟",
               "父母亲",
               "家庭",
               "儿童"
@@ -5289,12 +5289,12 @@
             "concept": "c:familia-y-personas.hijo",
             "optionTranslit": {
               "儿童": "ér tóng",
-              "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+              "女儿": "nǚ ér",
               "妈妈": "mā mā",
               "爷爷": "yé yé"
             },
             "options": [
-              "女儿,你这小姑娘",
+              "女儿",
               "爷爷",
               "妈妈",
               "儿童"
@@ -5302,18 +5302,18 @@
             "prompt": "hijo"
           },
           {
-            "answer": "女儿,你这小姑娘",
-            "answerTranslit": "nǚ ér , nǐ zhè xiǎo gū niáng",
+            "answer": "女儿",
+            "answerTranslit": "nǚ ér",
             "concept": "c:familia-y-personas.hija",
             "optionTranslit": {
               "儿童": "ér tóng",
-              "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+              "女儿": "nǚ ér",
               "妈妈": "mā mā",
               "父母亲": "fù mǔ qīn"
             },
             "options": [
               "儿童",
-              "女儿,你这小姑娘",
+              "女儿",
               "妈妈",
               "父母亲"
             ],
@@ -5338,18 +5338,18 @@
             "prompt": "niño/a"
           },
           {
-            "answer": "哥哥,你这混蛋",
-            "answerTranslit": "gē gē , nǐ zhè hùn dàn",
+            "answer": "兄弟",
+            "answerTranslit": "xiōng dì",
             "concept": "c:familia-y-personas.hermano",
             "optionTranslit": {
               "儿童": "ér tóng",
-              "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+              "兄弟": "xiōng dì",
               "哥哥们": "gē gē men",
               "妈妈": "mā mā"
             },
             "options": [
               "妈妈",
-              "哥哥,你这混蛋",
+              "兄弟",
               "儿童",
               "哥哥们"
             ],
@@ -5417,7 +5417,7 @@
           [
             "hija",
             "daughter",
-            "女儿,你这小姑娘"
+            "女儿"
           ],
           [
             "niño/a",
@@ -5427,12 +5427,12 @@
           [
             "hermano",
             "brother",
-            "哥哥,你这混蛋"
+            "兄弟"
           ],
           [
             "hermana",
             "sister",
-            "姐姐,你这小姑娘"
+            "姐妹"
           ],
           [
             "hermanos",
@@ -6613,11 +6613,11 @@
       },
       {
         "concept": "c:tiempo-y-calendario.manana-temprano",
-        "en": "(early)",
+        "en": "morning",
         "es": "mañana (temprano)",
         "speaker": "B",
-        "translit": "( zǎo )  wèn .",
-        "zh": "(早) 问."
+        "translit": "zǎo shàng",
+        "zh": "早上"
       },
       {
         "concept": "c:tiempo-y-calendario.mediodia-tarde",
@@ -6664,8 +6664,8 @@
         "en": "Today",
         "es": "hoy",
         "speaker": "B",
-        "translit": "jīn tiān , wǒ men lái",
-        "zh": "今天,我们来"
+        "translit": "jīn tiān",
+        "zh": "今天"
       }
     ],
     "exercises": [
@@ -6676,14 +6676,14 @@
             "answerTranslit": "shí jiān / xiǎo shí",
             "concept": "c:tiempo-y-calendario.tiempo-hora",
             "optionTranslit": {
-              "(早) 问.": "( zǎo )  wèn .",
-              "今天,我们来": "jīn tiān , wǒ men lái",
+              "今天": "jīn tiān",
               "分钟": "fēn zhōng",
+              "早上": "zǎo shàng",
               "时间/小时": "shí jiān / xiǎo shí"
             },
             "options": [
-              "(早) 问.",
-              "今天,我们来",
+              "早上",
+              "今天",
               "时间/小时",
               "分钟"
             ],
@@ -6762,17 +6762,17 @@
             "prompt": "hora (duración)"
           },
           {
-            "answer": "(早) 问.",
-            "answerTranslit": "( zǎo )  wèn .",
+            "answer": "早上",
+            "answerTranslit": "zǎo shàng",
             "concept": "c:tiempo-y-calendario.manana-temprano",
             "optionTranslit": {
-              "(早) 问.": "( zǎo )  wèn .",
               "中午/下午": "zhōng wǔ / xià wǔ",
               "日数": "rì shù",
+              "早上": "zǎo shàng",
               "时间/小时": "shí jiān / xiǎo shí"
             },
             "options": [
-              "(早) 问.",
+              "早上",
               "日数",
               "时间/小时",
               "中午/下午"
@@ -6785,7 +6785,7 @@
             "concept": "c:tiempo-y-calendario.mediodia-tarde",
             "optionTranslit": {
               "中午/下午": "zhōng wǔ / xià wǔ",
-              "今天,我们来": "jīn tiān , wǒ men lái",
+              "今天": "jīn tiān",
               "分钟": "fēn zhōng",
               "时间/小时": "shí jiān / xiǎo shí"
             },
@@ -6793,7 +6793,7 @@
               "时间/小时",
               "分钟",
               "中午/下午",
-              "今天,我们来"
+              "今天"
             ],
             "prompt": "mediodía / tarde"
           },
@@ -6876,8 +6876,8 @@
           ],
           [
             "mañana (temprano)",
-            "(early)",
-            "(早) 问."
+            "morning",
+            "早上"
           ],
           [
             "mediodía / tarde",
@@ -6907,7 +6907,7 @@
           [
             "hoy",
             "Today",
-            "今天,我们来"
+            "今天"
           ]
         ],
         "title": "es · en · zh",

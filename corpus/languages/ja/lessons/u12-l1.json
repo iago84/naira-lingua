@@ -98,9 +98,9 @@
       "concept": "c:trabajo-y-profesiones.colega",
       "en": "- I'm sorry, buddy.",
       "es": "colega",
-      "ja": "- 申し訳ありません、このコンテンツはただ今 アメリカ英語 のみです。",
+      "ja": "同僚",
       "speaker": "A",
-      "translit": "- moushiwake arimasen , kono kontentsu hatada ima amerika eigo nomidesu ."
+      "translit": "douryou"
     },
     {
       "concept": "c:trabajo-y-profesiones.equipo",
@@ -345,7 +345,7 @@
         [
           "colega",
           "- I'm sorry, buddy.",
-          "- 申し訳ありません、このコンテンツはただ今 アメリカ英語 のみです。"
+          "同僚"
         ],
         [
           "equipo",

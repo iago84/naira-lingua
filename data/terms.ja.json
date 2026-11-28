@@ -142,12 +142,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "(インフォーマル)",
-    "translit": "( infoomaru )"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "ありがとう",
+    "translit": "arigatou"
   },
   {
     "concept": "c:saludos-y-expresiones.por-favor",
@@ -248,12 +248,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "まぁ、結構です。",
-    "translit": "maa , kekkou desu ."
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "元気です",
+    "translit": "genki desu"
   },
   {
     "concept": "c:saludos-y-expresiones.esta-bien-de-acuerdo",
@@ -900,12 +900,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "で、",
-    "translit": "de ,"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "持ってきて",
+    "translit": "motsu tekite"
   },
   {
     "concept": "c:saludos-y-expresiones.tome",
@@ -1069,12 +1069,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "いま、今は。",
-    "translit": "ima , ima ha ."
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "今すぐ",
+    "translit": "imasu gu"
   },
   {
     "concept": "c:saludos-y-expresiones.despues",
@@ -1199,12 +1199,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "とはいえ、",
-    "translit": "tohaie ,"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "しかし",
+    "translit": "shikashi"
   },
   {
     "concept": "c:saludos-y-expresiones.por-eso",
@@ -2511,12 +2511,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "91,00円",
-    "translit": "91 , 00 en"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "九十",
+    "translit": "kyuujuu"
   },
   {
     "concept": "c:numeros.noventa-y-uno",
@@ -2537,12 +2537,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "91,00円",
-    "translit": "91 , 00 en"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "九十二",
+    "translit": "kyuujuu ni"
   },
   {
     "concept": "c:numeros.noventa-y-tres",
@@ -4213,12 +4213,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "母で、",
-    "translit": "haha de ,"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "義母",
+    "translit": "gibo"
   },
   {
     "concept": "c:familia-y-personas.cunado-hermano-del-esposo",
@@ -4239,12 +4239,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "姉妹イン, 夫の (",
-    "translit": "shimai in , otto no ("
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "義姉",
+    "translit": "gishi"
   },
   {
     "concept": "c:familia-y-personas.cunado-esposo-de-hermana",
@@ -4265,12 +4265,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "姉妹院, 妻と娘 (結婚)",
-    "translit": "shimai in , tsuma to musume ( kekkon )"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "義姉",
+    "translit": "gishi"
   },
   {
     "concept": "c:familia-y-personas.yerno",
@@ -4278,12 +4278,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "ソンイン、ビットチの息子",
-    "translit": "son'in , bittochi no musuko"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "婿",
+    "translit": "muko"
   },
   {
     "concept": "c:familia-y-personas.nuera",
@@ -4291,12 +4291,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "娘イン,",
-    "translit": "musume in ,"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "嫁",
+    "translit": "yome"
   },
   {
     "concept": "c:familia-y-personas.pariente",
@@ -12507,12 +12507,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "神様、神は",
-    "translit": "kamisama , kami ha"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "空",
+    "translit": "sora"
   },
   {
     "concept": "c:naturaleza-y-clima.sol",
@@ -12975,12 +12975,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "(早々)",
-    "translit": "( sousou )"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "朝",
+    "translit": "asa"
   },
   {
     "concept": "c:naturaleza-y-clima.mediodia-tarde",
@@ -15029,12 +15029,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "散歩・出勤、仕事",
-    "translit": "sanpo ・ shukkin , shigoto"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "歩く",
+    "translit": "aruku"
   },
   {
     "concept": "c:verbos-comunes.correr",
@@ -15146,12 +15146,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "取って下さい/捕獲するか、またはキャッチ",
-    "translit": "totsu te kudasai / hokaku suruka , mataha kyatchi"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "取る",
+    "translit": "toru"
   },
   {
     "concept": "c:verbos-comunes.dar",
@@ -15276,12 +15276,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "作って下さい/製造するか、または造ります",
-    "translit": "tsukutsu te kudasai / seizou suruka , mataha tsukuri masu"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "作る",
+    "translit": "tsukuru"
   },
   {
     "concept": "c:verbos-comunes.romper",
@@ -16160,12 +16160,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "歩く/旅行か、または回して下さい",
-    "translit": "aruku / ryokou ka , mataha mawashi te kudasai"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "旅行する",
+    "translit": "ryokou suru"
   },
   {
     "concept": "c:verbos-comunes.quedarse-parado",
@@ -16888,12 +16888,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "速い/急なか、またはスパイシー",
-    "translit": "hayai / kyuuna ka , mataha supaishii"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "速い",
+    "translit": "hayai"
   },
   {
     "concept": "c:adjetivos.lento",
@@ -17044,12 +17044,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "幸せで、喜び",
-    "translit": "shiawase de , yorokobi"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "幸せ",
+    "translit": "shiawase"
   },
   {
     "concept": "c:adjetivos.triste",
@@ -17278,12 +17278,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "(時間)",
-    "translit": "( jikan )"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "自由な",
+    "translit": "jiyuu na"
   },
   {
     "concept": "c:adjetivos.listo-preparado",
@@ -17902,12 +17902,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "新鮮で、最近",
-    "translit": "shinsen de , saikin"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "新鮮",
+    "translit": "shinsen"
   },
   {
     "concept": "c:adjetivos.rancio-viejo-comida",
@@ -18253,12 +18253,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "(早々)",
-    "translit": "( sousou )"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "朝",
+    "translit": "asa"
   },
   {
     "concept": "c:tiempo-y-calendario.mediodia-tarde",
@@ -18344,12 +18344,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "(future) の",
-    "translit": "(future ) no"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "明日",
+    "translit": "ashita"
   },
   {
     "concept": "c:tiempo-y-calendario.ayer",
@@ -18526,12 +18526,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "木曜日, 木",
-    "translit": "mokuyoubi , ki"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "木曜日",
+    "translit": "mokuyoubi"
   },
   {
     "concept": "c:tiempo-y-calendario.viernes",
@@ -19579,12 +19579,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "- 申し訳ありません、このコンテンツはただ今 アメリカ英語 のみです。",
-    "translit": "- moushiwake arimasen , kono kontentsu hatada ima amerika eigo nomidesu ."
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "同僚",
+    "translit": "douryou"
   },
   {
     "concept": "c:trabajo-y-profesiones.equipo",
@@ -24415,12 +24415,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "(法的)",
-    "translit": "( houteki )"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "法律",
+    "translit": "houritsu"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.religion-deber",
@@ -25793,12 +25793,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "是非、チェックをして下さい。",
-    "translit": "zehi , chekku woshite kudasai ."
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "お会計をお願いします",
+    "translit": "o kaikei woo negai shimasu"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.deme-el-menu-por-favor",
@@ -25819,12 +25819,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "水を、喜ばして下さい。",
-    "translit": "mizu wo , yorokoba shite kudasai ."
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "水をください",
+    "translit": "mizu wokudasai"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.donde-esta-el-bano",
@@ -25936,12 +25936,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "グッドナイト、バイ",
-    "translit": "guddonaito , bai"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "おやすみなさい",
+    "translit": "oyasuminasai"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.no-he-entendido",
@@ -25975,12 +25975,12 @@
     "lang": "ja",
     "license": "CC-BY-SA-4.0",
     "pos": null,
-    "review": "auto_imported",
+    "review": "needs_review",
     "script": "japanese",
-    "source": "libretranslate",
-    "source_ref": "argos es-ja",
-    "term": "是非、",
-    "translit": "zehi ,"
+    "source": "ai_model",
+    "source_ref": "curacion manual asistida",
+    "term": "もう一度言ってください",
+    "translit": "mou ichido itte kudasai"
   },
   {
     "concept": "c:vocabulario-extra-y-frases-utiles.es-correcto-esto",
