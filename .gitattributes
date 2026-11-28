@@ -1,0 +1,11 @@
+# Normaliza los finales de línea a LF en el árbol de trabajo.
+#
+# Las herramientas (common.write_json / write_jsonl) escriben LF y el CI corre en
+# Linux, pero en Windows core.autocrlf=true convertía a CRLF lo que se descargaba,
+# de modo que cada recompilación dejaba data/ y corpus/ marcados como
+# "modificados" sin cambios reales de contenido. Forzar LF evita ese ruido.
+* text=auto eol=lf
+
+# Binarios: sin conversión de final de línea.
+*.png binary
+*.ico binary
