@@ -19,56 +19,49 @@
       "en": "city",
       "es": "ciudad",
       "speaker": "A",
-      "sw": "jiji / mji",
-      "translit": "ji-ji"
+      "sw": "jiji / mji"
     },
     {
       "concept": "c:ciudad-y-lugares.pueblo-aldea",
       "en": "village / town",
       "es": "pueblo / aldea",
       "speaker": "B",
-      "sw": "kijiji",
-      "translit": "ki-ji-ji"
+      "sw": "kijiji"
     },
     {
       "concept": "c:ciudad-y-lugares.pais",
       "en": "country",
       "es": "país",
       "speaker": "A",
-      "sw": "nchi / taifa",
-      "translit": "nchi"
+      "sw": "nchi / taifa"
     },
     {
       "concept": "c:ciudad-y-lugares.estado-provincia",
       "en": "State / province",
       "es": "estado / provincia",
       "speaker": "B",
-      "sw": "jimbo / mkoa",
-      "translit": "jim-bo"
+      "sw": "jimbo / mkoa"
     },
     {
       "concept": "c:ciudad-y-lugares.capital",
       "en": "capital",
       "es": "capital",
       "speaker": "A",
-      "sw": "mji mkuu",
-      "translit": "mji mku-u"
+      "sw": "mji mkuu"
     },
     {
       "concept": "c:ciudad-y-lugares.zona-area",
       "en": "area / zone",
       "es": "zona / área",
       "speaker": "B",
-      "sw": "eneo / sehemu",
-      "translit": "e-ne-o"
+      "sw": "eneo / sehemu"
     },
     {
       "concept": "c:ciudad-y-lugares.calle-carretera",
       "en": "Street / road",
       "es": "calle / carretera",
       "speaker": "A",
-      "sw": "barabara / mtaa",
-      "translit": "ba-ra-ba-ra"
+      "sw": "barabara / mtaa"
     },
     {
       "concept": "c:ciudad-y-lugares.callejon",
@@ -82,32 +75,28 @@
       "en": "cross / intersection",
       "es": "cruce / intersección",
       "speaker": "A",
-      "sw": "makutano / njia panda",
-      "translit": "ma-ku-ta-no"
+      "sw": "makutano / njia panda"
     },
     {
       "concept": "c:ciudad-y-lugares.puente",
       "en": "bridge",
       "es": "puente",
       "speaker": "B",
-      "sw": "daraja",
-      "translit": "da-ra-ja"
+      "sw": "daraja"
     },
     {
       "concept": "c:ciudad-y-lugares.plaza",
       "en": "square",
       "es": "plaza",
       "speaker": "A",
-      "sw": "uwanja / mahali pa wazi",
-      "translit": "u-wan-ja"
+      "sw": "uwanja / mahali pa wazi"
     },
     {
       "concept": "c:ciudad-y-lugares.mercado",
       "en": "market",
       "es": "mercado",
       "speaker": "B",
-      "sw": "soko",
-      "translit": "so-ko"
+      "sw": "soko"
     }
   ],
   "exercises": [
@@ -115,14 +104,7 @@
       "items": [
         {
           "answer": "jiji / mji",
-          "answerTranslit": "ji-ji",
           "concept": "c:ciudad-y-lugares.ciudad",
-          "optionTranslit": {
-            "daraja": "da-ra-ja",
-            "eneo / sehemu": "e-ne-o",
-            "jiji / mji": "ji-ji",
-            "nchi / taifa": "nchi"
-          },
           "options": [
             "nchi / taifa",
             "eneo / sehemu",
@@ -133,14 +115,7 @@
         },
         {
           "answer": "kijiji",
-          "answerTranslit": "ki-ji-ji",
           "concept": "c:ciudad-y-lugares.pueblo-aldea",
-          "optionTranslit": {
-            "daraja": "da-ra-ja",
-            "kijiji": "ki-ji-ji",
-            "mji mkuu": "mji mku-u",
-            "uwanja / mahali pa wazi": "u-wan-ja"
-          },
           "options": [
             "mji mkuu",
             "kijiji",
@@ -151,13 +126,7 @@
         },
         {
           "answer": "nchi / taifa",
-          "answerTranslit": "nchi",
           "concept": "c:ciudad-y-lugares.pais",
-          "optionTranslit": {
-            "barabara / mtaa": "ba-ra-ba-ra",
-            "jimbo / mkoa": "jim-bo",
-            "nchi / taifa": "nchi"
-          },
           "options": [
             "barabara / mtaa",
             "nchi / taifa",
@@ -168,14 +137,7 @@
         },
         {
           "answer": "jimbo / mkoa",
-          "answerTranslit": "jim-bo",
           "concept": "c:ciudad-y-lugares.estado-provincia",
-          "optionTranslit": {
-            "jiji / mji": "ji-ji",
-            "jimbo / mkoa": "jim-bo",
-            "makutano / njia panda": "ma-ku-ta-no",
-            "soko": "so-ko"
-          },
           "options": [
             "soko",
             "jiji / mji",
@@ -186,14 +148,7 @@
         },
         {
           "answer": "mji mkuu",
-          "answerTranslit": "mji mku-u",
           "concept": "c:ciudad-y-lugares.capital",
-          "optionTranslit": {
-            "daraja": "da-ra-ja",
-            "jimbo / mkoa": "jim-bo",
-            "mji mkuu": "mji mku-u",
-            "uwanja / mahali pa wazi": "u-wan-ja"
-          },
           "options": [
             "daraja",
             "jimbo / mkoa",
@@ -204,14 +159,7 @@
         },
         {
           "answer": "eneo / sehemu",
-          "answerTranslit": "e-ne-o",
           "concept": "c:ciudad-y-lugares.zona-area",
-          "optionTranslit": {
-            "barabara / mtaa": "ba-ra-ba-ra",
-            "eneo / sehemu": "e-ne-o",
-            "jimbo / mkoa": "jim-bo",
-            "nchi / taifa": "nchi"
-          },
           "options": [
             "barabara / mtaa",
             "jimbo / mkoa",
@@ -222,14 +170,7 @@
         },
         {
           "answer": "barabara / mtaa",
-          "answerTranslit": "ba-ra-ba-ra",
           "concept": "c:ciudad-y-lugares.calle-carretera",
-          "optionTranslit": {
-            "barabara / mtaa": "ba-ra-ba-ra",
-            "daraja": "da-ra-ja",
-            "jiji / mji": "ji-ji",
-            "nchi / taifa": "nchi"
-          },
           "options": [
             "nchi / taifa",
             "barabara / mtaa",
@@ -241,11 +182,6 @@
         {
           "answer": "mtaro",
           "concept": "c:ciudad-y-lugares.callejon",
-          "optionTranslit": {
-            "barabara / mtaa": "ba-ra-ba-ra",
-            "eneo / sehemu": "e-ne-o",
-            "uwanja / mahali pa wazi": "u-wan-ja"
-          },
           "options": [
             "uwanja / mahali pa wazi",
             "eneo / sehemu",

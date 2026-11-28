@@ -19,24 +19,21 @@
       "en": "travel",
       "es": "viaje",
       "speaker": "A",
-      "sw": "safari",
-      "translit": "sa-fa-ri"
+      "sw": "safari"
     },
     {
       "concept": "c:transporte-y-viajes.viaje-trayecto",
       "en": "travel / journey",
       "es": "viaje / trayecto",
       "speaker": "B",
-      "sw": "safari",
-      "translit": "sa-fa-ri"
+      "sw": "safari"
     },
     {
       "concept": "c:transporte-y-viajes.turismo",
       "en": "tourism",
       "es": "turismo",
       "speaker": "A",
-      "sw": "utalii",
-      "translit": "u-ta-li-i"
+      "sw": "utalii"
     },
     {
       "concept": "c:transporte-y-viajes.coche-auto",
@@ -57,40 +54,35 @@
       "en": "bus",
       "es": "autobús",
       "speaker": "B",
-      "sw": "basi",
-      "translit": "ba-si"
+      "sw": "basi"
     },
     {
       "concept": "c:transporte-y-viajes.tren",
       "en": "train",
       "es": "tren",
       "speaker": "A",
-      "sw": "treni / gari la moshi",
-      "translit": "tre-ni"
+      "sw": "treni / gari la moshi"
     },
     {
       "concept": "c:transporte-y-viajes.metro",
       "en": "Subway",
       "es": "metro",
       "speaker": "B",
-      "sw": "reli ya chini ya ardhi / metro",
-      "translit": "me-tro"
+      "sw": "reli ya chini ya ardhi / metro"
     },
     {
       "concept": "c:transporte-y-viajes.avion",
       "en": "aircraft",
       "es": "avión",
       "speaker": "A",
-      "sw": "ndege",
-      "translit": "nde-ge"
+      "sw": "ndege"
     },
     {
       "concept": "c:transporte-y-viajes.barco-avion",
       "en": "boat / aircraft",
       "es": "barco / avión",
       "speaker": "B",
-      "sw": "ndege",
-      "translit": "nde-ge"
+      "sw": "ndege"
     },
     {
       "concept": "c:transporte-y-viajes.barco-bote",
@@ -104,8 +96,7 @@
       "en": "bicycle",
       "es": "bicicleta",
       "speaker": "B",
-      "sw": "baiskeli",
-      "translit": "ba-i-ske-li"
+      "sw": "baiskeli"
     }
   ],
   "exercises": [
@@ -113,13 +104,7 @@
       "items": [
         {
           "answer": "safari",
-          "answerTranslit": "sa-fa-ri",
           "concept": "c:transporte-y-viajes.viaje",
-          "optionTranslit": {
-            "baiskeli": "ba-i-ske-li",
-            "basi": "ba-si",
-            "safari": "sa-fa-ri"
-          },
           "options": [
             "basi",
             "baiskeli",
@@ -130,13 +115,7 @@
         },
         {
           "answer": "safari",
-          "answerTranslit": "sa-fa-ri",
           "concept": "c:transporte-y-viajes.viaje-trayecto",
-          "optionTranslit": {
-            "basi": "ba-si",
-            "ndege": "nde-ge",
-            "safari": "sa-fa-ri"
-          },
           "options": [
             "ndege",
             "gari",
@@ -147,13 +126,7 @@
         },
         {
           "answer": "utalii",
-          "answerTranslit": "u-ta-li-i",
           "concept": "c:transporte-y-viajes.turismo",
-          "optionTranslit": {
-            "ndege": "nde-ge",
-            "treni / gari la moshi": "tre-ni",
-            "utalii": "u-ta-li-i"
-          },
           "options": [
             "gari",
             "treni / gari la moshi",
@@ -165,10 +138,6 @@
         {
           "answer": "gari",
           "concept": "c:transporte-y-viajes.coche-auto",
-          "optionTranslit": {
-            "baiskeli": "ba-i-ske-li",
-            "safari": "sa-fa-ri"
-          },
           "options": [
             "safari",
             "baiskeli",
@@ -180,10 +149,6 @@
         {
           "answer": "teksi",
           "concept": "c:transporte-y-viajes.taxi",
-          "optionTranslit": {
-            "treni / gari la moshi": "tre-ni",
-            "utalii": "u-ta-li-i"
-          },
           "options": [
             "teksi",
             "gari",
@@ -194,12 +159,7 @@
         },
         {
           "answer": "basi",
-          "answerTranslit": "ba-si",
           "concept": "c:transporte-y-viajes.autobus",
-          "optionTranslit": {
-            "basi": "ba-si",
-            "treni / gari la moshi": "tre-ni"
-          },
           "options": [
             "teksi",
             "treni / gari la moshi",
@@ -210,13 +170,7 @@
         },
         {
           "answer": "treni / gari la moshi",
-          "answerTranslit": "tre-ni",
           "concept": "c:transporte-y-viajes.tren",
-          "optionTranslit": {
-            "baiskeli": "ba-i-ske-li",
-            "reli ya chini ya ardhi / metro": "me-tro",
-            "treni / gari la moshi": "tre-ni"
-          },
           "options": [
             "treni / gari la moshi",
             "baiskeli",
@@ -227,13 +181,7 @@
         },
         {
           "answer": "reli ya chini ya ardhi / metro",
-          "answerTranslit": "me-tro",
           "concept": "c:transporte-y-viajes.metro",
-          "optionTranslit": {
-            "reli ya chini ya ardhi / metro": "me-tro",
-            "safari": "sa-fa-ri",
-            "utalii": "u-ta-li-i"
-          },
           "options": [
             "reli ya chini ya ardhi / metro",
             "utalii",

@@ -47,8 +47,7 @@
       "en": "mobile / cell phone",
       "es": "teléfono móvil / celular",
       "speaker": "A",
-      "sw": "simu",
-      "translit": "si-mu"
+      "sw": "simu"
     },
     {
       "concept": "c:tecnologia-y-comunicacion.telefono",
@@ -76,8 +75,7 @@
       "en": "mouse (computer)",
       "es": "ratón (informática)",
       "speaker": "A",
-      "sw": "panya",
-      "translit": "pa-nya"
+      "sw": "panya"
     },
     {
       "concept": "c:tecnologia-y-comunicacion.impresora",
@@ -118,9 +116,6 @@
         {
           "answer": "kompyuta",
           "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
-          "optionTranslit": {
-            "panya": "pa-nya"
-          },
           "options": [
             "laptop",
             "panya",
@@ -143,9 +138,6 @@
         {
           "answer": "kompyuta ndogo",
           "concept": "c:tecnologia-y-comunicacion.tableta",
-          "optionTranslit": {
-            "panya": "pa-nya"
-          },
           "options": [
             "skrini",
             "kamera",
@@ -156,11 +148,7 @@
         },
         {
           "answer": "simu",
-          "answerTranslit": "si-mu",
           "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
-          "optionTranslit": {
-            "panya": "pa-nya"
-          },
           "options": [
             "panya",
             "kompyuta",
@@ -172,9 +160,6 @@
         {
           "answer": "simu",
           "concept": "c:tecnologia-y-comunicacion.telefono",
-          "optionTranslit": {
-            "panya": "pa-nya"
-          },
           "options": [
             "kamera",
             "laptop",
@@ -186,9 +171,6 @@
         {
           "answer": "skrini",
           "concept": "c:tecnologia-y-comunicacion.pantalla",
-          "optionTranslit": {
-            "panya": "pa-nya"
-          },
           "options": [
             "panya",
             "kompyuta ndogo",
@@ -200,9 +182,6 @@
         {
           "answer": "keyboard",
           "concept": "c:tecnologia-y-comunicacion.teclado",
-          "optionTranslit": {
-            "panya": "pa-nya"
-          },
           "options": [
             "kompyuta ndogo",
             "panya",

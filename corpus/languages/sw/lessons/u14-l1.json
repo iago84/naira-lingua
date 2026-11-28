@@ -82,8 +82,7 @@
       "en": "old (person)",
       "es": "viejo (persona)",
       "speaker": "B",
-      "sw": "chakavu / iliyotumika",
-      "translit": "cha-ka-vu"
+      "sw": "chakavu / iliyotumika"
     },
     {
       "concept": "c:adjetivos.hermoso-bonito",
@@ -97,8 +96,7 @@
       "en": "ugly",
       "es": "feo",
       "speaker": "B",
-      "sw": "mbaya / kibaya",
-      "translit": "mba-ya"
+      "sw": "mbaya / kibaya"
     }
   ],
   "exercises": [
@@ -140,9 +138,6 @@
         {
           "answer": "ndogo",
           "concept": "c:adjetivos.pequeno",
-          "optionTranslit": {
-            "chakavu / iliyotumika": "cha-ka-vu"
-          },
           "options": [
             "mbaya",
             "ndogo",
@@ -176,10 +171,6 @@
         {
           "answer": "mpya",
           "concept": "c:adjetivos.nuevo",
-          "optionTranslit": {
-            "chakavu / iliyotumika": "cha-ka-vu",
-            "mbaya / kibaya": "mba-ya"
-          },
           "options": [
             "chakavu / iliyotumika",
             "mpya",

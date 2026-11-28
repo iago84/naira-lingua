@@ -19,88 +19,77 @@
         "en": "Hello.",
         "es": "hola",
         "speaker": "A",
-        "sw": "Habari / Hujambo",
-        "translit": "ha-ba-ri"
+        "sw": "Habari / Hujambo"
       },
       {
         "concept": "c:saludos-y-expresiones.buenos-dias",
         "en": "Good morning.",
         "es": "buenos días",
         "speaker": "B",
-        "sw": "Habari za asubuhi",
-        "translit": "a-su-bu-hi"
+        "sw": "Habari za asubuhi"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-tardes",
         "en": "Good afternoon.",
         "es": "buenas tardes",
         "speaker": "A",
-        "sw": "Habari za mchana",
-        "translit": "m-cha-na"
+        "sw": "Habari za mchana"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-noches",
         "en": "Good night.",
         "es": "buenas noches",
         "speaker": "B",
-        "sw": "Usiku mwema / Habari za usiku",
-        "translit": "u-si-ku mwe-ma"
+        "sw": "Usiku mwema / Habari za usiku"
       },
       {
         "concept": "c:saludos-y-expresiones.gracias",
         "en": "Thank you.",
         "es": "gracias",
         "speaker": "A",
-        "sw": "Asante",
-        "translit": "a-san-te"
+        "sw": "Asante"
       },
       {
         "concept": "c:saludos-y-expresiones.por-favor",
         "en": "Please.",
         "es": "por favor",
         "speaker": "B",
-        "sw": "Tafadhali",
-        "translit": "ta-fa-dha-li"
+        "sw": "Tafadhali"
       },
       {
         "concept": "c:saludos-y-expresiones.perdon-disculpe",
         "en": "Excuse me / excuse",
         "es": "perdón / disculpe",
         "speaker": "A",
-        "sw": "Samahani",
-        "translit": "sa-ma-ha-ni"
+        "sw": "Samahani"
       },
       {
         "concept": "c:saludos-y-expresiones.adios",
         "en": "Bye.",
         "es": "adiós",
         "speaker": "B",
-        "sw": "Kwaheri",
-        "translit": "kwa-he-ri"
+        "sw": "Kwaheri"
       },
       {
         "concept": "c:saludos-y-expresiones.hasta-luego",
         "en": "See you later.",
         "es": "hasta luego",
         "speaker": "A",
-        "sw": "Tutaonana",
-        "translit": "tu-ta-o-na-na"
+        "sw": "Tutaonana"
       },
       {
         "concept": "c:saludos-y-expresiones.si",
         "en": "Yes",
         "es": "sí",
         "speaker": "B",
-        "sw": "Ndiyo",
-        "translit": "ndi-yo"
+        "sw": "Ndiyo"
       },
       {
         "concept": "c:saludos-y-expresiones.no",
         "en": "No.",
         "es": "no",
         "speaker": "A",
-        "sw": "Hapana",
-        "translit": "ha-pa-na"
+        "sw": "Hapana"
       }
     ],
     "exercises": [
@@ -108,14 +97,7 @@
         "items": [
           {
             "answer": "Habari / Hujambo",
-            "answerTranslit": "ha-ba-ri",
             "concept": "c:saludos-y-expresiones.hola",
-            "optionTranslit": {
-              "Habari / Hujambo": "ha-ba-ri",
-              "Habari za mchana": "m-cha-na",
-              "Tafadhali": "ta-fa-dha-li",
-              "Tutaonana": "tu-ta-o-na-na"
-            },
             "options": [
               "Tutaonana",
               "Habari / Hujambo",
@@ -126,14 +108,7 @@
           },
           {
             "answer": "Habari za asubuhi",
-            "answerTranslit": "a-su-bu-hi",
             "concept": "c:saludos-y-expresiones.buenos-dias",
-            "optionTranslit": {
-              "Habari za asubuhi": "a-su-bu-hi",
-              "Ndiyo": "ndi-yo",
-              "Samahani": "sa-ma-ha-ni",
-              "Tafadhali": "ta-fa-dha-li"
-            },
             "options": [
               "Ndiyo",
               "Samahani",
@@ -144,14 +119,7 @@
           },
           {
             "answer": "Habari za mchana",
-            "answerTranslit": "m-cha-na",
             "concept": "c:saludos-y-expresiones.buenas-tardes",
-            "optionTranslit": {
-              "Asante": "a-san-te",
-              "Habari za mchana": "m-cha-na",
-              "Kwaheri": "kwa-he-ri",
-              "Tutaonana": "tu-ta-o-na-na"
-            },
             "options": [
               "Habari za mchana",
               "Tutaonana",
@@ -162,14 +130,7 @@
           },
           {
             "answer": "Usiku mwema / Habari za usiku",
-            "answerTranslit": "u-si-ku mwe-ma",
             "concept": "c:saludos-y-expresiones.buenas-noches",
-            "optionTranslit": {
-              "Habari / Hujambo": "ha-ba-ri",
-              "Kwaheri": "kwa-he-ri",
-              "Tutaonana": "tu-ta-o-na-na",
-              "Usiku mwema / Habari za usiku": "u-si-ku mwe-ma"
-            },
             "options": [
               "Tutaonana",
               "Habari / Hujambo",
@@ -180,14 +141,7 @@
           },
           {
             "answer": "Asante",
-            "answerTranslit": "a-san-te",
             "concept": "c:saludos-y-expresiones.gracias",
-            "optionTranslit": {
-              "Asante": "a-san-te",
-              "Habari / Hujambo": "ha-ba-ri",
-              "Habari za mchana": "m-cha-na",
-              "Tutaonana": "tu-ta-o-na-na"
-            },
             "options": [
               "Asante",
               "Tutaonana",
@@ -198,14 +152,7 @@
           },
           {
             "answer": "Tafadhali",
-            "answerTranslit": "ta-fa-dha-li",
             "concept": "c:saludos-y-expresiones.por-favor",
-            "optionTranslit": {
-              "Asante": "a-san-te",
-              "Habari / Hujambo": "ha-ba-ri",
-              "Habari za asubuhi": "a-su-bu-hi",
-              "Tafadhali": "ta-fa-dha-li"
-            },
             "options": [
               "Tafadhali",
               "Asante",
@@ -216,14 +163,7 @@
           },
           {
             "answer": "Samahani",
-            "answerTranslit": "sa-ma-ha-ni",
             "concept": "c:saludos-y-expresiones.perdon-disculpe",
-            "optionTranslit": {
-              "Habari / Hujambo": "ha-ba-ri",
-              "Hapana": "ha-pa-na",
-              "Samahani": "sa-ma-ha-ni",
-              "Tutaonana": "tu-ta-o-na-na"
-            },
             "options": [
               "Habari / Hujambo",
               "Samahani",
@@ -234,14 +174,7 @@
           },
           {
             "answer": "Kwaheri",
-            "answerTranslit": "kwa-he-ri",
             "concept": "c:saludos-y-expresiones.adios",
-            "optionTranslit": {
-              "Hapana": "ha-pa-na",
-              "Kwaheri": "kwa-he-ri",
-              "Samahani": "sa-ma-ha-ni",
-              "Tutaonana": "tu-ta-o-na-na"
-            },
             "options": [
               "Kwaheri",
               "Samahani",
@@ -371,56 +304,49 @@
         "en": "city",
         "es": "ciudad",
         "speaker": "A",
-        "sw": "jiji / mji",
-        "translit": "ji-ji"
+        "sw": "jiji / mji"
       },
       {
         "concept": "c:ciudad-y-lugares.pueblo-aldea",
         "en": "village / town",
         "es": "pueblo / aldea",
         "speaker": "B",
-        "sw": "kijiji",
-        "translit": "ki-ji-ji"
+        "sw": "kijiji"
       },
       {
         "concept": "c:ciudad-y-lugares.pais",
         "en": "country",
         "es": "país",
         "speaker": "A",
-        "sw": "nchi / taifa",
-        "translit": "nchi"
+        "sw": "nchi / taifa"
       },
       {
         "concept": "c:ciudad-y-lugares.estado-provincia",
         "en": "State / province",
         "es": "estado / provincia",
         "speaker": "B",
-        "sw": "jimbo / mkoa",
-        "translit": "jim-bo"
+        "sw": "jimbo / mkoa"
       },
       {
         "concept": "c:ciudad-y-lugares.capital",
         "en": "capital",
         "es": "capital",
         "speaker": "A",
-        "sw": "mji mkuu",
-        "translit": "mji mku-u"
+        "sw": "mji mkuu"
       },
       {
         "concept": "c:ciudad-y-lugares.zona-area",
         "en": "area / zone",
         "es": "zona / área",
         "speaker": "B",
-        "sw": "eneo / sehemu",
-        "translit": "e-ne-o"
+        "sw": "eneo / sehemu"
       },
       {
         "concept": "c:ciudad-y-lugares.calle-carretera",
         "en": "Street / road",
         "es": "calle / carretera",
         "speaker": "A",
-        "sw": "barabara / mtaa",
-        "translit": "ba-ra-ba-ra"
+        "sw": "barabara / mtaa"
       },
       {
         "concept": "c:ciudad-y-lugares.callejon",
@@ -434,32 +360,28 @@
         "en": "cross / intersection",
         "es": "cruce / intersección",
         "speaker": "A",
-        "sw": "makutano / njia panda",
-        "translit": "ma-ku-ta-no"
+        "sw": "makutano / njia panda"
       },
       {
         "concept": "c:ciudad-y-lugares.puente",
         "en": "bridge",
         "es": "puente",
         "speaker": "B",
-        "sw": "daraja",
-        "translit": "da-ra-ja"
+        "sw": "daraja"
       },
       {
         "concept": "c:ciudad-y-lugares.plaza",
         "en": "square",
         "es": "plaza",
         "speaker": "A",
-        "sw": "uwanja / mahali pa wazi",
-        "translit": "u-wan-ja"
+        "sw": "uwanja / mahali pa wazi"
       },
       {
         "concept": "c:ciudad-y-lugares.mercado",
         "en": "market",
         "es": "mercado",
         "speaker": "B",
-        "sw": "soko",
-        "translit": "so-ko"
+        "sw": "soko"
       }
     ],
     "exercises": [
@@ -467,14 +389,7 @@
         "items": [
           {
             "answer": "jiji / mji",
-            "answerTranslit": "ji-ji",
             "concept": "c:ciudad-y-lugares.ciudad",
-            "optionTranslit": {
-              "daraja": "da-ra-ja",
-              "eneo / sehemu": "e-ne-o",
-              "jiji / mji": "ji-ji",
-              "nchi / taifa": "nchi"
-            },
             "options": [
               "nchi / taifa",
               "eneo / sehemu",
@@ -485,14 +400,7 @@
           },
           {
             "answer": "kijiji",
-            "answerTranslit": "ki-ji-ji",
             "concept": "c:ciudad-y-lugares.pueblo-aldea",
-            "optionTranslit": {
-              "daraja": "da-ra-ja",
-              "kijiji": "ki-ji-ji",
-              "mji mkuu": "mji mku-u",
-              "uwanja / mahali pa wazi": "u-wan-ja"
-            },
             "options": [
               "mji mkuu",
               "kijiji",
@@ -503,13 +411,7 @@
           },
           {
             "answer": "nchi / taifa",
-            "answerTranslit": "nchi",
             "concept": "c:ciudad-y-lugares.pais",
-            "optionTranslit": {
-              "barabara / mtaa": "ba-ra-ba-ra",
-              "jimbo / mkoa": "jim-bo",
-              "nchi / taifa": "nchi"
-            },
             "options": [
               "barabara / mtaa",
               "nchi / taifa",
@@ -520,14 +422,7 @@
           },
           {
             "answer": "jimbo / mkoa",
-            "answerTranslit": "jim-bo",
             "concept": "c:ciudad-y-lugares.estado-provincia",
-            "optionTranslit": {
-              "jiji / mji": "ji-ji",
-              "jimbo / mkoa": "jim-bo",
-              "makutano / njia panda": "ma-ku-ta-no",
-              "soko": "so-ko"
-            },
             "options": [
               "soko",
               "jiji / mji",
@@ -538,14 +433,7 @@
           },
           {
             "answer": "mji mkuu",
-            "answerTranslit": "mji mku-u",
             "concept": "c:ciudad-y-lugares.capital",
-            "optionTranslit": {
-              "daraja": "da-ra-ja",
-              "jimbo / mkoa": "jim-bo",
-              "mji mkuu": "mji mku-u",
-              "uwanja / mahali pa wazi": "u-wan-ja"
-            },
             "options": [
               "daraja",
               "jimbo / mkoa",
@@ -556,14 +444,7 @@
           },
           {
             "answer": "eneo / sehemu",
-            "answerTranslit": "e-ne-o",
             "concept": "c:ciudad-y-lugares.zona-area",
-            "optionTranslit": {
-              "barabara / mtaa": "ba-ra-ba-ra",
-              "eneo / sehemu": "e-ne-o",
-              "jimbo / mkoa": "jim-bo",
-              "nchi / taifa": "nchi"
-            },
             "options": [
               "barabara / mtaa",
               "jimbo / mkoa",
@@ -574,14 +455,7 @@
           },
           {
             "answer": "barabara / mtaa",
-            "answerTranslit": "ba-ra-ba-ra",
             "concept": "c:ciudad-y-lugares.calle-carretera",
-            "optionTranslit": {
-              "barabara / mtaa": "ba-ra-ba-ra",
-              "daraja": "da-ra-ja",
-              "jiji / mji": "ji-ji",
-              "nchi / taifa": "nchi"
-            },
             "options": [
               "nchi / taifa",
               "barabara / mtaa",
@@ -593,11 +467,6 @@
           {
             "answer": "mtaro",
             "concept": "c:ciudad-y-lugares.callejon",
-            "optionTranslit": {
-              "barabara / mtaa": "ba-ra-ba-ra",
-              "eneo / sehemu": "e-ne-o",
-              "uwanja / mahali pa wazi": "u-wan-ja"
-            },
             "options": [
               "uwanja / mahali pa wazi",
               "eneo / sehemu",
@@ -732,96 +601,84 @@
         "en": "clothing",
         "es": "ropa",
         "speaker": "A",
-        "sw": "nguo / mavazi",
-        "translit": "ngu-o"
+        "sw": "nguo / mavazi"
       },
       {
         "concept": "c:ropa-y-accesorios.camisa",
         "en": "shirt",
         "es": "camisa",
         "speaker": "B",
-        "sw": "shati / kamisa",
-        "translit": "sha-ti"
+        "sw": "shati / kamisa"
       },
       {
         "concept": "c:ropa-y-accesorios.camiseta",
         "en": "T-shirt",
         "es": "camiseta",
         "speaker": "A",
-        "sw": "fulana / tishati",
-        "translit": "fu-la-na"
+        "sw": "fulana / tishati"
       },
       {
         "concept": "c:ropa-y-accesorios.pantalon",
         "en": "Pants",
         "es": "pantalón",
         "speaker": "B",
-        "sw": "suruali / kaptura",
-        "translit": "su-ru-a-li"
+        "sw": "suruali / kaptura"
       },
       {
         "concept": "c:ropa-y-accesorios.vaqueros-jeans",
         "en": "jeans / jans",
         "es": "vaqueros / jeans",
         "speaker": "A",
-        "sw": "jeans / suruali ya denim",
-        "translit": "ji-nsi"
+        "sw": "jeans / suruali ya denim"
       },
       {
         "concept": "c:ropa-y-accesorios.pantalones-cortos",
         "en": "Short pants",
         "es": "pantalones cortos",
         "speaker": "B",
-        "sw": "pantalones",
-        "translit": "pantalones"
+        "sw": "pantalones"
       },
       {
         "concept": "c:ropa-y-accesorios.falda",
         "en": "skirt",
         "es": "falda",
         "speaker": "A",
-        "sw": "sketi",
-        "translit": "ske-ti"
+        "sw": "sketi"
       },
       {
         "concept": "c:ropa-y-accesorios.vestido",
         "en": "dress up",
         "es": "vestido",
         "speaker": "B",
-        "sw": "gauni / vazi",
-        "translit": "ga-u-ni"
+        "sw": "gauni / vazi"
       },
       {
         "concept": "c:ropa-y-accesorios.sari",
         "en": "sari",
         "es": "sari",
         "speaker": "A",
-        "sw": "sari",
-        "translit": "sari"
+        "sw": "sari"
       },
       {
         "concept": "c:ropa-y-accesorios.salwar-kameez",
         "en": "salwar kameez",
         "es": "salwar kameez",
         "speaker": "B",
-        "sw": "salwar",
-        "translit": "salwar"
+        "sw": "salwar"
       },
       {
         "concept": "c:ropa-y-accesorios.kurta",
         "en": "kurta",
         "es": "kurta",
         "speaker": "A",
-        "sw": "kurta",
-        "translit": "kurta"
+        "sw": "kurta"
       },
       {
         "concept": "c:ropa-y-accesorios.pijama",
         "en": "pajamas",
         "es": "pijama",
         "speaker": "B",
-        "sw": "nguo za kulalia / pajama",
-        "translit": "pa-ja-ma"
+        "sw": "nguo za kulalia / pajama"
       }
     ],
     "exercises": [
@@ -829,14 +686,7 @@
         "items": [
           {
             "answer": "nguo / mavazi",
-            "answerTranslit": "ngu-o",
             "concept": "c:ropa-y-accesorios.ropa",
-            "optionTranslit": {
-              "fulana / tishati": "fu-la-na",
-              "gauni / vazi": "ga-u-ni",
-              "jeans / suruali ya denim": "ji-nsi",
-              "nguo / mavazi": "ngu-o"
-            },
             "options": [
               "jeans / suruali ya denim",
               "gauni / vazi",
@@ -847,14 +697,7 @@
           },
           {
             "answer": "shati / kamisa",
-            "answerTranslit": "sha-ti",
             "concept": "c:ropa-y-accesorios.camisa",
-            "optionTranslit": {
-              "gauni / vazi": "ga-u-ni",
-              "nguo za kulalia / pajama": "pa-ja-ma",
-              "pantalones": "pantalones",
-              "shati / kamisa": "sha-ti"
-            },
             "options": [
               "shati / kamisa",
               "pantalones",
@@ -865,14 +708,7 @@
           },
           {
             "answer": "fulana / tishati",
-            "answerTranslit": "fu-la-na",
             "concept": "c:ropa-y-accesorios.camiseta",
-            "optionTranslit": {
-              "fulana / tishati": "fu-la-na",
-              "gauni / vazi": "ga-u-ni",
-              "kurta": "kurta",
-              "nguo za kulalia / pajama": "pa-ja-ma"
-            },
             "options": [
               "fulana / tishati",
               "nguo za kulalia / pajama",
@@ -883,14 +719,7 @@
           },
           {
             "answer": "suruali / kaptura",
-            "answerTranslit": "su-ru-a-li",
             "concept": "c:ropa-y-accesorios.pantalon",
-            "optionTranslit": {
-              "nguo / mavazi": "ngu-o",
-              "nguo za kulalia / pajama": "pa-ja-ma",
-              "salwar": "salwar",
-              "suruali / kaptura": "su-ru-a-li"
-            },
             "options": [
               "nguo / mavazi",
               "suruali / kaptura",
@@ -901,14 +730,7 @@
           },
           {
             "answer": "jeans / suruali ya denim",
-            "answerTranslit": "ji-nsi",
             "concept": "c:ropa-y-accesorios.vaqueros-jeans",
-            "optionTranslit": {
-              "fulana / tishati": "fu-la-na",
-              "jeans / suruali ya denim": "ji-nsi",
-              "sari": "sari",
-              "sketi": "ske-ti"
-            },
             "options": [
               "sari",
               "fulana / tishati",
@@ -919,14 +741,7 @@
           },
           {
             "answer": "pantalones",
-            "answerTranslit": "pantalones",
             "concept": "c:ropa-y-accesorios.pantalones-cortos",
-            "optionTranslit": {
-              "fulana / tishati": "fu-la-na",
-              "kurta": "kurta",
-              "pantalones": "pantalones",
-              "suruali / kaptura": "su-ru-a-li"
-            },
             "options": [
               "fulana / tishati",
               "pantalones",
@@ -937,14 +752,7 @@
           },
           {
             "answer": "sketi",
-            "answerTranslit": "ske-ti",
             "concept": "c:ropa-y-accesorios.falda",
-            "optionTranslit": {
-              "gauni / vazi": "ga-u-ni",
-              "nguo / mavazi": "ngu-o",
-              "sari": "sari",
-              "sketi": "ske-ti"
-            },
             "options": [
               "sketi",
               "gauni / vazi",
@@ -955,14 +763,7 @@
           },
           {
             "answer": "gauni / vazi",
-            "answerTranslit": "ga-u-ni",
             "concept": "c:ropa-y-accesorios.vestido",
-            "optionTranslit": {
-              "gauni / vazi": "ga-u-ni",
-              "nguo / mavazi": "ngu-o",
-              "nguo za kulalia / pajama": "pa-ja-ma",
-              "suruali / kaptura": "su-ru-a-li"
-            },
             "options": [
               "nguo / mavazi",
               "gauni / vazi",
@@ -1139,16 +940,14 @@
         "en": "office /",
         "es": "oficina / despacho",
         "speaker": "A",
-        "sw": "ofisi",
-        "translit": "o-fi-si"
+        "sw": "ofisi"
       },
       {
         "concept": "c:trabajo-y-profesiones.dueno-propietario",
         "en": "owner / proprietor",
         "es": "dueño / propietario",
         "speaker": "B",
-        "sw": "mmiliki",
-        "translit": "mmi-li-ki"
+        "sw": "mmiliki"
       },
       {
         "concept": "c:trabajo-y-profesiones.jefe-a",
@@ -1162,16 +961,14 @@
         "en": "employee",
         "es": "empleado/a",
         "speaker": "B",
-        "sw": "mfanyakazi / mwajiriwa",
-        "translit": "mfa-nya-ka-zi"
+        "sw": "mfanyakazi / mwajiriwa"
       },
       {
         "concept": "c:trabajo-y-profesiones.colega",
         "en": "- I'm sorry, buddy.",
         "es": "colega",
         "speaker": "A",
-        "sw": "mfanyakazi mwenzake",
-        "translit": "mwe-nza-ke"
+        "sw": "mfanyakazi mwenzake"
       },
       {
         "concept": "c:trabajo-y-profesiones.equipo",
@@ -1187,9 +984,6 @@
           {
             "answer": "kazi",
             "concept": "c:trabajo-y-profesiones.trabajo-labor",
-            "optionTranslit": {
-              "ofisi": "o-fi-si"
-            },
             "options": [
               "timu",
               "ofisi",
@@ -1201,11 +995,6 @@
           {
             "answer": "kazi",
             "concept": "c:trabajo-y-profesiones.empleo-trabajo",
-            "optionTranslit": {
-              "mfanyakazi mwenzake": "mwe-nza-ke",
-              "mmiliki": "mmi-li-ki",
-              "ofisi": "o-fi-si"
-            },
             "options": [
               "kazi",
               "mfanyakazi mwenzake",
@@ -1217,9 +1006,6 @@
           {
             "answer": "utaalamu",
             "concept": "c:trabajo-y-profesiones.profesion-oficio",
-            "optionTranslit": {
-              "mmiliki": "mmi-li-ki"
-            },
             "options": [
               "utaalamu",
               "kazi",
@@ -1231,10 +1017,6 @@
           {
             "answer": "biashara",
             "concept": "c:trabajo-y-profesiones.negocio-profesion",
-            "optionTranslit": {
-              "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
-              "mfanyakazi mwenzake": "mwe-nza-ke"
-            },
             "options": [
               "kazi",
               "mfanyakazi / mwajiriwa",
@@ -1246,9 +1028,6 @@
           {
             "answer": "kampuni",
             "concept": "c:trabajo-y-profesiones.empresa-compania",
-            "optionTranslit": {
-              "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi"
-            },
             "options": [
               "kampuni",
               "utaalamu",
@@ -1260,11 +1039,6 @@
           {
             "answer": "ofisi",
             "concept": "c:trabajo-y-profesiones.oficina",
-            "optionTranslit": {
-              "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
-              "mmiliki": "mmi-li-ki",
-              "ofisi": "o-fi-si"
-            },
             "options": [
               "mmiliki",
               "ofisi",
@@ -1275,11 +1049,7 @@
           },
           {
             "answer": "ofisi",
-            "answerTranslit": "o-fi-si",
             "concept": "c:trabajo-y-profesiones.oficina-despacho",
-            "optionTranslit": {
-              "ofisi": "o-fi-si"
-            },
             "options": [
               "ofisi",
               "mkuu",
@@ -1290,12 +1060,7 @@
           },
           {
             "answer": "mmiliki",
-            "answerTranslit": "mmi-li-ki",
             "concept": "c:trabajo-y-profesiones.dueno-propietario",
-            "optionTranslit": {
-              "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
-              "mmiliki": "mmi-li-ki"
-            },
             "options": [
               "timu",
               "mfanyakazi / mwajiriwa",
@@ -1444,8 +1209,7 @@
         "en": "go",
         "es": "ir",
         "speaker": "A",
-        "sw": "ir",
-        "translit": "ir"
+        "sw": "ir"
       },
       {
         "concept": "c:verbos-comunes.venir",
@@ -1538,11 +1302,7 @@
           },
           {
             "answer": "ir",
-            "answerTranslit": "ir",
             "concept": "c:verbos-comunes.ir",
-            "optionTranslit": {
-              "ir": "ir"
-            },
             "options": [
               "ir",
               "kuwa",
@@ -1565,9 +1325,6 @@
           {
             "answer": "kuona",
             "concept": "c:verbos-comunes.ver-mirar",
-            "optionTranslit": {
-              "ir": "ir"
-            },
             "options": [
               "kuona",
               "kuzungumza",
@@ -1601,9 +1358,6 @@
           {
             "answer": "kusema",
             "concept": "c:verbos-comunes.decir",
-            "optionTranslit": {
-              "ir": "ir"
-            },
             "options": [
               "ir",
               "kufanya",
@@ -1801,8 +1555,7 @@
         "en": "old (person)",
         "es": "viejo (persona)",
         "speaker": "B",
-        "sw": "chakavu / iliyotumika",
-        "translit": "cha-ka-vu"
+        "sw": "chakavu / iliyotumika"
       },
       {
         "concept": "c:adjetivos.hermoso-bonito",
@@ -1816,8 +1569,7 @@
         "en": "ugly",
         "es": "feo",
         "speaker": "B",
-        "sw": "mbaya / kibaya",
-        "translit": "mba-ya"
+        "sw": "mbaya / kibaya"
       }
     ],
     "exercises": [
@@ -1859,9 +1611,6 @@
           {
             "answer": "ndogo",
             "concept": "c:adjetivos.pequeno",
-            "optionTranslit": {
-              "chakavu / iliyotumika": "cha-ka-vu"
-            },
             "options": [
               "mbaya",
               "ndogo",
@@ -1895,10 +1644,6 @@
           {
             "answer": "mpya",
             "concept": "c:adjetivos.nuevo",
-            "optionTranslit": {
-              "chakavu / iliyotumika": "cha-ka-vu",
-              "mbaya / kibaya": "mba-ya"
-            },
             "options": [
               "chakavu / iliyotumika",
               "mpya",
@@ -2079,16 +1824,14 @@
         "en": "seller / tenderer",
         "es": "vendedor / tendero",
         "speaker": "B",
-        "sw": "muuzaji",
-        "translit": "mu-u-za-ji"
+        "sw": "muuzaji"
       },
       {
         "concept": "c:viajes-compras-y-servicios.cliente-comprador",
         "en": "customer / buyer",
         "es": "cliente / comprador",
         "speaker": "A",
-        "sw": "mteja",
-        "translit": "mte-ja"
+        "sw": "mteja"
       },
       {
         "concept": "c:viajes-compras-y-servicios.precio",
@@ -2109,8 +1852,7 @@
         "en": "Indian rupee (INR)",
         "es": "rupia india (INR)",
         "speaker": "B",
-        "sw": "rupia",
-        "translit": "rupia"
+        "sw": "rupia"
       },
       {
         "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
@@ -2133,9 +1875,6 @@
           {
             "answer": "ununuzi",
             "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
-            "optionTranslit": {
-              "mteja": "mte-ja"
-            },
             "options": [
               "supamaketi",
               "mteja",
@@ -2147,9 +1886,6 @@
           {
             "answer": "duka",
             "concept": "c:viajes-compras-y-servicios.tienda",
-            "optionTranslit": {
-              "muuzaji": "mu-u-za-ji"
-            },
             "options": [
               "muuzaji",
               "duka",
@@ -2161,9 +1897,6 @@
           {
             "answer": "soko",
             "concept": "c:viajes-compras-y-servicios.mercado",
-            "optionTranslit": {
-              "rupia": "rupia"
-            },
             "options": [
               "rupia",
               "duka",
@@ -2175,9 +1908,6 @@
           {
             "answer": "supamaketi",
             "concept": "c:viajes-compras-y-servicios.supermercado",
-            "optionTranslit": {
-              "rupia": "rupia"
-            },
             "options": [
               "rupia",
               "bei",
@@ -2189,9 +1919,6 @@
           {
             "answer": "maduka makubwa",
             "concept": "c:viajes-compras-y-servicios.centro-comercial",
-            "optionTranslit": {
-              "muuzaji": "mu-u-za-ji"
-            },
             "options": [
               "supamaketi",
               "muuzaji",
@@ -2202,12 +1929,7 @@
           },
           {
             "answer": "muuzaji",
-            "answerTranslit": "mu-u-za-ji",
             "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
-            "optionTranslit": {
-              "muuzaji": "mu-u-za-ji",
-              "rupia": "rupia"
-            },
             "options": [
               "ununuzi",
               "rupia",
@@ -2218,11 +1940,7 @@
           },
           {
             "answer": "mteja",
-            "answerTranslit": "mte-ja",
             "concept": "c:viajes-compras-y-servicios.cliente-comprador",
-            "optionTranslit": {
-              "mteja": "mte-ja"
-            },
             "options": [
               "ununuzi",
               "bei",
@@ -2368,24 +2086,21 @@
         "en": "travel",
         "es": "viaje",
         "speaker": "A",
-        "sw": "safari",
-        "translit": "sa-fa-ri"
+        "sw": "safari"
       },
       {
         "concept": "c:transporte-y-viajes.viaje-trayecto",
         "en": "travel / journey",
         "es": "viaje / trayecto",
         "speaker": "B",
-        "sw": "safari",
-        "translit": "sa-fa-ri"
+        "sw": "safari"
       },
       {
         "concept": "c:transporte-y-viajes.turismo",
         "en": "tourism",
         "es": "turismo",
         "speaker": "A",
-        "sw": "utalii",
-        "translit": "u-ta-li-i"
+        "sw": "utalii"
       },
       {
         "concept": "c:transporte-y-viajes.coche-auto",
@@ -2406,40 +2121,35 @@
         "en": "bus",
         "es": "autobús",
         "speaker": "B",
-        "sw": "basi",
-        "translit": "ba-si"
+        "sw": "basi"
       },
       {
         "concept": "c:transporte-y-viajes.tren",
         "en": "train",
         "es": "tren",
         "speaker": "A",
-        "sw": "treni / gari la moshi",
-        "translit": "tre-ni"
+        "sw": "treni / gari la moshi"
       },
       {
         "concept": "c:transporte-y-viajes.metro",
         "en": "Subway",
         "es": "metro",
         "speaker": "B",
-        "sw": "reli ya chini ya ardhi / metro",
-        "translit": "me-tro"
+        "sw": "reli ya chini ya ardhi / metro"
       },
       {
         "concept": "c:transporte-y-viajes.avion",
         "en": "aircraft",
         "es": "avión",
         "speaker": "A",
-        "sw": "ndege",
-        "translit": "nde-ge"
+        "sw": "ndege"
       },
       {
         "concept": "c:transporte-y-viajes.barco-avion",
         "en": "boat / aircraft",
         "es": "barco / avión",
         "speaker": "B",
-        "sw": "ndege",
-        "translit": "nde-ge"
+        "sw": "ndege"
       },
       {
         "concept": "c:transporte-y-viajes.barco-bote",
@@ -2453,8 +2163,7 @@
         "en": "bicycle",
         "es": "bicicleta",
         "speaker": "B",
-        "sw": "baiskeli",
-        "translit": "ba-i-ske-li"
+        "sw": "baiskeli"
       }
     ],
     "exercises": [
@@ -2462,13 +2171,7 @@
         "items": [
           {
             "answer": "safari",
-            "answerTranslit": "sa-fa-ri",
             "concept": "c:transporte-y-viajes.viaje",
-            "optionTranslit": {
-              "baiskeli": "ba-i-ske-li",
-              "basi": "ba-si",
-              "safari": "sa-fa-ri"
-            },
             "options": [
               "basi",
               "baiskeli",
@@ -2479,13 +2182,7 @@
           },
           {
             "answer": "safari",
-            "answerTranslit": "sa-fa-ri",
             "concept": "c:transporte-y-viajes.viaje-trayecto",
-            "optionTranslit": {
-              "basi": "ba-si",
-              "ndege": "nde-ge",
-              "safari": "sa-fa-ri"
-            },
             "options": [
               "ndege",
               "gari",
@@ -2496,13 +2193,7 @@
           },
           {
             "answer": "utalii",
-            "answerTranslit": "u-ta-li-i",
             "concept": "c:transporte-y-viajes.turismo",
-            "optionTranslit": {
-              "ndege": "nde-ge",
-              "treni / gari la moshi": "tre-ni",
-              "utalii": "u-ta-li-i"
-            },
             "options": [
               "gari",
               "treni / gari la moshi",
@@ -2514,10 +2205,6 @@
           {
             "answer": "gari",
             "concept": "c:transporte-y-viajes.coche-auto",
-            "optionTranslit": {
-              "baiskeli": "ba-i-ske-li",
-              "safari": "sa-fa-ri"
-            },
             "options": [
               "safari",
               "baiskeli",
@@ -2529,10 +2216,6 @@
           {
             "answer": "teksi",
             "concept": "c:transporte-y-viajes.taxi",
-            "optionTranslit": {
-              "treni / gari la moshi": "tre-ni",
-              "utalii": "u-ta-li-i"
-            },
             "options": [
               "teksi",
               "gari",
@@ -2543,12 +2226,7 @@
           },
           {
             "answer": "basi",
-            "answerTranslit": "ba-si",
             "concept": "c:transporte-y-viajes.autobus",
-            "optionTranslit": {
-              "basi": "ba-si",
-              "treni / gari la moshi": "tre-ni"
-            },
             "options": [
               "teksi",
               "treni / gari la moshi",
@@ -2559,13 +2237,7 @@
           },
           {
             "answer": "treni / gari la moshi",
-            "answerTranslit": "tre-ni",
             "concept": "c:transporte-y-viajes.tren",
-            "optionTranslit": {
-              "baiskeli": "ba-i-ske-li",
-              "reli ya chini ya ardhi / metro": "me-tro",
-              "treni / gari la moshi": "tre-ni"
-            },
             "options": [
               "treni / gari la moshi",
               "baiskeli",
@@ -2576,13 +2248,7 @@
           },
           {
             "answer": "reli ya chini ya ardhi / metro",
-            "answerTranslit": "me-tro",
             "concept": "c:transporte-y-viajes.metro",
-            "optionTranslit": {
-              "reli ya chini ya ardhi / metro": "me-tro",
-              "safari": "sa-fa-ri",
-              "utalii": "u-ta-li-i"
-            },
             "options": [
               "reli ya chini ya ardhi / metro",
               "utalii",
@@ -2745,8 +2411,7 @@
         "en": "curriculum / course",
         "es": "plan de estudios / curso",
         "speaker": "A",
-        "sw": "plan",
-        "translit": "plan"
+        "sw": "plan"
       },
       {
         "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
@@ -2774,8 +2439,7 @@
         "en": "history",
         "es": "historia",
         "speaker": "A",
-        "sw": "historia",
-        "translit": "historia"
+        "sw": "historia"
       },
       {
         "concept": "c:educacion-y-aprendizaje.geografia",
@@ -2805,9 +2469,6 @@
           {
             "answer": "elimu",
             "concept": "c:educacion-y-aprendizaje.educacion",
-            "optionTranslit": {
-              "plan": "plan"
-            },
             "options": [
               "mada",
               "plan",
@@ -2830,9 +2491,6 @@
           {
             "answer": "darasa",
             "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
-            "optionTranslit": {
-              "historia": "historia"
-            },
             "options": [
               "mada",
               "jiografia",
@@ -2844,9 +2502,6 @@
           {
             "answer": "somo",
             "concept": "c:educacion-y-aprendizaje.leccion",
-            "optionTranslit": {
-              "historia": "historia"
-            },
             "options": [
               "historia",
               "lugha",
@@ -2857,11 +2512,7 @@
           },
           {
             "answer": "plan",
-            "answerTranslit": "plan",
             "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
-            "optionTranslit": {
-              "plan": "plan"
-            },
             "options": [
               "shule",
               "jiografia",
@@ -3057,8 +2708,7 @@
         "en": "mobile / cell phone",
         "es": "teléfono móvil / celular",
         "speaker": "A",
-        "sw": "simu",
-        "translit": "si-mu"
+        "sw": "simu"
       },
       {
         "concept": "c:tecnologia-y-comunicacion.telefono",
@@ -3086,8 +2736,7 @@
         "en": "mouse (computer)",
         "es": "ratón (informática)",
         "speaker": "A",
-        "sw": "panya",
-        "translit": "pa-nya"
+        "sw": "panya"
       },
       {
         "concept": "c:tecnologia-y-comunicacion.impresora",
@@ -3128,9 +2777,6 @@
           {
             "answer": "kompyuta",
             "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
-            "optionTranslit": {
-              "panya": "pa-nya"
-            },
             "options": [
               "laptop",
               "panya",
@@ -3153,9 +2799,6 @@
           {
             "answer": "kompyuta ndogo",
             "concept": "c:tecnologia-y-comunicacion.tableta",
-            "optionTranslit": {
-              "panya": "pa-nya"
-            },
             "options": [
               "skrini",
               "kamera",
@@ -3166,11 +2809,7 @@
           },
           {
             "answer": "simu",
-            "answerTranslit": "si-mu",
             "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
-            "optionTranslit": {
-              "panya": "pa-nya"
-            },
             "options": [
               "panya",
               "kompyuta",
@@ -3182,9 +2821,6 @@
           {
             "answer": "simu",
             "concept": "c:tecnologia-y-comunicacion.telefono",
-            "optionTranslit": {
-              "panya": "pa-nya"
-            },
             "options": [
               "kamera",
               "laptop",
@@ -3196,9 +2832,6 @@
           {
             "answer": "skrini",
             "concept": "c:tecnologia-y-comunicacion.pantalla",
-            "optionTranslit": {
-              "panya": "pa-nya"
-            },
             "options": [
               "panya",
               "kompyuta ndogo",
@@ -3210,9 +2843,6 @@
           {
             "answer": "keyboard",
             "concept": "c:tecnologia-y-comunicacion.teclado",
-            "optionTranslit": {
-              "panya": "pa-nya"
-            },
             "options": [
               "kompyuta ndogo",
               "panya",
@@ -3347,56 +2977,49 @@
         "en": "nature",
         "es": "naturaleza",
         "speaker": "A",
-        "sw": "asili / mazingira",
-        "translit": "a-si-li"
+        "sw": "asili / mazingira"
       },
       {
         "concept": "c:naturaleza-y-clima.arbol",
         "en": "tree",
         "es": "árbol",
         "speaker": "B",
-        "sw": "mti",
-        "translit": "mti"
+        "sw": "mti"
       },
       {
         "concept": "c:naturaleza-y-clima.planta",
         "en": "plant",
         "es": "planta",
         "speaker": "A",
-        "sw": "mmea",
-        "translit": "mme-a"
+        "sw": "mmea"
       },
       {
         "concept": "c:naturaleza-y-clima.flor",
         "en": "flower",
         "es": "flor",
         "speaker": "B",
-        "sw": "ua / maua",
-        "translit": "u-a"
+        "sw": "ua / maua"
       },
       {
         "concept": "c:naturaleza-y-clima.hoja",
         "en": "leaf",
         "es": "hoja",
         "speaker": "A",
-        "sw": "jani / majani",
-        "translit": "ja-ni"
+        "sw": "jani / majani"
       },
       {
         "concept": "c:naturaleza-y-clima.raiz",
         "en": "root",
         "es": "raíz",
         "speaker": "B",
-        "sw": "mzizi",
-        "translit": "mzi-zi"
+        "sw": "mzizi"
       },
       {
         "concept": "c:naturaleza-y-clima.rama",
         "en": "branch",
         "es": "rama",
         "speaker": "A",
-        "sw": "tawi / matawi",
-        "translit": "ta-wi"
+        "sw": "tawi / matawi"
       },
       {
         "concept": "c:naturaleza-y-clima.tronco-tallo",
@@ -3410,8 +3033,7 @@
         "en": "seed",
         "es": "semilla",
         "speaker": "A",
-        "sw": "mbegu / punje",
-        "translit": "mbe-gu"
+        "sw": "mbegu / punje"
       },
       {
         "concept": "c:naturaleza-y-clima.hierba-cesped",
@@ -3440,12 +3062,7 @@
         "items": [
           {
             "answer": "asili / mazingira",
-            "answerTranslit": "a-si-li",
             "concept": "c:naturaleza-y-clima.naturaleza",
-            "optionTranslit": {
-              "asili / mazingira": "a-si-li",
-              "mmea": "mme-a"
-            },
             "options": [
               "asili / mazingira",
               "nyasi",
@@ -3456,14 +3073,7 @@
           },
           {
             "answer": "mti",
-            "answerTranslit": "mti",
             "concept": "c:naturaleza-y-clima.arbol",
-            "optionTranslit": {
-              "asili / mazingira": "a-si-li",
-              "jani / majani": "ja-ni",
-              "mti": "mti",
-              "tawi / matawi": "ta-wi"
-            },
             "options": [
               "asili / mazingira",
               "mti",
@@ -3474,12 +3084,7 @@
           },
           {
             "answer": "mmea",
-            "answerTranslit": "mme-a",
             "concept": "c:naturaleza-y-clima.planta",
-            "optionTranslit": {
-              "mmea": "mme-a",
-              "mti": "mti"
-            },
             "options": [
               "msitu",
               "mti",
@@ -3490,13 +3095,7 @@
           },
           {
             "answer": "ua / maua",
-            "answerTranslit": "u-a",
             "concept": "c:naturaleza-y-clima.flor",
-            "optionTranslit": {
-              "mbegu / punje": "mbe-gu",
-              "tawi / matawi": "ta-wi",
-              "ua / maua": "u-a"
-            },
             "options": [
               "tawi / matawi",
               "mbegu / punje",
@@ -3507,12 +3106,7 @@
           },
           {
             "answer": "jani / majani",
-            "answerTranslit": "ja-ni",
             "concept": "c:naturaleza-y-clima.hoja",
-            "optionTranslit": {
-              "jani / majani": "ja-ni",
-              "mti": "mti"
-            },
             "options": [
               "msitu",
               "nyasi",
@@ -3523,13 +3117,7 @@
           },
           {
             "answer": "mzizi",
-            "answerTranslit": "mzi-zi",
             "concept": "c:naturaleza-y-clima.raiz",
-            "optionTranslit": {
-              "mbegu / punje": "mbe-gu",
-              "tawi / matawi": "ta-wi",
-              "ua / maua": "u-a"
-            },
             "options": [
               "mbegu / punje",
               "ua / maua",
@@ -3540,13 +3128,7 @@
           },
           {
             "answer": "tawi / matawi",
-            "answerTranslit": "ta-wi",
             "concept": "c:naturaleza-y-clima.rama",
-            "optionTranslit": {
-              "jani / majani": "ja-ni",
-              "mmea": "mme-a",
-              "tawi / matawi": "ta-wi"
-            },
             "options": [
               "mmea",
               "tawi / matawi",
@@ -3558,10 +3140,6 @@
           {
             "answer": "mzizi",
             "concept": "c:naturaleza-y-clima.tronco-tallo",
-            "optionTranslit": {
-              "jani / majani": "ja-ni",
-              "mti": "mti"
-            },
             "options": [
               "jani / majani",
               "nyasi",
@@ -3696,96 +3274,84 @@
         "en": "zero",
         "es": "cero",
         "speaker": "A",
-        "sw": "sifuri",
-        "translit": "si-fu-ri"
+        "sw": "sifuri"
       },
       {
         "concept": "c:numeros.uno",
         "en": "one",
         "es": "uno",
         "speaker": "B",
-        "sw": "moja",
-        "translit": "mo-ja"
+        "sw": "moja"
       },
       {
         "concept": "c:numeros.dos",
         "en": "two",
         "es": "dos",
         "speaker": "A",
-        "sw": "mbili",
-        "translit": "mbi-li"
+        "sw": "mbili"
       },
       {
         "concept": "c:numeros.tres",
         "en": "three",
         "es": "tres",
         "speaker": "B",
-        "sw": "tatu",
-        "translit": "ta-tu"
+        "sw": "tatu"
       },
       {
         "concept": "c:numeros.cuatro",
         "en": "4",
         "es": "cuatro",
         "speaker": "A",
-        "sw": "nne",
-        "translit": "nne"
+        "sw": "nne"
       },
       {
         "concept": "c:numeros.cinco",
         "en": "five",
         "es": "cinco",
         "speaker": "B",
-        "sw": "tano",
-        "translit": "ta-no"
+        "sw": "tano"
       },
       {
         "concept": "c:numeros.seis",
         "en": "6",
         "es": "seis",
         "speaker": "A",
-        "sw": "sita",
-        "translit": "si-ta"
+        "sw": "sita"
       },
       {
         "concept": "c:numeros.siete",
         "en": "seven",
         "es": "siete",
         "speaker": "B",
-        "sw": "saba",
-        "translit": "sa-ba"
+        "sw": "saba"
       },
       {
         "concept": "c:numeros.ocho",
         "en": "8",
         "es": "ocho",
         "speaker": "A",
-        "sw": "nane",
-        "translit": "na-ne"
+        "sw": "nane"
       },
       {
         "concept": "c:numeros.nueve",
         "en": "9",
         "es": "nueve",
         "speaker": "B",
-        "sw": "tisa",
-        "translit": "ti-sa"
+        "sw": "tisa"
       },
       {
         "concept": "c:numeros.diez",
         "en": "10",
         "es": "diez",
         "speaker": "A",
-        "sw": "kumi",
-        "translit": "ku-mi"
+        "sw": "kumi"
       },
       {
         "concept": "c:numeros.once",
         "en": "11",
         "es": "once",
         "speaker": "B",
-        "sw": "kumi na moja",
-        "translit": "ku-mi na mo-ja"
+        "sw": "kumi na moja"
       }
     ],
     "exercises": [
@@ -3793,14 +3359,7 @@
         "items": [
           {
             "answer": "sifuri",
-            "answerTranslit": "si-fu-ri",
             "concept": "c:numeros.cero",
-            "optionTranslit": {
-              "moja": "mo-ja",
-              "saba": "sa-ba",
-              "sifuri": "si-fu-ri",
-              "tisa": "ti-sa"
-            },
             "options": [
               "tisa",
               "sifuri",
@@ -3811,14 +3370,7 @@
           },
           {
             "answer": "moja",
-            "answerTranslit": "mo-ja",
             "concept": "c:numeros.uno",
-            "optionTranslit": {
-              "kumi": "ku-mi",
-              "mbili": "mbi-li",
-              "moja": "mo-ja",
-              "tano": "ta-no"
-            },
             "options": [
               "tano",
               "mbili",
@@ -3829,14 +3381,7 @@
           },
           {
             "answer": "mbili",
-            "answerTranslit": "mbi-li",
             "concept": "c:numeros.dos",
-            "optionTranslit": {
-              "mbili": "mbi-li",
-              "sita": "si-ta",
-              "tano": "ta-no",
-              "tisa": "ti-sa"
-            },
             "options": [
               "sita",
               "tisa",
@@ -3847,14 +3392,7 @@
           },
           {
             "answer": "tatu",
-            "answerTranslit": "ta-tu",
             "concept": "c:numeros.tres",
-            "optionTranslit": {
-              "kumi": "ku-mi",
-              "mbili": "mbi-li",
-              "sita": "si-ta",
-              "tatu": "ta-tu"
-            },
             "options": [
               "kumi",
               "sita",
@@ -3865,14 +3403,7 @@
           },
           {
             "answer": "nne",
-            "answerTranslit": "nne",
             "concept": "c:numeros.cuatro",
-            "optionTranslit": {
-              "kumi": "ku-mi",
-              "nane": "na-ne",
-              "nne": "nne",
-              "tano": "ta-no"
-            },
             "options": [
               "nne",
               "tano",
@@ -3883,14 +3414,7 @@
           },
           {
             "answer": "tano",
-            "answerTranslit": "ta-no",
             "concept": "c:numeros.cinco",
-            "optionTranslit": {
-              "nne": "nne",
-              "saba": "sa-ba",
-              "sifuri": "si-fu-ri",
-              "tano": "ta-no"
-            },
             "options": [
               "nne",
               "sifuri",
@@ -3901,14 +3425,7 @@
           },
           {
             "answer": "sita",
-            "answerTranslit": "si-ta",
             "concept": "c:numeros.seis",
-            "optionTranslit": {
-              "kumi na moja": "ku-mi na mo-ja",
-              "mbili": "mbi-li",
-              "sifuri": "si-fu-ri",
-              "sita": "si-ta"
-            },
             "options": [
               "mbili",
               "kumi na moja",
@@ -3919,14 +3436,7 @@
           },
           {
             "answer": "saba",
-            "answerTranslit": "sa-ba",
             "concept": "c:numeros.siete",
-            "optionTranslit": {
-              "nane": "na-ne",
-              "nne": "nne",
-              "saba": "sa-ba",
-              "tano": "ta-no"
-            },
             "options": [
               "nane",
               "saba",
@@ -4358,96 +3868,84 @@
         "en": "red",
         "es": "rojo",
         "speaker": "A",
-        "sw": "nyekundu",
-        "translit": "nye-kun-du"
+        "sw": "nyekundu"
       },
       {
         "concept": "c:colores.azul",
         "en": "blue",
         "es": "azul",
         "speaker": "B",
-        "sw": "bluu / samawati",
-        "translit": "blu-u"
+        "sw": "bluu / samawati"
       },
       {
         "concept": "c:colores.verde",
         "en": "green",
         "es": "verde",
         "speaker": "A",
-        "sw": "kijani",
-        "translit": "ki-ja-ni"
+        "sw": "kijani"
       },
       {
         "concept": "c:colores.amarillo",
         "en": "yellow",
         "es": "amarillo",
         "speaker": "B",
-        "sw": "njano / manjano",
-        "translit": "nja-no"
+        "sw": "njano / manjano"
       },
       {
         "concept": "c:colores.negro",
         "en": "black",
         "es": "negro",
         "speaker": "A",
-        "sw": "nyeusi",
-        "translit": "nye-u-si"
+        "sw": "nyeusi"
       },
       {
         "concept": "c:colores.blanco",
         "en": "white",
         "es": "blanco",
         "speaker": "B",
-        "sw": "nyeupe",
-        "translit": "nye-u-pe"
+        "sw": "nyeupe"
       },
       {
         "concept": "c:colores.naranja",
         "en": "orange",
         "es": "naranja",
         "speaker": "A",
-        "sw": "rangi ya chungwa / machungwa",
-        "translit": "ma-chun-gwa"
+        "sw": "rangi ya chungwa / machungwa"
       },
       {
         "concept": "c:colores.rosa",
         "en": "pink",
         "es": "rosa",
         "speaker": "B",
-        "sw": "waridi / pinki",
-        "translit": "wa-ri-di"
+        "sw": "waridi / pinki"
       },
       {
         "concept": "c:colores.morado-violeta",
         "en": "purple / violet",
         "es": "morado / violeta",
         "speaker": "A",
-        "sw": "zambarau / urujuani",
-        "translit": "zam-ba-rau"
+        "sw": "zambarau / urujuani"
       },
       {
         "concept": "c:colores.marron",
         "en": "brown",
         "es": "marrón",
         "speaker": "B",
-        "sw": "kahawia",
-        "translit": "ka-ha-wi-a"
+        "sw": "kahawia"
       },
       {
         "concept": "c:colores.gris",
         "en": "grey",
         "es": "gris",
         "speaker": "A",
-        "sw": "kijivu",
-        "translit": "ki-ji-vu"
+        "sw": "kijivu"
       },
       {
         "concept": "c:colores.dorado",
         "en": "gold",
         "es": "dorado",
         "speaker": "B",
-        "sw": "dhahabu / rangi ya dhahabu",
-        "translit": "dha-ha-bu"
+        "sw": "dhahabu / rangi ya dhahabu"
       }
     ],
     "exercises": [
@@ -4455,14 +3953,7 @@
         "items": [
           {
             "answer": "nyekundu",
-            "answerTranslit": "nye-kun-du",
             "concept": "c:colores.rojo",
-            "optionTranslit": {
-              "kijani": "ki-ja-ni",
-              "nyekundu": "nye-kun-du",
-              "nyeupe": "nye-u-pe",
-              "rangi ya chungwa / machungwa": "ma-chun-gwa"
-            },
             "options": [
               "kijani",
               "nyekundu",
@@ -4473,14 +3964,7 @@
           },
           {
             "answer": "bluu / samawati",
-            "answerTranslit": "blu-u",
             "concept": "c:colores.azul",
-            "optionTranslit": {
-              "bluu / samawati": "blu-u",
-              "dhahabu / rangi ya dhahabu": "dha-ha-bu",
-              "rangi ya chungwa / machungwa": "ma-chun-gwa",
-              "waridi / pinki": "wa-ri-di"
-            },
             "options": [
               "dhahabu / rangi ya dhahabu",
               "bluu / samawati",
@@ -4491,14 +3975,7 @@
           },
           {
             "answer": "kijani",
-            "answerTranslit": "ki-ja-ni",
             "concept": "c:colores.verde",
-            "optionTranslit": {
-              "kijani": "ki-ja-ni",
-              "kijivu": "ki-ji-vu",
-              "rangi ya chungwa / machungwa": "ma-chun-gwa",
-              "zambarau / urujuani": "zam-ba-rau"
-            },
             "options": [
               "rangi ya chungwa / machungwa",
               "kijivu",
@@ -4509,14 +3986,7 @@
           },
           {
             "answer": "njano / manjano",
-            "answerTranslit": "nja-no",
             "concept": "c:colores.amarillo",
-            "optionTranslit": {
-              "kahawia": "ka-ha-wi-a",
-              "kijivu": "ki-ji-vu",
-              "njano / manjano": "nja-no",
-              "nyekundu": "nye-kun-du"
-            },
             "options": [
               "kahawia",
               "nyekundu",
@@ -4527,14 +3997,7 @@
           },
           {
             "answer": "nyeusi",
-            "answerTranslit": "nye-u-si",
             "concept": "c:colores.negro",
-            "optionTranslit": {
-              "bluu / samawati": "blu-u",
-              "kahawia": "ka-ha-wi-a",
-              "nyeusi": "nye-u-si",
-              "rangi ya chungwa / machungwa": "ma-chun-gwa"
-            },
             "options": [
               "bluu / samawati",
               "nyeusi",
@@ -4545,14 +4008,7 @@
           },
           {
             "answer": "nyeupe",
-            "answerTranslit": "nye-u-pe",
             "concept": "c:colores.blanco",
-            "optionTranslit": {
-              "dhahabu / rangi ya dhahabu": "dha-ha-bu",
-              "kijivu": "ki-ji-vu",
-              "njano / manjano": "nja-no",
-              "nyeupe": "nye-u-pe"
-            },
             "options": [
               "kijivu",
               "njano / manjano",
@@ -4563,14 +4019,7 @@
           },
           {
             "answer": "rangi ya chungwa / machungwa",
-            "answerTranslit": "ma-chun-gwa",
             "concept": "c:colores.naranja",
-            "optionTranslit": {
-              "dhahabu / rangi ya dhahabu": "dha-ha-bu",
-              "kahawia": "ka-ha-wi-a",
-              "nyeupe": "nye-u-pe",
-              "rangi ya chungwa / machungwa": "ma-chun-gwa"
-            },
             "options": [
               "nyeupe",
               "kahawia",
@@ -4581,14 +4030,7 @@
           },
           {
             "answer": "waridi / pinki",
-            "answerTranslit": "wa-ri-di",
             "concept": "c:colores.rosa",
-            "optionTranslit": {
-              "njano / manjano": "nja-no",
-              "nyekundu": "nye-kun-du",
-              "nyeusi": "nye-u-si",
-              "waridi / pinki": "wa-ri-di"
-            },
             "options": [
               "nyekundu",
               "nyeusi",
@@ -4723,48 +4165,42 @@
         "en": "Family",
         "es": "familia",
         "speaker": "A",
-        "sw": "familia / jamaa",
-        "translit": "fa-mi-li-a"
+        "sw": "familia / jamaa"
       },
       {
         "concept": "c:familia-y-personas.madre",
         "en": "Mother",
         "es": "madre",
         "speaker": "B",
-        "sw": "mama",
-        "translit": "ma-ma"
+        "sw": "mama"
       },
       {
         "concept": "c:familia-y-personas.padre",
         "en": "Father",
         "es": "padre",
         "speaker": "A",
-        "sw": "baba",
-        "translit": "ba-ba"
+        "sw": "baba"
       },
       {
         "concept": "c:familia-y-personas.padres",
         "en": "parents",
         "es": "padres",
         "speaker": "B",
-        "sw": "wazazi",
-        "translit": "wa-za-zi"
+        "sw": "wazazi"
       },
       {
         "concept": "c:familia-y-personas.hijo",
         "en": "child",
         "es": "hijo",
         "speaker": "A",
-        "sw": "mtoto wa kiume / mwana",
-        "translit": "mwa-na"
+        "sw": "mtoto wa kiume / mwana"
       },
       {
         "concept": "c:familia-y-personas.hija",
         "en": "daughter",
         "es": "hija",
         "speaker": "B",
-        "sw": "mtoto wa kike / binti",
-        "translit": "bin-ti"
+        "sw": "mtoto wa kike / binti"
       },
       {
         "concept": "c:familia-y-personas.nino-a",
@@ -4778,16 +4214,14 @@
         "en": "brother",
         "es": "hermano",
         "speaker": "B",
-        "sw": "kaka / ndugu wa kiume",
-        "translit": "ka-ka"
+        "sw": "kaka / ndugu wa kiume"
       },
       {
         "concept": "c:familia-y-personas.hermana",
         "en": "sister",
         "es": "hermana",
         "speaker": "A",
-        "sw": "dada / ndugu wa kike",
-        "translit": "da-da"
+        "sw": "dada / ndugu wa kike"
       },
       {
         "concept": "c:familia-y-personas.hermanos",
@@ -4801,16 +4235,14 @@
         "en": "paternal grandfather",
         "es": "abuelo paterno",
         "speaker": "A",
-        "sw": "babu",
-        "translit": "ba-bu"
+        "sw": "babu"
       },
       {
         "concept": "c:familia-y-personas.abuela-paterna",
         "en": "Father's grandmother",
         "es": "abuela paterna",
         "speaker": "B",
-        "sw": "bibi",
-        "translit": "bi-bi"
+        "sw": "bibi"
       }
     ],
     "exercises": [
@@ -4818,13 +4250,7 @@
         "items": [
           {
             "answer": "familia / jamaa",
-            "answerTranslit": "fa-mi-li-a",
             "concept": "c:familia-y-personas.familia",
-            "optionTranslit": {
-              "babu": "ba-bu",
-              "bibi": "bi-bi",
-              "familia / jamaa": "fa-mi-li-a"
-            },
             "options": [
               "babu",
               "mtoto",
@@ -4835,14 +4261,7 @@
           },
           {
             "answer": "mama",
-            "answerTranslit": "ma-ma",
             "concept": "c:familia-y-personas.madre",
-            "optionTranslit": {
-              "bibi": "bi-bi",
-              "familia / jamaa": "fa-mi-li-a",
-              "mama": "ma-ma",
-              "mtoto wa kike / binti": "bin-ti"
-            },
             "options": [
               "bibi",
               "mtoto wa kike / binti",
@@ -4853,14 +4272,7 @@
           },
           {
             "answer": "baba",
-            "answerTranslit": "ba-ba",
             "concept": "c:familia-y-personas.padre",
-            "optionTranslit": {
-              "baba": "ba-ba",
-              "babu": "ba-bu",
-              "dada / ndugu wa kike": "da-da",
-              "wazazi": "wa-za-zi"
-            },
             "options": [
               "babu",
               "dada / ndugu wa kike",
@@ -4871,13 +4283,7 @@
           },
           {
             "answer": "wazazi",
-            "answerTranslit": "wa-za-zi",
             "concept": "c:familia-y-personas.padres",
-            "optionTranslit": {
-              "familia / jamaa": "fa-mi-li-a",
-              "mtoto wa kiume / mwana": "mwa-na",
-              "wazazi": "wa-za-zi"
-            },
             "options": [
               "mtoto",
               "wazazi",
@@ -4888,13 +4294,7 @@
           },
           {
             "answer": "mtoto wa kiume / mwana",
-            "answerTranslit": "mwa-na",
             "concept": "c:familia-y-personas.hijo",
-            "optionTranslit": {
-              "mama": "ma-ma",
-              "mtoto wa kike / binti": "bin-ti",
-              "mtoto wa kiume / mwana": "mwa-na"
-            },
             "options": [
               "mtoto wa kike / binti",
               "ndugu",
@@ -4905,14 +4305,7 @@
           },
           {
             "answer": "mtoto wa kike / binti",
-            "answerTranslit": "bin-ti",
             "concept": "c:familia-y-personas.hija",
-            "optionTranslit": {
-              "bibi": "bi-bi",
-              "mtoto wa kike / binti": "bin-ti",
-              "mtoto wa kiume / mwana": "mwa-na",
-              "wazazi": "wa-za-zi"
-            },
             "options": [
               "mtoto wa kike / binti",
               "wazazi",
@@ -4924,11 +4317,6 @@
           {
             "answer": "mtoto",
             "concept": "c:familia-y-personas.nino-a",
-            "optionTranslit": {
-              "babu": "ba-bu",
-              "dada / ndugu wa kike": "da-da",
-              "wazazi": "wa-za-zi"
-            },
             "options": [
               "mtoto",
               "dada / ndugu wa kike",
@@ -4939,14 +4327,7 @@
           },
           {
             "answer": "kaka / ndugu wa kiume",
-            "answerTranslit": "ka-ka",
             "concept": "c:familia-y-personas.hermano",
-            "optionTranslit": {
-              "dada / ndugu wa kike": "da-da",
-              "kaka / ndugu wa kiume": "ka-ka",
-              "mama": "ma-ma",
-              "mtoto wa kiume / mwana": "mwa-na"
-            },
             "options": [
               "mama",
               "kaka / ndugu wa kiume",
@@ -5081,16 +4462,14 @@
         "en": "body",
         "es": "cuerpo",
         "speaker": "A",
-        "sw": "mwili",
-        "translit": "mwi-li"
+        "sw": "mwili"
       },
       {
         "concept": "c:cuerpo-humano.cabeza",
         "en": "head",
         "es": "cabeza",
         "speaker": "B",
-        "sw": "kichwa",
-        "translit": "ki-chwa"
+        "sw": "kichwa"
       },
       {
         "concept": "c:cuerpo-humano.cabello-pelo",
@@ -5104,24 +4483,21 @@
         "en": "face / side",
         "es": "cara / rostro",
         "speaker": "B",
-        "sw": "uso / sura",
-        "translit": "u-so"
+        "sw": "uso / sura"
       },
       {
         "concept": "c:cuerpo-humano.frente",
         "en": "front",
         "es": "frente",
         "speaker": "A",
-        "sw": "paji la uso",
-        "translit": "pa-ji"
+        "sw": "paji la uso"
       },
       {
         "concept": "c:cuerpo-humano.ojo",
         "en": "eye",
         "es": "ojo",
         "speaker": "B",
-        "sw": "jicho",
-        "translit": "ji-cho"
+        "sw": "jicho"
       },
       {
         "concept": "c:cuerpo-humano.ojos",
@@ -5135,8 +4511,7 @@
         "en": "Beef",
         "es": "ceja",
         "speaker": "B",
-        "sw": "nyusi",
-        "translit": "nyu-si"
+        "sw": "nyusi"
       },
       {
         "concept": "c:cuerpo-humano.parpado-pestana",
@@ -5150,24 +4525,21 @@
         "en": "ear / ears",
         "es": "oreja / oído",
         "speaker": "B",
-        "sw": "sikio",
-        "translit": "si-ki-o"
+        "sw": "sikio"
       },
       {
         "concept": "c:cuerpo-humano.nariz",
         "en": "nose",
         "es": "nariz",
         "speaker": "A",
-        "sw": "pua",
-        "translit": "pu-a"
+        "sw": "pua"
       },
       {
         "concept": "c:cuerpo-humano.boca",
         "en": "mouth",
         "es": "boca",
         "speaker": "B",
-        "sw": "kinywa / mdomo",
-        "translit": "ki-nywa"
+        "sw": "kinywa / mdomo"
       }
     ],
     "exercises": [
@@ -5175,12 +4547,7 @@
         "items": [
           {
             "answer": "mwili",
-            "answerTranslit": "mwi-li",
             "concept": "c:cuerpo-humano.cuerpo",
-            "optionTranslit": {
-              "mwili": "mwi-li",
-              "paji la uso": "pa-ji"
-            },
             "options": [
               "macho",
               "mwili",
@@ -5191,13 +4558,7 @@
           },
           {
             "answer": "kichwa",
-            "answerTranslit": "ki-chwa",
             "concept": "c:cuerpo-humano.cabeza",
-            "optionTranslit": {
-              "jicho": "ji-cho",
-              "kichwa": "ki-chwa",
-              "kinywa / mdomo": "ki-nywa"
-            },
             "options": [
               "jicho",
               "kichwa",
@@ -5209,11 +4570,6 @@
           {
             "answer": "nywele",
             "concept": "c:cuerpo-humano.cabello-pelo",
-            "optionTranslit": {
-              "nyusi": "nyu-si",
-              "paji la uso": "pa-ji",
-              "pua": "pu-a"
-            },
             "options": [
               "pua",
               "nyusi",
@@ -5224,12 +4580,7 @@
           },
           {
             "answer": "uso / sura",
-            "answerTranslit": "u-so",
             "concept": "c:cuerpo-humano.cara-rostro",
-            "optionTranslit": {
-              "mwili": "mwi-li",
-              "uso / sura": "u-so"
-            },
             "options": [
               "mwili",
               "uso / sura",
@@ -5240,12 +4591,7 @@
           },
           {
             "answer": "paji la uso",
-            "answerTranslit": "pa-ji",
             "concept": "c:cuerpo-humano.frente",
-            "optionTranslit": {
-              "jicho": "ji-cho",
-              "paji la uso": "pa-ji"
-            },
             "options": [
               "nywele",
               "paji la uso",
@@ -5256,13 +4602,7 @@
           },
           {
             "answer": "jicho",
-            "answerTranslit": "ji-cho",
             "concept": "c:cuerpo-humano.ojo",
-            "optionTranslit": {
-              "jicho": "ji-cho",
-              "kichwa": "ki-chwa",
-              "paji la uso": "pa-ji"
-            },
             "options": [
               "paji la uso",
               "jicho",
@@ -5274,11 +4614,6 @@
           {
             "answer": "macho",
             "concept": "c:cuerpo-humano.ojos",
-            "optionTranslit": {
-              "kichwa": "ki-chwa",
-              "pua": "pu-a",
-              "sikio": "si-ki-o"
-            },
             "options": [
               "macho",
               "sikio",
@@ -5289,13 +4624,7 @@
           },
           {
             "answer": "nyusi",
-            "answerTranslit": "nyu-si",
             "concept": "c:cuerpo-humano.ceja",
-            "optionTranslit": {
-              "kichwa": "ki-chwa",
-              "nyusi": "nyu-si",
-              "paji la uso": "pa-ji"
-            },
             "options": [
               "nyusi",
               "paji la uso",
@@ -5437,64 +4766,56 @@
         "en": "food (formal)",
         "es": "comida (formal)",
         "speaker": "B",
-        "sw": "chakula",
-        "translit": "cha-ku-la"
+        "sw": "chakula"
       },
       {
         "concept": "c:comida-y-bebida.desayuno",
         "en": "breakfast",
         "es": "desayuno",
         "speaker": "A",
-        "sw": "kiamsha kinywa / kifungua kinywa",
-        "translit": "ki-am-sha ki-nywa"
+        "sw": "kiamsha kinywa / kifungua kinywa"
       },
       {
         "concept": "c:comida-y-bebida.almuerzo",
         "en": "lunch",
         "es": "almuerzo",
         "speaker": "B",
-        "sw": "chakula cha mchana",
-        "translit": "cha-ku-la cha mcha-na"
+        "sw": "chakula cha mchana"
       },
       {
         "concept": "c:comida-y-bebida.cena",
         "en": "dinner",
         "es": "cena",
         "speaker": "A",
-        "sw": "chakula cha jioni",
-        "translit": "cha-ku-la cha ji-o-ni"
+        "sw": "chakula cha jioni"
       },
       {
         "concept": "c:comida-y-bebida.agua",
         "en": "water",
         "es": "agua",
         "speaker": "B",
-        "sw": "maji",
-        "translit": "ma-ji"
+        "sw": "maji"
       },
       {
         "concept": "c:comida-y-bebida.leche",
         "en": "milk",
         "es": "leche",
         "speaker": "A",
-        "sw": "maziwa",
-        "translit": "ma-zi-wa"
+        "sw": "maziwa"
       },
       {
         "concept": "c:comida-y-bebida.te",
         "en": "tea",
         "es": "té",
         "speaker": "B",
-        "sw": "chai",
-        "translit": "cha-i"
+        "sw": "chai"
       },
       {
         "concept": "c:comida-y-bebida.cafe",
         "en": "coffee",
         "es": "café",
         "speaker": "A",
-        "sw": "kahawa",
-        "translit": "ka-ha-wa"
+        "sw": "kahawa"
       },
       {
         "concept": "c:comida-y-bebida.zumo-jugo",
@@ -5508,16 +4829,14 @@
         "en": "lassi (yoghurt beaten)",
         "es": "lassi (yogur batido)",
         "speaker": "A",
-        "sw": "lassi",
-        "translit": "lassi"
+        "sw": "lassi"
       },
       {
         "concept": "c:comida-y-bebida.alcohol-vino",
         "en": "alcohol / wine",
         "es": "alcohol / vino",
         "speaker": "B",
-        "sw": "divai / mvinyo",
-        "translit": "di-va-i"
+        "sw": "divai / mvinyo"
       }
     ],
     "exercises": [
@@ -5526,11 +4845,6 @@
           {
             "answer": "chakula",
             "concept": "c:comida-y-bebida.comida-comer",
-            "optionTranslit": {
-              "chakula": "cha-ku-la",
-              "divai / mvinyo": "di-va-i",
-              "lassi": "lassi"
-            },
             "options": [
               "lassi",
               "chakula",
@@ -5541,13 +4855,7 @@
           },
           {
             "answer": "chakula",
-            "answerTranslit": "cha-ku-la",
             "concept": "c:comida-y-bebida.comida-formal",
-            "optionTranslit": {
-              "chakula": "cha-ku-la",
-              "divai / mvinyo": "di-va-i",
-              "kiamsha kinywa / kifungua kinywa": "ki-am-sha ki-nywa"
-            },
             "options": [
               "maji ya matunda",
               "kiamsha kinywa / kifungua kinywa",
@@ -5558,13 +4866,7 @@
           },
           {
             "answer": "kiamsha kinywa / kifungua kinywa",
-            "answerTranslit": "ki-am-sha ki-nywa",
             "concept": "c:comida-y-bebida.desayuno",
-            "optionTranslit": {
-              "chakula": "cha-ku-la",
-              "chakula cha mchana": "cha-ku-la cha mcha-na",
-              "kiamsha kinywa / kifungua kinywa": "ki-am-sha ki-nywa"
-            },
             "options": [
               "chakula cha mchana",
               "kiamsha kinywa / kifungua kinywa",
@@ -5575,14 +4877,7 @@
           },
           {
             "answer": "chakula cha mchana",
-            "answerTranslit": "cha-ku-la cha mcha-na",
             "concept": "c:comida-y-bebida.almuerzo",
-            "optionTranslit": {
-              "chakula": "cha-ku-la",
-              "chakula cha mchana": "cha-ku-la cha mcha-na",
-              "kiamsha kinywa / kifungua kinywa": "ki-am-sha ki-nywa",
-              "maziwa": "ma-zi-wa"
-            },
             "options": [
               "maziwa",
               "chakula cha mchana",
@@ -5593,14 +4888,7 @@
           },
           {
             "answer": "chakula cha jioni",
-            "answerTranslit": "cha-ku-la cha ji-o-ni",
             "concept": "c:comida-y-bebida.cena",
-            "optionTranslit": {
-              "chakula cha jioni": "cha-ku-la cha ji-o-ni",
-              "chakula cha mchana": "cha-ku-la cha mcha-na",
-              "kahawa": "ka-ha-wa",
-              "maziwa": "ma-zi-wa"
-            },
             "options": [
               "kahawa",
               "maziwa",
@@ -5611,13 +4899,7 @@
           },
           {
             "answer": "maji",
-            "answerTranslit": "ma-ji",
             "concept": "c:comida-y-bebida.agua",
-            "optionTranslit": {
-              "chai": "cha-i",
-              "chakula cha mchana": "cha-ku-la cha mcha-na",
-              "maji": "ma-ji"
-            },
             "options": [
               "maji",
               "maji ya matunda",
@@ -5628,14 +4910,7 @@
           },
           {
             "answer": "maziwa",
-            "answerTranslit": "ma-zi-wa",
             "concept": "c:comida-y-bebida.leche",
-            "optionTranslit": {
-              "divai / mvinyo": "di-va-i",
-              "lassi": "lassi",
-              "maji": "ma-ji",
-              "maziwa": "ma-zi-wa"
-            },
             "options": [
               "maji",
               "lassi",
@@ -5646,13 +4921,7 @@
           },
           {
             "answer": "chai",
-            "answerTranslit": "cha-i",
             "concept": "c:comida-y-bebida.te",
-            "optionTranslit": {
-              "chai": "cha-i",
-              "chakula cha jioni": "cha-ku-la cha ji-o-ni",
-              "maji": "ma-ji"
-            },
             "options": [
               "maji",
               "maji ya matunda",
@@ -5787,16 +5056,14 @@
         "en": "Home / home",
         "es": "casa / hogar",
         "speaker": "A",
-        "sw": "nyumba / makazi",
-        "translit": "nyum-ba"
+        "sw": "nyumba / makazi"
       },
       {
         "concept": "c:casa-y-hogar.edificio-casa",
         "en": "building / house",
         "es": "edificio / casa",
         "speaker": "B",
-        "sw": "jengo / majengo",
-        "translit": "jen-go"
+        "sw": "jengo / majengo"
       },
       {
         "concept": "c:casa-y-hogar.apartamento",
@@ -5810,40 +5077,35 @@
         "en": "room / bedroom",
         "es": "habitación / cuarto",
         "speaker": "B",
-        "sw": "chumba",
-        "translit": "chum-ba"
+        "sw": "chumba"
       },
       {
         "concept": "c:casa-y-hogar.sala-de-estar",
         "en": "living room",
         "es": "sala de estar",
         "speaker": "A",
-        "sw": "sala",
-        "translit": "sala"
+        "sw": "sala"
       },
       {
         "concept": "c:casa-y-hogar.dormitorio",
         "en": "bedroom",
         "es": "dormitorio",
         "speaker": "B",
-        "sw": "chumba cha kulala",
-        "translit": "chum-ba cha ku-la-la"
+        "sw": "chumba cha kulala"
       },
       {
         "concept": "c:casa-y-hogar.cocina-habitacion",
         "en": "kitchen (room)",
         "es": "cocina (habitación)",
         "speaker": "A",
-        "sw": "jikoni",
-        "translit": "ji-ko-ni"
+        "sw": "jikoni"
       },
       {
         "concept": "c:casa-y-hogar.bano",
         "en": "bathroom",
         "es": "baño",
         "speaker": "B",
-        "sw": "bafu / choo",
-        "translit": "ba-fu"
+        "sw": "bafu / choo"
       },
       {
         "concept": "c:casa-y-hogar.inodoro-lavabo",
@@ -5857,8 +5119,7 @@
         "en": "balcony",
         "es": "balcón",
         "speaker": "B",
-        "sw": "roshani / balcony",
-        "translit": "ro-sha-ni"
+        "sw": "roshani / balcony"
       },
       {
         "concept": "c:casa-y-hogar.techo-azotea",
@@ -5872,8 +5133,7 @@
         "en": "wall",
         "es": "pared",
         "speaker": "B",
-        "sw": "ukuta",
-        "translit": "u-ku-ta"
+        "sw": "ukuta"
       }
     ],
     "exercises": [
@@ -5881,12 +5141,7 @@
         "items": [
           {
             "answer": "nyumba / makazi",
-            "answerTranslit": "nyum-ba",
             "concept": "c:casa-y-hogar.casa-hogar",
-            "optionTranslit": {
-              "nyumba / makazi": "nyum-ba",
-              "sala": "sala"
-            },
             "options": [
               "paa",
               "sala",
@@ -5897,13 +5152,7 @@
           },
           {
             "answer": "jengo / majengo",
-            "answerTranslit": "jen-go",
             "concept": "c:casa-y-hogar.edificio-casa",
-            "optionTranslit": {
-              "chumba": "chum-ba",
-              "jengo / majengo": "jen-go",
-              "roshani / balcony": "ro-sha-ni"
-            },
             "options": [
               "choo",
               "jengo / majengo",
@@ -5915,10 +5164,6 @@
           {
             "answer": "ghala",
             "concept": "c:casa-y-hogar.apartamento",
-            "optionTranslit": {
-              "chumba cha kulala": "chum-ba cha ku-la-la",
-              "nyumba / makazi": "nyum-ba"
-            },
             "options": [
               "chumba cha kulala",
               "ghala",
@@ -5929,14 +5174,7 @@
           },
           {
             "answer": "chumba",
-            "answerTranslit": "chum-ba",
             "concept": "c:casa-y-hogar.habitacion-cuarto",
-            "optionTranslit": {
-              "bafu / choo": "ba-fu",
-              "chumba": "chum-ba",
-              "sala": "sala",
-              "ukuta": "u-ku-ta"
-            },
             "options": [
               "chumba",
               "ukuta",
@@ -5947,13 +5185,7 @@
           },
           {
             "answer": "sala",
-            "answerTranslit": "sala",
             "concept": "c:casa-y-hogar.sala-de-estar",
-            "optionTranslit": {
-              "chumba cha kulala": "chum-ba cha ku-la-la",
-              "sala": "sala",
-              "ukuta": "u-ku-ta"
-            },
             "options": [
               "choo",
               "chumba cha kulala",
@@ -5964,13 +5196,7 @@
           },
           {
             "answer": "chumba cha kulala",
-            "answerTranslit": "chum-ba cha ku-la-la",
             "concept": "c:casa-y-hogar.dormitorio",
-            "optionTranslit": {
-              "bafu / choo": "ba-fu",
-              "chumba cha kulala": "chum-ba cha ku-la-la",
-              "ukuta": "u-ku-ta"
-            },
             "options": [
               "chumba cha kulala",
               "ghala",
@@ -5981,13 +5207,7 @@
           },
           {
             "answer": "jikoni",
-            "answerTranslit": "ji-ko-ni",
             "concept": "c:casa-y-hogar.cocina-habitacion",
-            "optionTranslit": {
-              "chumba": "chum-ba",
-              "jikoni": "ji-ko-ni",
-              "roshani / balcony": "ro-sha-ni"
-            },
             "options": [
               "paa",
               "jikoni",
@@ -5998,13 +5218,7 @@
           },
           {
             "answer": "bafu / choo",
-            "answerTranslit": "ba-fu",
             "concept": "c:casa-y-hogar.bano",
-            "optionTranslit": {
-              "bafu / choo": "ba-fu",
-              "sala": "sala",
-              "ukuta": "u-ku-ta"
-            },
             "options": [
               "bafu / choo",
               "ukuta",
@@ -6160,8 +5374,7 @@
         "en": "second (time)",
         "es": "segundo (tiempo)",
         "speaker": "B",
-        "sw": "wa pili",
-        "translit": "wa pi-li"
+        "sw": "wa pili"
       },
       {
         "concept": "c:tiempo-y-calendario.hora-duracion",
@@ -6248,9 +5461,6 @@
           {
             "answer": "dakika",
             "concept": "c:tiempo-y-calendario.minuto",
-            "optionTranslit": {
-              "wa pili": "wa pi-li"
-            },
             "options": [
               "jioni",
               "wa pili",
@@ -6261,11 +5471,7 @@
           },
           {
             "answer": "wa pili",
-            "answerTranslit": "wa pi-li",
             "concept": "c:tiempo-y-calendario.segundo-tiempo",
-            "optionTranslit": {
-              "wa pili": "wa pi-li"
-            },
             "options": [
               "wa pili",
               "saa",
@@ -6277,9 +5483,6 @@
           {
             "answer": "saa",
             "concept": "c:tiempo-y-calendario.hora-duracion",
-            "optionTranslit": {
-              "wa pili": "wa pi-li"
-            },
             "options": [
               "kesho",
               "dakika",
@@ -6447,32 +5650,28 @@
         "en": "animal",
         "es": "animal",
         "speaker": "A",
-        "sw": "mnyama / wanyama",
-        "translit": "mnya-ma"
+        "sw": "mnyama / wanyama"
       },
       {
         "concept": "c:animales.perro",
         "en": "dog",
         "es": "perro",
         "speaker": "B",
-        "sw": "mbwa",
-        "translit": "mbwa"
+        "sw": "mbwa"
       },
       {
         "concept": "c:animales.gato",
         "en": "cat",
         "es": "gato",
         "speaker": "A",
-        "sw": "paka",
-        "translit": "pa-ka"
+        "sw": "paka"
       },
       {
         "concept": "c:animales.vaca",
         "en": "cow",
         "es": "vaca",
         "speaker": "B",
-        "sw": "ng'ombe wa kike",
-        "translit": "ngo-mbe"
+        "sw": "ng'ombe wa kike"
       },
       {
         "concept": "c:animales.buey-toro",
@@ -6486,56 +5685,49 @@
         "en": "buffalo",
         "es": "búfalo",
         "speaker": "B",
-        "sw": "nyati",
-        "translit": "nya-ti"
+        "sw": "nyati"
       },
       {
         "concept": "c:animales.caballo",
         "en": "horse",
         "es": "caballo",
         "speaker": "A",
-        "sw": "farasi",
-        "translit": "fa-ra-si"
+        "sw": "farasi"
       },
       {
         "concept": "c:animales.burro-asno",
         "en": "donkey / ass",
         "es": "burro / asno",
         "speaker": "B",
-        "sw": "punda",
-        "translit": "pun-da"
+        "sw": "punda"
       },
       {
         "concept": "c:animales.cabra",
         "en": "goat",
         "es": "cabra",
         "speaker": "A",
-        "sw": "mbuzi",
-        "translit": "mbu-zi"
+        "sw": "mbuzi"
       },
       {
         "concept": "c:animales.oveja",
         "en": "sheep",
         "es": "oveja",
         "speaker": "B",
-        "sw": "kondoo",
-        "translit": "kon-do-o"
+        "sw": "kondoo"
       },
       {
         "concept": "c:animales.cerdo",
         "en": "pig",
         "es": "cerdo",
         "speaker": "A",
-        "sw": "nguruwe",
-        "translit": "ngu-ru-we"
+        "sw": "nguruwe"
       },
       {
         "concept": "c:animales.gallina",
         "en": "chicken",
         "es": "gallina",
         "speaker": "B",
-        "sw": "kuku jike",
-        "translit": "ku-ku ji-ke"
+        "sw": "kuku jike"
       }
     ],
     "exercises": [
@@ -6543,14 +5735,7 @@
         "items": [
           {
             "answer": "mnyama / wanyama",
-            "answerTranslit": "mnya-ma",
             "concept": "c:animales.animal",
-            "optionTranslit": {
-              "farasi": "fa-ra-si",
-              "mnyama / wanyama": "mnya-ma",
-              "nguruwe": "ngu-ru-we",
-              "paka": "pa-ka"
-            },
             "options": [
               "farasi",
               "mnyama / wanyama",
@@ -6561,14 +5746,7 @@
           },
           {
             "answer": "mbwa",
-            "answerTranslit": "mbwa",
             "concept": "c:animales.perro",
-            "optionTranslit": {
-              "kuku jike": "ku-ku ji-ke",
-              "mbwa": "mbwa",
-              "mnyama / wanyama": "mnya-ma",
-              "nguruwe": "ngu-ru-we"
-            },
             "options": [
               "kuku jike",
               "mbwa",
@@ -6579,14 +5757,7 @@
           },
           {
             "answer": "paka",
-            "answerTranslit": "pa-ka",
             "concept": "c:animales.gato",
-            "optionTranslit": {
-              "farasi": "fa-ra-si",
-              "mnyama / wanyama": "mnya-ma",
-              "nguruwe": "ngu-ru-we",
-              "paka": "pa-ka"
-            },
             "options": [
               "paka",
               "nguruwe",
@@ -6597,13 +5768,7 @@
           },
           {
             "answer": "ng'ombe wa kike",
-            "answerTranslit": "ngo-mbe",
             "concept": "c:animales.vaca",
-            "optionTranslit": {
-              "ng'ombe wa kike": "ngo-mbe",
-              "nguruwe": "ngu-ru-we",
-              "paka": "pa-ka"
-            },
             "options": [
               "ng'ombe wa kike",
               "ng'ombe",
@@ -6615,11 +5780,6 @@
           {
             "answer": "ng'ombe",
             "concept": "c:animales.buey-toro",
-            "optionTranslit": {
-              "mbwa": "mbwa",
-              "nyati": "nya-ti",
-              "punda": "pun-da"
-            },
             "options": [
               "nyati",
               "punda",
@@ -6630,14 +5790,7 @@
           },
           {
             "answer": "nyati",
-            "answerTranslit": "nya-ti",
             "concept": "c:animales.bufalo",
-            "optionTranslit": {
-              "kuku jike": "ku-ku ji-ke",
-              "mbuzi": "mbu-zi",
-              "mnyama / wanyama": "mnya-ma",
-              "nyati": "nya-ti"
-            },
             "options": [
               "nyati",
               "mbuzi",
@@ -6648,13 +5801,7 @@
           },
           {
             "answer": "farasi",
-            "answerTranslit": "fa-ra-si",
             "concept": "c:animales.caballo",
-            "optionTranslit": {
-              "farasi": "fa-ra-si",
-              "kuku jike": "ku-ku ji-ke",
-              "mnyama / wanyama": "mnya-ma"
-            },
             "options": [
               "ng'ombe",
               "kuku jike",
@@ -6665,14 +5812,7 @@
           },
           {
             "answer": "punda",
-            "answerTranslit": "pun-da",
             "concept": "c:animales.burro-asno",
-            "optionTranslit": {
-              "kondoo": "kon-do-o",
-              "mbwa": "mbwa",
-              "ng'ombe wa kike": "ngo-mbe",
-              "punda": "pun-da"
-            },
             "options": [
               "kondoo",
               "mbwa",

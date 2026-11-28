@@ -19,56 +19,49 @@
       "en": "nature",
       "es": "naturaleza",
       "speaker": "A",
-      "sw": "asili / mazingira",
-      "translit": "a-si-li"
+      "sw": "asili / mazingira"
     },
     {
       "concept": "c:naturaleza-y-clima.arbol",
       "en": "tree",
       "es": "árbol",
       "speaker": "B",
-      "sw": "mti",
-      "translit": "mti"
+      "sw": "mti"
     },
     {
       "concept": "c:naturaleza-y-clima.planta",
       "en": "plant",
       "es": "planta",
       "speaker": "A",
-      "sw": "mmea",
-      "translit": "mme-a"
+      "sw": "mmea"
     },
     {
       "concept": "c:naturaleza-y-clima.flor",
       "en": "flower",
       "es": "flor",
       "speaker": "B",
-      "sw": "ua / maua",
-      "translit": "u-a"
+      "sw": "ua / maua"
     },
     {
       "concept": "c:naturaleza-y-clima.hoja",
       "en": "leaf",
       "es": "hoja",
       "speaker": "A",
-      "sw": "jani / majani",
-      "translit": "ja-ni"
+      "sw": "jani / majani"
     },
     {
       "concept": "c:naturaleza-y-clima.raiz",
       "en": "root",
       "es": "raíz",
       "speaker": "B",
-      "sw": "mzizi",
-      "translit": "mzi-zi"
+      "sw": "mzizi"
     },
     {
       "concept": "c:naturaleza-y-clima.rama",
       "en": "branch",
       "es": "rama",
       "speaker": "A",
-      "sw": "tawi / matawi",
-      "translit": "ta-wi"
+      "sw": "tawi / matawi"
     },
     {
       "concept": "c:naturaleza-y-clima.tronco-tallo",
@@ -82,8 +75,7 @@
       "en": "seed",
       "es": "semilla",
       "speaker": "A",
-      "sw": "mbegu / punje",
-      "translit": "mbe-gu"
+      "sw": "mbegu / punje"
     },
     {
       "concept": "c:naturaleza-y-clima.hierba-cesped",
@@ -112,12 +104,7 @@
       "items": [
         {
           "answer": "asili / mazingira",
-          "answerTranslit": "a-si-li",
           "concept": "c:naturaleza-y-clima.naturaleza",
-          "optionTranslit": {
-            "asili / mazingira": "a-si-li",
-            "mmea": "mme-a"
-          },
           "options": [
             "asili / mazingira",
             "nyasi",
@@ -128,14 +115,7 @@
         },
         {
           "answer": "mti",
-          "answerTranslit": "mti",
           "concept": "c:naturaleza-y-clima.arbol",
-          "optionTranslit": {
-            "asili / mazingira": "a-si-li",
-            "jani / majani": "ja-ni",
-            "mti": "mti",
-            "tawi / matawi": "ta-wi"
-          },
           "options": [
             "asili / mazingira",
             "mti",
@@ -146,12 +126,7 @@
         },
         {
           "answer": "mmea",
-          "answerTranslit": "mme-a",
           "concept": "c:naturaleza-y-clima.planta",
-          "optionTranslit": {
-            "mmea": "mme-a",
-            "mti": "mti"
-          },
           "options": [
             "msitu",
             "mti",
@@ -162,13 +137,7 @@
         },
         {
           "answer": "ua / maua",
-          "answerTranslit": "u-a",
           "concept": "c:naturaleza-y-clima.flor",
-          "optionTranslit": {
-            "mbegu / punje": "mbe-gu",
-            "tawi / matawi": "ta-wi",
-            "ua / maua": "u-a"
-          },
           "options": [
             "tawi / matawi",
             "mbegu / punje",
@@ -179,12 +148,7 @@
         },
         {
           "answer": "jani / majani",
-          "answerTranslit": "ja-ni",
           "concept": "c:naturaleza-y-clima.hoja",
-          "optionTranslit": {
-            "jani / majani": "ja-ni",
-            "mti": "mti"
-          },
           "options": [
             "msitu",
             "nyasi",
@@ -195,13 +159,7 @@
         },
         {
           "answer": "mzizi",
-          "answerTranslit": "mzi-zi",
           "concept": "c:naturaleza-y-clima.raiz",
-          "optionTranslit": {
-            "mbegu / punje": "mbe-gu",
-            "tawi / matawi": "ta-wi",
-            "ua / maua": "u-a"
-          },
           "options": [
             "mbegu / punje",
             "ua / maua",
@@ -212,13 +170,7 @@
         },
         {
           "answer": "tawi / matawi",
-          "answerTranslit": "ta-wi",
           "concept": "c:naturaleza-y-clima.rama",
-          "optionTranslit": {
-            "jani / majani": "ja-ni",
-            "mmea": "mme-a",
-            "tawi / matawi": "ta-wi"
-          },
           "options": [
             "mmea",
             "tawi / matawi",
@@ -230,10 +182,6 @@
         {
           "answer": "mzizi",
           "concept": "c:naturaleza-y-clima.tronco-tallo",
-          "optionTranslit": {
-            "jani / majani": "ja-ni",
-            "mti": "mti"
-          },
           "options": [
             "jani / majani",
             "nyasi",

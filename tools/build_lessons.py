@@ -205,6 +205,14 @@ def _pick(terms: list[dict]) -> dict | None:
     return next((t for t in terms if t.get("review") == "verified"), terms[0])
 
 
+def _translit(term: dict) -> str:
+    """Lectura (translit) solo si la escritura no es latina; en alfabeto latino
+    sería una repetición (p. ej. la silabación sw «ha-ba-ri»)."""
+    if term.get("script") == "latin":
+        return ""
+    return term.get("translit") or ""
+
+
 def _index(rows: list[dict]) -> dict:
     out: dict[str, list[dict]] = {}
     for t in rows:
@@ -272,7 +280,7 @@ def _build_exercises(selected, index, lang, src="es"):
     # distractores: términos del idioma destino de los mismos conceptos
     answers = [p[2]["term"] for p in pool]
     unique_answers = list(dict.fromkeys(answers))
-    translit_by = {p[2]["term"]: p[2].get("translit") or "" for p in pool}
+    translit_by = {p[2]["term"]: _translit(p[2]) for p in pool}
     for c, prompt, ans in pool[:EXERCISE_LIMIT]:
         distractors = [a for a in unique_answers if a != ans["term"]]
         if len(distractors) < EXERCISE_OPTIONS - 1:
@@ -282,8 +290,9 @@ def _build_exercises(selected, index, lang, src="es"):
         options = rng.sample([ans["term"], *opts], EXERCISE_OPTIONS)
         item = {"concept": c["id"], "prompt": prompt,
                 "answer": ans["term"], "options": options}
-        if ans.get("translit"):
-            item["answerTranslit"] = ans["translit"]
+        ans_translit = _translit(ans)
+        if ans_translit:
+            item["answerTranslit"] = ans_translit
         option_translit = {o: translit_by[o] for o in options if translit_by.get(o)}
         if option_translit:
             item["optionTranslit"] = option_translit
@@ -315,8 +324,9 @@ def build_lesson(concepts, terms_by_lang, lang, theme, translate=None) -> dict:
             continue
         line = {"speaker": SPEAKERS[i % len(SPEAKERS)], "concept": cid,
                 lang: term["term"]}
-        if term.get("translit"):
-            line["translit"] = term["translit"]
+        term_translit = _translit(term)
+        if term_translit:
+            line["translit"] = term_translit
         row = []
         for lg in cols:
             ref = _pick(index.get(lg, {}).get(cid))

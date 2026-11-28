@@ -61,16 +61,14 @@
       "en": "office /",
       "es": "oficina / despacho",
       "speaker": "A",
-      "sw": "ofisi",
-      "translit": "o-fi-si"
+      "sw": "ofisi"
     },
     {
       "concept": "c:trabajo-y-profesiones.dueno-propietario",
       "en": "owner / proprietor",
       "es": "dueño / propietario",
       "speaker": "B",
-      "sw": "mmiliki",
-      "translit": "mmi-li-ki"
+      "sw": "mmiliki"
     },
     {
       "concept": "c:trabajo-y-profesiones.jefe-a",
@@ -84,16 +82,14 @@
       "en": "employee",
       "es": "empleado/a",
       "speaker": "B",
-      "sw": "mfanyakazi / mwajiriwa",
-      "translit": "mfa-nya-ka-zi"
+      "sw": "mfanyakazi / mwajiriwa"
     },
     {
       "concept": "c:trabajo-y-profesiones.colega",
       "en": "- I'm sorry, buddy.",
       "es": "colega",
       "speaker": "A",
-      "sw": "mfanyakazi mwenzake",
-      "translit": "mwe-nza-ke"
+      "sw": "mfanyakazi mwenzake"
     },
     {
       "concept": "c:trabajo-y-profesiones.equipo",
@@ -109,9 +105,6 @@
         {
           "answer": "kazi",
           "concept": "c:trabajo-y-profesiones.trabajo-labor",
-          "optionTranslit": {
-            "ofisi": "o-fi-si"
-          },
           "options": [
             "timu",
             "ofisi",
@@ -123,11 +116,6 @@
         {
           "answer": "kazi",
           "concept": "c:trabajo-y-profesiones.empleo-trabajo",
-          "optionTranslit": {
-            "mfanyakazi mwenzake": "mwe-nza-ke",
-            "mmiliki": "mmi-li-ki",
-            "ofisi": "o-fi-si"
-          },
           "options": [
             "kazi",
             "mfanyakazi mwenzake",
@@ -139,9 +127,6 @@
         {
           "answer": "utaalamu",
           "concept": "c:trabajo-y-profesiones.profesion-oficio",
-          "optionTranslit": {
-            "mmiliki": "mmi-li-ki"
-          },
           "options": [
             "utaalamu",
             "kazi",
@@ -153,10 +138,6 @@
         {
           "answer": "biashara",
           "concept": "c:trabajo-y-profesiones.negocio-profesion",
-          "optionTranslit": {
-            "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
-            "mfanyakazi mwenzake": "mwe-nza-ke"
-          },
           "options": [
             "kazi",
             "mfanyakazi / mwajiriwa",
@@ -168,9 +149,6 @@
         {
           "answer": "kampuni",
           "concept": "c:trabajo-y-profesiones.empresa-compania",
-          "optionTranslit": {
-            "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi"
-          },
           "options": [
             "kampuni",
             "utaalamu",
@@ -182,11 +160,6 @@
         {
           "answer": "ofisi",
           "concept": "c:trabajo-y-profesiones.oficina",
-          "optionTranslit": {
-            "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
-            "mmiliki": "mmi-li-ki",
-            "ofisi": "o-fi-si"
-          },
           "options": [
             "mmiliki",
             "ofisi",
@@ -197,11 +170,7 @@
         },
         {
           "answer": "ofisi",
-          "answerTranslit": "o-fi-si",
           "concept": "c:trabajo-y-profesiones.oficina-despacho",
-          "optionTranslit": {
-            "ofisi": "o-fi-si"
-          },
           "options": [
             "ofisi",
             "mkuu",
@@ -212,12 +181,7 @@
         },
         {
           "answer": "mmiliki",
-          "answerTranslit": "mmi-li-ki",
           "concept": "c:trabajo-y-profesiones.dueno-propietario",
-          "optionTranslit": {
-            "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
-            "mmiliki": "mmi-li-ki"
-          },
           "options": [
             "timu",
             "mfanyakazi / mwajiriwa",

@@ -19,32 +19,28 @@
       "en": "animal",
       "es": "animal",
       "speaker": "A",
-      "sw": "mnyama / wanyama",
-      "translit": "mnya-ma"
+      "sw": "mnyama / wanyama"
     },
     {
       "concept": "c:animales.perro",
       "en": "dog",
       "es": "perro",
       "speaker": "B",
-      "sw": "mbwa",
-      "translit": "mbwa"
+      "sw": "mbwa"
     },
     {
       "concept": "c:animales.gato",
       "en": "cat",
       "es": "gato",
       "speaker": "A",
-      "sw": "paka",
-      "translit": "pa-ka"
+      "sw": "paka"
     },
     {
       "concept": "c:animales.vaca",
       "en": "cow",
       "es": "vaca",
       "speaker": "B",
-      "sw": "ng'ombe wa kike",
-      "translit": "ngo-mbe"
+      "sw": "ng'ombe wa kike"
     },
     {
       "concept": "c:animales.buey-toro",
@@ -58,56 +54,49 @@
       "en": "buffalo",
       "es": "búfalo",
       "speaker": "B",
-      "sw": "nyati",
-      "translit": "nya-ti"
+      "sw": "nyati"
     },
     {
       "concept": "c:animales.caballo",
       "en": "horse",
       "es": "caballo",
       "speaker": "A",
-      "sw": "farasi",
-      "translit": "fa-ra-si"
+      "sw": "farasi"
     },
     {
       "concept": "c:animales.burro-asno",
       "en": "donkey / ass",
       "es": "burro / asno",
       "speaker": "B",
-      "sw": "punda",
-      "translit": "pun-da"
+      "sw": "punda"
     },
     {
       "concept": "c:animales.cabra",
       "en": "goat",
       "es": "cabra",
       "speaker": "A",
-      "sw": "mbuzi",
-      "translit": "mbu-zi"
+      "sw": "mbuzi"
     },
     {
       "concept": "c:animales.oveja",
       "en": "sheep",
       "es": "oveja",
       "speaker": "B",
-      "sw": "kondoo",
-      "translit": "kon-do-o"
+      "sw": "kondoo"
     },
     {
       "concept": "c:animales.cerdo",
       "en": "pig",
       "es": "cerdo",
       "speaker": "A",
-      "sw": "nguruwe",
-      "translit": "ngu-ru-we"
+      "sw": "nguruwe"
     },
     {
       "concept": "c:animales.gallina",
       "en": "chicken",
       "es": "gallina",
       "speaker": "B",
-      "sw": "kuku jike",
-      "translit": "ku-ku ji-ke"
+      "sw": "kuku jike"
     }
   ],
   "exercises": [
@@ -115,14 +104,7 @@
       "items": [
         {
           "answer": "mnyama / wanyama",
-          "answerTranslit": "mnya-ma",
           "concept": "c:animales.animal",
-          "optionTranslit": {
-            "farasi": "fa-ra-si",
-            "mnyama / wanyama": "mnya-ma",
-            "nguruwe": "ngu-ru-we",
-            "paka": "pa-ka"
-          },
           "options": [
             "farasi",
             "mnyama / wanyama",
@@ -133,14 +115,7 @@
         },
         {
           "answer": "mbwa",
-          "answerTranslit": "mbwa",
           "concept": "c:animales.perro",
-          "optionTranslit": {
-            "kuku jike": "ku-ku ji-ke",
-            "mbwa": "mbwa",
-            "mnyama / wanyama": "mnya-ma",
-            "nguruwe": "ngu-ru-we"
-          },
           "options": [
             "kuku jike",
             "mbwa",
@@ -151,14 +126,7 @@
         },
         {
           "answer": "paka",
-          "answerTranslit": "pa-ka",
           "concept": "c:animales.gato",
-          "optionTranslit": {
-            "farasi": "fa-ra-si",
-            "mnyama / wanyama": "mnya-ma",
-            "nguruwe": "ngu-ru-we",
-            "paka": "pa-ka"
-          },
           "options": [
             "paka",
             "nguruwe",
@@ -169,13 +137,7 @@
         },
         {
           "answer": "ng'ombe wa kike",
-          "answerTranslit": "ngo-mbe",
           "concept": "c:animales.vaca",
-          "optionTranslit": {
-            "ng'ombe wa kike": "ngo-mbe",
-            "nguruwe": "ngu-ru-we",
-            "paka": "pa-ka"
-          },
           "options": [
             "ng'ombe wa kike",
             "ng'ombe",
@@ -187,11 +149,6 @@
         {
           "answer": "ng'ombe",
           "concept": "c:animales.buey-toro",
-          "optionTranslit": {
-            "mbwa": "mbwa",
-            "nyati": "nya-ti",
-            "punda": "pun-da"
-          },
           "options": [
             "nyati",
             "punda",
@@ -202,14 +159,7 @@
         },
         {
           "answer": "nyati",
-          "answerTranslit": "nya-ti",
           "concept": "c:animales.bufalo",
-          "optionTranslit": {
-            "kuku jike": "ku-ku ji-ke",
-            "mbuzi": "mbu-zi",
-            "mnyama / wanyama": "mnya-ma",
-            "nyati": "nya-ti"
-          },
           "options": [
             "nyati",
             "mbuzi",
@@ -220,13 +170,7 @@
         },
         {
           "answer": "farasi",
-          "answerTranslit": "fa-ra-si",
           "concept": "c:animales.caballo",
-          "optionTranslit": {
-            "farasi": "fa-ra-si",
-            "kuku jike": "ku-ku ji-ke",
-            "mnyama / wanyama": "mnya-ma"
-          },
           "options": [
             "ng'ombe",
             "kuku jike",
@@ -237,14 +181,7 @@
         },
         {
           "answer": "punda",
-          "answerTranslit": "pun-da",
           "concept": "c:animales.burro-asno",
-          "optionTranslit": {
-            "kondoo": "kon-do-o",
-            "mbwa": "mbwa",
-            "ng'ombe wa kike": "ngo-mbe",
-            "punda": "pun-da"
-          },
           "options": [
             "kondoo",
             "mbwa",

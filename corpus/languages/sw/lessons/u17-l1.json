@@ -47,8 +47,7 @@
       "en": "curriculum / course",
       "es": "plan de estudios / curso",
       "speaker": "A",
-      "sw": "plan",
-      "translit": "plan"
+      "sw": "plan"
     },
     {
       "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
@@ -76,8 +75,7 @@
       "en": "history",
       "es": "historia",
       "speaker": "A",
-      "sw": "historia",
-      "translit": "historia"
+      "sw": "historia"
     },
     {
       "concept": "c:educacion-y-aprendizaje.geografia",
@@ -107,9 +105,6 @@
         {
           "answer": "elimu",
           "concept": "c:educacion-y-aprendizaje.educacion",
-          "optionTranslit": {
-            "plan": "plan"
-          },
           "options": [
             "mada",
             "plan",
@@ -132,9 +127,6 @@
         {
           "answer": "darasa",
           "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
-          "optionTranslit": {
-            "historia": "historia"
-          },
           "options": [
             "mada",
             "jiografia",
@@ -146,9 +138,6 @@
         {
           "answer": "somo",
           "concept": "c:educacion-y-aprendizaje.leccion",
-          "optionTranslit": {
-            "historia": "historia"
-          },
           "options": [
             "historia",
             "lugha",
@@ -159,11 +148,7 @@
         },
         {
           "answer": "plan",
-          "answerTranslit": "plan",
           "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
-          "optionTranslit": {
-            "plan": "plan"
-          },
           "options": [
             "shule",
             "jiografia",

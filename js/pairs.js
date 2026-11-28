@@ -15,6 +15,13 @@ export function pickTerm(list) {
   return list.find((t) => t.review === "verified") || list[0];
 }
 
+// La lectura (translit) solo aporta en escrituras no latinas; en alfabeto
+// latino sería una repetición (p. ej. la silabación sw «ha-ba-ri»).
+export function translitOf(term) {
+  if (!term || term.script === "latin") return "";
+  return term.translit || "";
+}
+
 export function buildPair(concepts, srcTerms, tgtTerms) {
   const src = indexTerms(srcTerms);
   const tgt = indexTerms(tgtTerms);
@@ -30,8 +37,8 @@ export function buildPair(concepts, srcTerms, tgtTerms) {
       gloss_es: c.gloss_es || "",
       src: s.term,
       tgt: g.term,
-      srcTranslit: s.translit || "",
-      tgtTranslit: g.translit || "",
+      srcTranslit: translitOf(s),
+      tgtTranslit: translitOf(g),
       srcIpa: s.ipa || "",
       tgtIpa: g.ipa || "",
     });

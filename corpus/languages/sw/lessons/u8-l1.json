@@ -40,8 +40,7 @@
       "en": "second (time)",
       "es": "segundo (tiempo)",
       "speaker": "B",
-      "sw": "wa pili",
-      "translit": "wa pi-li"
+      "sw": "wa pili"
     },
     {
       "concept": "c:tiempo-y-calendario.hora-duracion",
@@ -128,9 +127,6 @@
         {
           "answer": "dakika",
           "concept": "c:tiempo-y-calendario.minuto",
-          "optionTranslit": {
-            "wa pili": "wa pi-li"
-          },
           "options": [
             "jioni",
             "wa pili",
@@ -141,11 +137,7 @@
         },
         {
           "answer": "wa pili",
-          "answerTranslit": "wa pi-li",
           "concept": "c:tiempo-y-calendario.segundo-tiempo",
-          "optionTranslit": {
-            "wa pili": "wa pi-li"
-          },
           "options": [
             "wa pili",
             "saa",
@@ -157,9 +149,6 @@
         {
           "answer": "saa",
           "concept": "c:tiempo-y-calendario.hora-duracion",
-          "optionTranslit": {
-            "wa pili": "wa pi-li"
-          },
           "options": [
             "kesho",
             "dakika",

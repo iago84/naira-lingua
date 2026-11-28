@@ -19,96 +19,84 @@
       "en": "zero",
       "es": "cero",
       "speaker": "A",
-      "sw": "sifuri",
-      "translit": "si-fu-ri"
+      "sw": "sifuri"
     },
     {
       "concept": "c:numeros.uno",
       "en": "one",
       "es": "uno",
       "speaker": "B",
-      "sw": "moja",
-      "translit": "mo-ja"
+      "sw": "moja"
     },
     {
       "concept": "c:numeros.dos",
       "en": "two",
       "es": "dos",
       "speaker": "A",
-      "sw": "mbili",
-      "translit": "mbi-li"
+      "sw": "mbili"
     },
     {
       "concept": "c:numeros.tres",
       "en": "three",
       "es": "tres",
       "speaker": "B",
-      "sw": "tatu",
-      "translit": "ta-tu"
+      "sw": "tatu"
     },
     {
       "concept": "c:numeros.cuatro",
       "en": "4",
       "es": "cuatro",
       "speaker": "A",
-      "sw": "nne",
-      "translit": "nne"
+      "sw": "nne"
     },
     {
       "concept": "c:numeros.cinco",
       "en": "five",
       "es": "cinco",
       "speaker": "B",
-      "sw": "tano",
-      "translit": "ta-no"
+      "sw": "tano"
     },
     {
       "concept": "c:numeros.seis",
       "en": "6",
       "es": "seis",
       "speaker": "A",
-      "sw": "sita",
-      "translit": "si-ta"
+      "sw": "sita"
     },
     {
       "concept": "c:numeros.siete",
       "en": "seven",
       "es": "siete",
       "speaker": "B",
-      "sw": "saba",
-      "translit": "sa-ba"
+      "sw": "saba"
     },
     {
       "concept": "c:numeros.ocho",
       "en": "8",
       "es": "ocho",
       "speaker": "A",
-      "sw": "nane",
-      "translit": "na-ne"
+      "sw": "nane"
     },
     {
       "concept": "c:numeros.nueve",
       "en": "9",
       "es": "nueve",
       "speaker": "B",
-      "sw": "tisa",
-      "translit": "ti-sa"
+      "sw": "tisa"
     },
     {
       "concept": "c:numeros.diez",
       "en": "10",
       "es": "diez",
       "speaker": "A",
-      "sw": "kumi",
-      "translit": "ku-mi"
+      "sw": "kumi"
     },
     {
       "concept": "c:numeros.once",
       "en": "11",
       "es": "once",
       "speaker": "B",
-      "sw": "kumi na moja",
-      "translit": "ku-mi na mo-ja"
+      "sw": "kumi na moja"
     }
   ],
   "exercises": [
@@ -116,14 +104,7 @@
       "items": [
         {
           "answer": "sifuri",
-          "answerTranslit": "si-fu-ri",
           "concept": "c:numeros.cero",
-          "optionTranslit": {
-            "moja": "mo-ja",
-            "saba": "sa-ba",
-            "sifuri": "si-fu-ri",
-            "tisa": "ti-sa"
-          },
           "options": [
             "tisa",
             "sifuri",
@@ -134,14 +115,7 @@
         },
         {
           "answer": "moja",
-          "answerTranslit": "mo-ja",
           "concept": "c:numeros.uno",
-          "optionTranslit": {
-            "kumi": "ku-mi",
-            "mbili": "mbi-li",
-            "moja": "mo-ja",
-            "tano": "ta-no"
-          },
           "options": [
             "tano",
             "mbili",
@@ -152,14 +126,7 @@
         },
         {
           "answer": "mbili",
-          "answerTranslit": "mbi-li",
           "concept": "c:numeros.dos",
-          "optionTranslit": {
-            "mbili": "mbi-li",
-            "sita": "si-ta",
-            "tano": "ta-no",
-            "tisa": "ti-sa"
-          },
           "options": [
             "sita",
             "tisa",
@@ -170,14 +137,7 @@
         },
         {
           "answer": "tatu",
-          "answerTranslit": "ta-tu",
           "concept": "c:numeros.tres",
-          "optionTranslit": {
-            "kumi": "ku-mi",
-            "mbili": "mbi-li",
-            "sita": "si-ta",
-            "tatu": "ta-tu"
-          },
           "options": [
             "kumi",
             "sita",
@@ -188,14 +148,7 @@
         },
         {
           "answer": "nne",
-          "answerTranslit": "nne",
           "concept": "c:numeros.cuatro",
-          "optionTranslit": {
-            "kumi": "ku-mi",
-            "nane": "na-ne",
-            "nne": "nne",
-            "tano": "ta-no"
-          },
           "options": [
             "nne",
             "tano",
@@ -206,14 +159,7 @@
         },
         {
           "answer": "tano",
-          "answerTranslit": "ta-no",
           "concept": "c:numeros.cinco",
-          "optionTranslit": {
-            "nne": "nne",
-            "saba": "sa-ba",
-            "sifuri": "si-fu-ri",
-            "tano": "ta-no"
-          },
           "options": [
             "nne",
             "sifuri",
@@ -224,14 +170,7 @@
         },
         {
           "answer": "sita",
-          "answerTranslit": "si-ta",
           "concept": "c:numeros.seis",
-          "optionTranslit": {
-            "kumi na moja": "ku-mi na mo-ja",
-            "mbili": "mbi-li",
-            "sifuri": "si-fu-ri",
-            "sita": "si-ta"
-          },
           "options": [
             "mbili",
             "kumi na moja",
@@ -242,14 +181,7 @@
         },
         {
           "answer": "saba",
-          "answerTranslit": "sa-ba",
           "concept": "c:numeros.siete",
-          "optionTranslit": {
-            "nane": "na-ne",
-            "nne": "nne",
-            "saba": "sa-ba",
-            "tano": "ta-no"
-          },
           "options": [
             "nane",
             "saba",

@@ -54,16 +54,14 @@
       "en": "seller / tenderer",
       "es": "vendedor / tendero",
       "speaker": "B",
-      "sw": "muuzaji",
-      "translit": "mu-u-za-ji"
+      "sw": "muuzaji"
     },
     {
       "concept": "c:viajes-compras-y-servicios.cliente-comprador",
       "en": "customer / buyer",
       "es": "cliente / comprador",
       "speaker": "A",
-      "sw": "mteja",
-      "translit": "mte-ja"
+      "sw": "mteja"
     },
     {
       "concept": "c:viajes-compras-y-servicios.precio",
@@ -84,8 +82,7 @@
       "en": "Indian rupee (INR)",
       "es": "rupia india (INR)",
       "speaker": "B",
-      "sw": "rupia",
-      "translit": "rupia"
+      "sw": "rupia"
     },
     {
       "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
@@ -108,9 +105,6 @@
         {
           "answer": "ununuzi",
           "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
-          "optionTranslit": {
-            "mteja": "mte-ja"
-          },
           "options": [
             "supamaketi",
             "mteja",
@@ -122,9 +116,6 @@
         {
           "answer": "duka",
           "concept": "c:viajes-compras-y-servicios.tienda",
-          "optionTranslit": {
-            "muuzaji": "mu-u-za-ji"
-          },
           "options": [
             "muuzaji",
             "duka",
@@ -136,9 +127,6 @@
         {
           "answer": "soko",
           "concept": "c:viajes-compras-y-servicios.mercado",
-          "optionTranslit": {
-            "rupia": "rupia"
-          },
           "options": [
             "rupia",
             "duka",
@@ -150,9 +138,6 @@
         {
           "answer": "supamaketi",
           "concept": "c:viajes-compras-y-servicios.supermercado",
-          "optionTranslit": {
-            "rupia": "rupia"
-          },
           "options": [
             "rupia",
             "bei",
@@ -164,9 +149,6 @@
         {
           "answer": "maduka makubwa",
           "concept": "c:viajes-compras-y-servicios.centro-comercial",
-          "optionTranslit": {
-            "muuzaji": "mu-u-za-ji"
-          },
           "options": [
             "supamaketi",
             "muuzaji",
@@ -177,12 +159,7 @@
         },
         {
           "answer": "muuzaji",
-          "answerTranslit": "mu-u-za-ji",
           "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
-          "optionTranslit": {
-            "muuzaji": "mu-u-za-ji",
-            "rupia": "rupia"
-          },
           "options": [
             "ununuzi",
             "rupia",
@@ -193,11 +170,7 @@
         },
         {
           "answer": "mteja",
-          "answerTranslit": "mte-ja",
           "concept": "c:viajes-compras-y-servicios.cliente-comprador",
-          "optionTranslit": {
-            "mteja": "mte-ja"
-          },
           "options": [
             "ununuzi",
             "bei",

@@ -19,96 +19,84 @@
       "en": "clothing",
       "es": "ropa",
       "speaker": "A",
-      "sw": "nguo / mavazi",
-      "translit": "ngu-o"
+      "sw": "nguo / mavazi"
     },
     {
       "concept": "c:ropa-y-accesorios.camisa",
       "en": "shirt",
       "es": "camisa",
       "speaker": "B",
-      "sw": "shati / kamisa",
-      "translit": "sha-ti"
+      "sw": "shati / kamisa"
     },
     {
       "concept": "c:ropa-y-accesorios.camiseta",
       "en": "T-shirt",
       "es": "camiseta",
       "speaker": "A",
-      "sw": "fulana / tishati",
-      "translit": "fu-la-na"
+      "sw": "fulana / tishati"
     },
     {
       "concept": "c:ropa-y-accesorios.pantalon",
       "en": "Pants",
       "es": "pantalón",
       "speaker": "B",
-      "sw": "suruali / kaptura",
-      "translit": "su-ru-a-li"
+      "sw": "suruali / kaptura"
     },
     {
       "concept": "c:ropa-y-accesorios.vaqueros-jeans",
       "en": "jeans / jans",
       "es": "vaqueros / jeans",
       "speaker": "A",
-      "sw": "jeans / suruali ya denim",
-      "translit": "ji-nsi"
+      "sw": "jeans / suruali ya denim"
     },
     {
       "concept": "c:ropa-y-accesorios.pantalones-cortos",
       "en": "Short pants",
       "es": "pantalones cortos",
       "speaker": "B",
-      "sw": "pantalones",
-      "translit": "pantalones"
+      "sw": "pantalones"
     },
     {
       "concept": "c:ropa-y-accesorios.falda",
       "en": "skirt",
       "es": "falda",
       "speaker": "A",
-      "sw": "sketi",
-      "translit": "ske-ti"
+      "sw": "sketi"
     },
     {
       "concept": "c:ropa-y-accesorios.vestido",
       "en": "dress up",
       "es": "vestido",
       "speaker": "B",
-      "sw": "gauni / vazi",
-      "translit": "ga-u-ni"
+      "sw": "gauni / vazi"
     },
     {
       "concept": "c:ropa-y-accesorios.sari",
       "en": "sari",
       "es": "sari",
       "speaker": "A",
-      "sw": "sari",
-      "translit": "sari"
+      "sw": "sari"
     },
     {
       "concept": "c:ropa-y-accesorios.salwar-kameez",
       "en": "salwar kameez",
       "es": "salwar kameez",
       "speaker": "B",
-      "sw": "salwar",
-      "translit": "salwar"
+      "sw": "salwar"
     },
     {
       "concept": "c:ropa-y-accesorios.kurta",
       "en": "kurta",
       "es": "kurta",
       "speaker": "A",
-      "sw": "kurta",
-      "translit": "kurta"
+      "sw": "kurta"
     },
     {
       "concept": "c:ropa-y-accesorios.pijama",
       "en": "pajamas",
       "es": "pijama",
       "speaker": "B",
-      "sw": "nguo za kulalia / pajama",
-      "translit": "pa-ja-ma"
+      "sw": "nguo za kulalia / pajama"
     }
   ],
   "exercises": [
@@ -116,14 +104,7 @@
       "items": [
         {
           "answer": "nguo / mavazi",
-          "answerTranslit": "ngu-o",
           "concept": "c:ropa-y-accesorios.ropa",
-          "optionTranslit": {
-            "fulana / tishati": "fu-la-na",
-            "gauni / vazi": "ga-u-ni",
-            "jeans / suruali ya denim": "ji-nsi",
-            "nguo / mavazi": "ngu-o"
-          },
           "options": [
             "jeans / suruali ya denim",
             "gauni / vazi",
@@ -134,14 +115,7 @@
         },
         {
           "answer": "shati / kamisa",
-          "answerTranslit": "sha-ti",
           "concept": "c:ropa-y-accesorios.camisa",
-          "optionTranslit": {
-            "gauni / vazi": "ga-u-ni",
-            "nguo za kulalia / pajama": "pa-ja-ma",
-            "pantalones": "pantalones",
-            "shati / kamisa": "sha-ti"
-          },
           "options": [
             "shati / kamisa",
             "pantalones",
@@ -152,14 +126,7 @@
         },
         {
           "answer": "fulana / tishati",
-          "answerTranslit": "fu-la-na",
           "concept": "c:ropa-y-accesorios.camiseta",
-          "optionTranslit": {
-            "fulana / tishati": "fu-la-na",
-            "gauni / vazi": "ga-u-ni",
-            "kurta": "kurta",
-            "nguo za kulalia / pajama": "pa-ja-ma"
-          },
           "options": [
             "fulana / tishati",
             "nguo za kulalia / pajama",
@@ -170,14 +137,7 @@
         },
         {
           "answer": "suruali / kaptura",
-          "answerTranslit": "su-ru-a-li",
           "concept": "c:ropa-y-accesorios.pantalon",
-          "optionTranslit": {
-            "nguo / mavazi": "ngu-o",
-            "nguo za kulalia / pajama": "pa-ja-ma",
-            "salwar": "salwar",
-            "suruali / kaptura": "su-ru-a-li"
-          },
           "options": [
             "nguo / mavazi",
             "suruali / kaptura",
@@ -188,14 +148,7 @@
         },
         {
           "answer": "jeans / suruali ya denim",
-          "answerTranslit": "ji-nsi",
           "concept": "c:ropa-y-accesorios.vaqueros-jeans",
-          "optionTranslit": {
-            "fulana / tishati": "fu-la-na",
-            "jeans / suruali ya denim": "ji-nsi",
-            "sari": "sari",
-            "sketi": "ske-ti"
-          },
           "options": [
             "sari",
             "fulana / tishati",
@@ -206,14 +159,7 @@
         },
         {
           "answer": "pantalones",
-          "answerTranslit": "pantalones",
           "concept": "c:ropa-y-accesorios.pantalones-cortos",
-          "optionTranslit": {
-            "fulana / tishati": "fu-la-na",
-            "kurta": "kurta",
-            "pantalones": "pantalones",
-            "suruali / kaptura": "su-ru-a-li"
-          },
           "options": [
             "fulana / tishati",
             "pantalones",
@@ -224,14 +170,7 @@
         },
         {
           "answer": "sketi",
-          "answerTranslit": "ske-ti",
           "concept": "c:ropa-y-accesorios.falda",
-          "optionTranslit": {
-            "gauni / vazi": "ga-u-ni",
-            "nguo / mavazi": "ngu-o",
-            "sari": "sari",
-            "sketi": "ske-ti"
-          },
           "options": [
             "sketi",
             "gauni / vazi",
@@ -242,14 +181,7 @@
         },
         {
           "answer": "gauni / vazi",
-          "answerTranslit": "ga-u-ni",
           "concept": "c:ropa-y-accesorios.vestido",
-          "optionTranslit": {
-            "gauni / vazi": "ga-u-ni",
-            "nguo / mavazi": "ngu-o",
-            "nguo za kulalia / pajama": "pa-ja-ma",
-            "suruali / kaptura": "su-ru-a-li"
-          },
           "options": [
             "nguo / mavazi",
             "gauni / vazi",

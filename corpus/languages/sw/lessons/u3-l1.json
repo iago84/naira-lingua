@@ -19,96 +19,84 @@
       "en": "red",
       "es": "rojo",
       "speaker": "A",
-      "sw": "nyekundu",
-      "translit": "nye-kun-du"
+      "sw": "nyekundu"
     },
     {
       "concept": "c:colores.azul",
       "en": "blue",
       "es": "azul",
       "speaker": "B",
-      "sw": "bluu / samawati",
-      "translit": "blu-u"
+      "sw": "bluu / samawati"
     },
     {
       "concept": "c:colores.verde",
       "en": "green",
       "es": "verde",
       "speaker": "A",
-      "sw": "kijani",
-      "translit": "ki-ja-ni"
+      "sw": "kijani"
     },
     {
       "concept": "c:colores.amarillo",
       "en": "yellow",
       "es": "amarillo",
       "speaker": "B",
-      "sw": "njano / manjano",
-      "translit": "nja-no"
+      "sw": "njano / manjano"
     },
     {
       "concept": "c:colores.negro",
       "en": "black",
       "es": "negro",
       "speaker": "A",
-      "sw": "nyeusi",
-      "translit": "nye-u-si"
+      "sw": "nyeusi"
     },
     {
       "concept": "c:colores.blanco",
       "en": "white",
       "es": "blanco",
       "speaker": "B",
-      "sw": "nyeupe",
-      "translit": "nye-u-pe"
+      "sw": "nyeupe"
     },
     {
       "concept": "c:colores.naranja",
       "en": "orange",
       "es": "naranja",
       "speaker": "A",
-      "sw": "rangi ya chungwa / machungwa",
-      "translit": "ma-chun-gwa"
+      "sw": "rangi ya chungwa / machungwa"
     },
     {
       "concept": "c:colores.rosa",
       "en": "pink",
       "es": "rosa",
       "speaker": "B",
-      "sw": "waridi / pinki",
-      "translit": "wa-ri-di"
+      "sw": "waridi / pinki"
     },
     {
       "concept": "c:colores.morado-violeta",
       "en": "purple / violet",
       "es": "morado / violeta",
       "speaker": "A",
-      "sw": "zambarau / urujuani",
-      "translit": "zam-ba-rau"
+      "sw": "zambarau / urujuani"
     },
     {
       "concept": "c:colores.marron",
       "en": "brown",
       "es": "marrón",
       "speaker": "B",
-      "sw": "kahawia",
-      "translit": "ka-ha-wi-a"
+      "sw": "kahawia"
     },
     {
       "concept": "c:colores.gris",
       "en": "grey",
       "es": "gris",
       "speaker": "A",
-      "sw": "kijivu",
-      "translit": "ki-ji-vu"
+      "sw": "kijivu"
     },
     {
       "concept": "c:colores.dorado",
       "en": "gold",
       "es": "dorado",
       "speaker": "B",
-      "sw": "dhahabu / rangi ya dhahabu",
-      "translit": "dha-ha-bu"
+      "sw": "dhahabu / rangi ya dhahabu"
     }
   ],
   "exercises": [
@@ -116,14 +104,7 @@
       "items": [
         {
           "answer": "nyekundu",
-          "answerTranslit": "nye-kun-du",
           "concept": "c:colores.rojo",
-          "optionTranslit": {
-            "kijani": "ki-ja-ni",
-            "nyekundu": "nye-kun-du",
-            "nyeupe": "nye-u-pe",
-            "rangi ya chungwa / machungwa": "ma-chun-gwa"
-          },
           "options": [
             "kijani",
             "nyekundu",
@@ -134,14 +115,7 @@
         },
         {
           "answer": "bluu / samawati",
-          "answerTranslit": "blu-u",
           "concept": "c:colores.azul",
-          "optionTranslit": {
-            "bluu / samawati": "blu-u",
-            "dhahabu / rangi ya dhahabu": "dha-ha-bu",
-            "rangi ya chungwa / machungwa": "ma-chun-gwa",
-            "waridi / pinki": "wa-ri-di"
-          },
           "options": [
             "dhahabu / rangi ya dhahabu",
             "bluu / samawati",
@@ -152,14 +126,7 @@
         },
         {
           "answer": "kijani",
-          "answerTranslit": "ki-ja-ni",
           "concept": "c:colores.verde",
-          "optionTranslit": {
-            "kijani": "ki-ja-ni",
-            "kijivu": "ki-ji-vu",
-            "rangi ya chungwa / machungwa": "ma-chun-gwa",
-            "zambarau / urujuani": "zam-ba-rau"
-          },
           "options": [
             "rangi ya chungwa / machungwa",
             "kijivu",
@@ -170,14 +137,7 @@
         },
         {
           "answer": "njano / manjano",
-          "answerTranslit": "nja-no",
           "concept": "c:colores.amarillo",
-          "optionTranslit": {
-            "kahawia": "ka-ha-wi-a",
-            "kijivu": "ki-ji-vu",
-            "njano / manjano": "nja-no",
-            "nyekundu": "nye-kun-du"
-          },
           "options": [
             "kahawia",
             "nyekundu",
@@ -188,14 +148,7 @@
         },
         {
           "answer": "nyeusi",
-          "answerTranslit": "nye-u-si",
           "concept": "c:colores.negro",
-          "optionTranslit": {
-            "bluu / samawati": "blu-u",
-            "kahawia": "ka-ha-wi-a",
-            "nyeusi": "nye-u-si",
-            "rangi ya chungwa / machungwa": "ma-chun-gwa"
-          },
           "options": [
             "bluu / samawati",
             "nyeusi",
@@ -206,14 +159,7 @@
         },
         {
           "answer": "nyeupe",
-          "answerTranslit": "nye-u-pe",
           "concept": "c:colores.blanco",
-          "optionTranslit": {
-            "dhahabu / rangi ya dhahabu": "dha-ha-bu",
-            "kijivu": "ki-ji-vu",
-            "njano / manjano": "nja-no",
-            "nyeupe": "nye-u-pe"
-          },
           "options": [
             "kijivu",
             "njano / manjano",
@@ -224,14 +170,7 @@
         },
         {
           "answer": "rangi ya chungwa / machungwa",
-          "answerTranslit": "ma-chun-gwa",
           "concept": "c:colores.naranja",
-          "optionTranslit": {
-            "dhahabu / rangi ya dhahabu": "dha-ha-bu",
-            "kahawia": "ka-ha-wi-a",
-            "nyeupe": "nye-u-pe",
-            "rangi ya chungwa / machungwa": "ma-chun-gwa"
-          },
           "options": [
             "nyeupe",
             "kahawia",
@@ -242,14 +181,7 @@
         },
         {
           "answer": "waridi / pinki",
-          "answerTranslit": "wa-ri-di",
           "concept": "c:colores.rosa",
-          "optionTranslit": {
-            "njano / manjano": "nja-no",
-            "nyekundu": "nye-kun-du",
-            "nyeusi": "nye-u-si",
-            "waridi / pinki": "wa-ri-di"
-          },
           "options": [
             "nyekundu",
             "nyeusi",

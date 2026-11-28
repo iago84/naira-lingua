@@ -19,16 +19,14 @@
       "en": "body",
       "es": "cuerpo",
       "speaker": "A",
-      "sw": "mwili",
-      "translit": "mwi-li"
+      "sw": "mwili"
     },
     {
       "concept": "c:cuerpo-humano.cabeza",
       "en": "head",
       "es": "cabeza",
       "speaker": "B",
-      "sw": "kichwa",
-      "translit": "ki-chwa"
+      "sw": "kichwa"
     },
     {
       "concept": "c:cuerpo-humano.cabello-pelo",
@@ -42,24 +40,21 @@
       "en": "face / side",
       "es": "cara / rostro",
       "speaker": "B",
-      "sw": "uso / sura",
-      "translit": "u-so"
+      "sw": "uso / sura"
     },
     {
       "concept": "c:cuerpo-humano.frente",
       "en": "front",
       "es": "frente",
       "speaker": "A",
-      "sw": "paji la uso",
-      "translit": "pa-ji"
+      "sw": "paji la uso"
     },
     {
       "concept": "c:cuerpo-humano.ojo",
       "en": "eye",
       "es": "ojo",
       "speaker": "B",
-      "sw": "jicho",
-      "translit": "ji-cho"
+      "sw": "jicho"
     },
     {
       "concept": "c:cuerpo-humano.ojos",
@@ -73,8 +68,7 @@
       "en": "Beef",
       "es": "ceja",
       "speaker": "B",
-      "sw": "nyusi",
-      "translit": "nyu-si"
+      "sw": "nyusi"
     },
     {
       "concept": "c:cuerpo-humano.parpado-pestana",
@@ -88,24 +82,21 @@
       "en": "ear / ears",
       "es": "oreja / oído",
       "speaker": "B",
-      "sw": "sikio",
-      "translit": "si-ki-o"
+      "sw": "sikio"
     },
     {
       "concept": "c:cuerpo-humano.nariz",
       "en": "nose",
       "es": "nariz",
       "speaker": "A",
-      "sw": "pua",
-      "translit": "pu-a"
+      "sw": "pua"
     },
     {
       "concept": "c:cuerpo-humano.boca",
       "en": "mouth",
       "es": "boca",
       "speaker": "B",
-      "sw": "kinywa / mdomo",
-      "translit": "ki-nywa"
+      "sw": "kinywa / mdomo"
     }
   ],
   "exercises": [
@@ -113,12 +104,7 @@
       "items": [
         {
           "answer": "mwili",
-          "answerTranslit": "mwi-li",
           "concept": "c:cuerpo-humano.cuerpo",
-          "optionTranslit": {
-            "mwili": "mwi-li",
-            "paji la uso": "pa-ji"
-          },
           "options": [
             "macho",
             "mwili",
@@ -129,13 +115,7 @@
         },
         {
           "answer": "kichwa",
-          "answerTranslit": "ki-chwa",
           "concept": "c:cuerpo-humano.cabeza",
-          "optionTranslit": {
-            "jicho": "ji-cho",
-            "kichwa": "ki-chwa",
-            "kinywa / mdomo": "ki-nywa"
-          },
           "options": [
             "jicho",
             "kichwa",
@@ -147,11 +127,6 @@
         {
           "answer": "nywele",
           "concept": "c:cuerpo-humano.cabello-pelo",
-          "optionTranslit": {
-            "nyusi": "nyu-si",
-            "paji la uso": "pa-ji",
-            "pua": "pu-a"
-          },
           "options": [
             "pua",
             "nyusi",
@@ -162,12 +137,7 @@
         },
         {
           "answer": "uso / sura",
-          "answerTranslit": "u-so",
           "concept": "c:cuerpo-humano.cara-rostro",
-          "optionTranslit": {
-            "mwili": "mwi-li",
-            "uso / sura": "u-so"
-          },
           "options": [
             "mwili",
             "uso / sura",
@@ -178,12 +148,7 @@
         },
         {
           "answer": "paji la uso",
-          "answerTranslit": "pa-ji",
           "concept": "c:cuerpo-humano.frente",
-          "optionTranslit": {
-            "jicho": "ji-cho",
-            "paji la uso": "pa-ji"
-          },
           "options": [
             "nywele",
             "paji la uso",
@@ -194,13 +159,7 @@
         },
         {
           "answer": "jicho",
-          "answerTranslit": "ji-cho",
           "concept": "c:cuerpo-humano.ojo",
-          "optionTranslit": {
-            "jicho": "ji-cho",
-            "kichwa": "ki-chwa",
-            "paji la uso": "pa-ji"
-          },
           "options": [
             "paji la uso",
             "jicho",
@@ -212,11 +171,6 @@
         {
           "answer": "macho",
           "concept": "c:cuerpo-humano.ojos",
-          "optionTranslit": {
-            "kichwa": "ki-chwa",
-            "pua": "pu-a",
-            "sikio": "si-ki-o"
-          },
           "options": [
             "macho",
             "sikio",
@@ -227,13 +181,7 @@
         },
         {
           "answer": "nyusi",
-          "answerTranslit": "nyu-si",
           "concept": "c:cuerpo-humano.ceja",
-          "optionTranslit": {
-            "kichwa": "ki-chwa",
-            "nyusi": "nyu-si",
-            "paji la uso": "pa-ji"
-          },
           "options": [
             "nyusi",
             "paji la uso",

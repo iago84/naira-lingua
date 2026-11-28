@@ -1,7 +1,7 @@
 // js/tests/pairs.test.js
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { indexTerms, pickTerm, buildPair, domainsOf, filterByDomain, termsForConcept } from "../pairs.js";
+import { indexTerms, pickTerm, buildPair, domainsOf, filterByDomain, termsForConcept, translitOf } from "../pairs.js";
 
 const CONCEPTS = [
   { id: "c:saludos.hola", domain: "saludos", icon: "👋", gloss_es: "saludo" },
@@ -48,4 +48,19 @@ test("termsForConcept devuelve el término por idioma", () => {
   const out = termsForConcept("c:saludos.hola", termsByLang);
   assert.equal(out.es.term, "hola");
   assert.equal(out.fr.term, "salut");
+});
+
+test("translitOf omite la lectura en alfabeto latino", () => {
+  assert.equal(translitOf({ term: "Habari", translit: "ha-ba-ri", script: "latin" }), "");
+  assert.equal(translitOf({ term: "こんにちは", translit: "konnichiha", script: "japanese" }), "konnichiha");
+  assert.equal(translitOf({ term: "hola" }), "");
+  assert.equal(translitOf(null), "");
+});
+
+test("buildPair descarta la transliteración latina (sw) pero conserva la no latina", () => {
+  const concepts = [{ id: "c:saludos.hola", domain: "saludos", icon: "👋", gloss_es: "hola" }];
+  const sw = [{ concept: "c:saludos.hola", lang: "sw", term: "Habari", translit: "ha-ba-ri", script: "latin" }];
+  const ja = [{ concept: "c:saludos.hola", lang: "ja", term: "こんにちは", translit: "konnichiha", script: "japanese" }];
+  assert.equal(buildPair(concepts, sw, ja)[0].srcTranslit, "");
+  assert.equal(buildPair(concepts, sw, ja)[0].tgtTranslit, "konnichiha");
 });

@@ -26,64 +26,56 @@
       "en": "food (formal)",
       "es": "comida (formal)",
       "speaker": "B",
-      "sw": "chakula",
-      "translit": "cha-ku-la"
+      "sw": "chakula"
     },
     {
       "concept": "c:comida-y-bebida.desayuno",
       "en": "breakfast",
       "es": "desayuno",
       "speaker": "A",
-      "sw": "kiamsha kinywa / kifungua kinywa",
-      "translit": "ki-am-sha ki-nywa"
+      "sw": "kiamsha kinywa / kifungua kinywa"
     },
     {
       "concept": "c:comida-y-bebida.almuerzo",
       "en": "lunch",
       "es": "almuerzo",
       "speaker": "B",
-      "sw": "chakula cha mchana",
-      "translit": "cha-ku-la cha mcha-na"
+      "sw": "chakula cha mchana"
     },
     {
       "concept": "c:comida-y-bebida.cena",
       "en": "dinner",
       "es": "cena",
       "speaker": "A",
-      "sw": "chakula cha jioni",
-      "translit": "cha-ku-la cha ji-o-ni"
+      "sw": "chakula cha jioni"
     },
     {
       "concept": "c:comida-y-bebida.agua",
       "en": "water",
       "es": "agua",
       "speaker": "B",
-      "sw": "maji",
-      "translit": "ma-ji"
+      "sw": "maji"
     },
     {
       "concept": "c:comida-y-bebida.leche",
       "en": "milk",
       "es": "leche",
       "speaker": "A",
-      "sw": "maziwa",
-      "translit": "ma-zi-wa"
+      "sw": "maziwa"
     },
     {
       "concept": "c:comida-y-bebida.te",
       "en": "tea",
       "es": "té",
       "speaker": "B",
-      "sw": "chai",
-      "translit": "cha-i"
+      "sw": "chai"
     },
     {
       "concept": "c:comida-y-bebida.cafe",
       "en": "coffee",
       "es": "café",
       "speaker": "A",
-      "sw": "kahawa",
-      "translit": "ka-ha-wa"
+      "sw": "kahawa"
     },
     {
       "concept": "c:comida-y-bebida.zumo-jugo",
@@ -97,16 +89,14 @@
       "en": "lassi (yoghurt beaten)",
       "es": "lassi (yogur batido)",
       "speaker": "A",
-      "sw": "lassi",
-      "translit": "lassi"
+      "sw": "lassi"
     },
     {
       "concept": "c:comida-y-bebida.alcohol-vino",
       "en": "alcohol / wine",
       "es": "alcohol / vino",
       "speaker": "B",
-      "sw": "divai / mvinyo",
-      "translit": "di-va-i"
+      "sw": "divai / mvinyo"
     }
   ],
   "exercises": [
@@ -115,11 +105,6 @@
         {
           "answer": "chakula",
           "concept": "c:comida-y-bebida.comida-comer",
-          "optionTranslit": {
-            "chakula": "cha-ku-la",
-            "divai / mvinyo": "di-va-i",
-            "lassi": "lassi"
-          },
           "options": [
             "lassi",
             "chakula",
@@ -130,13 +115,7 @@
         },
         {
           "answer": "chakula",
-          "answerTranslit": "cha-ku-la",
           "concept": "c:comida-y-bebida.comida-formal",
-          "optionTranslit": {
-            "chakula": "cha-ku-la",
-            "divai / mvinyo": "di-va-i",
-            "kiamsha kinywa / kifungua kinywa": "ki-am-sha ki-nywa"
-          },
           "options": [
             "maji ya matunda",
             "kiamsha kinywa / kifungua kinywa",
@@ -147,13 +126,7 @@
         },
         {
           "answer": "kiamsha kinywa / kifungua kinywa",
-          "answerTranslit": "ki-am-sha ki-nywa",
           "concept": "c:comida-y-bebida.desayuno",
-          "optionTranslit": {
-            "chakula": "cha-ku-la",
-            "chakula cha mchana": "cha-ku-la cha mcha-na",
-            "kiamsha kinywa / kifungua kinywa": "ki-am-sha ki-nywa"
-          },
           "options": [
             "chakula cha mchana",
             "kiamsha kinywa / kifungua kinywa",
@@ -164,14 +137,7 @@
         },
         {
           "answer": "chakula cha mchana",
-          "answerTranslit": "cha-ku-la cha mcha-na",
           "concept": "c:comida-y-bebida.almuerzo",
-          "optionTranslit": {
-            "chakula": "cha-ku-la",
-            "chakula cha mchana": "cha-ku-la cha mcha-na",
-            "kiamsha kinywa / kifungua kinywa": "ki-am-sha ki-nywa",
-            "maziwa": "ma-zi-wa"
-          },
           "options": [
             "maziwa",
             "chakula cha mchana",
@@ -182,14 +148,7 @@
         },
         {
           "answer": "chakula cha jioni",
-          "answerTranslit": "cha-ku-la cha ji-o-ni",
           "concept": "c:comida-y-bebida.cena",
-          "optionTranslit": {
-            "chakula cha jioni": "cha-ku-la cha ji-o-ni",
-            "chakula cha mchana": "cha-ku-la cha mcha-na",
-            "kahawa": "ka-ha-wa",
-            "maziwa": "ma-zi-wa"
-          },
           "options": [
             "kahawa",
             "maziwa",
@@ -200,13 +159,7 @@
         },
         {
           "answer": "maji",
-          "answerTranslit": "ma-ji",
           "concept": "c:comida-y-bebida.agua",
-          "optionTranslit": {
-            "chai": "cha-i",
-            "chakula cha mchana": "cha-ku-la cha mcha-na",
-            "maji": "ma-ji"
-          },
           "options": [
             "maji",
             "maji ya matunda",
@@ -217,14 +170,7 @@
         },
         {
           "answer": "maziwa",
-          "answerTranslit": "ma-zi-wa",
           "concept": "c:comida-y-bebida.leche",
-          "optionTranslit": {
-            "divai / mvinyo": "di-va-i",
-            "lassi": "lassi",
-            "maji": "ma-ji",
-            "maziwa": "ma-zi-wa"
-          },
           "options": [
             "maji",
             "lassi",
@@ -235,13 +181,7 @@
         },
         {
           "answer": "chai",
-          "answerTranslit": "cha-i",
           "concept": "c:comida-y-bebida.te",
-          "optionTranslit": {
-            "chai": "cha-i",
-            "chakula cha jioni": "cha-ku-la cha ji-o-ni",
-            "maji": "ma-ji"
-          },
           "options": [
             "maji",
             "maji ya matunda",

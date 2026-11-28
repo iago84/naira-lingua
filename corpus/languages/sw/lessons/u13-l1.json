@@ -33,8 +33,7 @@
       "en": "go",
       "es": "ir",
       "speaker": "A",
-      "sw": "ir",
-      "translit": "ir"
+      "sw": "ir"
     },
     {
       "concept": "c:verbos-comunes.venir",
@@ -127,11 +126,7 @@
         },
         {
           "answer": "ir",
-          "answerTranslit": "ir",
           "concept": "c:verbos-comunes.ir",
-          "optionTranslit": {
-            "ir": "ir"
-          },
           "options": [
             "ir",
             "kuwa",
@@ -154,9 +149,6 @@
         {
           "answer": "kuona",
           "concept": "c:verbos-comunes.ver-mirar",
-          "optionTranslit": {
-            "ir": "ir"
-          },
           "options": [
             "kuona",
             "kuzungumza",
@@ -190,9 +182,6 @@
         {
           "answer": "kusema",
           "concept": "c:verbos-comunes.decir",
-          "optionTranslit": {
-            "ir": "ir"
-          },
           "options": [
             "ir",
             "kufanya",
