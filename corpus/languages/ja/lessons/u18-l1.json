@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:tecnologia-y-comunicacion.tecnologia",
+    "c:tecnologia-y-comunicacion.computadora-ordenador",
+    "c:tecnologia-y-comunicacion.portatil-laptop",
+    "c:tecnologia-y-comunicacion.tableta",
+    "c:tecnologia-y-comunicacion.telefono-movil-celular",
+    "c:tecnologia-y-comunicacion.telefono",
+    "c:tecnologia-y-comunicacion.pantalla",
+    "c:tecnologia-y-comunicacion.teclado",
+    "c:tecnologia-y-comunicacion.raton-informatica",
+    "c:tecnologia-y-comunicacion.impresora",
+    "c:tecnologia-y-comunicacion.camara",
+    "c:tecnologia-y-comunicacion.microfono"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:tecnologia-y-comunicacion.tecnologia",
+      "en": "technology",
+      "es": "tecnología",
+      "ja": "テクノロジー",
+      "speaker": "A",
+      "translit": "tekunorojii"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+      "en": "computer / PC",
+      "es": "computadora / ordenador",
+      "ja": "パソコン・PC",
+      "speaker": "B",
+      "translit": "pasokon・ PC"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+      "en": "laptop / laptop",
+      "es": "portátil / laptop",
+      "ja": "ラップトップ/ノートパソコン",
+      "speaker": "A",
+      "translit": "rapputoppu / nootopasokon"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.tableta",
+      "en": "tablet",
+      "es": "tableta",
+      "ja": "タブレット",
+      "speaker": "B",
+      "translit": "taburetto"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+      "en": "mobile / cell phone",
+      "es": "teléfono móvil / celular",
+      "ja": "携帯電話/携帯",
+      "speaker": "A",
+      "translit": "keitaidenwa / keitai"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.telefono",
+      "en": "phone",
+      "es": "teléfono",
+      "ja": "携帯電話",
+      "speaker": "B",
+      "translit": "keitaidenwa"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.pantalla",
+      "en": "screen",
+      "es": "pantalla",
+      "ja": "画面の一覧",
+      "speaker": "A",
+      "translit": "gamen no ichiran"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.teclado",
+      "en": "keyboard",
+      "es": "teclado",
+      "ja": "キーボード",
+      "speaker": "B",
+      "translit": "kiiboodo"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.raton-informatica",
+      "en": "mouse (computer)",
+      "es": "ratón (informática)",
+      "ja": "マウス(コンピュータ)",
+      "speaker": "A",
+      "translit": "mausu ( konpyuuta )"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.impresora",
+      "en": "printer",
+      "es": "impresora",
+      "ja": "プリンター",
+      "speaker": "B",
+      "translit": "purintaa"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.camara",
+      "en": "camera",
+      "es": "cámara",
+      "ja": "ディスプレイ",
+      "speaker": "A",
+      "translit": "disupurei"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.microfono",
+      "en": "microphone",
+      "es": "micrófono",
+      "ja": "マイク",
+      "speaker": "B",
+      "translit": "maiku"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "テクノロジー",
+          "answerTranslit": "tekunorojii",
+          "concept": "c:tecnologia-y-comunicacion.tecnologia",
+          "optionTranslit": {
+            "テクノロジー": "tekunorojii",
+            "パソコン・PC": "pasokon・ PC",
+            "マウス(コンピュータ)": "mausu ( konpyuuta )",
+            "ラップトップ/ノートパソコン": "rapputoppu / nootopasokon"
+          },
+          "options": [
+            "テクノロジー",
+            "パソコン・PC",
+            "ラップトップ/ノートパソコン",
+            "マウス(コンピュータ)"
+          ],
+          "prompt": "tecnología"
+        },
+        {
+          "answer": "パソコン・PC",
+          "answerTranslit": "pasokon・ PC",
+          "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+          "optionTranslit": {
+            "キーボード": "kiiboodo",
+            "タブレット": "taburetto",
+            "パソコン・PC": "pasokon・ PC",
+            "ラップトップ/ノートパソコン": "rapputoppu / nootopasokon"
+          },
+          "options": [
+            "ラップトップ/ノートパソコン",
+            "キーボード",
+            "タブレット",
+            "パソコン・PC"
+          ],
+          "prompt": "computadora / ordenador"
+        },
+        {
+          "answer": "ラップトップ/ノートパソコン",
+          "answerTranslit": "rapputoppu / nootopasokon",
+          "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+          "optionTranslit": {
+            "テクノロジー": "tekunorojii",
+            "ラップトップ/ノートパソコン": "rapputoppu / nootopasokon",
+            "携帯電話": "keitaidenwa",
+            "携帯電話/携帯": "keitaidenwa / keitai"
+          },
+          "options": [
+            "テクノロジー",
+            "ラップトップ/ノートパソコン",
+            "携帯電話/携帯",
+            "携帯電話"
+          ],
+          "prompt": "portátil / laptop"
+        },
+        {
+          "answer": "タブレット",
+          "answerTranslit": "taburetto",
+          "concept": "c:tecnologia-y-comunicacion.tableta",
+          "optionTranslit": {
+            "タブレット": "taburetto",
+            "プリンター": "purintaa",
+            "マイク": "maiku",
+            "携帯電話": "keitaidenwa"
+          },
+          "options": [
+            "マイク",
+            "プリンター",
+            "携帯電話",
+            "タブレット"
+          ],
+          "prompt": "tableta"
+        },
+        {
+          "answer": "携帯電話/携帯",
+          "answerTranslit": "keitaidenwa / keitai",
+          "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+          "optionTranslit": {
+            "キーボード": "kiiboodo",
+            "タブレット": "taburetto",
+            "パソコン・PC": "pasokon・ PC",
+            "携帯電話/携帯": "keitaidenwa / keitai"
+          },
+          "options": [
+            "キーボード",
+            "パソコン・PC",
+            "タブレット",
+            "携帯電話/携帯"
+          ],
+          "prompt": "teléfono móvil / celular"
+        },
+        {
+          "answer": "携帯電話",
+          "answerTranslit": "keitaidenwa",
+          "concept": "c:tecnologia-y-comunicacion.telefono",
+          "optionTranslit": {
+            "キーボード": "kiiboodo",
+            "プリンター": "purintaa",
+            "ラップトップ/ノートパソコン": "rapputoppu / nootopasokon",
+            "携帯電話": "keitaidenwa"
+          },
+          "options": [
+            "プリンター",
+            "ラップトップ/ノートパソコン",
+            "携帯電話",
+            "キーボード"
+          ],
+          "prompt": "teléfono"
+        },
+        {
+          "answer": "画面の一覧",
+          "answerTranslit": "gamen no ichiran",
+          "concept": "c:tecnologia-y-comunicacion.pantalla",
+          "optionTranslit": {
+            "キーボード": "kiiboodo",
+            "テクノロジー": "tekunorojii",
+            "ディスプレイ": "disupurei",
+            "画面の一覧": "gamen no ichiran"
+          },
+          "options": [
+            "テクノロジー",
+            "キーボード",
+            "画面の一覧",
+            "ディスプレイ"
+          ],
+          "prompt": "pantalla"
+        },
+        {
+          "answer": "キーボード",
+          "answerTranslit": "kiiboodo",
+          "concept": "c:tecnologia-y-comunicacion.teclado",
+          "optionTranslit": {
+            "キーボード": "kiiboodo",
+            "タブレット": "taburetto",
+            "パソコン・PC": "pasokon・ PC",
+            "画面の一覧": "gamen no ichiran"
+          },
+          "options": [
+            "タブレット",
+            "画面の一覧",
+            "キーボード",
+            "パソコン・PC"
+          ],
+          "prompt": "teclado"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Devices, internet and everyday communication.",
+    "es": "Aparatos, internet y comunicación del día a día."
+  },
+  "generator": "build_lessons",
+  "id": "ja-u18-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name devices and services",
+      "Talk on the phone and online"
+    ],
+    "es": [
+      "Nombrar aparatos y servicios",
+      "Hablar por teléfono e internet"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "tecnología",
+          "technology",
+          "テクノロジー"
+        ],
+        [
+          "computadora / ordenador",
+          "computer / PC",
+          "パソコン・PC"
+        ],
+        [
+          "portátil / laptop",
+          "laptop / laptop",
+          "ラップトップ/ノートパソコン"
+        ],
+        [
+          "tableta",
+          "tablet",
+          "タブレット"
+        ],
+        [
+          "teléfono móvil / celular",
+          "mobile / cell phone",
+          "携帯電話/携帯"
+        ],
+        [
+          "teléfono",
+          "phone",
+          "携帯電話"
+        ],
+        [
+          "pantalla",
+          "screen",
+          "画面の一覧"
+        ],
+        [
+          "teclado",
+          "keyboard",
+          "キーボード"
+        ],
+        [
+          "ratón (informática)",
+          "mouse (computer)",
+          "マウス(コンピュータ)"
+        ],
+        [
+          "impresora",
+          "printer",
+          "プリンター"
+        ],
+        [
+          "cámara",
+          "camera",
+          "ディスプレイ"
+        ],
+        [
+          "micrófono",
+          "microphone",
+          "マイク"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Technology and communication",
+    "es": "La tecnología y la comunicación"
+  },
+  "unit": 18
+}

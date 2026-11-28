@@ -19,6 +19,7 @@
       "en": "body",
       "es": "cuerpo",
       "speaker": "A",
+      "translit": "tǐ xíng",
       "zh": "体型"
     },
     {
@@ -26,6 +27,7 @@
       "en": "head",
       "es": "cabeza",
       "speaker": "B",
+      "translit": "tóu",
       "zh": "头"
     },
     {
@@ -33,6 +35,7 @@
       "en": "hair / hair-",
       "es": "cabello / pelo",
       "speaker": "A",
+      "translit": "fà xíng / fà xíng",
       "zh": "发型/发型"
     },
     {
@@ -40,6 +43,7 @@
       "en": "face / side",
       "es": "cara / rostro",
       "speaker": "B",
+      "translit": "xiāng / cè",
       "zh": "相/侧"
     },
     {
@@ -47,6 +51,7 @@
       "en": "front",
       "es": "frente",
       "speaker": "A",
+      "translit": "qián miàn",
       "zh": "前面"
     },
     {
@@ -54,6 +59,7 @@
       "en": "eye",
       "es": "ojo",
       "speaker": "B",
+      "translit": "shuāng yǎn",
       "zh": "双眼"
     },
     {
@@ -61,6 +67,7 @@
       "en": "eyes",
       "es": "ojos",
       "speaker": "A",
+      "translit": "yǎn jīng ( shuāng yǎn )",
       "zh": "眼睛(双眼)"
     },
     {
@@ -68,6 +75,7 @@
       "en": "Beef",
       "es": "ceja",
       "speaker": "B",
+      "translit": "niú ròu",
       "zh": "牛肉"
     },
     {
@@ -75,6 +83,7 @@
       "en": "eyelid / tab",
       "es": "párpado / pestaña",
       "speaker": "A",
+      "translit": "yǎn pí /  biāo qiān",
       "zh": "眼皮/ 标签"
     },
     {
@@ -82,6 +91,7 @@
       "en": "ear / ears",
       "es": "oreja / oído",
       "speaker": "B",
+      "translit": "ěr duǒ / ěr duǒ",
       "zh": "耳朵/耳朵"
     },
     {
@@ -89,6 +99,7 @@
       "en": "nose",
       "es": "nariz",
       "speaker": "A",
+      "translit": "bí tóu",
       "zh": "鼻头"
     },
     {
@@ -96,14 +107,168 @@
       "en": "mouth",
       "es": "boca",
       "speaker": "B",
+      "translit": "kǒu hào",
       "zh": "口号"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "体型",
+          "answerTranslit": "tǐ xíng",
+          "concept": "c:cuerpo-humano.cuerpo",
+          "optionTranslit": {
+            "体型": "tǐ xíng",
+            "前面": "qián miàn",
+            "眼皮/ 标签": "yǎn pí /  biāo qiān",
+            "眼睛(双眼)": "yǎn jīng ( shuāng yǎn )"
+          },
+          "options": [
+            "眼睛(双眼)",
+            "体型",
+            "前面",
+            "眼皮/ 标签"
+          ],
+          "prompt": "cuerpo"
+        },
+        {
+          "answer": "头",
+          "answerTranslit": "tóu",
+          "concept": "c:cuerpo-humano.cabeza",
+          "optionTranslit": {
+            "双眼": "shuāng yǎn",
+            "口号": "kǒu hào",
+            "头": "tóu",
+            "眼睛(双眼)": "yǎn jīng ( shuāng yǎn )"
+          },
+          "options": [
+            "双眼",
+            "头",
+            "口号",
+            "眼睛(双眼)"
+          ],
+          "prompt": "cabeza"
+        },
+        {
+          "answer": "发型/发型",
+          "answerTranslit": "fà xíng / fà xíng",
+          "concept": "c:cuerpo-humano.cabello-pelo",
+          "optionTranslit": {
+            "前面": "qián miàn",
+            "发型/发型": "fà xíng / fà xíng",
+            "牛肉": "niú ròu",
+            "鼻头": "bí tóu"
+          },
+          "options": [
+            "鼻头",
+            "牛肉",
+            "发型/发型",
+            "前面"
+          ],
+          "prompt": "cabello / pelo"
+        },
+        {
+          "answer": "相/侧",
+          "answerTranslit": "xiāng / cè",
+          "concept": "c:cuerpo-humano.cara-rostro",
+          "optionTranslit": {
+            "体型": "tǐ xíng",
+            "发型/发型": "fà xíng / fà xíng",
+            "相/侧": "xiāng / cè",
+            "眼睛(双眼)": "yǎn jīng ( shuāng yǎn )"
+          },
+          "options": [
+            "体型",
+            "相/侧",
+            "发型/发型",
+            "眼睛(双眼)"
+          ],
+          "prompt": "cara / rostro"
+        },
+        {
+          "answer": "前面",
+          "answerTranslit": "qián miàn",
+          "concept": "c:cuerpo-humano.frente",
+          "optionTranslit": {
+            "前面": "qián miàn",
+            "双眼": "shuāng yǎn",
+            "发型/发型": "fà xíng / fà xíng",
+            "眼睛(双眼)": "yǎn jīng ( shuāng yǎn )"
+          },
+          "options": [
+            "发型/发型",
+            "前面",
+            "双眼",
+            "眼睛(双眼)"
+          ],
+          "prompt": "frente"
+        },
+        {
+          "answer": "双眼",
+          "answerTranslit": "shuāng yǎn",
+          "concept": "c:cuerpo-humano.ojo",
+          "optionTranslit": {
+            "前面": "qián miàn",
+            "双眼": "shuāng yǎn",
+            "头": "tóu",
+            "眼皮/ 标签": "yǎn pí /  biāo qiān"
+          },
+          "options": [
+            "前面",
+            "双眼",
+            "眼皮/ 标签",
+            "头"
+          ],
+          "prompt": "ojo"
+        },
+        {
+          "answer": "眼睛(双眼)",
+          "answerTranslit": "yǎn jīng ( shuāng yǎn )",
+          "concept": "c:cuerpo-humano.ojos",
+          "optionTranslit": {
+            "头": "tóu",
+            "眼睛(双眼)": "yǎn jīng ( shuāng yǎn )",
+            "耳朵/耳朵": "ěr duǒ / ěr duǒ",
+            "鼻头": "bí tóu"
+          },
+          "options": [
+            "眼睛(双眼)",
+            "耳朵/耳朵",
+            "头",
+            "鼻头"
+          ],
+          "prompt": "ojos"
+        },
+        {
+          "answer": "牛肉",
+          "answerTranslit": "niú ròu",
+          "concept": "c:cuerpo-humano.ceja",
+          "optionTranslit": {
+            "前面": "qián miàn",
+            "头": "tóu",
+            "牛肉": "niú ròu",
+            "眼皮/ 标签": "yǎn pí /  biāo qiān"
+          },
+          "options": [
+            "牛肉",
+            "前面",
+            "头",
+            "眼皮/ 标签"
+          ],
+          "prompt": "ceja"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Parts of the body, useful to talk about health and care.",
-    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
-    "zh": "身体的部件,对讨论健康和保健很有帮助。"
+    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
   },
   "generator": "build_lessons",
   "id": "zh-u5-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar las partes del cuerpo",
       "Hablar de la salud"
-    ],
-    "zh": [
-      "命名身体部件",
-      "讲健康"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "The human body",
-    "es": "El cuerpo humano",
-    "zh": "人体"
+    "es": "El cuerpo humano"
   },
   "unit": 5
 }

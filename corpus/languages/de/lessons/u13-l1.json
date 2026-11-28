@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:verbos-comunes.ser-estar-haber",
+    "c:verbos-comunes.hacer",
+    "c:verbos-comunes.ir",
+    "c:verbos-comunes.venir",
+    "c:verbos-comunes.ver-mirar",
+    "c:verbos-comunes.oir-escuchar",
+    "c:verbos-comunes.hablar-decir",
+    "c:verbos-comunes.decir",
+    "c:verbos-comunes.preguntar",
+    "c:verbos-comunes.contar-explicar",
+    "c:verbos-comunes.entender-comprender",
+    "c:verbos-comunes.saber-conocer"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:verbos-comunes.ser-estar-haber",
+      "de": "be / sind",
+      "en": "be / are",
+      "es": "ser / estar / haber",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.hacer",
+      "de": "do",
+      "en": "do",
+      "es": "hacer",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:verbos-comunes.ir",
+      "de": "gehen",
+      "en": "go",
+      "es": "ir",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.venir",
+      "de": "Kommen",
+      "en": "Come",
+      "es": "venir",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:verbos-comunes.ver-mirar",
+      "de": "Sehen/sehen",
+      "en": "see / watch",
+      "es": "ver / mirar",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.oir-escuchar",
+      "de": "Hören / hören",
+      "en": "hear / listen",
+      "es": "oír / escuchar",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:verbos-comunes.hablar-decir",
+      "de": "Sprechen / Sagen",
+      "en": "speak / say",
+      "es": "hablar / decir",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.decir",
+      "de": "Sagen",
+      "en": "say",
+      "es": "decir",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:verbos-comunes.preguntar",
+      "de": "Bitten",
+      "en": "ask",
+      "es": "preguntar",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.contar-explicar",
+      "de": "Zählen/Erklären",
+      "en": "count / explain",
+      "es": "contar / explicar",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:verbos-comunes.entender-comprender",
+      "de": "verstehen/verstehen",
+      "en": "understand / comprehend",
+      "es": "entender / comprender",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.saber-conocer",
+      "de": "Wissen/verstehen",
+      "en": "know / understand",
+      "es": "saber / conocer",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "be / sind",
+          "concept": "c:verbos-comunes.ser-estar-haber",
+          "options": [
+            "be / sind",
+            "Sehen/sehen",
+            "Kommen",
+            "Bitten"
+          ],
+          "prompt": "ser / estar / haber"
+        },
+        {
+          "answer": "do",
+          "concept": "c:verbos-comunes.hacer",
+          "options": [
+            "Sehen/sehen",
+            "do",
+            "Zählen/Erklären",
+            "Sagen"
+          ],
+          "prompt": "hacer"
+        },
+        {
+          "answer": "gehen",
+          "concept": "c:verbos-comunes.ir",
+          "options": [
+            "gehen",
+            "be / sind",
+            "verstehen/verstehen",
+            "Kommen"
+          ],
+          "prompt": "ir"
+        },
+        {
+          "answer": "Kommen",
+          "concept": "c:verbos-comunes.venir",
+          "options": [
+            "Sagen",
+            "Kommen",
+            "verstehen/verstehen",
+            "Sehen/sehen"
+          ],
+          "prompt": "venir"
+        },
+        {
+          "answer": "Sehen/sehen",
+          "concept": "c:verbos-comunes.ver-mirar",
+          "options": [
+            "Sehen/sehen",
+            "Sprechen / Sagen",
+            "Wissen/verstehen",
+            "gehen"
+          ],
+          "prompt": "ver / mirar"
+        },
+        {
+          "answer": "Hören / hören",
+          "concept": "c:verbos-comunes.oir-escuchar",
+          "options": [
+            "Hören / hören",
+            "Bitten",
+            "Zählen/Erklären",
+            "verstehen/verstehen"
+          ],
+          "prompt": "oír / escuchar"
+        },
+        {
+          "answer": "Sprechen / Sagen",
+          "concept": "c:verbos-comunes.hablar-decir",
+          "options": [
+            "verstehen/verstehen",
+            "Sprechen / Sagen",
+            "be / sind",
+            "Wissen/verstehen"
+          ],
+          "prompt": "hablar / decir"
+        },
+        {
+          "answer": "Sagen",
+          "concept": "c:verbos-comunes.decir",
+          "options": [
+            "gehen",
+            "do",
+            "Sehen/sehen",
+            "Sagen"
+          ],
+          "prompt": "decir"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "The most frequent verbs, the base for building sentences.",
+    "es": "Los verbos más frecuentes, la base para formar frases."
+  },
+  "generator": "build_lessons",
+  "id": "de-u13-l1",
+  "lang": "de",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Recognise the most common verbs",
+      "Name everyday actions"
+    ],
+    "es": [
+      "Reconocer los verbos más usados",
+      "Nombrar acciones del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "de"
+      ],
+      "rows": [
+        [
+          "ser / estar / haber",
+          "be / are",
+          "be / sind"
+        ],
+        [
+          "hacer",
+          "do",
+          "do"
+        ],
+        [
+          "ir",
+          "go",
+          "gehen"
+        ],
+        [
+          "venir",
+          "Come",
+          "Kommen"
+        ],
+        [
+          "ver / mirar",
+          "see / watch",
+          "Sehen/sehen"
+        ],
+        [
+          "oír / escuchar",
+          "hear / listen",
+          "Hören / hören"
+        ],
+        [
+          "hablar / decir",
+          "speak / say",
+          "Sprechen / Sagen"
+        ],
+        [
+          "decir",
+          "say",
+          "Sagen"
+        ],
+        [
+          "preguntar",
+          "ask",
+          "Bitten"
+        ],
+        [
+          "contar / explicar",
+          "count / explain",
+          "Zählen/Erklären"
+        ],
+        [
+          "entender / comprender",
+          "understand / comprehend",
+          "verstehen/verstehen"
+        ],
+        [
+          "saber / conocer",
+          "know / understand",
+          "Wissen/verstehen"
+        ]
+      ],
+      "title": "es · en · de",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Common verbs",
+    "es": "Los verbos comunes"
+  },
+  "unit": 13
+}

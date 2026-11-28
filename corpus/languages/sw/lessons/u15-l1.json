@@ -1,0 +1,324 @@
+{
+  "concepts": [
+    "c:viajes-compras-y-servicios.compras-ir-de-compras",
+    "c:viajes-compras-y-servicios.tienda",
+    "c:viajes-compras-y-servicios.mercado",
+    "c:viajes-compras-y-servicios.supermercado",
+    "c:viajes-compras-y-servicios.centro-comercial",
+    "c:viajes-compras-y-servicios.vendedor-tendero",
+    "c:viajes-compras-y-servicios.cliente-comprador",
+    "c:viajes-compras-y-servicios.precio",
+    "c:viajes-compras-y-servicios.dinero",
+    "c:viajes-compras-y-servicios.rupia-india-inr",
+    "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+    "c:viajes-compras-y-servicios.tarjeta"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+      "en": "shopping / going for purchases",
+      "es": "compras / ir de compras",
+      "speaker": "A",
+      "sw": "ununuzi"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.tienda",
+      "en": "shop",
+      "es": "tienda",
+      "speaker": "B",
+      "sw": "duka"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.mercado",
+      "en": "market",
+      "es": "mercado",
+      "speaker": "A",
+      "sw": "soko"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.supermercado",
+      "en": "supermarket",
+      "es": "supermercado",
+      "speaker": "B",
+      "sw": "supamaketi"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.centro-comercial",
+      "en": "shopping centre",
+      "es": "centro comercial",
+      "speaker": "A",
+      "sw": "maduka makubwa"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+      "en": "seller / tenderer",
+      "es": "vendedor / tendero",
+      "speaker": "B",
+      "sw": "muuzaji",
+      "translit": "mu-u-za-ji"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+      "en": "customer / buyer",
+      "es": "cliente / comprador",
+      "speaker": "A",
+      "sw": "mteja",
+      "translit": "mte-ja"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.precio",
+      "en": "price",
+      "es": "precio",
+      "speaker": "B",
+      "sw": "bei"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.dinero",
+      "en": "money",
+      "es": "dinero",
+      "speaker": "A",
+      "sw": "pesa"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.rupia-india-inr",
+      "en": "Indian rupee (INR)",
+      "es": "rupia india (INR)",
+      "speaker": "B",
+      "sw": "rupia",
+      "translit": "rupia"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+      "en": "cash / money in the form of",
+      "es": "efectivo / dinero en efectivo",
+      "speaker": "A",
+      "sw": "sare"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.tarjeta",
+      "en": "card",
+      "es": "tarjeta",
+      "speaker": "B",
+      "sw": "kadi"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "ununuzi",
+          "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+          "optionTranslit": {
+            "mteja": "mte-ja"
+          },
+          "options": [
+            "supamaketi",
+            "mteja",
+            "ununuzi",
+            "maduka makubwa"
+          ],
+          "prompt": "compras / ir de compras"
+        },
+        {
+          "answer": "duka",
+          "concept": "c:viajes-compras-y-servicios.tienda",
+          "optionTranslit": {
+            "muuzaji": "mu-u-za-ji"
+          },
+          "options": [
+            "muuzaji",
+            "duka",
+            "kadi",
+            "sare"
+          ],
+          "prompt": "tienda"
+        },
+        {
+          "answer": "soko",
+          "concept": "c:viajes-compras-y-servicios.mercado",
+          "optionTranslit": {
+            "rupia": "rupia"
+          },
+          "options": [
+            "rupia",
+            "duka",
+            "soko",
+            "kadi"
+          ],
+          "prompt": "mercado"
+        },
+        {
+          "answer": "supamaketi",
+          "concept": "c:viajes-compras-y-servicios.supermercado",
+          "optionTranslit": {
+            "rupia": "rupia"
+          },
+          "options": [
+            "rupia",
+            "bei",
+            "duka",
+            "supamaketi"
+          ],
+          "prompt": "supermercado"
+        },
+        {
+          "answer": "maduka makubwa",
+          "concept": "c:viajes-compras-y-servicios.centro-comercial",
+          "optionTranslit": {
+            "muuzaji": "mu-u-za-ji"
+          },
+          "options": [
+            "supamaketi",
+            "muuzaji",
+            "maduka makubwa",
+            "soko"
+          ],
+          "prompt": "centro comercial"
+        },
+        {
+          "answer": "muuzaji",
+          "answerTranslit": "mu-u-za-ji",
+          "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+          "optionTranslit": {
+            "muuzaji": "mu-u-za-ji",
+            "rupia": "rupia"
+          },
+          "options": [
+            "ununuzi",
+            "rupia",
+            "muuzaji",
+            "supamaketi"
+          ],
+          "prompt": "vendedor / tendero"
+        },
+        {
+          "answer": "mteja",
+          "answerTranslit": "mte-ja",
+          "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+          "optionTranslit": {
+            "mteja": "mte-ja"
+          },
+          "options": [
+            "ununuzi",
+            "bei",
+            "sare",
+            "mteja"
+          ],
+          "prompt": "cliente / comprador"
+        },
+        {
+          "answer": "bei",
+          "concept": "c:viajes-compras-y-servicios.precio",
+          "options": [
+            "pesa",
+            "sare",
+            "ununuzi",
+            "bei"
+          ],
+          "prompt": "precio"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Words to shop, pay and use services during a trip.",
+    "es": "Palabras para comprar, pagar y usar servicios durante un viaje."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u15-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Handle shopping and services",
+      "Ask about prices and opening hours"
+    ],
+    "es": [
+      "Resolver compras y servicios",
+      "Preguntar precios y horarios"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "compras / ir de compras",
+          "shopping / going for purchases",
+          "ununuzi"
+        ],
+        [
+          "tienda",
+          "shop",
+          "duka"
+        ],
+        [
+          "mercado",
+          "market",
+          "soko"
+        ],
+        [
+          "supermercado",
+          "supermarket",
+          "supamaketi"
+        ],
+        [
+          "centro comercial",
+          "shopping centre",
+          "maduka makubwa"
+        ],
+        [
+          "vendedor / tendero",
+          "seller / tenderer",
+          "muuzaji"
+        ],
+        [
+          "cliente / comprador",
+          "customer / buyer",
+          "mteja"
+        ],
+        [
+          "precio",
+          "price",
+          "bei"
+        ],
+        [
+          "dinero",
+          "money",
+          "pesa"
+        ],
+        [
+          "rupia india (INR)",
+          "Indian rupee (INR)",
+          "rupia"
+        ],
+        [
+          "efectivo / dinero en efectivo",
+          "cash / money in the form of",
+          "sare"
+        ],
+        [
+          "tarjeta",
+          "card",
+          "kadi"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Travel, shopping and services",
+    "es": "Viajes, compras y servicios"
+  },
+  "unit": 15
+}

@@ -19,91 +19,256 @@
       "en": "body",
       "es": "cuerpo",
       "ja": "ボディ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "bodi"
     },
     {
       "concept": "c:cuerpo-humano.cabeza",
       "en": "head",
       "es": "cabeza",
       "ja": "ヘッド",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "heddo"
     },
     {
       "concept": "c:cuerpo-humano.cabello-pelo",
       "en": "hair / hair-",
       "es": "cabello / pelo",
       "ja": "毛/髪-",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "ke / kami -"
     },
     {
       "concept": "c:cuerpo-humano.cara-rostro",
       "en": "face / side",
       "es": "cara / rostro",
       "ja": "表面/側面",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "hyoumen / sokumen"
     },
     {
       "concept": "c:cuerpo-humano.frente",
       "en": "front",
       "es": "frente",
       "ja": "プレス",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "puresu"
     },
     {
       "concept": "c:cuerpo-humano.ojo",
       "en": "eye",
       "es": "ojo",
       "ja": "目指す",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "mezasu"
     },
     {
       "concept": "c:cuerpo-humano.ojos",
       "en": "eyes",
       "es": "ojos",
       "ja": "目指す",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "mezasu"
     },
     {
       "concept": "c:cuerpo-humano.ceja",
       "en": "Beef",
       "es": "ceja",
       "ja": "ビーフ・チキン",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "biifu・chikin"
     },
     {
       "concept": "c:cuerpo-humano.parpado-pestana",
       "en": "eyelid / tab",
       "es": "párpado / pestaña",
       "ja": "まぶた/タブ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "mabuta / tabu"
     },
     {
       "concept": "c:cuerpo-humano.oreja-oido",
       "en": "ear / ears",
       "es": "oreja / oído",
       "ja": "耳/耳",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "mimi / mimi"
     },
     {
       "concept": "c:cuerpo-humano.nariz",
       "en": "nose",
       "es": "nariz",
       "ja": "ノーズ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "noozu"
     },
     {
       "concept": "c:cuerpo-humano.boca",
       "en": "mouth",
       "es": "boca",
       "ja": "口腔内",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "koukuunai"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "ボディ",
+          "answerTranslit": "bodi",
+          "concept": "c:cuerpo-humano.cuerpo",
+          "optionTranslit": {
+            "ビーフ・チキン": "biifu・chikin",
+            "プレス": "puresu",
+            "ボディ": "bodi",
+            "耳/耳": "mimi / mimi"
+          },
+          "options": [
+            "ビーフ・チキン",
+            "ボディ",
+            "プレス",
+            "耳/耳"
+          ],
+          "prompt": "cuerpo"
+        },
+        {
+          "answer": "ヘッド",
+          "answerTranslit": "heddo",
+          "concept": "c:cuerpo-humano.cabeza",
+          "optionTranslit": {
+            "ビーフ・チキン": "biifu・chikin",
+            "ヘッド": "heddo",
+            "口腔内": "koukuunai",
+            "目指す": "mezasu"
+          },
+          "options": [
+            "目指す",
+            "ヘッド",
+            "口腔内",
+            "ビーフ・チキン"
+          ],
+          "prompt": "cabeza"
+        },
+        {
+          "answer": "毛/髪-",
+          "answerTranslit": "ke / kami -",
+          "concept": "c:cuerpo-humano.cabello-pelo",
+          "optionTranslit": {
+            "まぶた/タブ": "mabuta / tabu",
+            "プレス": "puresu",
+            "口腔内": "koukuunai",
+            "毛/髪-": "ke / kami -"
+          },
+          "options": [
+            "口腔内",
+            "まぶた/タブ",
+            "毛/髪-",
+            "プレス"
+          ],
+          "prompt": "cabello / pelo"
+        },
+        {
+          "answer": "表面/側面",
+          "answerTranslit": "hyoumen / sokumen",
+          "concept": "c:cuerpo-humano.cara-rostro",
+          "optionTranslit": {
+            "ビーフ・チキン": "biifu・chikin",
+            "ボディ": "bodi",
+            "毛/髪-": "ke / kami -",
+            "表面/側面": "hyoumen / sokumen"
+          },
+          "options": [
+            "ボディ",
+            "表面/側面",
+            "毛/髪-",
+            "ビーフ・チキン"
+          ],
+          "prompt": "cara / rostro"
+        },
+        {
+          "answer": "プレス",
+          "answerTranslit": "puresu",
+          "concept": "c:cuerpo-humano.frente",
+          "optionTranslit": {
+            "ビーフ・チキン": "biifu・chikin",
+            "プレス": "puresu",
+            "毛/髪-": "ke / kami -",
+            "目指す": "mezasu"
+          },
+          "options": [
+            "毛/髪-",
+            "プレス",
+            "目指す",
+            "ビーフ・チキン"
+          ],
+          "prompt": "frente"
+        },
+        {
+          "answer": "目指す",
+          "answerTranslit": "mezasu",
+          "concept": "c:cuerpo-humano.ojo",
+          "optionTranslit": {
+            "プレス": "puresu",
+            "ヘッド": "heddo",
+            "目指す": "mezasu",
+            "耳/耳": "mimi / mimi"
+          },
+          "options": [
+            "プレス",
+            "目指す",
+            "耳/耳",
+            "ヘッド"
+          ],
+          "prompt": "ojo"
+        },
+        {
+          "answer": "目指す",
+          "answerTranslit": "mezasu",
+          "concept": "c:cuerpo-humano.ojos",
+          "optionTranslit": {
+            "ノーズ": "noozu",
+            "ヘッド": "heddo",
+            "ボディ": "bodi",
+            "目指す": "mezasu"
+          },
+          "options": [
+            "ヘッド",
+            "ボディ",
+            "ノーズ",
+            "目指す"
+          ],
+          "prompt": "ojos"
+        },
+        {
+          "answer": "ビーフ・チキン",
+          "answerTranslit": "biifu・chikin",
+          "concept": "c:cuerpo-humano.ceja",
+          "optionTranslit": {
+            "ビーフ・チキン": "biifu・chikin",
+            "プレス": "puresu",
+            "ヘッド": "heddo",
+            "耳/耳": "mimi / mimi"
+          },
+          "options": [
+            "ビーフ・チキン",
+            "プレス",
+            "ヘッド",
+            "耳/耳"
+          ],
+          "prompt": "ceja"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Parts of the body, useful to talk about health and care.",
-    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
-    "ja": "身体部分は、健康とケアについて話するのに便利です。"
+    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
   },
   "generator": "build_lessons",
   "id": "ja-u5-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar las partes del cuerpo",
       "Hablar de la salud"
-    ],
-    "ja": [
-      "体部を名付けて下さい",
-      "健康に関する話"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "The human body",
-    "es": "El cuerpo humano",
-    "ja": "人体について"
+    "es": "El cuerpo humano"
   },
   "unit": 5
 }

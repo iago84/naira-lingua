@@ -19,91 +19,256 @@
       "en": "animal",
       "es": "animal",
       "hi": "जानवर",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "jānvar"
     },
     {
       "concept": "c:animales.perro",
       "en": "dog",
       "es": "perro",
       "hi": "कुत्ता",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "kuttā"
     },
     {
       "concept": "c:animales.gato",
       "en": "cat",
       "es": "gato",
       "hi": "बिल्ली",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "billī"
     },
     {
       "concept": "c:animales.vaca",
       "en": "cow",
       "es": "vaca",
       "hi": "गाय",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "gāy"
     },
     {
       "concept": "c:animales.buey-toro",
       "en": "ox / bull",
       "es": "buey / toro",
       "hi": "बैल",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "bail"
     },
     {
       "concept": "c:animales.bufalo",
       "en": "buffalo",
       "es": "búfalo",
       "hi": "भैंस",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "bhaĩs"
     },
     {
       "concept": "c:animales.caballo",
       "en": "horse",
       "es": "caballo",
       "hi": "घोड़ा",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "ghoṛā"
     },
     {
       "concept": "c:animales.burro-asno",
       "en": "donkey / ass",
       "es": "burro / asno",
       "hi": "गधा",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "gadhā"
     },
     {
       "concept": "c:animales.cabra",
       "en": "goat",
       "es": "cabra",
       "hi": "बकरी",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "bakrī"
     },
     {
       "concept": "c:animales.oveja",
       "en": "sheep",
       "es": "oveja",
       "hi": "भेड़",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "bheṛ"
     },
     {
       "concept": "c:animales.cerdo",
       "en": "pig",
       "es": "cerdo",
       "hi": "सूअर",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "sūar"
     },
     {
       "concept": "c:animales.gallina",
       "en": "chicken",
       "es": "gallina",
       "hi": "मुर्गी",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "murgī"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "जानवर",
+          "answerTranslit": "jānvar",
+          "concept": "c:animales.animal",
+          "optionTranslit": {
+            "घोड़ा": "ghoṛā",
+            "जानवर": "jānvar",
+            "बिल्ली": "billī",
+            "सूअर": "sūar"
+          },
+          "options": [
+            "घोड़ा",
+            "जानवर",
+            "बिल्ली",
+            "सूअर"
+          ],
+          "prompt": "animal"
+        },
+        {
+          "answer": "कुत्ता",
+          "answerTranslit": "kuttā",
+          "concept": "c:animales.perro",
+          "optionTranslit": {
+            "कुत्ता": "kuttā",
+            "जानवर": "jānvar",
+            "मुर्गी": "murgī",
+            "सूअर": "sūar"
+          },
+          "options": [
+            "मुर्गी",
+            "कुत्ता",
+            "सूअर",
+            "जानवर"
+          ],
+          "prompt": "perro"
+        },
+        {
+          "answer": "बिल्ली",
+          "answerTranslit": "billī",
+          "concept": "c:animales.gato",
+          "optionTranslit": {
+            "घोड़ा": "ghoṛā",
+            "जानवर": "jānvar",
+            "बिल्ली": "billī",
+            "सूअर": "sūar"
+          },
+          "options": [
+            "बिल्ली",
+            "सूअर",
+            "घोड़ा",
+            "जानवर"
+          ],
+          "prompt": "gato"
+        },
+        {
+          "answer": "गाय",
+          "answerTranslit": "gāy",
+          "concept": "c:animales.vaca",
+          "optionTranslit": {
+            "गाय": "gāy",
+            "बिल्ली": "billī",
+            "बैल": "bail",
+            "सूअर": "sūar"
+          },
+          "options": [
+            "गाय",
+            "बैल",
+            "बिल्ली",
+            "सूअर"
+          ],
+          "prompt": "vaca"
+        },
+        {
+          "answer": "बैल",
+          "answerTranslit": "bail",
+          "concept": "c:animales.buey-toro",
+          "optionTranslit": {
+            "कुत्ता": "kuttā",
+            "गधा": "gadhā",
+            "बैल": "bail",
+            "भैंस": "bhaĩs"
+          },
+          "options": [
+            "भैंस",
+            "गधा",
+            "बैल",
+            "कुत्ता"
+          ],
+          "prompt": "buey / toro"
+        },
+        {
+          "answer": "भैंस",
+          "answerTranslit": "bhaĩs",
+          "concept": "c:animales.bufalo",
+          "optionTranslit": {
+            "जानवर": "jānvar",
+            "बकरी": "bakrī",
+            "भैंस": "bhaĩs",
+            "मुर्गी": "murgī"
+          },
+          "options": [
+            "भैंस",
+            "बकरी",
+            "मुर्गी",
+            "जानवर"
+          ],
+          "prompt": "búfalo"
+        },
+        {
+          "answer": "घोड़ा",
+          "answerTranslit": "ghoṛā",
+          "concept": "c:animales.caballo",
+          "optionTranslit": {
+            "घोड़ा": "ghoṛā",
+            "जानवर": "jānvar",
+            "बैल": "bail",
+            "मुर्गी": "murgī"
+          },
+          "options": [
+            "बैल",
+            "मुर्गी",
+            "जानवर",
+            "घोड़ा"
+          ],
+          "prompt": "caballo"
+        },
+        {
+          "answer": "गधा",
+          "answerTranslit": "gadhā",
+          "concept": "c:animales.burro-asno",
+          "optionTranslit": {
+            "कुत्ता": "kuttā",
+            "गधा": "gadhā",
+            "गाय": "gāy",
+            "भेड़": "bheṛ"
+          },
+          "options": [
+            "भेड़",
+            "कुत्ता",
+            "गाय",
+            "गधा"
+          ],
+          "prompt": "burro / asno"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Common animals, both domestic and wild.",
-    "es": "Animales frecuentes, tanto domésticos como salvajes.",
-    "hi": "अक्सर जानवरों, घरेलू और जंगली दोनों।"
+    "es": "Animales frecuentes, tanto domésticos como salvajes."
   },
   "generator": "build_lessons",
   "id": "hi-u9-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar animales comunes",
       "Describir animales"
-    ],
-    "hi": [
-      "नाम आम जानवर",
-      "जानवरों का वर्णन करें"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Animals",
-    "es": "Los animales",
-    "hi": "पशु"
+    "es": "Los animales"
   },
   "unit": 9
 }

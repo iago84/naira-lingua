@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Accueil / maison",
+          "concept": "c:casa-y-hogar.casa-hogar",
+          "options": [
+            "toit / toit",
+            "salon",
+            "appartement",
+            "Accueil / maison"
+          ],
+          "prompt": "casa / hogar"
+        },
+        {
+          "answer": "bâtiment / maison",
+          "concept": "c:casa-y-hogar.edificio-casa",
+          "options": [
+            "toilettes / lavabo",
+            "bâtiment / maison",
+            "chambre / chambre",
+            "balcon"
+          ],
+          "prompt": "edificio / casa"
+        },
+        {
+          "answer": "appartement",
+          "concept": "c:casa-y-hogar.apartamento",
+          "options": [
+            "chambre à coucher",
+            "appartement",
+            "toit / toit",
+            "Accueil / maison"
+          ],
+          "prompt": "apartamento"
+        },
+        {
+          "answer": "chambre / chambre",
+          "concept": "c:casa-y-hogar.habitacion-cuarto",
+          "options": [
+            "chambre / chambre",
+            "mur",
+            "salon",
+            "salle de bain"
+          ],
+          "prompt": "habitación / cuarto"
+        },
+        {
+          "answer": "salon",
+          "concept": "c:casa-y-hogar.sala-de-estar",
+          "options": [
+            "toilettes / lavabo",
+            "chambre à coucher",
+            "mur",
+            "salon"
+          ],
+          "prompt": "sala de estar"
+        },
+        {
+          "answer": "chambre à coucher",
+          "concept": "c:casa-y-hogar.dormitorio",
+          "options": [
+            "chambre à coucher",
+            "appartement",
+            "salle de bain",
+            "mur"
+          ],
+          "prompt": "dormitorio"
+        },
+        {
+          "answer": "cuisine (salle)",
+          "concept": "c:casa-y-hogar.cocina-habitacion",
+          "options": [
+            "toit / toit",
+            "cuisine (salle)",
+            "balcon",
+            "chambre / chambre"
+          ],
+          "prompt": "cocina (habitación)"
+        },
+        {
+          "answer": "salle de bain",
+          "concept": "c:casa-y-hogar.bano",
+          "options": [
+            "salle de bain",
+            "mur",
+            "salon",
+            "toit / toit"
+          ],
+          "prompt": "baño"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "House vocabulary: rooms, furniture and everyday objects.",
-    "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos.",
-    "fr": "Vocabulaire de la maison: chambres, meubles et objets quotidiens."
+    "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
   },
   "generator": "build_lessons",
   "id": "fr-u7-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar partes de la casa",
       "Describir objetos del hogar"
-    ],
-    "fr": [
-      "Nom des parties de la maison",
-      "Décrire les objets ménagers"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Home and household",
-    "es": "La casa y el hogar",
-    "fr": "La maison et la maison"
+    "es": "La casa y el hogar"
   },
   "unit": 7
 }

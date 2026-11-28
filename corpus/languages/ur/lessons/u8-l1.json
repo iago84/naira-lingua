@@ -19,6 +19,7 @@
       "en": "time / hour",
       "es": "tiempo / hora",
       "speaker": "A",
+      "translit": "samay",
       "ur": "سمی"
     },
     {
@@ -26,6 +27,7 @@
       "en": "clock / time",
       "es": "reloj / hora",
       "speaker": "B",
+      "translit": "ghaṛī",
       "ur": "گھڈی"
     },
     {
@@ -33,6 +35,7 @@
       "en": "minute",
       "es": "minuto",
       "speaker": "A",
+      "translit": "minaṭ",
       "ur": "مِنٹ"
     },
     {
@@ -40,6 +43,7 @@
       "en": "second (time)",
       "es": "segundo (tiempo)",
       "speaker": "B",
+      "translit": "sekaṇḍ",
       "ur": "سےکںڈ"
     },
     {
@@ -47,6 +51,7 @@
       "en": "time (duration)",
       "es": "hora (duración)",
       "speaker": "A",
+      "translit": "ghaṇṭā",
       "ur": "گھںٹا"
     },
     {
@@ -54,6 +59,7 @@
       "en": "(early)",
       "es": "mañana (temprano)",
       "speaker": "B",
+      "translit": "subah",
       "ur": "سُبہ — mañana (temprano)"
     },
     {
@@ -61,6 +67,7 @@
       "en": "noon / afternoon",
       "es": "mediodía / tarde",
       "speaker": "A",
+      "translit": "dopahar",
       "ur": "دوپہر — mediodía / tarde"
     },
     {
@@ -68,6 +75,7 @@
       "en": "late / evening",
       "es": "tarde / atardecer",
       "speaker": "B",
+      "translit": "śām",
       "ur": "شام — tarde / atardecer"
     },
     {
@@ -75,6 +83,7 @@
       "en": "night",
       "es": "noche",
       "speaker": "A",
+      "translit": "rāt",
       "ur": "رات — noche"
     },
     {
@@ -82,6 +91,7 @@
       "en": "midnight",
       "es": "medianoche",
       "speaker": "B",
+      "translit": "ādhī rāt",
       "ur": "آدھی رات"
     },
     {
@@ -89,6 +99,7 @@
       "en": "day",
       "es": "día",
       "speaker": "A",
+      "translit": "din",
       "ur": "دِن — día"
     },
     {
@@ -96,10 +107,165 @@
       "en": "Today",
       "es": "hoy",
       "speaker": "B",
+      "translit": "aaj",
       "ur": "آج — hoy"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "سمی",
+          "answerTranslit": "samay",
+          "concept": "c:tiempo-y-calendario.tiempo-hora",
+          "optionTranslit": {
+            "آج — hoy": "aaj",
+            "سمی": "samay",
+            "سُبہ — mañana (temprano)": "subah",
+            "مِنٹ": "minaṭ"
+          },
+          "options": [
+            "سُبہ — mañana (temprano)",
+            "آج — hoy",
+            "سمی",
+            "مِنٹ"
+          ],
+          "prompt": "tiempo / hora"
+        },
+        {
+          "answer": "گھڈی",
+          "answerTranslit": "ghaṛī",
+          "concept": "c:tiempo-y-calendario.reloj-hora",
+          "optionTranslit": {
+            "آدھی رات": "ādhī rāt",
+            "دوپہر — mediodía / tarde": "dopahar",
+            "رات — noche": "rāt",
+            "گھڈی": "ghaṛī"
+          },
+          "options": [
+            "گھڈی",
+            "دوپہر — mediodía / tarde",
+            "رات — noche",
+            "آدھی رات"
+          ],
+          "prompt": "reloj / hora"
+        },
+        {
+          "answer": "مِنٹ",
+          "answerTranslit": "minaṭ",
+          "concept": "c:tiempo-y-calendario.minuto",
+          "optionTranslit": {
+            "دوپہر — mediodía / tarde": "dopahar",
+            "دِن — día": "din",
+            "سےکںڈ": "sekaṇḍ",
+            "مِنٹ": "minaṭ"
+          },
+          "options": [
+            "دوپہر — mediodía / tarde",
+            "سےکںڈ",
+            "مِنٹ",
+            "دِن — día"
+          ],
+          "prompt": "minuto"
+        },
+        {
+          "answer": "سےکںڈ",
+          "answerTranslit": "sekaṇḍ",
+          "concept": "c:tiempo-y-calendario.segundo-tiempo",
+          "optionTranslit": {
+            "آدھی رات": "ādhī rāt",
+            "دِن — día": "din",
+            "رات — noche": "rāt",
+            "سےکںڈ": "sekaṇḍ"
+          },
+          "options": [
+            "سےکںڈ",
+            "رات — noche",
+            "آدھی رات",
+            "دِن — día"
+          ],
+          "prompt": "segundo (tiempo)"
+        },
+        {
+          "answer": "گھںٹا",
+          "answerTranslit": "ghaṇṭā",
+          "concept": "c:tiempo-y-calendario.hora-duracion",
+          "optionTranslit": {
+            "سےکںڈ": "sekaṇḍ",
+            "مِنٹ": "minaṭ",
+            "گھڈی": "ghaṛī",
+            "گھںٹا": "ghaṇṭā"
+          },
+          "options": [
+            "سےکںڈ",
+            "گھڈی",
+            "گھںٹا",
+            "مِنٹ"
+          ],
+          "prompt": "hora (duración)"
+        },
+        {
+          "answer": "سُبہ — mañana (temprano)",
+          "answerTranslit": "subah",
+          "concept": "c:tiempo-y-calendario.manana-temprano",
+          "optionTranslit": {
+            "دوپہر — mediodía / tarde": "dopahar",
+            "دِن — día": "din",
+            "سمی": "samay",
+            "سُبہ — mañana (temprano)": "subah"
+          },
+          "options": [
+            "سُبہ — mañana (temprano)",
+            "دِن — día",
+            "سمی",
+            "دوپہر — mediodía / tarde"
+          ],
+          "prompt": "mañana (temprano)"
+        },
+        {
+          "answer": "دوپہر — mediodía / tarde",
+          "answerTranslit": "dopahar",
+          "concept": "c:tiempo-y-calendario.mediodia-tarde",
+          "optionTranslit": {
+            "آج — hoy": "aaj",
+            "دوپہر — mediodía / tarde": "dopahar",
+            "سمی": "samay",
+            "مِنٹ": "minaṭ"
+          },
+          "options": [
+            "سمی",
+            "مِنٹ",
+            "دوپہر — mediodía / tarde",
+            "آج — hoy"
+          ],
+          "prompt": "mediodía / tarde"
+        },
+        {
+          "answer": "شام — tarde / atardecer",
+          "answerTranslit": "śām",
+          "concept": "c:tiempo-y-calendario.tarde-atardecer",
+          "optionTranslit": {
+            "دوپہر — mediodía / tarde": "dopahar",
+            "شام — tarde / atardecer": "śām",
+            "مِنٹ": "minaṭ",
+            "گھڈی": "ghaṛī"
+          },
+          "options": [
+            "گھڈی",
+            "دوپہر — mediodía / tarde",
+            "شام — tarde / atardecer",
+            "مِنٹ"
+          ],
+          "prompt": "tarde / atardecer"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to place actions in time: days, months and seasons.",
     "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."

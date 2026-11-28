@@ -19,6 +19,7 @@
       "en": "city",
       "es": "ciudad",
       "speaker": "A",
+      "translit": "chéng shì ( C)",
       "zh": "城市( C)"
     },
     {
@@ -26,6 +27,7 @@
       "en": "village / town",
       "es": "pueblo / aldea",
       "speaker": "B",
+      "translit": "cūn zhuāng / chéng zhèn",
       "zh": "村庄/城镇"
     },
     {
@@ -33,6 +35,7 @@
       "en": "country",
       "es": "país",
       "speaker": "A",
+      "translit": "guó jiā",
       "zh": "国家"
     },
     {
@@ -40,6 +43,7 @@
       "en": "State / province",
       "es": "estado / provincia",
       "speaker": "B",
+      "translit": "zhōu / shěng",
       "zh": "州/省"
     },
     {
@@ -47,6 +51,7 @@
       "en": "capital",
       "es": "capital",
       "speaker": "A",
+      "translit": "zī běn",
       "zh": "资本"
     },
     {
@@ -54,6 +59,7 @@
       "en": "area / zone",
       "es": "zona / área",
       "speaker": "B",
+      "translit": "qū yù / qū",
       "zh": "区域/区"
     },
     {
@@ -61,6 +67,7 @@
       "en": "Street / road",
       "es": "calle / carretera",
       "speaker": "A",
+      "translit": "jiē dào / dào lù",
       "zh": "街道/道路"
     },
     {
@@ -68,6 +75,7 @@
       "en": "alley",
       "es": "callejón",
       "speaker": "B",
+      "translit": "xiàng zi ( xiǎo xiàng )",
       "zh": "巷子(小巷)"
     },
     {
@@ -75,6 +83,7 @@
       "en": "cross / intersection",
       "es": "cruce / intersección",
       "speaker": "A",
+      "translit": "jiāo chā / xiāng jiāo diǎn",
       "zh": "交叉/相交点"
     },
     {
@@ -82,6 +91,7 @@
       "en": "bridge",
       "es": "puente",
       "speaker": "B",
+      "translit": "qiáo",
       "zh": "桥"
     },
     {
@@ -89,6 +99,7 @@
       "en": "square",
       "es": "plaza",
       "speaker": "A",
+      "translit": "píng fāng yuán",
       "zh": "平方圆"
     },
     {
@@ -96,14 +107,168 @@
       "en": "market",
       "es": "mercado",
       "speaker": "B",
+      "translit": "shì chǎng",
       "zh": "市场"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "城市( C)",
+          "answerTranslit": "chéng shì ( C)",
+          "concept": "c:ciudad-y-lugares.ciudad",
+          "optionTranslit": {
+            "区域/区": "qū yù / qū",
+            "国家": "guó jiā",
+            "城市( C)": "chéng shì ( C)",
+            "桥": "qiáo"
+          },
+          "options": [
+            "国家",
+            "区域/区",
+            "桥",
+            "城市( C)"
+          ],
+          "prompt": "ciudad"
+        },
+        {
+          "answer": "村庄/城镇",
+          "answerTranslit": "cūn zhuāng / chéng zhèn",
+          "concept": "c:ciudad-y-lugares.pueblo-aldea",
+          "optionTranslit": {
+            "平方圆": "píng fāng yuán",
+            "村庄/城镇": "cūn zhuāng / chéng zhèn",
+            "桥": "qiáo",
+            "资本": "zī běn"
+          },
+          "options": [
+            "资本",
+            "村庄/城镇",
+            "桥",
+            "平方圆"
+          ],
+          "prompt": "pueblo / aldea"
+        },
+        {
+          "answer": "国家",
+          "answerTranslit": "guó jiā",
+          "concept": "c:ciudad-y-lugares.pais",
+          "optionTranslit": {
+            "国家": "guó jiā",
+            "州/省": "zhōu / shěng",
+            "巷子(小巷)": "xiàng zi ( xiǎo xiàng )",
+            "街道/道路": "jiē dào / dào lù"
+          },
+          "options": [
+            "街道/道路",
+            "国家",
+            "州/省",
+            "巷子(小巷)"
+          ],
+          "prompt": "país"
+        },
+        {
+          "answer": "州/省",
+          "answerTranslit": "zhōu / shěng",
+          "concept": "c:ciudad-y-lugares.estado-provincia",
+          "optionTranslit": {
+            "交叉/相交点": "jiāo chā / xiāng jiāo diǎn",
+            "城市( C)": "chéng shì ( C)",
+            "州/省": "zhōu / shěng",
+            "市场": "shì chǎng"
+          },
+          "options": [
+            "市场",
+            "城市( C)",
+            "州/省",
+            "交叉/相交点"
+          ],
+          "prompt": "estado / provincia"
+        },
+        {
+          "answer": "资本",
+          "answerTranslit": "zī běn",
+          "concept": "c:ciudad-y-lugares.capital",
+          "optionTranslit": {
+            "州/省": "zhōu / shěng",
+            "平方圆": "píng fāng yuán",
+            "桥": "qiáo",
+            "资本": "zī běn"
+          },
+          "options": [
+            "桥",
+            "州/省",
+            "资本",
+            "平方圆"
+          ],
+          "prompt": "capital"
+        },
+        {
+          "answer": "区域/区",
+          "answerTranslit": "qū yù / qū",
+          "concept": "c:ciudad-y-lugares.zona-area",
+          "optionTranslit": {
+            "区域/区": "qū yù / qū",
+            "国家": "guó jiā",
+            "州/省": "zhōu / shěng",
+            "街道/道路": "jiē dào / dào lù"
+          },
+          "options": [
+            "街道/道路",
+            "州/省",
+            "国家",
+            "区域/区"
+          ],
+          "prompt": "zona / área"
+        },
+        {
+          "answer": "街道/道路",
+          "answerTranslit": "jiē dào / dào lù",
+          "concept": "c:ciudad-y-lugares.calle-carretera",
+          "optionTranslit": {
+            "国家": "guó jiā",
+            "城市( C)": "chéng shì ( C)",
+            "桥": "qiáo",
+            "街道/道路": "jiē dào / dào lù"
+          },
+          "options": [
+            "国家",
+            "街道/道路",
+            "城市( C)",
+            "桥"
+          ],
+          "prompt": "calle / carretera"
+        },
+        {
+          "answer": "巷子(小巷)",
+          "answerTranslit": "xiàng zi ( xiǎo xiàng )",
+          "concept": "c:ciudad-y-lugares.callejon",
+          "optionTranslit": {
+            "区域/区": "qū yù / qū",
+            "巷子(小巷)": "xiàng zi ( xiǎo xiàng )",
+            "平方圆": "píng fāng yuán",
+            "街道/道路": "jiē dào / dào lù"
+          },
+          "options": [
+            "平方圆",
+            "区域/区",
+            "巷子(小巷)",
+            "街道/道路"
+          ],
+          "prompt": "callejón"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Places in the city to move around and ask for directions.",
-    "es": "Lugares de la ciudad para moverse y pedir indicaciones.",
-    "zh": "入城取地以行并问道."
+    "es": "Lugares de la ciudad para moverse y pedir indicaciones."
   },
   "generator": "build_lessons",
   "id": "zh-u10-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar lugares de la ciudad",
       "Pedir direcciones"
-    ],
-    "zh": [
-      "城市名称",
-      "询问地址"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "City and places",
-    "es": "La ciudad y los lugares",
-    "zh": "城市和地点"
+    "es": "La ciudad y los lugares"
   },
   "unit": 10
 }

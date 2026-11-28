@@ -19,91 +19,256 @@
       "en": "Family",
       "es": "familia",
       "ja": "家族の家族",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "kazoku no kazoku"
     },
     {
       "concept": "c:familia-y-personas.madre",
       "en": "Mother",
       "es": "madre",
       "ja": "お母さん",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "o kaasan"
     },
     {
       "concept": "c:familia-y-personas.padre",
       "en": "Father",
       "es": "padre",
       "ja": "父母の",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "fubo no"
     },
     {
       "concept": "c:familia-y-personas.padres",
       "en": "parents",
       "es": "padres",
       "ja": "親子",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "oyako"
     },
     {
       "concept": "c:familia-y-personas.hijo",
       "en": "child",
       "es": "hijo",
       "ja": "チャイルド",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "chairudo"
     },
     {
       "concept": "c:familia-y-personas.hija",
       "en": "daughter",
       "es": "hija",
       "ja": "娘",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "musume"
     },
     {
       "concept": "c:familia-y-personas.nino-a",
       "en": "child",
       "es": "niño/a",
       "ja": "チャイルド",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "chairudo"
     },
     {
       "concept": "c:familia-y-personas.hermano",
       "en": "brother",
       "es": "hermano",
       "ja": "兄ちゃん",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "niichan"
     },
     {
       "concept": "c:familia-y-personas.hermana",
       "en": "sister",
       "es": "hermana",
       "ja": "姉さん",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "neesan"
     },
     {
       "concept": "c:familia-y-personas.hermanos",
       "en": "brothers",
       "es": "hermanos",
       "ja": "兄弟姉妹",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "kyoudaishimai"
     },
     {
       "concept": "c:familia-y-personas.abuelo-paterno",
       "en": "paternal grandfather",
       "es": "abuelo paterno",
       "ja": "祖父",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "sofu"
     },
     {
       "concept": "c:familia-y-personas.abuela-paterna",
       "en": "Father's grandmother",
       "es": "abuela paterna",
       "ja": "父の祖母",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "chichi no sobo"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "家族の家族",
+          "answerTranslit": "kazoku no kazoku",
+          "concept": "c:familia-y-personas.familia",
+          "optionTranslit": {
+            "兄ちゃん": "niichan",
+            "兄弟姉妹": "kyoudaishimai",
+            "家族の家族": "kazoku no kazoku",
+            "父の祖母": "chichi no sobo"
+          },
+          "options": [
+            "兄弟姉妹",
+            "兄ちゃん",
+            "父の祖母",
+            "家族の家族"
+          ],
+          "prompt": "familia"
+        },
+        {
+          "answer": "お母さん",
+          "answerTranslit": "o kaasan",
+          "concept": "c:familia-y-personas.madre",
+          "optionTranslit": {
+            "お母さん": "o kaasan",
+            "娘": "musume",
+            "家族の家族": "kazoku no kazoku",
+            "父の祖母": "chichi no sobo"
+          },
+          "options": [
+            "父の祖母",
+            "娘",
+            "家族の家族",
+            "お母さん"
+          ],
+          "prompt": "madre"
+        },
+        {
+          "answer": "父母の",
+          "answerTranslit": "fubo no",
+          "concept": "c:familia-y-personas.padre",
+          "optionTranslit": {
+            "兄弟姉妹": "kyoudaishimai",
+            "父の祖母": "chichi no sobo",
+            "父母の": "fubo no",
+            "親子": "oyako"
+          },
+          "options": [
+            "父の祖母",
+            "兄弟姉妹",
+            "父母の",
+            "親子"
+          ],
+          "prompt": "padre"
+        },
+        {
+          "answer": "親子",
+          "answerTranslit": "oyako",
+          "concept": "c:familia-y-personas.padres",
+          "optionTranslit": {
+            "チャイルド": "chairudo",
+            "兄ちゃん": "niichan",
+            "家族の家族": "kazoku no kazoku",
+            "親子": "oyako"
+          },
+          "options": [
+            "兄ちゃん",
+            "親子",
+            "家族の家族",
+            "チャイルド"
+          ],
+          "prompt": "padres"
+        },
+        {
+          "answer": "チャイルド",
+          "answerTranslit": "chairudo",
+          "concept": "c:familia-y-personas.hijo",
+          "optionTranslit": {
+            "お母さん": "o kaasan",
+            "チャイルド": "chairudo",
+            "娘": "musume",
+            "祖父": "sofu"
+          },
+          "options": [
+            "娘",
+            "祖父",
+            "お母さん",
+            "チャイルド"
+          ],
+          "prompt": "hijo"
+        },
+        {
+          "answer": "娘",
+          "answerTranslit": "musume",
+          "concept": "c:familia-y-personas.hija",
+          "optionTranslit": {
+            "お母さん": "o kaasan",
+            "チャイルド": "chairudo",
+            "娘": "musume",
+            "親子": "oyako"
+          },
+          "options": [
+            "チャイルド",
+            "娘",
+            "お母さん",
+            "親子"
+          ],
+          "prompt": "hija"
+        },
+        {
+          "answer": "チャイルド",
+          "answerTranslit": "chairudo",
+          "concept": "c:familia-y-personas.nino-a",
+          "optionTranslit": {
+            "チャイルド": "chairudo",
+            "兄弟姉妹": "kyoudaishimai",
+            "祖父": "sofu",
+            "親子": "oyako"
+          },
+          "options": [
+            "チャイルド",
+            "兄弟姉妹",
+            "祖父",
+            "親子"
+          ],
+          "prompt": "niño/a"
+        },
+        {
+          "answer": "兄ちゃん",
+          "answerTranslit": "niichan",
+          "concept": "c:familia-y-personas.hermano",
+          "optionTranslit": {
+            "お母さん": "o kaasan",
+            "チャイルド": "chairudo",
+            "兄ちゃん": "niichan",
+            "兄弟姉妹": "kyoudaishimai"
+          },
+          "options": [
+            "お母さん",
+            "兄ちゃん",
+            "チャイルド",
+            "兄弟姉妹"
+          ],
+          "prompt": "hermano"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to refer to family and the people around you.",
-    "es": "Palabras para referirse a la familia y a las personas cercanas.",
-    "ja": "親しい家族や人について語る言葉。"
+    "es": "Palabras para referirse a la familia y a las personas cercanas."
   },
   "generator": "build_lessons",
   "id": "ja-u4-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar a los miembros de la familia",
       "Hablar de personas"
-    ],
-    "ja": [
-      "家族を任命する",
-      "人について話します"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Family and people",
-    "es": "La familia y las personas",
-    "ja": "ご家族・個人"
+    "es": "La familia y las personas"
   },
   "unit": 4
 }

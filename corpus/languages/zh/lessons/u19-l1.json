@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:naturaleza-y-clima.naturaleza",
+    "c:naturaleza-y-clima.arbol",
+    "c:naturaleza-y-clima.planta",
+    "c:naturaleza-y-clima.flor",
+    "c:naturaleza-y-clima.hoja",
+    "c:naturaleza-y-clima.raiz",
+    "c:naturaleza-y-clima.rama",
+    "c:naturaleza-y-clima.tronco-tallo",
+    "c:naturaleza-y-clima.semilla",
+    "c:naturaleza-y-clima.hierba-cesped",
+    "c:naturaleza-y-clima.bosque-selva",
+    "c:naturaleza-y-clima.montana"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:naturaleza-y-clima.naturaleza",
+      "en": "nature",
+      "es": "naturaleza",
+      "speaker": "A",
+      "translit": "xìng zhì",
+      "zh": "性质"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.arbol",
+      "en": "tree",
+      "es": "árbol",
+      "speaker": "B",
+      "translit": "shù",
+      "zh": "树"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.planta",
+      "en": "plant",
+      "es": "planta",
+      "speaker": "A",
+      "translit": "gōng chǎng",
+      "zh": "工厂"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.flor",
+      "en": "flower",
+      "es": "flor",
+      "speaker": "B",
+      "translit": "huā duǒ   huā duǒ   huā duǒ   huā duǒ   huā duǒ",
+      "zh": "花朵 花朵 花朵 花朵 花朵"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.hoja",
+      "en": "leaf",
+      "es": "hoja",
+      "speaker": "A",
+      "translit": "yè zi",
+      "zh": "叶子"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.raiz",
+      "en": "root",
+      "es": "raíz",
+      "speaker": "B",
+      "translit": "gēn hào",
+      "zh": "根号"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.rama",
+      "en": "branch",
+      "es": "rama",
+      "speaker": "A",
+      "translit": "fēn zhī",
+      "zh": "分支"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.tronco-tallo",
+      "en": "trunk / stem",
+      "es": "tronco / tallo",
+      "speaker": "B",
+      "translit": "shù gàn / gàn xiàn",
+      "zh": "树干/干线"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.semilla",
+      "en": "seed",
+      "es": "semilla",
+      "speaker": "A",
+      "translit": "zhǒng zi",
+      "zh": "种子"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.hierba-cesped",
+      "en": "grass / lawn",
+      "es": "hierba / césped",
+      "speaker": "B",
+      "translit": "cǎo dì / cǎo dì ( C)",
+      "zh": "草地/草地( C)"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.bosque-selva",
+      "en": "forest / jungle",
+      "es": "bosque / selva",
+      "speaker": "A",
+      "translit": "sēn lín / cóng lín",
+      "zh": "森林/丛林"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.montana",
+      "en": "mountain",
+      "es": "montaña",
+      "speaker": "B",
+      "translit": "shān dì yǔ Name",
+      "zh": "山地语Name"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "性质",
+          "answerTranslit": "xìng zhì",
+          "concept": "c:naturaleza-y-clima.naturaleza",
+          "optionTranslit": {
+            "工厂": "gōng chǎng",
+            "性质": "xìng zhì",
+            "根号": "gēn hào",
+            "种子": "zhǒng zi"
+          },
+          "options": [
+            "性质",
+            "种子",
+            "工厂",
+            "根号"
+          ],
+          "prompt": "naturaleza"
+        },
+        {
+          "answer": "树",
+          "answerTranslit": "shù",
+          "concept": "c:naturaleza-y-clima.arbol",
+          "optionTranslit": {
+            "分支": "fēn zhī",
+            "山地语Name": "shān dì yǔ Name",
+            "性质": "xìng zhì",
+            "树": "shù"
+          },
+          "options": [
+            "山地语Name",
+            "树",
+            "性质",
+            "分支"
+          ],
+          "prompt": "árbol"
+        },
+        {
+          "answer": "工厂",
+          "answerTranslit": "gōng chǎng",
+          "concept": "c:naturaleza-y-clima.planta",
+          "optionTranslit": {
+            "工厂": "gōng chǎng",
+            "树": "shù",
+            "种子": "zhǒng zi",
+            "草地/草地( C)": "cǎo dì / cǎo dì ( C)"
+          },
+          "options": [
+            "草地/草地( C)",
+            "树",
+            "种子",
+            "工厂"
+          ],
+          "prompt": "planta"
+        },
+        {
+          "answer": "花朵 花朵 花朵 花朵 花朵",
+          "answerTranslit": "huā duǒ   huā duǒ   huā duǒ   huā duǒ   huā duǒ",
+          "concept": "c:naturaleza-y-clima.flor",
+          "optionTranslit": {
+            "分支": "fēn zhī",
+            "树干/干线": "shù gàn / gàn xiàn",
+            "森林/丛林": "sēn lín / cóng lín",
+            "花朵 花朵 花朵 花朵 花朵": "huā duǒ   huā duǒ   huā duǒ   huā duǒ   huā duǒ"
+          },
+          "options": [
+            "分支",
+            "树干/干线",
+            "森林/丛林",
+            "花朵 花朵 花朵 花朵 花朵"
+          ],
+          "prompt": "flor"
+        },
+        {
+          "answer": "叶子",
+          "answerTranslit": "yè zi",
+          "concept": "c:naturaleza-y-clima.hoja",
+          "optionTranslit": {
+            "叶子": "yè zi",
+            "树": "shù",
+            "种子": "zhǒng zi",
+            "草地/草地( C)": "cǎo dì / cǎo dì ( C)"
+          },
+          "options": [
+            "叶子",
+            "树",
+            "种子",
+            "草地/草地( C)"
+          ],
+          "prompt": "hoja"
+        },
+        {
+          "answer": "根号",
+          "answerTranslit": "gēn hào",
+          "concept": "c:naturaleza-y-clima.raiz",
+          "optionTranslit": {
+            "分支": "fēn zhī",
+            "树干/干线": "shù gàn / gàn xiàn",
+            "根号": "gēn hào",
+            "花朵 花朵 花朵 花朵 花朵": "huā duǒ   huā duǒ   huā duǒ   huā duǒ   huā duǒ"
+          },
+          "options": [
+            "树干/干线",
+            "花朵 花朵 花朵 花朵 花朵",
+            "分支",
+            "根号"
+          ],
+          "prompt": "raíz"
+        },
+        {
+          "answer": "分支",
+          "answerTranslit": "fēn zhī",
+          "concept": "c:naturaleza-y-clima.rama",
+          "optionTranslit": {
+            "分支": "fēn zhī",
+            "叶子": "yè zi",
+            "工厂": "gōng chǎng",
+            "草地/草地( C)": "cǎo dì / cǎo dì ( C)"
+          },
+          "options": [
+            "叶子",
+            "分支",
+            "草地/草地( C)",
+            "工厂"
+          ],
+          "prompt": "rama"
+        },
+        {
+          "answer": "树干/干线",
+          "answerTranslit": "shù gàn / gàn xiàn",
+          "concept": "c:naturaleza-y-clima.tronco-tallo",
+          "optionTranslit": {
+            "叶子": "yè zi",
+            "树干/干线": "shù gàn / gàn xiàn",
+            "种子": "zhǒng zi",
+            "草地/草地( C)": "cǎo dì / cǎo dì ( C)"
+          },
+          "options": [
+            "树干/干线",
+            "叶子",
+            "种子",
+            "草地/草地( C)"
+          ],
+          "prompt": "tronco / tallo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Nature, landscapes and weather to talk about the environment.",
+    "es": "Naturaleza, paisajes y clima para hablar del entorno."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u19-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name natural elements",
+      "Talk about weather and seasons"
+    ],
+    "es": [
+      "Nombrar elementos naturales",
+      "Hablar del tiempo y las estaciones"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "naturaleza",
+          "nature",
+          "性质"
+        ],
+        [
+          "árbol",
+          "tree",
+          "树"
+        ],
+        [
+          "planta",
+          "plant",
+          "工厂"
+        ],
+        [
+          "flor",
+          "flower",
+          "花朵 花朵 花朵 花朵 花朵"
+        ],
+        [
+          "hoja",
+          "leaf",
+          "叶子"
+        ],
+        [
+          "raíz",
+          "root",
+          "根号"
+        ],
+        [
+          "rama",
+          "branch",
+          "分支"
+        ],
+        [
+          "tronco / tallo",
+          "trunk / stem",
+          "树干/干线"
+        ],
+        [
+          "semilla",
+          "seed",
+          "种子"
+        ],
+        [
+          "hierba / césped",
+          "grass / lawn",
+          "草地/草地( C)"
+        ],
+        [
+          "bosque / selva",
+          "forest / jungle",
+          "森林/丛林"
+        ],
+        [
+          "montaña",
+          "mountain",
+          "山地语Name"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Nature and weather",
+    "es": "La naturaleza y el clima"
+  },
+  "unit": 19
+}

@@ -87,7 +87,105 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "cuerpo",
+          "concept": "c:cuerpo-humano.cuerpo",
+          "options": [
+            "ojos",
+            "cuerpo",
+            "frente",
+            "párpado / pestaña"
+          ],
+          "prompt": "cuerpo"
+        },
+        {
+          "answer": "cabeza",
+          "concept": "c:cuerpo-humano.cabeza",
+          "options": [
+            "ojo",
+            "cabeza",
+            "boca",
+            "ojos"
+          ],
+          "prompt": "cabeza"
+        },
+        {
+          "answer": "cabello / pelo",
+          "concept": "c:cuerpo-humano.cabello-pelo",
+          "options": [
+            "nariz",
+            "ceja",
+            "cabello / pelo",
+            "frente"
+          ],
+          "prompt": "cabello / pelo"
+        },
+        {
+          "answer": "cara / rostro",
+          "concept": "c:cuerpo-humano.cara-rostro",
+          "options": [
+            "cuerpo",
+            "cara / rostro",
+            "cabello / pelo",
+            "ojos"
+          ],
+          "prompt": "cara / rostro"
+        },
+        {
+          "answer": "frente",
+          "concept": "c:cuerpo-humano.frente",
+          "options": [
+            "cabello / pelo",
+            "frente",
+            "ojo",
+            "ojos"
+          ],
+          "prompt": "frente"
+        },
+        {
+          "answer": "ojo",
+          "concept": "c:cuerpo-humano.ojo",
+          "options": [
+            "frente",
+            "ojo",
+            "párpado / pestaña",
+            "cabeza"
+          ],
+          "prompt": "ojo"
+        },
+        {
+          "answer": "ojos",
+          "concept": "c:cuerpo-humano.ojos",
+          "options": [
+            "ojos",
+            "oreja / oído",
+            "cabeza",
+            "nariz"
+          ],
+          "prompt": "ojos"
+        },
+        {
+          "answer": "ceja",
+          "concept": "c:cuerpo-humano.ceja",
+          "options": [
+            "ceja",
+            "frente",
+            "cabeza",
+            "párpado / pestaña"
+          ],
+          "prompt": "ceja"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Parts of the body, useful to talk about health and care.",
     "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."

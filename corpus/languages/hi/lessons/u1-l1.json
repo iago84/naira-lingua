@@ -18,84 +18,248 @@
       "en": "Hello.",
       "es": "hola",
       "hi": "नमस्ते",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "namaste"
     },
     {
       "concept": "c:saludos-y-expresiones.buenos-dias",
       "en": "Good morning.",
       "es": "buenos días",
       "hi": "शुभ प्रभात",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "śubh prabhāt"
     },
     {
       "concept": "c:saludos-y-expresiones.buenas-tardes",
       "en": "Good afternoon.",
       "es": "buenas tardes",
       "hi": "शुभ संध्या",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "śubh sandhyā"
     },
     {
       "concept": "c:saludos-y-expresiones.buenas-noches",
       "en": "Good night.",
       "es": "buenas noches",
       "hi": "शुभ रात्रि",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "śubh rātri"
     },
     {
       "concept": "c:saludos-y-expresiones.gracias",
       "en": "Thank you.",
       "es": "gracias",
       "hi": "धन्यवाद",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "dhanyavād"
     },
     {
       "concept": "c:saludos-y-expresiones.por-favor",
       "en": "Please.",
       "es": "por favor",
       "hi": "कृपया",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "kripayā"
     },
     {
       "concept": "c:saludos-y-expresiones.perdon-disculpe",
       "en": "Excuse me / excuse",
       "es": "perdón / disculpe",
       "hi": "माफ़ कीजिए",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "māf kījie"
     },
     {
       "concept": "c:saludos-y-expresiones.adios",
       "en": "Bye.",
       "es": "adiós",
       "hi": "अलविदा",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "alvidā"
     },
     {
       "concept": "c:saludos-y-expresiones.hasta-luego",
       "en": "See you later.",
       "es": "hasta luego",
       "hi": "फिर मिलेंगे",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "phir milenge"
     },
     {
       "concept": "c:saludos-y-expresiones.si",
       "en": "Yes",
       "es": "sí",
       "hi": "हाँ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "hā̃"
     },
     {
       "concept": "c:saludos-y-expresiones.no",
       "en": "No.",
       "es": "no",
       "hi": "नहीं",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "nahī̃"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "नमस्ते",
+          "answerTranslit": "namaste",
+          "concept": "c:saludos-y-expresiones.hola",
+          "optionTranslit": {
+            "कृपया": "kripayā",
+            "नमस्ते": "namaste",
+            "फिर मिलेंगे": "phir milenge",
+            "शुभ संध्या": "śubh sandhyā"
+          },
+          "options": [
+            "फिर मिलेंगे",
+            "नमस्ते",
+            "कृपया",
+            "शुभ संध्या"
+          ],
+          "prompt": "hola"
+        },
+        {
+          "answer": "शुभ प्रभात",
+          "answerTranslit": "śubh prabhāt",
+          "concept": "c:saludos-y-expresiones.buenos-dias",
+          "optionTranslit": {
+            "कृपया": "kripayā",
+            "माफ़ कीजिए": "māf kījie",
+            "शुभ प्रभात": "śubh prabhāt",
+            "हाँ": "hā̃"
+          },
+          "options": [
+            "हाँ",
+            "माफ़ कीजिए",
+            "शुभ प्रभात",
+            "कृपया"
+          ],
+          "prompt": "buenos días"
+        },
+        {
+          "answer": "शुभ संध्या",
+          "answerTranslit": "śubh sandhyā",
+          "concept": "c:saludos-y-expresiones.buenas-tardes",
+          "optionTranslit": {
+            "अलविदा": "alvidā",
+            "धन्यवाद": "dhanyavād",
+            "फिर मिलेंगे": "phir milenge",
+            "शुभ संध्या": "śubh sandhyā"
+          },
+          "options": [
+            "शुभ संध्या",
+            "फिर मिलेंगे",
+            "अलविदा",
+            "धन्यवाद"
+          ],
+          "prompt": "buenas tardes"
+        },
+        {
+          "answer": "शुभ रात्रि",
+          "answerTranslit": "śubh rātri",
+          "concept": "c:saludos-y-expresiones.buenas-noches",
+          "optionTranslit": {
+            "अलविदा": "alvidā",
+            "नमस्ते": "namaste",
+            "फिर मिलेंगे": "phir milenge",
+            "शुभ रात्रि": "śubh rātri"
+          },
+          "options": [
+            "फिर मिलेंगे",
+            "नमस्ते",
+            "शुभ रात्रि",
+            "अलविदा"
+          ],
+          "prompt": "buenas noches"
+        },
+        {
+          "answer": "धन्यवाद",
+          "answerTranslit": "dhanyavād",
+          "concept": "c:saludos-y-expresiones.gracias",
+          "optionTranslit": {
+            "धन्यवाद": "dhanyavād",
+            "नमस्ते": "namaste",
+            "फिर मिलेंगे": "phir milenge",
+            "शुभ संध्या": "śubh sandhyā"
+          },
+          "options": [
+            "धन्यवाद",
+            "फिर मिलेंगे",
+            "नमस्ते",
+            "शुभ संध्या"
+          ],
+          "prompt": "gracias"
+        },
+        {
+          "answer": "कृपया",
+          "answerTranslit": "kripayā",
+          "concept": "c:saludos-y-expresiones.por-favor",
+          "optionTranslit": {
+            "कृपया": "kripayā",
+            "धन्यवाद": "dhanyavād",
+            "नमस्ते": "namaste",
+            "शुभ प्रभात": "śubh prabhāt"
+          },
+          "options": [
+            "कृपया",
+            "धन्यवाद",
+            "शुभ प्रभात",
+            "नमस्ते"
+          ],
+          "prompt": "por favor"
+        },
+        {
+          "answer": "माफ़ कीजिए",
+          "answerTranslit": "māf kījie",
+          "concept": "c:saludos-y-expresiones.perdon-disculpe",
+          "optionTranslit": {
+            "नमस्ते": "namaste",
+            "नहीं": "nahī̃",
+            "फिर मिलेंगे": "phir milenge",
+            "माफ़ कीजिए": "māf kījie"
+          },
+          "options": [
+            "नमस्ते",
+            "माफ़ कीजिए",
+            "फिर मिलेंगे",
+            "नहीं"
+          ],
+          "prompt": "perdón / disculpe"
+        },
+        {
+          "answer": "अलविदा",
+          "answerTranslit": "alvidā",
+          "concept": "c:saludos-y-expresiones.adios",
+          "optionTranslit": {
+            "अलविदा": "alvidā",
+            "नहीं": "nahī̃",
+            "फिर मिलेंगे": "phir milenge",
+            "माफ़ कीजिए": "māf kījie"
+          },
+          "options": [
+            "अलविदा",
+            "माफ़ कीजिए",
+            "फिर मिलेंगे",
+            "नहीं"
+          ],
+          "prompt": "adiós"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic courtesy expressions to open and close a conversation.",
-    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
-    "hi": "एक संवाद खोलने और बंद करने के लिए सौजन्य की मूल अभिव्यक्ति।"
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
   },
   "generator": "build_lessons",
   "id": "hi-u1-l1",
@@ -109,10 +273,6 @@
     "es": [
       "Saludar y despedirse",
       "Dar las gracias y pedir por favor"
-    ],
-    "hi": [
-      "नमस्ते और अलविदा कह",
-      "धन्यवाद और पूछो"
     ]
   },
   "tables": [
@@ -185,8 +345,7 @@
   ],
   "title": {
     "en": "Greetings and courtesy",
-    "es": "Saludos y cortesía",
-    "hi": "बधाई और सौजन्य"
+    "es": "Saludos y cortesía"
   },
   "unit": 1
 }

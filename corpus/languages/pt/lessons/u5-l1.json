@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "corpo",
+          "concept": "c:cuerpo-humano.cuerpo",
+          "options": [
+            "olhos",
+            "corpo",
+            "frente",
+            "pálpebra/ aba"
+          ],
+          "prompt": "cuerpo"
+        },
+        {
+          "answer": "cabeça",
+          "concept": "c:cuerpo-humano.cabeza",
+          "options": [
+            "olho",
+            "cabeça",
+            "boca",
+            "olhos"
+          ],
+          "prompt": "cabeza"
+        },
+        {
+          "answer": "cabelo / cabelo -",
+          "concept": "c:cuerpo-humano.cabello-pelo",
+          "options": [
+            "nariz",
+            "Carne de bovino",
+            "cabelo / cabelo -",
+            "frente"
+          ],
+          "prompt": "cabello / pelo"
+        },
+        {
+          "answer": "face / lado",
+          "concept": "c:cuerpo-humano.cara-rostro",
+          "options": [
+            "corpo",
+            "face / lado",
+            "cabelo / cabelo -",
+            "olhos"
+          ],
+          "prompt": "cara / rostro"
+        },
+        {
+          "answer": "frente",
+          "concept": "c:cuerpo-humano.frente",
+          "options": [
+            "cabelo / cabelo -",
+            "frente",
+            "olho",
+            "olhos"
+          ],
+          "prompt": "frente"
+        },
+        {
+          "answer": "olho",
+          "concept": "c:cuerpo-humano.ojo",
+          "options": [
+            "frente",
+            "olho",
+            "pálpebra/ aba",
+            "cabeça"
+          ],
+          "prompt": "ojo"
+        },
+        {
+          "answer": "olhos",
+          "concept": "c:cuerpo-humano.ojos",
+          "options": [
+            "olhos",
+            "orelha / orelhas",
+            "cabeça",
+            "nariz"
+          ],
+          "prompt": "ojos"
+        },
+        {
+          "answer": "Carne de bovino",
+          "concept": "c:cuerpo-humano.ceja",
+          "options": [
+            "Carne de bovino",
+            "frente",
+            "cabeça",
+            "pálpebra/ aba"
+          ],
+          "prompt": "ceja"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Parts of the body, useful to talk about health and care.",
-    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
-    "pt": "As partes do corpo, úteis para falar sobre saúde e cuidados."
+    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
   },
   "generator": "build_lessons",
   "id": "pt-u5-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar las partes del cuerpo",
       "Hablar de la salud"
-    ],
-    "pt": [
-      "Nomeie as partes do corpo",
-      "Falar sobre saúde"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "The human body",
-    "es": "El cuerpo humano",
-    "pt": "O corpo humano"
+    "es": "El cuerpo humano"
   },
   "unit": 5
 }

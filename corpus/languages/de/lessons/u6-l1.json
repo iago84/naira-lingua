@@ -99,9 +99,106 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Nahrung / essen",
+          "concept": "c:comida-y-bebida.comida-comer",
+          "options": [
+            "Saft/Säfte",
+            "Nahrung / essen",
+            "Alkohol/Wein",
+            "Kaffee"
+          ],
+          "prompt": "comida / comer"
+        },
+        {
+          "answer": "Lebensmittel (formal)",
+          "concept": "c:comida-y-bebida.comida-formal",
+          "options": [
+            "Kaffee",
+            "Nahrung / essen",
+            "Lebensmittel (formal)",
+            "Alkohol/Wein"
+          ],
+          "prompt": "comida (formal)"
+        },
+        {
+          "answer": "Frühstück",
+          "concept": "c:comida-y-bebida.desayuno",
+          "options": [
+            "Lebensmittel (formal)",
+            "Frühstück",
+            "Kaffee",
+            "Nahrung / essen"
+          ],
+          "prompt": "desayuno"
+        },
+        {
+          "answer": "Mittagessen",
+          "concept": "c:comida-y-bebida.almuerzo",
+          "options": [
+            "Wasser",
+            "Mittagessen",
+            "Lebensmittel (formal)",
+            "Nahrung / essen"
+          ],
+          "prompt": "almuerzo"
+        },
+        {
+          "answer": "Abendessen",
+          "concept": "c:comida-y-bebida.cena",
+          "options": [
+            "Tee",
+            "Wasser",
+            "Frühstück",
+            "Abendessen"
+          ],
+          "prompt": "cena"
+        },
+        {
+          "answer": "Wasser",
+          "concept": "c:comida-y-bebida.agua",
+          "options": [
+            "Wasser",
+            "Kaffee",
+            "Milch",
+            "Frühstück"
+          ],
+          "prompt": "agua"
+        },
+        {
+          "answer": "Milch",
+          "concept": "c:comida-y-bebida.leche",
+          "options": [
+            "Abendessen",
+            "Lassi (Joghurt geschlagen)",
+            "Milch",
+            "Alkohol/Wein"
+          ],
+          "prompt": "leche"
+        },
+        {
+          "answer": "Tee",
+          "concept": "c:comida-y-bebida.te",
+          "options": [
+            "Abendessen",
+            "Kaffee",
+            "Tee",
+            "Mittagessen"
+          ],
+          "prompt": "té"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
-    "de": "Grundnahrungsmittel und Getränke, sehr nützlich beim Kauf oder Essen außerhalb von zu Hause.",
     "en": "Basic foods and drinks, very useful when shopping or eating out.",
     "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
   },
@@ -110,10 +207,6 @@
   "lang": "de",
   "lesson": 1,
   "objectives": {
-    "de": [
-      "Bezeichnete Speisen und Getränke",
-      "Fragen Sie in einem Restaurant"
-    ],
     "en": [
       "Name food and drinks",
       "Order in a restaurant"
@@ -197,7 +290,6 @@
     }
   ],
   "title": {
-    "de": "Speisen und Getränke",
     "en": "Food and drink",
     "es": "La comida y la bebida"
   },

@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:tecnologia-y-comunicacion.tecnologia",
+    "c:tecnologia-y-comunicacion.computadora-ordenador",
+    "c:tecnologia-y-comunicacion.portatil-laptop",
+    "c:tecnologia-y-comunicacion.tableta",
+    "c:tecnologia-y-comunicacion.telefono-movil-celular",
+    "c:tecnologia-y-comunicacion.telefono",
+    "c:tecnologia-y-comunicacion.pantalla",
+    "c:tecnologia-y-comunicacion.teclado",
+    "c:tecnologia-y-comunicacion.raton-informatica",
+    "c:tecnologia-y-comunicacion.impresora",
+    "c:tecnologia-y-comunicacion.camara",
+    "c:tecnologia-y-comunicacion.microfono"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:tecnologia-y-comunicacion.tecnologia",
+      "en": "technology",
+      "es": "tecnología",
+      "gl": "Tecnoloxía",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+      "en": "computer / PC",
+      "es": "computadora / ordenador",
+      "gl": "PC / ordenador",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+      "en": "laptop / laptop",
+      "es": "portátil / laptop",
+      "gl": "Portátil / laptop",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.tableta",
+      "en": "tablet",
+      "es": "tableta",
+      "gl": "tablet",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+      "en": "mobile / cell phone",
+      "es": "teléfono móvil / celular",
+      "gl": "móbil / teléfono celular",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.telefono",
+      "en": "phone",
+      "es": "teléfono",
+      "gl": "teléfono",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.pantalla",
+      "en": "screen",
+      "es": "pantalla",
+      "gl": "pantalla",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.teclado",
+      "en": "keyboard",
+      "es": "teclado",
+      "gl": "teclado",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.raton-informatica",
+      "en": "mouse (computer)",
+      "es": "ratón (informática)",
+      "gl": "Rato (ordenador)",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.impresora",
+      "en": "printer",
+      "es": "impresora",
+      "gl": "Impresora",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.camara",
+      "en": "camera",
+      "es": "cámara",
+      "gl": "cámara",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.microfono",
+      "en": "microphone",
+      "es": "micrófono",
+      "gl": "micrófono",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Tecnoloxía",
+          "concept": "c:tecnologia-y-comunicacion.tecnologia",
+          "options": [
+            "Tecnoloxía",
+            "PC / ordenador",
+            "Portátil / laptop",
+            "Rato (ordenador)"
+          ],
+          "prompt": "tecnología"
+        },
+        {
+          "answer": "PC / ordenador",
+          "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+          "options": [
+            "Portátil / laptop",
+            "teclado",
+            "tablet",
+            "PC / ordenador"
+          ],
+          "prompt": "computadora / ordenador"
+        },
+        {
+          "answer": "Portátil / laptop",
+          "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+          "options": [
+            "Tecnoloxía",
+            "Portátil / laptop",
+            "móbil / teléfono celular",
+            "teléfono"
+          ],
+          "prompt": "portátil / laptop"
+        },
+        {
+          "answer": "tablet",
+          "concept": "c:tecnologia-y-comunicacion.tableta",
+          "options": [
+            "micrófono",
+            "Impresora",
+            "teléfono",
+            "tablet"
+          ],
+          "prompt": "tableta"
+        },
+        {
+          "answer": "móbil / teléfono celular",
+          "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+          "options": [
+            "teclado",
+            "PC / ordenador",
+            "tablet",
+            "móbil / teléfono celular"
+          ],
+          "prompt": "teléfono móvil / celular"
+        },
+        {
+          "answer": "teléfono",
+          "concept": "c:tecnologia-y-comunicacion.telefono",
+          "options": [
+            "Impresora",
+            "Portátil / laptop",
+            "teléfono",
+            "teclado"
+          ],
+          "prompt": "teléfono"
+        },
+        {
+          "answer": "pantalla",
+          "concept": "c:tecnologia-y-comunicacion.pantalla",
+          "options": [
+            "Tecnoloxía",
+            "teclado",
+            "pantalla",
+            "cámara"
+          ],
+          "prompt": "pantalla"
+        },
+        {
+          "answer": "teclado",
+          "concept": "c:tecnologia-y-comunicacion.teclado",
+          "options": [
+            "tablet",
+            "pantalla",
+            "teclado",
+            "PC / ordenador"
+          ],
+          "prompt": "teclado"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Devices, internet and everyday communication.",
+    "es": "Aparatos, internet y comunicación del día a día."
+  },
+  "generator": "build_lessons",
+  "id": "gl-u18-l1",
+  "lang": "gl",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name devices and services",
+      "Talk on the phone and online"
+    ],
+    "es": [
+      "Nombrar aparatos y servicios",
+      "Hablar por teléfono e internet"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "gl"
+      ],
+      "rows": [
+        [
+          "tecnología",
+          "technology",
+          "Tecnoloxía"
+        ],
+        [
+          "computadora / ordenador",
+          "computer / PC",
+          "PC / ordenador"
+        ],
+        [
+          "portátil / laptop",
+          "laptop / laptop",
+          "Portátil / laptop"
+        ],
+        [
+          "tableta",
+          "tablet",
+          "tablet"
+        ],
+        [
+          "teléfono móvil / celular",
+          "mobile / cell phone",
+          "móbil / teléfono celular"
+        ],
+        [
+          "teléfono",
+          "phone",
+          "teléfono"
+        ],
+        [
+          "pantalla",
+          "screen",
+          "pantalla"
+        ],
+        [
+          "teclado",
+          "keyboard",
+          "teclado"
+        ],
+        [
+          "ratón (informática)",
+          "mouse (computer)",
+          "Rato (ordenador)"
+        ],
+        [
+          "impresora",
+          "printer",
+          "Impresora"
+        ],
+        [
+          "cámara",
+          "camera",
+          "cámara"
+        ],
+        [
+          "micrófono",
+          "microphone",
+          "micrófono"
+        ]
+      ],
+      "title": "es · en · gl",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Technology and communication",
+    "es": "La tecnología y la comunicación"
+  },
+  "unit": 18
+}

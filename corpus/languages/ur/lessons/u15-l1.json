@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:viajes-compras-y-servicios.compras-ir-de-compras",
+    "c:viajes-compras-y-servicios.tienda",
+    "c:viajes-compras-y-servicios.mercado",
+    "c:viajes-compras-y-servicios.supermercado",
+    "c:viajes-compras-y-servicios.centro-comercial",
+    "c:viajes-compras-y-servicios.vendedor-tendero",
+    "c:viajes-compras-y-servicios.cliente-comprador",
+    "c:viajes-compras-y-servicios.precio",
+    "c:viajes-compras-y-servicios.dinero",
+    "c:viajes-compras-y-servicios.rupia-india-inr",
+    "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+    "c:viajes-compras-y-servicios.tarjeta"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+      "en": "shopping / going for purchases",
+      "es": "compras / ir de compras",
+      "speaker": "A",
+      "translit": "kharīdārī",
+      "ur": "کھریداری"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.tienda",
+      "en": "shop",
+      "es": "tienda",
+      "speaker": "B",
+      "translit": "dukān",
+      "ur": "دُکان — tienda"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.mercado",
+      "en": "market",
+      "es": "mercado",
+      "speaker": "A",
+      "translit": "baazaar",
+      "ur": "بازار — mercado"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.supermercado",
+      "en": "supermarket",
+      "es": "supermercado",
+      "speaker": "B",
+      "translit": "suparmārkeṭ",
+      "ur": "سُپرمارکےٹ — supermercado"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.centro-comercial",
+      "en": "shopping centre",
+      "es": "centro comercial",
+      "speaker": "A",
+      "translit": "môl",
+      "ur": "مال — centro comercial"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+      "en": "seller / tenderer",
+      "es": "vendedor / tendero",
+      "speaker": "B",
+      "translit": "dukāndār",
+      "ur": "دُکاندار"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+      "en": "customer / buyer",
+      "es": "cliente / comprador",
+      "speaker": "A",
+      "translit": "grāhak",
+      "ur": "گراہک"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.precio",
+      "en": "price",
+      "es": "precio",
+      "speaker": "B",
+      "translit": "kīmat",
+      "ur": "کیمت"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.dinero",
+      "en": "money",
+      "es": "dinero",
+      "speaker": "A",
+      "translit": "paisa / raqam",
+      "ur": "پیسہ / رقم"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.rupia-india-inr",
+      "en": "Indian rupee (INR)",
+      "es": "rupia india (INR)",
+      "speaker": "B",
+      "translit": "rupayā",
+      "ur": "رُپیا"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+      "en": "cash / money in the form of",
+      "es": "efectivo / dinero en efectivo",
+      "speaker": "A",
+      "translit": "nakad",
+      "ur": "نکد"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.tarjeta",
+      "en": "card",
+      "es": "tarjeta",
+      "speaker": "B",
+      "translit": "kārḍ",
+      "ur": "کارڈ"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "کھریداری",
+          "answerTranslit": "kharīdārī",
+          "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+          "optionTranslit": {
+            "سُپرمارکےٹ — supermercado": "suparmārkeṭ",
+            "مال — centro comercial": "môl",
+            "کھریداری": "kharīdārī",
+            "گراہک": "grāhak"
+          },
+          "options": [
+            "سُپرمارکےٹ — supermercado",
+            "گراہک",
+            "کھریداری",
+            "مال — centro comercial"
+          ],
+          "prompt": "compras / ir de compras"
+        },
+        {
+          "answer": "دُکان — tienda",
+          "answerTranslit": "dukān",
+          "concept": "c:viajes-compras-y-servicios.tienda",
+          "optionTranslit": {
+            "دُکان — tienda": "dukān",
+            "دُکاندار": "dukāndār",
+            "نکد": "nakad",
+            "کارڈ": "kārḍ"
+          },
+          "options": [
+            "دُکاندار",
+            "دُکان — tienda",
+            "کارڈ",
+            "نکد"
+          ],
+          "prompt": "tienda"
+        },
+        {
+          "answer": "بازار — mercado",
+          "answerTranslit": "baazaar",
+          "concept": "c:viajes-compras-y-servicios.mercado",
+          "optionTranslit": {
+            "بازار — mercado": "baazaar",
+            "دُکان — tienda": "dukān",
+            "رُپیا": "rupayā",
+            "کارڈ": "kārḍ"
+          },
+          "options": [
+            "رُپیا",
+            "دُکان — tienda",
+            "بازار — mercado",
+            "کارڈ"
+          ],
+          "prompt": "mercado"
+        },
+        {
+          "answer": "سُپرمارکےٹ — supermercado",
+          "answerTranslit": "suparmārkeṭ",
+          "concept": "c:viajes-compras-y-servicios.supermercado",
+          "optionTranslit": {
+            "دُکان — tienda": "dukān",
+            "رُپیا": "rupayā",
+            "سُپرمارکےٹ — supermercado": "suparmārkeṭ",
+            "کیمت": "kīmat"
+          },
+          "options": [
+            "رُپیا",
+            "کیمت",
+            "دُکان — tienda",
+            "سُپرمارکےٹ — supermercado"
+          ],
+          "prompt": "supermercado"
+        },
+        {
+          "answer": "مال — centro comercial",
+          "answerTranslit": "môl",
+          "concept": "c:viajes-compras-y-servicios.centro-comercial",
+          "optionTranslit": {
+            "بازار — mercado": "baazaar",
+            "دُکاندار": "dukāndār",
+            "سُپرمارکےٹ — supermercado": "suparmārkeṭ",
+            "مال — centro comercial": "môl"
+          },
+          "options": [
+            "سُپرمارکےٹ — supermercado",
+            "دُکاندار",
+            "مال — centro comercial",
+            "بازار — mercado"
+          ],
+          "prompt": "centro comercial"
+        },
+        {
+          "answer": "دُکاندار",
+          "answerTranslit": "dukāndār",
+          "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+          "optionTranslit": {
+            "دُکاندار": "dukāndār",
+            "رُپیا": "rupayā",
+            "سُپرمارکےٹ — supermercado": "suparmārkeṭ",
+            "کھریداری": "kharīdārī"
+          },
+          "options": [
+            "کھریداری",
+            "رُپیا",
+            "دُکاندار",
+            "سُپرمارکےٹ — supermercado"
+          ],
+          "prompt": "vendedor / tendero"
+        },
+        {
+          "answer": "گراہک",
+          "answerTranslit": "grāhak",
+          "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+          "optionTranslit": {
+            "نکد": "nakad",
+            "کھریداری": "kharīdārī",
+            "کیمت": "kīmat",
+            "گراہک": "grāhak"
+          },
+          "options": [
+            "کھریداری",
+            "کیمت",
+            "نکد",
+            "گراہک"
+          ],
+          "prompt": "cliente / comprador"
+        },
+        {
+          "answer": "کیمت",
+          "answerTranslit": "kīmat",
+          "concept": "c:viajes-compras-y-servicios.precio",
+          "optionTranslit": {
+            "نکد": "nakad",
+            "پیسہ / رقم": "paisa / raqam",
+            "کھریداری": "kharīdārī",
+            "کیمت": "kīmat"
+          },
+          "options": [
+            "پیسہ / رقم",
+            "نکد",
+            "کھریداری",
+            "کیمت"
+          ],
+          "prompt": "precio"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Words to shop, pay and use services during a trip.",
+    "es": "Palabras para comprar, pagar y usar servicios durante un viaje."
+  },
+  "generator": "build_lessons",
+  "id": "ur-u15-l1",
+  "lang": "ur",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Handle shopping and services",
+      "Ask about prices and opening hours"
+    ],
+    "es": [
+      "Resolver compras y servicios",
+      "Preguntar precios y horarios"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ur"
+      ],
+      "rows": [
+        [
+          "compras / ir de compras",
+          "shopping / going for purchases",
+          "کھریداری"
+        ],
+        [
+          "tienda",
+          "shop",
+          "دُکان — tienda"
+        ],
+        [
+          "mercado",
+          "market",
+          "بازار — mercado"
+        ],
+        [
+          "supermercado",
+          "supermarket",
+          "سُپرمارکےٹ — supermercado"
+        ],
+        [
+          "centro comercial",
+          "shopping centre",
+          "مال — centro comercial"
+        ],
+        [
+          "vendedor / tendero",
+          "seller / tenderer",
+          "دُکاندار"
+        ],
+        [
+          "cliente / comprador",
+          "customer / buyer",
+          "گراہک"
+        ],
+        [
+          "precio",
+          "price",
+          "کیمت"
+        ],
+        [
+          "dinero",
+          "money",
+          "پیسہ / رقم"
+        ],
+        [
+          "rupia india (INR)",
+          "Indian rupee (INR)",
+          "رُپیا"
+        ],
+        [
+          "efectivo / dinero en efectivo",
+          "cash / money in the form of",
+          "نکد"
+        ],
+        [
+          "tarjeta",
+          "card",
+          "کارڈ"
+        ]
+      ],
+      "title": "es · en · ur",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Travel, shopping and services",
+    "es": "Viajes, compras y servicios"
+  },
+  "unit": 15
+}

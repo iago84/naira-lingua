@@ -19,6 +19,7 @@
       "en": "red",
       "es": "rojo",
       "speaker": "A",
+      "translit": "hóng sè",
       "zh": "红色"
     },
     {
@@ -26,6 +27,7 @@
       "en": "blue",
       "es": "azul",
       "speaker": "B",
+      "translit": "lán sè",
       "zh": "蓝色"
     },
     {
@@ -33,6 +35,7 @@
       "en": "green",
       "es": "verde",
       "speaker": "A",
+      "translit": "lǜ sè",
       "zh": "绿色"
     },
     {
@@ -40,6 +43,7 @@
       "en": "yellow",
       "es": "amarillo",
       "speaker": "B",
+      "translit": "huáng sè",
       "zh": "黄色"
     },
     {
@@ -47,6 +51,7 @@
       "en": "black",
       "es": "negro",
       "speaker": "A",
+      "translit": "hēi sè",
       "zh": "黑色"
     },
     {
@@ -54,6 +59,7 @@
       "en": "white",
       "es": "blanco",
       "speaker": "B",
+      "translit": "bái sè",
       "zh": "白色"
     },
     {
@@ -61,6 +67,7 @@
       "en": "orange",
       "es": "naranja",
       "speaker": "A",
+      "translit": "chéng sè",
       "zh": "橙色"
     },
     {
@@ -68,6 +75,7 @@
       "en": "pink",
       "es": "rosa",
       "speaker": "B",
+      "translit": "fěn hóng sè",
       "zh": "粉红色"
     },
     {
@@ -75,6 +83,7 @@
       "en": "purple / violet",
       "es": "morado / violeta",
       "speaker": "A",
+      "translit": "zǐ sè",
       "zh": "紫色"
     },
     {
@@ -82,6 +91,7 @@
       "en": "brown",
       "es": "marrón",
       "speaker": "B",
+      "translit": "zōng sè",
       "zh": "棕色"
     },
     {
@@ -89,6 +99,7 @@
       "en": "grey",
       "es": "gris",
       "speaker": "A",
+      "translit": "huī sè",
       "zh": "灰色"
     },
     {
@@ -96,14 +107,168 @@
       "en": "gold",
       "es": "dorado",
       "speaker": "B",
+      "translit": "jīn sè",
       "zh": "金色"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "红色",
+          "answerTranslit": "hóng sè",
+          "concept": "c:colores.rojo",
+          "optionTranslit": {
+            "橙色": "chéng sè",
+            "白色": "bái sè",
+            "红色": "hóng sè",
+            "绿色": "lǜ sè"
+          },
+          "options": [
+            "绿色",
+            "红色",
+            "白色",
+            "橙色"
+          ],
+          "prompt": "rojo"
+        },
+        {
+          "answer": "蓝色",
+          "answerTranslit": "lán sè",
+          "concept": "c:colores.azul",
+          "optionTranslit": {
+            "橙色": "chéng sè",
+            "粉红色": "fěn hóng sè",
+            "蓝色": "lán sè",
+            "金色": "jīn sè"
+          },
+          "options": [
+            "金色",
+            "蓝色",
+            "粉红色",
+            "橙色"
+          ],
+          "prompt": "azul"
+        },
+        {
+          "answer": "绿色",
+          "answerTranslit": "lǜ sè",
+          "concept": "c:colores.verde",
+          "optionTranslit": {
+            "橙色": "chéng sè",
+            "灰色": "huī sè",
+            "紫色": "zǐ sè",
+            "绿色": "lǜ sè"
+          },
+          "options": [
+            "橙色",
+            "灰色",
+            "绿色",
+            "紫色"
+          ],
+          "prompt": "verde"
+        },
+        {
+          "answer": "黄色",
+          "answerTranslit": "huáng sè",
+          "concept": "c:colores.amarillo",
+          "optionTranslit": {
+            "棕色": "zōng sè",
+            "灰色": "huī sè",
+            "红色": "hóng sè",
+            "黄色": "huáng sè"
+          },
+          "options": [
+            "棕色",
+            "红色",
+            "灰色",
+            "黄色"
+          ],
+          "prompt": "amarillo"
+        },
+        {
+          "answer": "黑色",
+          "answerTranslit": "hēi sè",
+          "concept": "c:colores.negro",
+          "optionTranslit": {
+            "棕色": "zōng sè",
+            "橙色": "chéng sè",
+            "蓝色": "lán sè",
+            "黑色": "hēi sè"
+          },
+          "options": [
+            "蓝色",
+            "黑色",
+            "棕色",
+            "橙色"
+          ],
+          "prompt": "negro"
+        },
+        {
+          "answer": "白色",
+          "answerTranslit": "bái sè",
+          "concept": "c:colores.blanco",
+          "optionTranslit": {
+            "灰色": "huī sè",
+            "白色": "bái sè",
+            "金色": "jīn sè",
+            "黄色": "huáng sè"
+          },
+          "options": [
+            "灰色",
+            "黄色",
+            "金色",
+            "白色"
+          ],
+          "prompt": "blanco"
+        },
+        {
+          "answer": "橙色",
+          "answerTranslit": "chéng sè",
+          "concept": "c:colores.naranja",
+          "optionTranslit": {
+            "棕色": "zōng sè",
+            "橙色": "chéng sè",
+            "白色": "bái sè",
+            "金色": "jīn sè"
+          },
+          "options": [
+            "白色",
+            "棕色",
+            "橙色",
+            "金色"
+          ],
+          "prompt": "naranja"
+        },
+        {
+          "answer": "粉红色",
+          "answerTranslit": "fěn hóng sè",
+          "concept": "c:colores.rosa",
+          "optionTranslit": {
+            "粉红色": "fěn hóng sè",
+            "红色": "hóng sè",
+            "黄色": "huáng sè",
+            "黑色": "hēi sè"
+          },
+          "options": [
+            "红色",
+            "黑色",
+            "粉红色",
+            "黄色"
+          ],
+          "prompt": "rosa"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Colours are used to describe objects, clothes and places.",
-    "es": "Los colores sirven para describir objetos, ropa y lugares.",
-    "zh": "颜色用来描述物体、衣服和地点。"
+    "es": "Los colores sirven para describir objetos, ropa y lugares."
   },
   "generator": "build_lessons",
   "id": "zh-u3-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar los colores básicos",
       "Describir objetos por su color"
-    ],
-    "zh": [
-      "命名基本颜色",
-      "按颜色描述对象"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Colours",
-    "es": "Los colores",
-    "zh": "颜色"
+    "es": "Los colores"
   },
   "unit": 3
 }

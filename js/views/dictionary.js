@@ -1,5 +1,5 @@
 // js/views/dictionary.js
-import { esc } from "../util.js";
+import { esc, translitFor } from "../util.js";
 import { page, optionList } from "./common.js";
 import { pickTerm, domainsOf } from "../pairs.js";
 
@@ -12,7 +12,8 @@ function matches(c, q) {
   return inGloss || inTerms;
 }
 
-export function renderDictionary({ t, concepts, byLang, query = "", domain = "" }) {
+export function renderDictionary({ t, concepts, byLang, query = "", domain = "", translit = true }) {
+  const on = translit !== false;
   const enriched = concepts.map((c) => {
     const terms = {};
     for (const [lang, list] of Object.entries(byLang)) {
@@ -28,7 +29,11 @@ export function renderDictionary({ t, concepts, byLang, query = "", domain = "" 
 
   const rows = filtered.map((c) => {
     const langs = Object.entries(c._terms)
-      .map(([lg, tm]) => `<li><span class="muted">${esc(lg)}</span> <span dir="auto">${esc(tm.term)}</span></li>`)
+      .map(([lg, tm]) => {
+        const tl = on ? translitFor(tm.term, tm.translit) : "";
+        const read = tl ? ` <span class="translit muted" dir="auto">${esc(tl)}</span>` : "";
+        return `<li><span class="muted">${esc(lg)}</span> <span dir="auto">${esc(tm.term)}</span>${read}</li>`;
+      })
       .join("");
     return `<div class="card">
       <div class="muted">${esc(c.domain)} · ${esc(c.id)}</div>
@@ -51,7 +56,7 @@ export function renderDictionary({ t, concepts, byLang, query = "", domain = "" 
     </div>${body}`);
 }
 
-export function mountDictionary(root, { concepts, data, langs, t }) {
+export function mountDictionary(root, { concepts, data, langs, t, translit = true }) {
   const state = { query: "", domain: "" };
   const byLang = {};
   let pending = langs.length;
@@ -65,7 +70,7 @@ export function mountDictionary(root, { concepts, data, langs, t }) {
   }
 
   function draw() {
-    root.innerHTML = renderDictionary({ t, concepts, byLang, ...state });
+    root.innerHTML = renderDictionary({ t, concepts, byLang, translit, ...state });
     const q = root.querySelector("#q");
     q?.addEventListener("input", () => { state.query = q.value; draw(); q.focus(); });
     const d = root.querySelector("#domain");

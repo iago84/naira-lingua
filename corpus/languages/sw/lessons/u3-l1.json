@@ -19,87 +19,253 @@
       "en": "red",
       "es": "rojo",
       "speaker": "A",
-      "sw": "nyekundu"
+      "sw": "nyekundu",
+      "translit": "nye-kun-du"
     },
     {
       "concept": "c:colores.azul",
       "en": "blue",
       "es": "azul",
       "speaker": "B",
-      "sw": "bluu / samawati"
+      "sw": "bluu / samawati",
+      "translit": "blu-u"
     },
     {
       "concept": "c:colores.verde",
       "en": "green",
       "es": "verde",
       "speaker": "A",
-      "sw": "kijani"
+      "sw": "kijani",
+      "translit": "ki-ja-ni"
     },
     {
       "concept": "c:colores.amarillo",
       "en": "yellow",
       "es": "amarillo",
       "speaker": "B",
-      "sw": "njano / manjano"
+      "sw": "njano / manjano",
+      "translit": "nja-no"
     },
     {
       "concept": "c:colores.negro",
       "en": "black",
       "es": "negro",
       "speaker": "A",
-      "sw": "nyeusi"
+      "sw": "nyeusi",
+      "translit": "nye-u-si"
     },
     {
       "concept": "c:colores.blanco",
       "en": "white",
       "es": "blanco",
       "speaker": "B",
-      "sw": "nyeupe"
+      "sw": "nyeupe",
+      "translit": "nye-u-pe"
     },
     {
       "concept": "c:colores.naranja",
       "en": "orange",
       "es": "naranja",
       "speaker": "A",
-      "sw": "rangi ya chungwa / machungwa"
+      "sw": "rangi ya chungwa / machungwa",
+      "translit": "ma-chun-gwa"
     },
     {
       "concept": "c:colores.rosa",
       "en": "pink",
       "es": "rosa",
       "speaker": "B",
-      "sw": "waridi / pinki"
+      "sw": "waridi / pinki",
+      "translit": "wa-ri-di"
     },
     {
       "concept": "c:colores.morado-violeta",
       "en": "purple / violet",
       "es": "morado / violeta",
       "speaker": "A",
-      "sw": "zambarau / urujuani"
+      "sw": "zambarau / urujuani",
+      "translit": "zam-ba-rau"
     },
     {
       "concept": "c:colores.marron",
       "en": "brown",
       "es": "marrón",
       "speaker": "B",
-      "sw": "kahawia"
+      "sw": "kahawia",
+      "translit": "ka-ha-wi-a"
     },
     {
       "concept": "c:colores.gris",
       "en": "grey",
       "es": "gris",
       "speaker": "A",
-      "sw": "kijivu"
+      "sw": "kijivu",
+      "translit": "ki-ji-vu"
     },
     {
       "concept": "c:colores.dorado",
       "en": "gold",
       "es": "dorado",
       "speaker": "B",
-      "sw": "dhahabu / rangi ya dhahabu"
+      "sw": "dhahabu / rangi ya dhahabu",
+      "translit": "dha-ha-bu"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "nyekundu",
+          "answerTranslit": "nye-kun-du",
+          "concept": "c:colores.rojo",
+          "optionTranslit": {
+            "kijani": "ki-ja-ni",
+            "nyekundu": "nye-kun-du",
+            "nyeupe": "nye-u-pe",
+            "rangi ya chungwa / machungwa": "ma-chun-gwa"
+          },
+          "options": [
+            "kijani",
+            "nyekundu",
+            "nyeupe",
+            "rangi ya chungwa / machungwa"
+          ],
+          "prompt": "rojo"
+        },
+        {
+          "answer": "bluu / samawati",
+          "answerTranslit": "blu-u",
+          "concept": "c:colores.azul",
+          "optionTranslit": {
+            "bluu / samawati": "blu-u",
+            "dhahabu / rangi ya dhahabu": "dha-ha-bu",
+            "rangi ya chungwa / machungwa": "ma-chun-gwa",
+            "waridi / pinki": "wa-ri-di"
+          },
+          "options": [
+            "dhahabu / rangi ya dhahabu",
+            "bluu / samawati",
+            "waridi / pinki",
+            "rangi ya chungwa / machungwa"
+          ],
+          "prompt": "azul"
+        },
+        {
+          "answer": "kijani",
+          "answerTranslit": "ki-ja-ni",
+          "concept": "c:colores.verde",
+          "optionTranslit": {
+            "kijani": "ki-ja-ni",
+            "kijivu": "ki-ji-vu",
+            "rangi ya chungwa / machungwa": "ma-chun-gwa",
+            "zambarau / urujuani": "zam-ba-rau"
+          },
+          "options": [
+            "rangi ya chungwa / machungwa",
+            "kijivu",
+            "kijani",
+            "zambarau / urujuani"
+          ],
+          "prompt": "verde"
+        },
+        {
+          "answer": "njano / manjano",
+          "answerTranslit": "nja-no",
+          "concept": "c:colores.amarillo",
+          "optionTranslit": {
+            "kahawia": "ka-ha-wi-a",
+            "kijivu": "ki-ji-vu",
+            "njano / manjano": "nja-no",
+            "nyekundu": "nye-kun-du"
+          },
+          "options": [
+            "kahawia",
+            "nyekundu",
+            "kijivu",
+            "njano / manjano"
+          ],
+          "prompt": "amarillo"
+        },
+        {
+          "answer": "nyeusi",
+          "answerTranslit": "nye-u-si",
+          "concept": "c:colores.negro",
+          "optionTranslit": {
+            "bluu / samawati": "blu-u",
+            "kahawia": "ka-ha-wi-a",
+            "nyeusi": "nye-u-si",
+            "rangi ya chungwa / machungwa": "ma-chun-gwa"
+          },
+          "options": [
+            "bluu / samawati",
+            "nyeusi",
+            "kahawia",
+            "rangi ya chungwa / machungwa"
+          ],
+          "prompt": "negro"
+        },
+        {
+          "answer": "nyeupe",
+          "answerTranslit": "nye-u-pe",
+          "concept": "c:colores.blanco",
+          "optionTranslit": {
+            "dhahabu / rangi ya dhahabu": "dha-ha-bu",
+            "kijivu": "ki-ji-vu",
+            "njano / manjano": "nja-no",
+            "nyeupe": "nye-u-pe"
+          },
+          "options": [
+            "kijivu",
+            "njano / manjano",
+            "dhahabu / rangi ya dhahabu",
+            "nyeupe"
+          ],
+          "prompt": "blanco"
+        },
+        {
+          "answer": "rangi ya chungwa / machungwa",
+          "answerTranslit": "ma-chun-gwa",
+          "concept": "c:colores.naranja",
+          "optionTranslit": {
+            "dhahabu / rangi ya dhahabu": "dha-ha-bu",
+            "kahawia": "ka-ha-wi-a",
+            "nyeupe": "nye-u-pe",
+            "rangi ya chungwa / machungwa": "ma-chun-gwa"
+          },
+          "options": [
+            "nyeupe",
+            "kahawia",
+            "rangi ya chungwa / machungwa",
+            "dhahabu / rangi ya dhahabu"
+          ],
+          "prompt": "naranja"
+        },
+        {
+          "answer": "waridi / pinki",
+          "answerTranslit": "wa-ri-di",
+          "concept": "c:colores.rosa",
+          "optionTranslit": {
+            "njano / manjano": "nja-no",
+            "nyekundu": "nye-kun-du",
+            "nyeusi": "nye-u-si",
+            "waridi / pinki": "wa-ri-di"
+          },
+          "options": [
+            "nyekundu",
+            "nyeusi",
+            "waridi / pinki",
+            "njano / manjano"
+          ],
+          "prompt": "rosa"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Colours are used to describe objects, clothes and places.",
     "es": "Los colores sirven para describir objetos, ropa y lugares."

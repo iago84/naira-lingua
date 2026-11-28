@@ -12,6 +12,7 @@ Es determinista e idempotente: mismo corpus y mismas traducciones ⇒ mismo JSON
 El campo ``generator`` marca el origen automático de cada lección.
 """
 from __future__ import annotations
+import random
 import sys
 from pathlib import Path
 from . import common
@@ -129,6 +130,71 @@ THEMES = [
      "explanation": {
          "es": "Profesiones y palabras del mundo laboral.",
          "en": "Professions and words from the world of work."}},
+    {"unit": 13, "lesson": 1, "domain": "verbos-comunes",
+     "title": {"es": "Los verbos comunes", "en": "Common verbs"},
+     "objectives": {
+         "es": ["Reconocer los verbos más usados", "Nombrar acciones del día a día"],
+         "en": ["Recognise the most common verbs", "Name everyday actions"]},
+     "explanation": {
+         "es": "Los verbos más frecuentes, la base para formar frases.",
+         "en": "The most frequent verbs, the base for building sentences."}},
+    {"unit": 14, "lesson": 1, "domain": "adjetivos",
+     "title": {"es": "Los adjetivos", "en": "Adjectives"},
+     "objectives": {
+         "es": ["Describir con adjetivos", "Opinar sobre cosas y personas"],
+         "en": ["Describe with adjectives", "Give opinions about things and people"]},
+     "explanation": {
+         "es": "Adjetivos para describir tamaño, carácter, estado y cualidades.",
+         "en": "Adjectives to describe size, character, state and qualities."}},
+    {"unit": 15, "lesson": 1, "domain": "viajes-compras-y-servicios",
+     "title": {"es": "Viajes, compras y servicios", "en": "Travel, shopping and services"},
+     "objectives": {
+         "es": ["Resolver compras y servicios", "Preguntar precios y horarios"],
+         "en": ["Handle shopping and services", "Ask about prices and opening hours"]},
+     "explanation": {
+         "es": ("Palabras para comprar, pagar y usar servicios durante un viaje."),
+         "en": "Words to shop, pay and use services during a trip."}},
+    {"unit": 16, "lesson": 1, "domain": "transporte-y-viajes",
+     "title": {"es": "El transporte y los viajes", "en": "Transport and travel"},
+     "objectives": {
+         "es": ["Nombrar medios de transporte", "Moverse y viajar"],
+         "en": ["Name means of transport", "Get around and travel"]},
+     "explanation": {
+         "es": "Medios de transporte y palabras útiles para desplazarse.",
+         "en": "Means of transport and words useful to get around."}},
+    {"unit": 17, "lesson": 1, "domain": "educacion-y-aprendizaje",
+     "title": {"es": "La educación y el aprendizaje", "en": "Education and learning"},
+     "objectives": {
+         "es": ["Hablar de estudios", "Nombrar la escuela y sus objetos"],
+         "en": ["Talk about studies", "Name school and its objects"]},
+     "explanation": {
+         "es": "Palabras de la escuela y del aprendizaje.",
+         "en": "Words from school and learning."}},
+    {"unit": 18, "lesson": 1, "domain": "tecnologia-y-comunicacion",
+     "title": {"es": "La tecnología y la comunicación", "en": "Technology and communication"},
+     "objectives": {
+         "es": ["Nombrar aparatos y servicios", "Hablar por teléfono e internet"],
+         "en": ["Name devices and services", "Talk on the phone and online"]},
+     "explanation": {
+         "es": "Aparatos, internet y comunicación del día a día.",
+         "en": "Devices, internet and everyday communication."}},
+    {"unit": 19, "lesson": 1, "domain": "naturaleza-y-clima",
+     "title": {"es": "La naturaleza y el clima", "en": "Nature and weather"},
+     "objectives": {
+         "es": ["Nombrar elementos naturales", "Hablar del tiempo y las estaciones"],
+         "en": ["Name natural elements", "Talk about weather and seasons"]},
+     "explanation": {
+         "es": "Naturaleza, paisajes y clima para hablar del entorno.",
+         "en": "Nature, landscapes and weather to talk about the environment."}},
+    {"unit": 20, "lesson": 1, "domain": "vocabulario-extra-y-frases-utiles",
+     "title": {"es": "Vocabulario extra y frases útiles",
+               "en": "Extra vocabulary and useful phrases"},
+     "objectives": {
+         "es": ["Ampliar vocabulario", "Usar frases comunes del día a día"],
+         "en": ["Expand vocabulary", "Use common everyday phrases"]},
+     "explanation": {
+         "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones.",
+         "en": "Support words and phrases that appear in many conversations."}},
 ]
 
 
@@ -186,6 +252,52 @@ def lesson_id(lang: str, theme: dict) -> str:
     return f"{lang}-u{theme['unit']}-l{theme['lesson']}"
 
 
+EXERCISE_LIMIT = 8
+EXERCISE_OPTIONS = 4
+
+
+def _build_exercises(selected, index, lang, src="es"):
+    """Ejercicios de elección múltiple: dada la glosa en ``src``, elige el
+    término correcto en ``lang``. Los distractores salen del mismo dominio.
+
+    Si el idioma tiene transliteración (escrituras no latinas), se adjunta la
+    lectura de la respuesta y de cada opción para poder pronunciarlas."""
+    items = []
+    pool = []
+    for c in selected:
+        ref = _pick(index.get(src, {}).get(c["id"]))
+        ans = _pick(index.get(lang, {}).get(c["id"]))
+        if ref and ans:
+            pool.append((c, ref["term"], ans))
+    # distractores: términos del idioma destino de los mismos conceptos
+    answers = [p[2]["term"] for p in pool]
+    unique_answers = list(dict.fromkeys(answers))
+    translit_by = {p[2]["term"]: p[2].get("translit") or "" for p in pool}
+    for c, prompt, ans in pool[:EXERCISE_LIMIT]:
+        distractors = [a for a in unique_answers if a != ans["term"]]
+        if len(distractors) < EXERCISE_OPTIONS - 1:
+            continue  # no hay suficientes distractores en la lección
+        rng = random.Random(c["id"])
+        opts = rng.sample(distractors, EXERCISE_OPTIONS - 1)
+        options = rng.sample([ans["term"], *opts], EXERCISE_OPTIONS)
+        item = {"concept": c["id"], "prompt": prompt,
+                "answer": ans["term"], "options": options}
+        if ans.get("translit"):
+            item["answerTranslit"] = ans["translit"]
+        option_translit = {o: translit_by[o] for o in options if translit_by.get(o)}
+        if option_translit:
+            item["optionTranslit"] = option_translit
+        items.append(item)
+    if not items:
+        return []
+    return [{
+        "type": "choice",
+        "title": {"es": "Elige la palabra correcta",
+                  "en": "Choose the correct word"},
+        "items": items,
+    }]
+
+
 def build_lesson(concepts, terms_by_lang, lang, theme, translate=None) -> dict:
     """Construye la lección de ``theme`` para el idioma ``lang`` desde el corpus."""
     selected = _theme_concepts(concepts, theme)
@@ -203,6 +315,8 @@ def build_lesson(concepts, terms_by_lang, lang, theme, translate=None) -> dict:
             continue
         line = {"speaker": SPEAKERS[i % len(SPEAKERS)], "concept": cid,
                 lang: term["term"]}
+        if term.get("translit"):
+            line["translit"] = term["translit"]
         row = []
         for lg in cols:
             ref = _pick(index.get(lg, {}).get(cid))
@@ -215,6 +329,7 @@ def build_lesson(concepts, terms_by_lang, lang, theme, translate=None) -> dict:
         used.append(cid)
 
     title, objectives, explanation = _scaffold(theme, lang, translate)
+    exercises = _build_exercises(selected, index, lang)
     return {
         "id": lesson_id(lang, theme), "lang": lang,
         "unit": theme["unit"], "lesson": theme["lesson"],
@@ -225,7 +340,7 @@ def build_lesson(concepts, terms_by_lang, lang, theme, translate=None) -> dict:
         "dialogue": dialogue,
         "tables": [{"type": "vocabulary", "title": " · ".join(cols),
                     "columns": list(cols), "rows": table_rows}],
-        "exercises": [], "concepts": used,
+        "exercises": exercises, "concepts": used,
     }
 
 

@@ -19,6 +19,7 @@
       "en": "red",
       "es": "rojo",
       "speaker": "A",
+      "translit": "laal / surkh",
       "ur": "لال / سرخ"
     },
     {
@@ -26,6 +27,7 @@
       "en": "blue",
       "es": "azul",
       "speaker": "B",
+      "translit": "neela",
       "ur": "نیلا"
     },
     {
@@ -33,6 +35,7 @@
       "en": "green",
       "es": "verde",
       "speaker": "A",
+      "translit": "hara / sabz",
       "ur": "ہرا / سبز"
     },
     {
@@ -40,6 +43,7 @@
       "en": "yellow",
       "es": "amarillo",
       "speaker": "B",
+      "translit": "peela / zard",
       "ur": "پیلا / زرد"
     },
     {
@@ -47,6 +51,7 @@
       "en": "black",
       "es": "negro",
       "speaker": "A",
+      "translit": "kaala / siyah",
       "ur": "کالا / سیاہ"
     },
     {
@@ -54,6 +59,7 @@
       "en": "white",
       "es": "blanco",
       "speaker": "B",
+      "translit": "safed",
       "ur": "سفید"
     },
     {
@@ -61,6 +67,7 @@
       "en": "orange",
       "es": "naranja",
       "speaker": "A",
+      "translit": "nāraṅgī",
       "ur": "نارںگی"
     },
     {
@@ -68,6 +75,7 @@
       "en": "pink",
       "es": "rosa",
       "speaker": "B",
+      "translit": "gulābī",
       "ur": "گُلابی"
     },
     {
@@ -75,6 +83,7 @@
       "en": "purple / violet",
       "es": "morado / violeta",
       "speaker": "A",
+      "translit": "baiṅganī",
       "ur": "بےںگنی"
     },
     {
@@ -82,6 +91,7 @@
       "en": "brown",
       "es": "marrón",
       "speaker": "B",
+      "translit": "bhūrā",
       "ur": "بھورا"
     },
     {
@@ -89,6 +99,7 @@
       "en": "grey",
       "es": "gris",
       "speaker": "A",
+      "translit": "sleṭī",
       "ur": "سلےٹی"
     },
     {
@@ -96,10 +107,165 @@
       "en": "gold",
       "es": "dorado",
       "speaker": "B",
+      "translit": "sunahrā",
       "ur": "سُنہرا"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "لال / سرخ",
+          "answerTranslit": "laal / surkh",
+          "concept": "c:colores.rojo",
+          "optionTranslit": {
+            "سفید": "safed",
+            "لال / سرخ": "laal / surkh",
+            "نارںگی": "nāraṅgī",
+            "ہرا / سبز": "hara / sabz"
+          },
+          "options": [
+            "ہرا / سبز",
+            "لال / سرخ",
+            "سفید",
+            "نارںگی"
+          ],
+          "prompt": "rojo"
+        },
+        {
+          "answer": "نیلا",
+          "answerTranslit": "neela",
+          "concept": "c:colores.azul",
+          "optionTranslit": {
+            "سُنہرا": "sunahrā",
+            "نارںگی": "nāraṅgī",
+            "نیلا": "neela",
+            "گُلابی": "gulābī"
+          },
+          "options": [
+            "سُنہرا",
+            "نیلا",
+            "گُلابی",
+            "نارںگی"
+          ],
+          "prompt": "azul"
+        },
+        {
+          "answer": "ہرا / سبز",
+          "answerTranslit": "hara / sabz",
+          "concept": "c:colores.verde",
+          "optionTranslit": {
+            "بےںگنی": "baiṅganī",
+            "سلےٹی": "sleṭī",
+            "نارںگی": "nāraṅgī",
+            "ہرا / سبز": "hara / sabz"
+          },
+          "options": [
+            "نارںگی",
+            "سلےٹی",
+            "ہرا / سبز",
+            "بےںگنی"
+          ],
+          "prompt": "verde"
+        },
+        {
+          "answer": "پیلا / زرد",
+          "answerTranslit": "peela / zard",
+          "concept": "c:colores.amarillo",
+          "optionTranslit": {
+            "بھورا": "bhūrā",
+            "سلےٹی": "sleṭī",
+            "لال / سرخ": "laal / surkh",
+            "پیلا / زرد": "peela / zard"
+          },
+          "options": [
+            "بھورا",
+            "لال / سرخ",
+            "سلےٹی",
+            "پیلا / زرد"
+          ],
+          "prompt": "amarillo"
+        },
+        {
+          "answer": "کالا / سیاہ",
+          "answerTranslit": "kaala / siyah",
+          "concept": "c:colores.negro",
+          "optionTranslit": {
+            "بھورا": "bhūrā",
+            "نارںگی": "nāraṅgī",
+            "نیلا": "neela",
+            "کالا / سیاہ": "kaala / siyah"
+          },
+          "options": [
+            "نیلا",
+            "کالا / سیاہ",
+            "بھورا",
+            "نارںگی"
+          ],
+          "prompt": "negro"
+        },
+        {
+          "answer": "سفید",
+          "answerTranslit": "safed",
+          "concept": "c:colores.blanco",
+          "optionTranslit": {
+            "سفید": "safed",
+            "سلےٹی": "sleṭī",
+            "سُنہرا": "sunahrā",
+            "پیلا / زرد": "peela / zard"
+          },
+          "options": [
+            "سلےٹی",
+            "پیلا / زرد",
+            "سُنہرا",
+            "سفید"
+          ],
+          "prompt": "blanco"
+        },
+        {
+          "answer": "نارںگی",
+          "answerTranslit": "nāraṅgī",
+          "concept": "c:colores.naranja",
+          "optionTranslit": {
+            "بھورا": "bhūrā",
+            "سفید": "safed",
+            "سُنہرا": "sunahrā",
+            "نارںگی": "nāraṅgī"
+          },
+          "options": [
+            "سفید",
+            "بھورا",
+            "نارںگی",
+            "سُنہرا"
+          ],
+          "prompt": "naranja"
+        },
+        {
+          "answer": "گُلابی",
+          "answerTranslit": "gulābī",
+          "concept": "c:colores.rosa",
+          "optionTranslit": {
+            "لال / سرخ": "laal / surkh",
+            "پیلا / زرد": "peela / zard",
+            "کالا / سیاہ": "kaala / siyah",
+            "گُلابی": "gulābī"
+          },
+          "options": [
+            "لال / سرخ",
+            "کالا / سیاہ",
+            "گُلابی",
+            "پیلا / زرد"
+          ],
+          "prompt": "rosa"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Colours are used to describe objects, clothes and places.",
     "es": "Los colores sirven para describir objetos, ropa y lugares."

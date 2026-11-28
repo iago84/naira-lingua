@@ -19,6 +19,7 @@
       "en": "city",
       "es": "ciudad",
       "speaker": "A",
+      "translit": "sheher",
       "ur": "شہر"
     },
     {
@@ -26,6 +27,7 @@
       "en": "village / town",
       "es": "pueblo / aldea",
       "speaker": "B",
+      "translit": "gā̃v",
       "ur": "گاںو"
     },
     {
@@ -33,6 +35,7 @@
       "en": "country",
       "es": "país",
       "speaker": "A",
+      "translit": "mulk / desh",
       "ur": "ملک / دیش"
     },
     {
@@ -40,6 +43,7 @@
       "en": "State / province",
       "es": "estado / provincia",
       "speaker": "B",
+      "translit": "rājya",
       "ur": "راجی"
     },
     {
@@ -47,6 +51,7 @@
       "en": "capital",
       "es": "capital",
       "speaker": "A",
+      "translit": "rājdhānī",
       "ur": "راجدھانی"
     },
     {
@@ -54,6 +59,7 @@
       "en": "area / zone",
       "es": "zona / área",
       "speaker": "B",
+      "translit": "ilākā",
       "ur": "اِلاکا"
     },
     {
@@ -61,6 +67,7 @@
       "en": "Street / road",
       "es": "calle / carretera",
       "speaker": "A",
+      "translit": "saṛak",
       "ur": "سڈک"
     },
     {
@@ -68,6 +75,7 @@
       "en": "alley",
       "es": "callejón",
       "speaker": "B",
+      "translit": "galī",
       "ur": "گلی"
     },
     {
@@ -75,6 +83,7 @@
       "en": "cross / intersection",
       "es": "cruce / intersección",
       "speaker": "A",
+      "translit": "caurāhā",
       "ur": "چوراہا"
     },
     {
@@ -82,6 +91,7 @@
       "en": "bridge",
       "es": "puente",
       "speaker": "B",
+      "translit": "pul",
       "ur": "پُل"
     },
     {
@@ -89,6 +99,7 @@
       "en": "square",
       "es": "plaza",
       "speaker": "A",
+      "translit": "cauk",
       "ur": "چوک"
     },
     {
@@ -96,10 +107,165 @@
       "en": "market",
       "es": "mercado",
       "speaker": "B",
+      "translit": "baazaar",
       "ur": "بازار"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "شہر",
+          "answerTranslit": "sheher",
+          "concept": "c:ciudad-y-lugares.ciudad",
+          "optionTranslit": {
+            "اِلاکا": "ilākā",
+            "شہر": "sheher",
+            "ملک / دیش": "mulk / desh",
+            "پُل": "pul"
+          },
+          "options": [
+            "ملک / دیش",
+            "اِلاکا",
+            "پُل",
+            "شہر"
+          ],
+          "prompt": "ciudad"
+        },
+        {
+          "answer": "گاںو",
+          "answerTranslit": "gā̃v",
+          "concept": "c:ciudad-y-lugares.pueblo-aldea",
+          "optionTranslit": {
+            "راجدھانی": "rājdhānī",
+            "پُل": "pul",
+            "چوک": "cauk",
+            "گاںو": "gā̃v"
+          },
+          "options": [
+            "راجدھانی",
+            "گاںو",
+            "پُل",
+            "چوک"
+          ],
+          "prompt": "pueblo / aldea"
+        },
+        {
+          "answer": "ملک / دیش",
+          "answerTranslit": "mulk / desh",
+          "concept": "c:ciudad-y-lugares.pais",
+          "optionTranslit": {
+            "راجی": "rājya",
+            "سڈک": "saṛak",
+            "ملک / دیش": "mulk / desh",
+            "گلی": "galī"
+          },
+          "options": [
+            "سڈک",
+            "ملک / دیش",
+            "راجی",
+            "گلی"
+          ],
+          "prompt": "país"
+        },
+        {
+          "answer": "راجی",
+          "answerTranslit": "rājya",
+          "concept": "c:ciudad-y-lugares.estado-provincia",
+          "optionTranslit": {
+            "بازار": "baazaar",
+            "راجی": "rājya",
+            "شہر": "sheher",
+            "چوراہا": "caurāhā"
+          },
+          "options": [
+            "بازار",
+            "شہر",
+            "راجی",
+            "چوراہا"
+          ],
+          "prompt": "estado / provincia"
+        },
+        {
+          "answer": "راجدھانی",
+          "answerTranslit": "rājdhānī",
+          "concept": "c:ciudad-y-lugares.capital",
+          "optionTranslit": {
+            "راجدھانی": "rājdhānī",
+            "راجی": "rājya",
+            "پُل": "pul",
+            "چوک": "cauk"
+          },
+          "options": [
+            "پُل",
+            "راجی",
+            "راجدھانی",
+            "چوک"
+          ],
+          "prompt": "capital"
+        },
+        {
+          "answer": "اِلاکا",
+          "answerTranslit": "ilākā",
+          "concept": "c:ciudad-y-lugares.zona-area",
+          "optionTranslit": {
+            "اِلاکا": "ilākā",
+            "راجی": "rājya",
+            "سڈک": "saṛak",
+            "ملک / دیش": "mulk / desh"
+          },
+          "options": [
+            "سڈک",
+            "راجی",
+            "ملک / دیش",
+            "اِلاکا"
+          ],
+          "prompt": "zona / área"
+        },
+        {
+          "answer": "سڈک",
+          "answerTranslit": "saṛak",
+          "concept": "c:ciudad-y-lugares.calle-carretera",
+          "optionTranslit": {
+            "سڈک": "saṛak",
+            "شہر": "sheher",
+            "ملک / دیش": "mulk / desh",
+            "پُل": "pul"
+          },
+          "options": [
+            "ملک / دیش",
+            "سڈک",
+            "شہر",
+            "پُل"
+          ],
+          "prompt": "calle / carretera"
+        },
+        {
+          "answer": "گلی",
+          "answerTranslit": "galī",
+          "concept": "c:ciudad-y-lugares.callejon",
+          "optionTranslit": {
+            "اِلاکا": "ilākā",
+            "سڈک": "saṛak",
+            "چوک": "cauk",
+            "گلی": "galī"
+          },
+          "options": [
+            "چوک",
+            "اِلاکا",
+            "گلی",
+            "سڈک"
+          ],
+          "prompt": "callejón"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Places in the city to move around and ask for directions.",
     "es": "Lugares de la ciudad para moverse y pedir indicaciones."

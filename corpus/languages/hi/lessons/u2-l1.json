@@ -19,91 +19,256 @@
       "en": "zero",
       "es": "cero",
       "hi": "शून्य",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "śūnya"
     },
     {
       "concept": "c:numeros.uno",
       "en": "one",
       "es": "uno",
       "hi": "एक",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "ek"
     },
     {
       "concept": "c:numeros.dos",
       "en": "two",
       "es": "dos",
       "hi": "दो",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "do"
     },
     {
       "concept": "c:numeros.tres",
       "en": "three",
       "es": "tres",
       "hi": "तीन",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "tīn"
     },
     {
       "concept": "c:numeros.cuatro",
       "en": "4",
       "es": "cuatro",
       "hi": "चार",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "cār"
     },
     {
       "concept": "c:numeros.cinco",
       "en": "five",
       "es": "cinco",
       "hi": "पाँच",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "pā̃c"
     },
     {
       "concept": "c:numeros.seis",
       "en": "6",
       "es": "seis",
       "hi": "छह",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "chah"
     },
     {
       "concept": "c:numeros.siete",
       "en": "seven",
       "es": "siete",
       "hi": "सात",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "sāt"
     },
     {
       "concept": "c:numeros.ocho",
       "en": "8",
       "es": "ocho",
       "hi": "आठ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "āṭh"
     },
     {
       "concept": "c:numeros.nueve",
       "en": "9",
       "es": "nueve",
       "hi": "नौ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "nau"
     },
     {
       "concept": "c:numeros.diez",
       "en": "10",
       "es": "diez",
       "hi": "दस",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "das"
     },
     {
       "concept": "c:numeros.once",
       "en": "11",
       "es": "once",
       "hi": "ग्यारह",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "gyārah"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "शून्य",
+          "answerTranslit": "śūnya",
+          "concept": "c:numeros.cero",
+          "optionTranslit": {
+            "एक": "ek",
+            "नौ": "nau",
+            "शून्य": "śūnya",
+            "सात": "sāt"
+          },
+          "options": [
+            "नौ",
+            "शून्य",
+            "सात",
+            "एक"
+          ],
+          "prompt": "cero"
+        },
+        {
+          "answer": "एक",
+          "answerTranslit": "ek",
+          "concept": "c:numeros.uno",
+          "optionTranslit": {
+            "एक": "ek",
+            "दस": "das",
+            "दो": "do",
+            "पाँच": "pā̃c"
+          },
+          "options": [
+            "पाँच",
+            "दो",
+            "दस",
+            "एक"
+          ],
+          "prompt": "uno"
+        },
+        {
+          "answer": "दो",
+          "answerTranslit": "do",
+          "concept": "c:numeros.dos",
+          "optionTranslit": {
+            "छह": "chah",
+            "दो": "do",
+            "नौ": "nau",
+            "पाँच": "pā̃c"
+          },
+          "options": [
+            "छह",
+            "नौ",
+            "पाँच",
+            "दो"
+          ],
+          "prompt": "dos"
+        },
+        {
+          "answer": "तीन",
+          "answerTranslit": "tīn",
+          "concept": "c:numeros.tres",
+          "optionTranslit": {
+            "छह": "chah",
+            "तीन": "tīn",
+            "दस": "das",
+            "दो": "do"
+          },
+          "options": [
+            "दस",
+            "छह",
+            "दो",
+            "तीन"
+          ],
+          "prompt": "tres"
+        },
+        {
+          "answer": "चार",
+          "answerTranslit": "cār",
+          "concept": "c:numeros.cuatro",
+          "optionTranslit": {
+            "आठ": "āṭh",
+            "चार": "cār",
+            "दस": "das",
+            "पाँच": "pā̃c"
+          },
+          "options": [
+            "चार",
+            "पाँच",
+            "दस",
+            "आठ"
+          ],
+          "prompt": "cuatro"
+        },
+        {
+          "answer": "पाँच",
+          "answerTranslit": "pā̃c",
+          "concept": "c:numeros.cinco",
+          "optionTranslit": {
+            "चार": "cār",
+            "पाँच": "pā̃c",
+            "शून्य": "śūnya",
+            "सात": "sāt"
+          },
+          "options": [
+            "चार",
+            "शून्य",
+            "सात",
+            "पाँच"
+          ],
+          "prompt": "cinco"
+        },
+        {
+          "answer": "छह",
+          "answerTranslit": "chah",
+          "concept": "c:numeros.seis",
+          "optionTranslit": {
+            "ग्यारह": "gyārah",
+            "छह": "chah",
+            "दो": "do",
+            "शून्य": "śūnya"
+          },
+          "options": [
+            "दो",
+            "ग्यारह",
+            "छह",
+            "शून्य"
+          ],
+          "prompt": "seis"
+        },
+        {
+          "answer": "सात",
+          "answerTranslit": "sāt",
+          "concept": "c:numeros.siete",
+          "optionTranslit": {
+            "आठ": "āṭh",
+            "चार": "cār",
+            "पाँच": "pā̃c",
+            "सात": "sāt"
+          },
+          "options": [
+            "आठ",
+            "सात",
+            "पाँच",
+            "चार"
+          ],
+          "prompt": "siete"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Everyday numbers: used to count, give your age and talk about prices.",
-    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
-    "hi": "दिन की संख्या आज तक: वे गिनती, उम्र और मूल्य के लिए उपयोग किए जाते हैं।"
+    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
   },
   "generator": "build_lessons",
   "id": "hi-u2-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Contar del cero al diez",
       "Reconocer los números básicos"
-    ],
-    "hi": [
-      "शून्य से दस तक की गणना",
-      "बुनियादी संख्याओं को पहचानें"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Numbers",
-    "es": "Los números",
-    "hi": "संख्या"
+    "es": "Los números"
   },
   "unit": 2
 }

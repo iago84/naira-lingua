@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "rouge",
+          "concept": "c:colores.rojo",
+          "options": [
+            "vert",
+            "rouge",
+            "blanc",
+            "orange"
+          ],
+          "prompt": "rojo"
+        },
+        {
+          "answer": "bleu",
+          "concept": "c:colores.azul",
+          "options": [
+            "or",
+            "bleu",
+            "rose",
+            "orange"
+          ],
+          "prompt": "azul"
+        },
+        {
+          "answer": "vert",
+          "concept": "c:colores.verde",
+          "options": [
+            "orange",
+            "gris",
+            "vert",
+            "pourpre/violet"
+          ],
+          "prompt": "verde"
+        },
+        {
+          "answer": "jaune",
+          "concept": "c:colores.amarillo",
+          "options": [
+            "marron",
+            "rouge",
+            "gris",
+            "jaune"
+          ],
+          "prompt": "amarillo"
+        },
+        {
+          "answer": "noir",
+          "concept": "c:colores.negro",
+          "options": [
+            "bleu",
+            "noir",
+            "marron",
+            "orange"
+          ],
+          "prompt": "negro"
+        },
+        {
+          "answer": "blanc",
+          "concept": "c:colores.blanco",
+          "options": [
+            "gris",
+            "jaune",
+            "or",
+            "blanc"
+          ],
+          "prompt": "blanco"
+        },
+        {
+          "answer": "orange",
+          "concept": "c:colores.naranja",
+          "options": [
+            "blanc",
+            "marron",
+            "orange",
+            "or"
+          ],
+          "prompt": "naranja"
+        },
+        {
+          "answer": "rose",
+          "concept": "c:colores.rosa",
+          "options": [
+            "rouge",
+            "noir",
+            "rose",
+            "jaune"
+          ],
+          "prompt": "rosa"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Colours are used to describe objects, clothes and places.",
-    "es": "Los colores sirven para describir objetos, ropa y lugares.",
-    "fr": "Les couleurs servent à décrire des objets, des vêtements et des lieux."
+    "es": "Los colores sirven para describir objetos, ropa y lugares."
   },
   "generator": "build_lessons",
   "id": "fr-u3-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar los colores básicos",
       "Describir objetos por su color"
-    ],
-    "fr": [
-      "Nommez les couleurs de base",
-      "Décrire les objets par couleur"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Colours",
-    "es": "Los colores",
-    "fr": "Les couleurs"
+    "es": "Los colores"
   },
   "unit": 3
 }

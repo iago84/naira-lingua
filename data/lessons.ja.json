@@ -19,84 +19,248 @@
         "en": "Hello.",
         "es": "hola",
         "ja": "こんにちは",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "konnichiha"
       },
       {
         "concept": "c:saludos-y-expresiones.buenos-dias",
         "en": "Good morning.",
         "es": "buenos días",
         "ja": "おはようございます",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ohayougozaimasu"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-tardes",
         "en": "Good afternoon.",
         "es": "buenas tardes",
         "ja": "こんにちは",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "konnichiha"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-noches",
         "en": "Good night.",
         "es": "buenas noches",
         "ja": "こんばんは",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "konbanha"
       },
       {
         "concept": "c:saludos-y-expresiones.gracias",
         "en": "Thank you.",
         "es": "gracias",
         "ja": "ありがとう",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "arigatou"
       },
       {
         "concept": "c:saludos-y-expresiones.por-favor",
         "en": "Please.",
         "es": "por favor",
         "ja": "お願いします",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "o negai shimasu"
       },
       {
         "concept": "c:saludos-y-expresiones.perdon-disculpe",
         "en": "Excuse me / excuse",
         "es": "perdón / disculpe",
         "ja": "すみません",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "sumimasen"
       },
       {
         "concept": "c:saludos-y-expresiones.adios",
         "en": "Bye.",
         "es": "adiós",
         "ja": "さようなら",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "sayounara"
       },
       {
         "concept": "c:saludos-y-expresiones.hasta-luego",
         "en": "See you later.",
         "es": "hasta luego",
         "ja": "またね",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "matane"
       },
       {
         "concept": "c:saludos-y-expresiones.si",
         "en": "Yes",
         "es": "sí",
         "ja": "はい",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "hai"
       },
       {
         "concept": "c:saludos-y-expresiones.no",
         "en": "No.",
         "es": "no",
         "ja": "いいえ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "iie"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "こんにちは",
+            "answerTranslit": "konnichiha",
+            "concept": "c:saludos-y-expresiones.hola",
+            "optionTranslit": {
+              "お願いします": "o negai shimasu",
+              "こんにちは": "konnichiha",
+              "こんばんは": "konbanha",
+              "すみません": "sumimasen"
+            },
+            "options": [
+              "お願いします",
+              "こんにちは",
+              "すみません",
+              "こんばんは"
+            ],
+            "prompt": "hola"
+          },
+          {
+            "answer": "おはようございます",
+            "answerTranslit": "ohayougozaimasu",
+            "concept": "c:saludos-y-expresiones.buenos-dias",
+            "optionTranslit": {
+              "いいえ": "iie",
+              "おはようございます": "ohayougozaimasu",
+              "さようなら": "sayounara",
+              "はい": "hai"
+            },
+            "options": [
+              "さようなら",
+              "はい",
+              "おはようございます",
+              "いいえ"
+            ],
+            "prompt": "buenos días"
+          },
+          {
+            "answer": "こんにちは",
+            "answerTranslit": "konnichiha",
+            "concept": "c:saludos-y-expresiones.buenas-tardes",
+            "optionTranslit": {
+              "お願いします": "o negai shimasu",
+              "こんにちは": "konnichiha",
+              "さようなら": "sayounara",
+              "はい": "hai"
+            },
+            "options": [
+              "さようなら",
+              "こんにちは",
+              "はい",
+              "お願いします"
+            ],
+            "prompt": "buenas tardes"
+          },
+          {
+            "answer": "こんばんは",
+            "answerTranslit": "konbanha",
+            "concept": "c:saludos-y-expresiones.buenas-noches",
+            "optionTranslit": {
+              "いいえ": "iie",
+              "こんばんは": "konbanha",
+              "はい": "hai",
+              "またね": "matane"
+            },
+            "options": [
+              "こんばんは",
+              "いいえ",
+              "はい",
+              "またね"
+            ],
+            "prompt": "buenas noches"
+          },
+          {
+            "answer": "ありがとう",
+            "answerTranslit": "arigatou",
+            "concept": "c:saludos-y-expresiones.gracias",
+            "optionTranslit": {
+              "ありがとう": "arigatou",
+              "こんにちは": "konnichiha",
+              "こんばんは": "konbanha",
+              "すみません": "sumimasen"
+            },
+            "options": [
+              "すみません",
+              "ありがとう",
+              "こんにちは",
+              "こんばんは"
+            ],
+            "prompt": "gracias"
+          },
+          {
+            "answer": "お願いします",
+            "answerTranslit": "o negai shimasu",
+            "concept": "c:saludos-y-expresiones.por-favor",
+            "optionTranslit": {
+              "おはようございます": "ohayougozaimasu",
+              "お願いします": "o negai shimasu",
+              "こんにちは": "konnichiha",
+              "こんばんは": "konbanha"
+            },
+            "options": [
+              "お願いします",
+              "こんばんは",
+              "おはようございます",
+              "こんにちは"
+            ],
+            "prompt": "por favor"
+          },
+          {
+            "answer": "すみません",
+            "answerTranslit": "sumimasen",
+            "concept": "c:saludos-y-expresiones.perdon-disculpe",
+            "optionTranslit": {
+              "ありがとう": "arigatou",
+              "こんにちは": "konnichiha",
+              "すみません": "sumimasen",
+              "はい": "hai"
+            },
+            "options": [
+              "はい",
+              "すみません",
+              "ありがとう",
+              "こんにちは"
+            ],
+            "prompt": "perdón / disculpe"
+          },
+          {
+            "answer": "さようなら",
+            "answerTranslit": "sayounara",
+            "concept": "c:saludos-y-expresiones.adios",
+            "optionTranslit": {
+              "ありがとう": "arigatou",
+              "いいえ": "iie",
+              "さようなら": "sayounara",
+              "またね": "matane"
+            },
+            "options": [
+              "さようなら",
+              "またね",
+              "ありがとう",
+              "いいえ"
+            ],
+            "prompt": "adiós"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Basic courtesy expressions to open and close a conversation.",
-      "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
-      "ja": "礼儀の基本的な表現は、会話を開閉します。"
+      "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
     },
     "generator": "build_lessons",
     "id": "ja-u1-l1",
@@ -110,10 +274,6 @@
       "es": [
         "Saludar y despedirse",
         "Dar las gracias y pedir por favor"
-      ],
-      "ja": [
-        "ご挨拶と挨拶",
-        "よろしくお願いします"
       ]
     },
     "tables": [
@@ -186,8 +346,7 @@
     ],
     "title": {
       "en": "Greetings and courtesy",
-      "es": "Saludos y cortesía",
-      "ja": "ご挨拶と礼儀"
+      "es": "Saludos y cortesía"
     },
     "unit": 1
   },
@@ -212,91 +371,256 @@
         "en": "city",
         "es": "ciudad",
         "ja": "市町村",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "shichouson"
       },
       {
         "concept": "c:ciudad-y-lugares.pueblo-aldea",
         "en": "village / town",
         "es": "pueblo / aldea",
         "ja": "村 / 都市",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "mura / toshi"
       },
       {
         "concept": "c:ciudad-y-lugares.pais",
         "en": "country",
         "es": "país",
         "ja": "カントリー",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kantorii"
       },
       {
         "concept": "c:ciudad-y-lugares.estado-provincia",
         "en": "State / province",
         "es": "estado / provincia",
         "ja": "州/地域",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "shuu / chiiki"
       },
       {
         "concept": "c:ciudad-y-lugares.capital",
         "en": "capital",
         "es": "capital",
         "ja": "資本金:",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "shihonkin :"
       },
       {
         "concept": "c:ciudad-y-lugares.zona-area",
         "en": "area / zone",
         "es": "zona / área",
         "ja": "区域/地帯",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "kuiki / chitai"
       },
       {
         "concept": "c:ciudad-y-lugares.calle-carretera",
         "en": "Street / road",
         "es": "calle / carretera",
         "ja": "通り/道",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "touri / michi"
       },
       {
         "concept": "c:ciudad-y-lugares.callejon",
         "en": "alley",
         "es": "callejón",
         "ja": "セイア",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "seia"
       },
       {
         "concept": "c:ciudad-y-lugares.cruce-interseccion",
         "en": "cross / intersection",
         "es": "cruce / intersección",
         "ja": "クロス/交差点",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kurosu / kousaten"
       },
       {
         "concept": "c:ciudad-y-lugares.puente",
         "en": "bridge",
         "es": "puente",
         "ja": "ブリッジ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "burijji"
       },
       {
         "concept": "c:ciudad-y-lugares.plaza",
         "en": "square",
         "es": "plaza",
         "ja": "スクエア",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "sukuea"
       },
       {
         "concept": "c:ciudad-y-lugares.mercado",
         "en": "market",
         "es": "mercado",
         "ja": "マーケット",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "maaketto"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "市町村",
+            "answerTranslit": "shichouson",
+            "concept": "c:ciudad-y-lugares.ciudad",
+            "optionTranslit": {
+              "カントリー": "kantorii",
+              "ブリッジ": "burijji",
+              "区域/地帯": "kuiki / chitai",
+              "市町村": "shichouson"
+            },
+            "options": [
+              "カントリー",
+              "区域/地帯",
+              "ブリッジ",
+              "市町村"
+            ],
+            "prompt": "ciudad"
+          },
+          {
+            "answer": "村 / 都市",
+            "answerTranslit": "mura / toshi",
+            "concept": "c:ciudad-y-lugares.pueblo-aldea",
+            "optionTranslit": {
+              "スクエア": "sukuea",
+              "ブリッジ": "burijji",
+              "村 / 都市": "mura / toshi",
+              "資本金:": "shihonkin :"
+            },
+            "options": [
+              "資本金:",
+              "村 / 都市",
+              "ブリッジ",
+              "スクエア"
+            ],
+            "prompt": "pueblo / aldea"
+          },
+          {
+            "answer": "カントリー",
+            "answerTranslit": "kantorii",
+            "concept": "c:ciudad-y-lugares.pais",
+            "optionTranslit": {
+              "カントリー": "kantorii",
+              "セイア": "seia",
+              "州/地域": "shuu / chiiki",
+              "通り/道": "touri / michi"
+            },
+            "options": [
+              "通り/道",
+              "カントリー",
+              "州/地域",
+              "セイア"
+            ],
+            "prompt": "país"
+          },
+          {
+            "answer": "州/地域",
+            "answerTranslit": "shuu / chiiki",
+            "concept": "c:ciudad-y-lugares.estado-provincia",
+            "optionTranslit": {
+              "クロス/交差点": "kurosu / kousaten",
+              "マーケット": "maaketto",
+              "州/地域": "shuu / chiiki",
+              "市町村": "shichouson"
+            },
+            "options": [
+              "マーケット",
+              "市町村",
+              "州/地域",
+              "クロス/交差点"
+            ],
+            "prompt": "estado / provincia"
+          },
+          {
+            "answer": "資本金:",
+            "answerTranslit": "shihonkin :",
+            "concept": "c:ciudad-y-lugares.capital",
+            "optionTranslit": {
+              "スクエア": "sukuea",
+              "ブリッジ": "burijji",
+              "州/地域": "shuu / chiiki",
+              "資本金:": "shihonkin :"
+            },
+            "options": [
+              "ブリッジ",
+              "州/地域",
+              "資本金:",
+              "スクエア"
+            ],
+            "prompt": "capital"
+          },
+          {
+            "answer": "区域/地帯",
+            "answerTranslit": "kuiki / chitai",
+            "concept": "c:ciudad-y-lugares.zona-area",
+            "optionTranslit": {
+              "カントリー": "kantorii",
+              "区域/地帯": "kuiki / chitai",
+              "州/地域": "shuu / chiiki",
+              "通り/道": "touri / michi"
+            },
+            "options": [
+              "通り/道",
+              "州/地域",
+              "カントリー",
+              "区域/地帯"
+            ],
+            "prompt": "zona / área"
+          },
+          {
+            "answer": "通り/道",
+            "answerTranslit": "touri / michi",
+            "concept": "c:ciudad-y-lugares.calle-carretera",
+            "optionTranslit": {
+              "カントリー": "kantorii",
+              "ブリッジ": "burijji",
+              "市町村": "shichouson",
+              "通り/道": "touri / michi"
+            },
+            "options": [
+              "カントリー",
+              "通り/道",
+              "市町村",
+              "ブリッジ"
+            ],
+            "prompt": "calle / carretera"
+          },
+          {
+            "answer": "セイア",
+            "answerTranslit": "seia",
+            "concept": "c:ciudad-y-lugares.callejon",
+            "optionTranslit": {
+              "スクエア": "sukuea",
+              "セイア": "seia",
+              "区域/地帯": "kuiki / chitai",
+              "通り/道": "touri / michi"
+            },
+            "options": [
+              "スクエア",
+              "区域/地帯",
+              "セイア",
+              "通り/道"
+            ],
+            "prompt": "callejón"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Places in the city to move around and ask for directions.",
-      "es": "Lugares de la ciudad para moverse y pedir indicaciones.",
-      "ja": "街中を舞台に、方向性を求めます。"
+      "es": "Lugares de la ciudad para moverse y pedir indicaciones."
     },
     "generator": "build_lessons",
     "id": "ja-u10-l1",
@@ -310,10 +634,6 @@
       "es": [
         "Nombrar lugares de la ciudad",
         "Pedir direcciones"
-      ],
-      "ja": [
-        "市街地名",
-        "アドレスを尋ねる"
       ]
     },
     "tables": [
@@ -391,8 +711,7 @@
     ],
     "title": {
       "en": "City and places",
-      "es": "La ciudad y los lugares",
-      "ja": "街と場所"
+      "es": "La ciudad y los lugares"
     },
     "unit": 10
   },
@@ -417,91 +736,256 @@
         "en": "clothing",
         "es": "ropa",
         "ja": "衣類の服",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "irui no fuku"
       },
       {
         "concept": "c:ropa-y-accesorios.camisa",
         "en": "shirt",
         "es": "camisa",
         "ja": "シャツ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "shatsu"
       },
       {
         "concept": "c:ropa-y-accesorios.camiseta",
         "en": "T-shirt",
         "es": "camiseta",
         "ja": "Tシャツ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "T shatsu"
       },
       {
         "concept": "c:ropa-y-accesorios.pantalon",
         "en": "Pants",
         "es": "pantalón",
         "ja": "パンツ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "pantsu"
       },
       {
         "concept": "c:ropa-y-accesorios.vaqueros-jeans",
         "en": "jeans / jans",
         "es": "vaqueros / jeans",
         "ja": "ジーンズ/ジャン",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "jiinzu / jan"
       },
       {
         "concept": "c:ropa-y-accesorios.pantalones-cortos",
         "en": "Short pants",
         "es": "pantalones cortos",
         "ja": "ショートパンツ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "shootopantsu"
       },
       {
         "concept": "c:ropa-y-accesorios.falda",
         "en": "skirt",
         "es": "falda",
         "ja": "スカート",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "sukaato"
       },
       {
         "concept": "c:ropa-y-accesorios.vestido",
         "en": "dress up",
         "es": "vestido",
         "ja": "ドレスアップ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "doresuappu"
       },
       {
         "concept": "c:ropa-y-accesorios.sari",
         "en": "sari",
         "es": "sari",
         "ja": "サーリ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "saari"
       },
       {
         "concept": "c:ropa-y-accesorios.salwar-kameez",
         "en": "salwar kameez",
         "es": "salwar kameez",
         "ja": "サルワー・カメエズ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "saruwaa・kameezu"
       },
       {
         "concept": "c:ropa-y-accesorios.kurta",
         "en": "kurta",
         "es": "kurta",
         "ja": "クリタ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kurita"
       },
       {
         "concept": "c:ropa-y-accesorios.pijama",
         "en": "pajamas",
         "es": "pijama",
         "ja": "パジャマ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "pajama"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "衣類の服",
+            "answerTranslit": "irui no fuku",
+            "concept": "c:ropa-y-accesorios.ropa",
+            "optionTranslit": {
+              "Tシャツ": "T shatsu",
+              "ジーンズ/ジャン": "jiinzu / jan",
+              "ドレスアップ": "doresuappu",
+              "衣類の服": "irui no fuku"
+            },
+            "options": [
+              "ジーンズ/ジャン",
+              "ドレスアップ",
+              "Tシャツ",
+              "衣類の服"
+            ],
+            "prompt": "ropa"
+          },
+          {
+            "answer": "シャツ",
+            "answerTranslit": "shatsu",
+            "concept": "c:ropa-y-accesorios.camisa",
+            "optionTranslit": {
+              "シャツ": "shatsu",
+              "ショートパンツ": "shootopantsu",
+              "ドレスアップ": "doresuappu",
+              "パジャマ": "pajama"
+            },
+            "options": [
+              "シャツ",
+              "ショートパンツ",
+              "パジャマ",
+              "ドレスアップ"
+            ],
+            "prompt": "camisa"
+          },
+          {
+            "answer": "Tシャツ",
+            "answerTranslit": "T shatsu",
+            "concept": "c:ropa-y-accesorios.camiseta",
+            "optionTranslit": {
+              "Tシャツ": "T shatsu",
+              "クリタ": "kurita",
+              "ドレスアップ": "doresuappu",
+              "パジャマ": "pajama"
+            },
+            "options": [
+              "Tシャツ",
+              "パジャマ",
+              "ドレスアップ",
+              "クリタ"
+            ],
+            "prompt": "camiseta"
+          },
+          {
+            "answer": "パンツ",
+            "answerTranslit": "pantsu",
+            "concept": "c:ropa-y-accesorios.pantalon",
+            "optionTranslit": {
+              "サルワー・カメエズ": "saruwaa・kameezu",
+              "パジャマ": "pajama",
+              "パンツ": "pantsu",
+              "衣類の服": "irui no fuku"
+            },
+            "options": [
+              "衣類の服",
+              "パンツ",
+              "パジャマ",
+              "サルワー・カメエズ"
+            ],
+            "prompt": "pantalón"
+          },
+          {
+            "answer": "ジーンズ/ジャン",
+            "answerTranslit": "jiinzu / jan",
+            "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+            "optionTranslit": {
+              "Tシャツ": "T shatsu",
+              "サーリ": "saari",
+              "ジーンズ/ジャン": "jiinzu / jan",
+              "スカート": "sukaato"
+            },
+            "options": [
+              "サーリ",
+              "Tシャツ",
+              "ジーンズ/ジャン",
+              "スカート"
+            ],
+            "prompt": "vaqueros / jeans"
+          },
+          {
+            "answer": "ショートパンツ",
+            "answerTranslit": "shootopantsu",
+            "concept": "c:ropa-y-accesorios.pantalones-cortos",
+            "optionTranslit": {
+              "Tシャツ": "T shatsu",
+              "クリタ": "kurita",
+              "ショートパンツ": "shootopantsu",
+              "パンツ": "pantsu"
+            },
+            "options": [
+              "Tシャツ",
+              "ショートパンツ",
+              "パンツ",
+              "クリタ"
+            ],
+            "prompt": "pantalones cortos"
+          },
+          {
+            "answer": "スカート",
+            "answerTranslit": "sukaato",
+            "concept": "c:ropa-y-accesorios.falda",
+            "optionTranslit": {
+              "サーリ": "saari",
+              "スカート": "sukaato",
+              "ドレスアップ": "doresuappu",
+              "衣類の服": "irui no fuku"
+            },
+            "options": [
+              "スカート",
+              "ドレスアップ",
+              "サーリ",
+              "衣類の服"
+            ],
+            "prompt": "falda"
+          },
+          {
+            "answer": "ドレスアップ",
+            "answerTranslit": "doresuappu",
+            "concept": "c:ropa-y-accesorios.vestido",
+            "optionTranslit": {
+              "ドレスアップ": "doresuappu",
+              "パジャマ": "pajama",
+              "パンツ": "pantsu",
+              "衣類の服": "irui no fuku"
+            },
+            "options": [
+              "衣類の服",
+              "ドレスアップ",
+              "パジャマ",
+              "パンツ"
+            ],
+            "prompt": "vestido"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Clothes and accessories, with words useful for clothes shopping.",
-      "es": "Prendas y accesorios, con palabras útiles para comprar ropa.",
-      "ja": "ペンやアクセサリー、着替えを買うための便利な言葉。"
+      "es": "Prendas y accesorios, con palabras útiles para comprar ropa."
     },
     "generator": "build_lessons",
     "id": "ja-u11-l1",
@@ -515,10 +999,6 @@
       "es": [
         "Nombrar prendas de ropa",
         "Ir de compras"
-      ],
-      "ja": [
-        "服を着る",
-        "ショッピング"
       ]
     },
     "tables": [
@@ -596,8 +1076,7 @@
     ],
     "title": {
       "en": "Clothing and accessories",
-      "es": "La ropa y los accesorios",
-      "ja": "衣類および付属品"
+      "es": "La ropa y los accesorios"
     },
     "unit": 11
   },
@@ -622,91 +1101,256 @@
         "en": "work /",
         "es": "trabajo / labor",
         "ja": "作品 /",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "sakuhin /"
       },
       {
         "concept": "c:trabajo-y-profesiones.empleo-trabajo",
         "en": "employment / work",
         "es": "empleo / trabajo",
         "ja": "雇用・仕事",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "koyou ・ shigoto"
       },
       {
         "concept": "c:trabajo-y-profesiones.profesion-oficio",
         "en": "profession / trade",
         "es": "profesión / oficio",
         "ja": "職業/貿易",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "shokugyou / boueki"
       },
       {
         "concept": "c:trabajo-y-profesiones.negocio-profesion",
         "en": "business / profession",
         "es": "negocio / profesión",
         "ja": "業務・職業",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "gyoumu ・ shokugyou"
       },
       {
         "concept": "c:trabajo-y-profesiones.empresa-compania",
         "en": "company / enterprise",
         "es": "empresa / compañía",
         "ja": "会社/企業",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kaisha / kigyou"
       },
       {
         "concept": "c:trabajo-y-profesiones.oficina",
         "en": "office",
         "es": "oficina",
         "ja": "事務所案内",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "jimusho annai"
       },
       {
         "concept": "c:trabajo-y-profesiones.oficina-despacho",
         "en": "office /",
         "es": "oficina / despacho",
         "ja": "事務所 /",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "jimusho /"
       },
       {
         "concept": "c:trabajo-y-profesiones.dueno-propietario",
         "en": "owner / proprietor",
         "es": "dueño / propietario",
         "ja": "オーナー/プロピュータ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "oonaa / puropyuuta"
       },
       {
         "concept": "c:trabajo-y-profesiones.jefe-a",
         "en": "Chief",
         "es": "jefe/a",
         "ja": "チーフ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "chiifu"
       },
       {
         "concept": "c:trabajo-y-profesiones.empleado-a",
         "en": "employee",
         "es": "empleado/a",
         "ja": "社員雇用",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "shain koyou"
       },
       {
         "concept": "c:trabajo-y-profesiones.colega",
         "en": "- I'm sorry, buddy.",
         "es": "colega",
         "ja": "- 申し訳ありません、このコンテンツはただ今 アメリカ英語 のみです。",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "- moushiwake arimasen , kono kontentsu hatada ima amerika eigo nomidesu ."
       },
       {
         "concept": "c:trabajo-y-profesiones.equipo",
         "en": "equipment",
         "es": "equipo",
         "ja": "設備機器",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "setsubi kiki"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "作品 /",
+            "answerTranslit": "sakuhin /",
+            "concept": "c:trabajo-y-profesiones.trabajo-labor",
+            "optionTranslit": {
+              "事務所 /": "jimusho /",
+              "作品 /": "sakuhin /",
+              "社員雇用": "shain koyou",
+              "設備機器": "setsubi kiki"
+            },
+            "options": [
+              "事務所 /",
+              "社員雇用",
+              "作品 /",
+              "設備機器"
+            ],
+            "prompt": "trabajo / labor"
+          },
+          {
+            "answer": "雇用・仕事",
+            "answerTranslit": "koyou ・ shigoto",
+            "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+            "optionTranslit": {
+              "事務所案内": "jimusho annai",
+              "会社/企業": "kaisha / kigyou",
+              "社員雇用": "shain koyou",
+              "雇用・仕事": "koyou ・ shigoto"
+            },
+            "options": [
+              "雇用・仕事",
+              "社員雇用",
+              "事務所案内",
+              "会社/企業"
+            ],
+            "prompt": "empleo / trabajo"
+          },
+          {
+            "answer": "職業/貿易",
+            "answerTranslit": "shokugyou / boueki",
+            "concept": "c:trabajo-y-profesiones.profesion-oficio",
+            "optionTranslit": {
+              "事務所案内": "jimusho annai",
+              "作品 /": "sakuhin /",
+              "社員雇用": "shain koyou",
+              "職業/貿易": "shokugyou / boueki"
+            },
+            "options": [
+              "職業/貿易",
+              "作品 /",
+              "事務所案内",
+              "社員雇用"
+            ],
+            "prompt": "profesión / oficio"
+          },
+          {
+            "answer": "業務・職業",
+            "answerTranslit": "gyoumu ・ shokugyou",
+            "concept": "c:trabajo-y-profesiones.negocio-profesion",
+            "optionTranslit": {
+              "チーフ": "chiifu",
+              "作品 /": "sakuhin /",
+              "業務・職業": "gyoumu ・ shokugyou",
+              "社員雇用": "shain koyou"
+            },
+            "options": [
+              "作品 /",
+              "チーフ",
+              "社員雇用",
+              "業務・職業"
+            ],
+            "prompt": "negocio / profesión"
+          },
+          {
+            "answer": "会社/企業",
+            "answerTranslit": "kaisha / kigyou",
+            "concept": "c:trabajo-y-profesiones.empresa-compania",
+            "optionTranslit": {
+              "オーナー/プロピュータ": "oonaa / puropyuuta",
+              "会社/企業": "kaisha / kigyou",
+              "作品 /": "sakuhin /",
+              "業務・職業": "gyoumu ・ shokugyou"
+            },
+            "options": [
+              "会社/企業",
+              "業務・職業",
+              "オーナー/プロピュータ",
+              "作品 /"
+            ],
+            "prompt": "empresa / compañía"
+          },
+          {
+            "answer": "事務所案内",
+            "answerTranslit": "jimusho annai",
+            "concept": "c:trabajo-y-profesiones.oficina",
+            "optionTranslit": {
+              "オーナー/プロピュータ": "oonaa / puropyuuta",
+              "事務所 /": "jimusho /",
+              "事務所案内": "jimusho annai",
+              "設備機器": "setsubi kiki"
+            },
+            "options": [
+              "オーナー/プロピュータ",
+              "事務所案内",
+              "設備機器",
+              "事務所 /"
+            ],
+            "prompt": "oficina"
+          },
+          {
+            "answer": "事務所 /",
+            "answerTranslit": "jimusho /",
+            "concept": "c:trabajo-y-profesiones.oficina-despacho",
+            "optionTranslit": {
+              "事務所 /": "jimusho /",
+              "事務所案内": "jimusho annai",
+              "作品 /": "sakuhin /",
+              "雇用・仕事": "koyou ・ shigoto"
+            },
+            "options": [
+              "雇用・仕事",
+              "事務所 /",
+              "作品 /",
+              "事務所案内"
+            ],
+            "prompt": "oficina / despacho"
+          },
+          {
+            "answer": "オーナー/プロピュータ",
+            "answerTranslit": "oonaa / puropyuuta",
+            "concept": "c:trabajo-y-profesiones.dueno-propietario",
+            "optionTranslit": {
+              "オーナー/プロピュータ": "oonaa / puropyuuta",
+              "事務所案内": "jimusho annai",
+              "社員雇用": "shain koyou",
+              "職業/貿易": "shokugyou / boueki"
+            },
+            "options": [
+              "職業/貿易",
+              "事務所案内",
+              "オーナー/プロピュータ",
+              "社員雇用"
+            ],
+            "prompt": "dueño / propietario"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Professions and words from the world of work.",
-      "es": "Profesiones y palabras del mundo laboral.",
-      "ja": "世界の働き方と言葉を問いかけます。"
+      "es": "Profesiones y palabras del mundo laboral."
     },
     "generator": "build_lessons",
     "id": "ja-u12-l1",
@@ -720,10 +1364,6 @@
       "es": [
         "Nombrar profesiones",
         "Hablar del trabajo"
-      ],
-      "ja": [
-        "視点の職業",
-        "作品について"
       ]
     },
     "tables": [
@@ -801,10 +1441,2564 @@
     ],
     "title": {
       "en": "Work and professions",
-      "es": "El trabajo y las profesiones",
-      "ja": "働きと職業"
+      "es": "El trabajo y las profesiones"
     },
     "unit": 12
+  },
+  {
+    "concepts": [
+      "c:verbos-comunes.ser-estar-haber",
+      "c:verbos-comunes.hacer",
+      "c:verbos-comunes.ir",
+      "c:verbos-comunes.venir",
+      "c:verbos-comunes.ver-mirar",
+      "c:verbos-comunes.oir-escuchar",
+      "c:verbos-comunes.hablar-decir",
+      "c:verbos-comunes.decir",
+      "c:verbos-comunes.preguntar",
+      "c:verbos-comunes.contar-explicar",
+      "c:verbos-comunes.entender-comprender",
+      "c:verbos-comunes.saber-conocer"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:verbos-comunes.ser-estar-haber",
+        "en": "be / are",
+        "es": "ser / estar / haber",
+        "ja": "は /",
+        "speaker": "A",
+        "translit": "ha /"
+      },
+      {
+        "concept": "c:verbos-comunes.hacer",
+        "en": "do",
+        "es": "hacer",
+        "ja": "やる",
+        "speaker": "B",
+        "translit": "yaru"
+      },
+      {
+        "concept": "c:verbos-comunes.ir",
+        "en": "go",
+        "es": "ir",
+        "ja": "ふりがな",
+        "speaker": "A",
+        "translit": "furigana"
+      },
+      {
+        "concept": "c:verbos-comunes.venir",
+        "en": "Come",
+        "es": "venir",
+        "ja": "おすすめ",
+        "speaker": "B",
+        "translit": "osusume"
+      },
+      {
+        "concept": "c:verbos-comunes.ver-mirar",
+        "en": "see / watch",
+        "es": "ver / mirar",
+        "ja": "見る / watch",
+        "speaker": "A",
+        "translit": "miru / watch"
+      },
+      {
+        "concept": "c:verbos-comunes.oir-escuchar",
+        "en": "hear / listen",
+        "es": "oír / escuchar",
+        "ja": "聴く/聞く",
+        "speaker": "B",
+        "translit": "kiku / kiku"
+      },
+      {
+        "concept": "c:verbos-comunes.hablar-decir",
+        "en": "speak / say",
+        "es": "hablar / decir",
+        "ja": "話す/言う",
+        "speaker": "A",
+        "translit": "hanasu / iu"
+      },
+      {
+        "concept": "c:verbos-comunes.decir",
+        "en": "say",
+        "es": "decir",
+        "ja": "言う",
+        "speaker": "B",
+        "translit": "iu"
+      },
+      {
+        "concept": "c:verbos-comunes.preguntar",
+        "en": "ask",
+        "es": "preguntar",
+        "ja": "リクエスト",
+        "speaker": "A",
+        "translit": "rikuesuto"
+      },
+      {
+        "concept": "c:verbos-comunes.contar-explicar",
+        "en": "count / explain",
+        "es": "contar / explicar",
+        "ja": "カウント/説明",
+        "speaker": "B",
+        "translit": "kaunto / setsumei"
+      },
+      {
+        "concept": "c:verbos-comunes.entender-comprender",
+        "en": "understand / comprehend",
+        "es": "entender / comprender",
+        "ja": "理解/補完",
+        "speaker": "A",
+        "translit": "rikai / hokan"
+      },
+      {
+        "concept": "c:verbos-comunes.saber-conocer",
+        "en": "know / understand",
+        "es": "saber / conocer",
+        "ja": "知る・理解する",
+        "speaker": "B",
+        "translit": "shiru ・ rikai suru"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "は /",
+            "answerTranslit": "ha /",
+            "concept": "c:verbos-comunes.ser-estar-haber",
+            "optionTranslit": {
+              "おすすめ": "osusume",
+              "は /": "ha /",
+              "リクエスト": "rikuesuto",
+              "見る / watch": "miru / watch"
+            },
+            "options": [
+              "は /",
+              "見る / watch",
+              "おすすめ",
+              "リクエスト"
+            ],
+            "prompt": "ser / estar / haber"
+          },
+          {
+            "answer": "やる",
+            "answerTranslit": "yaru",
+            "concept": "c:verbos-comunes.hacer",
+            "optionTranslit": {
+              "やる": "yaru",
+              "カウント/説明": "kaunto / setsumei",
+              "見る / watch": "miru / watch",
+              "言う": "iu"
+            },
+            "options": [
+              "見る / watch",
+              "やる",
+              "カウント/説明",
+              "言う"
+            ],
+            "prompt": "hacer"
+          },
+          {
+            "answer": "ふりがな",
+            "answerTranslit": "furigana",
+            "concept": "c:verbos-comunes.ir",
+            "optionTranslit": {
+              "おすすめ": "osusume",
+              "は /": "ha /",
+              "ふりがな": "furigana",
+              "理解/補完": "rikai / hokan"
+            },
+            "options": [
+              "ふりがな",
+              "は /",
+              "理解/補完",
+              "おすすめ"
+            ],
+            "prompt": "ir"
+          },
+          {
+            "answer": "おすすめ",
+            "answerTranslit": "osusume",
+            "concept": "c:verbos-comunes.venir",
+            "optionTranslit": {
+              "おすすめ": "osusume",
+              "理解/補完": "rikai / hokan",
+              "見る / watch": "miru / watch",
+              "言う": "iu"
+            },
+            "options": [
+              "言う",
+              "おすすめ",
+              "理解/補完",
+              "見る / watch"
+            ],
+            "prompt": "venir"
+          },
+          {
+            "answer": "見る / watch",
+            "answerTranslit": "miru / watch",
+            "concept": "c:verbos-comunes.ver-mirar",
+            "optionTranslit": {
+              "ふりがな": "furigana",
+              "知る・理解する": "shiru ・ rikai suru",
+              "見る / watch": "miru / watch",
+              "話す/言う": "hanasu / iu"
+            },
+            "options": [
+              "見る / watch",
+              "話す/言う",
+              "知る・理解する",
+              "ふりがな"
+            ],
+            "prompt": "ver / mirar"
+          },
+          {
+            "answer": "聴く/聞く",
+            "answerTranslit": "kiku / kiku",
+            "concept": "c:verbos-comunes.oir-escuchar",
+            "optionTranslit": {
+              "カウント/説明": "kaunto / setsumei",
+              "リクエスト": "rikuesuto",
+              "理解/補完": "rikai / hokan",
+              "聴く/聞く": "kiku / kiku"
+            },
+            "options": [
+              "聴く/聞く",
+              "リクエスト",
+              "カウント/説明",
+              "理解/補完"
+            ],
+            "prompt": "oír / escuchar"
+          },
+          {
+            "answer": "話す/言う",
+            "answerTranslit": "hanasu / iu",
+            "concept": "c:verbos-comunes.hablar-decir",
+            "optionTranslit": {
+              "は /": "ha /",
+              "理解/補完": "rikai / hokan",
+              "知る・理解する": "shiru ・ rikai suru",
+              "話す/言う": "hanasu / iu"
+            },
+            "options": [
+              "理解/補完",
+              "話す/言う",
+              "は /",
+              "知る・理解する"
+            ],
+            "prompt": "hablar / decir"
+          },
+          {
+            "answer": "言う",
+            "answerTranslit": "iu",
+            "concept": "c:verbos-comunes.decir",
+            "optionTranslit": {
+              "ふりがな": "furigana",
+              "やる": "yaru",
+              "見る / watch": "miru / watch",
+              "言う": "iu"
+            },
+            "options": [
+              "ふりがな",
+              "やる",
+              "見る / watch",
+              "言う"
+            ],
+            "prompt": "decir"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "The most frequent verbs, the base for building sentences.",
+      "es": "Los verbos más frecuentes, la base para formar frases."
+    },
+    "generator": "build_lessons",
+    "id": "ja-u13-l1",
+    "lang": "ja",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Recognise the most common verbs",
+        "Name everyday actions"
+      ],
+      "es": [
+        "Reconocer los verbos más usados",
+        "Nombrar acciones del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ja"
+        ],
+        "rows": [
+          [
+            "ser / estar / haber",
+            "be / are",
+            "は /"
+          ],
+          [
+            "hacer",
+            "do",
+            "やる"
+          ],
+          [
+            "ir",
+            "go",
+            "ふりがな"
+          ],
+          [
+            "venir",
+            "Come",
+            "おすすめ"
+          ],
+          [
+            "ver / mirar",
+            "see / watch",
+            "見る / watch"
+          ],
+          [
+            "oír / escuchar",
+            "hear / listen",
+            "聴く/聞く"
+          ],
+          [
+            "hablar / decir",
+            "speak / say",
+            "話す/言う"
+          ],
+          [
+            "decir",
+            "say",
+            "言う"
+          ],
+          [
+            "preguntar",
+            "ask",
+            "リクエスト"
+          ],
+          [
+            "contar / explicar",
+            "count / explain",
+            "カウント/説明"
+          ],
+          [
+            "entender / comprender",
+            "understand / comprehend",
+            "理解/補完"
+          ],
+          [
+            "saber / conocer",
+            "know / understand",
+            "知る・理解する"
+          ]
+        ],
+        "title": "es · en · ja",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Common verbs",
+      "es": "Los verbos comunes"
+    },
+    "unit": 13
+  },
+  {
+    "concepts": [
+      "c:adjetivos.bueno",
+      "c:adjetivos.malo",
+      "c:adjetivos.grande",
+      "c:adjetivos.pequeno",
+      "c:adjetivos.largo-alto",
+      "c:adjetivos.bajo-corto",
+      "c:adjetivos.nuevo",
+      "c:adjetivos.viejo-antiguo",
+      "c:adjetivos.joven",
+      "c:adjetivos.viejo-persona",
+      "c:adjetivos.hermoso-bonito",
+      "c:adjetivos.feo"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:adjetivos.bueno",
+        "en": "Good.",
+        "es": "bueno",
+        "ja": "おすすめ",
+        "speaker": "A",
+        "translit": "osusume"
+      },
+      {
+        "concept": "c:adjetivos.malo",
+        "en": "bad",
+        "es": "malo",
+        "ja": "悪玉",
+        "speaker": "B",
+        "translit": "warudama"
+      },
+      {
+        "concept": "c:adjetivos.grande",
+        "en": "large",
+        "es": "grande",
+        "ja": "大きいです",
+        "speaker": "A",
+        "translit": "ookii desu"
+      },
+      {
+        "concept": "c:adjetivos.pequeno",
+        "en": "small",
+        "es": "pequeño",
+        "ja": "小さな小さめ",
+        "speaker": "B",
+        "translit": "chiisa na chiisa me"
+      },
+      {
+        "concept": "c:adjetivos.largo-alto",
+        "en": "long / high",
+        "es": "largo / alto",
+        "ja": "長く/高く",
+        "speaker": "A",
+        "translit": "nagaku / takaku"
+      },
+      {
+        "concept": "c:adjetivos.bajo-corto",
+        "en": "low / short",
+        "es": "bajo / corto",
+        "ja": "低い/不足分",
+        "speaker": "B",
+        "translit": "hikui / fusokubun"
+      },
+      {
+        "concept": "c:adjetivos.nuevo",
+        "en": "new",
+        "es": "nuevo",
+        "ja": "新規登録",
+        "speaker": "A",
+        "translit": "shinkitouroku"
+      },
+      {
+        "concept": "c:adjetivos.viejo-antiguo",
+        "en": "old / ancient",
+        "es": "viejo / antiguo",
+        "ja": "古い/古代",
+        "speaker": "B",
+        "translit": "furui / kodai"
+      },
+      {
+        "concept": "c:adjetivos.joven",
+        "en": "young",
+        "es": "joven",
+        "ja": "若い",
+        "speaker": "A",
+        "translit": "wakai"
+      },
+      {
+        "concept": "c:adjetivos.viejo-persona",
+        "en": "old (person)",
+        "es": "viejo (persona)",
+        "ja": "古い (人)",
+        "speaker": "B",
+        "translit": "furui ( nin )"
+      },
+      {
+        "concept": "c:adjetivos.hermoso-bonito",
+        "en": "beautiful / pretty",
+        "es": "hermoso / bonito",
+        "ja": "美しい / かわいい",
+        "speaker": "A",
+        "translit": "utsukushii / kawaii"
+      },
+      {
+        "concept": "c:adjetivos.feo",
+        "en": "ugly",
+        "es": "feo",
+        "ja": "醜い",
+        "speaker": "B",
+        "translit": "minikui"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "おすすめ",
+            "answerTranslit": "osusume",
+            "concept": "c:adjetivos.bueno",
+            "optionTranslit": {
+              "おすすめ": "osusume",
+              "低い/不足分": "hikui / fusokubun",
+              "新規登録": "shinkitouroku",
+              "若い": "wakai"
+            },
+            "options": [
+              "若い",
+              "新規登録",
+              "低い/不足分",
+              "おすすめ"
+            ],
+            "prompt": "bueno"
+          },
+          {
+            "answer": "悪玉",
+            "answerTranslit": "warudama",
+            "concept": "c:adjetivos.malo",
+            "optionTranslit": {
+              "低い/不足分": "hikui / fusokubun",
+              "小さな小さめ": "chiisa na chiisa me",
+              "悪玉": "warudama",
+              "新規登録": "shinkitouroku"
+            },
+            "options": [
+              "小さな小さめ",
+              "低い/不足分",
+              "悪玉",
+              "新規登録"
+            ],
+            "prompt": "malo"
+          },
+          {
+            "answer": "大きいです",
+            "answerTranslit": "ookii desu",
+            "concept": "c:adjetivos.grande",
+            "optionTranslit": {
+              "おすすめ": "osusume",
+              "大きいです": "ookii desu",
+              "悪玉": "warudama",
+              "長く/高く": "nagaku / takaku"
+            },
+            "options": [
+              "長く/高く",
+              "おすすめ",
+              "悪玉",
+              "大きいです"
+            ],
+            "prompt": "grande"
+          },
+          {
+            "answer": "小さな小さめ",
+            "answerTranslit": "chiisa na chiisa me",
+            "concept": "c:adjetivos.pequeno",
+            "optionTranslit": {
+              "古い (人)": "furui ( nin )",
+              "小さな小さめ": "chiisa na chiisa me",
+              "悪玉": "warudama",
+              "新規登録": "shinkitouroku"
+            },
+            "options": [
+              "悪玉",
+              "小さな小さめ",
+              "新規登録",
+              "古い (人)"
+            ],
+            "prompt": "pequeño"
+          },
+          {
+            "answer": "長く/高く",
+            "answerTranslit": "nagaku / takaku",
+            "concept": "c:adjetivos.largo-alto",
+            "optionTranslit": {
+              "おすすめ": "osusume",
+              "美しい / かわいい": "utsukushii / kawaii",
+              "若い": "wakai",
+              "長く/高く": "nagaku / takaku"
+            },
+            "options": [
+              "長く/高く",
+              "おすすめ",
+              "若い",
+              "美しい / かわいい"
+            ],
+            "prompt": "largo / alto"
+          },
+          {
+            "answer": "低い/不足分",
+            "answerTranslit": "hikui / fusokubun",
+            "concept": "c:adjetivos.bajo-corto",
+            "optionTranslit": {
+              "低い/不足分": "hikui / fusokubun",
+              "古い/古代": "furui / kodai",
+              "大きいです": "ookii desu",
+              "長く/高く": "nagaku / takaku"
+            },
+            "options": [
+              "大きいです",
+              "長く/高く",
+              "低い/不足分",
+              "古い/古代"
+            ],
+            "prompt": "bajo / corto"
+          },
+          {
+            "answer": "新規登録",
+            "answerTranslit": "shinkitouroku",
+            "concept": "c:adjetivos.nuevo",
+            "optionTranslit": {
+              "低い/不足分": "hikui / fusokubun",
+              "古い (人)": "furui ( nin )",
+              "新規登録": "shinkitouroku",
+              "醜い": "minikui"
+            },
+            "options": [
+              "古い (人)",
+              "新規登録",
+              "醜い",
+              "低い/不足分"
+            ],
+            "prompt": "nuevo"
+          },
+          {
+            "answer": "古い/古代",
+            "answerTranslit": "furui / kodai",
+            "concept": "c:adjetivos.viejo-antiguo",
+            "optionTranslit": {
+              "古い/古代": "furui / kodai",
+              "悪玉": "warudama",
+              "美しい / かわいい": "utsukushii / kawaii",
+              "若い": "wakai"
+            },
+            "options": [
+              "悪玉",
+              "若い",
+              "古い/古代",
+              "美しい / かわいい"
+            ],
+            "prompt": "viejo / antiguo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Adjectives to describe size, character, state and qualities.",
+      "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+    },
+    "generator": "build_lessons",
+    "id": "ja-u14-l1",
+    "lang": "ja",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Describe with adjectives",
+        "Give opinions about things and people"
+      ],
+      "es": [
+        "Describir con adjetivos",
+        "Opinar sobre cosas y personas"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ja"
+        ],
+        "rows": [
+          [
+            "bueno",
+            "Good.",
+            "おすすめ"
+          ],
+          [
+            "malo",
+            "bad",
+            "悪玉"
+          ],
+          [
+            "grande",
+            "large",
+            "大きいです"
+          ],
+          [
+            "pequeño",
+            "small",
+            "小さな小さめ"
+          ],
+          [
+            "largo / alto",
+            "long / high",
+            "長く/高く"
+          ],
+          [
+            "bajo / corto",
+            "low / short",
+            "低い/不足分"
+          ],
+          [
+            "nuevo",
+            "new",
+            "新規登録"
+          ],
+          [
+            "viejo / antiguo",
+            "old / ancient",
+            "古い/古代"
+          ],
+          [
+            "joven",
+            "young",
+            "若い"
+          ],
+          [
+            "viejo (persona)",
+            "old (person)",
+            "古い (人)"
+          ],
+          [
+            "hermoso / bonito",
+            "beautiful / pretty",
+            "美しい / かわいい"
+          ],
+          [
+            "feo",
+            "ugly",
+            "醜い"
+          ]
+        ],
+        "title": "es · en · ja",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Adjectives",
+      "es": "Los adjetivos"
+    },
+    "unit": 14
+  },
+  {
+    "concepts": [
+      "c:viajes-compras-y-servicios.compras-ir-de-compras",
+      "c:viajes-compras-y-servicios.tienda",
+      "c:viajes-compras-y-servicios.mercado",
+      "c:viajes-compras-y-servicios.supermercado",
+      "c:viajes-compras-y-servicios.centro-comercial",
+      "c:viajes-compras-y-servicios.vendedor-tendero",
+      "c:viajes-compras-y-servicios.cliente-comprador",
+      "c:viajes-compras-y-servicios.precio",
+      "c:viajes-compras-y-servicios.dinero",
+      "c:viajes-compras-y-servicios.rupia-india-inr",
+      "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+      "c:viajes-compras-y-servicios.tarjeta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+        "en": "shopping / going for purchases",
+        "es": "compras / ir de compras",
+        "ja": "ショッピング/購入に行く",
+        "speaker": "A",
+        "translit": "shoppingu / kounyuu ni iku"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tienda",
+        "en": "shop",
+        "es": "tienda",
+        "ja": "ショップ",
+        "speaker": "B",
+        "translit": "shoppu"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.mercado",
+        "en": "market",
+        "es": "mercado",
+        "ja": "マーケット",
+        "speaker": "A",
+        "translit": "maaketto"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.supermercado",
+        "en": "supermarket",
+        "es": "supermercado",
+        "ja": "スーパーマーケット",
+        "speaker": "B",
+        "translit": "suupaamaaketto"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.centro-comercial",
+        "en": "shopping centre",
+        "es": "centro comercial",
+        "ja": "ショッピングセンター",
+        "speaker": "A",
+        "translit": "shoppingusentaa"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+        "en": "seller / tenderer",
+        "es": "vendedor / tendero",
+        "ja": "売り手/入札者",
+        "speaker": "B",
+        "translit": "urite / nyuusatsu mono"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+        "en": "customer / buyer",
+        "es": "cliente / comprador",
+        "ja": "顧客/バイヤー",
+        "speaker": "A",
+        "translit": "kokyaku / baiyaa"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.precio",
+        "en": "price",
+        "es": "precio",
+        "ja": "注文価格",
+        "speaker": "B",
+        "translit": "chuumon kakaku"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.dinero",
+        "en": "money",
+        "es": "dinero",
+        "ja": "お金の",
+        "speaker": "A",
+        "translit": "o kin no"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.rupia-india-inr",
+        "en": "Indian rupee (INR)",
+        "es": "rupia india (INR)",
+        "ja": "インドルピー (INR)",
+        "speaker": "B",
+        "translit": "indorupii (INR )"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+        "en": "cash / money in the form of",
+        "es": "efectivo / dinero en efectivo",
+        "ja": "現金/金銭の形態で",
+        "speaker": "A",
+        "translit": "genkin / kinsen no keitai de"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tarjeta",
+        "en": "card",
+        "es": "tarjeta",
+        "ja": "チケット",
+        "speaker": "B",
+        "translit": "chiketto"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "ショッピング/購入に行く",
+            "answerTranslit": "shoppingu / kounyuu ni iku",
+            "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+            "optionTranslit": {
+              "ショッピング/購入に行く": "shoppingu / kounyuu ni iku",
+              "ショッピングセンター": "shoppingusentaa",
+              "スーパーマーケット": "suupaamaaketto",
+              "顧客/バイヤー": "kokyaku / baiyaa"
+            },
+            "options": [
+              "スーパーマーケット",
+              "顧客/バイヤー",
+              "ショッピング/購入に行く",
+              "ショッピングセンター"
+            ],
+            "prompt": "compras / ir de compras"
+          },
+          {
+            "answer": "ショップ",
+            "answerTranslit": "shoppu",
+            "concept": "c:viajes-compras-y-servicios.tienda",
+            "optionTranslit": {
+              "ショップ": "shoppu",
+              "チケット": "chiketto",
+              "売り手/入札者": "urite / nyuusatsu mono",
+              "現金/金銭の形態で": "genkin / kinsen no keitai de"
+            },
+            "options": [
+              "売り手/入札者",
+              "ショップ",
+              "チケット",
+              "現金/金銭の形態で"
+            ],
+            "prompt": "tienda"
+          },
+          {
+            "answer": "マーケット",
+            "answerTranslit": "maaketto",
+            "concept": "c:viajes-compras-y-servicios.mercado",
+            "optionTranslit": {
+              "インドルピー (INR)": "indorupii (INR )",
+              "ショップ": "shoppu",
+              "チケット": "chiketto",
+              "マーケット": "maaketto"
+            },
+            "options": [
+              "インドルピー (INR)",
+              "ショップ",
+              "マーケット",
+              "チケット"
+            ],
+            "prompt": "mercado"
+          },
+          {
+            "answer": "スーパーマーケット",
+            "answerTranslit": "suupaamaaketto",
+            "concept": "c:viajes-compras-y-servicios.supermercado",
+            "optionTranslit": {
+              "インドルピー (INR)": "indorupii (INR )",
+              "ショップ": "shoppu",
+              "スーパーマーケット": "suupaamaaketto",
+              "注文価格": "chuumon kakaku"
+            },
+            "options": [
+              "インドルピー (INR)",
+              "注文価格",
+              "ショップ",
+              "スーパーマーケット"
+            ],
+            "prompt": "supermercado"
+          },
+          {
+            "answer": "ショッピングセンター",
+            "answerTranslit": "shoppingusentaa",
+            "concept": "c:viajes-compras-y-servicios.centro-comercial",
+            "optionTranslit": {
+              "ショッピングセンター": "shoppingusentaa",
+              "スーパーマーケット": "suupaamaaketto",
+              "マーケット": "maaketto",
+              "売り手/入札者": "urite / nyuusatsu mono"
+            },
+            "options": [
+              "スーパーマーケット",
+              "売り手/入札者",
+              "ショッピングセンター",
+              "マーケット"
+            ],
+            "prompt": "centro comercial"
+          },
+          {
+            "answer": "売り手/入札者",
+            "answerTranslit": "urite / nyuusatsu mono",
+            "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+            "optionTranslit": {
+              "インドルピー (INR)": "indorupii (INR )",
+              "ショッピング/購入に行く": "shoppingu / kounyuu ni iku",
+              "スーパーマーケット": "suupaamaaketto",
+              "売り手/入札者": "urite / nyuusatsu mono"
+            },
+            "options": [
+              "ショッピング/購入に行く",
+              "インドルピー (INR)",
+              "売り手/入札者",
+              "スーパーマーケット"
+            ],
+            "prompt": "vendedor / tendero"
+          },
+          {
+            "answer": "顧客/バイヤー",
+            "answerTranslit": "kokyaku / baiyaa",
+            "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+            "optionTranslit": {
+              "ショッピング/購入に行く": "shoppingu / kounyuu ni iku",
+              "注文価格": "chuumon kakaku",
+              "現金/金銭の形態で": "genkin / kinsen no keitai de",
+              "顧客/バイヤー": "kokyaku / baiyaa"
+            },
+            "options": [
+              "ショッピング/購入に行く",
+              "注文価格",
+              "現金/金銭の形態で",
+              "顧客/バイヤー"
+            ],
+            "prompt": "cliente / comprador"
+          },
+          {
+            "answer": "注文価格",
+            "answerTranslit": "chuumon kakaku",
+            "concept": "c:viajes-compras-y-servicios.precio",
+            "optionTranslit": {
+              "お金の": "o kin no",
+              "ショッピング/購入に行く": "shoppingu / kounyuu ni iku",
+              "注文価格": "chuumon kakaku",
+              "現金/金銭の形態で": "genkin / kinsen no keitai de"
+            },
+            "options": [
+              "お金の",
+              "現金/金銭の形態で",
+              "ショッピング/購入に行く",
+              "注文価格"
+            ],
+            "prompt": "precio"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words to shop, pay and use services during a trip.",
+      "es": "Palabras para comprar, pagar y usar servicios durante un viaje."
+    },
+    "generator": "build_lessons",
+    "id": "ja-u15-l1",
+    "lang": "ja",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Handle shopping and services",
+        "Ask about prices and opening hours"
+      ],
+      "es": [
+        "Resolver compras y servicios",
+        "Preguntar precios y horarios"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ja"
+        ],
+        "rows": [
+          [
+            "compras / ir de compras",
+            "shopping / going for purchases",
+            "ショッピング/購入に行く"
+          ],
+          [
+            "tienda",
+            "shop",
+            "ショップ"
+          ],
+          [
+            "mercado",
+            "market",
+            "マーケット"
+          ],
+          [
+            "supermercado",
+            "supermarket",
+            "スーパーマーケット"
+          ],
+          [
+            "centro comercial",
+            "shopping centre",
+            "ショッピングセンター"
+          ],
+          [
+            "vendedor / tendero",
+            "seller / tenderer",
+            "売り手/入札者"
+          ],
+          [
+            "cliente / comprador",
+            "customer / buyer",
+            "顧客/バイヤー"
+          ],
+          [
+            "precio",
+            "price",
+            "注文価格"
+          ],
+          [
+            "dinero",
+            "money",
+            "お金の"
+          ],
+          [
+            "rupia india (INR)",
+            "Indian rupee (INR)",
+            "インドルピー (INR)"
+          ],
+          [
+            "efectivo / dinero en efectivo",
+            "cash / money in the form of",
+            "現金/金銭の形態で"
+          ],
+          [
+            "tarjeta",
+            "card",
+            "チケット"
+          ]
+        ],
+        "title": "es · en · ja",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Travel, shopping and services",
+      "es": "Viajes, compras y servicios"
+    },
+    "unit": 15
+  },
+  {
+    "concepts": [
+      "c:transporte-y-viajes.viaje",
+      "c:transporte-y-viajes.viaje-trayecto",
+      "c:transporte-y-viajes.turismo",
+      "c:transporte-y-viajes.coche-auto",
+      "c:transporte-y-viajes.taxi",
+      "c:transporte-y-viajes.autobus",
+      "c:transporte-y-viajes.tren",
+      "c:transporte-y-viajes.metro",
+      "c:transporte-y-viajes.avion",
+      "c:transporte-y-viajes.barco-avion",
+      "c:transporte-y-viajes.barco-bote",
+      "c:transporte-y-viajes.bicicleta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:transporte-y-viajes.viaje",
+        "en": "travel",
+        "es": "viaje",
+        "ja": "旅行案内",
+        "speaker": "A",
+        "translit": "ryokou annai"
+      },
+      {
+        "concept": "c:transporte-y-viajes.viaje-trayecto",
+        "en": "travel / journey",
+        "es": "viaje / trayecto",
+        "ja": "旅行・旅",
+        "speaker": "B",
+        "translit": "ryokou ・ tabi"
+      },
+      {
+        "concept": "c:transporte-y-viajes.turismo",
+        "en": "tourism",
+        "es": "turismo",
+        "ja": "観光案内",
+        "speaker": "A",
+        "translit": "kankouannai"
+      },
+      {
+        "concept": "c:transporte-y-viajes.coche-auto",
+        "en": "car / vehicle",
+        "es": "coche / auto",
+        "ja": "車/車",
+        "speaker": "B",
+        "translit": "kuruma / kuruma"
+      },
+      {
+        "concept": "c:transporte-y-viajes.taxi",
+        "en": "taxi",
+        "es": "taxi",
+        "ja": "タクシー",
+        "speaker": "A",
+        "translit": "takushii"
+      },
+      {
+        "concept": "c:transporte-y-viajes.autobus",
+        "en": "bus",
+        "es": "autobús",
+        "ja": "バスバス",
+        "speaker": "B",
+        "translit": "basubasu"
+      },
+      {
+        "concept": "c:transporte-y-viajes.tren",
+        "en": "train",
+        "es": "tren",
+        "ja": "電車",
+        "speaker": "A",
+        "translit": "densha"
+      },
+      {
+        "concept": "c:transporte-y-viajes.metro",
+        "en": "Subway",
+        "es": "metro",
+        "ja": "地下鉄:",
+        "speaker": "B",
+        "translit": "chikatetsu :"
+      },
+      {
+        "concept": "c:transporte-y-viajes.avion",
+        "en": "aircraft",
+        "es": "avión",
+        "ja": "航空機用",
+        "speaker": "A",
+        "translit": "koukuukiyou"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-avion",
+        "en": "boat / aircraft",
+        "es": "barco / avión",
+        "ja": "ボート/航空機",
+        "speaker": "B",
+        "translit": "booto / koukuuki"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-bote",
+        "en": "boat / ship",
+        "es": "barco / bote",
+        "ja": "ボート/船",
+        "speaker": "A",
+        "translit": "booto / fune"
+      },
+      {
+        "concept": "c:transporte-y-viajes.bicicleta",
+        "en": "bicycle",
+        "es": "bicicleta",
+        "ja": "自転車",
+        "speaker": "B",
+        "translit": "jitensha"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "旅行案内",
+            "answerTranslit": "ryokou annai",
+            "concept": "c:transporte-y-viajes.viaje",
+            "optionTranslit": {
+              "タクシー": "takushii",
+              "ボート/航空機": "booto / koukuuki",
+              "ボート/船": "booto / fune",
+              "旅行案内": "ryokou annai"
+            },
+            "options": [
+              "タクシー",
+              "ボート/航空機",
+              "ボート/船",
+              "旅行案内"
+            ],
+            "prompt": "viaje"
+          },
+          {
+            "answer": "旅行・旅",
+            "answerTranslit": "ryokou ・ tabi",
+            "concept": "c:transporte-y-viajes.viaje-trayecto",
+            "optionTranslit": {
+              "ボート/船": "booto / fune",
+              "地下鉄:": "chikatetsu :",
+              "旅行・旅": "ryokou ・ tabi",
+              "観光案内": "kankouannai"
+            },
+            "options": [
+              "地下鉄:",
+              "観光案内",
+              "ボート/船",
+              "旅行・旅"
+            ],
+            "prompt": "viaje / trayecto"
+          },
+          {
+            "answer": "観光案内",
+            "answerTranslit": "kankouannai",
+            "concept": "c:transporte-y-viajes.turismo",
+            "optionTranslit": {
+              "ボート/航空機": "booto / koukuuki",
+              "地下鉄:": "chikatetsu :",
+              "旅行・旅": "ryokou ・ tabi",
+              "観光案内": "kankouannai"
+            },
+            "options": [
+              "旅行・旅",
+              "ボート/航空機",
+              "地下鉄:",
+              "観光案内"
+            ],
+            "prompt": "turismo"
+          },
+          {
+            "answer": "車/車",
+            "answerTranslit": "kuruma / kuruma",
+            "concept": "c:transporte-y-viajes.coche-auto",
+            "optionTranslit": {
+              "ボート/航空機": "booto / koukuuki",
+              "旅行案内": "ryokou annai",
+              "航空機用": "koukuukiyou",
+              "車/車": "kuruma / kuruma"
+            },
+            "options": [
+              "車/車",
+              "航空機用",
+              "ボート/航空機",
+              "旅行案内"
+            ],
+            "prompt": "coche / auto"
+          },
+          {
+            "answer": "タクシー",
+            "answerTranslit": "takushii",
+            "concept": "c:transporte-y-viajes.taxi",
+            "optionTranslit": {
+              "タクシー": "takushii",
+              "旅行・旅": "ryokou ・ tabi",
+              "旅行案内": "ryokou annai",
+              "観光案内": "kankouannai"
+            },
+            "options": [
+              "旅行案内",
+              "観光案内",
+              "タクシー",
+              "旅行・旅"
+            ],
+            "prompt": "taxi"
+          },
+          {
+            "answer": "バスバス",
+            "answerTranslit": "basubasu",
+            "concept": "c:transporte-y-viajes.autobus",
+            "optionTranslit": {
+              "タクシー": "takushii",
+              "バスバス": "basubasu",
+              "自転車": "jitensha",
+              "車/車": "kuruma / kuruma"
+            },
+            "options": [
+              "車/車",
+              "タクシー",
+              "バスバス",
+              "自転車"
+            ],
+            "prompt": "autobús"
+          },
+          {
+            "answer": "電車",
+            "answerTranslit": "densha",
+            "concept": "c:transporte-y-viajes.tren",
+            "optionTranslit": {
+              "バスバス": "basubasu",
+              "ボート/航空機": "booto / koukuuki",
+              "自転車": "jitensha",
+              "電車": "densha"
+            },
+            "options": [
+              "ボート/航空機",
+              "バスバス",
+              "電車",
+              "自転車"
+            ],
+            "prompt": "tren"
+          },
+          {
+            "answer": "地下鉄:",
+            "answerTranslit": "chikatetsu :",
+            "concept": "c:transporte-y-viajes.metro",
+            "optionTranslit": {
+              "ボート/航空機": "booto / koukuuki",
+              "地下鉄:": "chikatetsu :",
+              "旅行案内": "ryokou annai",
+              "航空機用": "koukuukiyou"
+            },
+            "options": [
+              "旅行案内",
+              "地下鉄:",
+              "ボート/航空機",
+              "航空機用"
+            ],
+            "prompt": "metro"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Means of transport and words useful to get around.",
+      "es": "Medios de transporte y palabras útiles para desplazarse."
+    },
+    "generator": "build_lessons",
+    "id": "ja-u16-l1",
+    "lang": "ja",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name means of transport",
+        "Get around and travel"
+      ],
+      "es": [
+        "Nombrar medios de transporte",
+        "Moverse y viajar"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ja"
+        ],
+        "rows": [
+          [
+            "viaje",
+            "travel",
+            "旅行案内"
+          ],
+          [
+            "viaje / trayecto",
+            "travel / journey",
+            "旅行・旅"
+          ],
+          [
+            "turismo",
+            "tourism",
+            "観光案内"
+          ],
+          [
+            "coche / auto",
+            "car / vehicle",
+            "車/車"
+          ],
+          [
+            "taxi",
+            "taxi",
+            "タクシー"
+          ],
+          [
+            "autobús",
+            "bus",
+            "バスバス"
+          ],
+          [
+            "tren",
+            "train",
+            "電車"
+          ],
+          [
+            "metro",
+            "Subway",
+            "地下鉄:"
+          ],
+          [
+            "avión",
+            "aircraft",
+            "航空機用"
+          ],
+          [
+            "barco / avión",
+            "boat / aircraft",
+            "ボート/航空機"
+          ],
+          [
+            "barco / bote",
+            "boat / ship",
+            "ボート/船"
+          ],
+          [
+            "bicicleta",
+            "bicycle",
+            "自転車"
+          ]
+        ],
+        "title": "es · en · ja",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Transport and travel",
+      "es": "El transporte y los viajes"
+    },
+    "unit": 16
+  },
+  {
+    "concepts": [
+      "c:educacion-y-aprendizaje.educacion",
+      "c:educacion-y-aprendizaje.escuela",
+      "c:educacion-y-aprendizaje.clase-aula-grado",
+      "c:educacion-y-aprendizaje.leccion",
+      "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "c:educacion-y-aprendizaje.matematicas",
+      "c:educacion-y-aprendizaje.ciencia",
+      "c:educacion-y-aprendizaje.historia",
+      "c:educacion-y-aprendizaje.geografia",
+      "c:educacion-y-aprendizaje.literatura",
+      "c:educacion-y-aprendizaje.idioma-lengua"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:educacion-y-aprendizaje.educacion",
+        "en": "education",
+        "es": "educación",
+        "ja": "教育・研修",
+        "speaker": "A",
+        "translit": "kyouiku ・ kenshuu"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.escuela",
+        "en": "school",
+        "es": "escuela",
+        "ja": "スクール",
+        "speaker": "B",
+        "translit": "sukuuru"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+        "en": "class / classroom",
+        "es": "clase / aula / grado",
+        "ja": "教室・授業",
+        "speaker": "A",
+        "translit": "kyoushitsu ・ jugyou"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.leccion",
+        "en": "lesson",
+        "es": "lección",
+        "ja": "レッスン",
+        "speaker": "B",
+        "translit": "ressun"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+        "en": "curriculum / course",
+        "es": "plan de estudios / curso",
+        "ja": "カリキュラム・コース",
+        "speaker": "A",
+        "translit": "karikyuramu・koosu"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+        "en": "subject / topic",
+        "es": "materia / tema / asunto",
+        "ja": "トピック/テーマ",
+        "speaker": "B",
+        "translit": "topikku / teema"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.matematicas",
+        "en": "mathematics",
+        "es": "matemáticas",
+        "ja": "数学",
+        "speaker": "A",
+        "translit": "suugaku"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.ciencia",
+        "en": "science",
+        "es": "ciencia",
+        "ja": "科学分野",
+        "speaker": "B",
+        "translit": "kagakubunya"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.historia",
+        "en": "history",
+        "es": "historia",
+        "ja": "歴史・文化",
+        "speaker": "A",
+        "translit": "rekishi ・ bunka"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.geografia",
+        "en": "geography",
+        "es": "geografía",
+        "ja": "地理学",
+        "speaker": "B",
+        "translit": "chirigaku"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.literatura",
+        "en": "literature",
+        "es": "literatura",
+        "ja": "文献",
+        "speaker": "A",
+        "translit": "bunken"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+        "en": "language / tongue",
+        "es": "idioma / lengua",
+        "ja": "言語/舌",
+        "speaker": "B",
+        "translit": "gengo / shita"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "教育・研修",
+            "answerTranslit": "kyouiku ・ kenshuu",
+            "concept": "c:educacion-y-aprendizaje.educacion",
+            "optionTranslit": {
+              "カリキュラム・コース": "karikyuramu・koosu",
+              "トピック/テーマ": "topikku / teema",
+              "教育・研修": "kyouiku ・ kenshuu",
+              "言語/舌": "gengo / shita"
+            },
+            "options": [
+              "トピック/テーマ",
+              "カリキュラム・コース",
+              "言語/舌",
+              "教育・研修"
+            ],
+            "prompt": "educación"
+          },
+          {
+            "answer": "スクール",
+            "answerTranslit": "sukuuru",
+            "concept": "c:educacion-y-aprendizaje.escuela",
+            "optionTranslit": {
+              "スクール": "sukuuru",
+              "トピック/テーマ": "topikku / teema",
+              "地理学": "chirigaku",
+              "数学": "suugaku"
+            },
+            "options": [
+              "トピック/テーマ",
+              "地理学",
+              "数学",
+              "スクール"
+            ],
+            "prompt": "escuela"
+          },
+          {
+            "answer": "教室・授業",
+            "answerTranslit": "kyoushitsu ・ jugyou",
+            "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+            "optionTranslit": {
+              "トピック/テーマ": "topikku / teema",
+              "地理学": "chirigaku",
+              "教室・授業": "kyoushitsu ・ jugyou",
+              "歴史・文化": "rekishi ・ bunka"
+            },
+            "options": [
+              "トピック/テーマ",
+              "地理学",
+              "歴史・文化",
+              "教室・授業"
+            ],
+            "prompt": "clase / aula / grado"
+          },
+          {
+            "answer": "レッスン",
+            "answerTranslit": "ressun",
+            "concept": "c:educacion-y-aprendizaje.leccion",
+            "optionTranslit": {
+              "トピック/テーマ": "topikku / teema",
+              "レッスン": "ressun",
+              "歴史・文化": "rekishi ・ bunka",
+              "言語/舌": "gengo / shita"
+            },
+            "options": [
+              "歴史・文化",
+              "言語/舌",
+              "トピック/テーマ",
+              "レッスン"
+            ],
+            "prompt": "lección"
+          },
+          {
+            "answer": "カリキュラム・コース",
+            "answerTranslit": "karikyuramu・koosu",
+            "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+            "optionTranslit": {
+              "カリキュラム・コース": "karikyuramu・koosu",
+              "スクール": "sukuuru",
+              "地理学": "chirigaku",
+              "数学": "suugaku"
+            },
+            "options": [
+              "スクール",
+              "地理学",
+              "数学",
+              "カリキュラム・コース"
+            ],
+            "prompt": "plan de estudios / curso"
+          },
+          {
+            "answer": "トピック/テーマ",
+            "answerTranslit": "topikku / teema",
+            "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+            "optionTranslit": {
+              "スクール": "sukuuru",
+              "トピック/テーマ": "topikku / teema",
+              "地理学": "chirigaku",
+              "文献": "bunken"
+            },
+            "options": [
+              "トピック/テーマ",
+              "スクール",
+              "地理学",
+              "文献"
+            ],
+            "prompt": "materia / tema / asunto"
+          },
+          {
+            "answer": "数学",
+            "answerTranslit": "suugaku",
+            "concept": "c:educacion-y-aprendizaje.matematicas",
+            "optionTranslit": {
+              "スクール": "sukuuru",
+              "地理学": "chirigaku",
+              "数学": "suugaku",
+              "言語/舌": "gengo / shita"
+            },
+            "options": [
+              "言語/舌",
+              "地理学",
+              "数学",
+              "スクール"
+            ],
+            "prompt": "matemáticas"
+          },
+          {
+            "answer": "科学分野",
+            "answerTranslit": "kagakubunya",
+            "concept": "c:educacion-y-aprendizaje.ciencia",
+            "optionTranslit": {
+              "教育・研修": "kyouiku ・ kenshuu",
+              "数学": "suugaku",
+              "科学分野": "kagakubunya",
+              "言語/舌": "gengo / shita"
+            },
+            "options": [
+              "教育・研修",
+              "数学",
+              "言語/舌",
+              "科学分野"
+            ],
+            "prompt": "ciencia"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words from school and learning.",
+      "es": "Palabras de la escuela y del aprendizaje."
+    },
+    "generator": "build_lessons",
+    "id": "ja-u17-l1",
+    "lang": "ja",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Talk about studies",
+        "Name school and its objects"
+      ],
+      "es": [
+        "Hablar de estudios",
+        "Nombrar la escuela y sus objetos"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ja"
+        ],
+        "rows": [
+          [
+            "educación",
+            "education",
+            "教育・研修"
+          ],
+          [
+            "escuela",
+            "school",
+            "スクール"
+          ],
+          [
+            "clase / aula / grado",
+            "class / classroom",
+            "教室・授業"
+          ],
+          [
+            "lección",
+            "lesson",
+            "レッスン"
+          ],
+          [
+            "plan de estudios / curso",
+            "curriculum / course",
+            "カリキュラム・コース"
+          ],
+          [
+            "materia / tema / asunto",
+            "subject / topic",
+            "トピック/テーマ"
+          ],
+          [
+            "matemáticas",
+            "mathematics",
+            "数学"
+          ],
+          [
+            "ciencia",
+            "science",
+            "科学分野"
+          ],
+          [
+            "historia",
+            "history",
+            "歴史・文化"
+          ],
+          [
+            "geografía",
+            "geography",
+            "地理学"
+          ],
+          [
+            "literatura",
+            "literature",
+            "文献"
+          ],
+          [
+            "idioma / lengua",
+            "language / tongue",
+            "言語/舌"
+          ]
+        ],
+        "title": "es · en · ja",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Education and learning",
+      "es": "La educación y el aprendizaje"
+    },
+    "unit": 17
+  },
+  {
+    "concepts": [
+      "c:tecnologia-y-comunicacion.tecnologia",
+      "c:tecnologia-y-comunicacion.computadora-ordenador",
+      "c:tecnologia-y-comunicacion.portatil-laptop",
+      "c:tecnologia-y-comunicacion.tableta",
+      "c:tecnologia-y-comunicacion.telefono-movil-celular",
+      "c:tecnologia-y-comunicacion.telefono",
+      "c:tecnologia-y-comunicacion.pantalla",
+      "c:tecnologia-y-comunicacion.teclado",
+      "c:tecnologia-y-comunicacion.raton-informatica",
+      "c:tecnologia-y-comunicacion.impresora",
+      "c:tecnologia-y-comunicacion.camara",
+      "c:tecnologia-y-comunicacion.microfono"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:tecnologia-y-comunicacion.tecnologia",
+        "en": "technology",
+        "es": "tecnología",
+        "ja": "テクノロジー",
+        "speaker": "A",
+        "translit": "tekunorojii"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+        "en": "computer / PC",
+        "es": "computadora / ordenador",
+        "ja": "パソコン・PC",
+        "speaker": "B",
+        "translit": "pasokon・ PC"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+        "en": "laptop / laptop",
+        "es": "portátil / laptop",
+        "ja": "ラップトップ/ノートパソコン",
+        "speaker": "A",
+        "translit": "rapputoppu / nootopasokon"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.tableta",
+        "en": "tablet",
+        "es": "tableta",
+        "ja": "タブレット",
+        "speaker": "B",
+        "translit": "taburetto"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+        "en": "mobile / cell phone",
+        "es": "teléfono móvil / celular",
+        "ja": "携帯電話/携帯",
+        "speaker": "A",
+        "translit": "keitaidenwa / keitai"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono",
+        "en": "phone",
+        "es": "teléfono",
+        "ja": "携帯電話",
+        "speaker": "B",
+        "translit": "keitaidenwa"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.pantalla",
+        "en": "screen",
+        "es": "pantalla",
+        "ja": "画面の一覧",
+        "speaker": "A",
+        "translit": "gamen no ichiran"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.teclado",
+        "en": "keyboard",
+        "es": "teclado",
+        "ja": "キーボード",
+        "speaker": "B",
+        "translit": "kiiboodo"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.raton-informatica",
+        "en": "mouse (computer)",
+        "es": "ratón (informática)",
+        "ja": "マウス(コンピュータ)",
+        "speaker": "A",
+        "translit": "mausu ( konpyuuta )"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.impresora",
+        "en": "printer",
+        "es": "impresora",
+        "ja": "プリンター",
+        "speaker": "B",
+        "translit": "purintaa"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.camara",
+        "en": "camera",
+        "es": "cámara",
+        "ja": "ディスプレイ",
+        "speaker": "A",
+        "translit": "disupurei"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.microfono",
+        "en": "microphone",
+        "es": "micrófono",
+        "ja": "マイク",
+        "speaker": "B",
+        "translit": "maiku"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "テクノロジー",
+            "answerTranslit": "tekunorojii",
+            "concept": "c:tecnologia-y-comunicacion.tecnologia",
+            "optionTranslit": {
+              "テクノロジー": "tekunorojii",
+              "パソコン・PC": "pasokon・ PC",
+              "マウス(コンピュータ)": "mausu ( konpyuuta )",
+              "ラップトップ/ノートパソコン": "rapputoppu / nootopasokon"
+            },
+            "options": [
+              "テクノロジー",
+              "パソコン・PC",
+              "ラップトップ/ノートパソコン",
+              "マウス(コンピュータ)"
+            ],
+            "prompt": "tecnología"
+          },
+          {
+            "answer": "パソコン・PC",
+            "answerTranslit": "pasokon・ PC",
+            "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+            "optionTranslit": {
+              "キーボード": "kiiboodo",
+              "タブレット": "taburetto",
+              "パソコン・PC": "pasokon・ PC",
+              "ラップトップ/ノートパソコン": "rapputoppu / nootopasokon"
+            },
+            "options": [
+              "ラップトップ/ノートパソコン",
+              "キーボード",
+              "タブレット",
+              "パソコン・PC"
+            ],
+            "prompt": "computadora / ordenador"
+          },
+          {
+            "answer": "ラップトップ/ノートパソコン",
+            "answerTranslit": "rapputoppu / nootopasokon",
+            "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+            "optionTranslit": {
+              "テクノロジー": "tekunorojii",
+              "ラップトップ/ノートパソコン": "rapputoppu / nootopasokon",
+              "携帯電話": "keitaidenwa",
+              "携帯電話/携帯": "keitaidenwa / keitai"
+            },
+            "options": [
+              "テクノロジー",
+              "ラップトップ/ノートパソコン",
+              "携帯電話/携帯",
+              "携帯電話"
+            ],
+            "prompt": "portátil / laptop"
+          },
+          {
+            "answer": "タブレット",
+            "answerTranslit": "taburetto",
+            "concept": "c:tecnologia-y-comunicacion.tableta",
+            "optionTranslit": {
+              "タブレット": "taburetto",
+              "プリンター": "purintaa",
+              "マイク": "maiku",
+              "携帯電話": "keitaidenwa"
+            },
+            "options": [
+              "マイク",
+              "プリンター",
+              "携帯電話",
+              "タブレット"
+            ],
+            "prompt": "tableta"
+          },
+          {
+            "answer": "携帯電話/携帯",
+            "answerTranslit": "keitaidenwa / keitai",
+            "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+            "optionTranslit": {
+              "キーボード": "kiiboodo",
+              "タブレット": "taburetto",
+              "パソコン・PC": "pasokon・ PC",
+              "携帯電話/携帯": "keitaidenwa / keitai"
+            },
+            "options": [
+              "キーボード",
+              "パソコン・PC",
+              "タブレット",
+              "携帯電話/携帯"
+            ],
+            "prompt": "teléfono móvil / celular"
+          },
+          {
+            "answer": "携帯電話",
+            "answerTranslit": "keitaidenwa",
+            "concept": "c:tecnologia-y-comunicacion.telefono",
+            "optionTranslit": {
+              "キーボード": "kiiboodo",
+              "プリンター": "purintaa",
+              "ラップトップ/ノートパソコン": "rapputoppu / nootopasokon",
+              "携帯電話": "keitaidenwa"
+            },
+            "options": [
+              "プリンター",
+              "ラップトップ/ノートパソコン",
+              "携帯電話",
+              "キーボード"
+            ],
+            "prompt": "teléfono"
+          },
+          {
+            "answer": "画面の一覧",
+            "answerTranslit": "gamen no ichiran",
+            "concept": "c:tecnologia-y-comunicacion.pantalla",
+            "optionTranslit": {
+              "キーボード": "kiiboodo",
+              "テクノロジー": "tekunorojii",
+              "ディスプレイ": "disupurei",
+              "画面の一覧": "gamen no ichiran"
+            },
+            "options": [
+              "テクノロジー",
+              "キーボード",
+              "画面の一覧",
+              "ディスプレイ"
+            ],
+            "prompt": "pantalla"
+          },
+          {
+            "answer": "キーボード",
+            "answerTranslit": "kiiboodo",
+            "concept": "c:tecnologia-y-comunicacion.teclado",
+            "optionTranslit": {
+              "キーボード": "kiiboodo",
+              "タブレット": "taburetto",
+              "パソコン・PC": "pasokon・ PC",
+              "画面の一覧": "gamen no ichiran"
+            },
+            "options": [
+              "タブレット",
+              "画面の一覧",
+              "キーボード",
+              "パソコン・PC"
+            ],
+            "prompt": "teclado"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Devices, internet and everyday communication.",
+      "es": "Aparatos, internet y comunicación del día a día."
+    },
+    "generator": "build_lessons",
+    "id": "ja-u18-l1",
+    "lang": "ja",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name devices and services",
+        "Talk on the phone and online"
+      ],
+      "es": [
+        "Nombrar aparatos y servicios",
+        "Hablar por teléfono e internet"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ja"
+        ],
+        "rows": [
+          [
+            "tecnología",
+            "technology",
+            "テクノロジー"
+          ],
+          [
+            "computadora / ordenador",
+            "computer / PC",
+            "パソコン・PC"
+          ],
+          [
+            "portátil / laptop",
+            "laptop / laptop",
+            "ラップトップ/ノートパソコン"
+          ],
+          [
+            "tableta",
+            "tablet",
+            "タブレット"
+          ],
+          [
+            "teléfono móvil / celular",
+            "mobile / cell phone",
+            "携帯電話/携帯"
+          ],
+          [
+            "teléfono",
+            "phone",
+            "携帯電話"
+          ],
+          [
+            "pantalla",
+            "screen",
+            "画面の一覧"
+          ],
+          [
+            "teclado",
+            "keyboard",
+            "キーボード"
+          ],
+          [
+            "ratón (informática)",
+            "mouse (computer)",
+            "マウス(コンピュータ)"
+          ],
+          [
+            "impresora",
+            "printer",
+            "プリンター"
+          ],
+          [
+            "cámara",
+            "camera",
+            "ディスプレイ"
+          ],
+          [
+            "micrófono",
+            "microphone",
+            "マイク"
+          ]
+        ],
+        "title": "es · en · ja",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Technology and communication",
+      "es": "La tecnología y la comunicación"
+    },
+    "unit": 18
+  },
+  {
+    "concepts": [
+      "c:naturaleza-y-clima.naturaleza",
+      "c:naturaleza-y-clima.arbol",
+      "c:naturaleza-y-clima.planta",
+      "c:naturaleza-y-clima.flor",
+      "c:naturaleza-y-clima.hoja",
+      "c:naturaleza-y-clima.raiz",
+      "c:naturaleza-y-clima.rama",
+      "c:naturaleza-y-clima.tronco-tallo",
+      "c:naturaleza-y-clima.semilla",
+      "c:naturaleza-y-clima.hierba-cesped",
+      "c:naturaleza-y-clima.bosque-selva",
+      "c:naturaleza-y-clima.montana"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:naturaleza-y-clima.naturaleza",
+        "en": "nature",
+        "es": "naturaleza",
+        "ja": "自然と自然の",
+        "speaker": "A",
+        "translit": "shizen to shizen no"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.arbol",
+        "en": "tree",
+        "es": "árbol",
+        "ja": "ツリー",
+        "speaker": "B",
+        "translit": "tsurii"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.planta",
+        "en": "plant",
+        "es": "planta",
+        "ja": "プラント",
+        "speaker": "A",
+        "translit": "puranto"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.flor",
+        "en": "flower",
+        "es": "flor",
+        "ja": "フラワー",
+        "speaker": "B",
+        "translit": "furawaa"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hoja",
+        "en": "leaf",
+        "es": "hoja",
+        "ja": "リーフレット",
+        "speaker": "A",
+        "translit": "riifuretto"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.raiz",
+        "en": "root",
+        "es": "raíz",
+        "ja": "ルーティング",
+        "speaker": "B",
+        "translit": "ruuteingu"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.rama",
+        "en": "branch",
+        "es": "rama",
+        "ja": "営業部",
+        "speaker": "A",
+        "translit": "eigyoubu"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.tronco-tallo",
+        "en": "trunk / stem",
+        "es": "tronco / tallo",
+        "ja": "トランク/茎",
+        "speaker": "B",
+        "translit": "toranku / kuki"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.semilla",
+        "en": "seed",
+        "es": "semilla",
+        "ja": "シード",
+        "speaker": "A",
+        "translit": "shiido"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hierba-cesped",
+        "en": "grass / lawn",
+        "es": "hierba / césped",
+        "ja": "草/芝生",
+        "speaker": "B",
+        "translit": "kusa / shibafu"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.bosque-selva",
+        "en": "forest / jungle",
+        "es": "bosque / selva",
+        "ja": "森 /ジャングル",
+        "speaker": "A",
+        "translit": "mori / janguru"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.montana",
+        "en": "mountain",
+        "es": "montaña",
+        "ja": "マウンテン",
+        "speaker": "B",
+        "translit": "maunten"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "自然と自然の",
+            "answerTranslit": "shizen to shizen no",
+            "concept": "c:naturaleza-y-clima.naturaleza",
+            "optionTranslit": {
+              "シード": "shiido",
+              "プラント": "puranto",
+              "ルーティング": "ruuteingu",
+              "自然と自然の": "shizen to shizen no"
+            },
+            "options": [
+              "自然と自然の",
+              "シード",
+              "プラント",
+              "ルーティング"
+            ],
+            "prompt": "naturaleza"
+          },
+          {
+            "answer": "ツリー",
+            "answerTranslit": "tsurii",
+            "concept": "c:naturaleza-y-clima.arbol",
+            "optionTranslit": {
+              "ツリー": "tsurii",
+              "マウンテン": "maunten",
+              "営業部": "eigyoubu",
+              "自然と自然の": "shizen to shizen no"
+            },
+            "options": [
+              "マウンテン",
+              "ツリー",
+              "自然と自然の",
+              "営業部"
+            ],
+            "prompt": "árbol"
+          },
+          {
+            "answer": "プラント",
+            "answerTranslit": "puranto",
+            "concept": "c:naturaleza-y-clima.planta",
+            "optionTranslit": {
+              "シード": "shiido",
+              "ツリー": "tsurii",
+              "プラント": "puranto",
+              "草/芝生": "kusa / shibafu"
+            },
+            "options": [
+              "草/芝生",
+              "ツリー",
+              "シード",
+              "プラント"
+            ],
+            "prompt": "planta"
+          },
+          {
+            "answer": "フラワー",
+            "answerTranslit": "furawaa",
+            "concept": "c:naturaleza-y-clima.flor",
+            "optionTranslit": {
+              "トランク/茎": "toranku / kuki",
+              "フラワー": "furawaa",
+              "営業部": "eigyoubu",
+              "森 /ジャングル": "mori / janguru"
+            },
+            "options": [
+              "営業部",
+              "トランク/茎",
+              "森 /ジャングル",
+              "フラワー"
+            ],
+            "prompt": "flor"
+          },
+          {
+            "answer": "リーフレット",
+            "answerTranslit": "riifuretto",
+            "concept": "c:naturaleza-y-clima.hoja",
+            "optionTranslit": {
+              "シード": "shiido",
+              "ツリー": "tsurii",
+              "リーフレット": "riifuretto",
+              "草/芝生": "kusa / shibafu"
+            },
+            "options": [
+              "リーフレット",
+              "ツリー",
+              "シード",
+              "草/芝生"
+            ],
+            "prompt": "hoja"
+          },
+          {
+            "answer": "ルーティング",
+            "answerTranslit": "ruuteingu",
+            "concept": "c:naturaleza-y-clima.raiz",
+            "optionTranslit": {
+              "トランク/茎": "toranku / kuki",
+              "フラワー": "furawaa",
+              "ルーティング": "ruuteingu",
+              "営業部": "eigyoubu"
+            },
+            "options": [
+              "トランク/茎",
+              "フラワー",
+              "営業部",
+              "ルーティング"
+            ],
+            "prompt": "raíz"
+          },
+          {
+            "answer": "営業部",
+            "answerTranslit": "eigyoubu",
+            "concept": "c:naturaleza-y-clima.rama",
+            "optionTranslit": {
+              "プラント": "puranto",
+              "リーフレット": "riifuretto",
+              "営業部": "eigyoubu",
+              "草/芝生": "kusa / shibafu"
+            },
+            "options": [
+              "リーフレット",
+              "営業部",
+              "草/芝生",
+              "プラント"
+            ],
+            "prompt": "rama"
+          },
+          {
+            "answer": "トランク/茎",
+            "answerTranslit": "toranku / kuki",
+            "concept": "c:naturaleza-y-clima.tronco-tallo",
+            "optionTranslit": {
+              "シード": "shiido",
+              "トランク/茎": "toranku / kuki",
+              "リーフレット": "riifuretto",
+              "草/芝生": "kusa / shibafu"
+            },
+            "options": [
+              "トランク/茎",
+              "リーフレット",
+              "シード",
+              "草/芝生"
+            ],
+            "prompt": "tronco / tallo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Nature, landscapes and weather to talk about the environment.",
+      "es": "Naturaleza, paisajes y clima para hablar del entorno."
+    },
+    "generator": "build_lessons",
+    "id": "ja-u19-l1",
+    "lang": "ja",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name natural elements",
+        "Talk about weather and seasons"
+      ],
+      "es": [
+        "Nombrar elementos naturales",
+        "Hablar del tiempo y las estaciones"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ja"
+        ],
+        "rows": [
+          [
+            "naturaleza",
+            "nature",
+            "自然と自然の"
+          ],
+          [
+            "árbol",
+            "tree",
+            "ツリー"
+          ],
+          [
+            "planta",
+            "plant",
+            "プラント"
+          ],
+          [
+            "flor",
+            "flower",
+            "フラワー"
+          ],
+          [
+            "hoja",
+            "leaf",
+            "リーフレット"
+          ],
+          [
+            "raíz",
+            "root",
+            "ルーティング"
+          ],
+          [
+            "rama",
+            "branch",
+            "営業部"
+          ],
+          [
+            "tronco / tallo",
+            "trunk / stem",
+            "トランク/茎"
+          ],
+          [
+            "semilla",
+            "seed",
+            "シード"
+          ],
+          [
+            "hierba / césped",
+            "grass / lawn",
+            "草/芝生"
+          ],
+          [
+            "bosque / selva",
+            "forest / jungle",
+            "森 /ジャングル"
+          ],
+          [
+            "montaña",
+            "mountain",
+            "マウンテン"
+          ]
+        ],
+        "title": "es · en · ja",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Nature and weather",
+      "es": "La naturaleza y el clima"
+    },
+    "unit": 19
   },
   {
     "concepts": [
@@ -827,91 +4021,256 @@
         "en": "zero",
         "es": "cero",
         "ja": "ゼロ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "zero"
       },
       {
         "concept": "c:numeros.uno",
         "en": "one",
         "es": "uno",
         "ja": "一",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ichi"
       },
       {
         "concept": "c:numeros.dos",
         "en": "two",
         "es": "dos",
         "ja": "二",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "ni"
       },
       {
         "concept": "c:numeros.tres",
         "en": "three",
         "es": "tres",
         "ja": "三",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "san"
       },
       {
         "concept": "c:numeros.cuatro",
         "en": "4",
         "es": "cuatro",
         "ja": "四",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "shi"
       },
       {
         "concept": "c:numeros.cinco",
         "en": "five",
         "es": "cinco",
         "ja": "五",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "go"
       },
       {
         "concept": "c:numeros.seis",
         "en": "6",
         "es": "seis",
         "ja": "六",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "roku"
       },
       {
         "concept": "c:numeros.siete",
         "en": "seven",
         "es": "siete",
         "ja": "七",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "shichi"
       },
       {
         "concept": "c:numeros.ocho",
         "en": "8",
         "es": "ocho",
         "ja": "八",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "hachi"
       },
       {
         "concept": "c:numeros.nueve",
         "en": "9",
         "es": "nueve",
         "ja": "九",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "kyuu"
       },
       {
         "concept": "c:numeros.diez",
         "en": "10",
         "es": "diez",
         "ja": "十",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "juu"
       },
       {
         "concept": "c:numeros.once",
         "en": "11",
         "es": "once",
         "ja": "十一",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "juuichi"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "ゼロ",
+            "answerTranslit": "zero",
+            "concept": "c:numeros.cero",
+            "optionTranslit": {
+              "ゼロ": "zero",
+              "一": "ichi",
+              "七": "shichi",
+              "九": "kyuu"
+            },
+            "options": [
+              "九",
+              "ゼロ",
+              "七",
+              "一"
+            ],
+            "prompt": "cero"
+          },
+          {
+            "answer": "一",
+            "answerTranslit": "ichi",
+            "concept": "c:numeros.uno",
+            "optionTranslit": {
+              "一": "ichi",
+              "二": "ni",
+              "五": "go",
+              "十": "juu"
+            },
+            "options": [
+              "五",
+              "二",
+              "十",
+              "一"
+            ],
+            "prompt": "uno"
+          },
+          {
+            "answer": "二",
+            "answerTranslit": "ni",
+            "concept": "c:numeros.dos",
+            "optionTranslit": {
+              "九": "kyuu",
+              "二": "ni",
+              "五": "go",
+              "六": "roku"
+            },
+            "options": [
+              "六",
+              "九",
+              "五",
+              "二"
+            ],
+            "prompt": "dos"
+          },
+          {
+            "answer": "三",
+            "answerTranslit": "san",
+            "concept": "c:numeros.tres",
+            "optionTranslit": {
+              "三": "san",
+              "二": "ni",
+              "六": "roku",
+              "十": "juu"
+            },
+            "options": [
+              "十",
+              "六",
+              "二",
+              "三"
+            ],
+            "prompt": "tres"
+          },
+          {
+            "answer": "四",
+            "answerTranslit": "shi",
+            "concept": "c:numeros.cuatro",
+            "optionTranslit": {
+              "五": "go",
+              "八": "hachi",
+              "十": "juu",
+              "四": "shi"
+            },
+            "options": [
+              "四",
+              "五",
+              "十",
+              "八"
+            ],
+            "prompt": "cuatro"
+          },
+          {
+            "answer": "五",
+            "answerTranslit": "go",
+            "concept": "c:numeros.cinco",
+            "optionTranslit": {
+              "ゼロ": "zero",
+              "七": "shichi",
+              "五": "go",
+              "四": "shi"
+            },
+            "options": [
+              "四",
+              "ゼロ",
+              "七",
+              "五"
+            ],
+            "prompt": "cinco"
+          },
+          {
+            "answer": "六",
+            "answerTranslit": "roku",
+            "concept": "c:numeros.seis",
+            "optionTranslit": {
+              "ゼロ": "zero",
+              "二": "ni",
+              "六": "roku",
+              "十一": "juuichi"
+            },
+            "options": [
+              "二",
+              "十一",
+              "六",
+              "ゼロ"
+            ],
+            "prompt": "seis"
+          },
+          {
+            "answer": "七",
+            "answerTranslit": "shichi",
+            "concept": "c:numeros.siete",
+            "optionTranslit": {
+              "七": "shichi",
+              "五": "go",
+              "八": "hachi",
+              "四": "shi"
+            },
+            "options": [
+              "八",
+              "七",
+              "五",
+              "四"
+            ],
+            "prompt": "siete"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Everyday numbers: used to count, give your age and talk about prices.",
-      "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
-      "ja": "日数:カウント、年齢および価格に使用されます。"
+      "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
     },
     "generator": "build_lessons",
     "id": "ja-u2-l1",
@@ -925,10 +4284,6 @@
       "es": [
         "Contar del cero al diez",
         "Reconocer los números básicos"
-      ],
-      "ja": [
-        "ゼロから10までのカウント",
-        "基本数字を認識する"
       ]
     },
     "tables": [
@@ -1006,10 +4361,374 @@
     ],
     "title": {
       "en": "Numbers",
-      "es": "Los números",
-      "ja": "数字"
+      "es": "Los números"
     },
     "unit": 2
+  },
+  {
+    "concepts": [
+      "c:vocabulario-extra-y-frases-utiles.amor",
+      "c:vocabulario-extra-y-frases-utiles.odio",
+      "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "c:vocabulario-extra-y-frases-utiles.mentira",
+      "c:vocabulario-extra-y-frases-utiles.verdad",
+      "c:vocabulario-extra-y-frases-utiles.justicia",
+      "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "c:vocabulario-extra-y-frases-utiles.miedo",
+      "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+        "en": "love",
+        "es": "amor",
+        "ja": "恋物癖",
+        "speaker": "A",
+        "translit": "koi mono kuse"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+        "en": "I hate it.",
+        "es": "odio",
+        "ja": "嫌がらせ",
+        "speaker": "B",
+        "translit": "iyagarase"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+        "en": "honesty",
+        "es": "honestidad",
+        "ja": "正直なところ",
+        "speaker": "A",
+        "translit": "shoujiki natokoro"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+        "en": "lie",
+        "es": "mentira",
+        "ja": "うつる",
+        "speaker": "B",
+        "translit": "utsuru"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+        "en": "truth",
+        "es": "verdad",
+        "ja": "真実",
+        "speaker": "A",
+        "translit": "shinjitsu"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+        "en": "justice",
+        "es": "justicia",
+        "ja": "正義",
+        "speaker": "B",
+        "translit": "seigi"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+        "en": "injustice",
+        "es": "injusticia",
+        "ja": "不整形",
+        "speaker": "A",
+        "translit": "fuseikei"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+        "en": "value / courage",
+        "es": "valor / coraje",
+        "ja": "価値/勇気",
+        "speaker": "B",
+        "translit": "kachi / yuuki"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+        "en": "fear",
+        "es": "miedo",
+        "ja": "恐怖の恐れ",
+        "speaker": "A",
+        "translit": "kyoufu no osore"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+        "en": "hope",
+        "es": "esperanza",
+        "ja": "希望する",
+        "speaker": "B",
+        "translit": "kibou suru"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+        "en": "disappointment",
+        "es": "decepción",
+        "ja": "不審な点",
+        "speaker": "A",
+        "translit": "fushin na ten"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+        "en": "anger / angry",
+        "es": "ira / enfado",
+        "ja": "怒り / アングリ",
+        "speaker": "B",
+        "translit": "ikari / anguri"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "恋物癖",
+            "answerTranslit": "koi mono kuse",
+            "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+            "optionTranslit": {
+              "不審な点": "fushin na ten",
+              "恋物癖": "koi mono kuse",
+              "正義": "seigi",
+              "真実": "shinjitsu"
+            },
+            "options": [
+              "正義",
+              "恋物癖",
+              "真実",
+              "不審な点"
+            ],
+            "prompt": "amor"
+          },
+          {
+            "answer": "嫌がらせ",
+            "answerTranslit": "iyagarase",
+            "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+            "optionTranslit": {
+              "不整形": "fuseikei",
+              "嫌がらせ": "iyagarase",
+              "希望する": "kibou suru",
+              "正直なところ": "shoujiki natokoro"
+            },
+            "options": [
+              "正直なところ",
+              "希望する",
+              "嫌がらせ",
+              "不整形"
+            ],
+            "prompt": "odio"
+          },
+          {
+            "answer": "正直なところ",
+            "answerTranslit": "shoujiki natokoro",
+            "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+            "optionTranslit": {
+              "うつる": "utsuru",
+              "怒り / アングリ": "ikari / anguri",
+              "正直なところ": "shoujiki natokoro",
+              "真実": "shinjitsu"
+            },
+            "options": [
+              "真実",
+              "正直なところ",
+              "怒り / アングリ",
+              "うつる"
+            ],
+            "prompt": "honestidad"
+          },
+          {
+            "answer": "うつる",
+            "answerTranslit": "utsuru",
+            "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+            "optionTranslit": {
+              "うつる": "utsuru",
+              "恋物癖": "koi mono kuse",
+              "正直なところ": "shoujiki natokoro",
+              "真実": "shinjitsu"
+            },
+            "options": [
+              "真実",
+              "正直なところ",
+              "恋物癖",
+              "うつる"
+            ],
+            "prompt": "mentira"
+          },
+          {
+            "answer": "真実",
+            "answerTranslit": "shinjitsu",
+            "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+            "optionTranslit": {
+              "怒り / アングリ": "ikari / anguri",
+              "正直なところ": "shoujiki natokoro",
+              "正義": "seigi",
+              "真実": "shinjitsu"
+            },
+            "options": [
+              "真実",
+              "正義",
+              "正直なところ",
+              "怒り / アングリ"
+            ],
+            "prompt": "verdad"
+          },
+          {
+            "answer": "正義",
+            "answerTranslit": "seigi",
+            "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+            "optionTranslit": {
+              "不審な点": "fushin na ten",
+              "不整形": "fuseikei",
+              "怒り / アングリ": "ikari / anguri",
+              "正義": "seigi"
+            },
+            "options": [
+              "怒り / アングリ",
+              "不整形",
+              "正義",
+              "不審な点"
+            ],
+            "prompt": "justicia"
+          },
+          {
+            "answer": "不整形",
+            "answerTranslit": "fuseikei",
+            "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+            "optionTranslit": {
+              "不審な点": "fushin na ten",
+              "不整形": "fuseikei",
+              "正直なところ": "shoujiki natokoro",
+              "真実": "shinjitsu"
+            },
+            "options": [
+              "真実",
+              "正直なところ",
+              "不整形",
+              "不審な点"
+            ],
+            "prompt": "injusticia"
+          },
+          {
+            "answer": "価値/勇気",
+            "answerTranslit": "kachi / yuuki",
+            "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+            "optionTranslit": {
+              "不整形": "fuseikei",
+              "価値/勇気": "kachi / yuuki",
+              "希望する": "kibou suru",
+              "正義": "seigi"
+            },
+            "options": [
+              "価値/勇気",
+              "不整形",
+              "希望する",
+              "正義"
+            ],
+            "prompt": "valor / coraje"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Support words and phrases that appear in many conversations.",
+      "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+    },
+    "generator": "build_lessons",
+    "id": "ja-u20-l1",
+    "lang": "ja",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Expand vocabulary",
+        "Use common everyday phrases"
+      ],
+      "es": [
+        "Ampliar vocabulario",
+        "Usar frases comunes del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ja"
+        ],
+        "rows": [
+          [
+            "amor",
+            "love",
+            "恋物癖"
+          ],
+          [
+            "odio",
+            "I hate it.",
+            "嫌がらせ"
+          ],
+          [
+            "honestidad",
+            "honesty",
+            "正直なところ"
+          ],
+          [
+            "mentira",
+            "lie",
+            "うつる"
+          ],
+          [
+            "verdad",
+            "truth",
+            "真実"
+          ],
+          [
+            "justicia",
+            "justice",
+            "正義"
+          ],
+          [
+            "injusticia",
+            "injustice",
+            "不整形"
+          ],
+          [
+            "valor / coraje",
+            "value / courage",
+            "価値/勇気"
+          ],
+          [
+            "miedo",
+            "fear",
+            "恐怖の恐れ"
+          ],
+          [
+            "esperanza",
+            "hope",
+            "希望する"
+          ],
+          [
+            "decepción",
+            "disappointment",
+            "不審な点"
+          ],
+          [
+            "ira / enfado",
+            "anger / angry",
+            "怒り / アングリ"
+          ]
+        ],
+        "title": "es · en · ja",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Extra vocabulary and useful phrases",
+      "es": "Vocabulario extra y frases útiles"
+    },
+    "unit": 20
   },
   {
     "concepts": [
@@ -1032,91 +4751,256 @@
         "en": "red",
         "es": "rojo",
         "ja": "赤",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "aka"
       },
       {
         "concept": "c:colores.azul",
         "en": "blue",
         "es": "azul",
         "ja": "青",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ao"
       },
       {
         "concept": "c:colores.verde",
         "en": "green",
         "es": "verde",
         "ja": "緑",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "midori"
       },
       {
         "concept": "c:colores.amarillo",
         "en": "yellow",
         "es": "amarillo",
         "ja": "黄色",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "kiiro"
       },
       {
         "concept": "c:colores.negro",
         "en": "black",
         "es": "negro",
         "ja": "黒",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kuro"
       },
       {
         "concept": "c:colores.blanco",
         "en": "white",
         "es": "blanco",
         "ja": "白",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "shiro"
       },
       {
         "concept": "c:colores.naranja",
         "en": "orange",
         "es": "naranja",
         "ja": "オレンジ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "orenji"
       },
       {
         "concept": "c:colores.rosa",
         "en": "pink",
         "es": "rosa",
         "ja": "ピンク",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "pinku"
       },
       {
         "concept": "c:colores.morado-violeta",
         "en": "purple / violet",
         "es": "morado / violeta",
         "ja": "紫",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "murasaki"
       },
       {
         "concept": "c:colores.marron",
         "en": "brown",
         "es": "marrón",
         "ja": "茶色",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "chairo"
       },
       {
         "concept": "c:colores.gris",
         "en": "grey",
         "es": "gris",
         "ja": "灰色",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "haiiro"
       },
       {
         "concept": "c:colores.dorado",
         "en": "gold",
         "es": "dorado",
         "ja": "金色",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "kin'iro"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "赤",
+            "answerTranslit": "aka",
+            "concept": "c:colores.rojo",
+            "optionTranslit": {
+              "オレンジ": "orenji",
+              "白": "shiro",
+              "緑": "midori",
+              "赤": "aka"
+            },
+            "options": [
+              "緑",
+              "赤",
+              "白",
+              "オレンジ"
+            ],
+            "prompt": "rojo"
+          },
+          {
+            "answer": "青",
+            "answerTranslit": "ao",
+            "concept": "c:colores.azul",
+            "optionTranslit": {
+              "オレンジ": "orenji",
+              "ピンク": "pinku",
+              "金色": "kin'iro",
+              "青": "ao"
+            },
+            "options": [
+              "金色",
+              "青",
+              "ピンク",
+              "オレンジ"
+            ],
+            "prompt": "azul"
+          },
+          {
+            "answer": "緑",
+            "answerTranslit": "midori",
+            "concept": "c:colores.verde",
+            "optionTranslit": {
+              "オレンジ": "orenji",
+              "灰色": "haiiro",
+              "紫": "murasaki",
+              "緑": "midori"
+            },
+            "options": [
+              "オレンジ",
+              "灰色",
+              "緑",
+              "紫"
+            ],
+            "prompt": "verde"
+          },
+          {
+            "answer": "黄色",
+            "answerTranslit": "kiiro",
+            "concept": "c:colores.amarillo",
+            "optionTranslit": {
+              "灰色": "haiiro",
+              "茶色": "chairo",
+              "赤": "aka",
+              "黄色": "kiiro"
+            },
+            "options": [
+              "茶色",
+              "赤",
+              "灰色",
+              "黄色"
+            ],
+            "prompt": "amarillo"
+          },
+          {
+            "answer": "黒",
+            "answerTranslit": "kuro",
+            "concept": "c:colores.negro",
+            "optionTranslit": {
+              "オレンジ": "orenji",
+              "茶色": "chairo",
+              "青": "ao",
+              "黒": "kuro"
+            },
+            "options": [
+              "青",
+              "黒",
+              "茶色",
+              "オレンジ"
+            ],
+            "prompt": "negro"
+          },
+          {
+            "answer": "白",
+            "answerTranslit": "shiro",
+            "concept": "c:colores.blanco",
+            "optionTranslit": {
+              "灰色": "haiiro",
+              "白": "shiro",
+              "金色": "kin'iro",
+              "黄色": "kiiro"
+            },
+            "options": [
+              "灰色",
+              "黄色",
+              "金色",
+              "白"
+            ],
+            "prompt": "blanco"
+          },
+          {
+            "answer": "オレンジ",
+            "answerTranslit": "orenji",
+            "concept": "c:colores.naranja",
+            "optionTranslit": {
+              "オレンジ": "orenji",
+              "白": "shiro",
+              "茶色": "chairo",
+              "金色": "kin'iro"
+            },
+            "options": [
+              "白",
+              "茶色",
+              "オレンジ",
+              "金色"
+            ],
+            "prompt": "naranja"
+          },
+          {
+            "answer": "ピンク",
+            "answerTranslit": "pinku",
+            "concept": "c:colores.rosa",
+            "optionTranslit": {
+              "ピンク": "pinku",
+              "赤": "aka",
+              "黄色": "kiiro",
+              "黒": "kuro"
+            },
+            "options": [
+              "赤",
+              "黒",
+              "ピンク",
+              "黄色"
+            ],
+            "prompt": "rosa"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Colours are used to describe objects, clothes and places.",
-      "es": "Los colores sirven para describir objetos, ropa y lugares.",
-      "ja": "オブジェクト、服や場所を記述する色が機能します。"
+      "es": "Los colores sirven para describir objetos, ropa y lugares."
     },
     "generator": "build_lessons",
     "id": "ja-u3-l1",
@@ -1130,10 +5014,6 @@
       "es": [
         "Nombrar los colores básicos",
         "Describir objetos por su color"
-      ],
-      "ja": [
-        "基本色の名前",
-        "色でオブジェクトを記述する"
       ]
     },
     "tables": [
@@ -1211,8 +5091,7 @@
     ],
     "title": {
       "en": "Colours",
-      "es": "Los colores",
-      "ja": "色彩色"
+      "es": "Los colores"
     },
     "unit": 3
   },
@@ -1237,91 +5116,256 @@
         "en": "Family",
         "es": "familia",
         "ja": "家族の家族",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kazoku no kazoku"
       },
       {
         "concept": "c:familia-y-personas.madre",
         "en": "Mother",
         "es": "madre",
         "ja": "お母さん",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "o kaasan"
       },
       {
         "concept": "c:familia-y-personas.padre",
         "en": "Father",
         "es": "padre",
         "ja": "父母の",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "fubo no"
       },
       {
         "concept": "c:familia-y-personas.padres",
         "en": "parents",
         "es": "padres",
         "ja": "親子",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "oyako"
       },
       {
         "concept": "c:familia-y-personas.hijo",
         "en": "child",
         "es": "hijo",
         "ja": "チャイルド",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "chairudo"
       },
       {
         "concept": "c:familia-y-personas.hija",
         "en": "daughter",
         "es": "hija",
         "ja": "娘",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "musume"
       },
       {
         "concept": "c:familia-y-personas.nino-a",
         "en": "child",
         "es": "niño/a",
         "ja": "チャイルド",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "chairudo"
       },
       {
         "concept": "c:familia-y-personas.hermano",
         "en": "brother",
         "es": "hermano",
         "ja": "兄ちゃん",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "niichan"
       },
       {
         "concept": "c:familia-y-personas.hermana",
         "en": "sister",
         "es": "hermana",
         "ja": "姉さん",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "neesan"
       },
       {
         "concept": "c:familia-y-personas.hermanos",
         "en": "brothers",
         "es": "hermanos",
         "ja": "兄弟姉妹",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "kyoudaishimai"
       },
       {
         "concept": "c:familia-y-personas.abuelo-paterno",
         "en": "paternal grandfather",
         "es": "abuelo paterno",
         "ja": "祖父",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "sofu"
       },
       {
         "concept": "c:familia-y-personas.abuela-paterna",
         "en": "Father's grandmother",
         "es": "abuela paterna",
         "ja": "父の祖母",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "chichi no sobo"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "家族の家族",
+            "answerTranslit": "kazoku no kazoku",
+            "concept": "c:familia-y-personas.familia",
+            "optionTranslit": {
+              "兄ちゃん": "niichan",
+              "兄弟姉妹": "kyoudaishimai",
+              "家族の家族": "kazoku no kazoku",
+              "父の祖母": "chichi no sobo"
+            },
+            "options": [
+              "兄弟姉妹",
+              "兄ちゃん",
+              "父の祖母",
+              "家族の家族"
+            ],
+            "prompt": "familia"
+          },
+          {
+            "answer": "お母さん",
+            "answerTranslit": "o kaasan",
+            "concept": "c:familia-y-personas.madre",
+            "optionTranslit": {
+              "お母さん": "o kaasan",
+              "娘": "musume",
+              "家族の家族": "kazoku no kazoku",
+              "父の祖母": "chichi no sobo"
+            },
+            "options": [
+              "父の祖母",
+              "娘",
+              "家族の家族",
+              "お母さん"
+            ],
+            "prompt": "madre"
+          },
+          {
+            "answer": "父母の",
+            "answerTranslit": "fubo no",
+            "concept": "c:familia-y-personas.padre",
+            "optionTranslit": {
+              "兄弟姉妹": "kyoudaishimai",
+              "父の祖母": "chichi no sobo",
+              "父母の": "fubo no",
+              "親子": "oyako"
+            },
+            "options": [
+              "父の祖母",
+              "兄弟姉妹",
+              "父母の",
+              "親子"
+            ],
+            "prompt": "padre"
+          },
+          {
+            "answer": "親子",
+            "answerTranslit": "oyako",
+            "concept": "c:familia-y-personas.padres",
+            "optionTranslit": {
+              "チャイルド": "chairudo",
+              "兄ちゃん": "niichan",
+              "家族の家族": "kazoku no kazoku",
+              "親子": "oyako"
+            },
+            "options": [
+              "兄ちゃん",
+              "親子",
+              "家族の家族",
+              "チャイルド"
+            ],
+            "prompt": "padres"
+          },
+          {
+            "answer": "チャイルド",
+            "answerTranslit": "chairudo",
+            "concept": "c:familia-y-personas.hijo",
+            "optionTranslit": {
+              "お母さん": "o kaasan",
+              "チャイルド": "chairudo",
+              "娘": "musume",
+              "祖父": "sofu"
+            },
+            "options": [
+              "娘",
+              "祖父",
+              "お母さん",
+              "チャイルド"
+            ],
+            "prompt": "hijo"
+          },
+          {
+            "answer": "娘",
+            "answerTranslit": "musume",
+            "concept": "c:familia-y-personas.hija",
+            "optionTranslit": {
+              "お母さん": "o kaasan",
+              "チャイルド": "chairudo",
+              "娘": "musume",
+              "親子": "oyako"
+            },
+            "options": [
+              "チャイルド",
+              "娘",
+              "お母さん",
+              "親子"
+            ],
+            "prompt": "hija"
+          },
+          {
+            "answer": "チャイルド",
+            "answerTranslit": "chairudo",
+            "concept": "c:familia-y-personas.nino-a",
+            "optionTranslit": {
+              "チャイルド": "chairudo",
+              "兄弟姉妹": "kyoudaishimai",
+              "祖父": "sofu",
+              "親子": "oyako"
+            },
+            "options": [
+              "チャイルド",
+              "兄弟姉妹",
+              "祖父",
+              "親子"
+            ],
+            "prompt": "niño/a"
+          },
+          {
+            "answer": "兄ちゃん",
+            "answerTranslit": "niichan",
+            "concept": "c:familia-y-personas.hermano",
+            "optionTranslit": {
+              "お母さん": "o kaasan",
+              "チャイルド": "chairudo",
+              "兄ちゃん": "niichan",
+              "兄弟姉妹": "kyoudaishimai"
+            },
+            "options": [
+              "お母さん",
+              "兄ちゃん",
+              "チャイルド",
+              "兄弟姉妹"
+            ],
+            "prompt": "hermano"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Words to refer to family and the people around you.",
-      "es": "Palabras para referirse a la familia y a las personas cercanas.",
-      "ja": "親しい家族や人について語る言葉。"
+      "es": "Palabras para referirse a la familia y a las personas cercanas."
     },
     "generator": "build_lessons",
     "id": "ja-u4-l1",
@@ -1335,10 +5379,6 @@
       "es": [
         "Nombrar a los miembros de la familia",
         "Hablar de personas"
-      ],
-      "ja": [
-        "家族を任命する",
-        "人について話します"
       ]
     },
     "tables": [
@@ -1416,8 +5456,7 @@
     ],
     "title": {
       "en": "Family and people",
-      "es": "La familia y las personas",
-      "ja": "ご家族・個人"
+      "es": "La familia y las personas"
     },
     "unit": 4
   },
@@ -1442,91 +5481,256 @@
         "en": "body",
         "es": "cuerpo",
         "ja": "ボディ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "bodi"
       },
       {
         "concept": "c:cuerpo-humano.cabeza",
         "en": "head",
         "es": "cabeza",
         "ja": "ヘッド",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "heddo"
       },
       {
         "concept": "c:cuerpo-humano.cabello-pelo",
         "en": "hair / hair-",
         "es": "cabello / pelo",
         "ja": "毛/髪-",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "ke / kami -"
       },
       {
         "concept": "c:cuerpo-humano.cara-rostro",
         "en": "face / side",
         "es": "cara / rostro",
         "ja": "表面/側面",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "hyoumen / sokumen"
       },
       {
         "concept": "c:cuerpo-humano.frente",
         "en": "front",
         "es": "frente",
         "ja": "プレス",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "puresu"
       },
       {
         "concept": "c:cuerpo-humano.ojo",
         "en": "eye",
         "es": "ojo",
         "ja": "目指す",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "mezasu"
       },
       {
         "concept": "c:cuerpo-humano.ojos",
         "en": "eyes",
         "es": "ojos",
         "ja": "目指す",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "mezasu"
       },
       {
         "concept": "c:cuerpo-humano.ceja",
         "en": "Beef",
         "es": "ceja",
         "ja": "ビーフ・チキン",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "biifu・chikin"
       },
       {
         "concept": "c:cuerpo-humano.parpado-pestana",
         "en": "eyelid / tab",
         "es": "párpado / pestaña",
         "ja": "まぶた/タブ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "mabuta / tabu"
       },
       {
         "concept": "c:cuerpo-humano.oreja-oido",
         "en": "ear / ears",
         "es": "oreja / oído",
         "ja": "耳/耳",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "mimi / mimi"
       },
       {
         "concept": "c:cuerpo-humano.nariz",
         "en": "nose",
         "es": "nariz",
         "ja": "ノーズ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "noozu"
       },
       {
         "concept": "c:cuerpo-humano.boca",
         "en": "mouth",
         "es": "boca",
         "ja": "口腔内",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "koukuunai"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "ボディ",
+            "answerTranslit": "bodi",
+            "concept": "c:cuerpo-humano.cuerpo",
+            "optionTranslit": {
+              "ビーフ・チキン": "biifu・chikin",
+              "プレス": "puresu",
+              "ボディ": "bodi",
+              "耳/耳": "mimi / mimi"
+            },
+            "options": [
+              "ビーフ・チキン",
+              "ボディ",
+              "プレス",
+              "耳/耳"
+            ],
+            "prompt": "cuerpo"
+          },
+          {
+            "answer": "ヘッド",
+            "answerTranslit": "heddo",
+            "concept": "c:cuerpo-humano.cabeza",
+            "optionTranslit": {
+              "ビーフ・チキン": "biifu・chikin",
+              "ヘッド": "heddo",
+              "口腔内": "koukuunai",
+              "目指す": "mezasu"
+            },
+            "options": [
+              "目指す",
+              "ヘッド",
+              "口腔内",
+              "ビーフ・チキン"
+            ],
+            "prompt": "cabeza"
+          },
+          {
+            "answer": "毛/髪-",
+            "answerTranslit": "ke / kami -",
+            "concept": "c:cuerpo-humano.cabello-pelo",
+            "optionTranslit": {
+              "まぶた/タブ": "mabuta / tabu",
+              "プレス": "puresu",
+              "口腔内": "koukuunai",
+              "毛/髪-": "ke / kami -"
+            },
+            "options": [
+              "口腔内",
+              "まぶた/タブ",
+              "毛/髪-",
+              "プレス"
+            ],
+            "prompt": "cabello / pelo"
+          },
+          {
+            "answer": "表面/側面",
+            "answerTranslit": "hyoumen / sokumen",
+            "concept": "c:cuerpo-humano.cara-rostro",
+            "optionTranslit": {
+              "ビーフ・チキン": "biifu・chikin",
+              "ボディ": "bodi",
+              "毛/髪-": "ke / kami -",
+              "表面/側面": "hyoumen / sokumen"
+            },
+            "options": [
+              "ボディ",
+              "表面/側面",
+              "毛/髪-",
+              "ビーフ・チキン"
+            ],
+            "prompt": "cara / rostro"
+          },
+          {
+            "answer": "プレス",
+            "answerTranslit": "puresu",
+            "concept": "c:cuerpo-humano.frente",
+            "optionTranslit": {
+              "ビーフ・チキン": "biifu・chikin",
+              "プレス": "puresu",
+              "毛/髪-": "ke / kami -",
+              "目指す": "mezasu"
+            },
+            "options": [
+              "毛/髪-",
+              "プレス",
+              "目指す",
+              "ビーフ・チキン"
+            ],
+            "prompt": "frente"
+          },
+          {
+            "answer": "目指す",
+            "answerTranslit": "mezasu",
+            "concept": "c:cuerpo-humano.ojo",
+            "optionTranslit": {
+              "プレス": "puresu",
+              "ヘッド": "heddo",
+              "目指す": "mezasu",
+              "耳/耳": "mimi / mimi"
+            },
+            "options": [
+              "プレス",
+              "目指す",
+              "耳/耳",
+              "ヘッド"
+            ],
+            "prompt": "ojo"
+          },
+          {
+            "answer": "目指す",
+            "answerTranslit": "mezasu",
+            "concept": "c:cuerpo-humano.ojos",
+            "optionTranslit": {
+              "ノーズ": "noozu",
+              "ヘッド": "heddo",
+              "ボディ": "bodi",
+              "目指す": "mezasu"
+            },
+            "options": [
+              "ヘッド",
+              "ボディ",
+              "ノーズ",
+              "目指す"
+            ],
+            "prompt": "ojos"
+          },
+          {
+            "answer": "ビーフ・チキン",
+            "answerTranslit": "biifu・chikin",
+            "concept": "c:cuerpo-humano.ceja",
+            "optionTranslit": {
+              "ビーフ・チキン": "biifu・chikin",
+              "プレス": "puresu",
+              "ヘッド": "heddo",
+              "耳/耳": "mimi / mimi"
+            },
+            "options": [
+              "ビーフ・チキン",
+              "プレス",
+              "ヘッド",
+              "耳/耳"
+            ],
+            "prompt": "ceja"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Parts of the body, useful to talk about health and care.",
-      "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
-      "ja": "身体部分は、健康とケアについて話するのに便利です。"
+      "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
     },
     "generator": "build_lessons",
     "id": "ja-u5-l1",
@@ -1540,10 +5744,6 @@
       "es": [
         "Nombrar las partes del cuerpo",
         "Hablar de la salud"
-      ],
-      "ja": [
-        "体部を名付けて下さい",
-        "健康に関する話"
       ]
     },
     "tables": [
@@ -1621,8 +5821,7 @@
     ],
     "title": {
       "en": "The human body",
-      "es": "El cuerpo humano",
-      "ja": "人体について"
+      "es": "El cuerpo humano"
     },
     "unit": 5
   },
@@ -1647,91 +5846,256 @@
         "en": "food / eat",
         "es": "comida / comer",
         "ja": "食・食べ方",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "shoku ・ tabekata"
       },
       {
         "concept": "c:comida-y-bebida.comida-formal",
         "en": "food (formal)",
         "es": "comida (formal)",
         "ja": "食品(フォーマル)",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "shokuhin ( foomaru )"
       },
       {
         "concept": "c:comida-y-bebida.desayuno",
         "en": "breakfast",
         "es": "desayuno",
         "ja": "朝ごはん",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "asagohan"
       },
       {
         "concept": "c:comida-y-bebida.almuerzo",
         "en": "lunch",
         "es": "almuerzo",
         "ja": "ランチ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ranchi"
       },
       {
         "concept": "c:comida-y-bebida.cena",
         "en": "dinner",
         "es": "cena",
         "ja": "ディナー",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "dinaa"
       },
       {
         "concept": "c:comida-y-bebida.agua",
         "en": "water",
         "es": "agua",
         "ja": "ウォータークラス",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "uootaakurasu"
       },
       {
         "concept": "c:comida-y-bebida.leche",
         "en": "milk",
         "es": "leche",
         "ja": "ミルク",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "miruku"
       },
       {
         "concept": "c:comida-y-bebida.te",
         "en": "tea",
         "es": "té",
         "ja": "ティーチャー",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "teiichaa"
       },
       {
         "concept": "c:comida-y-bebida.cafe",
         "en": "coffee",
         "es": "café",
         "ja": "コーヒー",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "koohii"
       },
       {
         "concept": "c:comida-y-bebida.zumo-jugo",
         "en": "juice / juices",
         "es": "zumo / jugo",
         "ja": "ジュース/ジュース",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "juusu / juusu"
       },
       {
         "concept": "c:comida-y-bebida.lassi-yogur-batido",
         "en": "lassi (yoghurt beaten)",
         "es": "lassi (yogur batido)",
         "ja": "lassi (ヨーグルトの殴打)",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "lassi ( yooguruto no ouda )"
       },
       {
         "concept": "c:comida-y-bebida.alcohol-vino",
         "en": "alcohol / wine",
         "es": "alcohol / vino",
         "ja": "アルコール・ワイン",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "arukooru・wain"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "食・食べ方",
+            "answerTranslit": "shoku ・ tabekata",
+            "concept": "c:comida-y-bebida.comida-comer",
+            "optionTranslit": {
+              "アルコール・ワイン": "arukooru・wain",
+              "コーヒー": "koohii",
+              "ジュース/ジュース": "juusu / juusu",
+              "食・食べ方": "shoku ・ tabekata"
+            },
+            "options": [
+              "ジュース/ジュース",
+              "食・食べ方",
+              "アルコール・ワイン",
+              "コーヒー"
+            ],
+            "prompt": "comida / comer"
+          },
+          {
+            "answer": "食品(フォーマル)",
+            "answerTranslit": "shokuhin ( foomaru )",
+            "concept": "c:comida-y-bebida.comida-formal",
+            "optionTranslit": {
+              "アルコール・ワイン": "arukooru・wain",
+              "コーヒー": "koohii",
+              "食・食べ方": "shoku ・ tabekata",
+              "食品(フォーマル)": "shokuhin ( foomaru )"
+            },
+            "options": [
+              "コーヒー",
+              "食・食べ方",
+              "食品(フォーマル)",
+              "アルコール・ワイン"
+            ],
+            "prompt": "comida (formal)"
+          },
+          {
+            "answer": "朝ごはん",
+            "answerTranslit": "asagohan",
+            "concept": "c:comida-y-bebida.desayuno",
+            "optionTranslit": {
+              "コーヒー": "koohii",
+              "朝ごはん": "asagohan",
+              "食・食べ方": "shoku ・ tabekata",
+              "食品(フォーマル)": "shokuhin ( foomaru )"
+            },
+            "options": [
+              "食品(フォーマル)",
+              "朝ごはん",
+              "コーヒー",
+              "食・食べ方"
+            ],
+            "prompt": "desayuno"
+          },
+          {
+            "answer": "ランチ",
+            "answerTranslit": "ranchi",
+            "concept": "c:comida-y-bebida.almuerzo",
+            "optionTranslit": {
+              "ウォータークラス": "uootaakurasu",
+              "ランチ": "ranchi",
+              "食・食べ方": "shoku ・ tabekata",
+              "食品(フォーマル)": "shokuhin ( foomaru )"
+            },
+            "options": [
+              "ウォータークラス",
+              "ランチ",
+              "食品(フォーマル)",
+              "食・食べ方"
+            ],
+            "prompt": "almuerzo"
+          },
+          {
+            "answer": "ディナー",
+            "answerTranslit": "dinaa",
+            "concept": "c:comida-y-bebida.cena",
+            "optionTranslit": {
+              "ウォータークラス": "uootaakurasu",
+              "ティーチャー": "teiichaa",
+              "ディナー": "dinaa",
+              "朝ごはん": "asagohan"
+            },
+            "options": [
+              "ティーチャー",
+              "ウォータークラス",
+              "朝ごはん",
+              "ディナー"
+            ],
+            "prompt": "cena"
+          },
+          {
+            "answer": "ウォータークラス",
+            "answerTranslit": "uootaakurasu",
+            "concept": "c:comida-y-bebida.agua",
+            "optionTranslit": {
+              "ウォータークラス": "uootaakurasu",
+              "コーヒー": "koohii",
+              "ミルク": "miruku",
+              "朝ごはん": "asagohan"
+            },
+            "options": [
+              "ウォータークラス",
+              "コーヒー",
+              "ミルク",
+              "朝ごはん"
+            ],
+            "prompt": "agua"
+          },
+          {
+            "answer": "ミルク",
+            "answerTranslit": "miruku",
+            "concept": "c:comida-y-bebida.leche",
+            "optionTranslit": {
+              "lassi (ヨーグルトの殴打)": "lassi ( yooguruto no ouda )",
+              "アルコール・ワイン": "arukooru・wain",
+              "ディナー": "dinaa",
+              "ミルク": "miruku"
+            },
+            "options": [
+              "ディナー",
+              "lassi (ヨーグルトの殴打)",
+              "ミルク",
+              "アルコール・ワイン"
+            ],
+            "prompt": "leche"
+          },
+          {
+            "answer": "ティーチャー",
+            "answerTranslit": "teiichaa",
+            "concept": "c:comida-y-bebida.te",
+            "optionTranslit": {
+              "コーヒー": "koohii",
+              "ティーチャー": "teiichaa",
+              "ディナー": "dinaa",
+              "ランチ": "ranchi"
+            },
+            "options": [
+              "ディナー",
+              "コーヒー",
+              "ティーチャー",
+              "ランチ"
+            ],
+            "prompt": "té"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Basic foods and drinks, very useful when shopping or eating out.",
-      "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
-      "ja": "家庭外で購入したり食べるときに、基本的な食べ物や飲み物は非常に便利です。"
+      "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
     },
     "generator": "build_lessons",
     "id": "ja-u6-l1",
@@ -1745,10 +6109,6 @@
       "es": [
         "Nombrar alimentos y bebidas",
         "Pedir en un restaurante"
-      ],
-      "ja": [
-        "飲食・飲料の企画",
-        "お食事処にお願い"
       ]
     },
     "tables": [
@@ -1826,8 +6186,7 @@
     ],
     "title": {
       "en": "Food and drink",
-      "es": "La comida y la bebida",
-      "ja": "フード&ドリンク"
+      "es": "La comida y la bebida"
     },
     "unit": 6
   },
@@ -1852,91 +6211,256 @@
         "en": "Home / home",
         "es": "casa / hogar",
         "ja": "ホーム / 家庭",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "hoomu / katei"
       },
       {
         "concept": "c:casa-y-hogar.edificio-casa",
         "en": "building / house",
         "es": "edificio / casa",
         "ja": "建物・家屋",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "tatemono ・ kaoku"
       },
       {
         "concept": "c:casa-y-hogar.apartamento",
         "en": "apartment",
         "es": "apartamento",
         "ja": "アパート",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "apaato"
       },
       {
         "concept": "c:casa-y-hogar.habitacion-cuarto",
         "en": "room / bedroom",
         "es": "habitación / cuarto",
         "ja": "ルーム/ベッドルーム",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ruumu / beddoruumu"
       },
       {
         "concept": "c:casa-y-hogar.sala-de-estar",
         "en": "living room",
         "es": "sala de estar",
         "ja": "リビングルーム",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "ribinguruumu"
       },
       {
         "concept": "c:casa-y-hogar.dormitorio",
         "en": "bedroom",
         "es": "dormitorio",
         "ja": "ベッドルーム",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "beddoruumu"
       },
       {
         "concept": "c:casa-y-hogar.cocina-habitacion",
         "en": "kitchen (room)",
         "es": "cocina (habitación)",
         "ja": "キッチン(部屋)",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kitchin ( heya )"
       },
       {
         "concept": "c:casa-y-hogar.bano",
         "en": "bathroom",
         "es": "baño",
         "ja": "浴室",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "yokushitsu"
       },
       {
         "concept": "c:casa-y-hogar.inodoro-lavabo",
         "en": "toilet / sink",
         "es": "inodoro / lavabo",
         "ja": "トイレ・洗面台",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "toire・ senmendai"
       },
       {
         "concept": "c:casa-y-hogar.balcon",
         "en": "balcony",
         "es": "balcón",
         "ja": "バルコニー",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "barukonii"
       },
       {
         "concept": "c:casa-y-hogar.techo-azotea",
         "en": "roof / rooftop",
         "es": "techo / azotea",
         "ja": "屋根/屋上",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "yane / okujou"
       },
       {
         "concept": "c:casa-y-hogar.pared",
         "en": "wall",
         "es": "pared",
         "ja": "壁面",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "hekimen"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "ホーム / 家庭",
+            "answerTranslit": "hoomu / katei",
+            "concept": "c:casa-y-hogar.casa-hogar",
+            "optionTranslit": {
+              "アパート": "apaato",
+              "ホーム / 家庭": "hoomu / katei",
+              "リビングルーム": "ribinguruumu",
+              "屋根/屋上": "yane / okujou"
+            },
+            "options": [
+              "屋根/屋上",
+              "リビングルーム",
+              "アパート",
+              "ホーム / 家庭"
+            ],
+            "prompt": "casa / hogar"
+          },
+          {
+            "answer": "建物・家屋",
+            "answerTranslit": "tatemono ・ kaoku",
+            "concept": "c:casa-y-hogar.edificio-casa",
+            "optionTranslit": {
+              "トイレ・洗面台": "toire・ senmendai",
+              "バルコニー": "barukonii",
+              "ルーム/ベッドルーム": "ruumu / beddoruumu",
+              "建物・家屋": "tatemono ・ kaoku"
+            },
+            "options": [
+              "トイレ・洗面台",
+              "建物・家屋",
+              "ルーム/ベッドルーム",
+              "バルコニー"
+            ],
+            "prompt": "edificio / casa"
+          },
+          {
+            "answer": "アパート",
+            "answerTranslit": "apaato",
+            "concept": "c:casa-y-hogar.apartamento",
+            "optionTranslit": {
+              "アパート": "apaato",
+              "ベッドルーム": "beddoruumu",
+              "ホーム / 家庭": "hoomu / katei",
+              "屋根/屋上": "yane / okujou"
+            },
+            "options": [
+              "ベッドルーム",
+              "アパート",
+              "屋根/屋上",
+              "ホーム / 家庭"
+            ],
+            "prompt": "apartamento"
+          },
+          {
+            "answer": "ルーム/ベッドルーム",
+            "answerTranslit": "ruumu / beddoruumu",
+            "concept": "c:casa-y-hogar.habitacion-cuarto",
+            "optionTranslit": {
+              "リビングルーム": "ribinguruumu",
+              "ルーム/ベッドルーム": "ruumu / beddoruumu",
+              "壁面": "hekimen",
+              "浴室": "yokushitsu"
+            },
+            "options": [
+              "ルーム/ベッドルーム",
+              "壁面",
+              "リビングルーム",
+              "浴室"
+            ],
+            "prompt": "habitación / cuarto"
+          },
+          {
+            "answer": "リビングルーム",
+            "answerTranslit": "ribinguruumu",
+            "concept": "c:casa-y-hogar.sala-de-estar",
+            "optionTranslit": {
+              "トイレ・洗面台": "toire・ senmendai",
+              "ベッドルーム": "beddoruumu",
+              "リビングルーム": "ribinguruumu",
+              "壁面": "hekimen"
+            },
+            "options": [
+              "トイレ・洗面台",
+              "ベッドルーム",
+              "壁面",
+              "リビングルーム"
+            ],
+            "prompt": "sala de estar"
+          },
+          {
+            "answer": "ベッドルーム",
+            "answerTranslit": "beddoruumu",
+            "concept": "c:casa-y-hogar.dormitorio",
+            "optionTranslit": {
+              "アパート": "apaato",
+              "ベッドルーム": "beddoruumu",
+              "壁面": "hekimen",
+              "浴室": "yokushitsu"
+            },
+            "options": [
+              "ベッドルーム",
+              "アパート",
+              "浴室",
+              "壁面"
+            ],
+            "prompt": "dormitorio"
+          },
+          {
+            "answer": "キッチン(部屋)",
+            "answerTranslit": "kitchin ( heya )",
+            "concept": "c:casa-y-hogar.cocina-habitacion",
+            "optionTranslit": {
+              "キッチン(部屋)": "kitchin ( heya )",
+              "バルコニー": "barukonii",
+              "ルーム/ベッドルーム": "ruumu / beddoruumu",
+              "屋根/屋上": "yane / okujou"
+            },
+            "options": [
+              "屋根/屋上",
+              "キッチン(部屋)",
+              "バルコニー",
+              "ルーム/ベッドルーム"
+            ],
+            "prompt": "cocina (habitación)"
+          },
+          {
+            "answer": "浴室",
+            "answerTranslit": "yokushitsu",
+            "concept": "c:casa-y-hogar.bano",
+            "optionTranslit": {
+              "リビングルーム": "ribinguruumu",
+              "壁面": "hekimen",
+              "屋根/屋上": "yane / okujou",
+              "浴室": "yokushitsu"
+            },
+            "options": [
+              "浴室",
+              "壁面",
+              "リビングルーム",
+              "屋根/屋上"
+            ],
+            "prompt": "baño"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "House vocabulary: rooms, furniture and everyday objects.",
-      "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos.",
-      "ja": "家の語彙:部屋、家具および毎日のオブジェクト。"
+      "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
     },
     "generator": "build_lessons",
     "id": "ja-u7-l1",
@@ -1950,10 +6474,6 @@
       "es": [
         "Nombrar partes de la casa",
         "Describir objetos del hogar"
-      ],
-      "ja": [
-        "家の名称部分",
-        "世帯の物体を記述する"
       ]
     },
     "tables": [
@@ -2031,8 +6551,7 @@
     ],
     "title": {
       "en": "Home and household",
-      "es": "La casa y el hogar",
-      "ja": "家の家と家庭"
+      "es": "La casa y el hogar"
     },
     "unit": 7
   },
@@ -2057,91 +6576,256 @@
         "en": "time / hour",
         "es": "tiempo / hora",
         "ja": "時間/時間",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "jikan / jikan"
       },
       {
         "concept": "c:tiempo-y-calendario.reloj-hora",
         "en": "clock / time",
         "es": "reloj / hora",
         "ja": "時計/時間",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "tokei / jikan"
       },
       {
         "concept": "c:tiempo-y-calendario.minuto",
         "en": "minute",
         "es": "minuto",
         "ja": "ツイート",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "tsuiito"
       },
       {
         "concept": "c:tiempo-y-calendario.segundo-tiempo",
         "en": "second (time)",
         "es": "segundo (tiempo)",
         "ja": "秒 (時間)",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "byou ( jikan )"
       },
       {
         "concept": "c:tiempo-y-calendario.hora-duracion",
         "en": "time (duration)",
         "es": "hora (duración)",
         "ja": "時間(分岐)",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "jikan ( bunki )"
       },
       {
         "concept": "c:tiempo-y-calendario.manana-temprano",
         "en": "(early)",
         "es": "mañana (temprano)",
         "ja": "(早々)",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "( sousou )"
       },
       {
         "concept": "c:tiempo-y-calendario.mediodia-tarde",
         "en": "noon / afternoon",
         "es": "mediodía / tarde",
         "ja": "昼・午後",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "hiru ・ gogo"
       },
       {
         "concept": "c:tiempo-y-calendario.tarde-atardecer",
         "en": "late / evening",
         "es": "tarde / atardecer",
         "ja": "深夜/夕方",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "shinya / yuugata"
       },
       {
         "concept": "c:tiempo-y-calendario.noche",
         "en": "night",
         "es": "noche",
         "ja": "夜行",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "yakou"
       },
       {
         "concept": "c:tiempo-y-calendario.medianoche",
         "en": "midnight",
         "es": "medianoche",
         "ja": "深夜",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "shinya"
       },
       {
         "concept": "c:tiempo-y-calendario.dia",
         "en": "day",
         "es": "día",
         "ja": "日・祝",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "nichi ・ shuku"
       },
       {
         "concept": "c:tiempo-y-calendario.hoy",
         "en": "Today",
         "es": "hoy",
         "ja": "日頃から",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "higoro kara"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "時間/時間",
+            "answerTranslit": "jikan / jikan",
+            "concept": "c:tiempo-y-calendario.tiempo-hora",
+            "optionTranslit": {
+              "(早々)": "( sousou )",
+              "ツイート": "tsuiito",
+              "日頃から": "higoro kara",
+              "時間/時間": "jikan / jikan"
+            },
+            "options": [
+              "(早々)",
+              "日頃から",
+              "時間/時間",
+              "ツイート"
+            ],
+            "prompt": "tiempo / hora"
+          },
+          {
+            "answer": "時計/時間",
+            "answerTranslit": "tokei / jikan",
+            "concept": "c:tiempo-y-calendario.reloj-hora",
+            "optionTranslit": {
+              "夜行": "yakou",
+              "昼・午後": "hiru ・ gogo",
+              "時計/時間": "tokei / jikan",
+              "深夜": "shinya"
+            },
+            "options": [
+              "時計/時間",
+              "昼・午後",
+              "夜行",
+              "深夜"
+            ],
+            "prompt": "reloj / hora"
+          },
+          {
+            "answer": "ツイート",
+            "answerTranslit": "tsuiito",
+            "concept": "c:tiempo-y-calendario.minuto",
+            "optionTranslit": {
+              "ツイート": "tsuiito",
+              "日・祝": "nichi ・ shuku",
+              "昼・午後": "hiru ・ gogo",
+              "秒 (時間)": "byou ( jikan )"
+            },
+            "options": [
+              "昼・午後",
+              "秒 (時間)",
+              "ツイート",
+              "日・祝"
+            ],
+            "prompt": "minuto"
+          },
+          {
+            "answer": "秒 (時間)",
+            "answerTranslit": "byou ( jikan )",
+            "concept": "c:tiempo-y-calendario.segundo-tiempo",
+            "optionTranslit": {
+              "夜行": "yakou",
+              "日・祝": "nichi ・ shuku",
+              "深夜": "shinya",
+              "秒 (時間)": "byou ( jikan )"
+            },
+            "options": [
+              "秒 (時間)",
+              "夜行",
+              "深夜",
+              "日・祝"
+            ],
+            "prompt": "segundo (tiempo)"
+          },
+          {
+            "answer": "時間(分岐)",
+            "answerTranslit": "jikan ( bunki )",
+            "concept": "c:tiempo-y-calendario.hora-duracion",
+            "optionTranslit": {
+              "ツイート": "tsuiito",
+              "時計/時間": "tokei / jikan",
+              "時間(分岐)": "jikan ( bunki )",
+              "秒 (時間)": "byou ( jikan )"
+            },
+            "options": [
+              "秒 (時間)",
+              "時計/時間",
+              "時間(分岐)",
+              "ツイート"
+            ],
+            "prompt": "hora (duración)"
+          },
+          {
+            "answer": "(早々)",
+            "answerTranslit": "( sousou )",
+            "concept": "c:tiempo-y-calendario.manana-temprano",
+            "optionTranslit": {
+              "(早々)": "( sousou )",
+              "日・祝": "nichi ・ shuku",
+              "昼・午後": "hiru ・ gogo",
+              "時間/時間": "jikan / jikan"
+            },
+            "options": [
+              "(早々)",
+              "日・祝",
+              "時間/時間",
+              "昼・午後"
+            ],
+            "prompt": "mañana (temprano)"
+          },
+          {
+            "answer": "昼・午後",
+            "answerTranslit": "hiru ・ gogo",
+            "concept": "c:tiempo-y-calendario.mediodia-tarde",
+            "optionTranslit": {
+              "ツイート": "tsuiito",
+              "日頃から": "higoro kara",
+              "昼・午後": "hiru ・ gogo",
+              "時間/時間": "jikan / jikan"
+            },
+            "options": [
+              "時間/時間",
+              "ツイート",
+              "昼・午後",
+              "日頃から"
+            ],
+            "prompt": "mediodía / tarde"
+          },
+          {
+            "answer": "深夜/夕方",
+            "answerTranslit": "shinya / yuugata",
+            "concept": "c:tiempo-y-calendario.tarde-atardecer",
+            "optionTranslit": {
+              "ツイート": "tsuiito",
+              "昼・午後": "hiru ・ gogo",
+              "時計/時間": "tokei / jikan",
+              "深夜/夕方": "shinya / yuugata"
+            },
+            "options": [
+              "時計/時間",
+              "昼・午後",
+              "深夜/夕方",
+              "ツイート"
+            ],
+            "prompt": "tarde / atardecer"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Words to place actions in time: days, months and seasons.",
-      "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones.",
-      "ja": "行動を時間内に配置する単語:日、月と季節。"
+      "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."
     },
     "generator": "build_lessons",
     "id": "ja-u8-l1",
@@ -2155,10 +6839,6 @@
       "es": [
         "Decir días, meses y estaciones",
         "Hablar de fechas"
-      ],
-      "ja": [
-        "日、月と季節を言う",
-        "日程について"
       ]
     },
     "tables": [
@@ -2236,8 +6916,7 @@
     ],
     "title": {
       "en": "Time and calendar",
-      "es": "El tiempo y el calendario",
-      "ja": "時刻とカレンダー"
+      "es": "El tiempo y el calendario"
     },
     "unit": 8
   },
@@ -2262,91 +6941,256 @@
         "en": "animal",
         "es": "animal",
         "ja": "アニマル",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "animaru"
       },
       {
         "concept": "c:animales.perro",
         "en": "dog",
         "es": "perro",
         "ja": "犬の猫",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "inu no neko"
       },
       {
         "concept": "c:animales.gato",
         "en": "cat",
         "es": "gato",
         "ja": "猫ちゃん",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "neko chan"
       },
       {
         "concept": "c:animales.vaca",
         "en": "cow",
         "es": "vaca",
         "ja": "牛の",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ushi no"
       },
       {
         "concept": "c:animales.buey-toro",
         "en": "ox / bull",
         "es": "buey / toro",
         "ja": "OX/ブル",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "OX/ buru"
       },
       {
         "concept": "c:animales.bufalo",
         "en": "buffalo",
         "es": "búfalo",
         "ja": "バッファロー",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "baffaroo"
       },
       {
         "concept": "c:animales.caballo",
         "en": "horse",
         "es": "caballo",
         "ja": "馬の騎乗",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "uma no kijou"
       },
       {
         "concept": "c:animales.burro-asno",
         "en": "donkey / ass",
         "es": "burro / asno",
         "ja": "ドンキー/アス",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "donkii / asu"
       },
       {
         "concept": "c:animales.cabra",
         "en": "goat",
         "es": "cabra",
         "ja": "ゴート",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "gooto"
       },
       {
         "concept": "c:animales.oveja",
         "en": "sheep",
         "es": "oveja",
         "ja": "ヒツジ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "hitsuji"
       },
       {
         "concept": "c:animales.cerdo",
         "en": "pig",
         "es": "cerdo",
         "ja": "チャイブ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "chaibu"
       },
       {
         "concept": "c:animales.gallina",
         "en": "chicken",
         "es": "gallina",
         "ja": "チキン",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "chikin"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "アニマル",
+            "answerTranslit": "animaru",
+            "concept": "c:animales.animal",
+            "optionTranslit": {
+              "アニマル": "animaru",
+              "チャイブ": "chaibu",
+              "猫ちゃん": "neko chan",
+              "馬の騎乗": "uma no kijou"
+            },
+            "options": [
+              "馬の騎乗",
+              "アニマル",
+              "猫ちゃん",
+              "チャイブ"
+            ],
+            "prompt": "animal"
+          },
+          {
+            "answer": "犬の猫",
+            "answerTranslit": "inu no neko",
+            "concept": "c:animales.perro",
+            "optionTranslit": {
+              "アニマル": "animaru",
+              "チキン": "chikin",
+              "チャイブ": "chaibu",
+              "犬の猫": "inu no neko"
+            },
+            "options": [
+              "チキン",
+              "犬の猫",
+              "チャイブ",
+              "アニマル"
+            ],
+            "prompt": "perro"
+          },
+          {
+            "answer": "猫ちゃん",
+            "answerTranslit": "neko chan",
+            "concept": "c:animales.gato",
+            "optionTranslit": {
+              "アニマル": "animaru",
+              "チャイブ": "chaibu",
+              "猫ちゃん": "neko chan",
+              "馬の騎乗": "uma no kijou"
+            },
+            "options": [
+              "猫ちゃん",
+              "チャイブ",
+              "馬の騎乗",
+              "アニマル"
+            ],
+            "prompt": "gato"
+          },
+          {
+            "answer": "牛の",
+            "answerTranslit": "ushi no",
+            "concept": "c:animales.vaca",
+            "optionTranslit": {
+              "OX/ブル": "OX/ buru",
+              "チャイブ": "chaibu",
+              "牛の": "ushi no",
+              "猫ちゃん": "neko chan"
+            },
+            "options": [
+              "牛の",
+              "OX/ブル",
+              "猫ちゃん",
+              "チャイブ"
+            ],
+            "prompt": "vaca"
+          },
+          {
+            "answer": "OX/ブル",
+            "answerTranslit": "OX/ buru",
+            "concept": "c:animales.buey-toro",
+            "optionTranslit": {
+              "OX/ブル": "OX/ buru",
+              "ドンキー/アス": "donkii / asu",
+              "バッファロー": "baffaroo",
+              "犬の猫": "inu no neko"
+            },
+            "options": [
+              "バッファロー",
+              "ドンキー/アス",
+              "OX/ブル",
+              "犬の猫"
+            ],
+            "prompt": "buey / toro"
+          },
+          {
+            "answer": "バッファロー",
+            "answerTranslit": "baffaroo",
+            "concept": "c:animales.bufalo",
+            "optionTranslit": {
+              "アニマル": "animaru",
+              "ゴート": "gooto",
+              "チキン": "chikin",
+              "バッファロー": "baffaroo"
+            },
+            "options": [
+              "バッファロー",
+              "ゴート",
+              "チキン",
+              "アニマル"
+            ],
+            "prompt": "búfalo"
+          },
+          {
+            "answer": "馬の騎乗",
+            "answerTranslit": "uma no kijou",
+            "concept": "c:animales.caballo",
+            "optionTranslit": {
+              "OX/ブル": "OX/ buru",
+              "アニマル": "animaru",
+              "チキン": "chikin",
+              "馬の騎乗": "uma no kijou"
+            },
+            "options": [
+              "OX/ブル",
+              "チキン",
+              "アニマル",
+              "馬の騎乗"
+            ],
+            "prompt": "caballo"
+          },
+          {
+            "answer": "ドンキー/アス",
+            "answerTranslit": "donkii / asu",
+            "concept": "c:animales.burro-asno",
+            "optionTranslit": {
+              "ドンキー/アス": "donkii / asu",
+              "ヒツジ": "hitsuji",
+              "牛の": "ushi no",
+              "犬の猫": "inu no neko"
+            },
+            "options": [
+              "ヒツジ",
+              "犬の猫",
+              "牛の",
+              "ドンキー/アス"
+            ],
+            "prompt": "burro / asno"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Common animals, both domestic and wild.",
-      "es": "Animales frecuentes, tanto domésticos como salvajes.",
-      "ja": "動物、国内・野生の両種。"
+      "es": "Animales frecuentes, tanto domésticos como salvajes."
     },
     "generator": "build_lessons",
     "id": "ja-u9-l1",
@@ -2360,10 +7204,6 @@
       "es": [
         "Nombrar animales comunes",
         "Describir animales"
-      ],
-      "ja": [
-        "名称 一般動物",
-        "動物を記述する"
       ]
     },
     "tables": [
@@ -2441,8 +7281,7 @@
     ],
     "title": {
       "en": "Animals",
-      "es": "Los animales",
-      "ja": "動物たち"
+      "es": "Los animales"
     },
     "unit": 9
   }

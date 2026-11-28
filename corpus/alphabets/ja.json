@@ -1,0 +1,60 @@
+{
+  "lang": "ja",
+  "script": "japanese",
+  "direction": "ltr",
+  "title": {"es": "Escritura japonesa: los kana", "en": "Japanese writing: the kana"},
+  "intro": {
+    "es": "El japonés combina tres escrituras: hiragana (curvo, para gramática y palabras nativas), katakana (anguloso, para préstamos y nombres extranjeros) y kanji (caracteres de origen chino). Aquí tienes los dos silabarios básicos. Cada signo es una sílaba completa con la lectura en rōmaji.",
+    "en": "Japanese mixes three scripts: hiragana (curved, for grammar and native words), katakana (angular, for loanwords and foreign names) and kanji (characters of Chinese origin). Here are the two basic syllabaries. Each sign is a full syllable with its rōmaji reading."
+  },
+  "sections": [
+    {
+      "title": {"es": "Hiragana (ひらがな)", "en": "Hiragana (ひらがな)"},
+      "columns": [
+        {"key": "char", "label": {"es": "Signo", "en": "Glyph"}},
+        {"key": "translit", "label": {"es": "Lectura", "en": "Reading"}}
+      ],
+      "items": [
+        {"char": "あ", "translit": "a"}, {"char": "い", "translit": "i"}, {"char": "う", "translit": "u"}, {"char": "え", "translit": "e"}, {"char": "お", "translit": "o"},
+        {"char": "か", "translit": "ka"}, {"char": "き", "translit": "ki"}, {"char": "く", "translit": "ku"}, {"char": "け", "translit": "ke"}, {"char": "こ", "translit": "ko"},
+        {"char": "さ", "translit": "sa"}, {"char": "し", "translit": "shi"}, {"char": "す", "translit": "su"}, {"char": "せ", "translit": "se"}, {"char": "そ", "translit": "so"},
+        {"char": "た", "translit": "ta"}, {"char": "ち", "translit": "chi"}, {"char": "つ", "translit": "tsu"}, {"char": "て", "translit": "te"}, {"char": "と", "translit": "to"},
+        {"char": "な", "translit": "na"}, {"char": "に", "translit": "ni"}, {"char": "ぬ", "translit": "nu"}, {"char": "ね", "translit": "ne"}, {"char": "の", "translit": "no"},
+        {"char": "は", "translit": "ha"}, {"char": "ひ", "translit": "hi"}, {"char": "ふ", "translit": "fu"}, {"char": "へ", "translit": "he"}, {"char": "ほ", "translit": "ho"},
+        {"char": "ま", "translit": "ma"}, {"char": "み", "translit": "mi"}, {"char": "む", "translit": "mu"}, {"char": "め", "translit": "me"}, {"char": "も", "translit": "mo"},
+        {"char": "や", "translit": "ya"}, {"char": "ゆ", "translit": "yu"}, {"char": "よ", "translit": "yo"},
+        {"char": "ら", "translit": "ra"}, {"char": "り", "translit": "ri"}, {"char": "る", "translit": "ru"}, {"char": "れ", "translit": "re"}, {"char": "ろ", "translit": "ro"},
+        {"char": "わ", "translit": "wa"}, {"char": "を", "translit": "o (wo)"}, {"char": "ん", "translit": "n"}
+      ]
+    },
+    {
+      "title": {"es": "Katakana (カタカナ)", "en": "Katakana (カタカナ)"},
+      "columns": [
+        {"key": "char", "label": {"es": "Signo", "en": "Glyph"}},
+        {"key": "translit", "label": {"es": "Lectura", "en": "Reading"}}
+      ],
+      "items": [
+        {"char": "ア", "translit": "a"}, {"char": "イ", "translit": "i"}, {"char": "ウ", "translit": "u"}, {"char": "エ", "translit": "e"}, {"char": "オ", "translit": "o"},
+        {"char": "カ", "translit": "ka"}, {"char": "キ", "translit": "ki"}, {"char": "ク", "translit": "ku"}, {"char": "ケ", "translit": "ke"}, {"char": "コ", "translit": "ko"},
+        {"char": "サ", "translit": "sa"}, {"char": "シ", "translit": "shi"}, {"char": "ス", "translit": "su"}, {"char": "セ", "translit": "se"}, {"char": "ソ", "translit": "so"},
+        {"char": "タ", "translit": "ta"}, {"char": "チ", "translit": "chi"}, {"char": "ツ", "translit": "tsu"}, {"char": "テ", "translit": "te"}, {"char": "ト", "translit": "to"},
+        {"char": "ナ", "translit": "na"}, {"char": "ニ", "translit": "ni"}, {"char": "ヌ", "translit": "nu"}, {"char": "ネ", "translit": "ne"}, {"char": "ノ", "translit": "no"},
+        {"char": "ハ", "translit": "ha"}, {"char": "ヒ", "translit": "hi"}, {"char": "フ", "translit": "fu"}, {"char": "ヘ", "translit": "he"}, {"char": "ホ", "translit": "ho"},
+        {"char": "マ", "translit": "ma"}, {"char": "ミ", "translit": "mi"}, {"char": "ム", "translit": "mu"}, {"char": "メ", "translit": "me"}, {"char": "モ", "translit": "mo"},
+        {"char": "ヤ", "translit": "ya"}, {"char": "ユ", "translit": "yu"}, {"char": "ヨ", "translit": "yo"},
+        {"char": "ラ", "translit": "ra"}, {"char": "リ", "translit": "ri"}, {"char": "ル", "translit": "ru"}, {"char": "レ", "translit": "re"}, {"char": "ロ", "translit": "ro"},
+        {"char": "ワ", "translit": "wa"}, {"char": "ヲ", "translit": "o (wo)"}, {"char": "ン", "translit": "n"}
+      ]
+    },
+    {
+      "title": {"es": "Signos con dakuten (゛) y handakuten (゜)", "en": "Dakuten (゛) and handakuten (゜) marks"},
+      "columns": [
+        {"key": "char", "label": {"es": "Signo", "en": "Glyph"}},
+        {"key": "translit", "label": {"es": "Lectura", "en": "Reading"}}
+      ],
+      "items": [
+        {"char": "が", "translit": "ga"}, {"char": "ざ", "translit": "za"}, {"char": "だ", "translit": "da"}, {"char": "ば", "translit": "ba"}, {"char": "ぱ", "translit": "pa"}
+      ]
+    }
+  ]
+}

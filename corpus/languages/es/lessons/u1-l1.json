@@ -80,7 +80,105 @@
       "speaker": "A"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "hola",
+          "concept": "c:saludos-y-expresiones.hola",
+          "options": [
+            "hasta luego",
+            "hola",
+            "por favor",
+            "buenas tardes"
+          ],
+          "prompt": "hola"
+        },
+        {
+          "answer": "buenos días",
+          "concept": "c:saludos-y-expresiones.buenos-dias",
+          "options": [
+            "sí",
+            "perdón / disculpe",
+            "buenos días",
+            "por favor"
+          ],
+          "prompt": "buenos días"
+        },
+        {
+          "answer": "buenas tardes",
+          "concept": "c:saludos-y-expresiones.buenas-tardes",
+          "options": [
+            "buenas tardes",
+            "hasta luego",
+            "adiós",
+            "gracias"
+          ],
+          "prompt": "buenas tardes"
+        },
+        {
+          "answer": "buenas noches",
+          "concept": "c:saludos-y-expresiones.buenas-noches",
+          "options": [
+            "hasta luego",
+            "hola",
+            "buenas noches",
+            "adiós"
+          ],
+          "prompt": "buenas noches"
+        },
+        {
+          "answer": "gracias",
+          "concept": "c:saludos-y-expresiones.gracias",
+          "options": [
+            "gracias",
+            "hasta luego",
+            "hola",
+            "buenas tardes"
+          ],
+          "prompt": "gracias"
+        },
+        {
+          "answer": "por favor",
+          "concept": "c:saludos-y-expresiones.por-favor",
+          "options": [
+            "por favor",
+            "gracias",
+            "buenos días",
+            "hola"
+          ],
+          "prompt": "por favor"
+        },
+        {
+          "answer": "perdón / disculpe",
+          "concept": "c:saludos-y-expresiones.perdon-disculpe",
+          "options": [
+            "hola",
+            "perdón / disculpe",
+            "hasta luego",
+            "no"
+          ],
+          "prompt": "perdón / disculpe"
+        },
+        {
+          "answer": "adiós",
+          "concept": "c:saludos-y-expresiones.adios",
+          "options": [
+            "adiós",
+            "perdón / disculpe",
+            "hasta luego",
+            "no"
+          ],
+          "prompt": "adiós"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic courtesy expressions to open and close a conversation.",
     "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."

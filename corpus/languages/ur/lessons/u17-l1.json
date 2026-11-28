@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:educacion-y-aprendizaje.educacion",
+    "c:educacion-y-aprendizaje.escuela",
+    "c:educacion-y-aprendizaje.clase-aula-grado",
+    "c:educacion-y-aprendizaje.leccion",
+    "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+    "c:educacion-y-aprendizaje.materia-tema-asunto",
+    "c:educacion-y-aprendizaje.matematicas",
+    "c:educacion-y-aprendizaje.ciencia",
+    "c:educacion-y-aprendizaje.historia",
+    "c:educacion-y-aprendizaje.geografia",
+    "c:educacion-y-aprendizaje.literatura",
+    "c:educacion-y-aprendizaje.idioma-lengua"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:educacion-y-aprendizaje.educacion",
+      "en": "education",
+      "es": "educación",
+      "speaker": "A",
+      "translit": "śikṣā",
+      "ur": "شِکشا"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.escuela",
+      "en": "school",
+      "es": "escuela",
+      "speaker": "B",
+      "translit": "school / madrasa",
+      "ur": "اسکول / مدرسہ — escuela"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+      "en": "class / classroom",
+      "es": "clase / aula / grado",
+      "speaker": "A",
+      "translit": "kakṣā",
+      "ur": "ککشا"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.leccion",
+      "en": "lesson",
+      "es": "lección",
+      "speaker": "B",
+      "translit": "pāṭh",
+      "ur": "پاٹھ"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "en": "curriculum / course",
+      "es": "plan de estudios / curso",
+      "speaker": "A",
+      "translit": "pāṭhyakram",
+      "ur": "پاٹھیکرم"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "en": "subject / topic",
+      "es": "materia / tema / asunto",
+      "speaker": "B",
+      "translit": "viṣay",
+      "ur": "وِشی"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.matematicas",
+      "en": "mathematics",
+      "es": "matemáticas",
+      "speaker": "A",
+      "translit": "gaṇit",
+      "ur": "گنِت"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.ciencia",
+      "en": "science",
+      "es": "ciencia",
+      "speaker": "B",
+      "translit": "vijñān",
+      "ur": "وِجنجان"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.historia",
+      "en": "history",
+      "es": "historia",
+      "speaker": "A",
+      "translit": "itihās",
+      "ur": "اِتِہاس"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.geografia",
+      "en": "geography",
+      "es": "geografía",
+      "speaker": "B",
+      "translit": "bhūgol",
+      "ur": "بھوگول"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.literatura",
+      "en": "literature",
+      "es": "literatura",
+      "speaker": "A",
+      "translit": "sāhitya",
+      "ur": "ساہِتی"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+      "en": "language / tongue",
+      "es": "idioma / lengua",
+      "speaker": "B",
+      "translit": "zubaan",
+      "ur": "زبان"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "شِکشا",
+          "answerTranslit": "śikṣā",
+          "concept": "c:educacion-y-aprendizaje.educacion",
+          "optionTranslit": {
+            "زبان": "zubaan",
+            "شِکشا": "śikṣā",
+            "وِشی": "viṣay",
+            "پاٹھیکرم": "pāṭhyakram"
+          },
+          "options": [
+            "وِشی",
+            "پاٹھیکرم",
+            "زبان",
+            "شِکشا"
+          ],
+          "prompt": "educación"
+        },
+        {
+          "answer": "اسکول / مدرسہ — escuela",
+          "answerTranslit": "school / madrasa",
+          "concept": "c:educacion-y-aprendizaje.escuela",
+          "optionTranslit": {
+            "اسکول / مدرسہ — escuela": "school / madrasa",
+            "بھوگول": "bhūgol",
+            "وِشی": "viṣay",
+            "گنِت": "gaṇit"
+          },
+          "options": [
+            "وِشی",
+            "بھوگول",
+            "گنِت",
+            "اسکول / مدرسہ — escuela"
+          ],
+          "prompt": "escuela"
+        },
+        {
+          "answer": "ککشا",
+          "answerTranslit": "kakṣā",
+          "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+          "optionTranslit": {
+            "اِتِہاس": "itihās",
+            "بھوگول": "bhūgol",
+            "وِشی": "viṣay",
+            "ککشا": "kakṣā"
+          },
+          "options": [
+            "وِشی",
+            "بھوگول",
+            "اِتِہاس",
+            "ککشا"
+          ],
+          "prompt": "clase / aula / grado"
+        },
+        {
+          "answer": "پاٹھ",
+          "answerTranslit": "pāṭh",
+          "concept": "c:educacion-y-aprendizaje.leccion",
+          "optionTranslit": {
+            "اِتِہاس": "itihās",
+            "زبان": "zubaan",
+            "وِشی": "viṣay",
+            "پاٹھ": "pāṭh"
+          },
+          "options": [
+            "اِتِہاس",
+            "زبان",
+            "وِشی",
+            "پاٹھ"
+          ],
+          "prompt": "lección"
+        },
+        {
+          "answer": "پاٹھیکرم",
+          "answerTranslit": "pāṭhyakram",
+          "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+          "optionTranslit": {
+            "اسکول / مدرسہ — escuela": "school / madrasa",
+            "بھوگول": "bhūgol",
+            "پاٹھیکرم": "pāṭhyakram",
+            "گنِت": "gaṇit"
+          },
+          "options": [
+            "اسکول / مدرسہ — escuela",
+            "بھوگول",
+            "گنِت",
+            "پاٹھیکرم"
+          ],
+          "prompt": "plan de estudios / curso"
+        },
+        {
+          "answer": "وِشی",
+          "answerTranslit": "viṣay",
+          "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+          "optionTranslit": {
+            "اسکول / مدرسہ — escuela": "school / madrasa",
+            "بھوگول": "bhūgol",
+            "ساہِتی": "sāhitya",
+            "وِشی": "viṣay"
+          },
+          "options": [
+            "وِشی",
+            "اسکول / مدرسہ — escuela",
+            "بھوگول",
+            "ساہِتی"
+          ],
+          "prompt": "materia / tema / asunto"
+        },
+        {
+          "answer": "گنِت",
+          "answerTranslit": "gaṇit",
+          "concept": "c:educacion-y-aprendizaje.matematicas",
+          "optionTranslit": {
+            "اسکول / مدرسہ — escuela": "school / madrasa",
+            "بھوگول": "bhūgol",
+            "زبان": "zubaan",
+            "گنِت": "gaṇit"
+          },
+          "options": [
+            "زبان",
+            "بھوگول",
+            "گنِت",
+            "اسکول / مدرسہ — escuela"
+          ],
+          "prompt": "matemáticas"
+        },
+        {
+          "answer": "وِجنجان",
+          "answerTranslit": "vijñān",
+          "concept": "c:educacion-y-aprendizaje.ciencia",
+          "optionTranslit": {
+            "زبان": "zubaan",
+            "شِکشا": "śikṣā",
+            "وِجنجان": "vijñān",
+            "گنِت": "gaṇit"
+          },
+          "options": [
+            "شِکشا",
+            "گنِت",
+            "زبان",
+            "وِجنجان"
+          ],
+          "prompt": "ciencia"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Words from school and learning.",
+    "es": "Palabras de la escuela y del aprendizaje."
+  },
+  "generator": "build_lessons",
+  "id": "ur-u17-l1",
+  "lang": "ur",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Talk about studies",
+      "Name school and its objects"
+    ],
+    "es": [
+      "Hablar de estudios",
+      "Nombrar la escuela y sus objetos"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ur"
+      ],
+      "rows": [
+        [
+          "educación",
+          "education",
+          "شِکشا"
+        ],
+        [
+          "escuela",
+          "school",
+          "اسکول / مدرسہ — escuela"
+        ],
+        [
+          "clase / aula / grado",
+          "class / classroom",
+          "ککشا"
+        ],
+        [
+          "lección",
+          "lesson",
+          "پاٹھ"
+        ],
+        [
+          "plan de estudios / curso",
+          "curriculum / course",
+          "پاٹھیکرم"
+        ],
+        [
+          "materia / tema / asunto",
+          "subject / topic",
+          "وِشی"
+        ],
+        [
+          "matemáticas",
+          "mathematics",
+          "گنِت"
+        ],
+        [
+          "ciencia",
+          "science",
+          "وِجنجان"
+        ],
+        [
+          "historia",
+          "history",
+          "اِتِہاس"
+        ],
+        [
+          "geografía",
+          "geography",
+          "بھوگول"
+        ],
+        [
+          "literatura",
+          "literature",
+          "ساہِتی"
+        ],
+        [
+          "idioma / lengua",
+          "language / tongue",
+          "زبان"
+        ]
+      ],
+      "title": "es · en · ur",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Education and learning",
+    "es": "La educación y el aprendizaje"
+  },
+  "unit": 17
+}

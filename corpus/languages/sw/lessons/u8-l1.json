@@ -19,87 +19,196 @@
       "en": "time / hour",
       "es": "tiempo / hora",
       "speaker": "A",
-      "sw": "tiempo"
+      "sw": "wakati"
     },
     {
       "concept": "c:tiempo-y-calendario.reloj-hora",
       "en": "clock / time",
       "es": "reloj / hora",
       "speaker": "B",
-      "sw": "reloj"
+      "sw": "saa"
     },
     {
       "concept": "c:tiempo-y-calendario.minuto",
       "en": "minute",
       "es": "minuto",
       "speaker": "A",
-      "sw": "minuto"
+      "sw": "dakika"
     },
     {
       "concept": "c:tiempo-y-calendario.segundo-tiempo",
       "en": "second (time)",
       "es": "segundo (tiempo)",
       "speaker": "B",
-      "sw": "wa pili"
+      "sw": "wa pili",
+      "translit": "wa pi-li"
     },
     {
       "concept": "c:tiempo-y-calendario.hora-duracion",
       "en": "time (duration)",
       "es": "hora (duración)",
       "speaker": "A",
-      "sw": "hora"
+      "sw": "saa"
     },
     {
       "concept": "c:tiempo-y-calendario.manana-temprano",
       "en": "(early)",
       "es": "mañana (temprano)",
       "speaker": "B",
-      "sw": "Kesho / Jana — mañana (temprano)"
+      "sw": "kesho"
     },
     {
       "concept": "c:tiempo-y-calendario.mediodia-tarde",
       "en": "noon / afternoon",
       "es": "mediodía / tarde",
       "speaker": "A",
-      "sw": "mediodía — mediodía / tarde"
+      "sw": "mchana"
     },
     {
       "concept": "c:tiempo-y-calendario.tarde-atardecer",
       "en": "late / evening",
       "es": "tarde / atardecer",
       "speaker": "B",
-      "sw": "tarde — tarde / atardecer"
+      "sw": "jioni"
     },
     {
       "concept": "c:tiempo-y-calendario.noche",
       "en": "night",
       "es": "noche",
       "speaker": "A",
-      "sw": "usiku — noche"
+      "sw": "usiku"
     },
     {
       "concept": "c:tiempo-y-calendario.medianoche",
       "en": "midnight",
       "es": "medianoche",
       "speaker": "B",
-      "sw": "medianoche"
+      "sw": "makundi usiku"
     },
     {
       "concept": "c:tiempo-y-calendario.dia",
       "en": "day",
       "es": "día",
       "speaker": "A",
-      "sw": "mchana / siku — día"
+      "sw": "siku"
     },
     {
       "concept": "c:tiempo-y-calendario.hoy",
       "en": "Today",
       "es": "hoy",
       "speaker": "B",
-      "sw": "Leo — hoy"
+      "sw": "leo"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "wakati",
+          "concept": "c:tiempo-y-calendario.tiempo-hora",
+          "options": [
+            "mchana",
+            "leo",
+            "wakati",
+            "dakika"
+          ],
+          "prompt": "tiempo / hora"
+        },
+        {
+          "answer": "saa",
+          "concept": "c:tiempo-y-calendario.reloj-hora",
+          "options": [
+            "saa",
+            "jioni",
+            "makundi usiku",
+            "siku"
+          ],
+          "prompt": "reloj / hora"
+        },
+        {
+          "answer": "dakika",
+          "concept": "c:tiempo-y-calendario.minuto",
+          "optionTranslit": {
+            "wa pili": "wa pi-li"
+          },
+          "options": [
+            "jioni",
+            "wa pili",
+            "dakika",
+            "siku"
+          ],
+          "prompt": "minuto"
+        },
+        {
+          "answer": "wa pili",
+          "answerTranslit": "wa pi-li",
+          "concept": "c:tiempo-y-calendario.segundo-tiempo",
+          "optionTranslit": {
+            "wa pili": "wa pi-li"
+          },
+          "options": [
+            "wa pili",
+            "saa",
+            "makundi usiku",
+            "leo"
+          ],
+          "prompt": "segundo (tiempo)"
+        },
+        {
+          "answer": "saa",
+          "concept": "c:tiempo-y-calendario.hora-duracion",
+          "optionTranslit": {
+            "wa pili": "wa pi-li"
+          },
+          "options": [
+            "kesho",
+            "dakika",
+            "saa",
+            "wa pili"
+          ],
+          "prompt": "hora (duración)"
+        },
+        {
+          "answer": "kesho",
+          "concept": "c:tiempo-y-calendario.manana-temprano",
+          "options": [
+            "saa",
+            "kesho",
+            "jioni",
+            "wakati"
+          ],
+          "prompt": "mañana (temprano)"
+        },
+        {
+          "answer": "mchana",
+          "concept": "c:tiempo-y-calendario.mediodia-tarde",
+          "options": [
+            "mchana",
+            "usiku",
+            "wakati",
+            "dakika"
+          ],
+          "prompt": "mediodía / tarde"
+        },
+        {
+          "answer": "jioni",
+          "concept": "c:tiempo-y-calendario.tarde-atardecer",
+          "options": [
+            "saa",
+            "usiku",
+            "jioni",
+            "dakika"
+          ],
+          "prompt": "tarde / atardecer"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to place actions in time: days, months and seasons.",
     "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."
@@ -129,17 +238,17 @@
         [
           "tiempo / hora",
           "time / hour",
-          "tiempo"
+          "wakati"
         ],
         [
           "reloj / hora",
           "clock / time",
-          "reloj"
+          "saa"
         ],
         [
           "minuto",
           "minute",
-          "minuto"
+          "dakika"
         ],
         [
           "segundo (tiempo)",
@@ -149,42 +258,42 @@
         [
           "hora (duración)",
           "time (duration)",
-          "hora"
+          "saa"
         ],
         [
           "mañana (temprano)",
           "(early)",
-          "Kesho / Jana — mañana (temprano)"
+          "kesho"
         ],
         [
           "mediodía / tarde",
           "noon / afternoon",
-          "mediodía — mediodía / tarde"
+          "mchana"
         ],
         [
           "tarde / atardecer",
           "late / evening",
-          "tarde — tarde / atardecer"
+          "jioni"
         ],
         [
           "noche",
           "night",
-          "usiku — noche"
+          "usiku"
         ],
         [
           "medianoche",
           "midnight",
-          "medianoche"
+          "makundi usiku"
         ],
         [
           "día",
           "day",
-          "mchana / siku — día"
+          "siku"
         ],
         [
           "hoy",
           "Today",
-          "Leo — hoy"
+          "leo"
         ]
       ],
       "title": "es · en · sw",

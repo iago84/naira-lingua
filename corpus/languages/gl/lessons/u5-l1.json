@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "corpo",
+          "concept": "c:cuerpo-humano.cuerpo",
+          "options": [
+            "ollos",
+            "corpo",
+            "Fronte",
+            "Pista / tabla"
+          ],
+          "prompt": "cuerpo"
+        },
+        {
+          "answer": "Cabeza",
+          "concept": "c:cuerpo-humano.cabeza",
+          "options": [
+            "Ollo",
+            "Cabeza",
+            "Boca",
+            "ollos"
+          ],
+          "prompt": "cabeza"
+        },
+        {
+          "answer": "cabelo / pelo",
+          "concept": "c:cuerpo-humano.cabello-pelo",
+          "options": [
+            "nariz",
+            "Beef",
+            "cabelo / pelo",
+            "Fronte"
+          ],
+          "prompt": "cabello / pelo"
+        },
+        {
+          "answer": "cara / lado",
+          "concept": "c:cuerpo-humano.cara-rostro",
+          "options": [
+            "corpo",
+            "cara / lado",
+            "cabelo / pelo",
+            "ollos"
+          ],
+          "prompt": "cara / rostro"
+        },
+        {
+          "answer": "Fronte",
+          "concept": "c:cuerpo-humano.frente",
+          "options": [
+            "cabelo / pelo",
+            "Fronte",
+            "Ollo",
+            "ollos"
+          ],
+          "prompt": "frente"
+        },
+        {
+          "answer": "Ollo",
+          "concept": "c:cuerpo-humano.ojo",
+          "options": [
+            "Fronte",
+            "Ollo",
+            "Pista / tabla",
+            "Cabeza"
+          ],
+          "prompt": "ojo"
+        },
+        {
+          "answer": "ollos",
+          "concept": "c:cuerpo-humano.ojos",
+          "options": [
+            "ollos",
+            "orellas / oídos",
+            "Cabeza",
+            "nariz"
+          ],
+          "prompt": "ojos"
+        },
+        {
+          "answer": "Beef",
+          "concept": "c:cuerpo-humano.ceja",
+          "options": [
+            "Beef",
+            "Fronte",
+            "Cabeza",
+            "Pista / tabla"
+          ],
+          "prompt": "ceja"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Parts of the body, useful to talk about health and care.",
-    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
-    "gl": "As partes do corpo, útiles para falar de saúde e coidado."
+    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
   },
   "generator": "build_lessons",
   "id": "gl-u5-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar las partes del cuerpo",
       "Hablar de la salud"
-    ],
-    "gl": [
-      "Nomea as partes do corpo",
-      "Falar sobre saúde"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "The human body",
-    "es": "El cuerpo humano",
-    "gl": "O corpo humano"
+    "es": "El cuerpo humano"
   },
   "unit": 5
 }

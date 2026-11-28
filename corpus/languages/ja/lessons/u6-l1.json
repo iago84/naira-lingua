@@ -19,91 +19,256 @@
       "en": "food / eat",
       "es": "comida / comer",
       "ja": "食・食べ方",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "shoku ・ tabekata"
     },
     {
       "concept": "c:comida-y-bebida.comida-formal",
       "en": "food (formal)",
       "es": "comida (formal)",
       "ja": "食品(フォーマル)",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "shokuhin ( foomaru )"
     },
     {
       "concept": "c:comida-y-bebida.desayuno",
       "en": "breakfast",
       "es": "desayuno",
       "ja": "朝ごはん",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "asagohan"
     },
     {
       "concept": "c:comida-y-bebida.almuerzo",
       "en": "lunch",
       "es": "almuerzo",
       "ja": "ランチ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "ranchi"
     },
     {
       "concept": "c:comida-y-bebida.cena",
       "en": "dinner",
       "es": "cena",
       "ja": "ディナー",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "dinaa"
     },
     {
       "concept": "c:comida-y-bebida.agua",
       "en": "water",
       "es": "agua",
       "ja": "ウォータークラス",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "uootaakurasu"
     },
     {
       "concept": "c:comida-y-bebida.leche",
       "en": "milk",
       "es": "leche",
       "ja": "ミルク",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "miruku"
     },
     {
       "concept": "c:comida-y-bebida.te",
       "en": "tea",
       "es": "té",
       "ja": "ティーチャー",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "teiichaa"
     },
     {
       "concept": "c:comida-y-bebida.cafe",
       "en": "coffee",
       "es": "café",
       "ja": "コーヒー",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "koohii"
     },
     {
       "concept": "c:comida-y-bebida.zumo-jugo",
       "en": "juice / juices",
       "es": "zumo / jugo",
       "ja": "ジュース/ジュース",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "juusu / juusu"
     },
     {
       "concept": "c:comida-y-bebida.lassi-yogur-batido",
       "en": "lassi (yoghurt beaten)",
       "es": "lassi (yogur batido)",
       "ja": "lassi (ヨーグルトの殴打)",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "lassi ( yooguruto no ouda )"
     },
     {
       "concept": "c:comida-y-bebida.alcohol-vino",
       "en": "alcohol / wine",
       "es": "alcohol / vino",
       "ja": "アルコール・ワイン",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "arukooru・wain"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "食・食べ方",
+          "answerTranslit": "shoku ・ tabekata",
+          "concept": "c:comida-y-bebida.comida-comer",
+          "optionTranslit": {
+            "アルコール・ワイン": "arukooru・wain",
+            "コーヒー": "koohii",
+            "ジュース/ジュース": "juusu / juusu",
+            "食・食べ方": "shoku ・ tabekata"
+          },
+          "options": [
+            "ジュース/ジュース",
+            "食・食べ方",
+            "アルコール・ワイン",
+            "コーヒー"
+          ],
+          "prompt": "comida / comer"
+        },
+        {
+          "answer": "食品(フォーマル)",
+          "answerTranslit": "shokuhin ( foomaru )",
+          "concept": "c:comida-y-bebida.comida-formal",
+          "optionTranslit": {
+            "アルコール・ワイン": "arukooru・wain",
+            "コーヒー": "koohii",
+            "食・食べ方": "shoku ・ tabekata",
+            "食品(フォーマル)": "shokuhin ( foomaru )"
+          },
+          "options": [
+            "コーヒー",
+            "食・食べ方",
+            "食品(フォーマル)",
+            "アルコール・ワイン"
+          ],
+          "prompt": "comida (formal)"
+        },
+        {
+          "answer": "朝ごはん",
+          "answerTranslit": "asagohan",
+          "concept": "c:comida-y-bebida.desayuno",
+          "optionTranslit": {
+            "コーヒー": "koohii",
+            "朝ごはん": "asagohan",
+            "食・食べ方": "shoku ・ tabekata",
+            "食品(フォーマル)": "shokuhin ( foomaru )"
+          },
+          "options": [
+            "食品(フォーマル)",
+            "朝ごはん",
+            "コーヒー",
+            "食・食べ方"
+          ],
+          "prompt": "desayuno"
+        },
+        {
+          "answer": "ランチ",
+          "answerTranslit": "ranchi",
+          "concept": "c:comida-y-bebida.almuerzo",
+          "optionTranslit": {
+            "ウォータークラス": "uootaakurasu",
+            "ランチ": "ranchi",
+            "食・食べ方": "shoku ・ tabekata",
+            "食品(フォーマル)": "shokuhin ( foomaru )"
+          },
+          "options": [
+            "ウォータークラス",
+            "ランチ",
+            "食品(フォーマル)",
+            "食・食べ方"
+          ],
+          "prompt": "almuerzo"
+        },
+        {
+          "answer": "ディナー",
+          "answerTranslit": "dinaa",
+          "concept": "c:comida-y-bebida.cena",
+          "optionTranslit": {
+            "ウォータークラス": "uootaakurasu",
+            "ティーチャー": "teiichaa",
+            "ディナー": "dinaa",
+            "朝ごはん": "asagohan"
+          },
+          "options": [
+            "ティーチャー",
+            "ウォータークラス",
+            "朝ごはん",
+            "ディナー"
+          ],
+          "prompt": "cena"
+        },
+        {
+          "answer": "ウォータークラス",
+          "answerTranslit": "uootaakurasu",
+          "concept": "c:comida-y-bebida.agua",
+          "optionTranslit": {
+            "ウォータークラス": "uootaakurasu",
+            "コーヒー": "koohii",
+            "ミルク": "miruku",
+            "朝ごはん": "asagohan"
+          },
+          "options": [
+            "ウォータークラス",
+            "コーヒー",
+            "ミルク",
+            "朝ごはん"
+          ],
+          "prompt": "agua"
+        },
+        {
+          "answer": "ミルク",
+          "answerTranslit": "miruku",
+          "concept": "c:comida-y-bebida.leche",
+          "optionTranslit": {
+            "lassi (ヨーグルトの殴打)": "lassi ( yooguruto no ouda )",
+            "アルコール・ワイン": "arukooru・wain",
+            "ディナー": "dinaa",
+            "ミルク": "miruku"
+          },
+          "options": [
+            "ディナー",
+            "lassi (ヨーグルトの殴打)",
+            "ミルク",
+            "アルコール・ワイン"
+          ],
+          "prompt": "leche"
+        },
+        {
+          "answer": "ティーチャー",
+          "answerTranslit": "teiichaa",
+          "concept": "c:comida-y-bebida.te",
+          "optionTranslit": {
+            "コーヒー": "koohii",
+            "ティーチャー": "teiichaa",
+            "ディナー": "dinaa",
+            "ランチ": "ranchi"
+          },
+          "options": [
+            "ディナー",
+            "コーヒー",
+            "ティーチャー",
+            "ランチ"
+          ],
+          "prompt": "té"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic foods and drinks, very useful when shopping or eating out.",
-    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
-    "ja": "家庭外で購入したり食べるときに、基本的な食べ物や飲み物は非常に便利です。"
+    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
   },
   "generator": "build_lessons",
   "id": "ja-u6-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar alimentos y bebidas",
       "Pedir en un restaurante"
-    ],
-    "ja": [
-      "飲食・飲料の企画",
-      "お食事処にお願い"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Food and drink",
-    "es": "La comida y la bebida",
-    "ja": "フード&ドリンク"
+    "es": "La comida y la bebida"
   },
   "unit": 6
 }

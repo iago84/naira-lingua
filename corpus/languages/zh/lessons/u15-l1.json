@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:viajes-compras-y-servicios.compras-ir-de-compras",
+    "c:viajes-compras-y-servicios.tienda",
+    "c:viajes-compras-y-servicios.mercado",
+    "c:viajes-compras-y-servicios.supermercado",
+    "c:viajes-compras-y-servicios.centro-comercial",
+    "c:viajes-compras-y-servicios.vendedor-tendero",
+    "c:viajes-compras-y-servicios.cliente-comprador",
+    "c:viajes-compras-y-servicios.precio",
+    "c:viajes-compras-y-servicios.dinero",
+    "c:viajes-compras-y-servicios.rupia-india-inr",
+    "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+    "c:viajes-compras-y-servicios.tarjeta"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+      "en": "shopping / going for purchases",
+      "es": "compras / ir de compras",
+      "speaker": "A",
+      "translit": "gòu mǎi /  zhǔn bèi gòu mǎi",
+      "zh": "购买/ 准备购买"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.tienda",
+      "en": "shop",
+      "es": "tienda",
+      "speaker": "B",
+      "translit": "shāng diàn",
+      "zh": "商店"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.mercado",
+      "en": "market",
+      "es": "mercado",
+      "speaker": "A",
+      "translit": "shì chǎng",
+      "zh": "市场"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.supermercado",
+      "en": "supermarket",
+      "es": "supermercado",
+      "speaker": "B",
+      "translit": "chāo shì",
+      "zh": "超市"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.centro-comercial",
+      "en": "shopping centre",
+      "es": "centro comercial",
+      "speaker": "A",
+      "translit": "gòu wù zhōng xīn",
+      "zh": "购物中心"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+      "en": "seller / tenderer",
+      "es": "vendedor / tendero",
+      "speaker": "B",
+      "translit": "mài fāng / tóu biāo rén",
+      "zh": "卖方/投标人"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+      "en": "customer / buyer",
+      "es": "cliente / comprador",
+      "speaker": "A",
+      "translit": "kè hù / mǎi fāng",
+      "zh": "客户/买方"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.precio",
+      "en": "price",
+      "es": "precio",
+      "speaker": "B",
+      "translit": "jià gé",
+      "zh": "价格"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.dinero",
+      "en": "money",
+      "es": "dinero",
+      "speaker": "A",
+      "translit": "qián",
+      "zh": "钱"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.rupia-india-inr",
+      "en": "Indian rupee (INR)",
+      "es": "rupia india (INR)",
+      "speaker": "B",
+      "translit": "yìn dù lú bǐ ( INR)",
+      "zh": "印度卢比( INR)"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+      "en": "cash / money in the form of",
+      "es": "efectivo / dinero en efectivo",
+      "speaker": "A",
+      "translit": "xiàn jīn / yǐ xià liè xíng shì zhī fù de kuǎn xiàng :",
+      "zh": "现金/以下列形式支付的款项:"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.tarjeta",
+      "en": "card",
+      "es": "tarjeta",
+      "speaker": "B",
+      "translit": "zhǐ pái",
+      "zh": "纸牌"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "购买/ 准备购买",
+          "answerTranslit": "gòu mǎi /  zhǔn bèi gòu mǎi",
+          "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+          "optionTranslit": {
+            "客户/买方": "kè hù / mǎi fāng",
+            "购买/ 准备购买": "gòu mǎi /  zhǔn bèi gòu mǎi",
+            "购物中心": "gòu wù zhōng xīn",
+            "超市": "chāo shì"
+          },
+          "options": [
+            "超市",
+            "客户/买方",
+            "购买/ 准备购买",
+            "购物中心"
+          ],
+          "prompt": "compras / ir de compras"
+        },
+        {
+          "answer": "商店",
+          "answerTranslit": "shāng diàn",
+          "concept": "c:viajes-compras-y-servicios.tienda",
+          "optionTranslit": {
+            "卖方/投标人": "mài fāng / tóu biāo rén",
+            "商店": "shāng diàn",
+            "现金/以下列形式支付的款项:": "xiàn jīn / yǐ xià liè xíng shì zhī fù de kuǎn xiàng :",
+            "纸牌": "zhǐ pái"
+          },
+          "options": [
+            "卖方/投标人",
+            "商店",
+            "纸牌",
+            "现金/以下列形式支付的款项:"
+          ],
+          "prompt": "tienda"
+        },
+        {
+          "answer": "市场",
+          "answerTranslit": "shì chǎng",
+          "concept": "c:viajes-compras-y-servicios.mercado",
+          "optionTranslit": {
+            "印度卢比( INR)": "yìn dù lú bǐ ( INR)",
+            "商店": "shāng diàn",
+            "市场": "shì chǎng",
+            "纸牌": "zhǐ pái"
+          },
+          "options": [
+            "印度卢比( INR)",
+            "商店",
+            "市场",
+            "纸牌"
+          ],
+          "prompt": "mercado"
+        },
+        {
+          "answer": "超市",
+          "answerTranslit": "chāo shì",
+          "concept": "c:viajes-compras-y-servicios.supermercado",
+          "optionTranslit": {
+            "价格": "jià gé",
+            "印度卢比( INR)": "yìn dù lú bǐ ( INR)",
+            "商店": "shāng diàn",
+            "超市": "chāo shì"
+          },
+          "options": [
+            "印度卢比( INR)",
+            "价格",
+            "商店",
+            "超市"
+          ],
+          "prompt": "supermercado"
+        },
+        {
+          "answer": "购物中心",
+          "answerTranslit": "gòu wù zhōng xīn",
+          "concept": "c:viajes-compras-y-servicios.centro-comercial",
+          "optionTranslit": {
+            "卖方/投标人": "mài fāng / tóu biāo rén",
+            "市场": "shì chǎng",
+            "购物中心": "gòu wù zhōng xīn",
+            "超市": "chāo shì"
+          },
+          "options": [
+            "超市",
+            "卖方/投标人",
+            "购物中心",
+            "市场"
+          ],
+          "prompt": "centro comercial"
+        },
+        {
+          "answer": "卖方/投标人",
+          "answerTranslit": "mài fāng / tóu biāo rén",
+          "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+          "optionTranslit": {
+            "卖方/投标人": "mài fāng / tóu biāo rén",
+            "印度卢比( INR)": "yìn dù lú bǐ ( INR)",
+            "购买/ 准备购买": "gòu mǎi /  zhǔn bèi gòu mǎi",
+            "超市": "chāo shì"
+          },
+          "options": [
+            "购买/ 准备购买",
+            "印度卢比( INR)",
+            "卖方/投标人",
+            "超市"
+          ],
+          "prompt": "vendedor / tendero"
+        },
+        {
+          "answer": "客户/买方",
+          "answerTranslit": "kè hù / mǎi fāng",
+          "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+          "optionTranslit": {
+            "价格": "jià gé",
+            "客户/买方": "kè hù / mǎi fāng",
+            "现金/以下列形式支付的款项:": "xiàn jīn / yǐ xià liè xíng shì zhī fù de kuǎn xiàng :",
+            "购买/ 准备购买": "gòu mǎi /  zhǔn bèi gòu mǎi"
+          },
+          "options": [
+            "购买/ 准备购买",
+            "价格",
+            "现金/以下列形式支付的款项:",
+            "客户/买方"
+          ],
+          "prompt": "cliente / comprador"
+        },
+        {
+          "answer": "价格",
+          "answerTranslit": "jià gé",
+          "concept": "c:viajes-compras-y-servicios.precio",
+          "optionTranslit": {
+            "价格": "jià gé",
+            "现金/以下列形式支付的款项:": "xiàn jīn / yǐ xià liè xíng shì zhī fù de kuǎn xiàng :",
+            "购买/ 准备购买": "gòu mǎi /  zhǔn bèi gòu mǎi",
+            "钱": "qián"
+          },
+          "options": [
+            "钱",
+            "现金/以下列形式支付的款项:",
+            "购买/ 准备购买",
+            "价格"
+          ],
+          "prompt": "precio"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Words to shop, pay and use services during a trip.",
+    "es": "Palabras para comprar, pagar y usar servicios durante un viaje."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u15-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Handle shopping and services",
+      "Ask about prices and opening hours"
+    ],
+    "es": [
+      "Resolver compras y servicios",
+      "Preguntar precios y horarios"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "compras / ir de compras",
+          "shopping / going for purchases",
+          "购买/ 准备购买"
+        ],
+        [
+          "tienda",
+          "shop",
+          "商店"
+        ],
+        [
+          "mercado",
+          "market",
+          "市场"
+        ],
+        [
+          "supermercado",
+          "supermarket",
+          "超市"
+        ],
+        [
+          "centro comercial",
+          "shopping centre",
+          "购物中心"
+        ],
+        [
+          "vendedor / tendero",
+          "seller / tenderer",
+          "卖方/投标人"
+        ],
+        [
+          "cliente / comprador",
+          "customer / buyer",
+          "客户/买方"
+        ],
+        [
+          "precio",
+          "price",
+          "价格"
+        ],
+        [
+          "dinero",
+          "money",
+          "钱"
+        ],
+        [
+          "rupia india (INR)",
+          "Indian rupee (INR)",
+          "印度卢比( INR)"
+        ],
+        [
+          "efectivo / dinero en efectivo",
+          "cash / money in the form of",
+          "现金/以下列形式支付的款项:"
+        ],
+        [
+          "tarjeta",
+          "card",
+          "纸牌"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Travel, shopping and services",
+    "es": "Viajes, compras y servicios"
+  },
+  "unit": 15
+}

@@ -1,0 +1,175 @@
+{
+  "direction": "ltr",
+  "intro": {
+    "en": "Galician uses the Latin alphabet with eñe (ñ) and accented vowels to mark the stressed syllable.",
+    "es": "El gallego usa el alfabeto latino con la eñe (ñ) y vocales acentuadas para marcar la sílaba tónica."
+  },
+  "lang": "gl",
+  "script": "latin",
+  "sections": [
+    {
+      "columns": [
+        {
+          "key": "char",
+          "label": {
+            "en": "Glyph",
+            "es": "Signo"
+          }
+        },
+        {
+          "key": "translit",
+          "label": {
+            "en": "Letter",
+            "es": "Letra"
+          }
+        }
+      ],
+      "items": [
+        {
+          "char": "a",
+          "translit": "a"
+        },
+        {
+          "char": "b",
+          "translit": "b"
+        },
+        {
+          "char": "c",
+          "translit": "c"
+        },
+        {
+          "char": "d",
+          "translit": "d"
+        },
+        {
+          "char": "e",
+          "translit": "e"
+        },
+        {
+          "char": "f",
+          "translit": "f"
+        },
+        {
+          "char": "g",
+          "translit": "g"
+        },
+        {
+          "char": "h",
+          "translit": "h"
+        },
+        {
+          "char": "i",
+          "translit": "i"
+        },
+        {
+          "char": "j",
+          "translit": "j"
+        },
+        {
+          "char": "k",
+          "translit": "k"
+        },
+        {
+          "char": "l",
+          "translit": "l"
+        },
+        {
+          "char": "m",
+          "translit": "m"
+        },
+        {
+          "char": "n",
+          "translit": "n"
+        },
+        {
+          "char": "o",
+          "translit": "o"
+        },
+        {
+          "char": "p",
+          "translit": "p"
+        },
+        {
+          "char": "q",
+          "translit": "q"
+        },
+        {
+          "char": "r",
+          "translit": "r"
+        },
+        {
+          "char": "s",
+          "translit": "s"
+        },
+        {
+          "char": "t",
+          "translit": "t"
+        },
+        {
+          "char": "u",
+          "translit": "u"
+        },
+        {
+          "char": "v",
+          "translit": "v"
+        },
+        {
+          "char": "w",
+          "translit": "w"
+        },
+        {
+          "char": "x",
+          "translit": "x"
+        },
+        {
+          "char": "y",
+          "translit": "y"
+        },
+        {
+          "char": "z",
+          "translit": "z"
+        },
+        {
+          "char": "ñ",
+          "note": {
+            "en": "«eñe»: like the «ny» in canyon.",
+            "es": "«eñe»: como la «ny» de «cañón»."
+          },
+          "translit": "ñ"
+        },
+        {
+          "char": "á",
+          "translit": "á"
+        },
+        {
+          "char": "é",
+          "translit": "é"
+        },
+        {
+          "char": "í",
+          "translit": "í"
+        },
+        {
+          "char": "ó",
+          "translit": "ó"
+        },
+        {
+          "char": "ú",
+          "translit": "ú"
+        },
+        {
+          "char": "ü",
+          "translit": "ü"
+        }
+      ],
+      "title": {
+        "en": "Alphabet",
+        "es": "Alfabeto"
+      }
+    }
+  ],
+  "title": {
+    "en": "Galician: the alphabet",
+    "es": "Galego: o alfabeto"
+  }
+}

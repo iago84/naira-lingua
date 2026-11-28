@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:vocabulario-extra-y-frases-utiles.amor",
+    "c:vocabulario-extra-y-frases-utiles.odio",
+    "c:vocabulario-extra-y-frases-utiles.honestidad",
+    "c:vocabulario-extra-y-frases-utiles.mentira",
+    "c:vocabulario-extra-y-frases-utiles.verdad",
+    "c:vocabulario-extra-y-frases-utiles.justicia",
+    "c:vocabulario-extra-y-frases-utiles.injusticia",
+    "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+    "c:vocabulario-extra-y-frases-utiles.miedo",
+    "c:vocabulario-extra-y-frases-utiles.esperanza",
+    "c:vocabulario-extra-y-frases-utiles.decepcion",
+    "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+      "en": "love",
+      "es": "amor",
+      "speaker": "A",
+      "translit": "mohabbat / pyaar",
+      "ur": "محبت / پیار"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+      "en": "I hate it.",
+      "es": "odio",
+      "speaker": "B",
+      "translit": "ghṛṇā",
+      "ur": "گھرنا"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "en": "honesty",
+      "es": "honestidad",
+      "speaker": "A",
+      "translit": "īmāndārī",
+      "ur": "ایمانداری"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+      "en": "lie",
+      "es": "mentira",
+      "speaker": "B",
+      "translit": "jhūṭh",
+      "ur": "جھوٹھ"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+      "en": "truth",
+      "es": "verdad",
+      "speaker": "A",
+      "translit": "saccāī",
+      "ur": "سچچاای"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+      "en": "justice",
+      "es": "justicia",
+      "speaker": "B",
+      "translit": "nyāy",
+      "ur": "نیای"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "en": "injustice",
+      "es": "injusticia",
+      "speaker": "A",
+      "translit": "anyāy",
+      "ur": "انیای"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "en": "value / courage",
+      "es": "valor / coraje",
+      "speaker": "B",
+      "translit": "sāhas",
+      "ur": "ساہس"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+      "en": "fear",
+      "es": "miedo",
+      "speaker": "A",
+      "translit": "dar / khauf",
+      "ur": "ڈر / خوف"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "en": "hope",
+      "es": "esperanza",
+      "speaker": "B",
+      "translit": "āśā",
+      "ur": "آشا"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "en": "disappointment",
+      "es": "decepción",
+      "speaker": "A",
+      "translit": "nirāśā",
+      "ur": "نِراشا"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+      "en": "anger / angry",
+      "es": "ira / enfado",
+      "speaker": "B",
+      "translit": "gussā",
+      "ur": "گُسسا"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "محبت / پیار",
+          "answerTranslit": "mohabbat / pyaar",
+          "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+          "optionTranslit": {
+            "سچچاای": "saccāī",
+            "محبت / پیار": "mohabbat / pyaar",
+            "نِراشا": "nirāśā",
+            "نیای": "nyāy"
+          },
+          "options": [
+            "نیای",
+            "محبت / پیار",
+            "سچچاای",
+            "نِراشا"
+          ],
+          "prompt": "amor"
+        },
+        {
+          "answer": "گھرنا",
+          "answerTranslit": "ghṛṇā",
+          "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+          "optionTranslit": {
+            "آشا": "āśā",
+            "انیای": "anyāy",
+            "ایمانداری": "īmāndārī",
+            "گھرنا": "ghṛṇā"
+          },
+          "options": [
+            "ایمانداری",
+            "آشا",
+            "گھرنا",
+            "انیای"
+          ],
+          "prompt": "odio"
+        },
+        {
+          "answer": "ایمانداری",
+          "answerTranslit": "īmāndārī",
+          "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+          "optionTranslit": {
+            "ایمانداری": "īmāndārī",
+            "جھوٹھ": "jhūṭh",
+            "سچچاای": "saccāī",
+            "گُسسا": "gussā"
+          },
+          "options": [
+            "سچچاای",
+            "ایمانداری",
+            "گُسسا",
+            "جھوٹھ"
+          ],
+          "prompt": "honestidad"
+        },
+        {
+          "answer": "جھوٹھ",
+          "answerTranslit": "jhūṭh",
+          "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+          "optionTranslit": {
+            "ایمانداری": "īmāndārī",
+            "جھوٹھ": "jhūṭh",
+            "سچچاای": "saccāī",
+            "محبت / پیار": "mohabbat / pyaar"
+          },
+          "options": [
+            "سچچاای",
+            "ایمانداری",
+            "محبت / پیار",
+            "جھوٹھ"
+          ],
+          "prompt": "mentira"
+        },
+        {
+          "answer": "سچچاای",
+          "answerTranslit": "saccāī",
+          "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+          "optionTranslit": {
+            "ایمانداری": "īmāndārī",
+            "سچچاای": "saccāī",
+            "نیای": "nyāy",
+            "گُسسا": "gussā"
+          },
+          "options": [
+            "سچچاای",
+            "نیای",
+            "ایمانداری",
+            "گُسسا"
+          ],
+          "prompt": "verdad"
+        },
+        {
+          "answer": "نیای",
+          "answerTranslit": "nyāy",
+          "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+          "optionTranslit": {
+            "انیای": "anyāy",
+            "نِراشا": "nirāśā",
+            "نیای": "nyāy",
+            "گُسسا": "gussā"
+          },
+          "options": [
+            "گُسسا",
+            "انیای",
+            "نیای",
+            "نِراشا"
+          ],
+          "prompt": "justicia"
+        },
+        {
+          "answer": "انیای",
+          "answerTranslit": "anyāy",
+          "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+          "optionTranslit": {
+            "انیای": "anyāy",
+            "ایمانداری": "īmāndārī",
+            "سچچاای": "saccāī",
+            "نِراشا": "nirāśā"
+          },
+          "options": [
+            "سچچاای",
+            "ایمانداری",
+            "انیای",
+            "نِراشا"
+          ],
+          "prompt": "injusticia"
+        },
+        {
+          "answer": "ساہس",
+          "answerTranslit": "sāhas",
+          "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+          "optionTranslit": {
+            "آشا": "āśā",
+            "انیای": "anyāy",
+            "ساہس": "sāhas",
+            "نیای": "nyāy"
+          },
+          "options": [
+            "ساہس",
+            "انیای",
+            "آشا",
+            "نیای"
+          ],
+          "prompt": "valor / coraje"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Support words and phrases that appear in many conversations.",
+    "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+  },
+  "generator": "build_lessons",
+  "id": "ur-u20-l1",
+  "lang": "ur",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Expand vocabulary",
+      "Use common everyday phrases"
+    ],
+    "es": [
+      "Ampliar vocabulario",
+      "Usar frases comunes del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ur"
+      ],
+      "rows": [
+        [
+          "amor",
+          "love",
+          "محبت / پیار"
+        ],
+        [
+          "odio",
+          "I hate it.",
+          "گھرنا"
+        ],
+        [
+          "honestidad",
+          "honesty",
+          "ایمانداری"
+        ],
+        [
+          "mentira",
+          "lie",
+          "جھوٹھ"
+        ],
+        [
+          "verdad",
+          "truth",
+          "سچچاای"
+        ],
+        [
+          "justicia",
+          "justice",
+          "نیای"
+        ],
+        [
+          "injusticia",
+          "injustice",
+          "انیای"
+        ],
+        [
+          "valor / coraje",
+          "value / courage",
+          "ساہس"
+        ],
+        [
+          "miedo",
+          "fear",
+          "ڈر / خوف"
+        ],
+        [
+          "esperanza",
+          "hope",
+          "آشا"
+        ],
+        [
+          "decepción",
+          "disappointment",
+          "نِراشا"
+        ],
+        [
+          "ira / enfado",
+          "anger / angry",
+          "گُسسا"
+        ]
+      ],
+      "title": "es · en · ur",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Extra vocabulary and useful phrases",
+    "es": "Vocabulario extra y frases útiles"
+  },
+  "unit": 20
+}

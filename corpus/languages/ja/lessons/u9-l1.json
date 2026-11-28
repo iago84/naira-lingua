@@ -19,91 +19,256 @@
       "en": "animal",
       "es": "animal",
       "ja": "アニマル",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "animaru"
     },
     {
       "concept": "c:animales.perro",
       "en": "dog",
       "es": "perro",
       "ja": "犬の猫",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "inu no neko"
     },
     {
       "concept": "c:animales.gato",
       "en": "cat",
       "es": "gato",
       "ja": "猫ちゃん",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "neko chan"
     },
     {
       "concept": "c:animales.vaca",
       "en": "cow",
       "es": "vaca",
       "ja": "牛の",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "ushi no"
     },
     {
       "concept": "c:animales.buey-toro",
       "en": "ox / bull",
       "es": "buey / toro",
       "ja": "OX/ブル",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "OX/ buru"
     },
     {
       "concept": "c:animales.bufalo",
       "en": "buffalo",
       "es": "búfalo",
       "ja": "バッファロー",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "baffaroo"
     },
     {
       "concept": "c:animales.caballo",
       "en": "horse",
       "es": "caballo",
       "ja": "馬の騎乗",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "uma no kijou"
     },
     {
       "concept": "c:animales.burro-asno",
       "en": "donkey / ass",
       "es": "burro / asno",
       "ja": "ドンキー/アス",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "donkii / asu"
     },
     {
       "concept": "c:animales.cabra",
       "en": "goat",
       "es": "cabra",
       "ja": "ゴート",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "gooto"
     },
     {
       "concept": "c:animales.oveja",
       "en": "sheep",
       "es": "oveja",
       "ja": "ヒツジ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "hitsuji"
     },
     {
       "concept": "c:animales.cerdo",
       "en": "pig",
       "es": "cerdo",
       "ja": "チャイブ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "chaibu"
     },
     {
       "concept": "c:animales.gallina",
       "en": "chicken",
       "es": "gallina",
       "ja": "チキン",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "chikin"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "アニマル",
+          "answerTranslit": "animaru",
+          "concept": "c:animales.animal",
+          "optionTranslit": {
+            "アニマル": "animaru",
+            "チャイブ": "chaibu",
+            "猫ちゃん": "neko chan",
+            "馬の騎乗": "uma no kijou"
+          },
+          "options": [
+            "馬の騎乗",
+            "アニマル",
+            "猫ちゃん",
+            "チャイブ"
+          ],
+          "prompt": "animal"
+        },
+        {
+          "answer": "犬の猫",
+          "answerTranslit": "inu no neko",
+          "concept": "c:animales.perro",
+          "optionTranslit": {
+            "アニマル": "animaru",
+            "チキン": "chikin",
+            "チャイブ": "chaibu",
+            "犬の猫": "inu no neko"
+          },
+          "options": [
+            "チキン",
+            "犬の猫",
+            "チャイブ",
+            "アニマル"
+          ],
+          "prompt": "perro"
+        },
+        {
+          "answer": "猫ちゃん",
+          "answerTranslit": "neko chan",
+          "concept": "c:animales.gato",
+          "optionTranslit": {
+            "アニマル": "animaru",
+            "チャイブ": "chaibu",
+            "猫ちゃん": "neko chan",
+            "馬の騎乗": "uma no kijou"
+          },
+          "options": [
+            "猫ちゃん",
+            "チャイブ",
+            "馬の騎乗",
+            "アニマル"
+          ],
+          "prompt": "gato"
+        },
+        {
+          "answer": "牛の",
+          "answerTranslit": "ushi no",
+          "concept": "c:animales.vaca",
+          "optionTranslit": {
+            "OX/ブル": "OX/ buru",
+            "チャイブ": "chaibu",
+            "牛の": "ushi no",
+            "猫ちゃん": "neko chan"
+          },
+          "options": [
+            "牛の",
+            "OX/ブル",
+            "猫ちゃん",
+            "チャイブ"
+          ],
+          "prompt": "vaca"
+        },
+        {
+          "answer": "OX/ブル",
+          "answerTranslit": "OX/ buru",
+          "concept": "c:animales.buey-toro",
+          "optionTranslit": {
+            "OX/ブル": "OX/ buru",
+            "ドンキー/アス": "donkii / asu",
+            "バッファロー": "baffaroo",
+            "犬の猫": "inu no neko"
+          },
+          "options": [
+            "バッファロー",
+            "ドンキー/アス",
+            "OX/ブル",
+            "犬の猫"
+          ],
+          "prompt": "buey / toro"
+        },
+        {
+          "answer": "バッファロー",
+          "answerTranslit": "baffaroo",
+          "concept": "c:animales.bufalo",
+          "optionTranslit": {
+            "アニマル": "animaru",
+            "ゴート": "gooto",
+            "チキン": "chikin",
+            "バッファロー": "baffaroo"
+          },
+          "options": [
+            "バッファロー",
+            "ゴート",
+            "チキン",
+            "アニマル"
+          ],
+          "prompt": "búfalo"
+        },
+        {
+          "answer": "馬の騎乗",
+          "answerTranslit": "uma no kijou",
+          "concept": "c:animales.caballo",
+          "optionTranslit": {
+            "OX/ブル": "OX/ buru",
+            "アニマル": "animaru",
+            "チキン": "chikin",
+            "馬の騎乗": "uma no kijou"
+          },
+          "options": [
+            "OX/ブル",
+            "チキン",
+            "アニマル",
+            "馬の騎乗"
+          ],
+          "prompt": "caballo"
+        },
+        {
+          "answer": "ドンキー/アス",
+          "answerTranslit": "donkii / asu",
+          "concept": "c:animales.burro-asno",
+          "optionTranslit": {
+            "ドンキー/アス": "donkii / asu",
+            "ヒツジ": "hitsuji",
+            "牛の": "ushi no",
+            "犬の猫": "inu no neko"
+          },
+          "options": [
+            "ヒツジ",
+            "犬の猫",
+            "牛の",
+            "ドンキー/アス"
+          ],
+          "prompt": "burro / asno"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Common animals, both domestic and wild.",
-    "es": "Animales frecuentes, tanto domésticos como salvajes.",
-    "ja": "動物、国内・野生の両種。"
+    "es": "Animales frecuentes, tanto domésticos como salvajes."
   },
   "generator": "build_lessons",
   "id": "ja-u9-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar animales comunes",
       "Describir animales"
-    ],
-    "ja": [
-      "名称 一般動物",
-      "動物を記述する"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Animals",
-    "es": "Los animales",
-    "ja": "動物たち"
+    "es": "Los animales"
   },
   "unit": 9
 }

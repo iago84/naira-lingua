@@ -91,9 +91,106 @@
       "speaker": "A"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Hallo.",
+          "concept": "c:saludos-y-expresiones.hola",
+          "options": [
+            "Bis später.",
+            "Hallo.",
+            "Bitte.",
+            "Guten Tag."
+          ],
+          "prompt": "hola"
+        },
+        {
+          "answer": "Guten Morgen.",
+          "concept": "c:saludos-y-expresiones.buenos-dias",
+          "options": [
+            "Ja",
+            "Entschuldigung / Entschuldigen",
+            "Guten Morgen.",
+            "Bitte."
+          ],
+          "prompt": "buenos días"
+        },
+        {
+          "answer": "Guten Tag.",
+          "concept": "c:saludos-y-expresiones.buenas-tardes",
+          "options": [
+            "Guten Tag.",
+            "Bis später.",
+            "Bye.",
+            "Vielen Dank."
+          ],
+          "prompt": "buenas tardes"
+        },
+        {
+          "answer": "Gute Nacht.",
+          "concept": "c:saludos-y-expresiones.buenas-noches",
+          "options": [
+            "Bis später.",
+            "Hallo.",
+            "Gute Nacht.",
+            "Bye."
+          ],
+          "prompt": "buenas noches"
+        },
+        {
+          "answer": "Vielen Dank.",
+          "concept": "c:saludos-y-expresiones.gracias",
+          "options": [
+            "Vielen Dank.",
+            "Bis später.",
+            "Hallo.",
+            "Guten Tag."
+          ],
+          "prompt": "gracias"
+        },
+        {
+          "answer": "Bitte.",
+          "concept": "c:saludos-y-expresiones.por-favor",
+          "options": [
+            "Bitte.",
+            "Vielen Dank.",
+            "Guten Morgen.",
+            "Hallo."
+          ],
+          "prompt": "por favor"
+        },
+        {
+          "answer": "Entschuldigung / Entschuldigen",
+          "concept": "c:saludos-y-expresiones.perdon-disculpe",
+          "options": [
+            "Hallo.",
+            "Entschuldigung / Entschuldigen",
+            "Bis später.",
+            "Nein."
+          ],
+          "prompt": "perdón / disculpe"
+        },
+        {
+          "answer": "Bye.",
+          "concept": "c:saludos-y-expresiones.adios",
+          "options": [
+            "Bye.",
+            "Entschuldigung / Entschuldigen",
+            "Bis später.",
+            "Nein."
+          ],
+          "prompt": "adiós"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
-    "de": "Grundlegende ausdrücke der höflichkeit, ein gespräch zu öffnen und abzuschließen.",
     "en": "Basic courtesy expressions to open and close a conversation.",
     "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
   },
@@ -102,10 +199,6 @@
   "lang": "de",
   "lesson": 1,
   "objectives": {
-    "de": [
-      "Begrüßung und Abschied",
-      "Bitte danken und fragen"
-    ],
     "en": [
       "Greet and say goodbye",
       "Thank and say please"
@@ -184,7 +277,6 @@
     }
   ],
   "title": {
-    "de": "Grüße und Höflichkeit",
     "en": "Greetings and courtesy",
     "es": "Saludos y cortesía"
   },

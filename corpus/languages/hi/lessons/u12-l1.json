@@ -19,91 +19,256 @@
       "en": "work /",
       "es": "trabajo / labor",
       "hi": "काम",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "kām"
     },
     {
       "concept": "c:trabajo-y-profesiones.empleo-trabajo",
       "en": "employment / work",
       "es": "empleo / trabajo",
       "hi": "नौकरी",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "naukrī"
     },
     {
       "concept": "c:trabajo-y-profesiones.profesion-oficio",
       "en": "profession / trade",
       "es": "profesión / oficio",
       "hi": "पेशा",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "peśā"
     },
     {
       "concept": "c:trabajo-y-profesiones.negocio-profesion",
       "en": "business / profession",
       "es": "negocio / profesión",
       "hi": "व्यवसाय",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "vyavsāy"
     },
     {
       "concept": "c:trabajo-y-profesiones.empresa-compania",
       "en": "company / enterprise",
       "es": "empresa / compañía",
       "hi": "कंपनी",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "kampanī"
     },
     {
       "concept": "c:trabajo-y-profesiones.oficina",
       "en": "office",
       "es": "oficina",
       "hi": "कार्यालय",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "kāryālay"
     },
     {
       "concept": "c:trabajo-y-profesiones.oficina-despacho",
       "en": "office /",
       "es": "oficina / despacho",
       "hi": "दफ़्तर",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "daftar"
     },
     {
       "concept": "c:trabajo-y-profesiones.dueno-propietario",
       "en": "owner / proprietor",
       "es": "dueño / propietario",
       "hi": "मालिक",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "mālik"
     },
     {
       "concept": "c:trabajo-y-profesiones.jefe-a",
       "en": "Chief",
       "es": "jefe/a",
       "hi": "बॉस",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "bôs"
     },
     {
       "concept": "c:trabajo-y-profesiones.empleado-a",
       "en": "employee",
       "es": "empleado/a",
       "hi": "कर्मचारी",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "karmacārī"
     },
     {
       "concept": "c:trabajo-y-profesiones.colega",
       "en": "- I'm sorry, buddy.",
       "es": "colega",
       "hi": "सहकर्मी",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "sahkarmī"
     },
     {
       "concept": "c:trabajo-y-profesiones.equipo",
       "en": "equipment",
       "es": "equipo",
       "hi": "टीम",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "ṭīm"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "काम",
+          "answerTranslit": "kām",
+          "concept": "c:trabajo-y-profesiones.trabajo-labor",
+          "optionTranslit": {
+            "कर्मचारी": "karmacārī",
+            "काम": "kām",
+            "टीम": "ṭīm",
+            "दफ़्तर": "daftar"
+          },
+          "options": [
+            "दफ़्तर",
+            "कर्मचारी",
+            "काम",
+            "टीम"
+          ],
+          "prompt": "trabajo / labor"
+        },
+        {
+          "answer": "नौकरी",
+          "answerTranslit": "naukrī",
+          "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+          "optionTranslit": {
+            "कंपनी": "kampanī",
+            "कर्मचारी": "karmacārī",
+            "कार्यालय": "kāryālay",
+            "नौकरी": "naukrī"
+          },
+          "options": [
+            "नौकरी",
+            "कर्मचारी",
+            "कार्यालय",
+            "कंपनी"
+          ],
+          "prompt": "empleo / trabajo"
+        },
+        {
+          "answer": "पेशा",
+          "answerTranslit": "peśā",
+          "concept": "c:trabajo-y-profesiones.profesion-oficio",
+          "optionTranslit": {
+            "कर्मचारी": "karmacārī",
+            "काम": "kām",
+            "कार्यालय": "kāryālay",
+            "पेशा": "peśā"
+          },
+          "options": [
+            "पेशा",
+            "काम",
+            "कार्यालय",
+            "कर्मचारी"
+          ],
+          "prompt": "profesión / oficio"
+        },
+        {
+          "answer": "व्यवसाय",
+          "answerTranslit": "vyavsāy",
+          "concept": "c:trabajo-y-profesiones.negocio-profesion",
+          "optionTranslit": {
+            "कर्मचारी": "karmacārī",
+            "काम": "kām",
+            "बॉस": "bôs",
+            "व्यवसाय": "vyavsāy"
+          },
+          "options": [
+            "काम",
+            "बॉस",
+            "कर्मचारी",
+            "व्यवसाय"
+          ],
+          "prompt": "negocio / profesión"
+        },
+        {
+          "answer": "कंपनी",
+          "answerTranslit": "kampanī",
+          "concept": "c:trabajo-y-profesiones.empresa-compania",
+          "optionTranslit": {
+            "कंपनी": "kampanī",
+            "काम": "kām",
+            "मालिक": "mālik",
+            "व्यवसाय": "vyavsāy"
+          },
+          "options": [
+            "कंपनी",
+            "व्यवसाय",
+            "मालिक",
+            "काम"
+          ],
+          "prompt": "empresa / compañía"
+        },
+        {
+          "answer": "कार्यालय",
+          "answerTranslit": "kāryālay",
+          "concept": "c:trabajo-y-profesiones.oficina",
+          "optionTranslit": {
+            "कार्यालय": "kāryālay",
+            "टीम": "ṭīm",
+            "दफ़्तर": "daftar",
+            "मालिक": "mālik"
+          },
+          "options": [
+            "मालिक",
+            "कार्यालय",
+            "टीम",
+            "दफ़्तर"
+          ],
+          "prompt": "oficina"
+        },
+        {
+          "answer": "दफ़्तर",
+          "answerTranslit": "daftar",
+          "concept": "c:trabajo-y-profesiones.oficina-despacho",
+          "optionTranslit": {
+            "काम": "kām",
+            "कार्यालय": "kāryālay",
+            "दफ़्तर": "daftar",
+            "नौकरी": "naukrī"
+          },
+          "options": [
+            "नौकरी",
+            "दफ़्तर",
+            "काम",
+            "कार्यालय"
+          ],
+          "prompt": "oficina / despacho"
+        },
+        {
+          "answer": "मालिक",
+          "answerTranslit": "mālik",
+          "concept": "c:trabajo-y-profesiones.dueno-propietario",
+          "optionTranslit": {
+            "कर्मचारी": "karmacārī",
+            "कार्यालय": "kāryālay",
+            "पेशा": "peśā",
+            "मालिक": "mālik"
+          },
+          "options": [
+            "पेशा",
+            "कार्यालय",
+            "मालिक",
+            "कर्मचारी"
+          ],
+          "prompt": "dueño / propietario"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Professions and words from the world of work.",
-    "es": "Profesiones y palabras del mundo laboral.",
-    "hi": "दुनिया के कार्यों का प्रचार और वचन।"
+    "es": "Profesiones y palabras del mundo laboral."
   },
   "generator": "build_lessons",
   "id": "hi-u12-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar profesiones",
       "Hablar del trabajo"
-    ],
-    "hi": [
-      "Appoint पेशे",
-      "काम के बारे में बात करें"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Work and professions",
-    "es": "El trabajo y las profesiones",
-    "hi": "कार्य और व्यवसाय"
+    "es": "El trabajo y las profesiones"
   },
   "unit": 12
 }

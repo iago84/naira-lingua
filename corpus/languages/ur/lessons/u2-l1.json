@@ -19,6 +19,7 @@
       "en": "zero",
       "es": "cero",
       "speaker": "A",
+      "translit": "sifar",
       "ur": "صفر"
     },
     {
@@ -26,6 +27,7 @@
       "en": "one",
       "es": "uno",
       "speaker": "B",
+      "translit": "ek",
       "ur": "ایک"
     },
     {
@@ -33,6 +35,7 @@
       "en": "two",
       "es": "dos",
       "speaker": "A",
+      "translit": "do",
       "ur": "دو"
     },
     {
@@ -40,6 +43,7 @@
       "en": "three",
       "es": "tres",
       "speaker": "B",
+      "translit": "teen",
       "ur": "تین"
     },
     {
@@ -47,6 +51,7 @@
       "en": "4",
       "es": "cuatro",
       "speaker": "A",
+      "translit": "chaar",
       "ur": "چار"
     },
     {
@@ -54,6 +59,7 @@
       "en": "five",
       "es": "cinco",
       "speaker": "B",
+      "translit": "paanch",
       "ur": "پانچ"
     },
     {
@@ -61,6 +67,7 @@
       "en": "6",
       "es": "seis",
       "speaker": "A",
+      "translit": "chhe",
       "ur": "چھ"
     },
     {
@@ -68,6 +75,7 @@
       "en": "seven",
       "es": "siete",
       "speaker": "B",
+      "translit": "saat",
       "ur": "سات"
     },
     {
@@ -75,6 +83,7 @@
       "en": "8",
       "es": "ocho",
       "speaker": "A",
+      "translit": "aath",
       "ur": "آٹھ"
     },
     {
@@ -82,6 +91,7 @@
       "en": "9",
       "es": "nueve",
       "speaker": "B",
+      "translit": "nau",
       "ur": "نو"
     },
     {
@@ -89,6 +99,7 @@
       "en": "10",
       "es": "diez",
       "speaker": "A",
+      "translit": "das",
       "ur": "دس"
     },
     {
@@ -96,10 +107,165 @@
       "en": "11",
       "es": "once",
       "speaker": "B",
+      "translit": "gyaarah",
       "ur": "گیارہ"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "صفر",
+          "answerTranslit": "sifar",
+          "concept": "c:numeros.cero",
+          "optionTranslit": {
+            "ایک": "ek",
+            "سات": "saat",
+            "صفر": "sifar",
+            "نو": "nau"
+          },
+          "options": [
+            "نو",
+            "صفر",
+            "سات",
+            "ایک"
+          ],
+          "prompt": "cero"
+        },
+        {
+          "answer": "ایک",
+          "answerTranslit": "ek",
+          "concept": "c:numeros.uno",
+          "optionTranslit": {
+            "ایک": "ek",
+            "دس": "das",
+            "دو": "do",
+            "پانچ": "paanch"
+          },
+          "options": [
+            "پانچ",
+            "دو",
+            "دس",
+            "ایک"
+          ],
+          "prompt": "uno"
+        },
+        {
+          "answer": "دو",
+          "answerTranslit": "do",
+          "concept": "c:numeros.dos",
+          "optionTranslit": {
+            "دو": "do",
+            "نو": "nau",
+            "پانچ": "paanch",
+            "چھ": "chhe"
+          },
+          "options": [
+            "چھ",
+            "نو",
+            "پانچ",
+            "دو"
+          ],
+          "prompt": "dos"
+        },
+        {
+          "answer": "تین",
+          "answerTranslit": "teen",
+          "concept": "c:numeros.tres",
+          "optionTranslit": {
+            "تین": "teen",
+            "دس": "das",
+            "دو": "do",
+            "چھ": "chhe"
+          },
+          "options": [
+            "دس",
+            "چھ",
+            "دو",
+            "تین"
+          ],
+          "prompt": "tres"
+        },
+        {
+          "answer": "چار",
+          "answerTranslit": "chaar",
+          "concept": "c:numeros.cuatro",
+          "optionTranslit": {
+            "آٹھ": "aath",
+            "دس": "das",
+            "پانچ": "paanch",
+            "چار": "chaar"
+          },
+          "options": [
+            "چار",
+            "پانچ",
+            "دس",
+            "آٹھ"
+          ],
+          "prompt": "cuatro"
+        },
+        {
+          "answer": "پانچ",
+          "answerTranslit": "paanch",
+          "concept": "c:numeros.cinco",
+          "optionTranslit": {
+            "سات": "saat",
+            "صفر": "sifar",
+            "پانچ": "paanch",
+            "چار": "chaar"
+          },
+          "options": [
+            "چار",
+            "صفر",
+            "سات",
+            "پانچ"
+          ],
+          "prompt": "cinco"
+        },
+        {
+          "answer": "چھ",
+          "answerTranslit": "chhe",
+          "concept": "c:numeros.seis",
+          "optionTranslit": {
+            "دو": "do",
+            "صفر": "sifar",
+            "چھ": "chhe",
+            "گیارہ": "gyaarah"
+          },
+          "options": [
+            "دو",
+            "گیارہ",
+            "چھ",
+            "صفر"
+          ],
+          "prompt": "seis"
+        },
+        {
+          "answer": "سات",
+          "answerTranslit": "saat",
+          "concept": "c:numeros.siete",
+          "optionTranslit": {
+            "آٹھ": "aath",
+            "سات": "saat",
+            "پانچ": "paanch",
+            "چار": "chaar"
+          },
+          "options": [
+            "آٹھ",
+            "سات",
+            "پانچ",
+            "چار"
+          ],
+          "prompt": "siete"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Everyday numbers: used to count, give your age and talk about prices.",
     "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."

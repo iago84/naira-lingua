@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:vocabulario-extra-y-frases-utiles.amor",
+    "c:vocabulario-extra-y-frases-utiles.odio",
+    "c:vocabulario-extra-y-frases-utiles.honestidad",
+    "c:vocabulario-extra-y-frases-utiles.mentira",
+    "c:vocabulario-extra-y-frases-utiles.verdad",
+    "c:vocabulario-extra-y-frases-utiles.justicia",
+    "c:vocabulario-extra-y-frases-utiles.injusticia",
+    "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+    "c:vocabulario-extra-y-frases-utiles.miedo",
+    "c:vocabulario-extra-y-frases-utiles.esperanza",
+    "c:vocabulario-extra-y-frases-utiles.decepcion",
+    "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+      "en": "love",
+      "es": "amor",
+      "fr": "amour",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+      "en": "I hate it.",
+      "es": "odio",
+      "fr": "Je déteste ça.",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "en": "honesty",
+      "es": "honestidad",
+      "fr": "honnêteté",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+      "en": "lie",
+      "es": "mentira",
+      "fr": "mentir",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+      "en": "truth",
+      "es": "verdad",
+      "fr": "vérité",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+      "en": "justice",
+      "es": "justicia",
+      "fr": "justice",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "en": "injustice",
+      "es": "injusticia",
+      "fr": "injustice",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "en": "value / courage",
+      "es": "valor / coraje",
+      "fr": "valeur / courage",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+      "en": "fear",
+      "es": "miedo",
+      "fr": "peur",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "en": "hope",
+      "es": "esperanza",
+      "fr": "espoir",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "en": "disappointment",
+      "es": "decepción",
+      "fr": "déception",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+      "en": "anger / angry",
+      "es": "ira / enfado",
+      "fr": "colère / engouement",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "amour",
+          "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+          "options": [
+            "justice",
+            "amour",
+            "vérité",
+            "déception"
+          ],
+          "prompt": "amor"
+        },
+        {
+          "answer": "Je déteste ça.",
+          "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+          "options": [
+            "honnêteté",
+            "espoir",
+            "Je déteste ça.",
+            "injustice"
+          ],
+          "prompt": "odio"
+        },
+        {
+          "answer": "honnêteté",
+          "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+          "options": [
+            "vérité",
+            "honnêteté",
+            "colère / engouement",
+            "mentir"
+          ],
+          "prompt": "honestidad"
+        },
+        {
+          "answer": "mentir",
+          "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+          "options": [
+            "vérité",
+            "honnêteté",
+            "amour",
+            "mentir"
+          ],
+          "prompt": "mentira"
+        },
+        {
+          "answer": "vérité",
+          "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+          "options": [
+            "vérité",
+            "justice",
+            "honnêteté",
+            "colère / engouement"
+          ],
+          "prompt": "verdad"
+        },
+        {
+          "answer": "justice",
+          "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+          "options": [
+            "colère / engouement",
+            "injustice",
+            "justice",
+            "déception"
+          ],
+          "prompt": "justicia"
+        },
+        {
+          "answer": "injustice",
+          "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+          "options": [
+            "vérité",
+            "honnêteté",
+            "injustice",
+            "déception"
+          ],
+          "prompt": "injusticia"
+        },
+        {
+          "answer": "valeur / courage",
+          "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+          "options": [
+            "valeur / courage",
+            "injustice",
+            "espoir",
+            "justice"
+          ],
+          "prompt": "valor / coraje"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Support words and phrases that appear in many conversations.",
+    "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+  },
+  "generator": "build_lessons",
+  "id": "fr-u20-l1",
+  "lang": "fr",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Expand vocabulary",
+      "Use common everyday phrases"
+    ],
+    "es": [
+      "Ampliar vocabulario",
+      "Usar frases comunes del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "fr"
+      ],
+      "rows": [
+        [
+          "amor",
+          "love",
+          "amour"
+        ],
+        [
+          "odio",
+          "I hate it.",
+          "Je déteste ça."
+        ],
+        [
+          "honestidad",
+          "honesty",
+          "honnêteté"
+        ],
+        [
+          "mentira",
+          "lie",
+          "mentir"
+        ],
+        [
+          "verdad",
+          "truth",
+          "vérité"
+        ],
+        [
+          "justicia",
+          "justice",
+          "justice"
+        ],
+        [
+          "injusticia",
+          "injustice",
+          "injustice"
+        ],
+        [
+          "valor / coraje",
+          "value / courage",
+          "valeur / courage"
+        ],
+        [
+          "miedo",
+          "fear",
+          "peur"
+        ],
+        [
+          "esperanza",
+          "hope",
+          "espoir"
+        ],
+        [
+          "decepción",
+          "disappointment",
+          "déception"
+        ],
+        [
+          "ira / enfado",
+          "anger / angry",
+          "colère / engouement"
+        ]
+      ],
+      "title": "es · en · fr",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Extra vocabulary and useful phrases",
+    "es": "Vocabulario extra y frases útiles"
+  },
+  "unit": 20
+}

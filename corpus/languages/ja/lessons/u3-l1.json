@@ -19,91 +19,256 @@
       "en": "red",
       "es": "rojo",
       "ja": "赤",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "aka"
     },
     {
       "concept": "c:colores.azul",
       "en": "blue",
       "es": "azul",
       "ja": "青",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "ao"
     },
     {
       "concept": "c:colores.verde",
       "en": "green",
       "es": "verde",
       "ja": "緑",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "midori"
     },
     {
       "concept": "c:colores.amarillo",
       "en": "yellow",
       "es": "amarillo",
       "ja": "黄色",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "kiiro"
     },
     {
       "concept": "c:colores.negro",
       "en": "black",
       "es": "negro",
       "ja": "黒",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "kuro"
     },
     {
       "concept": "c:colores.blanco",
       "en": "white",
       "es": "blanco",
       "ja": "白",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "shiro"
     },
     {
       "concept": "c:colores.naranja",
       "en": "orange",
       "es": "naranja",
       "ja": "オレンジ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "orenji"
     },
     {
       "concept": "c:colores.rosa",
       "en": "pink",
       "es": "rosa",
       "ja": "ピンク",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "pinku"
     },
     {
       "concept": "c:colores.morado-violeta",
       "en": "purple / violet",
       "es": "morado / violeta",
       "ja": "紫",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "murasaki"
     },
     {
       "concept": "c:colores.marron",
       "en": "brown",
       "es": "marrón",
       "ja": "茶色",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "chairo"
     },
     {
       "concept": "c:colores.gris",
       "en": "grey",
       "es": "gris",
       "ja": "灰色",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "haiiro"
     },
     {
       "concept": "c:colores.dorado",
       "en": "gold",
       "es": "dorado",
       "ja": "金色",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "kin'iro"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "赤",
+          "answerTranslit": "aka",
+          "concept": "c:colores.rojo",
+          "optionTranslit": {
+            "オレンジ": "orenji",
+            "白": "shiro",
+            "緑": "midori",
+            "赤": "aka"
+          },
+          "options": [
+            "緑",
+            "赤",
+            "白",
+            "オレンジ"
+          ],
+          "prompt": "rojo"
+        },
+        {
+          "answer": "青",
+          "answerTranslit": "ao",
+          "concept": "c:colores.azul",
+          "optionTranslit": {
+            "オレンジ": "orenji",
+            "ピンク": "pinku",
+            "金色": "kin'iro",
+            "青": "ao"
+          },
+          "options": [
+            "金色",
+            "青",
+            "ピンク",
+            "オレンジ"
+          ],
+          "prompt": "azul"
+        },
+        {
+          "answer": "緑",
+          "answerTranslit": "midori",
+          "concept": "c:colores.verde",
+          "optionTranslit": {
+            "オレンジ": "orenji",
+            "灰色": "haiiro",
+            "紫": "murasaki",
+            "緑": "midori"
+          },
+          "options": [
+            "オレンジ",
+            "灰色",
+            "緑",
+            "紫"
+          ],
+          "prompt": "verde"
+        },
+        {
+          "answer": "黄色",
+          "answerTranslit": "kiiro",
+          "concept": "c:colores.amarillo",
+          "optionTranslit": {
+            "灰色": "haiiro",
+            "茶色": "chairo",
+            "赤": "aka",
+            "黄色": "kiiro"
+          },
+          "options": [
+            "茶色",
+            "赤",
+            "灰色",
+            "黄色"
+          ],
+          "prompt": "amarillo"
+        },
+        {
+          "answer": "黒",
+          "answerTranslit": "kuro",
+          "concept": "c:colores.negro",
+          "optionTranslit": {
+            "オレンジ": "orenji",
+            "茶色": "chairo",
+            "青": "ao",
+            "黒": "kuro"
+          },
+          "options": [
+            "青",
+            "黒",
+            "茶色",
+            "オレンジ"
+          ],
+          "prompt": "negro"
+        },
+        {
+          "answer": "白",
+          "answerTranslit": "shiro",
+          "concept": "c:colores.blanco",
+          "optionTranslit": {
+            "灰色": "haiiro",
+            "白": "shiro",
+            "金色": "kin'iro",
+            "黄色": "kiiro"
+          },
+          "options": [
+            "灰色",
+            "黄色",
+            "金色",
+            "白"
+          ],
+          "prompt": "blanco"
+        },
+        {
+          "answer": "オレンジ",
+          "answerTranslit": "orenji",
+          "concept": "c:colores.naranja",
+          "optionTranslit": {
+            "オレンジ": "orenji",
+            "白": "shiro",
+            "茶色": "chairo",
+            "金色": "kin'iro"
+          },
+          "options": [
+            "白",
+            "茶色",
+            "オレンジ",
+            "金色"
+          ],
+          "prompt": "naranja"
+        },
+        {
+          "answer": "ピンク",
+          "answerTranslit": "pinku",
+          "concept": "c:colores.rosa",
+          "optionTranslit": {
+            "ピンク": "pinku",
+            "赤": "aka",
+            "黄色": "kiiro",
+            "黒": "kuro"
+          },
+          "options": [
+            "赤",
+            "黒",
+            "ピンク",
+            "黄色"
+          ],
+          "prompt": "rosa"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Colours are used to describe objects, clothes and places.",
-    "es": "Los colores sirven para describir objetos, ropa y lugares.",
-    "ja": "オブジェクト、服や場所を記述する色が機能します。"
+    "es": "Los colores sirven para describir objetos, ropa y lugares."
   },
   "generator": "build_lessons",
   "id": "ja-u3-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar los colores básicos",
       "Describir objetos por su color"
-    ],
-    "ja": [
-      "基本色の名前",
-      "色でオブジェクトを記述する"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Colours",
-    "es": "Los colores",
-    "ja": "色彩色"
+    "es": "Los colores"
   },
   "unit": 3
 }

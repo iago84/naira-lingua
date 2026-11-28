@@ -1,0 +1,312 @@
+{
+  "concepts": [
+    "c:educacion-y-aprendizaje.educacion",
+    "c:educacion-y-aprendizaje.escuela",
+    "c:educacion-y-aprendizaje.clase-aula-grado",
+    "c:educacion-y-aprendizaje.leccion",
+    "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+    "c:educacion-y-aprendizaje.materia-tema-asunto",
+    "c:educacion-y-aprendizaje.matematicas",
+    "c:educacion-y-aprendizaje.ciencia",
+    "c:educacion-y-aprendizaje.historia",
+    "c:educacion-y-aprendizaje.geografia",
+    "c:educacion-y-aprendizaje.literatura",
+    "c:educacion-y-aprendizaje.idioma-lengua"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:educacion-y-aprendizaje.educacion",
+      "en": "education",
+      "es": "educación",
+      "speaker": "A",
+      "sw": "elimu"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.escuela",
+      "en": "school",
+      "es": "escuela",
+      "speaker": "B",
+      "sw": "shule"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+      "en": "class / classroom",
+      "es": "clase / aula / grado",
+      "speaker": "A",
+      "sw": "darasa"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.leccion",
+      "en": "lesson",
+      "es": "lección",
+      "speaker": "B",
+      "sw": "somo"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "en": "curriculum / course",
+      "es": "plan de estudios / curso",
+      "speaker": "A",
+      "sw": "plan",
+      "translit": "plan"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "en": "subject / topic",
+      "es": "materia / tema / asunto",
+      "speaker": "B",
+      "sw": "mada"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.matematicas",
+      "en": "mathematics",
+      "es": "matemáticas",
+      "speaker": "A",
+      "sw": "hisabati"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.ciencia",
+      "en": "science",
+      "es": "ciencia",
+      "speaker": "B",
+      "sw": "sayansi"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.historia",
+      "en": "history",
+      "es": "historia",
+      "speaker": "A",
+      "sw": "historia",
+      "translit": "historia"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.geografia",
+      "en": "geography",
+      "es": "geografía",
+      "speaker": "B",
+      "sw": "jiografia"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.literatura",
+      "en": "literature",
+      "es": "literatura",
+      "speaker": "A",
+      "sw": "fasihi"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+      "en": "language / tongue",
+      "es": "idioma / lengua",
+      "speaker": "B",
+      "sw": "lugha"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "elimu",
+          "concept": "c:educacion-y-aprendizaje.educacion",
+          "optionTranslit": {
+            "plan": "plan"
+          },
+          "options": [
+            "mada",
+            "plan",
+            "lugha",
+            "elimu"
+          ],
+          "prompt": "educación"
+        },
+        {
+          "answer": "shule",
+          "concept": "c:educacion-y-aprendizaje.escuela",
+          "options": [
+            "mada",
+            "jiografia",
+            "hisabati",
+            "shule"
+          ],
+          "prompt": "escuela"
+        },
+        {
+          "answer": "darasa",
+          "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+          "optionTranslit": {
+            "historia": "historia"
+          },
+          "options": [
+            "mada",
+            "jiografia",
+            "historia",
+            "darasa"
+          ],
+          "prompt": "clase / aula / grado"
+        },
+        {
+          "answer": "somo",
+          "concept": "c:educacion-y-aprendizaje.leccion",
+          "optionTranslit": {
+            "historia": "historia"
+          },
+          "options": [
+            "historia",
+            "lugha",
+            "mada",
+            "somo"
+          ],
+          "prompt": "lección"
+        },
+        {
+          "answer": "plan",
+          "answerTranslit": "plan",
+          "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+          "optionTranslit": {
+            "plan": "plan"
+          },
+          "options": [
+            "shule",
+            "jiografia",
+            "hisabati",
+            "plan"
+          ],
+          "prompt": "plan de estudios / curso"
+        },
+        {
+          "answer": "mada",
+          "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+          "options": [
+            "mada",
+            "shule",
+            "jiografia",
+            "fasihi"
+          ],
+          "prompt": "materia / tema / asunto"
+        },
+        {
+          "answer": "hisabati",
+          "concept": "c:educacion-y-aprendizaje.matematicas",
+          "options": [
+            "lugha",
+            "jiografia",
+            "hisabati",
+            "shule"
+          ],
+          "prompt": "matemáticas"
+        },
+        {
+          "answer": "sayansi",
+          "concept": "c:educacion-y-aprendizaje.ciencia",
+          "options": [
+            "elimu",
+            "hisabati",
+            "lugha",
+            "sayansi"
+          ],
+          "prompt": "ciencia"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Words from school and learning.",
+    "es": "Palabras de la escuela y del aprendizaje."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u17-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Talk about studies",
+      "Name school and its objects"
+    ],
+    "es": [
+      "Hablar de estudios",
+      "Nombrar la escuela y sus objetos"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "educación",
+          "education",
+          "elimu"
+        ],
+        [
+          "escuela",
+          "school",
+          "shule"
+        ],
+        [
+          "clase / aula / grado",
+          "class / classroom",
+          "darasa"
+        ],
+        [
+          "lección",
+          "lesson",
+          "somo"
+        ],
+        [
+          "plan de estudios / curso",
+          "curriculum / course",
+          "plan"
+        ],
+        [
+          "materia / tema / asunto",
+          "subject / topic",
+          "mada"
+        ],
+        [
+          "matemáticas",
+          "mathematics",
+          "hisabati"
+        ],
+        [
+          "ciencia",
+          "science",
+          "sayansi"
+        ],
+        [
+          "historia",
+          "history",
+          "historia"
+        ],
+        [
+          "geografía",
+          "geography",
+          "jiografia"
+        ],
+        [
+          "literatura",
+          "literature",
+          "fasihi"
+        ],
+        [
+          "idioma / lengua",
+          "language / tongue",
+          "lugha"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Education and learning",
+    "es": "La educación y el aprendizaje"
+  },
+  "unit": 17
+}

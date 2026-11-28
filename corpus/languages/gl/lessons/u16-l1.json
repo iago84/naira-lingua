@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:transporte-y-viajes.viaje",
+    "c:transporte-y-viajes.viaje-trayecto",
+    "c:transporte-y-viajes.turismo",
+    "c:transporte-y-viajes.coche-auto",
+    "c:transporte-y-viajes.taxi",
+    "c:transporte-y-viajes.autobus",
+    "c:transporte-y-viajes.tren",
+    "c:transporte-y-viajes.metro",
+    "c:transporte-y-viajes.avion",
+    "c:transporte-y-viajes.barco-avion",
+    "c:transporte-y-viajes.barco-bote",
+    "c:transporte-y-viajes.bicicleta"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:transporte-y-viajes.viaje",
+      "en": "travel",
+      "es": "viaje",
+      "gl": "Viaxe",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:transporte-y-viajes.viaje-trayecto",
+      "en": "travel / journey",
+      "es": "viaje / trayecto",
+      "gl": "Viaxe / viaxe",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:transporte-y-viajes.turismo",
+      "en": "tourism",
+      "es": "turismo",
+      "gl": "Turismo",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:transporte-y-viajes.coche-auto",
+      "en": "car / vehicle",
+      "es": "coche / auto",
+      "gl": "Coche / Vehículo",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:transporte-y-viajes.taxi",
+      "en": "taxi",
+      "es": "taxi",
+      "gl": "Taxi",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:transporte-y-viajes.autobus",
+      "en": "bus",
+      "es": "autobús",
+      "gl": "autobús",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:transporte-y-viajes.tren",
+      "en": "train",
+      "es": "tren",
+      "gl": "tren",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:transporte-y-viajes.metro",
+      "en": "Subway",
+      "es": "metro",
+      "gl": "Subway",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:transporte-y-viajes.avion",
+      "en": "aircraft",
+      "es": "avión",
+      "gl": "avión",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:transporte-y-viajes.barco-avion",
+      "en": "boat / aircraft",
+      "es": "barco / avión",
+      "gl": "Barco / avión",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:transporte-y-viajes.barco-bote",
+      "en": "boat / ship",
+      "es": "barco / bote",
+      "gl": "Barco / Nave",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:transporte-y-viajes.bicicleta",
+      "en": "bicycle",
+      "es": "bicicleta",
+      "gl": "bicicleta",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Viaxe",
+          "concept": "c:transporte-y-viajes.viaje",
+          "options": [
+            "Taxi",
+            "Barco / avión",
+            "Barco / Nave",
+            "Viaxe"
+          ],
+          "prompt": "viaje"
+        },
+        {
+          "answer": "Viaxe / viaxe",
+          "concept": "c:transporte-y-viajes.viaje-trayecto",
+          "options": [
+            "Subway",
+            "Turismo",
+            "Barco / Nave",
+            "Viaxe / viaxe"
+          ],
+          "prompt": "viaje / trayecto"
+        },
+        {
+          "answer": "Turismo",
+          "concept": "c:transporte-y-viajes.turismo",
+          "options": [
+            "Viaxe / viaxe",
+            "Barco / avión",
+            "Subway",
+            "Turismo"
+          ],
+          "prompt": "turismo"
+        },
+        {
+          "answer": "Coche / Vehículo",
+          "concept": "c:transporte-y-viajes.coche-auto",
+          "options": [
+            "Coche / Vehículo",
+            "avión",
+            "Barco / avión",
+            "Viaxe"
+          ],
+          "prompt": "coche / auto"
+        },
+        {
+          "answer": "Taxi",
+          "concept": "c:transporte-y-viajes.taxi",
+          "options": [
+            "Viaxe",
+            "Turismo",
+            "Taxi",
+            "Viaxe / viaxe"
+          ],
+          "prompt": "taxi"
+        },
+        {
+          "answer": "autobús",
+          "concept": "c:transporte-y-viajes.autobus",
+          "options": [
+            "Coche / Vehículo",
+            "Taxi",
+            "autobús",
+            "bicicleta"
+          ],
+          "prompt": "autobús"
+        },
+        {
+          "answer": "tren",
+          "concept": "c:transporte-y-viajes.tren",
+          "options": [
+            "Barco / avión",
+            "autobús",
+            "tren",
+            "bicicleta"
+          ],
+          "prompt": "tren"
+        },
+        {
+          "answer": "Subway",
+          "concept": "c:transporte-y-viajes.metro",
+          "options": [
+            "Viaxe",
+            "Subway",
+            "Barco / avión",
+            "avión"
+          ],
+          "prompt": "metro"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Means of transport and words useful to get around.",
+    "es": "Medios de transporte y palabras útiles para desplazarse."
+  },
+  "generator": "build_lessons",
+  "id": "gl-u16-l1",
+  "lang": "gl",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name means of transport",
+      "Get around and travel"
+    ],
+    "es": [
+      "Nombrar medios de transporte",
+      "Moverse y viajar"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "gl"
+      ],
+      "rows": [
+        [
+          "viaje",
+          "travel",
+          "Viaxe"
+        ],
+        [
+          "viaje / trayecto",
+          "travel / journey",
+          "Viaxe / viaxe"
+        ],
+        [
+          "turismo",
+          "tourism",
+          "Turismo"
+        ],
+        [
+          "coche / auto",
+          "car / vehicle",
+          "Coche / Vehículo"
+        ],
+        [
+          "taxi",
+          "taxi",
+          "Taxi"
+        ],
+        [
+          "autobús",
+          "bus",
+          "autobús"
+        ],
+        [
+          "tren",
+          "train",
+          "tren"
+        ],
+        [
+          "metro",
+          "Subway",
+          "Subway"
+        ],
+        [
+          "avión",
+          "aircraft",
+          "avión"
+        ],
+        [
+          "barco / avión",
+          "boat / aircraft",
+          "Barco / avión"
+        ],
+        [
+          "barco / bote",
+          "boat / ship",
+          "Barco / Nave"
+        ],
+        [
+          "bicicleta",
+          "bicycle",
+          "bicicleta"
+        ]
+      ],
+      "title": "es · en · gl",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Transport and travel",
+    "es": "El transporte y los viajes"
+  },
+  "unit": 16
+}

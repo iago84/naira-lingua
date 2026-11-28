@@ -19,91 +19,256 @@
       "en": "red",
       "es": "rojo",
       "hi": "लाल",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "lāl"
     },
     {
       "concept": "c:colores.azul",
       "en": "blue",
       "es": "azul",
       "hi": "नीला",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "nīlā"
     },
     {
       "concept": "c:colores.verde",
       "en": "green",
       "es": "verde",
       "hi": "हरा",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "harā"
     },
     {
       "concept": "c:colores.amarillo",
       "en": "yellow",
       "es": "amarillo",
       "hi": "पीला",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "pīlā"
     },
     {
       "concept": "c:colores.negro",
       "en": "black",
       "es": "negro",
       "hi": "काला",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "kālā"
     },
     {
       "concept": "c:colores.blanco",
       "en": "white",
       "es": "blanco",
       "hi": "सफ़ेद",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "safed"
     },
     {
       "concept": "c:colores.naranja",
       "en": "orange",
       "es": "naranja",
       "hi": "नारंगी",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "nāraṅgī"
     },
     {
       "concept": "c:colores.rosa",
       "en": "pink",
       "es": "rosa",
       "hi": "गुलाबी",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "gulābī"
     },
     {
       "concept": "c:colores.morado-violeta",
       "en": "purple / violet",
       "es": "morado / violeta",
       "hi": "बैंगनी",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "baiṅganī"
     },
     {
       "concept": "c:colores.marron",
       "en": "brown",
       "es": "marrón",
       "hi": "भूरा",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "bhūrā"
     },
     {
       "concept": "c:colores.gris",
       "en": "grey",
       "es": "gris",
       "hi": "स्लेटी",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "sleṭī"
     },
     {
       "concept": "c:colores.dorado",
       "en": "gold",
       "es": "dorado",
       "hi": "सुनहरा",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "sunahrā"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "लाल",
+          "answerTranslit": "lāl",
+          "concept": "c:colores.rojo",
+          "optionTranslit": {
+            "नारंगी": "nāraṅgī",
+            "लाल": "lāl",
+            "सफ़ेद": "safed",
+            "हरा": "harā"
+          },
+          "options": [
+            "हरा",
+            "लाल",
+            "सफ़ेद",
+            "नारंगी"
+          ],
+          "prompt": "rojo"
+        },
+        {
+          "answer": "नीला",
+          "answerTranslit": "nīlā",
+          "concept": "c:colores.azul",
+          "optionTranslit": {
+            "गुलाबी": "gulābī",
+            "नारंगी": "nāraṅgī",
+            "नीला": "nīlā",
+            "सुनहरा": "sunahrā"
+          },
+          "options": [
+            "सुनहरा",
+            "नीला",
+            "गुलाबी",
+            "नारंगी"
+          ],
+          "prompt": "azul"
+        },
+        {
+          "answer": "हरा",
+          "answerTranslit": "harā",
+          "concept": "c:colores.verde",
+          "optionTranslit": {
+            "नारंगी": "nāraṅgī",
+            "बैंगनी": "baiṅganī",
+            "स्लेटी": "sleṭī",
+            "हरा": "harā"
+          },
+          "options": [
+            "नारंगी",
+            "स्लेटी",
+            "हरा",
+            "बैंगनी"
+          ],
+          "prompt": "verde"
+        },
+        {
+          "answer": "पीला",
+          "answerTranslit": "pīlā",
+          "concept": "c:colores.amarillo",
+          "optionTranslit": {
+            "पीला": "pīlā",
+            "भूरा": "bhūrā",
+            "लाल": "lāl",
+            "स्लेटी": "sleṭī"
+          },
+          "options": [
+            "भूरा",
+            "लाल",
+            "स्लेटी",
+            "पीला"
+          ],
+          "prompt": "amarillo"
+        },
+        {
+          "answer": "काला",
+          "answerTranslit": "kālā",
+          "concept": "c:colores.negro",
+          "optionTranslit": {
+            "काला": "kālā",
+            "नारंगी": "nāraṅgī",
+            "नीला": "nīlā",
+            "भूरा": "bhūrā"
+          },
+          "options": [
+            "नीला",
+            "काला",
+            "भूरा",
+            "नारंगी"
+          ],
+          "prompt": "negro"
+        },
+        {
+          "answer": "सफ़ेद",
+          "answerTranslit": "safed",
+          "concept": "c:colores.blanco",
+          "optionTranslit": {
+            "पीला": "pīlā",
+            "सफ़ेद": "safed",
+            "सुनहरा": "sunahrā",
+            "स्लेटी": "sleṭī"
+          },
+          "options": [
+            "स्लेटी",
+            "पीला",
+            "सुनहरा",
+            "सफ़ेद"
+          ],
+          "prompt": "blanco"
+        },
+        {
+          "answer": "नारंगी",
+          "answerTranslit": "nāraṅgī",
+          "concept": "c:colores.naranja",
+          "optionTranslit": {
+            "नारंगी": "nāraṅgī",
+            "भूरा": "bhūrā",
+            "सफ़ेद": "safed",
+            "सुनहरा": "sunahrā"
+          },
+          "options": [
+            "सफ़ेद",
+            "भूरा",
+            "नारंगी",
+            "सुनहरा"
+          ],
+          "prompt": "naranja"
+        },
+        {
+          "answer": "गुलाबी",
+          "answerTranslit": "gulābī",
+          "concept": "c:colores.rosa",
+          "optionTranslit": {
+            "काला": "kālā",
+            "गुलाबी": "gulābī",
+            "पीला": "pīlā",
+            "लाल": "lāl"
+          },
+          "options": [
+            "लाल",
+            "काला",
+            "गुलाबी",
+            "पीला"
+          ],
+          "prompt": "rosa"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Colours are used to describe objects, clothes and places.",
-    "es": "Los colores sirven para describir objetos, ropa y lugares.",
-    "hi": "रंग वस्तुओं, कपड़े और स्थानों का वर्णन करने के लिए काम करते हैं।"
+    "es": "Los colores sirven para describir objetos, ropa y lugares."
   },
   "generator": "build_lessons",
   "id": "hi-u3-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar los colores básicos",
       "Describir objetos por su color"
-    ],
-    "hi": [
-      "मूल रंग नाम",
-      "रंग से ऑब्जेक्ट्स का वर्णन करें"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Colours",
-    "es": "Los colores",
-    "hi": "रंग"
+    "es": "Los colores"
   },
   "unit": 3
 }

@@ -19,6 +19,7 @@
       "en": "food / eat",
       "es": "comida / comer",
       "speaker": "A",
+      "translit": "khaana",
       "ur": "کھانا"
     },
     {
@@ -26,6 +27,7 @@
       "en": "food (formal)",
       "es": "comida (formal)",
       "speaker": "B",
+      "translit": "bhojan",
       "ur": "بھوجن"
     },
     {
@@ -33,6 +35,7 @@
       "en": "breakfast",
       "es": "desayuno",
       "speaker": "A",
+      "translit": "nāśtā",
       "ur": "ناشتا"
     },
     {
@@ -40,6 +43,7 @@
       "en": "lunch",
       "es": "almuerzo",
       "speaker": "B",
+      "translit": "dopahar kā khānā",
       "ur": "دوپہر کا کھانا"
     },
     {
@@ -47,6 +51,7 @@
       "en": "dinner",
       "es": "cena",
       "speaker": "A",
+      "translit": "rāt kā khānā",
       "ur": "رات کا کھانا"
     },
     {
@@ -54,6 +59,7 @@
       "en": "water",
       "es": "agua",
       "speaker": "B",
+      "translit": "paani",
       "ur": "پانی"
     },
     {
@@ -61,6 +67,7 @@
       "en": "milk",
       "es": "leche",
       "speaker": "A",
+      "translit": "dūdh",
       "ur": "دودھ"
     },
     {
@@ -68,6 +75,7 @@
       "en": "tea",
       "es": "té",
       "speaker": "B",
+      "translit": "cāy",
       "ur": "چای"
     },
     {
@@ -75,6 +83,7 @@
       "en": "coffee",
       "es": "café",
       "speaker": "A",
+      "translit": "kôfī",
       "ur": "کاپھی"
     },
     {
@@ -82,6 +91,7 @@
       "en": "juice / juices",
       "es": "zumo / jugo",
       "speaker": "B",
+      "translit": "jūs",
       "ur": "جوس"
     },
     {
@@ -89,6 +99,7 @@
       "en": "lassi (yoghurt beaten)",
       "es": "lassi (yogur batido)",
       "speaker": "A",
+      "translit": "lassī",
       "ur": "لسسی"
     },
     {
@@ -96,10 +107,165 @@
       "en": "alcohol / wine",
       "es": "alcohol / vino",
       "speaker": "B",
+      "translit": "śarāb",
       "ur": "شراب"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "کھانا",
+          "answerTranslit": "khaana",
+          "concept": "c:comida-y-bebida.comida-comer",
+          "optionTranslit": {
+            "جوس": "jūs",
+            "شراب": "śarāb",
+            "کاپھی": "kôfī",
+            "کھانا": "khaana"
+          },
+          "options": [
+            "جوس",
+            "کھانا",
+            "شراب",
+            "کاپھی"
+          ],
+          "prompt": "comida / comer"
+        },
+        {
+          "answer": "بھوجن",
+          "answerTranslit": "bhojan",
+          "concept": "c:comida-y-bebida.comida-formal",
+          "optionTranslit": {
+            "بھوجن": "bhojan",
+            "شراب": "śarāb",
+            "کاپھی": "kôfī",
+            "کھانا": "khaana"
+          },
+          "options": [
+            "کاپھی",
+            "کھانا",
+            "بھوجن",
+            "شراب"
+          ],
+          "prompt": "comida (formal)"
+        },
+        {
+          "answer": "ناشتا",
+          "answerTranslit": "nāśtā",
+          "concept": "c:comida-y-bebida.desayuno",
+          "optionTranslit": {
+            "بھوجن": "bhojan",
+            "ناشتا": "nāśtā",
+            "کاپھی": "kôfī",
+            "کھانا": "khaana"
+          },
+          "options": [
+            "بھوجن",
+            "ناشتا",
+            "کاپھی",
+            "کھانا"
+          ],
+          "prompt": "desayuno"
+        },
+        {
+          "answer": "دوپہر کا کھانا",
+          "answerTranslit": "dopahar kā khānā",
+          "concept": "c:comida-y-bebida.almuerzo",
+          "optionTranslit": {
+            "بھوجن": "bhojan",
+            "دوپہر کا کھانا": "dopahar kā khānā",
+            "پانی": "paani",
+            "کھانا": "khaana"
+          },
+          "options": [
+            "پانی",
+            "دوپہر کا کھانا",
+            "بھوجن",
+            "کھانا"
+          ],
+          "prompt": "almuerzo"
+        },
+        {
+          "answer": "رات کا کھانا",
+          "answerTranslit": "rāt kā khānā",
+          "concept": "c:comida-y-bebida.cena",
+          "optionTranslit": {
+            "رات کا کھانا": "rāt kā khānā",
+            "ناشتا": "nāśtā",
+            "پانی": "paani",
+            "چای": "cāy"
+          },
+          "options": [
+            "چای",
+            "پانی",
+            "ناشتا",
+            "رات کا کھانا"
+          ],
+          "prompt": "cena"
+        },
+        {
+          "answer": "پانی",
+          "answerTranslit": "paani",
+          "concept": "c:comida-y-bebida.agua",
+          "optionTranslit": {
+            "دودھ": "dūdh",
+            "ناشتا": "nāśtā",
+            "پانی": "paani",
+            "کاپھی": "kôfī"
+          },
+          "options": [
+            "پانی",
+            "کاپھی",
+            "دودھ",
+            "ناشتا"
+          ],
+          "prompt": "agua"
+        },
+        {
+          "answer": "دودھ",
+          "answerTranslit": "dūdh",
+          "concept": "c:comida-y-bebida.leche",
+          "optionTranslit": {
+            "دودھ": "dūdh",
+            "رات کا کھانا": "rāt kā khānā",
+            "شراب": "śarāb",
+            "لسسی": "lassī"
+          },
+          "options": [
+            "رات کا کھانا",
+            "لسسی",
+            "دودھ",
+            "شراب"
+          ],
+          "prompt": "leche"
+        },
+        {
+          "answer": "چای",
+          "answerTranslit": "cāy",
+          "concept": "c:comida-y-bebida.te",
+          "optionTranslit": {
+            "دوپہر کا کھانا": "dopahar kā khānā",
+            "رات کا کھانا": "rāt kā khānā",
+            "چای": "cāy",
+            "کاپھی": "kôfī"
+          },
+          "options": [
+            "رات کا کھانا",
+            "کاپھی",
+            "چای",
+            "دوپہر کا کھانا"
+          ],
+          "prompt": "té"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic foods and drinks, very useful when shopping or eating out.",
     "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."

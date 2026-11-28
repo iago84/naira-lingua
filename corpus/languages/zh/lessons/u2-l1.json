@@ -19,6 +19,7 @@
       "en": "zero",
       "es": "cero",
       "speaker": "A",
+      "translit": "líng",
       "zh": "零"
     },
     {
@@ -26,6 +27,7 @@
       "en": "one",
       "es": "uno",
       "speaker": "B",
+      "translit": "yī",
       "zh": "一"
     },
     {
@@ -33,6 +35,7 @@
       "en": "two",
       "es": "dos",
       "speaker": "A",
+      "translit": "èr",
       "zh": "二"
     },
     {
@@ -40,6 +43,7 @@
       "en": "three",
       "es": "tres",
       "speaker": "B",
+      "translit": "sān",
       "zh": "三"
     },
     {
@@ -47,6 +51,7 @@
       "en": "4",
       "es": "cuatro",
       "speaker": "A",
+      "translit": "sì",
       "zh": "四"
     },
     {
@@ -54,6 +59,7 @@
       "en": "five",
       "es": "cinco",
       "speaker": "B",
+      "translit": "wǔ",
       "zh": "五"
     },
     {
@@ -61,6 +67,7 @@
       "en": "6",
       "es": "seis",
       "speaker": "A",
+      "translit": "liù",
       "zh": "六"
     },
     {
@@ -68,6 +75,7 @@
       "en": "seven",
       "es": "siete",
       "speaker": "B",
+      "translit": "qī",
       "zh": "七"
     },
     {
@@ -75,6 +83,7 @@
       "en": "8",
       "es": "ocho",
       "speaker": "A",
+      "translit": "bā",
       "zh": "八"
     },
     {
@@ -82,6 +91,7 @@
       "en": "9",
       "es": "nueve",
       "speaker": "B",
+      "translit": "jiǔ",
       "zh": "九"
     },
     {
@@ -89,6 +99,7 @@
       "en": "10",
       "es": "diez",
       "speaker": "A",
+      "translit": "shí",
       "zh": "十"
     },
     {
@@ -96,14 +107,168 @@
       "en": "11",
       "es": "once",
       "speaker": "B",
+      "translit": "shí yī",
       "zh": "十一"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "零",
+          "answerTranslit": "líng",
+          "concept": "c:numeros.cero",
+          "optionTranslit": {
+            "一": "yī",
+            "七": "qī",
+            "九": "jiǔ",
+            "零": "líng"
+          },
+          "options": [
+            "九",
+            "零",
+            "七",
+            "一"
+          ],
+          "prompt": "cero"
+        },
+        {
+          "answer": "一",
+          "answerTranslit": "yī",
+          "concept": "c:numeros.uno",
+          "optionTranslit": {
+            "一": "yī",
+            "二": "èr",
+            "五": "wǔ",
+            "十": "shí"
+          },
+          "options": [
+            "五",
+            "二",
+            "十",
+            "一"
+          ],
+          "prompt": "uno"
+        },
+        {
+          "answer": "二",
+          "answerTranslit": "èr",
+          "concept": "c:numeros.dos",
+          "optionTranslit": {
+            "九": "jiǔ",
+            "二": "èr",
+            "五": "wǔ",
+            "六": "liù"
+          },
+          "options": [
+            "六",
+            "九",
+            "五",
+            "二"
+          ],
+          "prompt": "dos"
+        },
+        {
+          "answer": "三",
+          "answerTranslit": "sān",
+          "concept": "c:numeros.tres",
+          "optionTranslit": {
+            "三": "sān",
+            "二": "èr",
+            "六": "liù",
+            "十": "shí"
+          },
+          "options": [
+            "十",
+            "六",
+            "二",
+            "三"
+          ],
+          "prompt": "tres"
+        },
+        {
+          "answer": "四",
+          "answerTranslit": "sì",
+          "concept": "c:numeros.cuatro",
+          "optionTranslit": {
+            "五": "wǔ",
+            "八": "bā",
+            "十": "shí",
+            "四": "sì"
+          },
+          "options": [
+            "四",
+            "五",
+            "十",
+            "八"
+          ],
+          "prompt": "cuatro"
+        },
+        {
+          "answer": "五",
+          "answerTranslit": "wǔ",
+          "concept": "c:numeros.cinco",
+          "optionTranslit": {
+            "七": "qī",
+            "五": "wǔ",
+            "四": "sì",
+            "零": "líng"
+          },
+          "options": [
+            "四",
+            "零",
+            "七",
+            "五"
+          ],
+          "prompt": "cinco"
+        },
+        {
+          "answer": "六",
+          "answerTranslit": "liù",
+          "concept": "c:numeros.seis",
+          "optionTranslit": {
+            "二": "èr",
+            "六": "liù",
+            "十一": "shí yī",
+            "零": "líng"
+          },
+          "options": [
+            "二",
+            "十一",
+            "六",
+            "零"
+          ],
+          "prompt": "seis"
+        },
+        {
+          "answer": "七",
+          "answerTranslit": "qī",
+          "concept": "c:numeros.siete",
+          "optionTranslit": {
+            "七": "qī",
+            "五": "wǔ",
+            "八": "bā",
+            "四": "sì"
+          },
+          "options": [
+            "八",
+            "七",
+            "五",
+            "四"
+          ],
+          "prompt": "siete"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Everyday numbers: used to count, give your age and talk about prices.",
-    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
-    "zh": "至今的日数:用于计数,年龄和价格."
+    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
   },
   "generator": "build_lessons",
   "id": "zh-u2-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Contar del cero al diez",
       "Reconocer los números básicos"
-    ],
-    "zh": [
-      "从0到10计数",
-      "识别基本数字"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Numbers",
-    "es": "Los números",
-    "zh": "数字"
+    "es": "Los números"
   },
   "unit": 2
 }

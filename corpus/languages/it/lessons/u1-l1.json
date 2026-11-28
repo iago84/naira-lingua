@@ -91,11 +91,108 @@
       "speaker": "A"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "ciao",
+          "concept": "c:saludos-y-expresiones.hola",
+          "options": [
+            "Ci vediamo dopo.",
+            "ciao",
+            "per favore",
+            "Buon pomeriggio."
+          ],
+          "prompt": "hola"
+        },
+        {
+          "answer": "Buongiorno.",
+          "concept": "c:saludos-y-expresiones.buenos-dias",
+          "options": [
+            "sì",
+            "Mi scusi, scusate.",
+            "Buongiorno.",
+            "per favore"
+          ],
+          "prompt": "buenos días"
+        },
+        {
+          "answer": "Buon pomeriggio.",
+          "concept": "c:saludos-y-expresiones.buenas-tardes",
+          "options": [
+            "Buon pomeriggio.",
+            "Ci vediamo dopo.",
+            "arrivederci",
+            "grazie"
+          ],
+          "prompt": "buenas tardes"
+        },
+        {
+          "answer": "Buonanotte.",
+          "concept": "c:saludos-y-expresiones.buenas-noches",
+          "options": [
+            "Ci vediamo dopo.",
+            "ciao",
+            "Buonanotte.",
+            "arrivederci"
+          ],
+          "prompt": "buenas noches"
+        },
+        {
+          "answer": "grazie",
+          "concept": "c:saludos-y-expresiones.gracias",
+          "options": [
+            "grazie",
+            "Ci vediamo dopo.",
+            "ciao",
+            "Buon pomeriggio."
+          ],
+          "prompt": "gracias"
+        },
+        {
+          "answer": "per favore",
+          "concept": "c:saludos-y-expresiones.por-favor",
+          "options": [
+            "per favore",
+            "grazie",
+            "Buongiorno.",
+            "ciao"
+          ],
+          "prompt": "por favor"
+        },
+        {
+          "answer": "Mi scusi, scusate.",
+          "concept": "c:saludos-y-expresiones.perdon-disculpe",
+          "options": [
+            "ciao",
+            "Mi scusi, scusate.",
+            "Ci vediamo dopo.",
+            "no"
+          ],
+          "prompt": "perdón / disculpe"
+        },
+        {
+          "answer": "arrivederci",
+          "concept": "c:saludos-y-expresiones.adios",
+          "options": [
+            "arrivederci",
+            "Mi scusi, scusate.",
+            "Ci vediamo dopo.",
+            "no"
+          ],
+          "prompt": "adiós"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic courtesy expressions to open and close a conversation.",
-    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
-    "it": "Espressioni di base per la cortesia ad aprire e chiudere una conversazione."
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
   },
   "generator": "build_lessons",
   "id": "it-u1-l1",
@@ -109,10 +206,6 @@
     "es": [
       "Saludar y despedirse",
       "Dar las gracias y pedir por favor"
-    ],
-    "it": [
-      "Salutare e dire addio",
-      "Ringrazia e chiedi"
     ]
   },
   "tables": [
@@ -185,8 +278,7 @@
   ],
   "title": {
     "en": "Greetings and courtesy",
-    "es": "Saludos y cortesía",
-    "it": "Saluti e cortesia"
+    "es": "Saludos y cortesía"
   },
   "unit": 1
 }

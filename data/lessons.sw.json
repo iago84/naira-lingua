@@ -19,80 +19,245 @@
         "en": "Hello.",
         "es": "hola",
         "speaker": "A",
-        "sw": "Habari / Hujambo"
+        "sw": "Habari / Hujambo",
+        "translit": "ha-ba-ri"
       },
       {
         "concept": "c:saludos-y-expresiones.buenos-dias",
         "en": "Good morning.",
         "es": "buenos días",
         "speaker": "B",
-        "sw": "Habari za asubuhi"
+        "sw": "Habari za asubuhi",
+        "translit": "a-su-bu-hi"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-tardes",
         "en": "Good afternoon.",
         "es": "buenas tardes",
         "speaker": "A",
-        "sw": "Habari za mchana"
+        "sw": "Habari za mchana",
+        "translit": "m-cha-na"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-noches",
         "en": "Good night.",
         "es": "buenas noches",
         "speaker": "B",
-        "sw": "Usiku mwema / Habari za usiku"
+        "sw": "Usiku mwema / Habari za usiku",
+        "translit": "u-si-ku mwe-ma"
       },
       {
         "concept": "c:saludos-y-expresiones.gracias",
         "en": "Thank you.",
         "es": "gracias",
         "speaker": "A",
-        "sw": "Asante"
+        "sw": "Asante",
+        "translit": "a-san-te"
       },
       {
         "concept": "c:saludos-y-expresiones.por-favor",
         "en": "Please.",
         "es": "por favor",
         "speaker": "B",
-        "sw": "Tafadhali"
+        "sw": "Tafadhali",
+        "translit": "ta-fa-dha-li"
       },
       {
         "concept": "c:saludos-y-expresiones.perdon-disculpe",
         "en": "Excuse me / excuse",
         "es": "perdón / disculpe",
         "speaker": "A",
-        "sw": "Samahani"
+        "sw": "Samahani",
+        "translit": "sa-ma-ha-ni"
       },
       {
         "concept": "c:saludos-y-expresiones.adios",
         "en": "Bye.",
         "es": "adiós",
         "speaker": "B",
-        "sw": "Kwaheri"
+        "sw": "Kwaheri",
+        "translit": "kwa-he-ri"
       },
       {
         "concept": "c:saludos-y-expresiones.hasta-luego",
         "en": "See you later.",
         "es": "hasta luego",
         "speaker": "A",
-        "sw": "Tutaonana"
+        "sw": "Tutaonana",
+        "translit": "tu-ta-o-na-na"
       },
       {
         "concept": "c:saludos-y-expresiones.si",
         "en": "Yes",
         "es": "sí",
         "speaker": "B",
-        "sw": "Ndiyo"
+        "sw": "Ndiyo",
+        "translit": "ndi-yo"
       },
       {
         "concept": "c:saludos-y-expresiones.no",
         "en": "No.",
         "es": "no",
         "speaker": "A",
-        "sw": "Hapana"
+        "sw": "Hapana",
+        "translit": "ha-pa-na"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Habari / Hujambo",
+            "answerTranslit": "ha-ba-ri",
+            "concept": "c:saludos-y-expresiones.hola",
+            "optionTranslit": {
+              "Habari / Hujambo": "ha-ba-ri",
+              "Habari za mchana": "m-cha-na",
+              "Tafadhali": "ta-fa-dha-li",
+              "Tutaonana": "tu-ta-o-na-na"
+            },
+            "options": [
+              "Tutaonana",
+              "Habari / Hujambo",
+              "Tafadhali",
+              "Habari za mchana"
+            ],
+            "prompt": "hola"
+          },
+          {
+            "answer": "Habari za asubuhi",
+            "answerTranslit": "a-su-bu-hi",
+            "concept": "c:saludos-y-expresiones.buenos-dias",
+            "optionTranslit": {
+              "Habari za asubuhi": "a-su-bu-hi",
+              "Ndiyo": "ndi-yo",
+              "Samahani": "sa-ma-ha-ni",
+              "Tafadhali": "ta-fa-dha-li"
+            },
+            "options": [
+              "Ndiyo",
+              "Samahani",
+              "Habari za asubuhi",
+              "Tafadhali"
+            ],
+            "prompt": "buenos días"
+          },
+          {
+            "answer": "Habari za mchana",
+            "answerTranslit": "m-cha-na",
+            "concept": "c:saludos-y-expresiones.buenas-tardes",
+            "optionTranslit": {
+              "Asante": "a-san-te",
+              "Habari za mchana": "m-cha-na",
+              "Kwaheri": "kwa-he-ri",
+              "Tutaonana": "tu-ta-o-na-na"
+            },
+            "options": [
+              "Habari za mchana",
+              "Tutaonana",
+              "Kwaheri",
+              "Asante"
+            ],
+            "prompt": "buenas tardes"
+          },
+          {
+            "answer": "Usiku mwema / Habari za usiku",
+            "answerTranslit": "u-si-ku mwe-ma",
+            "concept": "c:saludos-y-expresiones.buenas-noches",
+            "optionTranslit": {
+              "Habari / Hujambo": "ha-ba-ri",
+              "Kwaheri": "kwa-he-ri",
+              "Tutaonana": "tu-ta-o-na-na",
+              "Usiku mwema / Habari za usiku": "u-si-ku mwe-ma"
+            },
+            "options": [
+              "Tutaonana",
+              "Habari / Hujambo",
+              "Usiku mwema / Habari za usiku",
+              "Kwaheri"
+            ],
+            "prompt": "buenas noches"
+          },
+          {
+            "answer": "Asante",
+            "answerTranslit": "a-san-te",
+            "concept": "c:saludos-y-expresiones.gracias",
+            "optionTranslit": {
+              "Asante": "a-san-te",
+              "Habari / Hujambo": "ha-ba-ri",
+              "Habari za mchana": "m-cha-na",
+              "Tutaonana": "tu-ta-o-na-na"
+            },
+            "options": [
+              "Asante",
+              "Tutaonana",
+              "Habari / Hujambo",
+              "Habari za mchana"
+            ],
+            "prompt": "gracias"
+          },
+          {
+            "answer": "Tafadhali",
+            "answerTranslit": "ta-fa-dha-li",
+            "concept": "c:saludos-y-expresiones.por-favor",
+            "optionTranslit": {
+              "Asante": "a-san-te",
+              "Habari / Hujambo": "ha-ba-ri",
+              "Habari za asubuhi": "a-su-bu-hi",
+              "Tafadhali": "ta-fa-dha-li"
+            },
+            "options": [
+              "Tafadhali",
+              "Asante",
+              "Habari za asubuhi",
+              "Habari / Hujambo"
+            ],
+            "prompt": "por favor"
+          },
+          {
+            "answer": "Samahani",
+            "answerTranslit": "sa-ma-ha-ni",
+            "concept": "c:saludos-y-expresiones.perdon-disculpe",
+            "optionTranslit": {
+              "Habari / Hujambo": "ha-ba-ri",
+              "Hapana": "ha-pa-na",
+              "Samahani": "sa-ma-ha-ni",
+              "Tutaonana": "tu-ta-o-na-na"
+            },
+            "options": [
+              "Habari / Hujambo",
+              "Samahani",
+              "Tutaonana",
+              "Hapana"
+            ],
+            "prompt": "perdón / disculpe"
+          },
+          {
+            "answer": "Kwaheri",
+            "answerTranslit": "kwa-he-ri",
+            "concept": "c:saludos-y-expresiones.adios",
+            "optionTranslit": {
+              "Hapana": "ha-pa-na",
+              "Kwaheri": "kwa-he-ri",
+              "Samahani": "sa-ma-ha-ni",
+              "Tutaonana": "tu-ta-o-na-na"
+            },
+            "options": [
+              "Kwaheri",
+              "Samahani",
+              "Tutaonana",
+              "Hapana"
+            ],
+            "prompt": "adiós"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Basic courtesy expressions to open and close a conversation.",
       "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
@@ -206,87 +371,249 @@
         "en": "city",
         "es": "ciudad",
         "speaker": "A",
-        "sw": "jiji / mji"
+        "sw": "jiji / mji",
+        "translit": "ji-ji"
       },
       {
         "concept": "c:ciudad-y-lugares.pueblo-aldea",
         "en": "village / town",
         "es": "pueblo / aldea",
         "speaker": "B",
-        "sw": "kijiji"
+        "sw": "kijiji",
+        "translit": "ki-ji-ji"
       },
       {
         "concept": "c:ciudad-y-lugares.pais",
         "en": "country",
         "es": "país",
         "speaker": "A",
-        "sw": "nchi / taifa"
+        "sw": "nchi / taifa",
+        "translit": "nchi"
       },
       {
         "concept": "c:ciudad-y-lugares.estado-provincia",
         "en": "State / province",
         "es": "estado / provincia",
         "speaker": "B",
-        "sw": "jimbo / mkoa"
+        "sw": "jimbo / mkoa",
+        "translit": "jim-bo"
       },
       {
         "concept": "c:ciudad-y-lugares.capital",
         "en": "capital",
         "es": "capital",
         "speaker": "A",
-        "sw": "mji mkuu"
+        "sw": "mji mkuu",
+        "translit": "mji mku-u"
       },
       {
         "concept": "c:ciudad-y-lugares.zona-area",
         "en": "area / zone",
         "es": "zona / área",
         "speaker": "B",
-        "sw": "eneo / sehemu"
+        "sw": "eneo / sehemu",
+        "translit": "e-ne-o"
       },
       {
         "concept": "c:ciudad-y-lugares.calle-carretera",
         "en": "Street / road",
         "es": "calle / carretera",
         "speaker": "A",
-        "sw": "barabara / mtaa"
+        "sw": "barabara / mtaa",
+        "translit": "ba-ra-ba-ra"
       },
       {
         "concept": "c:ciudad-y-lugares.callejon",
         "en": "alley",
         "es": "callejón",
         "speaker": "B",
-        "sw": "callejón"
+        "sw": "mtaro"
       },
       {
         "concept": "c:ciudad-y-lugares.cruce-interseccion",
         "en": "cross / intersection",
         "es": "cruce / intersección",
         "speaker": "A",
-        "sw": "makutano / njia panda"
+        "sw": "makutano / njia panda",
+        "translit": "ma-ku-ta-no"
       },
       {
         "concept": "c:ciudad-y-lugares.puente",
         "en": "bridge",
         "es": "puente",
         "speaker": "B",
-        "sw": "daraja"
+        "sw": "daraja",
+        "translit": "da-ra-ja"
       },
       {
         "concept": "c:ciudad-y-lugares.plaza",
         "en": "square",
         "es": "plaza",
         "speaker": "A",
-        "sw": "uwanja / mahali pa wazi"
+        "sw": "uwanja / mahali pa wazi",
+        "translit": "u-wan-ja"
       },
       {
         "concept": "c:ciudad-y-lugares.mercado",
         "en": "market",
         "es": "mercado",
         "speaker": "B",
-        "sw": "soko"
+        "sw": "soko",
+        "translit": "so-ko"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "jiji / mji",
+            "answerTranslit": "ji-ji",
+            "concept": "c:ciudad-y-lugares.ciudad",
+            "optionTranslit": {
+              "daraja": "da-ra-ja",
+              "eneo / sehemu": "e-ne-o",
+              "jiji / mji": "ji-ji",
+              "nchi / taifa": "nchi"
+            },
+            "options": [
+              "nchi / taifa",
+              "eneo / sehemu",
+              "daraja",
+              "jiji / mji"
+            ],
+            "prompt": "ciudad"
+          },
+          {
+            "answer": "kijiji",
+            "answerTranslit": "ki-ji-ji",
+            "concept": "c:ciudad-y-lugares.pueblo-aldea",
+            "optionTranslit": {
+              "daraja": "da-ra-ja",
+              "kijiji": "ki-ji-ji",
+              "mji mkuu": "mji mku-u",
+              "uwanja / mahali pa wazi": "u-wan-ja"
+            },
+            "options": [
+              "mji mkuu",
+              "kijiji",
+              "daraja",
+              "uwanja / mahali pa wazi"
+            ],
+            "prompt": "pueblo / aldea"
+          },
+          {
+            "answer": "nchi / taifa",
+            "answerTranslit": "nchi",
+            "concept": "c:ciudad-y-lugares.pais",
+            "optionTranslit": {
+              "barabara / mtaa": "ba-ra-ba-ra",
+              "jimbo / mkoa": "jim-bo",
+              "nchi / taifa": "nchi"
+            },
+            "options": [
+              "barabara / mtaa",
+              "nchi / taifa",
+              "jimbo / mkoa",
+              "mtaro"
+            ],
+            "prompt": "país"
+          },
+          {
+            "answer": "jimbo / mkoa",
+            "answerTranslit": "jim-bo",
+            "concept": "c:ciudad-y-lugares.estado-provincia",
+            "optionTranslit": {
+              "jiji / mji": "ji-ji",
+              "jimbo / mkoa": "jim-bo",
+              "makutano / njia panda": "ma-ku-ta-no",
+              "soko": "so-ko"
+            },
+            "options": [
+              "soko",
+              "jiji / mji",
+              "jimbo / mkoa",
+              "makutano / njia panda"
+            ],
+            "prompt": "estado / provincia"
+          },
+          {
+            "answer": "mji mkuu",
+            "answerTranslit": "mji mku-u",
+            "concept": "c:ciudad-y-lugares.capital",
+            "optionTranslit": {
+              "daraja": "da-ra-ja",
+              "jimbo / mkoa": "jim-bo",
+              "mji mkuu": "mji mku-u",
+              "uwanja / mahali pa wazi": "u-wan-ja"
+            },
+            "options": [
+              "daraja",
+              "jimbo / mkoa",
+              "mji mkuu",
+              "uwanja / mahali pa wazi"
+            ],
+            "prompt": "capital"
+          },
+          {
+            "answer": "eneo / sehemu",
+            "answerTranslit": "e-ne-o",
+            "concept": "c:ciudad-y-lugares.zona-area",
+            "optionTranslit": {
+              "barabara / mtaa": "ba-ra-ba-ra",
+              "eneo / sehemu": "e-ne-o",
+              "jimbo / mkoa": "jim-bo",
+              "nchi / taifa": "nchi"
+            },
+            "options": [
+              "barabara / mtaa",
+              "jimbo / mkoa",
+              "nchi / taifa",
+              "eneo / sehemu"
+            ],
+            "prompt": "zona / área"
+          },
+          {
+            "answer": "barabara / mtaa",
+            "answerTranslit": "ba-ra-ba-ra",
+            "concept": "c:ciudad-y-lugares.calle-carretera",
+            "optionTranslit": {
+              "barabara / mtaa": "ba-ra-ba-ra",
+              "daraja": "da-ra-ja",
+              "jiji / mji": "ji-ji",
+              "nchi / taifa": "nchi"
+            },
+            "options": [
+              "nchi / taifa",
+              "barabara / mtaa",
+              "jiji / mji",
+              "daraja"
+            ],
+            "prompt": "calle / carretera"
+          },
+          {
+            "answer": "mtaro",
+            "concept": "c:ciudad-y-lugares.callejon",
+            "optionTranslit": {
+              "barabara / mtaa": "ba-ra-ba-ra",
+              "eneo / sehemu": "e-ne-o",
+              "uwanja / mahali pa wazi": "u-wan-ja"
+            },
+            "options": [
+              "uwanja / mahali pa wazi",
+              "eneo / sehemu",
+              "mtaro",
+              "barabara / mtaa"
+            ],
+            "prompt": "callejón"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Places in the city to move around and ask for directions.",
       "es": "Lugares de la ciudad para moverse y pedir indicaciones."
@@ -351,7 +678,7 @@
           [
             "callejón",
             "alley",
-            "callejón"
+            "mtaro"
           ],
           [
             "cruce / intersección",
@@ -405,87 +732,253 @@
         "en": "clothing",
         "es": "ropa",
         "speaker": "A",
-        "sw": "nguo / mavazi"
+        "sw": "nguo / mavazi",
+        "translit": "ngu-o"
       },
       {
         "concept": "c:ropa-y-accesorios.camisa",
         "en": "shirt",
         "es": "camisa",
         "speaker": "B",
-        "sw": "shati / kamisa"
+        "sw": "shati / kamisa",
+        "translit": "sha-ti"
       },
       {
         "concept": "c:ropa-y-accesorios.camiseta",
         "en": "T-shirt",
         "es": "camiseta",
         "speaker": "A",
-        "sw": "fulana / tishati"
+        "sw": "fulana / tishati",
+        "translit": "fu-la-na"
       },
       {
         "concept": "c:ropa-y-accesorios.pantalon",
         "en": "Pants",
         "es": "pantalón",
         "speaker": "B",
-        "sw": "suruali / kaptura"
+        "sw": "suruali / kaptura",
+        "translit": "su-ru-a-li"
       },
       {
         "concept": "c:ropa-y-accesorios.vaqueros-jeans",
         "en": "jeans / jans",
         "es": "vaqueros / jeans",
         "speaker": "A",
-        "sw": "jeans / suruali ya denim"
+        "sw": "jeans / suruali ya denim",
+        "translit": "ji-nsi"
       },
       {
         "concept": "c:ropa-y-accesorios.pantalones-cortos",
         "en": "Short pants",
         "es": "pantalones cortos",
         "speaker": "B",
-        "sw": "pantalones"
+        "sw": "pantalones",
+        "translit": "pantalones"
       },
       {
         "concept": "c:ropa-y-accesorios.falda",
         "en": "skirt",
         "es": "falda",
         "speaker": "A",
-        "sw": "sketi"
+        "sw": "sketi",
+        "translit": "ske-ti"
       },
       {
         "concept": "c:ropa-y-accesorios.vestido",
         "en": "dress up",
         "es": "vestido",
         "speaker": "B",
-        "sw": "gauni / vazi"
+        "sw": "gauni / vazi",
+        "translit": "ga-u-ni"
       },
       {
         "concept": "c:ropa-y-accesorios.sari",
         "en": "sari",
         "es": "sari",
         "speaker": "A",
-        "sw": "sari"
+        "sw": "sari",
+        "translit": "sari"
       },
       {
         "concept": "c:ropa-y-accesorios.salwar-kameez",
         "en": "salwar kameez",
         "es": "salwar kameez",
         "speaker": "B",
-        "sw": "salwar"
+        "sw": "salwar",
+        "translit": "salwar"
       },
       {
         "concept": "c:ropa-y-accesorios.kurta",
         "en": "kurta",
         "es": "kurta",
         "speaker": "A",
-        "sw": "kurta"
+        "sw": "kurta",
+        "translit": "kurta"
       },
       {
         "concept": "c:ropa-y-accesorios.pijama",
         "en": "pajamas",
         "es": "pijama",
         "speaker": "B",
-        "sw": "nguo za kulalia / pajama"
+        "sw": "nguo za kulalia / pajama",
+        "translit": "pa-ja-ma"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "nguo / mavazi",
+            "answerTranslit": "ngu-o",
+            "concept": "c:ropa-y-accesorios.ropa",
+            "optionTranslit": {
+              "fulana / tishati": "fu-la-na",
+              "gauni / vazi": "ga-u-ni",
+              "jeans / suruali ya denim": "ji-nsi",
+              "nguo / mavazi": "ngu-o"
+            },
+            "options": [
+              "jeans / suruali ya denim",
+              "gauni / vazi",
+              "fulana / tishati",
+              "nguo / mavazi"
+            ],
+            "prompt": "ropa"
+          },
+          {
+            "answer": "shati / kamisa",
+            "answerTranslit": "sha-ti",
+            "concept": "c:ropa-y-accesorios.camisa",
+            "optionTranslit": {
+              "gauni / vazi": "ga-u-ni",
+              "nguo za kulalia / pajama": "pa-ja-ma",
+              "pantalones": "pantalones",
+              "shati / kamisa": "sha-ti"
+            },
+            "options": [
+              "shati / kamisa",
+              "pantalones",
+              "nguo za kulalia / pajama",
+              "gauni / vazi"
+            ],
+            "prompt": "camisa"
+          },
+          {
+            "answer": "fulana / tishati",
+            "answerTranslit": "fu-la-na",
+            "concept": "c:ropa-y-accesorios.camiseta",
+            "optionTranslit": {
+              "fulana / tishati": "fu-la-na",
+              "gauni / vazi": "ga-u-ni",
+              "kurta": "kurta",
+              "nguo za kulalia / pajama": "pa-ja-ma"
+            },
+            "options": [
+              "fulana / tishati",
+              "nguo za kulalia / pajama",
+              "gauni / vazi",
+              "kurta"
+            ],
+            "prompt": "camiseta"
+          },
+          {
+            "answer": "suruali / kaptura",
+            "answerTranslit": "su-ru-a-li",
+            "concept": "c:ropa-y-accesorios.pantalon",
+            "optionTranslit": {
+              "nguo / mavazi": "ngu-o",
+              "nguo za kulalia / pajama": "pa-ja-ma",
+              "salwar": "salwar",
+              "suruali / kaptura": "su-ru-a-li"
+            },
+            "options": [
+              "nguo / mavazi",
+              "suruali / kaptura",
+              "nguo za kulalia / pajama",
+              "salwar"
+            ],
+            "prompt": "pantalón"
+          },
+          {
+            "answer": "jeans / suruali ya denim",
+            "answerTranslit": "ji-nsi",
+            "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+            "optionTranslit": {
+              "fulana / tishati": "fu-la-na",
+              "jeans / suruali ya denim": "ji-nsi",
+              "sari": "sari",
+              "sketi": "ske-ti"
+            },
+            "options": [
+              "sari",
+              "fulana / tishati",
+              "jeans / suruali ya denim",
+              "sketi"
+            ],
+            "prompt": "vaqueros / jeans"
+          },
+          {
+            "answer": "pantalones",
+            "answerTranslit": "pantalones",
+            "concept": "c:ropa-y-accesorios.pantalones-cortos",
+            "optionTranslit": {
+              "fulana / tishati": "fu-la-na",
+              "kurta": "kurta",
+              "pantalones": "pantalones",
+              "suruali / kaptura": "su-ru-a-li"
+            },
+            "options": [
+              "fulana / tishati",
+              "pantalones",
+              "suruali / kaptura",
+              "kurta"
+            ],
+            "prompt": "pantalones cortos"
+          },
+          {
+            "answer": "sketi",
+            "answerTranslit": "ske-ti",
+            "concept": "c:ropa-y-accesorios.falda",
+            "optionTranslit": {
+              "gauni / vazi": "ga-u-ni",
+              "nguo / mavazi": "ngu-o",
+              "sari": "sari",
+              "sketi": "ske-ti"
+            },
+            "options": [
+              "sketi",
+              "gauni / vazi",
+              "sari",
+              "nguo / mavazi"
+            ],
+            "prompt": "falda"
+          },
+          {
+            "answer": "gauni / vazi",
+            "answerTranslit": "ga-u-ni",
+            "concept": "c:ropa-y-accesorios.vestido",
+            "optionTranslit": {
+              "gauni / vazi": "ga-u-ni",
+              "nguo / mavazi": "ngu-o",
+              "nguo za kulalia / pajama": "pa-ja-ma",
+              "suruali / kaptura": "su-ru-a-li"
+            },
+            "options": [
+              "nguo / mavazi",
+              "gauni / vazi",
+              "nguo za kulalia / pajama",
+              "suruali / kaptura"
+            ],
+            "prompt": "vestido"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Clothes and accessories, with words useful for clothes shopping.",
       "es": "Prendas y accesorios, con palabras útiles para comprar ropa."
@@ -604,87 +1097,221 @@
         "en": "work /",
         "es": "trabajo / labor",
         "speaker": "A",
-        "sw": "trabajo"
+        "sw": "kazi"
       },
       {
         "concept": "c:trabajo-y-profesiones.empleo-trabajo",
         "en": "employment / work",
         "es": "empleo / trabajo",
         "speaker": "B",
-        "sw": "empleo"
+        "sw": "kazi"
       },
       {
         "concept": "c:trabajo-y-profesiones.profesion-oficio",
         "en": "profession / trade",
         "es": "profesión / oficio",
         "speaker": "A",
-        "sw": "profesión"
+        "sw": "utaalamu"
       },
       {
         "concept": "c:trabajo-y-profesiones.negocio-profesion",
         "en": "business / profession",
         "es": "negocio / profesión",
         "speaker": "B",
-        "sw": "negocio"
+        "sw": "biashara"
       },
       {
         "concept": "c:trabajo-y-profesiones.empresa-compania",
         "en": "company / enterprise",
         "es": "empresa / compañía",
         "speaker": "A",
-        "sw": "empresa"
+        "sw": "kampuni"
       },
       {
         "concept": "c:trabajo-y-profesiones.oficina",
         "en": "office",
         "es": "oficina",
         "speaker": "B",
-        "sw": "ofisi — oficina"
+        "sw": "ofisi"
       },
       {
         "concept": "c:trabajo-y-profesiones.oficina-despacho",
         "en": "office /",
         "es": "oficina / despacho",
         "speaker": "A",
-        "sw": "ofisi"
+        "sw": "ofisi",
+        "translit": "o-fi-si"
       },
       {
         "concept": "c:trabajo-y-profesiones.dueno-propietario",
         "en": "owner / proprietor",
         "es": "dueño / propietario",
         "speaker": "B",
-        "sw": "mmiliki"
+        "sw": "mmiliki",
+        "translit": "mmi-li-ki"
       },
       {
         "concept": "c:trabajo-y-profesiones.jefe-a",
         "en": "Chief",
         "es": "jefe/a",
         "speaker": "A",
-        "sw": "bosi / mkuu — jefe/a"
+        "sw": "mkuu"
       },
       {
         "concept": "c:trabajo-y-profesiones.empleado-a",
         "en": "employee",
         "es": "empleado/a",
         "speaker": "B",
-        "sw": "mfanyakazi / mwajiriwa"
+        "sw": "mfanyakazi / mwajiriwa",
+        "translit": "mfa-nya-ka-zi"
       },
       {
         "concept": "c:trabajo-y-profesiones.colega",
         "en": "- I'm sorry, buddy.",
         "es": "colega",
         "speaker": "A",
-        "sw": "mfanyakazi mwenzake"
+        "sw": "mfanyakazi mwenzake",
+        "translit": "mwe-nza-ke"
       },
       {
         "concept": "c:trabajo-y-profesiones.equipo",
         "en": "equipment",
         "es": "equipo",
         "speaker": "B",
-        "sw": "equipo — equipo"
+        "sw": "timu"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "kazi",
+            "concept": "c:trabajo-y-profesiones.trabajo-labor",
+            "optionTranslit": {
+              "ofisi": "o-fi-si"
+            },
+            "options": [
+              "timu",
+              "ofisi",
+              "kazi",
+              "mkuu"
+            ],
+            "prompt": "trabajo / labor"
+          },
+          {
+            "answer": "kazi",
+            "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+            "optionTranslit": {
+              "mfanyakazi mwenzake": "mwe-nza-ke",
+              "mmiliki": "mmi-li-ki",
+              "ofisi": "o-fi-si"
+            },
+            "options": [
+              "kazi",
+              "mfanyakazi mwenzake",
+              "mmiliki",
+              "ofisi"
+            ],
+            "prompt": "empleo / trabajo"
+          },
+          {
+            "answer": "utaalamu",
+            "concept": "c:trabajo-y-profesiones.profesion-oficio",
+            "optionTranslit": {
+              "mmiliki": "mmi-li-ki"
+            },
+            "options": [
+              "utaalamu",
+              "kazi",
+              "mmiliki",
+              "timu"
+            ],
+            "prompt": "profesión / oficio"
+          },
+          {
+            "answer": "biashara",
+            "concept": "c:trabajo-y-profesiones.negocio-profesion",
+            "optionTranslit": {
+              "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
+              "mfanyakazi mwenzake": "mwe-nza-ke"
+            },
+            "options": [
+              "kazi",
+              "mfanyakazi / mwajiriwa",
+              "mfanyakazi mwenzake",
+              "biashara"
+            ],
+            "prompt": "negocio / profesión"
+          },
+          {
+            "answer": "kampuni",
+            "concept": "c:trabajo-y-profesiones.empresa-compania",
+            "optionTranslit": {
+              "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi"
+            },
+            "options": [
+              "kampuni",
+              "utaalamu",
+              "mfanyakazi / mwajiriwa",
+              "kazi"
+            ],
+            "prompt": "empresa / compañía"
+          },
+          {
+            "answer": "ofisi",
+            "concept": "c:trabajo-y-profesiones.oficina",
+            "optionTranslit": {
+              "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
+              "mmiliki": "mmi-li-ki",
+              "ofisi": "o-fi-si"
+            },
+            "options": [
+              "mmiliki",
+              "ofisi",
+              "mkuu",
+              "mfanyakazi / mwajiriwa"
+            ],
+            "prompt": "oficina"
+          },
+          {
+            "answer": "ofisi",
+            "answerTranslit": "o-fi-si",
+            "concept": "c:trabajo-y-profesiones.oficina-despacho",
+            "optionTranslit": {
+              "ofisi": "o-fi-si"
+            },
+            "options": [
+              "ofisi",
+              "mkuu",
+              "timu",
+              "kazi"
+            ],
+            "prompt": "oficina / despacho"
+          },
+          {
+            "answer": "mmiliki",
+            "answerTranslit": "mmi-li-ki",
+            "concept": "c:trabajo-y-profesiones.dueno-propietario",
+            "optionTranslit": {
+              "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
+              "mmiliki": "mmi-li-ki"
+            },
+            "options": [
+              "timu",
+              "mfanyakazi / mwajiriwa",
+              "mmiliki",
+              "mkuu"
+            ],
+            "prompt": "dueño / propietario"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Professions and words from the world of work.",
       "es": "Profesiones y palabras del mundo laboral."
@@ -714,32 +1341,32 @@
           [
             "trabajo / labor",
             "work /",
-            "trabajo"
+            "kazi"
           ],
           [
             "empleo / trabajo",
             "employment / work",
-            "empleo"
+            "kazi"
           ],
           [
             "profesión / oficio",
             "profession / trade",
-            "profesión"
+            "utaalamu"
           ],
           [
             "negocio / profesión",
             "business / profession",
-            "negocio"
+            "biashara"
           ],
           [
             "empresa / compañía",
             "company / enterprise",
-            "empresa"
+            "kampuni"
           ],
           [
             "oficina",
             "office",
-            "ofisi — oficina"
+            "ofisi"
           ],
           [
             "oficina / despacho",
@@ -754,7 +1381,7 @@
           [
             "jefe/a",
             "Chief",
-            "bosi / mkuu — jefe/a"
+            "mkuu"
           ],
           [
             "empleado/a",
@@ -769,7 +1396,7 @@
           [
             "equipo",
             "equipment",
-            "equipo — equipo"
+            "timu"
           ]
         ],
         "title": "es · en · sw",
@@ -781,6 +1408,2272 @@
       "es": "El trabajo y las profesiones"
     },
     "unit": 12
+  },
+  {
+    "concepts": [
+      "c:verbos-comunes.ser-estar-haber",
+      "c:verbos-comunes.hacer",
+      "c:verbos-comunes.ir",
+      "c:verbos-comunes.venir",
+      "c:verbos-comunes.ver-mirar",
+      "c:verbos-comunes.oir-escuchar",
+      "c:verbos-comunes.hablar-decir",
+      "c:verbos-comunes.decir",
+      "c:verbos-comunes.preguntar",
+      "c:verbos-comunes.contar-explicar",
+      "c:verbos-comunes.entender-comprender",
+      "c:verbos-comunes.saber-conocer"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:verbos-comunes.ser-estar-haber",
+        "en": "be / are",
+        "es": "ser / estar / haber",
+        "speaker": "A",
+        "sw": "kuwa"
+      },
+      {
+        "concept": "c:verbos-comunes.hacer",
+        "en": "do",
+        "es": "hacer",
+        "speaker": "B",
+        "sw": "kufanya"
+      },
+      {
+        "concept": "c:verbos-comunes.ir",
+        "en": "go",
+        "es": "ir",
+        "speaker": "A",
+        "sw": "ir",
+        "translit": "ir"
+      },
+      {
+        "concept": "c:verbos-comunes.venir",
+        "en": "Come",
+        "es": "venir",
+        "speaker": "B",
+        "sw": "kuja"
+      },
+      {
+        "concept": "c:verbos-comunes.ver-mirar",
+        "en": "see / watch",
+        "es": "ver / mirar",
+        "speaker": "A",
+        "sw": "kuona"
+      },
+      {
+        "concept": "c:verbos-comunes.oir-escuchar",
+        "en": "hear / listen",
+        "es": "oír / escuchar",
+        "speaker": "B",
+        "sw": "kusikia"
+      },
+      {
+        "concept": "c:verbos-comunes.hablar-decir",
+        "en": "speak / say",
+        "es": "hablar / decir",
+        "speaker": "A",
+        "sw": "kuzungumza"
+      },
+      {
+        "concept": "c:verbos-comunes.decir",
+        "en": "say",
+        "es": "decir",
+        "speaker": "B",
+        "sw": "kusema"
+      },
+      {
+        "concept": "c:verbos-comunes.preguntar",
+        "en": "ask",
+        "es": "preguntar",
+        "speaker": "A",
+        "sw": "kuuliza"
+      },
+      {
+        "concept": "c:verbos-comunes.contar-explicar",
+        "en": "count / explain",
+        "es": "contar / explicar",
+        "speaker": "B",
+        "sw": "kueleza"
+      },
+      {
+        "concept": "c:verbos-comunes.entender-comprender",
+        "en": "understand / comprehend",
+        "es": "entender / comprender",
+        "speaker": "A",
+        "sw": "kuelewa"
+      },
+      {
+        "concept": "c:verbos-comunes.saber-conocer",
+        "en": "know / understand",
+        "es": "saber / conocer",
+        "speaker": "B",
+        "sw": "kujua"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "kuwa",
+            "concept": "c:verbos-comunes.ser-estar-haber",
+            "options": [
+              "kuwa",
+              "kuona",
+              "kuja",
+              "kuuliza"
+            ],
+            "prompt": "ser / estar / haber"
+          },
+          {
+            "answer": "kufanya",
+            "concept": "c:verbos-comunes.hacer",
+            "options": [
+              "kuona",
+              "kufanya",
+              "kueleza",
+              "kusema"
+            ],
+            "prompt": "hacer"
+          },
+          {
+            "answer": "ir",
+            "answerTranslit": "ir",
+            "concept": "c:verbos-comunes.ir",
+            "optionTranslit": {
+              "ir": "ir"
+            },
+            "options": [
+              "ir",
+              "kuwa",
+              "kuelewa",
+              "kuja"
+            ],
+            "prompt": "ir"
+          },
+          {
+            "answer": "kuja",
+            "concept": "c:verbos-comunes.venir",
+            "options": [
+              "kusema",
+              "kuja",
+              "kuelewa",
+              "kuona"
+            ],
+            "prompt": "venir"
+          },
+          {
+            "answer": "kuona",
+            "concept": "c:verbos-comunes.ver-mirar",
+            "optionTranslit": {
+              "ir": "ir"
+            },
+            "options": [
+              "kuona",
+              "kuzungumza",
+              "kujua",
+              "ir"
+            ],
+            "prompt": "ver / mirar"
+          },
+          {
+            "answer": "kusikia",
+            "concept": "c:verbos-comunes.oir-escuchar",
+            "options": [
+              "kusikia",
+              "kuuliza",
+              "kueleza",
+              "kuelewa"
+            ],
+            "prompt": "oír / escuchar"
+          },
+          {
+            "answer": "kuzungumza",
+            "concept": "c:verbos-comunes.hablar-decir",
+            "options": [
+              "kuelewa",
+              "kuzungumza",
+              "kuwa",
+              "kujua"
+            ],
+            "prompt": "hablar / decir"
+          },
+          {
+            "answer": "kusema",
+            "concept": "c:verbos-comunes.decir",
+            "optionTranslit": {
+              "ir": "ir"
+            },
+            "options": [
+              "ir",
+              "kufanya",
+              "kuona",
+              "kusema"
+            ],
+            "prompt": "decir"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "The most frequent verbs, the base for building sentences.",
+      "es": "Los verbos más frecuentes, la base para formar frases."
+    },
+    "generator": "build_lessons",
+    "id": "sw-u13-l1",
+    "lang": "sw",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Recognise the most common verbs",
+        "Name everyday actions"
+      ],
+      "es": [
+        "Reconocer los verbos más usados",
+        "Nombrar acciones del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "sw"
+        ],
+        "rows": [
+          [
+            "ser / estar / haber",
+            "be / are",
+            "kuwa"
+          ],
+          [
+            "hacer",
+            "do",
+            "kufanya"
+          ],
+          [
+            "ir",
+            "go",
+            "ir"
+          ],
+          [
+            "venir",
+            "Come",
+            "kuja"
+          ],
+          [
+            "ver / mirar",
+            "see / watch",
+            "kuona"
+          ],
+          [
+            "oír / escuchar",
+            "hear / listen",
+            "kusikia"
+          ],
+          [
+            "hablar / decir",
+            "speak / say",
+            "kuzungumza"
+          ],
+          [
+            "decir",
+            "say",
+            "kusema"
+          ],
+          [
+            "preguntar",
+            "ask",
+            "kuuliza"
+          ],
+          [
+            "contar / explicar",
+            "count / explain",
+            "kueleza"
+          ],
+          [
+            "entender / comprender",
+            "understand / comprehend",
+            "kuelewa"
+          ],
+          [
+            "saber / conocer",
+            "know / understand",
+            "kujua"
+          ]
+        ],
+        "title": "es · en · sw",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Common verbs",
+      "es": "Los verbos comunes"
+    },
+    "unit": 13
+  },
+  {
+    "concepts": [
+      "c:adjetivos.bueno",
+      "c:adjetivos.malo",
+      "c:adjetivos.grande",
+      "c:adjetivos.pequeno",
+      "c:adjetivos.largo-alto",
+      "c:adjetivos.bajo-corto",
+      "c:adjetivos.nuevo",
+      "c:adjetivos.viejo-antiguo",
+      "c:adjetivos.joven",
+      "c:adjetivos.viejo-persona",
+      "c:adjetivos.hermoso-bonito",
+      "c:adjetivos.feo"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:adjetivos.bueno",
+        "en": "Good.",
+        "es": "bueno",
+        "speaker": "A",
+        "sw": "nzuri"
+      },
+      {
+        "concept": "c:adjetivos.malo",
+        "en": "bad",
+        "es": "malo",
+        "speaker": "B",
+        "sw": "mbaya"
+      },
+      {
+        "concept": "c:adjetivos.grande",
+        "en": "large",
+        "es": "grande",
+        "speaker": "A",
+        "sw": "mkubwa"
+      },
+      {
+        "concept": "c:adjetivos.pequeno",
+        "en": "small",
+        "es": "pequeño",
+        "speaker": "B",
+        "sw": "ndogo"
+      },
+      {
+        "concept": "c:adjetivos.largo-alto",
+        "en": "long / high",
+        "es": "largo / alto",
+        "speaker": "A",
+        "sw": "mrefu"
+      },
+      {
+        "concept": "c:adjetivos.bajo-corto",
+        "en": "low / short",
+        "es": "bajo / corto",
+        "speaker": "B",
+        "sw": "mfupi"
+      },
+      {
+        "concept": "c:adjetivos.nuevo",
+        "en": "new",
+        "es": "nuevo",
+        "speaker": "A",
+        "sw": "mpya"
+      },
+      {
+        "concept": "c:adjetivos.viejo-antiguo",
+        "en": "old / ancient",
+        "es": "viejo / antiguo",
+        "speaker": "B",
+        "sw": "zamani"
+      },
+      {
+        "concept": "c:adjetivos.joven",
+        "en": "young",
+        "es": "joven",
+        "speaker": "A",
+        "sw": "kijana"
+      },
+      {
+        "concept": "c:adjetivos.viejo-persona",
+        "en": "old (person)",
+        "es": "viejo (persona)",
+        "speaker": "B",
+        "sw": "chakavu / iliyotumika",
+        "translit": "cha-ka-vu"
+      },
+      {
+        "concept": "c:adjetivos.hermoso-bonito",
+        "en": "beautiful / pretty",
+        "es": "hermoso / bonito",
+        "speaker": "A",
+        "sw": "mzuri"
+      },
+      {
+        "concept": "c:adjetivos.feo",
+        "en": "ugly",
+        "es": "feo",
+        "speaker": "B",
+        "sw": "mbaya / kibaya",
+        "translit": "mba-ya"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "nzuri",
+            "concept": "c:adjetivos.bueno",
+            "options": [
+              "kijana",
+              "mpya",
+              "mfupi",
+              "nzuri"
+            ],
+            "prompt": "bueno"
+          },
+          {
+            "answer": "mbaya",
+            "concept": "c:adjetivos.malo",
+            "options": [
+              "ndogo",
+              "mfupi",
+              "mbaya",
+              "mpya"
+            ],
+            "prompt": "malo"
+          },
+          {
+            "answer": "mkubwa",
+            "concept": "c:adjetivos.grande",
+            "options": [
+              "mrefu",
+              "nzuri",
+              "mbaya",
+              "mkubwa"
+            ],
+            "prompt": "grande"
+          },
+          {
+            "answer": "ndogo",
+            "concept": "c:adjetivos.pequeno",
+            "optionTranslit": {
+              "chakavu / iliyotumika": "cha-ka-vu"
+            },
+            "options": [
+              "mbaya",
+              "ndogo",
+              "mpya",
+              "chakavu / iliyotumika"
+            ],
+            "prompt": "pequeño"
+          },
+          {
+            "answer": "mrefu",
+            "concept": "c:adjetivos.largo-alto",
+            "options": [
+              "mrefu",
+              "nzuri",
+              "kijana",
+              "mzuri"
+            ],
+            "prompt": "largo / alto"
+          },
+          {
+            "answer": "mfupi",
+            "concept": "c:adjetivos.bajo-corto",
+            "options": [
+              "mkubwa",
+              "mrefu",
+              "mfupi",
+              "zamani"
+            ],
+            "prompt": "bajo / corto"
+          },
+          {
+            "answer": "mpya",
+            "concept": "c:adjetivos.nuevo",
+            "optionTranslit": {
+              "chakavu / iliyotumika": "cha-ka-vu",
+              "mbaya / kibaya": "mba-ya"
+            },
+            "options": [
+              "chakavu / iliyotumika",
+              "mpya",
+              "mbaya / kibaya",
+              "mfupi"
+            ],
+            "prompt": "nuevo"
+          },
+          {
+            "answer": "zamani",
+            "concept": "c:adjetivos.viejo-antiguo",
+            "options": [
+              "mbaya",
+              "kijana",
+              "zamani",
+              "mzuri"
+            ],
+            "prompt": "viejo / antiguo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Adjectives to describe size, character, state and qualities.",
+      "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+    },
+    "generator": "build_lessons",
+    "id": "sw-u14-l1",
+    "lang": "sw",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Describe with adjectives",
+        "Give opinions about things and people"
+      ],
+      "es": [
+        "Describir con adjetivos",
+        "Opinar sobre cosas y personas"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "sw"
+        ],
+        "rows": [
+          [
+            "bueno",
+            "Good.",
+            "nzuri"
+          ],
+          [
+            "malo",
+            "bad",
+            "mbaya"
+          ],
+          [
+            "grande",
+            "large",
+            "mkubwa"
+          ],
+          [
+            "pequeño",
+            "small",
+            "ndogo"
+          ],
+          [
+            "largo / alto",
+            "long / high",
+            "mrefu"
+          ],
+          [
+            "bajo / corto",
+            "low / short",
+            "mfupi"
+          ],
+          [
+            "nuevo",
+            "new",
+            "mpya"
+          ],
+          [
+            "viejo / antiguo",
+            "old / ancient",
+            "zamani"
+          ],
+          [
+            "joven",
+            "young",
+            "kijana"
+          ],
+          [
+            "viejo (persona)",
+            "old (person)",
+            "chakavu / iliyotumika"
+          ],
+          [
+            "hermoso / bonito",
+            "beautiful / pretty",
+            "mzuri"
+          ],
+          [
+            "feo",
+            "ugly",
+            "mbaya / kibaya"
+          ]
+        ],
+        "title": "es · en · sw",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Adjectives",
+      "es": "Los adjetivos"
+    },
+    "unit": 14
+  },
+  {
+    "concepts": [
+      "c:viajes-compras-y-servicios.compras-ir-de-compras",
+      "c:viajes-compras-y-servicios.tienda",
+      "c:viajes-compras-y-servicios.mercado",
+      "c:viajes-compras-y-servicios.supermercado",
+      "c:viajes-compras-y-servicios.centro-comercial",
+      "c:viajes-compras-y-servicios.vendedor-tendero",
+      "c:viajes-compras-y-servicios.cliente-comprador",
+      "c:viajes-compras-y-servicios.precio",
+      "c:viajes-compras-y-servicios.dinero",
+      "c:viajes-compras-y-servicios.rupia-india-inr",
+      "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+      "c:viajes-compras-y-servicios.tarjeta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+        "en": "shopping / going for purchases",
+        "es": "compras / ir de compras",
+        "speaker": "A",
+        "sw": "ununuzi"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tienda",
+        "en": "shop",
+        "es": "tienda",
+        "speaker": "B",
+        "sw": "duka"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.mercado",
+        "en": "market",
+        "es": "mercado",
+        "speaker": "A",
+        "sw": "soko"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.supermercado",
+        "en": "supermarket",
+        "es": "supermercado",
+        "speaker": "B",
+        "sw": "supamaketi"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.centro-comercial",
+        "en": "shopping centre",
+        "es": "centro comercial",
+        "speaker": "A",
+        "sw": "maduka makubwa"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+        "en": "seller / tenderer",
+        "es": "vendedor / tendero",
+        "speaker": "B",
+        "sw": "muuzaji",
+        "translit": "mu-u-za-ji"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+        "en": "customer / buyer",
+        "es": "cliente / comprador",
+        "speaker": "A",
+        "sw": "mteja",
+        "translit": "mte-ja"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.precio",
+        "en": "price",
+        "es": "precio",
+        "speaker": "B",
+        "sw": "bei"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.dinero",
+        "en": "money",
+        "es": "dinero",
+        "speaker": "A",
+        "sw": "pesa"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.rupia-india-inr",
+        "en": "Indian rupee (INR)",
+        "es": "rupia india (INR)",
+        "speaker": "B",
+        "sw": "rupia",
+        "translit": "rupia"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+        "en": "cash / money in the form of",
+        "es": "efectivo / dinero en efectivo",
+        "speaker": "A",
+        "sw": "sare"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tarjeta",
+        "en": "card",
+        "es": "tarjeta",
+        "speaker": "B",
+        "sw": "kadi"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "ununuzi",
+            "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+            "optionTranslit": {
+              "mteja": "mte-ja"
+            },
+            "options": [
+              "supamaketi",
+              "mteja",
+              "ununuzi",
+              "maduka makubwa"
+            ],
+            "prompt": "compras / ir de compras"
+          },
+          {
+            "answer": "duka",
+            "concept": "c:viajes-compras-y-servicios.tienda",
+            "optionTranslit": {
+              "muuzaji": "mu-u-za-ji"
+            },
+            "options": [
+              "muuzaji",
+              "duka",
+              "kadi",
+              "sare"
+            ],
+            "prompt": "tienda"
+          },
+          {
+            "answer": "soko",
+            "concept": "c:viajes-compras-y-servicios.mercado",
+            "optionTranslit": {
+              "rupia": "rupia"
+            },
+            "options": [
+              "rupia",
+              "duka",
+              "soko",
+              "kadi"
+            ],
+            "prompt": "mercado"
+          },
+          {
+            "answer": "supamaketi",
+            "concept": "c:viajes-compras-y-servicios.supermercado",
+            "optionTranslit": {
+              "rupia": "rupia"
+            },
+            "options": [
+              "rupia",
+              "bei",
+              "duka",
+              "supamaketi"
+            ],
+            "prompt": "supermercado"
+          },
+          {
+            "answer": "maduka makubwa",
+            "concept": "c:viajes-compras-y-servicios.centro-comercial",
+            "optionTranslit": {
+              "muuzaji": "mu-u-za-ji"
+            },
+            "options": [
+              "supamaketi",
+              "muuzaji",
+              "maduka makubwa",
+              "soko"
+            ],
+            "prompt": "centro comercial"
+          },
+          {
+            "answer": "muuzaji",
+            "answerTranslit": "mu-u-za-ji",
+            "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+            "optionTranslit": {
+              "muuzaji": "mu-u-za-ji",
+              "rupia": "rupia"
+            },
+            "options": [
+              "ununuzi",
+              "rupia",
+              "muuzaji",
+              "supamaketi"
+            ],
+            "prompt": "vendedor / tendero"
+          },
+          {
+            "answer": "mteja",
+            "answerTranslit": "mte-ja",
+            "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+            "optionTranslit": {
+              "mteja": "mte-ja"
+            },
+            "options": [
+              "ununuzi",
+              "bei",
+              "sare",
+              "mteja"
+            ],
+            "prompt": "cliente / comprador"
+          },
+          {
+            "answer": "bei",
+            "concept": "c:viajes-compras-y-servicios.precio",
+            "options": [
+              "pesa",
+              "sare",
+              "ununuzi",
+              "bei"
+            ],
+            "prompt": "precio"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words to shop, pay and use services during a trip.",
+      "es": "Palabras para comprar, pagar y usar servicios durante un viaje."
+    },
+    "generator": "build_lessons",
+    "id": "sw-u15-l1",
+    "lang": "sw",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Handle shopping and services",
+        "Ask about prices and opening hours"
+      ],
+      "es": [
+        "Resolver compras y servicios",
+        "Preguntar precios y horarios"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "sw"
+        ],
+        "rows": [
+          [
+            "compras / ir de compras",
+            "shopping / going for purchases",
+            "ununuzi"
+          ],
+          [
+            "tienda",
+            "shop",
+            "duka"
+          ],
+          [
+            "mercado",
+            "market",
+            "soko"
+          ],
+          [
+            "supermercado",
+            "supermarket",
+            "supamaketi"
+          ],
+          [
+            "centro comercial",
+            "shopping centre",
+            "maduka makubwa"
+          ],
+          [
+            "vendedor / tendero",
+            "seller / tenderer",
+            "muuzaji"
+          ],
+          [
+            "cliente / comprador",
+            "customer / buyer",
+            "mteja"
+          ],
+          [
+            "precio",
+            "price",
+            "bei"
+          ],
+          [
+            "dinero",
+            "money",
+            "pesa"
+          ],
+          [
+            "rupia india (INR)",
+            "Indian rupee (INR)",
+            "rupia"
+          ],
+          [
+            "efectivo / dinero en efectivo",
+            "cash / money in the form of",
+            "sare"
+          ],
+          [
+            "tarjeta",
+            "card",
+            "kadi"
+          ]
+        ],
+        "title": "es · en · sw",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Travel, shopping and services",
+      "es": "Viajes, compras y servicios"
+    },
+    "unit": 15
+  },
+  {
+    "concepts": [
+      "c:transporte-y-viajes.viaje",
+      "c:transporte-y-viajes.viaje-trayecto",
+      "c:transporte-y-viajes.turismo",
+      "c:transporte-y-viajes.coche-auto",
+      "c:transporte-y-viajes.taxi",
+      "c:transporte-y-viajes.autobus",
+      "c:transporte-y-viajes.tren",
+      "c:transporte-y-viajes.metro",
+      "c:transporte-y-viajes.avion",
+      "c:transporte-y-viajes.barco-avion",
+      "c:transporte-y-viajes.barco-bote",
+      "c:transporte-y-viajes.bicicleta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:transporte-y-viajes.viaje",
+        "en": "travel",
+        "es": "viaje",
+        "speaker": "A",
+        "sw": "safari",
+        "translit": "sa-fa-ri"
+      },
+      {
+        "concept": "c:transporte-y-viajes.viaje-trayecto",
+        "en": "travel / journey",
+        "es": "viaje / trayecto",
+        "speaker": "B",
+        "sw": "safari",
+        "translit": "sa-fa-ri"
+      },
+      {
+        "concept": "c:transporte-y-viajes.turismo",
+        "en": "tourism",
+        "es": "turismo",
+        "speaker": "A",
+        "sw": "utalii",
+        "translit": "u-ta-li-i"
+      },
+      {
+        "concept": "c:transporte-y-viajes.coche-auto",
+        "en": "car / vehicle",
+        "es": "coche / auto",
+        "speaker": "B",
+        "sw": "gari"
+      },
+      {
+        "concept": "c:transporte-y-viajes.taxi",
+        "en": "taxi",
+        "es": "taxi",
+        "speaker": "A",
+        "sw": "teksi"
+      },
+      {
+        "concept": "c:transporte-y-viajes.autobus",
+        "en": "bus",
+        "es": "autobús",
+        "speaker": "B",
+        "sw": "basi",
+        "translit": "ba-si"
+      },
+      {
+        "concept": "c:transporte-y-viajes.tren",
+        "en": "train",
+        "es": "tren",
+        "speaker": "A",
+        "sw": "treni / gari la moshi",
+        "translit": "tre-ni"
+      },
+      {
+        "concept": "c:transporte-y-viajes.metro",
+        "en": "Subway",
+        "es": "metro",
+        "speaker": "B",
+        "sw": "reli ya chini ya ardhi / metro",
+        "translit": "me-tro"
+      },
+      {
+        "concept": "c:transporte-y-viajes.avion",
+        "en": "aircraft",
+        "es": "avión",
+        "speaker": "A",
+        "sw": "ndege",
+        "translit": "nde-ge"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-avion",
+        "en": "boat / aircraft",
+        "es": "barco / avión",
+        "speaker": "B",
+        "sw": "ndege",
+        "translit": "nde-ge"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-bote",
+        "en": "boat / ship",
+        "es": "barco / bote",
+        "speaker": "A",
+        "sw": "boti"
+      },
+      {
+        "concept": "c:transporte-y-viajes.bicicleta",
+        "en": "bicycle",
+        "es": "bicicleta",
+        "speaker": "B",
+        "sw": "baiskeli",
+        "translit": "ba-i-ske-li"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "safari",
+            "answerTranslit": "sa-fa-ri",
+            "concept": "c:transporte-y-viajes.viaje",
+            "optionTranslit": {
+              "baiskeli": "ba-i-ske-li",
+              "basi": "ba-si",
+              "safari": "sa-fa-ri"
+            },
+            "options": [
+              "basi",
+              "baiskeli",
+              "gari",
+              "safari"
+            ],
+            "prompt": "viaje"
+          },
+          {
+            "answer": "safari",
+            "answerTranslit": "sa-fa-ri",
+            "concept": "c:transporte-y-viajes.viaje-trayecto",
+            "optionTranslit": {
+              "basi": "ba-si",
+              "ndege": "nde-ge",
+              "safari": "sa-fa-ri"
+            },
+            "options": [
+              "ndege",
+              "gari",
+              "basi",
+              "safari"
+            ],
+            "prompt": "viaje / trayecto"
+          },
+          {
+            "answer": "utalii",
+            "answerTranslit": "u-ta-li-i",
+            "concept": "c:transporte-y-viajes.turismo",
+            "optionTranslit": {
+              "ndege": "nde-ge",
+              "treni / gari la moshi": "tre-ni",
+              "utalii": "u-ta-li-i"
+            },
+            "options": [
+              "gari",
+              "treni / gari la moshi",
+              "ndege",
+              "utalii"
+            ],
+            "prompt": "turismo"
+          },
+          {
+            "answer": "gari",
+            "concept": "c:transporte-y-viajes.coche-auto",
+            "optionTranslit": {
+              "baiskeli": "ba-i-ske-li",
+              "safari": "sa-fa-ri"
+            },
+            "options": [
+              "safari",
+              "baiskeli",
+              "boti",
+              "gari"
+            ],
+            "prompt": "coche / auto"
+          },
+          {
+            "answer": "teksi",
+            "concept": "c:transporte-y-viajes.taxi",
+            "optionTranslit": {
+              "treni / gari la moshi": "tre-ni",
+              "utalii": "u-ta-li-i"
+            },
+            "options": [
+              "teksi",
+              "gari",
+              "utalii",
+              "treni / gari la moshi"
+            ],
+            "prompt": "taxi"
+          },
+          {
+            "answer": "basi",
+            "answerTranslit": "ba-si",
+            "concept": "c:transporte-y-viajes.autobus",
+            "optionTranslit": {
+              "basi": "ba-si",
+              "treni / gari la moshi": "tre-ni"
+            },
+            "options": [
+              "teksi",
+              "treni / gari la moshi",
+              "basi",
+              "gari"
+            ],
+            "prompt": "autobús"
+          },
+          {
+            "answer": "treni / gari la moshi",
+            "answerTranslit": "tre-ni",
+            "concept": "c:transporte-y-viajes.tren",
+            "optionTranslit": {
+              "baiskeli": "ba-i-ske-li",
+              "reli ya chini ya ardhi / metro": "me-tro",
+              "treni / gari la moshi": "tre-ni"
+            },
+            "options": [
+              "treni / gari la moshi",
+              "baiskeli",
+              "reli ya chini ya ardhi / metro",
+              "boti"
+            ],
+            "prompt": "tren"
+          },
+          {
+            "answer": "reli ya chini ya ardhi / metro",
+            "answerTranslit": "me-tro",
+            "concept": "c:transporte-y-viajes.metro",
+            "optionTranslit": {
+              "reli ya chini ya ardhi / metro": "me-tro",
+              "safari": "sa-fa-ri",
+              "utalii": "u-ta-li-i"
+            },
+            "options": [
+              "reli ya chini ya ardhi / metro",
+              "utalii",
+              "safari",
+              "boti"
+            ],
+            "prompt": "metro"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Means of transport and words useful to get around.",
+      "es": "Medios de transporte y palabras útiles para desplazarse."
+    },
+    "generator": "build_lessons",
+    "id": "sw-u16-l1",
+    "lang": "sw",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name means of transport",
+        "Get around and travel"
+      ],
+      "es": [
+        "Nombrar medios de transporte",
+        "Moverse y viajar"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "sw"
+        ],
+        "rows": [
+          [
+            "viaje",
+            "travel",
+            "safari"
+          ],
+          [
+            "viaje / trayecto",
+            "travel / journey",
+            "safari"
+          ],
+          [
+            "turismo",
+            "tourism",
+            "utalii"
+          ],
+          [
+            "coche / auto",
+            "car / vehicle",
+            "gari"
+          ],
+          [
+            "taxi",
+            "taxi",
+            "teksi"
+          ],
+          [
+            "autobús",
+            "bus",
+            "basi"
+          ],
+          [
+            "tren",
+            "train",
+            "treni / gari la moshi"
+          ],
+          [
+            "metro",
+            "Subway",
+            "reli ya chini ya ardhi / metro"
+          ],
+          [
+            "avión",
+            "aircraft",
+            "ndege"
+          ],
+          [
+            "barco / avión",
+            "boat / aircraft",
+            "ndege"
+          ],
+          [
+            "barco / bote",
+            "boat / ship",
+            "boti"
+          ],
+          [
+            "bicicleta",
+            "bicycle",
+            "baiskeli"
+          ]
+        ],
+        "title": "es · en · sw",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Transport and travel",
+      "es": "El transporte y los viajes"
+    },
+    "unit": 16
+  },
+  {
+    "concepts": [
+      "c:educacion-y-aprendizaje.educacion",
+      "c:educacion-y-aprendizaje.escuela",
+      "c:educacion-y-aprendizaje.clase-aula-grado",
+      "c:educacion-y-aprendizaje.leccion",
+      "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "c:educacion-y-aprendizaje.matematicas",
+      "c:educacion-y-aprendizaje.ciencia",
+      "c:educacion-y-aprendizaje.historia",
+      "c:educacion-y-aprendizaje.geografia",
+      "c:educacion-y-aprendizaje.literatura",
+      "c:educacion-y-aprendizaje.idioma-lengua"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:educacion-y-aprendizaje.educacion",
+        "en": "education",
+        "es": "educación",
+        "speaker": "A",
+        "sw": "elimu"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.escuela",
+        "en": "school",
+        "es": "escuela",
+        "speaker": "B",
+        "sw": "shule"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+        "en": "class / classroom",
+        "es": "clase / aula / grado",
+        "speaker": "A",
+        "sw": "darasa"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.leccion",
+        "en": "lesson",
+        "es": "lección",
+        "speaker": "B",
+        "sw": "somo"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+        "en": "curriculum / course",
+        "es": "plan de estudios / curso",
+        "speaker": "A",
+        "sw": "plan",
+        "translit": "plan"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+        "en": "subject / topic",
+        "es": "materia / tema / asunto",
+        "speaker": "B",
+        "sw": "mada"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.matematicas",
+        "en": "mathematics",
+        "es": "matemáticas",
+        "speaker": "A",
+        "sw": "hisabati"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.ciencia",
+        "en": "science",
+        "es": "ciencia",
+        "speaker": "B",
+        "sw": "sayansi"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.historia",
+        "en": "history",
+        "es": "historia",
+        "speaker": "A",
+        "sw": "historia",
+        "translit": "historia"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.geografia",
+        "en": "geography",
+        "es": "geografía",
+        "speaker": "B",
+        "sw": "jiografia"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.literatura",
+        "en": "literature",
+        "es": "literatura",
+        "speaker": "A",
+        "sw": "fasihi"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+        "en": "language / tongue",
+        "es": "idioma / lengua",
+        "speaker": "B",
+        "sw": "lugha"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "elimu",
+            "concept": "c:educacion-y-aprendizaje.educacion",
+            "optionTranslit": {
+              "plan": "plan"
+            },
+            "options": [
+              "mada",
+              "plan",
+              "lugha",
+              "elimu"
+            ],
+            "prompt": "educación"
+          },
+          {
+            "answer": "shule",
+            "concept": "c:educacion-y-aprendizaje.escuela",
+            "options": [
+              "mada",
+              "jiografia",
+              "hisabati",
+              "shule"
+            ],
+            "prompt": "escuela"
+          },
+          {
+            "answer": "darasa",
+            "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+            "optionTranslit": {
+              "historia": "historia"
+            },
+            "options": [
+              "mada",
+              "jiografia",
+              "historia",
+              "darasa"
+            ],
+            "prompt": "clase / aula / grado"
+          },
+          {
+            "answer": "somo",
+            "concept": "c:educacion-y-aprendizaje.leccion",
+            "optionTranslit": {
+              "historia": "historia"
+            },
+            "options": [
+              "historia",
+              "lugha",
+              "mada",
+              "somo"
+            ],
+            "prompt": "lección"
+          },
+          {
+            "answer": "plan",
+            "answerTranslit": "plan",
+            "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+            "optionTranslit": {
+              "plan": "plan"
+            },
+            "options": [
+              "shule",
+              "jiografia",
+              "hisabati",
+              "plan"
+            ],
+            "prompt": "plan de estudios / curso"
+          },
+          {
+            "answer": "mada",
+            "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+            "options": [
+              "mada",
+              "shule",
+              "jiografia",
+              "fasihi"
+            ],
+            "prompt": "materia / tema / asunto"
+          },
+          {
+            "answer": "hisabati",
+            "concept": "c:educacion-y-aprendizaje.matematicas",
+            "options": [
+              "lugha",
+              "jiografia",
+              "hisabati",
+              "shule"
+            ],
+            "prompt": "matemáticas"
+          },
+          {
+            "answer": "sayansi",
+            "concept": "c:educacion-y-aprendizaje.ciencia",
+            "options": [
+              "elimu",
+              "hisabati",
+              "lugha",
+              "sayansi"
+            ],
+            "prompt": "ciencia"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words from school and learning.",
+      "es": "Palabras de la escuela y del aprendizaje."
+    },
+    "generator": "build_lessons",
+    "id": "sw-u17-l1",
+    "lang": "sw",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Talk about studies",
+        "Name school and its objects"
+      ],
+      "es": [
+        "Hablar de estudios",
+        "Nombrar la escuela y sus objetos"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "sw"
+        ],
+        "rows": [
+          [
+            "educación",
+            "education",
+            "elimu"
+          ],
+          [
+            "escuela",
+            "school",
+            "shule"
+          ],
+          [
+            "clase / aula / grado",
+            "class / classroom",
+            "darasa"
+          ],
+          [
+            "lección",
+            "lesson",
+            "somo"
+          ],
+          [
+            "plan de estudios / curso",
+            "curriculum / course",
+            "plan"
+          ],
+          [
+            "materia / tema / asunto",
+            "subject / topic",
+            "mada"
+          ],
+          [
+            "matemáticas",
+            "mathematics",
+            "hisabati"
+          ],
+          [
+            "ciencia",
+            "science",
+            "sayansi"
+          ],
+          [
+            "historia",
+            "history",
+            "historia"
+          ],
+          [
+            "geografía",
+            "geography",
+            "jiografia"
+          ],
+          [
+            "literatura",
+            "literature",
+            "fasihi"
+          ],
+          [
+            "idioma / lengua",
+            "language / tongue",
+            "lugha"
+          ]
+        ],
+        "title": "es · en · sw",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Education and learning",
+      "es": "La educación y el aprendizaje"
+    },
+    "unit": 17
+  },
+  {
+    "concepts": [
+      "c:tecnologia-y-comunicacion.tecnologia",
+      "c:tecnologia-y-comunicacion.computadora-ordenador",
+      "c:tecnologia-y-comunicacion.portatil-laptop",
+      "c:tecnologia-y-comunicacion.tableta",
+      "c:tecnologia-y-comunicacion.telefono-movil-celular",
+      "c:tecnologia-y-comunicacion.telefono",
+      "c:tecnologia-y-comunicacion.pantalla",
+      "c:tecnologia-y-comunicacion.teclado",
+      "c:tecnologia-y-comunicacion.raton-informatica",
+      "c:tecnologia-y-comunicacion.impresora",
+      "c:tecnologia-y-comunicacion.camara",
+      "c:tecnologia-y-comunicacion.microfono"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:tecnologia-y-comunicacion.tecnologia",
+        "en": "technology",
+        "es": "tecnología",
+        "speaker": "A",
+        "sw": "teknolojia"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+        "en": "computer / PC",
+        "es": "computadora / ordenador",
+        "speaker": "B",
+        "sw": "kompyuta"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+        "en": "laptop / laptop",
+        "es": "portátil / laptop",
+        "speaker": "A",
+        "sw": "laptop"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.tableta",
+        "en": "tablet",
+        "es": "tableta",
+        "speaker": "B",
+        "sw": "kompyuta ndogo"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+        "en": "mobile / cell phone",
+        "es": "teléfono móvil / celular",
+        "speaker": "A",
+        "sw": "simu",
+        "translit": "si-mu"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono",
+        "en": "phone",
+        "es": "teléfono",
+        "speaker": "B",
+        "sw": "simu"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.pantalla",
+        "en": "screen",
+        "es": "pantalla",
+        "speaker": "A",
+        "sw": "skrini"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.teclado",
+        "en": "keyboard",
+        "es": "teclado",
+        "speaker": "B",
+        "sw": "keyboard"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.raton-informatica",
+        "en": "mouse (computer)",
+        "es": "ratón (informática)",
+        "speaker": "A",
+        "sw": "panya",
+        "translit": "pa-nya"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.impresora",
+        "en": "printer",
+        "es": "impresora",
+        "speaker": "B",
+        "sw": "prenta"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.camara",
+        "en": "camera",
+        "es": "cámara",
+        "speaker": "A",
+        "sw": "kamera"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.microfono",
+        "en": "microphone",
+        "es": "micrófono",
+        "speaker": "B",
+        "sw": "sauti"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "teknolojia",
+            "concept": "c:tecnologia-y-comunicacion.tecnologia",
+            "options": [
+              "teknolojia",
+              "kompyuta",
+              "laptop",
+              "prenta"
+            ],
+            "prompt": "tecnología"
+          },
+          {
+            "answer": "kompyuta",
+            "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+            "optionTranslit": {
+              "panya": "pa-nya"
+            },
+            "options": [
+              "laptop",
+              "panya",
+              "kompyuta ndogo",
+              "kompyuta"
+            ],
+            "prompt": "computadora / ordenador"
+          },
+          {
+            "answer": "laptop",
+            "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+            "options": [
+              "teknolojia",
+              "laptop",
+              "simu",
+              "skrini"
+            ],
+            "prompt": "portátil / laptop"
+          },
+          {
+            "answer": "kompyuta ndogo",
+            "concept": "c:tecnologia-y-comunicacion.tableta",
+            "optionTranslit": {
+              "panya": "pa-nya"
+            },
+            "options": [
+              "skrini",
+              "kamera",
+              "panya",
+              "kompyuta ndogo"
+            ],
+            "prompt": "tableta"
+          },
+          {
+            "answer": "simu",
+            "answerTranslit": "si-mu",
+            "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+            "optionTranslit": {
+              "panya": "pa-nya"
+            },
+            "options": [
+              "panya",
+              "kompyuta",
+              "kompyuta ndogo",
+              "simu"
+            ],
+            "prompt": "teléfono móvil / celular"
+          },
+          {
+            "answer": "simu",
+            "concept": "c:tecnologia-y-comunicacion.telefono",
+            "optionTranslit": {
+              "panya": "pa-nya"
+            },
+            "options": [
+              "kamera",
+              "laptop",
+              "simu",
+              "panya"
+            ],
+            "prompt": "teléfono"
+          },
+          {
+            "answer": "skrini",
+            "concept": "c:tecnologia-y-comunicacion.pantalla",
+            "optionTranslit": {
+              "panya": "pa-nya"
+            },
+            "options": [
+              "panya",
+              "kompyuta ndogo",
+              "skrini",
+              "teknolojia"
+            ],
+            "prompt": "pantalla"
+          },
+          {
+            "answer": "keyboard",
+            "concept": "c:tecnologia-y-comunicacion.teclado",
+            "optionTranslit": {
+              "panya": "pa-nya"
+            },
+            "options": [
+              "kompyuta ndogo",
+              "panya",
+              "keyboard",
+              "kompyuta"
+            ],
+            "prompt": "teclado"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Devices, internet and everyday communication.",
+      "es": "Aparatos, internet y comunicación del día a día."
+    },
+    "generator": "build_lessons",
+    "id": "sw-u18-l1",
+    "lang": "sw",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name devices and services",
+        "Talk on the phone and online"
+      ],
+      "es": [
+        "Nombrar aparatos y servicios",
+        "Hablar por teléfono e internet"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "sw"
+        ],
+        "rows": [
+          [
+            "tecnología",
+            "technology",
+            "teknolojia"
+          ],
+          [
+            "computadora / ordenador",
+            "computer / PC",
+            "kompyuta"
+          ],
+          [
+            "portátil / laptop",
+            "laptop / laptop",
+            "laptop"
+          ],
+          [
+            "tableta",
+            "tablet",
+            "kompyuta ndogo"
+          ],
+          [
+            "teléfono móvil / celular",
+            "mobile / cell phone",
+            "simu"
+          ],
+          [
+            "teléfono",
+            "phone",
+            "simu"
+          ],
+          [
+            "pantalla",
+            "screen",
+            "skrini"
+          ],
+          [
+            "teclado",
+            "keyboard",
+            "keyboard"
+          ],
+          [
+            "ratón (informática)",
+            "mouse (computer)",
+            "panya"
+          ],
+          [
+            "impresora",
+            "printer",
+            "prenta"
+          ],
+          [
+            "cámara",
+            "camera",
+            "kamera"
+          ],
+          [
+            "micrófono",
+            "microphone",
+            "sauti"
+          ]
+        ],
+        "title": "es · en · sw",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Technology and communication",
+      "es": "La tecnología y la comunicación"
+    },
+    "unit": 18
+  },
+  {
+    "concepts": [
+      "c:naturaleza-y-clima.naturaleza",
+      "c:naturaleza-y-clima.arbol",
+      "c:naturaleza-y-clima.planta",
+      "c:naturaleza-y-clima.flor",
+      "c:naturaleza-y-clima.hoja",
+      "c:naturaleza-y-clima.raiz",
+      "c:naturaleza-y-clima.rama",
+      "c:naturaleza-y-clima.tronco-tallo",
+      "c:naturaleza-y-clima.semilla",
+      "c:naturaleza-y-clima.hierba-cesped",
+      "c:naturaleza-y-clima.bosque-selva",
+      "c:naturaleza-y-clima.montana"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:naturaleza-y-clima.naturaleza",
+        "en": "nature",
+        "es": "naturaleza",
+        "speaker": "A",
+        "sw": "asili / mazingira",
+        "translit": "a-si-li"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.arbol",
+        "en": "tree",
+        "es": "árbol",
+        "speaker": "B",
+        "sw": "mti",
+        "translit": "mti"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.planta",
+        "en": "plant",
+        "es": "planta",
+        "speaker": "A",
+        "sw": "mmea",
+        "translit": "mme-a"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.flor",
+        "en": "flower",
+        "es": "flor",
+        "speaker": "B",
+        "sw": "ua / maua",
+        "translit": "u-a"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hoja",
+        "en": "leaf",
+        "es": "hoja",
+        "speaker": "A",
+        "sw": "jani / majani",
+        "translit": "ja-ni"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.raiz",
+        "en": "root",
+        "es": "raíz",
+        "speaker": "B",
+        "sw": "mzizi",
+        "translit": "mzi-zi"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.rama",
+        "en": "branch",
+        "es": "rama",
+        "speaker": "A",
+        "sw": "tawi / matawi",
+        "translit": "ta-wi"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.tronco-tallo",
+        "en": "trunk / stem",
+        "es": "tronco / tallo",
+        "speaker": "B",
+        "sw": "mzizi"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.semilla",
+        "en": "seed",
+        "es": "semilla",
+        "speaker": "A",
+        "sw": "mbegu / punje",
+        "translit": "mbe-gu"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hierba-cesped",
+        "en": "grass / lawn",
+        "es": "hierba / césped",
+        "speaker": "B",
+        "sw": "nyasi"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.bosque-selva",
+        "en": "forest / jungle",
+        "es": "bosque / selva",
+        "speaker": "A",
+        "sw": "msitu"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.montana",
+        "en": "mountain",
+        "es": "montaña",
+        "speaker": "B",
+        "sw": "mlima"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "asili / mazingira",
+            "answerTranslit": "a-si-li",
+            "concept": "c:naturaleza-y-clima.naturaleza",
+            "optionTranslit": {
+              "asili / mazingira": "a-si-li",
+              "mmea": "mme-a"
+            },
+            "options": [
+              "asili / mazingira",
+              "nyasi",
+              "mmea",
+              "mzizi"
+            ],
+            "prompt": "naturaleza"
+          },
+          {
+            "answer": "mti",
+            "answerTranslit": "mti",
+            "concept": "c:naturaleza-y-clima.arbol",
+            "optionTranslit": {
+              "asili / mazingira": "a-si-li",
+              "jani / majani": "ja-ni",
+              "mti": "mti",
+              "tawi / matawi": "ta-wi"
+            },
+            "options": [
+              "asili / mazingira",
+              "mti",
+              "jani / majani",
+              "tawi / matawi"
+            ],
+            "prompt": "árbol"
+          },
+          {
+            "answer": "mmea",
+            "answerTranslit": "mme-a",
+            "concept": "c:naturaleza-y-clima.planta",
+            "optionTranslit": {
+              "mmea": "mme-a",
+              "mti": "mti"
+            },
+            "options": [
+              "msitu",
+              "mti",
+              "nyasi",
+              "mmea"
+            ],
+            "prompt": "planta"
+          },
+          {
+            "answer": "ua / maua",
+            "answerTranslit": "u-a",
+            "concept": "c:naturaleza-y-clima.flor",
+            "optionTranslit": {
+              "mbegu / punje": "mbe-gu",
+              "tawi / matawi": "ta-wi",
+              "ua / maua": "u-a"
+            },
+            "options": [
+              "tawi / matawi",
+              "mbegu / punje",
+              "mlima",
+              "ua / maua"
+            ],
+            "prompt": "flor"
+          },
+          {
+            "answer": "jani / majani",
+            "answerTranslit": "ja-ni",
+            "concept": "c:naturaleza-y-clima.hoja",
+            "optionTranslit": {
+              "jani / majani": "ja-ni",
+              "mti": "mti"
+            },
+            "options": [
+              "msitu",
+              "nyasi",
+              "mti",
+              "jani / majani"
+            ],
+            "prompt": "hoja"
+          },
+          {
+            "answer": "mzizi",
+            "answerTranslit": "mzi-zi",
+            "concept": "c:naturaleza-y-clima.raiz",
+            "optionTranslit": {
+              "mbegu / punje": "mbe-gu",
+              "tawi / matawi": "ta-wi",
+              "ua / maua": "u-a"
+            },
+            "options": [
+              "mbegu / punje",
+              "ua / maua",
+              "tawi / matawi",
+              "mzizi"
+            ],
+            "prompt": "raíz"
+          },
+          {
+            "answer": "tawi / matawi",
+            "answerTranslit": "ta-wi",
+            "concept": "c:naturaleza-y-clima.rama",
+            "optionTranslit": {
+              "jani / majani": "ja-ni",
+              "mmea": "mme-a",
+              "tawi / matawi": "ta-wi"
+            },
+            "options": [
+              "mmea",
+              "tawi / matawi",
+              "jani / majani",
+              "msitu"
+            ],
+            "prompt": "rama"
+          },
+          {
+            "answer": "mzizi",
+            "concept": "c:naturaleza-y-clima.tronco-tallo",
+            "optionTranslit": {
+              "jani / majani": "ja-ni",
+              "mti": "mti"
+            },
+            "options": [
+              "jani / majani",
+              "nyasi",
+              "mzizi",
+              "mti"
+            ],
+            "prompt": "tronco / tallo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Nature, landscapes and weather to talk about the environment.",
+      "es": "Naturaleza, paisajes y clima para hablar del entorno."
+    },
+    "generator": "build_lessons",
+    "id": "sw-u19-l1",
+    "lang": "sw",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name natural elements",
+        "Talk about weather and seasons"
+      ],
+      "es": [
+        "Nombrar elementos naturales",
+        "Hablar del tiempo y las estaciones"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "sw"
+        ],
+        "rows": [
+          [
+            "naturaleza",
+            "nature",
+            "asili / mazingira"
+          ],
+          [
+            "árbol",
+            "tree",
+            "mti"
+          ],
+          [
+            "planta",
+            "plant",
+            "mmea"
+          ],
+          [
+            "flor",
+            "flower",
+            "ua / maua"
+          ],
+          [
+            "hoja",
+            "leaf",
+            "jani / majani"
+          ],
+          [
+            "raíz",
+            "root",
+            "mzizi"
+          ],
+          [
+            "rama",
+            "branch",
+            "tawi / matawi"
+          ],
+          [
+            "tronco / tallo",
+            "trunk / stem",
+            "mzizi"
+          ],
+          [
+            "semilla",
+            "seed",
+            "mbegu / punje"
+          ],
+          [
+            "hierba / césped",
+            "grass / lawn",
+            "nyasi"
+          ],
+          [
+            "bosque / selva",
+            "forest / jungle",
+            "msitu"
+          ],
+          [
+            "montaña",
+            "mountain",
+            "mlima"
+          ]
+        ],
+        "title": "es · en · sw",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Nature and weather",
+      "es": "La naturaleza y el clima"
+    },
+    "unit": 19
   },
   {
     "concepts": [
@@ -803,87 +3696,253 @@
         "en": "zero",
         "es": "cero",
         "speaker": "A",
-        "sw": "sifuri"
+        "sw": "sifuri",
+        "translit": "si-fu-ri"
       },
       {
         "concept": "c:numeros.uno",
         "en": "one",
         "es": "uno",
         "speaker": "B",
-        "sw": "moja"
+        "sw": "moja",
+        "translit": "mo-ja"
       },
       {
         "concept": "c:numeros.dos",
         "en": "two",
         "es": "dos",
         "speaker": "A",
-        "sw": "mbili"
+        "sw": "mbili",
+        "translit": "mbi-li"
       },
       {
         "concept": "c:numeros.tres",
         "en": "three",
         "es": "tres",
         "speaker": "B",
-        "sw": "tatu"
+        "sw": "tatu",
+        "translit": "ta-tu"
       },
       {
         "concept": "c:numeros.cuatro",
         "en": "4",
         "es": "cuatro",
         "speaker": "A",
-        "sw": "nne"
+        "sw": "nne",
+        "translit": "nne"
       },
       {
         "concept": "c:numeros.cinco",
         "en": "five",
         "es": "cinco",
         "speaker": "B",
-        "sw": "tano"
+        "sw": "tano",
+        "translit": "ta-no"
       },
       {
         "concept": "c:numeros.seis",
         "en": "6",
         "es": "seis",
         "speaker": "A",
-        "sw": "sita"
+        "sw": "sita",
+        "translit": "si-ta"
       },
       {
         "concept": "c:numeros.siete",
         "en": "seven",
         "es": "siete",
         "speaker": "B",
-        "sw": "saba"
+        "sw": "saba",
+        "translit": "sa-ba"
       },
       {
         "concept": "c:numeros.ocho",
         "en": "8",
         "es": "ocho",
         "speaker": "A",
-        "sw": "nane"
+        "sw": "nane",
+        "translit": "na-ne"
       },
       {
         "concept": "c:numeros.nueve",
         "en": "9",
         "es": "nueve",
         "speaker": "B",
-        "sw": "tisa"
+        "sw": "tisa",
+        "translit": "ti-sa"
       },
       {
         "concept": "c:numeros.diez",
         "en": "10",
         "es": "diez",
         "speaker": "A",
-        "sw": "kumi"
+        "sw": "kumi",
+        "translit": "ku-mi"
       },
       {
         "concept": "c:numeros.once",
         "en": "11",
         "es": "once",
         "speaker": "B",
-        "sw": "kumi na moja"
+        "sw": "kumi na moja",
+        "translit": "ku-mi na mo-ja"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "sifuri",
+            "answerTranslit": "si-fu-ri",
+            "concept": "c:numeros.cero",
+            "optionTranslit": {
+              "moja": "mo-ja",
+              "saba": "sa-ba",
+              "sifuri": "si-fu-ri",
+              "tisa": "ti-sa"
+            },
+            "options": [
+              "tisa",
+              "sifuri",
+              "saba",
+              "moja"
+            ],
+            "prompt": "cero"
+          },
+          {
+            "answer": "moja",
+            "answerTranslit": "mo-ja",
+            "concept": "c:numeros.uno",
+            "optionTranslit": {
+              "kumi": "ku-mi",
+              "mbili": "mbi-li",
+              "moja": "mo-ja",
+              "tano": "ta-no"
+            },
+            "options": [
+              "tano",
+              "mbili",
+              "kumi",
+              "moja"
+            ],
+            "prompt": "uno"
+          },
+          {
+            "answer": "mbili",
+            "answerTranslit": "mbi-li",
+            "concept": "c:numeros.dos",
+            "optionTranslit": {
+              "mbili": "mbi-li",
+              "sita": "si-ta",
+              "tano": "ta-no",
+              "tisa": "ti-sa"
+            },
+            "options": [
+              "sita",
+              "tisa",
+              "tano",
+              "mbili"
+            ],
+            "prompt": "dos"
+          },
+          {
+            "answer": "tatu",
+            "answerTranslit": "ta-tu",
+            "concept": "c:numeros.tres",
+            "optionTranslit": {
+              "kumi": "ku-mi",
+              "mbili": "mbi-li",
+              "sita": "si-ta",
+              "tatu": "ta-tu"
+            },
+            "options": [
+              "kumi",
+              "sita",
+              "mbili",
+              "tatu"
+            ],
+            "prompt": "tres"
+          },
+          {
+            "answer": "nne",
+            "answerTranslit": "nne",
+            "concept": "c:numeros.cuatro",
+            "optionTranslit": {
+              "kumi": "ku-mi",
+              "nane": "na-ne",
+              "nne": "nne",
+              "tano": "ta-no"
+            },
+            "options": [
+              "nne",
+              "tano",
+              "kumi",
+              "nane"
+            ],
+            "prompt": "cuatro"
+          },
+          {
+            "answer": "tano",
+            "answerTranslit": "ta-no",
+            "concept": "c:numeros.cinco",
+            "optionTranslit": {
+              "nne": "nne",
+              "saba": "sa-ba",
+              "sifuri": "si-fu-ri",
+              "tano": "ta-no"
+            },
+            "options": [
+              "nne",
+              "sifuri",
+              "saba",
+              "tano"
+            ],
+            "prompt": "cinco"
+          },
+          {
+            "answer": "sita",
+            "answerTranslit": "si-ta",
+            "concept": "c:numeros.seis",
+            "optionTranslit": {
+              "kumi na moja": "ku-mi na mo-ja",
+              "mbili": "mbi-li",
+              "sifuri": "si-fu-ri",
+              "sita": "si-ta"
+            },
+            "options": [
+              "mbili",
+              "kumi na moja",
+              "sita",
+              "sifuri"
+            ],
+            "prompt": "seis"
+          },
+          {
+            "answer": "saba",
+            "answerTranslit": "sa-ba",
+            "concept": "c:numeros.siete",
+            "optionTranslit": {
+              "nane": "na-ne",
+              "nne": "nne",
+              "saba": "sa-ba",
+              "tano": "ta-no"
+            },
+            "options": [
+              "nane",
+              "saba",
+              "tano",
+              "nne"
+            ],
+            "prompt": "siete"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Everyday numbers: used to count, give your age and talk about prices.",
       "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
@@ -983,6 +4042,303 @@
   },
   {
     "concepts": [
+      "c:vocabulario-extra-y-frases-utiles.amor",
+      "c:vocabulario-extra-y-frases-utiles.odio",
+      "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "c:vocabulario-extra-y-frases-utiles.mentira",
+      "c:vocabulario-extra-y-frases-utiles.verdad",
+      "c:vocabulario-extra-y-frases-utiles.justicia",
+      "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "c:vocabulario-extra-y-frases-utiles.miedo",
+      "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+        "en": "love",
+        "es": "amor",
+        "speaker": "A",
+        "sw": "upendo"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+        "en": "I hate it.",
+        "es": "odio",
+        "speaker": "B",
+        "sw": "chuki"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+        "en": "honesty",
+        "es": "honestidad",
+        "speaker": "A",
+        "sw": "uaminifu"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+        "en": "lie",
+        "es": "mentira",
+        "speaker": "B",
+        "sw": "uongo"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+        "en": "truth",
+        "es": "verdad",
+        "speaker": "A",
+        "sw": "kweli"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+        "en": "justice",
+        "es": "justicia",
+        "speaker": "B",
+        "sw": "haki"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+        "en": "injustice",
+        "es": "injusticia",
+        "speaker": "A",
+        "sw": "dhuluma"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+        "en": "value / courage",
+        "es": "valor / coraje",
+        "speaker": "B",
+        "sw": "ujaasiri"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+        "en": "fear",
+        "es": "miedo",
+        "speaker": "A",
+        "sw": "hofu"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+        "en": "hope",
+        "es": "esperanza",
+        "speaker": "B",
+        "sw": "tumaini"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+        "en": "disappointment",
+        "es": "decepción",
+        "speaker": "A",
+        "sw": "kushindwa"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+        "en": "anger / angry",
+        "es": "ira / enfado",
+        "speaker": "B",
+        "sw": "kichaka"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "upendo",
+            "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+            "options": [
+              "haki",
+              "upendo",
+              "kweli",
+              "kushindwa"
+            ],
+            "prompt": "amor"
+          },
+          {
+            "answer": "chuki",
+            "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+            "options": [
+              "uaminifu",
+              "tumaini",
+              "chuki",
+              "dhuluma"
+            ],
+            "prompt": "odio"
+          },
+          {
+            "answer": "uaminifu",
+            "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+            "options": [
+              "kweli",
+              "uaminifu",
+              "kichaka",
+              "uongo"
+            ],
+            "prompt": "honestidad"
+          },
+          {
+            "answer": "uongo",
+            "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+            "options": [
+              "kweli",
+              "uaminifu",
+              "upendo",
+              "uongo"
+            ],
+            "prompt": "mentira"
+          },
+          {
+            "answer": "kweli",
+            "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+            "options": [
+              "kweli",
+              "haki",
+              "uaminifu",
+              "kichaka"
+            ],
+            "prompt": "verdad"
+          },
+          {
+            "answer": "haki",
+            "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+            "options": [
+              "kichaka",
+              "dhuluma",
+              "haki",
+              "kushindwa"
+            ],
+            "prompt": "justicia"
+          },
+          {
+            "answer": "dhuluma",
+            "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+            "options": [
+              "kweli",
+              "uaminifu",
+              "dhuluma",
+              "kushindwa"
+            ],
+            "prompt": "injusticia"
+          },
+          {
+            "answer": "ujaasiri",
+            "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+            "options": [
+              "ujaasiri",
+              "dhuluma",
+              "tumaini",
+              "haki"
+            ],
+            "prompt": "valor / coraje"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Support words and phrases that appear in many conversations.",
+      "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+    },
+    "generator": "build_lessons",
+    "id": "sw-u20-l1",
+    "lang": "sw",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Expand vocabulary",
+        "Use common everyday phrases"
+      ],
+      "es": [
+        "Ampliar vocabulario",
+        "Usar frases comunes del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "sw"
+        ],
+        "rows": [
+          [
+            "amor",
+            "love",
+            "upendo"
+          ],
+          [
+            "odio",
+            "I hate it.",
+            "chuki"
+          ],
+          [
+            "honestidad",
+            "honesty",
+            "uaminifu"
+          ],
+          [
+            "mentira",
+            "lie",
+            "uongo"
+          ],
+          [
+            "verdad",
+            "truth",
+            "kweli"
+          ],
+          [
+            "justicia",
+            "justice",
+            "haki"
+          ],
+          [
+            "injusticia",
+            "injustice",
+            "dhuluma"
+          ],
+          [
+            "valor / coraje",
+            "value / courage",
+            "ujaasiri"
+          ],
+          [
+            "miedo",
+            "fear",
+            "hofu"
+          ],
+          [
+            "esperanza",
+            "hope",
+            "tumaini"
+          ],
+          [
+            "decepción",
+            "disappointment",
+            "kushindwa"
+          ],
+          [
+            "ira / enfado",
+            "anger / angry",
+            "kichaka"
+          ]
+        ],
+        "title": "es · en · sw",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Extra vocabulary and useful phrases",
+      "es": "Vocabulario extra y frases útiles"
+    },
+    "unit": 20
+  },
+  {
+    "concepts": [
       "c:colores.rojo",
       "c:colores.azul",
       "c:colores.verde",
@@ -1002,87 +4358,253 @@
         "en": "red",
         "es": "rojo",
         "speaker": "A",
-        "sw": "nyekundu"
+        "sw": "nyekundu",
+        "translit": "nye-kun-du"
       },
       {
         "concept": "c:colores.azul",
         "en": "blue",
         "es": "azul",
         "speaker": "B",
-        "sw": "bluu / samawati"
+        "sw": "bluu / samawati",
+        "translit": "blu-u"
       },
       {
         "concept": "c:colores.verde",
         "en": "green",
         "es": "verde",
         "speaker": "A",
-        "sw": "kijani"
+        "sw": "kijani",
+        "translit": "ki-ja-ni"
       },
       {
         "concept": "c:colores.amarillo",
         "en": "yellow",
         "es": "amarillo",
         "speaker": "B",
-        "sw": "njano / manjano"
+        "sw": "njano / manjano",
+        "translit": "nja-no"
       },
       {
         "concept": "c:colores.negro",
         "en": "black",
         "es": "negro",
         "speaker": "A",
-        "sw": "nyeusi"
+        "sw": "nyeusi",
+        "translit": "nye-u-si"
       },
       {
         "concept": "c:colores.blanco",
         "en": "white",
         "es": "blanco",
         "speaker": "B",
-        "sw": "nyeupe"
+        "sw": "nyeupe",
+        "translit": "nye-u-pe"
       },
       {
         "concept": "c:colores.naranja",
         "en": "orange",
         "es": "naranja",
         "speaker": "A",
-        "sw": "rangi ya chungwa / machungwa"
+        "sw": "rangi ya chungwa / machungwa",
+        "translit": "ma-chun-gwa"
       },
       {
         "concept": "c:colores.rosa",
         "en": "pink",
         "es": "rosa",
         "speaker": "B",
-        "sw": "waridi / pinki"
+        "sw": "waridi / pinki",
+        "translit": "wa-ri-di"
       },
       {
         "concept": "c:colores.morado-violeta",
         "en": "purple / violet",
         "es": "morado / violeta",
         "speaker": "A",
-        "sw": "zambarau / urujuani"
+        "sw": "zambarau / urujuani",
+        "translit": "zam-ba-rau"
       },
       {
         "concept": "c:colores.marron",
         "en": "brown",
         "es": "marrón",
         "speaker": "B",
-        "sw": "kahawia"
+        "sw": "kahawia",
+        "translit": "ka-ha-wi-a"
       },
       {
         "concept": "c:colores.gris",
         "en": "grey",
         "es": "gris",
         "speaker": "A",
-        "sw": "kijivu"
+        "sw": "kijivu",
+        "translit": "ki-ji-vu"
       },
       {
         "concept": "c:colores.dorado",
         "en": "gold",
         "es": "dorado",
         "speaker": "B",
-        "sw": "dhahabu / rangi ya dhahabu"
+        "sw": "dhahabu / rangi ya dhahabu",
+        "translit": "dha-ha-bu"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "nyekundu",
+            "answerTranslit": "nye-kun-du",
+            "concept": "c:colores.rojo",
+            "optionTranslit": {
+              "kijani": "ki-ja-ni",
+              "nyekundu": "nye-kun-du",
+              "nyeupe": "nye-u-pe",
+              "rangi ya chungwa / machungwa": "ma-chun-gwa"
+            },
+            "options": [
+              "kijani",
+              "nyekundu",
+              "nyeupe",
+              "rangi ya chungwa / machungwa"
+            ],
+            "prompt": "rojo"
+          },
+          {
+            "answer": "bluu / samawati",
+            "answerTranslit": "blu-u",
+            "concept": "c:colores.azul",
+            "optionTranslit": {
+              "bluu / samawati": "blu-u",
+              "dhahabu / rangi ya dhahabu": "dha-ha-bu",
+              "rangi ya chungwa / machungwa": "ma-chun-gwa",
+              "waridi / pinki": "wa-ri-di"
+            },
+            "options": [
+              "dhahabu / rangi ya dhahabu",
+              "bluu / samawati",
+              "waridi / pinki",
+              "rangi ya chungwa / machungwa"
+            ],
+            "prompt": "azul"
+          },
+          {
+            "answer": "kijani",
+            "answerTranslit": "ki-ja-ni",
+            "concept": "c:colores.verde",
+            "optionTranslit": {
+              "kijani": "ki-ja-ni",
+              "kijivu": "ki-ji-vu",
+              "rangi ya chungwa / machungwa": "ma-chun-gwa",
+              "zambarau / urujuani": "zam-ba-rau"
+            },
+            "options": [
+              "rangi ya chungwa / machungwa",
+              "kijivu",
+              "kijani",
+              "zambarau / urujuani"
+            ],
+            "prompt": "verde"
+          },
+          {
+            "answer": "njano / manjano",
+            "answerTranslit": "nja-no",
+            "concept": "c:colores.amarillo",
+            "optionTranslit": {
+              "kahawia": "ka-ha-wi-a",
+              "kijivu": "ki-ji-vu",
+              "njano / manjano": "nja-no",
+              "nyekundu": "nye-kun-du"
+            },
+            "options": [
+              "kahawia",
+              "nyekundu",
+              "kijivu",
+              "njano / manjano"
+            ],
+            "prompt": "amarillo"
+          },
+          {
+            "answer": "nyeusi",
+            "answerTranslit": "nye-u-si",
+            "concept": "c:colores.negro",
+            "optionTranslit": {
+              "bluu / samawati": "blu-u",
+              "kahawia": "ka-ha-wi-a",
+              "nyeusi": "nye-u-si",
+              "rangi ya chungwa / machungwa": "ma-chun-gwa"
+            },
+            "options": [
+              "bluu / samawati",
+              "nyeusi",
+              "kahawia",
+              "rangi ya chungwa / machungwa"
+            ],
+            "prompt": "negro"
+          },
+          {
+            "answer": "nyeupe",
+            "answerTranslit": "nye-u-pe",
+            "concept": "c:colores.blanco",
+            "optionTranslit": {
+              "dhahabu / rangi ya dhahabu": "dha-ha-bu",
+              "kijivu": "ki-ji-vu",
+              "njano / manjano": "nja-no",
+              "nyeupe": "nye-u-pe"
+            },
+            "options": [
+              "kijivu",
+              "njano / manjano",
+              "dhahabu / rangi ya dhahabu",
+              "nyeupe"
+            ],
+            "prompt": "blanco"
+          },
+          {
+            "answer": "rangi ya chungwa / machungwa",
+            "answerTranslit": "ma-chun-gwa",
+            "concept": "c:colores.naranja",
+            "optionTranslit": {
+              "dhahabu / rangi ya dhahabu": "dha-ha-bu",
+              "kahawia": "ka-ha-wi-a",
+              "nyeupe": "nye-u-pe",
+              "rangi ya chungwa / machungwa": "ma-chun-gwa"
+            },
+            "options": [
+              "nyeupe",
+              "kahawia",
+              "rangi ya chungwa / machungwa",
+              "dhahabu / rangi ya dhahabu"
+            ],
+            "prompt": "naranja"
+          },
+          {
+            "answer": "waridi / pinki",
+            "answerTranslit": "wa-ri-di",
+            "concept": "c:colores.rosa",
+            "optionTranslit": {
+              "njano / manjano": "nja-no",
+              "nyekundu": "nye-kun-du",
+              "nyeusi": "nye-u-si",
+              "waridi / pinki": "wa-ri-di"
+            },
+            "options": [
+              "nyekundu",
+              "nyeusi",
+              "waridi / pinki",
+              "njano / manjano"
+            ],
+            "prompt": "rosa"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Colours are used to describe objects, clothes and places.",
       "es": "Los colores sirven para describir objetos, ropa y lugares."
@@ -1201,87 +4723,246 @@
         "en": "Family",
         "es": "familia",
         "speaker": "A",
-        "sw": "familia / jamaa"
+        "sw": "familia / jamaa",
+        "translit": "fa-mi-li-a"
       },
       {
         "concept": "c:familia-y-personas.madre",
         "en": "Mother",
         "es": "madre",
         "speaker": "B",
-        "sw": "mama"
+        "sw": "mama",
+        "translit": "ma-ma"
       },
       {
         "concept": "c:familia-y-personas.padre",
         "en": "Father",
         "es": "padre",
         "speaker": "A",
-        "sw": "baba"
+        "sw": "baba",
+        "translit": "ba-ba"
       },
       {
         "concept": "c:familia-y-personas.padres",
         "en": "parents",
         "es": "padres",
         "speaker": "B",
-        "sw": "wazazi"
+        "sw": "wazazi",
+        "translit": "wa-za-zi"
       },
       {
         "concept": "c:familia-y-personas.hijo",
         "en": "child",
         "es": "hijo",
         "speaker": "A",
-        "sw": "mtoto wa kiume / mwana"
+        "sw": "mtoto wa kiume / mwana",
+        "translit": "mwa-na"
       },
       {
         "concept": "c:familia-y-personas.hija",
         "en": "daughter",
         "es": "hija",
         "speaker": "B",
-        "sw": "mtoto wa kike / binti"
+        "sw": "mtoto wa kike / binti",
+        "translit": "bin-ti"
       },
       {
         "concept": "c:familia-y-personas.nino-a",
         "en": "child",
         "es": "niño/a",
         "speaker": "A",
-        "sw": "niño/a"
+        "sw": "mtoto"
       },
       {
         "concept": "c:familia-y-personas.hermano",
         "en": "brother",
         "es": "hermano",
         "speaker": "B",
-        "sw": "kaka / ndugu wa kiume"
+        "sw": "kaka / ndugu wa kiume",
+        "translit": "ka-ka"
       },
       {
         "concept": "c:familia-y-personas.hermana",
         "en": "sister",
         "es": "hermana",
         "speaker": "A",
-        "sw": "dada / ndugu wa kike"
+        "sw": "dada / ndugu wa kike",
+        "translit": "da-da"
       },
       {
         "concept": "c:familia-y-personas.hermanos",
         "en": "brothers",
         "es": "hermanos",
         "speaker": "B",
-        "sw": "hermanos"
+        "sw": "ndugu"
       },
       {
         "concept": "c:familia-y-personas.abuelo-paterno",
         "en": "paternal grandfather",
         "es": "abuelo paterno",
         "speaker": "A",
-        "sw": "babu"
+        "sw": "babu",
+        "translit": "ba-bu"
       },
       {
         "concept": "c:familia-y-personas.abuela-paterna",
         "en": "Father's grandmother",
         "es": "abuela paterna",
         "speaker": "B",
-        "sw": "bibi"
+        "sw": "bibi",
+        "translit": "bi-bi"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "familia / jamaa",
+            "answerTranslit": "fa-mi-li-a",
+            "concept": "c:familia-y-personas.familia",
+            "optionTranslit": {
+              "babu": "ba-bu",
+              "bibi": "bi-bi",
+              "familia / jamaa": "fa-mi-li-a"
+            },
+            "options": [
+              "babu",
+              "mtoto",
+              "bibi",
+              "familia / jamaa"
+            ],
+            "prompt": "familia"
+          },
+          {
+            "answer": "mama",
+            "answerTranslit": "ma-ma",
+            "concept": "c:familia-y-personas.madre",
+            "optionTranslit": {
+              "bibi": "bi-bi",
+              "familia / jamaa": "fa-mi-li-a",
+              "mama": "ma-ma",
+              "mtoto wa kike / binti": "bin-ti"
+            },
+            "options": [
+              "bibi",
+              "mtoto wa kike / binti",
+              "familia / jamaa",
+              "mama"
+            ],
+            "prompt": "madre"
+          },
+          {
+            "answer": "baba",
+            "answerTranslit": "ba-ba",
+            "concept": "c:familia-y-personas.padre",
+            "optionTranslit": {
+              "baba": "ba-ba",
+              "babu": "ba-bu",
+              "dada / ndugu wa kike": "da-da",
+              "wazazi": "wa-za-zi"
+            },
+            "options": [
+              "babu",
+              "dada / ndugu wa kike",
+              "baba",
+              "wazazi"
+            ],
+            "prompt": "padre"
+          },
+          {
+            "answer": "wazazi",
+            "answerTranslit": "wa-za-zi",
+            "concept": "c:familia-y-personas.padres",
+            "optionTranslit": {
+              "familia / jamaa": "fa-mi-li-a",
+              "mtoto wa kiume / mwana": "mwa-na",
+              "wazazi": "wa-za-zi"
+            },
+            "options": [
+              "mtoto",
+              "wazazi",
+              "familia / jamaa",
+              "mtoto wa kiume / mwana"
+            ],
+            "prompt": "padres"
+          },
+          {
+            "answer": "mtoto wa kiume / mwana",
+            "answerTranslit": "mwa-na",
+            "concept": "c:familia-y-personas.hijo",
+            "optionTranslit": {
+              "mama": "ma-ma",
+              "mtoto wa kike / binti": "bin-ti",
+              "mtoto wa kiume / mwana": "mwa-na"
+            },
+            "options": [
+              "mtoto wa kike / binti",
+              "ndugu",
+              "mama",
+              "mtoto wa kiume / mwana"
+            ],
+            "prompt": "hijo"
+          },
+          {
+            "answer": "mtoto wa kike / binti",
+            "answerTranslit": "bin-ti",
+            "concept": "c:familia-y-personas.hija",
+            "optionTranslit": {
+              "bibi": "bi-bi",
+              "mtoto wa kike / binti": "bin-ti",
+              "mtoto wa kiume / mwana": "mwa-na",
+              "wazazi": "wa-za-zi"
+            },
+            "options": [
+              "mtoto wa kike / binti",
+              "wazazi",
+              "mtoto wa kiume / mwana",
+              "bibi"
+            ],
+            "prompt": "hija"
+          },
+          {
+            "answer": "mtoto",
+            "concept": "c:familia-y-personas.nino-a",
+            "optionTranslit": {
+              "babu": "ba-bu",
+              "dada / ndugu wa kike": "da-da",
+              "wazazi": "wa-za-zi"
+            },
+            "options": [
+              "mtoto",
+              "dada / ndugu wa kike",
+              "babu",
+              "wazazi"
+            ],
+            "prompt": "niño/a"
+          },
+          {
+            "answer": "kaka / ndugu wa kiume",
+            "answerTranslit": "ka-ka",
+            "concept": "c:familia-y-personas.hermano",
+            "optionTranslit": {
+              "dada / ndugu wa kike": "da-da",
+              "kaka / ndugu wa kiume": "ka-ka",
+              "mama": "ma-ma",
+              "mtoto wa kiume / mwana": "mwa-na"
+            },
+            "options": [
+              "mama",
+              "kaka / ndugu wa kiume",
+              "mtoto wa kiume / mwana",
+              "dada / ndugu wa kike"
+            ],
+            "prompt": "hermano"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Words to refer to family and the people around you.",
       "es": "Palabras para referirse a la familia y a las personas cercanas."
@@ -1341,7 +5022,7 @@
           [
             "niño/a",
             "child",
-            "niño/a"
+            "mtoto"
           ],
           [
             "hermano",
@@ -1356,7 +5037,7 @@
           [
             "hermanos",
             "brothers",
-            "hermanos"
+            "ndugu"
           ],
           [
             "abuelo paterno",
@@ -1400,87 +5081,237 @@
         "en": "body",
         "es": "cuerpo",
         "speaker": "A",
-        "sw": "mwili"
+        "sw": "mwili",
+        "translit": "mwi-li"
       },
       {
         "concept": "c:cuerpo-humano.cabeza",
         "en": "head",
         "es": "cabeza",
         "speaker": "B",
-        "sw": "kichwa"
+        "sw": "kichwa",
+        "translit": "ki-chwa"
       },
       {
         "concept": "c:cuerpo-humano.cabello-pelo",
         "en": "hair / hair-",
         "es": "cabello / pelo",
         "speaker": "A",
-        "sw": "cabello"
+        "sw": "nywele"
       },
       {
         "concept": "c:cuerpo-humano.cara-rostro",
         "en": "face / side",
         "es": "cara / rostro",
         "speaker": "B",
-        "sw": "uso / sura"
+        "sw": "uso / sura",
+        "translit": "u-so"
       },
       {
         "concept": "c:cuerpo-humano.frente",
         "en": "front",
         "es": "frente",
         "speaker": "A",
-        "sw": "paji la uso"
+        "sw": "paji la uso",
+        "translit": "pa-ji"
       },
       {
         "concept": "c:cuerpo-humano.ojo",
         "en": "eye",
         "es": "ojo",
         "speaker": "B",
-        "sw": "jicho"
+        "sw": "jicho",
+        "translit": "ji-cho"
       },
       {
         "concept": "c:cuerpo-humano.ojos",
         "en": "eyes",
         "es": "ojos",
         "speaker": "A",
-        "sw": "ojos"
+        "sw": "macho"
       },
       {
         "concept": "c:cuerpo-humano.ceja",
         "en": "Beef",
         "es": "ceja",
         "speaker": "B",
-        "sw": "nyusi"
+        "sw": "nyusi",
+        "translit": "nyu-si"
       },
       {
         "concept": "c:cuerpo-humano.parpado-pestana",
         "en": "eyelid / tab",
         "es": "párpado / pestaña",
         "speaker": "A",
-        "sw": "párpado"
+        "sw": "papumba"
       },
       {
         "concept": "c:cuerpo-humano.oreja-oido",
         "en": "ear / ears",
         "es": "oreja / oído",
         "speaker": "B",
-        "sw": "sikio"
+        "sw": "sikio",
+        "translit": "si-ki-o"
       },
       {
         "concept": "c:cuerpo-humano.nariz",
         "en": "nose",
         "es": "nariz",
         "speaker": "A",
-        "sw": "pua"
+        "sw": "pua",
+        "translit": "pu-a"
       },
       {
         "concept": "c:cuerpo-humano.boca",
         "en": "mouth",
         "es": "boca",
         "speaker": "B",
-        "sw": "kinywa / mdomo"
+        "sw": "kinywa / mdomo",
+        "translit": "ki-nywa"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "mwili",
+            "answerTranslit": "mwi-li",
+            "concept": "c:cuerpo-humano.cuerpo",
+            "optionTranslit": {
+              "mwili": "mwi-li",
+              "paji la uso": "pa-ji"
+            },
+            "options": [
+              "macho",
+              "mwili",
+              "paji la uso",
+              "papumba"
+            ],
+            "prompt": "cuerpo"
+          },
+          {
+            "answer": "kichwa",
+            "answerTranslit": "ki-chwa",
+            "concept": "c:cuerpo-humano.cabeza",
+            "optionTranslit": {
+              "jicho": "ji-cho",
+              "kichwa": "ki-chwa",
+              "kinywa / mdomo": "ki-nywa"
+            },
+            "options": [
+              "jicho",
+              "kichwa",
+              "kinywa / mdomo",
+              "macho"
+            ],
+            "prompt": "cabeza"
+          },
+          {
+            "answer": "nywele",
+            "concept": "c:cuerpo-humano.cabello-pelo",
+            "optionTranslit": {
+              "nyusi": "nyu-si",
+              "paji la uso": "pa-ji",
+              "pua": "pu-a"
+            },
+            "options": [
+              "pua",
+              "nyusi",
+              "nywele",
+              "paji la uso"
+            ],
+            "prompt": "cabello / pelo"
+          },
+          {
+            "answer": "uso / sura",
+            "answerTranslit": "u-so",
+            "concept": "c:cuerpo-humano.cara-rostro",
+            "optionTranslit": {
+              "mwili": "mwi-li",
+              "uso / sura": "u-so"
+            },
+            "options": [
+              "mwili",
+              "uso / sura",
+              "nywele",
+              "macho"
+            ],
+            "prompt": "cara / rostro"
+          },
+          {
+            "answer": "paji la uso",
+            "answerTranslit": "pa-ji",
+            "concept": "c:cuerpo-humano.frente",
+            "optionTranslit": {
+              "jicho": "ji-cho",
+              "paji la uso": "pa-ji"
+            },
+            "options": [
+              "nywele",
+              "paji la uso",
+              "jicho",
+              "macho"
+            ],
+            "prompt": "frente"
+          },
+          {
+            "answer": "jicho",
+            "answerTranslit": "ji-cho",
+            "concept": "c:cuerpo-humano.ojo",
+            "optionTranslit": {
+              "jicho": "ji-cho",
+              "kichwa": "ki-chwa",
+              "paji la uso": "pa-ji"
+            },
+            "options": [
+              "paji la uso",
+              "jicho",
+              "papumba",
+              "kichwa"
+            ],
+            "prompt": "ojo"
+          },
+          {
+            "answer": "macho",
+            "concept": "c:cuerpo-humano.ojos",
+            "optionTranslit": {
+              "kichwa": "ki-chwa",
+              "pua": "pu-a",
+              "sikio": "si-ki-o"
+            },
+            "options": [
+              "macho",
+              "sikio",
+              "kichwa",
+              "pua"
+            ],
+            "prompt": "ojos"
+          },
+          {
+            "answer": "nyusi",
+            "answerTranslit": "nyu-si",
+            "concept": "c:cuerpo-humano.ceja",
+            "optionTranslit": {
+              "kichwa": "ki-chwa",
+              "nyusi": "nyu-si",
+              "paji la uso": "pa-ji"
+            },
+            "options": [
+              "nyusi",
+              "paji la uso",
+              "kichwa",
+              "papumba"
+            ],
+            "prompt": "ceja"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Parts of the body, useful to talk about health and care.",
       "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
@@ -1520,7 +5351,7 @@
           [
             "cabello / pelo",
             "hair / hair-",
-            "cabello"
+            "nywele"
           ],
           [
             "cara / rostro",
@@ -1540,7 +5371,7 @@
           [
             "ojos",
             "eyes",
-            "ojos"
+            "macho"
           ],
           [
             "ceja",
@@ -1550,7 +5381,7 @@
           [
             "párpado / pestaña",
             "eyelid / tab",
-            "párpado"
+            "papumba"
           ],
           [
             "oreja / oído",
@@ -1599,87 +5430,245 @@
         "en": "food / eat",
         "es": "comida / comer",
         "speaker": "A",
-        "sw": "comida"
+        "sw": "chakula"
       },
       {
         "concept": "c:comida-y-bebida.comida-formal",
         "en": "food (formal)",
         "es": "comida (formal)",
         "speaker": "B",
-        "sw": "chakula"
+        "sw": "chakula",
+        "translit": "cha-ku-la"
       },
       {
         "concept": "c:comida-y-bebida.desayuno",
         "en": "breakfast",
         "es": "desayuno",
         "speaker": "A",
-        "sw": "kiamsha kinywa / kifungua kinywa"
+        "sw": "kiamsha kinywa / kifungua kinywa",
+        "translit": "ki-am-sha ki-nywa"
       },
       {
         "concept": "c:comida-y-bebida.almuerzo",
         "en": "lunch",
         "es": "almuerzo",
         "speaker": "B",
-        "sw": "chakula cha mchana"
+        "sw": "chakula cha mchana",
+        "translit": "cha-ku-la cha mcha-na"
       },
       {
         "concept": "c:comida-y-bebida.cena",
         "en": "dinner",
         "es": "cena",
         "speaker": "A",
-        "sw": "chakula cha jioni"
+        "sw": "chakula cha jioni",
+        "translit": "cha-ku-la cha ji-o-ni"
       },
       {
         "concept": "c:comida-y-bebida.agua",
         "en": "water",
         "es": "agua",
         "speaker": "B",
-        "sw": "maji"
+        "sw": "maji",
+        "translit": "ma-ji"
       },
       {
         "concept": "c:comida-y-bebida.leche",
         "en": "milk",
         "es": "leche",
         "speaker": "A",
-        "sw": "maziwa"
+        "sw": "maziwa",
+        "translit": "ma-zi-wa"
       },
       {
         "concept": "c:comida-y-bebida.te",
         "en": "tea",
         "es": "té",
         "speaker": "B",
-        "sw": "chai"
+        "sw": "chai",
+        "translit": "cha-i"
       },
       {
         "concept": "c:comida-y-bebida.cafe",
         "en": "coffee",
         "es": "café",
         "speaker": "A",
-        "sw": "kahawa"
+        "sw": "kahawa",
+        "translit": "ka-ha-wa"
       },
       {
         "concept": "c:comida-y-bebida.zumo-jugo",
         "en": "juice / juices",
         "es": "zumo / jugo",
         "speaker": "B",
-        "sw": "zumo"
+        "sw": "maji ya matunda"
       },
       {
         "concept": "c:comida-y-bebida.lassi-yogur-batido",
         "en": "lassi (yoghurt beaten)",
         "es": "lassi (yogur batido)",
         "speaker": "A",
-        "sw": "lassi"
+        "sw": "lassi",
+        "translit": "lassi"
       },
       {
         "concept": "c:comida-y-bebida.alcohol-vino",
         "en": "alcohol / wine",
         "es": "alcohol / vino",
         "speaker": "B",
-        "sw": "divai / mvinyo"
+        "sw": "divai / mvinyo",
+        "translit": "di-va-i"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "chakula",
+            "concept": "c:comida-y-bebida.comida-comer",
+            "optionTranslit": {
+              "chakula": "cha-ku-la",
+              "divai / mvinyo": "di-va-i",
+              "lassi": "lassi"
+            },
+            "options": [
+              "lassi",
+              "chakula",
+              "divai / mvinyo",
+              "maji ya matunda"
+            ],
+            "prompt": "comida / comer"
+          },
+          {
+            "answer": "chakula",
+            "answerTranslit": "cha-ku-la",
+            "concept": "c:comida-y-bebida.comida-formal",
+            "optionTranslit": {
+              "chakula": "cha-ku-la",
+              "divai / mvinyo": "di-va-i",
+              "kiamsha kinywa / kifungua kinywa": "ki-am-sha ki-nywa"
+            },
+            "options": [
+              "maji ya matunda",
+              "kiamsha kinywa / kifungua kinywa",
+              "chakula",
+              "divai / mvinyo"
+            ],
+            "prompt": "comida (formal)"
+          },
+          {
+            "answer": "kiamsha kinywa / kifungua kinywa",
+            "answerTranslit": "ki-am-sha ki-nywa",
+            "concept": "c:comida-y-bebida.desayuno",
+            "optionTranslit": {
+              "chakula": "cha-ku-la",
+              "chakula cha mchana": "cha-ku-la cha mcha-na",
+              "kiamsha kinywa / kifungua kinywa": "ki-am-sha ki-nywa"
+            },
+            "options": [
+              "chakula cha mchana",
+              "kiamsha kinywa / kifungua kinywa",
+              "maji ya matunda",
+              "chakula"
+            ],
+            "prompt": "desayuno"
+          },
+          {
+            "answer": "chakula cha mchana",
+            "answerTranslit": "cha-ku-la cha mcha-na",
+            "concept": "c:comida-y-bebida.almuerzo",
+            "optionTranslit": {
+              "chakula": "cha-ku-la",
+              "chakula cha mchana": "cha-ku-la cha mcha-na",
+              "kiamsha kinywa / kifungua kinywa": "ki-am-sha ki-nywa",
+              "maziwa": "ma-zi-wa"
+            },
+            "options": [
+              "maziwa",
+              "chakula cha mchana",
+              "kiamsha kinywa / kifungua kinywa",
+              "chakula"
+            ],
+            "prompt": "almuerzo"
+          },
+          {
+            "answer": "chakula cha jioni",
+            "answerTranslit": "cha-ku-la cha ji-o-ni",
+            "concept": "c:comida-y-bebida.cena",
+            "optionTranslit": {
+              "chakula cha jioni": "cha-ku-la cha ji-o-ni",
+              "chakula cha mchana": "cha-ku-la cha mcha-na",
+              "kahawa": "ka-ha-wa",
+              "maziwa": "ma-zi-wa"
+            },
+            "options": [
+              "kahawa",
+              "maziwa",
+              "chakula cha mchana",
+              "chakula cha jioni"
+            ],
+            "prompt": "cena"
+          },
+          {
+            "answer": "maji",
+            "answerTranslit": "ma-ji",
+            "concept": "c:comida-y-bebida.agua",
+            "optionTranslit": {
+              "chai": "cha-i",
+              "chakula cha mchana": "cha-ku-la cha mcha-na",
+              "maji": "ma-ji"
+            },
+            "options": [
+              "maji",
+              "maji ya matunda",
+              "chai",
+              "chakula cha mchana"
+            ],
+            "prompt": "agua"
+          },
+          {
+            "answer": "maziwa",
+            "answerTranslit": "ma-zi-wa",
+            "concept": "c:comida-y-bebida.leche",
+            "optionTranslit": {
+              "divai / mvinyo": "di-va-i",
+              "lassi": "lassi",
+              "maji": "ma-ji",
+              "maziwa": "ma-zi-wa"
+            },
+            "options": [
+              "maji",
+              "lassi",
+              "maziwa",
+              "divai / mvinyo"
+            ],
+            "prompt": "leche"
+          },
+          {
+            "answer": "chai",
+            "answerTranslit": "cha-i",
+            "concept": "c:comida-y-bebida.te",
+            "optionTranslit": {
+              "chai": "cha-i",
+              "chakula cha jioni": "cha-ku-la cha ji-o-ni",
+              "maji": "ma-ji"
+            },
+            "options": [
+              "maji",
+              "maji ya matunda",
+              "chai",
+              "chakula cha jioni"
+            ],
+            "prompt": "té"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Basic foods and drinks, very useful when shopping or eating out.",
       "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
@@ -1709,7 +5698,7 @@
           [
             "comida / comer",
             "food / eat",
-            "comida"
+            "chakula"
           ],
           [
             "comida (formal)",
@@ -1754,7 +5743,7 @@
           [
             "zumo / jugo",
             "juice / juices",
-            "zumo"
+            "maji ya matunda"
           ],
           [
             "lassi (yogur batido)",
@@ -1798,87 +5787,240 @@
         "en": "Home / home",
         "es": "casa / hogar",
         "speaker": "A",
-        "sw": "nyumba / makazi"
+        "sw": "nyumba / makazi",
+        "translit": "nyum-ba"
       },
       {
         "concept": "c:casa-y-hogar.edificio-casa",
         "en": "building / house",
         "es": "edificio / casa",
         "speaker": "B",
-        "sw": "jengo / majengo"
+        "sw": "jengo / majengo",
+        "translit": "jen-go"
       },
       {
         "concept": "c:casa-y-hogar.apartamento",
         "en": "apartment",
         "es": "apartamento",
         "speaker": "A",
-        "sw": "apartamento"
+        "sw": "ghala"
       },
       {
         "concept": "c:casa-y-hogar.habitacion-cuarto",
         "en": "room / bedroom",
         "es": "habitación / cuarto",
         "speaker": "B",
-        "sw": "chumba"
+        "sw": "chumba",
+        "translit": "chum-ba"
       },
       {
         "concept": "c:casa-y-hogar.sala-de-estar",
         "en": "living room",
         "es": "sala de estar",
         "speaker": "A",
-        "sw": "sala"
+        "sw": "sala",
+        "translit": "sala"
       },
       {
         "concept": "c:casa-y-hogar.dormitorio",
         "en": "bedroom",
         "es": "dormitorio",
         "speaker": "B",
-        "sw": "chumba cha kulala"
+        "sw": "chumba cha kulala",
+        "translit": "chum-ba cha ku-la-la"
       },
       {
         "concept": "c:casa-y-hogar.cocina-habitacion",
         "en": "kitchen (room)",
         "es": "cocina (habitación)",
         "speaker": "A",
-        "sw": "jikoni"
+        "sw": "jikoni",
+        "translit": "ji-ko-ni"
       },
       {
         "concept": "c:casa-y-hogar.bano",
         "en": "bathroom",
         "es": "baño",
         "speaker": "B",
-        "sw": "bafu / choo"
+        "sw": "bafu / choo",
+        "translit": "ba-fu"
       },
       {
         "concept": "c:casa-y-hogar.inodoro-lavabo",
         "en": "toilet / sink",
         "es": "inodoro / lavabo",
         "speaker": "A",
-        "sw": "inodoro"
+        "sw": "choo"
       },
       {
         "concept": "c:casa-y-hogar.balcon",
         "en": "balcony",
         "es": "balcón",
         "speaker": "B",
-        "sw": "roshani / balcony"
+        "sw": "roshani / balcony",
+        "translit": "ro-sha-ni"
       },
       {
         "concept": "c:casa-y-hogar.techo-azotea",
         "en": "roof / rooftop",
         "es": "techo / azotea",
         "speaker": "A",
-        "sw": "techo"
+        "sw": "paa"
       },
       {
         "concept": "c:casa-y-hogar.pared",
         "en": "wall",
         "es": "pared",
         "speaker": "B",
-        "sw": "ukuta"
+        "sw": "ukuta",
+        "translit": "u-ku-ta"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "nyumba / makazi",
+            "answerTranslit": "nyum-ba",
+            "concept": "c:casa-y-hogar.casa-hogar",
+            "optionTranslit": {
+              "nyumba / makazi": "nyum-ba",
+              "sala": "sala"
+            },
+            "options": [
+              "paa",
+              "sala",
+              "ghala",
+              "nyumba / makazi"
+            ],
+            "prompt": "casa / hogar"
+          },
+          {
+            "answer": "jengo / majengo",
+            "answerTranslit": "jen-go",
+            "concept": "c:casa-y-hogar.edificio-casa",
+            "optionTranslit": {
+              "chumba": "chum-ba",
+              "jengo / majengo": "jen-go",
+              "roshani / balcony": "ro-sha-ni"
+            },
+            "options": [
+              "choo",
+              "jengo / majengo",
+              "chumba",
+              "roshani / balcony"
+            ],
+            "prompt": "edificio / casa"
+          },
+          {
+            "answer": "ghala",
+            "concept": "c:casa-y-hogar.apartamento",
+            "optionTranslit": {
+              "chumba cha kulala": "chum-ba cha ku-la-la",
+              "nyumba / makazi": "nyum-ba"
+            },
+            "options": [
+              "chumba cha kulala",
+              "ghala",
+              "paa",
+              "nyumba / makazi"
+            ],
+            "prompt": "apartamento"
+          },
+          {
+            "answer": "chumba",
+            "answerTranslit": "chum-ba",
+            "concept": "c:casa-y-hogar.habitacion-cuarto",
+            "optionTranslit": {
+              "bafu / choo": "ba-fu",
+              "chumba": "chum-ba",
+              "sala": "sala",
+              "ukuta": "u-ku-ta"
+            },
+            "options": [
+              "chumba",
+              "ukuta",
+              "sala",
+              "bafu / choo"
+            ],
+            "prompt": "habitación / cuarto"
+          },
+          {
+            "answer": "sala",
+            "answerTranslit": "sala",
+            "concept": "c:casa-y-hogar.sala-de-estar",
+            "optionTranslit": {
+              "chumba cha kulala": "chum-ba cha ku-la-la",
+              "sala": "sala",
+              "ukuta": "u-ku-ta"
+            },
+            "options": [
+              "choo",
+              "chumba cha kulala",
+              "ukuta",
+              "sala"
+            ],
+            "prompt": "sala de estar"
+          },
+          {
+            "answer": "chumba cha kulala",
+            "answerTranslit": "chum-ba cha ku-la-la",
+            "concept": "c:casa-y-hogar.dormitorio",
+            "optionTranslit": {
+              "bafu / choo": "ba-fu",
+              "chumba cha kulala": "chum-ba cha ku-la-la",
+              "ukuta": "u-ku-ta"
+            },
+            "options": [
+              "chumba cha kulala",
+              "ghala",
+              "bafu / choo",
+              "ukuta"
+            ],
+            "prompt": "dormitorio"
+          },
+          {
+            "answer": "jikoni",
+            "answerTranslit": "ji-ko-ni",
+            "concept": "c:casa-y-hogar.cocina-habitacion",
+            "optionTranslit": {
+              "chumba": "chum-ba",
+              "jikoni": "ji-ko-ni",
+              "roshani / balcony": "ro-sha-ni"
+            },
+            "options": [
+              "paa",
+              "jikoni",
+              "roshani / balcony",
+              "chumba"
+            ],
+            "prompt": "cocina (habitación)"
+          },
+          {
+            "answer": "bafu / choo",
+            "answerTranslit": "ba-fu",
+            "concept": "c:casa-y-hogar.bano",
+            "optionTranslit": {
+              "bafu / choo": "ba-fu",
+              "sala": "sala",
+              "ukuta": "u-ku-ta"
+            },
+            "options": [
+              "bafu / choo",
+              "ukuta",
+              "sala",
+              "paa"
+            ],
+            "prompt": "baño"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "House vocabulary: rooms, furniture and everyday objects.",
       "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
@@ -1918,7 +6060,7 @@
           [
             "apartamento",
             "apartment",
-            "apartamento"
+            "ghala"
           ],
           [
             "habitación / cuarto",
@@ -1948,7 +6090,7 @@
           [
             "inodoro / lavabo",
             "toilet / sink",
-            "inodoro"
+            "choo"
           ],
           [
             "balcón",
@@ -1958,7 +6100,7 @@
           [
             "techo / azotea",
             "roof / rooftop",
-            "techo"
+            "paa"
           ],
           [
             "pared",
@@ -1997,87 +6139,196 @@
         "en": "time / hour",
         "es": "tiempo / hora",
         "speaker": "A",
-        "sw": "tiempo"
+        "sw": "wakati"
       },
       {
         "concept": "c:tiempo-y-calendario.reloj-hora",
         "en": "clock / time",
         "es": "reloj / hora",
         "speaker": "B",
-        "sw": "reloj"
+        "sw": "saa"
       },
       {
         "concept": "c:tiempo-y-calendario.minuto",
         "en": "minute",
         "es": "minuto",
         "speaker": "A",
-        "sw": "minuto"
+        "sw": "dakika"
       },
       {
         "concept": "c:tiempo-y-calendario.segundo-tiempo",
         "en": "second (time)",
         "es": "segundo (tiempo)",
         "speaker": "B",
-        "sw": "wa pili"
+        "sw": "wa pili",
+        "translit": "wa pi-li"
       },
       {
         "concept": "c:tiempo-y-calendario.hora-duracion",
         "en": "time (duration)",
         "es": "hora (duración)",
         "speaker": "A",
-        "sw": "hora"
+        "sw": "saa"
       },
       {
         "concept": "c:tiempo-y-calendario.manana-temprano",
         "en": "(early)",
         "es": "mañana (temprano)",
         "speaker": "B",
-        "sw": "Kesho / Jana — mañana (temprano)"
+        "sw": "kesho"
       },
       {
         "concept": "c:tiempo-y-calendario.mediodia-tarde",
         "en": "noon / afternoon",
         "es": "mediodía / tarde",
         "speaker": "A",
-        "sw": "mediodía — mediodía / tarde"
+        "sw": "mchana"
       },
       {
         "concept": "c:tiempo-y-calendario.tarde-atardecer",
         "en": "late / evening",
         "es": "tarde / atardecer",
         "speaker": "B",
-        "sw": "tarde — tarde / atardecer"
+        "sw": "jioni"
       },
       {
         "concept": "c:tiempo-y-calendario.noche",
         "en": "night",
         "es": "noche",
         "speaker": "A",
-        "sw": "usiku — noche"
+        "sw": "usiku"
       },
       {
         "concept": "c:tiempo-y-calendario.medianoche",
         "en": "midnight",
         "es": "medianoche",
         "speaker": "B",
-        "sw": "medianoche"
+        "sw": "makundi usiku"
       },
       {
         "concept": "c:tiempo-y-calendario.dia",
         "en": "day",
         "es": "día",
         "speaker": "A",
-        "sw": "mchana / siku — día"
+        "sw": "siku"
       },
       {
         "concept": "c:tiempo-y-calendario.hoy",
         "en": "Today",
         "es": "hoy",
         "speaker": "B",
-        "sw": "Leo — hoy"
+        "sw": "leo"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "wakati",
+            "concept": "c:tiempo-y-calendario.tiempo-hora",
+            "options": [
+              "mchana",
+              "leo",
+              "wakati",
+              "dakika"
+            ],
+            "prompt": "tiempo / hora"
+          },
+          {
+            "answer": "saa",
+            "concept": "c:tiempo-y-calendario.reloj-hora",
+            "options": [
+              "saa",
+              "jioni",
+              "makundi usiku",
+              "siku"
+            ],
+            "prompt": "reloj / hora"
+          },
+          {
+            "answer": "dakika",
+            "concept": "c:tiempo-y-calendario.minuto",
+            "optionTranslit": {
+              "wa pili": "wa pi-li"
+            },
+            "options": [
+              "jioni",
+              "wa pili",
+              "dakika",
+              "siku"
+            ],
+            "prompt": "minuto"
+          },
+          {
+            "answer": "wa pili",
+            "answerTranslit": "wa pi-li",
+            "concept": "c:tiempo-y-calendario.segundo-tiempo",
+            "optionTranslit": {
+              "wa pili": "wa pi-li"
+            },
+            "options": [
+              "wa pili",
+              "saa",
+              "makundi usiku",
+              "leo"
+            ],
+            "prompt": "segundo (tiempo)"
+          },
+          {
+            "answer": "saa",
+            "concept": "c:tiempo-y-calendario.hora-duracion",
+            "optionTranslit": {
+              "wa pili": "wa pi-li"
+            },
+            "options": [
+              "kesho",
+              "dakika",
+              "saa",
+              "wa pili"
+            ],
+            "prompt": "hora (duración)"
+          },
+          {
+            "answer": "kesho",
+            "concept": "c:tiempo-y-calendario.manana-temprano",
+            "options": [
+              "saa",
+              "kesho",
+              "jioni",
+              "wakati"
+            ],
+            "prompt": "mañana (temprano)"
+          },
+          {
+            "answer": "mchana",
+            "concept": "c:tiempo-y-calendario.mediodia-tarde",
+            "options": [
+              "mchana",
+              "usiku",
+              "wakati",
+              "dakika"
+            ],
+            "prompt": "mediodía / tarde"
+          },
+          {
+            "answer": "jioni",
+            "concept": "c:tiempo-y-calendario.tarde-atardecer",
+            "options": [
+              "saa",
+              "usiku",
+              "jioni",
+              "dakika"
+            ],
+            "prompt": "tarde / atardecer"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Words to place actions in time: days, months and seasons.",
       "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."
@@ -2107,17 +6358,17 @@
           [
             "tiempo / hora",
             "time / hour",
-            "tiempo"
+            "wakati"
           ],
           [
             "reloj / hora",
             "clock / time",
-            "reloj"
+            "saa"
           ],
           [
             "minuto",
             "minute",
-            "minuto"
+            "dakika"
           ],
           [
             "segundo (tiempo)",
@@ -2127,42 +6378,42 @@
           [
             "hora (duración)",
             "time (duration)",
-            "hora"
+            "saa"
           ],
           [
             "mañana (temprano)",
             "(early)",
-            "Kesho / Jana — mañana (temprano)"
+            "kesho"
           ],
           [
             "mediodía / tarde",
             "noon / afternoon",
-            "mediodía — mediodía / tarde"
+            "mchana"
           ],
           [
             "tarde / atardecer",
             "late / evening",
-            "tarde — tarde / atardecer"
+            "jioni"
           ],
           [
             "noche",
             "night",
-            "usiku — noche"
+            "usiku"
           ],
           [
             "medianoche",
             "midnight",
-            "medianoche"
+            "makundi usiku"
           ],
           [
             "día",
             "day",
-            "mchana / siku — día"
+            "siku"
           ],
           [
             "hoy",
             "Today",
-            "Leo — hoy"
+            "leo"
           ]
         ],
         "title": "es · en · sw",
@@ -2196,87 +6447,248 @@
         "en": "animal",
         "es": "animal",
         "speaker": "A",
-        "sw": "mnyama / wanyama"
+        "sw": "mnyama / wanyama",
+        "translit": "mnya-ma"
       },
       {
         "concept": "c:animales.perro",
         "en": "dog",
         "es": "perro",
         "speaker": "B",
-        "sw": "mbwa"
+        "sw": "mbwa",
+        "translit": "mbwa"
       },
       {
         "concept": "c:animales.gato",
         "en": "cat",
         "es": "gato",
         "speaker": "A",
-        "sw": "paka"
+        "sw": "paka",
+        "translit": "pa-ka"
       },
       {
         "concept": "c:animales.vaca",
         "en": "cow",
         "es": "vaca",
         "speaker": "B",
-        "sw": "ng'ombe wa kike"
+        "sw": "ng'ombe wa kike",
+        "translit": "ngo-mbe"
       },
       {
         "concept": "c:animales.buey-toro",
         "en": "ox / bull",
         "es": "buey / toro",
         "speaker": "A",
-        "sw": "buey"
+        "sw": "ng'ombe"
       },
       {
         "concept": "c:animales.bufalo",
         "en": "buffalo",
         "es": "búfalo",
         "speaker": "B",
-        "sw": "nyati"
+        "sw": "nyati",
+        "translit": "nya-ti"
       },
       {
         "concept": "c:animales.caballo",
         "en": "horse",
         "es": "caballo",
         "speaker": "A",
-        "sw": "farasi"
+        "sw": "farasi",
+        "translit": "fa-ra-si"
       },
       {
         "concept": "c:animales.burro-asno",
         "en": "donkey / ass",
         "es": "burro / asno",
         "speaker": "B",
-        "sw": "punda"
+        "sw": "punda",
+        "translit": "pun-da"
       },
       {
         "concept": "c:animales.cabra",
         "en": "goat",
         "es": "cabra",
         "speaker": "A",
-        "sw": "mbuzi"
+        "sw": "mbuzi",
+        "translit": "mbu-zi"
       },
       {
         "concept": "c:animales.oveja",
         "en": "sheep",
         "es": "oveja",
         "speaker": "B",
-        "sw": "kondoo"
+        "sw": "kondoo",
+        "translit": "kon-do-o"
       },
       {
         "concept": "c:animales.cerdo",
         "en": "pig",
         "es": "cerdo",
         "speaker": "A",
-        "sw": "nguruwe"
+        "sw": "nguruwe",
+        "translit": "ngu-ru-we"
       },
       {
         "concept": "c:animales.gallina",
         "en": "chicken",
         "es": "gallina",
         "speaker": "B",
-        "sw": "kuku jike"
+        "sw": "kuku jike",
+        "translit": "ku-ku ji-ke"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "mnyama / wanyama",
+            "answerTranslit": "mnya-ma",
+            "concept": "c:animales.animal",
+            "optionTranslit": {
+              "farasi": "fa-ra-si",
+              "mnyama / wanyama": "mnya-ma",
+              "nguruwe": "ngu-ru-we",
+              "paka": "pa-ka"
+            },
+            "options": [
+              "farasi",
+              "mnyama / wanyama",
+              "paka",
+              "nguruwe"
+            ],
+            "prompt": "animal"
+          },
+          {
+            "answer": "mbwa",
+            "answerTranslit": "mbwa",
+            "concept": "c:animales.perro",
+            "optionTranslit": {
+              "kuku jike": "ku-ku ji-ke",
+              "mbwa": "mbwa",
+              "mnyama / wanyama": "mnya-ma",
+              "nguruwe": "ngu-ru-we"
+            },
+            "options": [
+              "kuku jike",
+              "mbwa",
+              "nguruwe",
+              "mnyama / wanyama"
+            ],
+            "prompt": "perro"
+          },
+          {
+            "answer": "paka",
+            "answerTranslit": "pa-ka",
+            "concept": "c:animales.gato",
+            "optionTranslit": {
+              "farasi": "fa-ra-si",
+              "mnyama / wanyama": "mnya-ma",
+              "nguruwe": "ngu-ru-we",
+              "paka": "pa-ka"
+            },
+            "options": [
+              "paka",
+              "nguruwe",
+              "farasi",
+              "mnyama / wanyama"
+            ],
+            "prompt": "gato"
+          },
+          {
+            "answer": "ng'ombe wa kike",
+            "answerTranslit": "ngo-mbe",
+            "concept": "c:animales.vaca",
+            "optionTranslit": {
+              "ng'ombe wa kike": "ngo-mbe",
+              "nguruwe": "ngu-ru-we",
+              "paka": "pa-ka"
+            },
+            "options": [
+              "ng'ombe wa kike",
+              "ng'ombe",
+              "paka",
+              "nguruwe"
+            ],
+            "prompt": "vaca"
+          },
+          {
+            "answer": "ng'ombe",
+            "concept": "c:animales.buey-toro",
+            "optionTranslit": {
+              "mbwa": "mbwa",
+              "nyati": "nya-ti",
+              "punda": "pun-da"
+            },
+            "options": [
+              "nyati",
+              "punda",
+              "ng'ombe",
+              "mbwa"
+            ],
+            "prompt": "buey / toro"
+          },
+          {
+            "answer": "nyati",
+            "answerTranslit": "nya-ti",
+            "concept": "c:animales.bufalo",
+            "optionTranslit": {
+              "kuku jike": "ku-ku ji-ke",
+              "mbuzi": "mbu-zi",
+              "mnyama / wanyama": "mnya-ma",
+              "nyati": "nya-ti"
+            },
+            "options": [
+              "nyati",
+              "mbuzi",
+              "kuku jike",
+              "mnyama / wanyama"
+            ],
+            "prompt": "búfalo"
+          },
+          {
+            "answer": "farasi",
+            "answerTranslit": "fa-ra-si",
+            "concept": "c:animales.caballo",
+            "optionTranslit": {
+              "farasi": "fa-ra-si",
+              "kuku jike": "ku-ku ji-ke",
+              "mnyama / wanyama": "mnya-ma"
+            },
+            "options": [
+              "ng'ombe",
+              "kuku jike",
+              "mnyama / wanyama",
+              "farasi"
+            ],
+            "prompt": "caballo"
+          },
+          {
+            "answer": "punda",
+            "answerTranslit": "pun-da",
+            "concept": "c:animales.burro-asno",
+            "optionTranslit": {
+              "kondoo": "kon-do-o",
+              "mbwa": "mbwa",
+              "ng'ombe wa kike": "ngo-mbe",
+              "punda": "pun-da"
+            },
+            "options": [
+              "kondoo",
+              "mbwa",
+              "ng'ombe wa kike",
+              "punda"
+            ],
+            "prompt": "burro / asno"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Common animals, both domestic and wild.",
       "es": "Animales frecuentes, tanto domésticos como salvajes."
@@ -2326,7 +6738,7 @@
           [
             "buey / toro",
             "ox / bull",
-            "buey"
+            "ng'ombe"
           ],
           [
             "búfalo",

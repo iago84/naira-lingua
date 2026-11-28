@@ -99,9 +99,106 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Tier",
+          "concept": "c:animales.animal",
+          "options": [
+            "Pferd",
+            "Tier",
+            "Katze",
+            "Schwein"
+          ],
+          "prompt": "animal"
+        },
+        {
+          "answer": "Hund",
+          "concept": "c:animales.perro",
+          "options": [
+            "Huhn",
+            "Hund",
+            "Schwein",
+            "Tier"
+          ],
+          "prompt": "perro"
+        },
+        {
+          "answer": "Katze",
+          "concept": "c:animales.gato",
+          "options": [
+            "Katze",
+            "Schwein",
+            "Pferd",
+            "Tier"
+          ],
+          "prompt": "gato"
+        },
+        {
+          "answer": "Kuh",
+          "concept": "c:animales.vaca",
+          "options": [
+            "Kuh",
+            "Ochse/Stier",
+            "Katze",
+            "Schwein"
+          ],
+          "prompt": "vaca"
+        },
+        {
+          "answer": "Ochse/Stier",
+          "concept": "c:animales.buey-toro",
+          "options": [
+            "Büffel",
+            "Esel/Esels",
+            "Ochse/Stier",
+            "Hund"
+          ],
+          "prompt": "buey / toro"
+        },
+        {
+          "answer": "Büffel",
+          "concept": "c:animales.bufalo",
+          "options": [
+            "Büffel",
+            "Ziege",
+            "Huhn",
+            "Tier"
+          ],
+          "prompt": "búfalo"
+        },
+        {
+          "answer": "Pferd",
+          "concept": "c:animales.caballo",
+          "options": [
+            "Ochse/Stier",
+            "Huhn",
+            "Tier",
+            "Pferd"
+          ],
+          "prompt": "caballo"
+        },
+        {
+          "answer": "Esel/Esels",
+          "concept": "c:animales.burro-asno",
+          "options": [
+            "Schafe",
+            "Hund",
+            "Kuh",
+            "Esel/Esels"
+          ],
+          "prompt": "burro / asno"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
-    "de": "Häufige Tiere, sowohl Haus- als auch Wildtiere.",
     "en": "Common animals, both domestic and wild.",
     "es": "Animales frecuentes, tanto domésticos como salvajes."
   },
@@ -110,10 +207,6 @@
   "lang": "de",
   "lesson": 1,
   "objectives": {
-    "de": [
-      "Name Gemeine Tiere",
-      "Beschreibung der Tiere"
-    ],
     "en": [
       "Name common animals",
       "Describe animals"
@@ -197,7 +290,6 @@
     }
   ],
   "title": {
-    "de": "Tiere",
     "en": "Animals",
     "es": "Los animales"
   },

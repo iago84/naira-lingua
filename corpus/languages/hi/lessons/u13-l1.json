@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:verbos-comunes.ser-estar-haber",
+    "c:verbos-comunes.hacer",
+    "c:verbos-comunes.ir",
+    "c:verbos-comunes.venir",
+    "c:verbos-comunes.ver-mirar",
+    "c:verbos-comunes.oir-escuchar",
+    "c:verbos-comunes.hablar-decir",
+    "c:verbos-comunes.decir",
+    "c:verbos-comunes.preguntar",
+    "c:verbos-comunes.contar-explicar",
+    "c:verbos-comunes.entender-comprender",
+    "c:verbos-comunes.saber-conocer"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:verbos-comunes.ser-estar-haber",
+      "en": "be / are",
+      "es": "ser / estar / haber",
+      "hi": "होना",
+      "speaker": "A",
+      "translit": "honā"
+    },
+    {
+      "concept": "c:verbos-comunes.hacer",
+      "en": "do",
+      "es": "hacer",
+      "hi": "करना",
+      "speaker": "B",
+      "translit": "karnā"
+    },
+    {
+      "concept": "c:verbos-comunes.ir",
+      "en": "go",
+      "es": "ir",
+      "hi": "जाना",
+      "speaker": "A",
+      "translit": "jānā"
+    },
+    {
+      "concept": "c:verbos-comunes.venir",
+      "en": "Come",
+      "es": "venir",
+      "hi": "आना",
+      "speaker": "B",
+      "translit": "ānā"
+    },
+    {
+      "concept": "c:verbos-comunes.ver-mirar",
+      "en": "see / watch",
+      "es": "ver / mirar",
+      "hi": "देखना",
+      "speaker": "A",
+      "translit": "dekhnā"
+    },
+    {
+      "concept": "c:verbos-comunes.oir-escuchar",
+      "en": "hear / listen",
+      "es": "oír / escuchar",
+      "hi": "सुनना",
+      "speaker": "B",
+      "translit": "sunnā"
+    },
+    {
+      "concept": "c:verbos-comunes.hablar-decir",
+      "en": "speak / say",
+      "es": "hablar / decir",
+      "hi": "बोलना",
+      "speaker": "A",
+      "translit": "bolnā"
+    },
+    {
+      "concept": "c:verbos-comunes.decir",
+      "en": "say",
+      "es": "decir",
+      "hi": "कहना",
+      "speaker": "B",
+      "translit": "kahnā"
+    },
+    {
+      "concept": "c:verbos-comunes.preguntar",
+      "en": "ask",
+      "es": "preguntar",
+      "hi": "पूछना",
+      "speaker": "A",
+      "translit": "pūchnā"
+    },
+    {
+      "concept": "c:verbos-comunes.contar-explicar",
+      "en": "count / explain",
+      "es": "contar / explicar",
+      "hi": "बताना",
+      "speaker": "B",
+      "translit": "batānā"
+    },
+    {
+      "concept": "c:verbos-comunes.entender-comprender",
+      "en": "understand / comprehend",
+      "es": "entender / comprender",
+      "hi": "समझना",
+      "speaker": "A",
+      "translit": "samajhnā"
+    },
+    {
+      "concept": "c:verbos-comunes.saber-conocer",
+      "en": "know / understand",
+      "es": "saber / conocer",
+      "hi": "जानना",
+      "speaker": "B",
+      "translit": "jānnā"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "होना",
+          "answerTranslit": "honā",
+          "concept": "c:verbos-comunes.ser-estar-haber",
+          "optionTranslit": {
+            "आना": "ānā",
+            "देखना": "dekhnā",
+            "पूछना": "pūchnā",
+            "होना": "honā"
+          },
+          "options": [
+            "होना",
+            "देखना",
+            "आना",
+            "पूछना"
+          ],
+          "prompt": "ser / estar / haber"
+        },
+        {
+          "answer": "करना",
+          "answerTranslit": "karnā",
+          "concept": "c:verbos-comunes.hacer",
+          "optionTranslit": {
+            "करना": "karnā",
+            "कहना": "kahnā",
+            "देखना": "dekhnā",
+            "बताना": "batānā"
+          },
+          "options": [
+            "देखना",
+            "करना",
+            "बताना",
+            "कहना"
+          ],
+          "prompt": "hacer"
+        },
+        {
+          "answer": "जाना",
+          "answerTranslit": "jānā",
+          "concept": "c:verbos-comunes.ir",
+          "optionTranslit": {
+            "आना": "ānā",
+            "जाना": "jānā",
+            "समझना": "samajhnā",
+            "होना": "honā"
+          },
+          "options": [
+            "जाना",
+            "होना",
+            "समझना",
+            "आना"
+          ],
+          "prompt": "ir"
+        },
+        {
+          "answer": "आना",
+          "answerTranslit": "ānā",
+          "concept": "c:verbos-comunes.venir",
+          "optionTranslit": {
+            "आना": "ānā",
+            "कहना": "kahnā",
+            "देखना": "dekhnā",
+            "समझना": "samajhnā"
+          },
+          "options": [
+            "कहना",
+            "आना",
+            "समझना",
+            "देखना"
+          ],
+          "prompt": "venir"
+        },
+        {
+          "answer": "देखना",
+          "answerTranslit": "dekhnā",
+          "concept": "c:verbos-comunes.ver-mirar",
+          "optionTranslit": {
+            "जानना": "jānnā",
+            "जाना": "jānā",
+            "देखना": "dekhnā",
+            "बोलना": "bolnā"
+          },
+          "options": [
+            "देखना",
+            "बोलना",
+            "जानना",
+            "जाना"
+          ],
+          "prompt": "ver / mirar"
+        },
+        {
+          "answer": "सुनना",
+          "answerTranslit": "sunnā",
+          "concept": "c:verbos-comunes.oir-escuchar",
+          "optionTranslit": {
+            "पूछना": "pūchnā",
+            "बताना": "batānā",
+            "समझना": "samajhnā",
+            "सुनना": "sunnā"
+          },
+          "options": [
+            "सुनना",
+            "पूछना",
+            "बताना",
+            "समझना"
+          ],
+          "prompt": "oír / escuchar"
+        },
+        {
+          "answer": "बोलना",
+          "answerTranslit": "bolnā",
+          "concept": "c:verbos-comunes.hablar-decir",
+          "optionTranslit": {
+            "जानना": "jānnā",
+            "बोलना": "bolnā",
+            "समझना": "samajhnā",
+            "होना": "honā"
+          },
+          "options": [
+            "समझना",
+            "बोलना",
+            "होना",
+            "जानना"
+          ],
+          "prompt": "hablar / decir"
+        },
+        {
+          "answer": "कहना",
+          "answerTranslit": "kahnā",
+          "concept": "c:verbos-comunes.decir",
+          "optionTranslit": {
+            "करना": "karnā",
+            "कहना": "kahnā",
+            "जाना": "jānā",
+            "देखना": "dekhnā"
+          },
+          "options": [
+            "जाना",
+            "करना",
+            "देखना",
+            "कहना"
+          ],
+          "prompt": "decir"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "The most frequent verbs, the base for building sentences.",
+    "es": "Los verbos más frecuentes, la base para formar frases."
+  },
+  "generator": "build_lessons",
+  "id": "hi-u13-l1",
+  "lang": "hi",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Recognise the most common verbs",
+      "Name everyday actions"
+    ],
+    "es": [
+      "Reconocer los verbos más usados",
+      "Nombrar acciones del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "hi"
+      ],
+      "rows": [
+        [
+          "ser / estar / haber",
+          "be / are",
+          "होना"
+        ],
+        [
+          "hacer",
+          "do",
+          "करना"
+        ],
+        [
+          "ir",
+          "go",
+          "जाना"
+        ],
+        [
+          "venir",
+          "Come",
+          "आना"
+        ],
+        [
+          "ver / mirar",
+          "see / watch",
+          "देखना"
+        ],
+        [
+          "oír / escuchar",
+          "hear / listen",
+          "सुनना"
+        ],
+        [
+          "hablar / decir",
+          "speak / say",
+          "बोलना"
+        ],
+        [
+          "decir",
+          "say",
+          "कहना"
+        ],
+        [
+          "preguntar",
+          "ask",
+          "पूछना"
+        ],
+        [
+          "contar / explicar",
+          "count / explain",
+          "बताना"
+        ],
+        [
+          "entender / comprender",
+          "understand / comprehend",
+          "समझना"
+        ],
+        [
+          "saber / conocer",
+          "know / understand",
+          "जानना"
+        ]
+      ],
+      "title": "es · en · hi",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Common verbs",
+    "es": "Los verbos comunes"
+  },
+  "unit": 13
+}

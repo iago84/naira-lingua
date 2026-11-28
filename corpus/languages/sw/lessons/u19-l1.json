@@ -1,0 +1,349 @@
+{
+  "concepts": [
+    "c:naturaleza-y-clima.naturaleza",
+    "c:naturaleza-y-clima.arbol",
+    "c:naturaleza-y-clima.planta",
+    "c:naturaleza-y-clima.flor",
+    "c:naturaleza-y-clima.hoja",
+    "c:naturaleza-y-clima.raiz",
+    "c:naturaleza-y-clima.rama",
+    "c:naturaleza-y-clima.tronco-tallo",
+    "c:naturaleza-y-clima.semilla",
+    "c:naturaleza-y-clima.hierba-cesped",
+    "c:naturaleza-y-clima.bosque-selva",
+    "c:naturaleza-y-clima.montana"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:naturaleza-y-clima.naturaleza",
+      "en": "nature",
+      "es": "naturaleza",
+      "speaker": "A",
+      "sw": "asili / mazingira",
+      "translit": "a-si-li"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.arbol",
+      "en": "tree",
+      "es": "árbol",
+      "speaker": "B",
+      "sw": "mti",
+      "translit": "mti"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.planta",
+      "en": "plant",
+      "es": "planta",
+      "speaker": "A",
+      "sw": "mmea",
+      "translit": "mme-a"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.flor",
+      "en": "flower",
+      "es": "flor",
+      "speaker": "B",
+      "sw": "ua / maua",
+      "translit": "u-a"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.hoja",
+      "en": "leaf",
+      "es": "hoja",
+      "speaker": "A",
+      "sw": "jani / majani",
+      "translit": "ja-ni"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.raiz",
+      "en": "root",
+      "es": "raíz",
+      "speaker": "B",
+      "sw": "mzizi",
+      "translit": "mzi-zi"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.rama",
+      "en": "branch",
+      "es": "rama",
+      "speaker": "A",
+      "sw": "tawi / matawi",
+      "translit": "ta-wi"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.tronco-tallo",
+      "en": "trunk / stem",
+      "es": "tronco / tallo",
+      "speaker": "B",
+      "sw": "mzizi"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.semilla",
+      "en": "seed",
+      "es": "semilla",
+      "speaker": "A",
+      "sw": "mbegu / punje",
+      "translit": "mbe-gu"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.hierba-cesped",
+      "en": "grass / lawn",
+      "es": "hierba / césped",
+      "speaker": "B",
+      "sw": "nyasi"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.bosque-selva",
+      "en": "forest / jungle",
+      "es": "bosque / selva",
+      "speaker": "A",
+      "sw": "msitu"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.montana",
+      "en": "mountain",
+      "es": "montaña",
+      "speaker": "B",
+      "sw": "mlima"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "asili / mazingira",
+          "answerTranslit": "a-si-li",
+          "concept": "c:naturaleza-y-clima.naturaleza",
+          "optionTranslit": {
+            "asili / mazingira": "a-si-li",
+            "mmea": "mme-a"
+          },
+          "options": [
+            "asili / mazingira",
+            "nyasi",
+            "mmea",
+            "mzizi"
+          ],
+          "prompt": "naturaleza"
+        },
+        {
+          "answer": "mti",
+          "answerTranslit": "mti",
+          "concept": "c:naturaleza-y-clima.arbol",
+          "optionTranslit": {
+            "asili / mazingira": "a-si-li",
+            "jani / majani": "ja-ni",
+            "mti": "mti",
+            "tawi / matawi": "ta-wi"
+          },
+          "options": [
+            "asili / mazingira",
+            "mti",
+            "jani / majani",
+            "tawi / matawi"
+          ],
+          "prompt": "árbol"
+        },
+        {
+          "answer": "mmea",
+          "answerTranslit": "mme-a",
+          "concept": "c:naturaleza-y-clima.planta",
+          "optionTranslit": {
+            "mmea": "mme-a",
+            "mti": "mti"
+          },
+          "options": [
+            "msitu",
+            "mti",
+            "nyasi",
+            "mmea"
+          ],
+          "prompt": "planta"
+        },
+        {
+          "answer": "ua / maua",
+          "answerTranslit": "u-a",
+          "concept": "c:naturaleza-y-clima.flor",
+          "optionTranslit": {
+            "mbegu / punje": "mbe-gu",
+            "tawi / matawi": "ta-wi",
+            "ua / maua": "u-a"
+          },
+          "options": [
+            "tawi / matawi",
+            "mbegu / punje",
+            "mlima",
+            "ua / maua"
+          ],
+          "prompt": "flor"
+        },
+        {
+          "answer": "jani / majani",
+          "answerTranslit": "ja-ni",
+          "concept": "c:naturaleza-y-clima.hoja",
+          "optionTranslit": {
+            "jani / majani": "ja-ni",
+            "mti": "mti"
+          },
+          "options": [
+            "msitu",
+            "nyasi",
+            "mti",
+            "jani / majani"
+          ],
+          "prompt": "hoja"
+        },
+        {
+          "answer": "mzizi",
+          "answerTranslit": "mzi-zi",
+          "concept": "c:naturaleza-y-clima.raiz",
+          "optionTranslit": {
+            "mbegu / punje": "mbe-gu",
+            "tawi / matawi": "ta-wi",
+            "ua / maua": "u-a"
+          },
+          "options": [
+            "mbegu / punje",
+            "ua / maua",
+            "tawi / matawi",
+            "mzizi"
+          ],
+          "prompt": "raíz"
+        },
+        {
+          "answer": "tawi / matawi",
+          "answerTranslit": "ta-wi",
+          "concept": "c:naturaleza-y-clima.rama",
+          "optionTranslit": {
+            "jani / majani": "ja-ni",
+            "mmea": "mme-a",
+            "tawi / matawi": "ta-wi"
+          },
+          "options": [
+            "mmea",
+            "tawi / matawi",
+            "jani / majani",
+            "msitu"
+          ],
+          "prompt": "rama"
+        },
+        {
+          "answer": "mzizi",
+          "concept": "c:naturaleza-y-clima.tronco-tallo",
+          "optionTranslit": {
+            "jani / majani": "ja-ni",
+            "mti": "mti"
+          },
+          "options": [
+            "jani / majani",
+            "nyasi",
+            "mzizi",
+            "mti"
+          ],
+          "prompt": "tronco / tallo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Nature, landscapes and weather to talk about the environment.",
+    "es": "Naturaleza, paisajes y clima para hablar del entorno."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u19-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name natural elements",
+      "Talk about weather and seasons"
+    ],
+    "es": [
+      "Nombrar elementos naturales",
+      "Hablar del tiempo y las estaciones"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "naturaleza",
+          "nature",
+          "asili / mazingira"
+        ],
+        [
+          "árbol",
+          "tree",
+          "mti"
+        ],
+        [
+          "planta",
+          "plant",
+          "mmea"
+        ],
+        [
+          "flor",
+          "flower",
+          "ua / maua"
+        ],
+        [
+          "hoja",
+          "leaf",
+          "jani / majani"
+        ],
+        [
+          "raíz",
+          "root",
+          "mzizi"
+        ],
+        [
+          "rama",
+          "branch",
+          "tawi / matawi"
+        ],
+        [
+          "tronco / tallo",
+          "trunk / stem",
+          "mzizi"
+        ],
+        [
+          "semilla",
+          "seed",
+          "mbegu / punje"
+        ],
+        [
+          "hierba / césped",
+          "grass / lawn",
+          "nyasi"
+        ],
+        [
+          "bosque / selva",
+          "forest / jungle",
+          "msitu"
+        ],
+        [
+          "montaña",
+          "mountain",
+          "mlima"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Nature and weather",
+    "es": "La naturaleza y el clima"
+  },
+  "unit": 19
+}

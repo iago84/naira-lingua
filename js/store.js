@@ -1,7 +1,7 @@
 // js/store.js
 const NS = "naira-lingua:progress:v1";
 
-const EMPTY = { ui: { lang: null }, lastPair: null, pairs: {} };
+const EMPTY = { ui: { lang: null, translit: true }, lastPair: null, pairs: {} };
 
 export function memoryStorage() {
   const map = new Map();
@@ -28,7 +28,10 @@ export function createStore(storage) {
       const raw = storage.getItem(NS);
       if (!raw) return structuredClone(EMPTY);
       const data = JSON.parse(raw);
-      return { ...structuredClone(EMPTY), ...data };
+      const base = structuredClone(EMPTY);
+      // Mezcla profunda de ``ui``: estados guardados antes del toggle de
+      // transliteración conservan el valor por defecto.
+      return { ...base, ...data, ui: { ...base.ui, ...(data.ui || {}) } };
     } catch (_) {
       return structuredClone(EMPTY);
     }
@@ -66,6 +69,14 @@ export function createStore(storage) {
       const s = readAll();
       s.ui.lang = lang;
       save(s);
+    },
+    setShowTranslit(on) {
+      const s = readAll();
+      s.ui.translit = Boolean(on);
+      save(s);
+    },
+    showTranslit() {
+      return readAll().ui.translit !== false;
     },
     setLastPair(src, tgt) {
       const s = readAll();

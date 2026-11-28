@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:adjetivos.bueno",
+    "c:adjetivos.malo",
+    "c:adjetivos.grande",
+    "c:adjetivos.pequeno",
+    "c:adjetivos.largo-alto",
+    "c:adjetivos.bajo-corto",
+    "c:adjetivos.nuevo",
+    "c:adjetivos.viejo-antiguo",
+    "c:adjetivos.joven",
+    "c:adjetivos.viejo-persona",
+    "c:adjetivos.hermoso-bonito",
+    "c:adjetivos.feo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:adjetivos.bueno",
+      "en": "Good.",
+      "es": "bueno",
+      "fr": "Parfait.",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.malo",
+      "en": "bad",
+      "es": "malo",
+      "fr": "Mauvais",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.grande",
+      "en": "large",
+      "es": "grande",
+      "fr": "grandes",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.pequeno",
+      "en": "small",
+      "es": "pequeño",
+      "fr": "petite",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.largo-alto",
+      "en": "long / high",
+      "es": "largo / alto",
+      "fr": "longue / haute",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.bajo-corto",
+      "en": "low / short",
+      "es": "bajo / corto",
+      "fr": "faible/court",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.nuevo",
+      "en": "new",
+      "es": "nuevo",
+      "fr": "nouveaux",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.viejo-antiguo",
+      "en": "old / ancient",
+      "es": "viejo / antiguo",
+      "fr": "vieux / ancien",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.joven",
+      "en": "young",
+      "es": "joven",
+      "fr": "jeunes",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.viejo-persona",
+      "en": "old (person)",
+      "es": "viejo (persona)",
+      "fr": "vieux (personne)",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.hermoso-bonito",
+      "en": "beautiful / pretty",
+      "es": "hermoso / bonito",
+      "fr": "beau / joli",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.feo",
+      "en": "ugly",
+      "es": "feo",
+      "fr": "Laid",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Parfait.",
+          "concept": "c:adjetivos.bueno",
+          "options": [
+            "jeunes",
+            "nouveaux",
+            "faible/court",
+            "Parfait."
+          ],
+          "prompt": "bueno"
+        },
+        {
+          "answer": "Mauvais",
+          "concept": "c:adjetivos.malo",
+          "options": [
+            "petite",
+            "faible/court",
+            "Mauvais",
+            "nouveaux"
+          ],
+          "prompt": "malo"
+        },
+        {
+          "answer": "grandes",
+          "concept": "c:adjetivos.grande",
+          "options": [
+            "longue / haute",
+            "Parfait.",
+            "Mauvais",
+            "grandes"
+          ],
+          "prompt": "grande"
+        },
+        {
+          "answer": "petite",
+          "concept": "c:adjetivos.pequeno",
+          "options": [
+            "Mauvais",
+            "petite",
+            "nouveaux",
+            "vieux (personne)"
+          ],
+          "prompt": "pequeño"
+        },
+        {
+          "answer": "longue / haute",
+          "concept": "c:adjetivos.largo-alto",
+          "options": [
+            "longue / haute",
+            "Parfait.",
+            "jeunes",
+            "beau / joli"
+          ],
+          "prompt": "largo / alto"
+        },
+        {
+          "answer": "faible/court",
+          "concept": "c:adjetivos.bajo-corto",
+          "options": [
+            "grandes",
+            "longue / haute",
+            "faible/court",
+            "vieux / ancien"
+          ],
+          "prompt": "bajo / corto"
+        },
+        {
+          "answer": "nouveaux",
+          "concept": "c:adjetivos.nuevo",
+          "options": [
+            "vieux (personne)",
+            "nouveaux",
+            "Laid",
+            "faible/court"
+          ],
+          "prompt": "nuevo"
+        },
+        {
+          "answer": "vieux / ancien",
+          "concept": "c:adjetivos.viejo-antiguo",
+          "options": [
+            "Mauvais",
+            "jeunes",
+            "vieux / ancien",
+            "beau / joli"
+          ],
+          "prompt": "viejo / antiguo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Adjectives to describe size, character, state and qualities.",
+    "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+  },
+  "generator": "build_lessons",
+  "id": "fr-u14-l1",
+  "lang": "fr",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Describe with adjectives",
+      "Give opinions about things and people"
+    ],
+    "es": [
+      "Describir con adjetivos",
+      "Opinar sobre cosas y personas"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "fr"
+      ],
+      "rows": [
+        [
+          "bueno",
+          "Good.",
+          "Parfait."
+        ],
+        [
+          "malo",
+          "bad",
+          "Mauvais"
+        ],
+        [
+          "grande",
+          "large",
+          "grandes"
+        ],
+        [
+          "pequeño",
+          "small",
+          "petite"
+        ],
+        [
+          "largo / alto",
+          "long / high",
+          "longue / haute"
+        ],
+        [
+          "bajo / corto",
+          "low / short",
+          "faible/court"
+        ],
+        [
+          "nuevo",
+          "new",
+          "nouveaux"
+        ],
+        [
+          "viejo / antiguo",
+          "old / ancient",
+          "vieux / ancien"
+        ],
+        [
+          "joven",
+          "young",
+          "jeunes"
+        ],
+        [
+          "viejo (persona)",
+          "old (person)",
+          "vieux (personne)"
+        ],
+        [
+          "hermoso / bonito",
+          "beautiful / pretty",
+          "beau / joli"
+        ],
+        [
+          "feo",
+          "ugly",
+          "Laid"
+        ]
+      ],
+      "title": "es · en · fr",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Adjectives",
+    "es": "Los adjetivos"
+  },
+  "unit": 14
+}

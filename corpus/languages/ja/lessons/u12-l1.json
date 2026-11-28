@@ -19,91 +19,256 @@
       "en": "work /",
       "es": "trabajo / labor",
       "ja": "作品 /",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "sakuhin /"
     },
     {
       "concept": "c:trabajo-y-profesiones.empleo-trabajo",
       "en": "employment / work",
       "es": "empleo / trabajo",
       "ja": "雇用・仕事",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "koyou ・ shigoto"
     },
     {
       "concept": "c:trabajo-y-profesiones.profesion-oficio",
       "en": "profession / trade",
       "es": "profesión / oficio",
       "ja": "職業/貿易",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "shokugyou / boueki"
     },
     {
       "concept": "c:trabajo-y-profesiones.negocio-profesion",
       "en": "business / profession",
       "es": "negocio / profesión",
       "ja": "業務・職業",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "gyoumu ・ shokugyou"
     },
     {
       "concept": "c:trabajo-y-profesiones.empresa-compania",
       "en": "company / enterprise",
       "es": "empresa / compañía",
       "ja": "会社/企業",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "kaisha / kigyou"
     },
     {
       "concept": "c:trabajo-y-profesiones.oficina",
       "en": "office",
       "es": "oficina",
       "ja": "事務所案内",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "jimusho annai"
     },
     {
       "concept": "c:trabajo-y-profesiones.oficina-despacho",
       "en": "office /",
       "es": "oficina / despacho",
       "ja": "事務所 /",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "jimusho /"
     },
     {
       "concept": "c:trabajo-y-profesiones.dueno-propietario",
       "en": "owner / proprietor",
       "es": "dueño / propietario",
       "ja": "オーナー/プロピュータ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "oonaa / puropyuuta"
     },
     {
       "concept": "c:trabajo-y-profesiones.jefe-a",
       "en": "Chief",
       "es": "jefe/a",
       "ja": "チーフ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "chiifu"
     },
     {
       "concept": "c:trabajo-y-profesiones.empleado-a",
       "en": "employee",
       "es": "empleado/a",
       "ja": "社員雇用",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "shain koyou"
     },
     {
       "concept": "c:trabajo-y-profesiones.colega",
       "en": "- I'm sorry, buddy.",
       "es": "colega",
       "ja": "- 申し訳ありません、このコンテンツはただ今 アメリカ英語 のみです。",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "- moushiwake arimasen , kono kontentsu hatada ima amerika eigo nomidesu ."
     },
     {
       "concept": "c:trabajo-y-profesiones.equipo",
       "en": "equipment",
       "es": "equipo",
       "ja": "設備機器",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "setsubi kiki"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "作品 /",
+          "answerTranslit": "sakuhin /",
+          "concept": "c:trabajo-y-profesiones.trabajo-labor",
+          "optionTranslit": {
+            "事務所 /": "jimusho /",
+            "作品 /": "sakuhin /",
+            "社員雇用": "shain koyou",
+            "設備機器": "setsubi kiki"
+          },
+          "options": [
+            "事務所 /",
+            "社員雇用",
+            "作品 /",
+            "設備機器"
+          ],
+          "prompt": "trabajo / labor"
+        },
+        {
+          "answer": "雇用・仕事",
+          "answerTranslit": "koyou ・ shigoto",
+          "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+          "optionTranslit": {
+            "事務所案内": "jimusho annai",
+            "会社/企業": "kaisha / kigyou",
+            "社員雇用": "shain koyou",
+            "雇用・仕事": "koyou ・ shigoto"
+          },
+          "options": [
+            "雇用・仕事",
+            "社員雇用",
+            "事務所案内",
+            "会社/企業"
+          ],
+          "prompt": "empleo / trabajo"
+        },
+        {
+          "answer": "職業/貿易",
+          "answerTranslit": "shokugyou / boueki",
+          "concept": "c:trabajo-y-profesiones.profesion-oficio",
+          "optionTranslit": {
+            "事務所案内": "jimusho annai",
+            "作品 /": "sakuhin /",
+            "社員雇用": "shain koyou",
+            "職業/貿易": "shokugyou / boueki"
+          },
+          "options": [
+            "職業/貿易",
+            "作品 /",
+            "事務所案内",
+            "社員雇用"
+          ],
+          "prompt": "profesión / oficio"
+        },
+        {
+          "answer": "業務・職業",
+          "answerTranslit": "gyoumu ・ shokugyou",
+          "concept": "c:trabajo-y-profesiones.negocio-profesion",
+          "optionTranslit": {
+            "チーフ": "chiifu",
+            "作品 /": "sakuhin /",
+            "業務・職業": "gyoumu ・ shokugyou",
+            "社員雇用": "shain koyou"
+          },
+          "options": [
+            "作品 /",
+            "チーフ",
+            "社員雇用",
+            "業務・職業"
+          ],
+          "prompt": "negocio / profesión"
+        },
+        {
+          "answer": "会社/企業",
+          "answerTranslit": "kaisha / kigyou",
+          "concept": "c:trabajo-y-profesiones.empresa-compania",
+          "optionTranslit": {
+            "オーナー/プロピュータ": "oonaa / puropyuuta",
+            "会社/企業": "kaisha / kigyou",
+            "作品 /": "sakuhin /",
+            "業務・職業": "gyoumu ・ shokugyou"
+          },
+          "options": [
+            "会社/企業",
+            "業務・職業",
+            "オーナー/プロピュータ",
+            "作品 /"
+          ],
+          "prompt": "empresa / compañía"
+        },
+        {
+          "answer": "事務所案内",
+          "answerTranslit": "jimusho annai",
+          "concept": "c:trabajo-y-profesiones.oficina",
+          "optionTranslit": {
+            "オーナー/プロピュータ": "oonaa / puropyuuta",
+            "事務所 /": "jimusho /",
+            "事務所案内": "jimusho annai",
+            "設備機器": "setsubi kiki"
+          },
+          "options": [
+            "オーナー/プロピュータ",
+            "事務所案内",
+            "設備機器",
+            "事務所 /"
+          ],
+          "prompt": "oficina"
+        },
+        {
+          "answer": "事務所 /",
+          "answerTranslit": "jimusho /",
+          "concept": "c:trabajo-y-profesiones.oficina-despacho",
+          "optionTranslit": {
+            "事務所 /": "jimusho /",
+            "事務所案内": "jimusho annai",
+            "作品 /": "sakuhin /",
+            "雇用・仕事": "koyou ・ shigoto"
+          },
+          "options": [
+            "雇用・仕事",
+            "事務所 /",
+            "作品 /",
+            "事務所案内"
+          ],
+          "prompt": "oficina / despacho"
+        },
+        {
+          "answer": "オーナー/プロピュータ",
+          "answerTranslit": "oonaa / puropyuuta",
+          "concept": "c:trabajo-y-profesiones.dueno-propietario",
+          "optionTranslit": {
+            "オーナー/プロピュータ": "oonaa / puropyuuta",
+            "事務所案内": "jimusho annai",
+            "社員雇用": "shain koyou",
+            "職業/貿易": "shokugyou / boueki"
+          },
+          "options": [
+            "職業/貿易",
+            "事務所案内",
+            "オーナー/プロピュータ",
+            "社員雇用"
+          ],
+          "prompt": "dueño / propietario"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Professions and words from the world of work.",
-    "es": "Profesiones y palabras del mundo laboral.",
-    "ja": "世界の働き方と言葉を問いかけます。"
+    "es": "Profesiones y palabras del mundo laboral."
   },
   "generator": "build_lessons",
   "id": "ja-u12-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar profesiones",
       "Hablar del trabajo"
-    ],
-    "ja": [
-      "視点の職業",
-      "作品について"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Work and professions",
-    "es": "El trabajo y las profesiones",
-    "ja": "働きと職業"
+    "es": "El trabajo y las profesiones"
   },
   "unit": 12
 }

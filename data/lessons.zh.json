@@ -19,6 +19,7 @@
         "en": "Hello.",
         "es": "hola",
         "speaker": "A",
+        "translit": "nǐ hǎo",
         "zh": "你好"
       },
       {
@@ -26,6 +27,7 @@
         "en": "Good morning.",
         "es": "buenos días",
         "speaker": "B",
+        "translit": "zǎo shàng hǎo",
         "zh": "早上好"
       },
       {
@@ -33,6 +35,7 @@
         "en": "Good afternoon.",
         "es": "buenas tardes",
         "speaker": "A",
+        "translit": "xià wǔ hǎo",
         "zh": "下午好"
       },
       {
@@ -40,6 +43,7 @@
         "en": "Good night.",
         "es": "buenas noches",
         "speaker": "B",
+        "translit": "wǎn ān",
         "zh": "晚安"
       },
       {
@@ -47,6 +51,7 @@
         "en": "Thank you.",
         "es": "gracias",
         "speaker": "A",
+        "translit": "xiè xiè",
         "zh": "谢谢"
       },
       {
@@ -54,6 +59,7 @@
         "en": "Please.",
         "es": "por favor",
         "speaker": "B",
+        "translit": "qǐng",
         "zh": "请"
       },
       {
@@ -61,6 +67,7 @@
         "en": "Excuse me / excuse",
         "es": "perdón / disculpe",
         "speaker": "A",
+        "translit": "duì bù qǐ",
         "zh": "对不起"
       },
       {
@@ -68,6 +75,7 @@
         "en": "Bye.",
         "es": "adiós",
         "speaker": "B",
+        "translit": "zài jiàn",
         "zh": "再见"
       },
       {
@@ -75,6 +83,7 @@
         "en": "See you later.",
         "es": "hasta luego",
         "speaker": "A",
+        "translit": "huí tóu jiàn",
         "zh": "回头见"
       },
       {
@@ -82,6 +91,7 @@
         "en": "Yes",
         "es": "sí",
         "speaker": "B",
+        "translit": "shì",
         "zh": "是"
       },
       {
@@ -89,14 +99,168 @@
         "en": "No.",
         "es": "no",
         "speaker": "A",
+        "translit": "bù",
         "zh": "不"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "你好",
+            "answerTranslit": "nǐ hǎo",
+            "concept": "c:saludos-y-expresiones.hola",
+            "optionTranslit": {
+              "下午好": "xià wǔ hǎo",
+              "你好": "nǐ hǎo",
+              "回头见": "huí tóu jiàn",
+              "请": "qǐng"
+            },
+            "options": [
+              "回头见",
+              "你好",
+              "请",
+              "下午好"
+            ],
+            "prompt": "hola"
+          },
+          {
+            "answer": "早上好",
+            "answerTranslit": "zǎo shàng hǎo",
+            "concept": "c:saludos-y-expresiones.buenos-dias",
+            "optionTranslit": {
+              "对不起": "duì bù qǐ",
+              "早上好": "zǎo shàng hǎo",
+              "是": "shì",
+              "请": "qǐng"
+            },
+            "options": [
+              "是",
+              "对不起",
+              "早上好",
+              "请"
+            ],
+            "prompt": "buenos días"
+          },
+          {
+            "answer": "下午好",
+            "answerTranslit": "xià wǔ hǎo",
+            "concept": "c:saludos-y-expresiones.buenas-tardes",
+            "optionTranslit": {
+              "下午好": "xià wǔ hǎo",
+              "再见": "zài jiàn",
+              "回头见": "huí tóu jiàn",
+              "谢谢": "xiè xiè"
+            },
+            "options": [
+              "下午好",
+              "回头见",
+              "再见",
+              "谢谢"
+            ],
+            "prompt": "buenas tardes"
+          },
+          {
+            "answer": "晚安",
+            "answerTranslit": "wǎn ān",
+            "concept": "c:saludos-y-expresiones.buenas-noches",
+            "optionTranslit": {
+              "你好": "nǐ hǎo",
+              "再见": "zài jiàn",
+              "回头见": "huí tóu jiàn",
+              "晚安": "wǎn ān"
+            },
+            "options": [
+              "回头见",
+              "你好",
+              "晚安",
+              "再见"
+            ],
+            "prompt": "buenas noches"
+          },
+          {
+            "answer": "谢谢",
+            "answerTranslit": "xiè xiè",
+            "concept": "c:saludos-y-expresiones.gracias",
+            "optionTranslit": {
+              "下午好": "xià wǔ hǎo",
+              "你好": "nǐ hǎo",
+              "回头见": "huí tóu jiàn",
+              "谢谢": "xiè xiè"
+            },
+            "options": [
+              "谢谢",
+              "回头见",
+              "你好",
+              "下午好"
+            ],
+            "prompt": "gracias"
+          },
+          {
+            "answer": "请",
+            "answerTranslit": "qǐng",
+            "concept": "c:saludos-y-expresiones.por-favor",
+            "optionTranslit": {
+              "你好": "nǐ hǎo",
+              "早上好": "zǎo shàng hǎo",
+              "请": "qǐng",
+              "谢谢": "xiè xiè"
+            },
+            "options": [
+              "请",
+              "谢谢",
+              "早上好",
+              "你好"
+            ],
+            "prompt": "por favor"
+          },
+          {
+            "answer": "对不起",
+            "answerTranslit": "duì bù qǐ",
+            "concept": "c:saludos-y-expresiones.perdon-disculpe",
+            "optionTranslit": {
+              "不": "bù",
+              "你好": "nǐ hǎo",
+              "回头见": "huí tóu jiàn",
+              "对不起": "duì bù qǐ"
+            },
+            "options": [
+              "你好",
+              "对不起",
+              "回头见",
+              "不"
+            ],
+            "prompt": "perdón / disculpe"
+          },
+          {
+            "answer": "再见",
+            "answerTranslit": "zài jiàn",
+            "concept": "c:saludos-y-expresiones.adios",
+            "optionTranslit": {
+              "不": "bù",
+              "再见": "zài jiàn",
+              "回头见": "huí tóu jiàn",
+              "对不起": "duì bù qǐ"
+            },
+            "options": [
+              "再见",
+              "对不起",
+              "回头见",
+              "不"
+            ],
+            "prompt": "adiós"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Basic courtesy expressions to open and close a conversation.",
-      "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
-      "zh": "基本表达礼节,开口闭口."
+      "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
     },
     "generator": "build_lessons",
     "id": "zh-u1-l1",
@@ -110,10 +274,6 @@
       "es": [
         "Saludar y despedirse",
         "Dar las gracias y pedir por favor"
-      ],
-      "zh": [
-        "问候和道别",
-        "麻烦你多谢一下"
       ]
     },
     "tables": [
@@ -186,8 +346,7 @@
     ],
     "title": {
       "en": "Greetings and courtesy",
-      "es": "Saludos y cortesía",
-      "zh": "问候和礼貌"
+      "es": "Saludos y cortesía"
     },
     "unit": 1
   },
@@ -212,6 +371,7 @@
         "en": "city",
         "es": "ciudad",
         "speaker": "A",
+        "translit": "chéng shì ( C)",
         "zh": "城市( C)"
       },
       {
@@ -219,6 +379,7 @@
         "en": "village / town",
         "es": "pueblo / aldea",
         "speaker": "B",
+        "translit": "cūn zhuāng / chéng zhèn",
         "zh": "村庄/城镇"
       },
       {
@@ -226,6 +387,7 @@
         "en": "country",
         "es": "país",
         "speaker": "A",
+        "translit": "guó jiā",
         "zh": "国家"
       },
       {
@@ -233,6 +395,7 @@
         "en": "State / province",
         "es": "estado / provincia",
         "speaker": "B",
+        "translit": "zhōu / shěng",
         "zh": "州/省"
       },
       {
@@ -240,6 +403,7 @@
         "en": "capital",
         "es": "capital",
         "speaker": "A",
+        "translit": "zī běn",
         "zh": "资本"
       },
       {
@@ -247,6 +411,7 @@
         "en": "area / zone",
         "es": "zona / área",
         "speaker": "B",
+        "translit": "qū yù / qū",
         "zh": "区域/区"
       },
       {
@@ -254,6 +419,7 @@
         "en": "Street / road",
         "es": "calle / carretera",
         "speaker": "A",
+        "translit": "jiē dào / dào lù",
         "zh": "街道/道路"
       },
       {
@@ -261,6 +427,7 @@
         "en": "alley",
         "es": "callejón",
         "speaker": "B",
+        "translit": "xiàng zi ( xiǎo xiàng )",
         "zh": "巷子(小巷)"
       },
       {
@@ -268,6 +435,7 @@
         "en": "cross / intersection",
         "es": "cruce / intersección",
         "speaker": "A",
+        "translit": "jiāo chā / xiāng jiāo diǎn",
         "zh": "交叉/相交点"
       },
       {
@@ -275,6 +443,7 @@
         "en": "bridge",
         "es": "puente",
         "speaker": "B",
+        "translit": "qiáo",
         "zh": "桥"
       },
       {
@@ -282,6 +451,7 @@
         "en": "square",
         "es": "plaza",
         "speaker": "A",
+        "translit": "píng fāng yuán",
         "zh": "平方圆"
       },
       {
@@ -289,14 +459,168 @@
         "en": "market",
         "es": "mercado",
         "speaker": "B",
+        "translit": "shì chǎng",
         "zh": "市场"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "城市( C)",
+            "answerTranslit": "chéng shì ( C)",
+            "concept": "c:ciudad-y-lugares.ciudad",
+            "optionTranslit": {
+              "区域/区": "qū yù / qū",
+              "国家": "guó jiā",
+              "城市( C)": "chéng shì ( C)",
+              "桥": "qiáo"
+            },
+            "options": [
+              "国家",
+              "区域/区",
+              "桥",
+              "城市( C)"
+            ],
+            "prompt": "ciudad"
+          },
+          {
+            "answer": "村庄/城镇",
+            "answerTranslit": "cūn zhuāng / chéng zhèn",
+            "concept": "c:ciudad-y-lugares.pueblo-aldea",
+            "optionTranslit": {
+              "平方圆": "píng fāng yuán",
+              "村庄/城镇": "cūn zhuāng / chéng zhèn",
+              "桥": "qiáo",
+              "资本": "zī běn"
+            },
+            "options": [
+              "资本",
+              "村庄/城镇",
+              "桥",
+              "平方圆"
+            ],
+            "prompt": "pueblo / aldea"
+          },
+          {
+            "answer": "国家",
+            "answerTranslit": "guó jiā",
+            "concept": "c:ciudad-y-lugares.pais",
+            "optionTranslit": {
+              "国家": "guó jiā",
+              "州/省": "zhōu / shěng",
+              "巷子(小巷)": "xiàng zi ( xiǎo xiàng )",
+              "街道/道路": "jiē dào / dào lù"
+            },
+            "options": [
+              "街道/道路",
+              "国家",
+              "州/省",
+              "巷子(小巷)"
+            ],
+            "prompt": "país"
+          },
+          {
+            "answer": "州/省",
+            "answerTranslit": "zhōu / shěng",
+            "concept": "c:ciudad-y-lugares.estado-provincia",
+            "optionTranslit": {
+              "交叉/相交点": "jiāo chā / xiāng jiāo diǎn",
+              "城市( C)": "chéng shì ( C)",
+              "州/省": "zhōu / shěng",
+              "市场": "shì chǎng"
+            },
+            "options": [
+              "市场",
+              "城市( C)",
+              "州/省",
+              "交叉/相交点"
+            ],
+            "prompt": "estado / provincia"
+          },
+          {
+            "answer": "资本",
+            "answerTranslit": "zī běn",
+            "concept": "c:ciudad-y-lugares.capital",
+            "optionTranslit": {
+              "州/省": "zhōu / shěng",
+              "平方圆": "píng fāng yuán",
+              "桥": "qiáo",
+              "资本": "zī běn"
+            },
+            "options": [
+              "桥",
+              "州/省",
+              "资本",
+              "平方圆"
+            ],
+            "prompt": "capital"
+          },
+          {
+            "answer": "区域/区",
+            "answerTranslit": "qū yù / qū",
+            "concept": "c:ciudad-y-lugares.zona-area",
+            "optionTranslit": {
+              "区域/区": "qū yù / qū",
+              "国家": "guó jiā",
+              "州/省": "zhōu / shěng",
+              "街道/道路": "jiē dào / dào lù"
+            },
+            "options": [
+              "街道/道路",
+              "州/省",
+              "国家",
+              "区域/区"
+            ],
+            "prompt": "zona / área"
+          },
+          {
+            "answer": "街道/道路",
+            "answerTranslit": "jiē dào / dào lù",
+            "concept": "c:ciudad-y-lugares.calle-carretera",
+            "optionTranslit": {
+              "国家": "guó jiā",
+              "城市( C)": "chéng shì ( C)",
+              "桥": "qiáo",
+              "街道/道路": "jiē dào / dào lù"
+            },
+            "options": [
+              "国家",
+              "街道/道路",
+              "城市( C)",
+              "桥"
+            ],
+            "prompt": "calle / carretera"
+          },
+          {
+            "answer": "巷子(小巷)",
+            "answerTranslit": "xiàng zi ( xiǎo xiàng )",
+            "concept": "c:ciudad-y-lugares.callejon",
+            "optionTranslit": {
+              "区域/区": "qū yù / qū",
+              "巷子(小巷)": "xiàng zi ( xiǎo xiàng )",
+              "平方圆": "píng fāng yuán",
+              "街道/道路": "jiē dào / dào lù"
+            },
+            "options": [
+              "平方圆",
+              "区域/区",
+              "巷子(小巷)",
+              "街道/道路"
+            ],
+            "prompt": "callejón"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Places in the city to move around and ask for directions.",
-      "es": "Lugares de la ciudad para moverse y pedir indicaciones.",
-      "zh": "入城取地以行并问道."
+      "es": "Lugares de la ciudad para moverse y pedir indicaciones."
     },
     "generator": "build_lessons",
     "id": "zh-u10-l1",
@@ -310,10 +634,6 @@
       "es": [
         "Nombrar lugares de la ciudad",
         "Pedir direcciones"
-      ],
-      "zh": [
-        "城市名称",
-        "询问地址"
       ]
     },
     "tables": [
@@ -391,8 +711,7 @@
     ],
     "title": {
       "en": "City and places",
-      "es": "La ciudad y los lugares",
-      "zh": "城市和地点"
+      "es": "La ciudad y los lugares"
     },
     "unit": 10
   },
@@ -417,6 +736,7 @@
         "en": "clothing",
         "es": "ropa",
         "speaker": "A",
+        "translit": "fú zhuāng",
         "zh": "服装"
       },
       {
@@ -424,6 +744,7 @@
         "en": "shirt",
         "es": "camisa",
         "speaker": "B",
+        "translit": "chèn shān",
         "zh": "衬衫"
       },
       {
@@ -431,6 +752,7 @@
         "en": "T-shirt",
         "es": "camiseta",
         "speaker": "A",
+        "translit": "T xù",
         "zh": "T恤"
       },
       {
@@ -438,6 +760,7 @@
         "en": "Pants",
         "es": "pantalón",
         "speaker": "B",
+        "translit": "kù zi",
         "zh": "裤子"
       },
       {
@@ -445,6 +768,7 @@
         "en": "jeans / jans",
         "es": "vaqueros / jeans",
         "speaker": "A",
+        "translit": "niú zǎi kù / niú zǎi kù",
         "zh": "牛仔裤/牛仔裤"
       },
       {
@@ -452,6 +776,7 @@
         "en": "Short pants",
         "es": "pantalones cortos",
         "speaker": "B",
+        "translit": "duǎn kù",
         "zh": "短裤"
       },
       {
@@ -459,6 +784,7 @@
         "en": "skirt",
         "es": "falda",
         "speaker": "A",
+        "translit": "xiàn tiáo",
         "zh": "线条"
       },
       {
@@ -466,6 +792,7 @@
         "en": "dress up",
         "es": "vestido",
         "speaker": "B",
+        "translit": "chuān qǐ lái",
         "zh": "穿起来"
       },
       {
@@ -473,6 +800,7 @@
         "en": "sari",
         "es": "sari",
         "speaker": "A",
+        "translit": "sà lǐ",
         "zh": "萨里"
       },
       {
@@ -480,6 +808,7 @@
         "en": "salwar kameez",
         "es": "salwar kameez",
         "speaker": "B",
+        "translit": "sà ěr wǎ ěr · kǎ mǐ zī",
         "zh": "萨尔瓦尔·卡米兹"
       },
       {
@@ -487,6 +816,7 @@
         "en": "kurta",
         "es": "kurta",
         "speaker": "A",
+        "translit": "kù ěr tǎ",
         "zh": "库尔塔"
       },
       {
@@ -494,14 +824,168 @@
         "en": "pajamas",
         "es": "pijama",
         "speaker": "B",
+        "translit": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
         "zh": "睡衣(Shopple) : 睡衣(Phase, suffer-s."
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "服装",
+            "answerTranslit": "fú zhuāng",
+            "concept": "c:ropa-y-accesorios.ropa",
+            "optionTranslit": {
+              "T恤": "T xù",
+              "服装": "fú zhuāng",
+              "牛仔裤/牛仔裤": "niú zǎi kù / niú zǎi kù",
+              "穿起来": "chuān qǐ lái"
+            },
+            "options": [
+              "牛仔裤/牛仔裤",
+              "穿起来",
+              "T恤",
+              "服装"
+            ],
+            "prompt": "ropa"
+          },
+          {
+            "answer": "衬衫",
+            "answerTranslit": "chèn shān",
+            "concept": "c:ropa-y-accesorios.camisa",
+            "optionTranslit": {
+              "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+              "短裤": "duǎn kù",
+              "穿起来": "chuān qǐ lái",
+              "衬衫": "chèn shān"
+            },
+            "options": [
+              "衬衫",
+              "短裤",
+              "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+              "穿起来"
+            ],
+            "prompt": "camisa"
+          },
+          {
+            "answer": "T恤",
+            "answerTranslit": "T xù",
+            "concept": "c:ropa-y-accesorios.camiseta",
+            "optionTranslit": {
+              "T恤": "T xù",
+              "库尔塔": "kù ěr tǎ",
+              "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+              "穿起来": "chuān qǐ lái"
+            },
+            "options": [
+              "T恤",
+              "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+              "穿起来",
+              "库尔塔"
+            ],
+            "prompt": "camiseta"
+          },
+          {
+            "answer": "裤子",
+            "answerTranslit": "kù zi",
+            "concept": "c:ropa-y-accesorios.pantalon",
+            "optionTranslit": {
+              "服装": "fú zhuāng",
+              "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+              "萨尔瓦尔·卡米兹": "sà ěr wǎ ěr · kǎ mǐ zī",
+              "裤子": "kù zi"
+            },
+            "options": [
+              "服装",
+              "裤子",
+              "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+              "萨尔瓦尔·卡米兹"
+            ],
+            "prompt": "pantalón"
+          },
+          {
+            "answer": "牛仔裤/牛仔裤",
+            "answerTranslit": "niú zǎi kù / niú zǎi kù",
+            "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+            "optionTranslit": {
+              "T恤": "T xù",
+              "牛仔裤/牛仔裤": "niú zǎi kù / niú zǎi kù",
+              "线条": "xiàn tiáo",
+              "萨里": "sà lǐ"
+            },
+            "options": [
+              "萨里",
+              "T恤",
+              "牛仔裤/牛仔裤",
+              "线条"
+            ],
+            "prompt": "vaqueros / jeans"
+          },
+          {
+            "answer": "短裤",
+            "answerTranslit": "duǎn kù",
+            "concept": "c:ropa-y-accesorios.pantalones-cortos",
+            "optionTranslit": {
+              "T恤": "T xù",
+              "库尔塔": "kù ěr tǎ",
+              "短裤": "duǎn kù",
+              "裤子": "kù zi"
+            },
+            "options": [
+              "T恤",
+              "短裤",
+              "裤子",
+              "库尔塔"
+            ],
+            "prompt": "pantalones cortos"
+          },
+          {
+            "answer": "线条",
+            "answerTranslit": "xiàn tiáo",
+            "concept": "c:ropa-y-accesorios.falda",
+            "optionTranslit": {
+              "服装": "fú zhuāng",
+              "穿起来": "chuān qǐ lái",
+              "线条": "xiàn tiáo",
+              "萨里": "sà lǐ"
+            },
+            "options": [
+              "线条",
+              "穿起来",
+              "萨里",
+              "服装"
+            ],
+            "prompt": "falda"
+          },
+          {
+            "answer": "穿起来",
+            "answerTranslit": "chuān qǐ lái",
+            "concept": "c:ropa-y-accesorios.vestido",
+            "optionTranslit": {
+              "服装": "fú zhuāng",
+              "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+              "穿起来": "chuān qǐ lái",
+              "裤子": "kù zi"
+            },
+            "options": [
+              "服装",
+              "穿起来",
+              "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+              "裤子"
+            ],
+            "prompt": "vestido"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Clothes and accessories, with words useful for clothes shopping.",
-      "es": "Prendas y accesorios, con palabras útiles para comprar ropa.",
-      "zh": "笔和饰品,有用词来购买衣服."
+      "es": "Prendas y accesorios, con palabras útiles para comprar ropa."
     },
     "generator": "build_lessons",
     "id": "zh-u11-l1",
@@ -515,10 +999,6 @@
       "es": [
         "Nombrar prendas de ropa",
         "Ir de compras"
-      ],
-      "zh": [
-        "指定服装",
-        "买东西去"
       ]
     },
     "tables": [
@@ -596,8 +1076,7 @@
     ],
     "title": {
       "en": "Clothing and accessories",
-      "es": "La ropa y los accesorios",
-      "zh": "服装和配件"
+      "es": "La ropa y los accesorios"
     },
     "unit": 11
   },
@@ -622,6 +1101,7 @@
         "en": "work /",
         "es": "trabajo / labor",
         "speaker": "A",
+        "translit": "gōng zuò / shí jiān",
         "zh": "工作/时间"
       },
       {
@@ -629,6 +1109,7 @@
         "en": "employment / work",
         "es": "empleo / trabajo",
         "speaker": "B",
+        "translit": "jiù yè / gōng zuò",
         "zh": "就业/工作"
       },
       {
@@ -636,6 +1117,7 @@
         "en": "profession / trade",
         "es": "profesión / oficio",
         "speaker": "A",
+        "translit": "zhí yè / háng yè",
         "zh": "职业/行业"
       },
       {
@@ -643,6 +1125,7 @@
         "en": "business / profession",
         "es": "negocio / profesión",
         "speaker": "B",
+        "translit": "shāng yè / zhuān yè",
         "zh": "商业/专业"
       },
       {
@@ -650,6 +1133,7 @@
         "en": "company / enterprise",
         "es": "empresa / compañía",
         "speaker": "A",
+        "translit": "gōng sī / qǐ yè",
         "zh": "公司/企业"
       },
       {
@@ -657,6 +1141,7 @@
         "en": "office",
         "es": "oficina",
         "speaker": "B",
+        "translit": "bàn gōng shì",
         "zh": "办公室"
       },
       {
@@ -664,6 +1149,7 @@
         "en": "office /",
         "es": "oficina / despacho",
         "speaker": "A",
+        "translit": "bàn gōng shì /",
         "zh": "办公室/"
       },
       {
@@ -671,6 +1157,7 @@
         "en": "owner / proprietor",
         "es": "dueño / propietario",
         "speaker": "B",
+        "translit": "yōng yǒu zhě / yè zhǔ",
         "zh": "拥有者/业主"
       },
       {
@@ -678,6 +1165,7 @@
         "en": "Chief",
         "es": "jefe/a",
         "speaker": "A",
+        "translit": "chù zhǎng",
         "zh": "处长"
       },
       {
@@ -685,6 +1173,7 @@
         "en": "employee",
         "es": "empleado/a",
         "speaker": "B",
+        "translit": "gù yuán",
         "zh": "雇员"
       },
       {
@@ -692,6 +1181,7 @@
         "en": "- I'm sorry, buddy.",
         "es": "colega",
         "speaker": "A",
+        "translit": "-  duì bù qǐ , huǒ jì 。",
         "zh": "- 对不起,伙计。"
       },
       {
@@ -699,14 +1189,168 @@
         "en": "equipment",
         "es": "equipo",
         "speaker": "B",
+        "translit": "shè bèi",
         "zh": "设备"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "工作/时间",
+            "answerTranslit": "gōng zuò / shí jiān",
+            "concept": "c:trabajo-y-profesiones.trabajo-labor",
+            "optionTranslit": {
+              "办公室/": "bàn gōng shì /",
+              "工作/时间": "gōng zuò / shí jiān",
+              "设备": "shè bèi",
+              "雇员": "gù yuán"
+            },
+            "options": [
+              "办公室/",
+              "雇员",
+              "工作/时间",
+              "设备"
+            ],
+            "prompt": "trabajo / labor"
+          },
+          {
+            "answer": "就业/工作",
+            "answerTranslit": "jiù yè / gōng zuò",
+            "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+            "optionTranslit": {
+              "公司/企业": "gōng sī / qǐ yè",
+              "办公室": "bàn gōng shì",
+              "就业/工作": "jiù yè / gōng zuò",
+              "雇员": "gù yuán"
+            },
+            "options": [
+              "就业/工作",
+              "雇员",
+              "办公室",
+              "公司/企业"
+            ],
+            "prompt": "empleo / trabajo"
+          },
+          {
+            "answer": "职业/行业",
+            "answerTranslit": "zhí yè / háng yè",
+            "concept": "c:trabajo-y-profesiones.profesion-oficio",
+            "optionTranslit": {
+              "办公室": "bàn gōng shì",
+              "工作/时间": "gōng zuò / shí jiān",
+              "职业/行业": "zhí yè / háng yè",
+              "雇员": "gù yuán"
+            },
+            "options": [
+              "职业/行业",
+              "工作/时间",
+              "办公室",
+              "雇员"
+            ],
+            "prompt": "profesión / oficio"
+          },
+          {
+            "answer": "商业/专业",
+            "answerTranslit": "shāng yè / zhuān yè",
+            "concept": "c:trabajo-y-profesiones.negocio-profesion",
+            "optionTranslit": {
+              "商业/专业": "shāng yè / zhuān yè",
+              "处长": "chù zhǎng",
+              "工作/时间": "gōng zuò / shí jiān",
+              "雇员": "gù yuán"
+            },
+            "options": [
+              "工作/时间",
+              "处长",
+              "雇员",
+              "商业/专业"
+            ],
+            "prompt": "negocio / profesión"
+          },
+          {
+            "answer": "公司/企业",
+            "answerTranslit": "gōng sī / qǐ yè",
+            "concept": "c:trabajo-y-profesiones.empresa-compania",
+            "optionTranslit": {
+              "公司/企业": "gōng sī / qǐ yè",
+              "商业/专业": "shāng yè / zhuān yè",
+              "工作/时间": "gōng zuò / shí jiān",
+              "拥有者/业主": "yōng yǒu zhě / yè zhǔ"
+            },
+            "options": [
+              "公司/企业",
+              "商业/专业",
+              "拥有者/业主",
+              "工作/时间"
+            ],
+            "prompt": "empresa / compañía"
+          },
+          {
+            "answer": "办公室",
+            "answerTranslit": "bàn gōng shì",
+            "concept": "c:trabajo-y-profesiones.oficina",
+            "optionTranslit": {
+              "办公室": "bàn gōng shì",
+              "办公室/": "bàn gōng shì /",
+              "拥有者/业主": "yōng yǒu zhě / yè zhǔ",
+              "设备": "shè bèi"
+            },
+            "options": [
+              "拥有者/业主",
+              "办公室",
+              "设备",
+              "办公室/"
+            ],
+            "prompt": "oficina"
+          },
+          {
+            "answer": "办公室/",
+            "answerTranslit": "bàn gōng shì /",
+            "concept": "c:trabajo-y-profesiones.oficina-despacho",
+            "optionTranslit": {
+              "办公室": "bàn gōng shì",
+              "办公室/": "bàn gōng shì /",
+              "就业/工作": "jiù yè / gōng zuò",
+              "工作/时间": "gōng zuò / shí jiān"
+            },
+            "options": [
+              "就业/工作",
+              "办公室/",
+              "工作/时间",
+              "办公室"
+            ],
+            "prompt": "oficina / despacho"
+          },
+          {
+            "answer": "拥有者/业主",
+            "answerTranslit": "yōng yǒu zhě / yè zhǔ",
+            "concept": "c:trabajo-y-profesiones.dueno-propietario",
+            "optionTranslit": {
+              "办公室": "bàn gōng shì",
+              "拥有者/业主": "yōng yǒu zhě / yè zhǔ",
+              "职业/行业": "zhí yè / háng yè",
+              "雇员": "gù yuán"
+            },
+            "options": [
+              "职业/行业",
+              "办公室",
+              "拥有者/业主",
+              "雇员"
+            ],
+            "prompt": "dueño / propietario"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Professions and words from the world of work.",
-      "es": "Profesiones y palabras del mundo laboral.",
-      "zh": "业与道相出世间活."
+      "es": "Profesiones y palabras del mundo laboral."
     },
     "generator": "build_lessons",
     "id": "zh-u12-l1",
@@ -720,10 +1364,6 @@
       "es": [
         "Nombrar profesiones",
         "Hablar del trabajo"
-      ],
-      "zh": [
-        "任命职业",
-        "说到工作"
       ]
     },
     "tables": [
@@ -801,10 +1441,2564 @@
     ],
     "title": {
       "en": "Work and professions",
-      "es": "El trabajo y las profesiones",
-      "zh": "工作和职业"
+      "es": "El trabajo y las profesiones"
     },
     "unit": 12
+  },
+  {
+    "concepts": [
+      "c:verbos-comunes.ser-estar-haber",
+      "c:verbos-comunes.hacer",
+      "c:verbos-comunes.ir",
+      "c:verbos-comunes.venir",
+      "c:verbos-comunes.ver-mirar",
+      "c:verbos-comunes.oir-escuchar",
+      "c:verbos-comunes.hablar-decir",
+      "c:verbos-comunes.decir",
+      "c:verbos-comunes.preguntar",
+      "c:verbos-comunes.contar-explicar",
+      "c:verbos-comunes.entender-comprender",
+      "c:verbos-comunes.saber-conocer"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:verbos-comunes.ser-estar-haber",
+        "en": "be / are",
+        "es": "ser / estar / haber",
+        "speaker": "A",
+        "translit": "/  shì   yǐ jīng",
+        "zh": "/ 是 已经"
+      },
+      {
+        "concept": "c:verbos-comunes.hacer",
+        "en": "do",
+        "es": "hacer",
+        "speaker": "B",
+        "translit": "zhè yàng zuò",
+        "zh": "这样做"
+      },
+      {
+        "concept": "c:verbos-comunes.ir",
+        "en": "go",
+        "es": "ir",
+        "speaker": "A",
+        "translit": "kāi shǐ",
+        "zh": "开始"
+      },
+      {
+        "concept": "c:verbos-comunes.venir",
+        "en": "Come",
+        "es": "venir",
+        "speaker": "B",
+        "translit": "lái",
+        "zh": "来"
+      },
+      {
+        "concept": "c:verbos-comunes.ver-mirar",
+        "en": "see / watch",
+        "es": "ver / mirar",
+        "speaker": "A",
+        "translit": "jiàn / biǎo",
+        "zh": "见/表"
+      },
+      {
+        "concept": "c:verbos-comunes.oir-escuchar",
+        "en": "hear / listen",
+        "es": "oír / escuchar",
+        "speaker": "B",
+        "translit": "tīng dào / tīng (  shēng yīn )",
+        "zh": "听到/听( 声音)"
+      },
+      {
+        "concept": "c:verbos-comunes.hablar-decir",
+        "en": "speak / say",
+        "es": "hablar / decir",
+        "speaker": "A",
+        "translit": "shuō",
+        "zh": "说"
+      },
+      {
+        "concept": "c:verbos-comunes.decir",
+        "en": "say",
+        "es": "decir",
+        "speaker": "B",
+        "translit": "shuō",
+        "zh": "说"
+      },
+      {
+        "concept": "c:verbos-comunes.preguntar",
+        "en": "ask",
+        "es": "preguntar",
+        "speaker": "A",
+        "translit": "xún wèn",
+        "zh": "询问"
+      },
+      {
+        "concept": "c:verbos-comunes.contar-explicar",
+        "en": "count / explain",
+        "es": "contar / explicar",
+        "speaker": "B",
+        "translit": "shù /  jiě shì",
+        "zh": "数/ 解释"
+      },
+      {
+        "concept": "c:verbos-comunes.entender-comprender",
+        "en": "understand / comprehend",
+        "es": "entender / comprender",
+        "speaker": "A",
+        "translit": "lǐ jiě / lǐ jiě ( I)",
+        "zh": "理解/理解( I)"
+      },
+      {
+        "concept": "c:verbos-comunes.saber-conocer",
+        "en": "know / understand",
+        "es": "saber / conocer",
+        "speaker": "B",
+        "translit": "liǎo jiě / lǐ jiě ( I)",
+        "zh": "了解/理解( I)"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "/ 是 已经",
+            "answerTranslit": "/  shì   yǐ jīng",
+            "concept": "c:verbos-comunes.ser-estar-haber",
+            "optionTranslit": {
+              "/ 是 已经": "/  shì   yǐ jīng",
+              "数/ 解释": "shù /  jiě shì",
+              "来": "lái",
+              "见/表": "jiàn / biǎo"
+            },
+            "options": [
+              "/ 是 已经",
+              "见/表",
+              "来",
+              "数/ 解释"
+            ],
+            "prompt": "ser / estar / haber"
+          },
+          {
+            "answer": "这样做",
+            "answerTranslit": "zhè yàng zuò",
+            "concept": "c:verbos-comunes.hacer",
+            "optionTranslit": {
+              "理解/理解( I)": "lǐ jiě / lǐ jiě ( I)",
+              "见/表": "jiàn / biǎo",
+              "询问": "xún wèn",
+              "这样做": "zhè yàng zuò"
+            },
+            "options": [
+              "见/表",
+              "这样做",
+              "理解/理解( I)",
+              "询问"
+            ],
+            "prompt": "hacer"
+          },
+          {
+            "answer": "开始",
+            "answerTranslit": "kāi shǐ",
+            "concept": "c:verbos-comunes.ir",
+            "optionTranslit": {
+              "/ 是 已经": "/  shì   yǐ jīng",
+              "开始": "kāi shǐ",
+              "来": "lái",
+              "理解/理解( I)": "lǐ jiě / lǐ jiě ( I)"
+            },
+            "options": [
+              "开始",
+              "/ 是 已经",
+              "理解/理解( I)",
+              "来"
+            ],
+            "prompt": "ir"
+          },
+          {
+            "answer": "来",
+            "answerTranslit": "lái",
+            "concept": "c:verbos-comunes.venir",
+            "optionTranslit": {
+              "了解/理解( I)": "liǎo jiě / lǐ jiě ( I)",
+              "来": "lái",
+              "见/表": "jiàn / biǎo",
+              "询问": "xún wèn"
+            },
+            "options": [
+              "询问",
+              "来",
+              "了解/理解( I)",
+              "见/表"
+            ],
+            "prompt": "venir"
+          },
+          {
+            "answer": "见/表",
+            "answerTranslit": "jiàn / biǎo",
+            "concept": "c:verbos-comunes.ver-mirar",
+            "optionTranslit": {
+              "了解/理解( I)": "liǎo jiě / lǐ jiě ( I)",
+              "开始": "kāi shǐ",
+              "见/表": "jiàn / biǎo",
+              "说": "shuō"
+            },
+            "options": [
+              "见/表",
+              "说",
+              "了解/理解( I)",
+              "开始"
+            ],
+            "prompt": "ver / mirar"
+          },
+          {
+            "answer": "听到/听( 声音)",
+            "answerTranslit": "tīng dào / tīng (  shēng yīn )",
+            "concept": "c:verbos-comunes.oir-escuchar",
+            "optionTranslit": {
+              "听到/听( 声音)": "tīng dào / tīng (  shēng yīn )",
+              "数/ 解释": "shù /  jiě shì",
+              "理解/理解( I)": "lǐ jiě / lǐ jiě ( I)",
+              "这样做": "zhè yàng zuò"
+            },
+            "options": [
+              "这样做",
+              "理解/理解( I)",
+              "数/ 解释",
+              "听到/听( 声音)"
+            ],
+            "prompt": "oír / escuchar"
+          },
+          {
+            "answer": "说",
+            "answerTranslit": "shuō",
+            "concept": "c:verbos-comunes.hablar-decir",
+            "optionTranslit": {
+              "/ 是 已经": "/  shì   yǐ jīng",
+              "了解/理解( I)": "liǎo jiě / lǐ jiě ( I)",
+              "询问": "xún wèn",
+              "说": "shuō"
+            },
+            "options": [
+              "/ 是 已经",
+              "了解/理解( I)",
+              "说",
+              "询问"
+            ],
+            "prompt": "hablar / decir"
+          },
+          {
+            "answer": "说",
+            "answerTranslit": "shuō",
+            "concept": "c:verbos-comunes.decir",
+            "optionTranslit": {
+              "开始": "kāi shǐ",
+              "见/表": "jiàn / biǎo",
+              "说": "shuō",
+              "这样做": "zhè yàng zuò"
+            },
+            "options": [
+              "开始",
+              "这样做",
+              "见/表",
+              "说"
+            ],
+            "prompt": "decir"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "The most frequent verbs, the base for building sentences.",
+      "es": "Los verbos más frecuentes, la base para formar frases."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u13-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Recognise the most common verbs",
+        "Name everyday actions"
+      ],
+      "es": [
+        "Reconocer los verbos más usados",
+        "Nombrar acciones del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "ser / estar / haber",
+            "be / are",
+            "/ 是 已经"
+          ],
+          [
+            "hacer",
+            "do",
+            "这样做"
+          ],
+          [
+            "ir",
+            "go",
+            "开始"
+          ],
+          [
+            "venir",
+            "Come",
+            "来"
+          ],
+          [
+            "ver / mirar",
+            "see / watch",
+            "见/表"
+          ],
+          [
+            "oír / escuchar",
+            "hear / listen",
+            "听到/听( 声音)"
+          ],
+          [
+            "hablar / decir",
+            "speak / say",
+            "说"
+          ],
+          [
+            "decir",
+            "say",
+            "说"
+          ],
+          [
+            "preguntar",
+            "ask",
+            "询问"
+          ],
+          [
+            "contar / explicar",
+            "count / explain",
+            "数/ 解释"
+          ],
+          [
+            "entender / comprender",
+            "understand / comprehend",
+            "理解/理解( I)"
+          ],
+          [
+            "saber / conocer",
+            "know / understand",
+            "了解/理解( I)"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Common verbs",
+      "es": "Los verbos comunes"
+    },
+    "unit": 13
+  },
+  {
+    "concepts": [
+      "c:adjetivos.bueno",
+      "c:adjetivos.malo",
+      "c:adjetivos.grande",
+      "c:adjetivos.pequeno",
+      "c:adjetivos.largo-alto",
+      "c:adjetivos.bajo-corto",
+      "c:adjetivos.nuevo",
+      "c:adjetivos.viejo-antiguo",
+      "c:adjetivos.joven",
+      "c:adjetivos.viejo-persona",
+      "c:adjetivos.hermoso-bonito",
+      "c:adjetivos.feo"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:adjetivos.bueno",
+        "en": "Good.",
+        "es": "bueno",
+        "speaker": "A",
+        "translit": "bù cuò 。",
+        "zh": "不错。"
+      },
+      {
+        "concept": "c:adjetivos.malo",
+        "en": "bad",
+        "es": "malo",
+        "speaker": "B",
+        "translit": "bù hǎo , nǐ lái zhè gàn má ?",
+        "zh": "不好,你来这干嘛?"
+      },
+      {
+        "concept": "c:adjetivos.grande",
+        "en": "large",
+        "es": "grande",
+        "speaker": "A",
+        "translit": "dà kuài",
+        "zh": "大块"
+      },
+      {
+        "concept": "c:adjetivos.pequeno",
+        "en": "small",
+        "es": "pequeño",
+        "speaker": "B",
+        "translit": "xiǎo shù",
+        "zh": "小数"
+      },
+      {
+        "concept": "c:adjetivos.largo-alto",
+        "en": "long / high",
+        "es": "largo / alto",
+        "speaker": "A",
+        "translit": "zhǎng / gāo",
+        "zh": "长/高"
+      },
+      {
+        "concept": "c:adjetivos.bajo-corto",
+        "en": "low / short",
+        "es": "bajo / corto",
+        "speaker": "B",
+        "translit": "dī /  duǎn shù",
+        "zh": "低/ 短数"
+      },
+      {
+        "concept": "c:adjetivos.nuevo",
+        "en": "new",
+        "es": "nuevo",
+        "speaker": "A",
+        "translit": "xīn jiàn ( N)",
+        "zh": "新建( N)"
+      },
+      {
+        "concept": "c:adjetivos.viejo-antiguo",
+        "en": "old / ancient",
+        "es": "viejo / antiguo",
+        "speaker": "B",
+        "translit": "jiù / gǔ",
+        "zh": "旧/古"
+      },
+      {
+        "concept": "c:adjetivos.joven",
+        "en": "young",
+        "es": "joven",
+        "speaker": "A",
+        "translit": "nián qīng",
+        "zh": "年轻"
+      },
+      {
+        "concept": "c:adjetivos.viejo-persona",
+        "en": "old (person)",
+        "es": "viejo (persona)",
+        "speaker": "B",
+        "translit": "jiù (  rén )",
+        "zh": "旧( 人)"
+      },
+      {
+        "concept": "c:adjetivos.hermoso-bonito",
+        "en": "beautiful / pretty",
+        "es": "hermoso / bonito",
+        "speaker": "A",
+        "translit": "měi lì xiàng mào",
+        "zh": "美丽相貌"
+      },
+      {
+        "concept": "c:adjetivos.feo",
+        "en": "ugly",
+        "es": "feo",
+        "speaker": "B",
+        "translit": "chǒu lòu de , nǐ zhè hùn dàn",
+        "zh": "丑陋的,你这混蛋"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "不错。",
+            "answerTranslit": "bù cuò 。",
+            "concept": "c:adjetivos.bueno",
+            "optionTranslit": {
+              "不错。": "bù cuò 。",
+              "低/ 短数": "dī /  duǎn shù",
+              "年轻": "nián qīng",
+              "新建( N)": "xīn jiàn ( N)"
+            },
+            "options": [
+              "年轻",
+              "新建( N)",
+              "低/ 短数",
+              "不错。"
+            ],
+            "prompt": "bueno"
+          },
+          {
+            "answer": "不好,你来这干嘛?",
+            "answerTranslit": "bù hǎo , nǐ lái zhè gàn má ?",
+            "concept": "c:adjetivos.malo",
+            "optionTranslit": {
+              "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+              "低/ 短数": "dī /  duǎn shù",
+              "小数": "xiǎo shù",
+              "新建( N)": "xīn jiàn ( N)"
+            },
+            "options": [
+              "小数",
+              "低/ 短数",
+              "不好,你来这干嘛?",
+              "新建( N)"
+            ],
+            "prompt": "malo"
+          },
+          {
+            "answer": "大块",
+            "answerTranslit": "dà kuài",
+            "concept": "c:adjetivos.grande",
+            "optionTranslit": {
+              "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+              "不错。": "bù cuò 。",
+              "大块": "dà kuài",
+              "长/高": "zhǎng / gāo"
+            },
+            "options": [
+              "长/高",
+              "不错。",
+              "不好,你来这干嘛?",
+              "大块"
+            ],
+            "prompt": "grande"
+          },
+          {
+            "answer": "小数",
+            "answerTranslit": "xiǎo shù",
+            "concept": "c:adjetivos.pequeno",
+            "optionTranslit": {
+              "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+              "小数": "xiǎo shù",
+              "新建( N)": "xīn jiàn ( N)",
+              "旧( 人)": "jiù (  rén )"
+            },
+            "options": [
+              "不好,你来这干嘛?",
+              "小数",
+              "新建( N)",
+              "旧( 人)"
+            ],
+            "prompt": "pequeño"
+          },
+          {
+            "answer": "长/高",
+            "answerTranslit": "zhǎng / gāo",
+            "concept": "c:adjetivos.largo-alto",
+            "optionTranslit": {
+              "不错。": "bù cuò 。",
+              "年轻": "nián qīng",
+              "美丽相貌": "měi lì xiàng mào",
+              "长/高": "zhǎng / gāo"
+            },
+            "options": [
+              "长/高",
+              "不错。",
+              "年轻",
+              "美丽相貌"
+            ],
+            "prompt": "largo / alto"
+          },
+          {
+            "answer": "低/ 短数",
+            "answerTranslit": "dī /  duǎn shù",
+            "concept": "c:adjetivos.bajo-corto",
+            "optionTranslit": {
+              "低/ 短数": "dī /  duǎn shù",
+              "大块": "dà kuài",
+              "旧/古": "jiù / gǔ",
+              "长/高": "zhǎng / gāo"
+            },
+            "options": [
+              "大块",
+              "长/高",
+              "低/ 短数",
+              "旧/古"
+            ],
+            "prompt": "bajo / corto"
+          },
+          {
+            "answer": "新建( N)",
+            "answerTranslit": "xīn jiàn ( N)",
+            "concept": "c:adjetivos.nuevo",
+            "optionTranslit": {
+              "丑陋的,你这混蛋": "chǒu lòu de , nǐ zhè hùn dàn",
+              "低/ 短数": "dī /  duǎn shù",
+              "新建( N)": "xīn jiàn ( N)",
+              "旧( 人)": "jiù (  rén )"
+            },
+            "options": [
+              "旧( 人)",
+              "新建( N)",
+              "丑陋的,你这混蛋",
+              "低/ 短数"
+            ],
+            "prompt": "nuevo"
+          },
+          {
+            "answer": "旧/古",
+            "answerTranslit": "jiù / gǔ",
+            "concept": "c:adjetivos.viejo-antiguo",
+            "optionTranslit": {
+              "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+              "年轻": "nián qīng",
+              "旧/古": "jiù / gǔ",
+              "美丽相貌": "měi lì xiàng mào"
+            },
+            "options": [
+              "不好,你来这干嘛?",
+              "年轻",
+              "旧/古",
+              "美丽相貌"
+            ],
+            "prompt": "viejo / antiguo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Adjectives to describe size, character, state and qualities.",
+      "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u14-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Describe with adjectives",
+        "Give opinions about things and people"
+      ],
+      "es": [
+        "Describir con adjetivos",
+        "Opinar sobre cosas y personas"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "bueno",
+            "Good.",
+            "不错。"
+          ],
+          [
+            "malo",
+            "bad",
+            "不好,你来这干嘛?"
+          ],
+          [
+            "grande",
+            "large",
+            "大块"
+          ],
+          [
+            "pequeño",
+            "small",
+            "小数"
+          ],
+          [
+            "largo / alto",
+            "long / high",
+            "长/高"
+          ],
+          [
+            "bajo / corto",
+            "low / short",
+            "低/ 短数"
+          ],
+          [
+            "nuevo",
+            "new",
+            "新建( N)"
+          ],
+          [
+            "viejo / antiguo",
+            "old / ancient",
+            "旧/古"
+          ],
+          [
+            "joven",
+            "young",
+            "年轻"
+          ],
+          [
+            "viejo (persona)",
+            "old (person)",
+            "旧( 人)"
+          ],
+          [
+            "hermoso / bonito",
+            "beautiful / pretty",
+            "美丽相貌"
+          ],
+          [
+            "feo",
+            "ugly",
+            "丑陋的,你这混蛋"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Adjectives",
+      "es": "Los adjetivos"
+    },
+    "unit": 14
+  },
+  {
+    "concepts": [
+      "c:viajes-compras-y-servicios.compras-ir-de-compras",
+      "c:viajes-compras-y-servicios.tienda",
+      "c:viajes-compras-y-servicios.mercado",
+      "c:viajes-compras-y-servicios.supermercado",
+      "c:viajes-compras-y-servicios.centro-comercial",
+      "c:viajes-compras-y-servicios.vendedor-tendero",
+      "c:viajes-compras-y-servicios.cliente-comprador",
+      "c:viajes-compras-y-servicios.precio",
+      "c:viajes-compras-y-servicios.dinero",
+      "c:viajes-compras-y-servicios.rupia-india-inr",
+      "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+      "c:viajes-compras-y-servicios.tarjeta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+        "en": "shopping / going for purchases",
+        "es": "compras / ir de compras",
+        "speaker": "A",
+        "translit": "gòu mǎi /  zhǔn bèi gòu mǎi",
+        "zh": "购买/ 准备购买"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tienda",
+        "en": "shop",
+        "es": "tienda",
+        "speaker": "B",
+        "translit": "shāng diàn",
+        "zh": "商店"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.mercado",
+        "en": "market",
+        "es": "mercado",
+        "speaker": "A",
+        "translit": "shì chǎng",
+        "zh": "市场"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.supermercado",
+        "en": "supermarket",
+        "es": "supermercado",
+        "speaker": "B",
+        "translit": "chāo shì",
+        "zh": "超市"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.centro-comercial",
+        "en": "shopping centre",
+        "es": "centro comercial",
+        "speaker": "A",
+        "translit": "gòu wù zhōng xīn",
+        "zh": "购物中心"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+        "en": "seller / tenderer",
+        "es": "vendedor / tendero",
+        "speaker": "B",
+        "translit": "mài fāng / tóu biāo rén",
+        "zh": "卖方/投标人"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+        "en": "customer / buyer",
+        "es": "cliente / comprador",
+        "speaker": "A",
+        "translit": "kè hù / mǎi fāng",
+        "zh": "客户/买方"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.precio",
+        "en": "price",
+        "es": "precio",
+        "speaker": "B",
+        "translit": "jià gé",
+        "zh": "价格"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.dinero",
+        "en": "money",
+        "es": "dinero",
+        "speaker": "A",
+        "translit": "qián",
+        "zh": "钱"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.rupia-india-inr",
+        "en": "Indian rupee (INR)",
+        "es": "rupia india (INR)",
+        "speaker": "B",
+        "translit": "yìn dù lú bǐ ( INR)",
+        "zh": "印度卢比( INR)"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+        "en": "cash / money in the form of",
+        "es": "efectivo / dinero en efectivo",
+        "speaker": "A",
+        "translit": "xiàn jīn / yǐ xià liè xíng shì zhī fù de kuǎn xiàng :",
+        "zh": "现金/以下列形式支付的款项:"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tarjeta",
+        "en": "card",
+        "es": "tarjeta",
+        "speaker": "B",
+        "translit": "zhǐ pái",
+        "zh": "纸牌"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "购买/ 准备购买",
+            "answerTranslit": "gòu mǎi /  zhǔn bèi gòu mǎi",
+            "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+            "optionTranslit": {
+              "客户/买方": "kè hù / mǎi fāng",
+              "购买/ 准备购买": "gòu mǎi /  zhǔn bèi gòu mǎi",
+              "购物中心": "gòu wù zhōng xīn",
+              "超市": "chāo shì"
+            },
+            "options": [
+              "超市",
+              "客户/买方",
+              "购买/ 准备购买",
+              "购物中心"
+            ],
+            "prompt": "compras / ir de compras"
+          },
+          {
+            "answer": "商店",
+            "answerTranslit": "shāng diàn",
+            "concept": "c:viajes-compras-y-servicios.tienda",
+            "optionTranslit": {
+              "卖方/投标人": "mài fāng / tóu biāo rén",
+              "商店": "shāng diàn",
+              "现金/以下列形式支付的款项:": "xiàn jīn / yǐ xià liè xíng shì zhī fù de kuǎn xiàng :",
+              "纸牌": "zhǐ pái"
+            },
+            "options": [
+              "卖方/投标人",
+              "商店",
+              "纸牌",
+              "现金/以下列形式支付的款项:"
+            ],
+            "prompt": "tienda"
+          },
+          {
+            "answer": "市场",
+            "answerTranslit": "shì chǎng",
+            "concept": "c:viajes-compras-y-servicios.mercado",
+            "optionTranslit": {
+              "印度卢比( INR)": "yìn dù lú bǐ ( INR)",
+              "商店": "shāng diàn",
+              "市场": "shì chǎng",
+              "纸牌": "zhǐ pái"
+            },
+            "options": [
+              "印度卢比( INR)",
+              "商店",
+              "市场",
+              "纸牌"
+            ],
+            "prompt": "mercado"
+          },
+          {
+            "answer": "超市",
+            "answerTranslit": "chāo shì",
+            "concept": "c:viajes-compras-y-servicios.supermercado",
+            "optionTranslit": {
+              "价格": "jià gé",
+              "印度卢比( INR)": "yìn dù lú bǐ ( INR)",
+              "商店": "shāng diàn",
+              "超市": "chāo shì"
+            },
+            "options": [
+              "印度卢比( INR)",
+              "价格",
+              "商店",
+              "超市"
+            ],
+            "prompt": "supermercado"
+          },
+          {
+            "answer": "购物中心",
+            "answerTranslit": "gòu wù zhōng xīn",
+            "concept": "c:viajes-compras-y-servicios.centro-comercial",
+            "optionTranslit": {
+              "卖方/投标人": "mài fāng / tóu biāo rén",
+              "市场": "shì chǎng",
+              "购物中心": "gòu wù zhōng xīn",
+              "超市": "chāo shì"
+            },
+            "options": [
+              "超市",
+              "卖方/投标人",
+              "购物中心",
+              "市场"
+            ],
+            "prompt": "centro comercial"
+          },
+          {
+            "answer": "卖方/投标人",
+            "answerTranslit": "mài fāng / tóu biāo rén",
+            "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+            "optionTranslit": {
+              "卖方/投标人": "mài fāng / tóu biāo rén",
+              "印度卢比( INR)": "yìn dù lú bǐ ( INR)",
+              "购买/ 准备购买": "gòu mǎi /  zhǔn bèi gòu mǎi",
+              "超市": "chāo shì"
+            },
+            "options": [
+              "购买/ 准备购买",
+              "印度卢比( INR)",
+              "卖方/投标人",
+              "超市"
+            ],
+            "prompt": "vendedor / tendero"
+          },
+          {
+            "answer": "客户/买方",
+            "answerTranslit": "kè hù / mǎi fāng",
+            "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+            "optionTranslit": {
+              "价格": "jià gé",
+              "客户/买方": "kè hù / mǎi fāng",
+              "现金/以下列形式支付的款项:": "xiàn jīn / yǐ xià liè xíng shì zhī fù de kuǎn xiàng :",
+              "购买/ 准备购买": "gòu mǎi /  zhǔn bèi gòu mǎi"
+            },
+            "options": [
+              "购买/ 准备购买",
+              "价格",
+              "现金/以下列形式支付的款项:",
+              "客户/买方"
+            ],
+            "prompt": "cliente / comprador"
+          },
+          {
+            "answer": "价格",
+            "answerTranslit": "jià gé",
+            "concept": "c:viajes-compras-y-servicios.precio",
+            "optionTranslit": {
+              "价格": "jià gé",
+              "现金/以下列形式支付的款项:": "xiàn jīn / yǐ xià liè xíng shì zhī fù de kuǎn xiàng :",
+              "购买/ 准备购买": "gòu mǎi /  zhǔn bèi gòu mǎi",
+              "钱": "qián"
+            },
+            "options": [
+              "钱",
+              "现金/以下列形式支付的款项:",
+              "购买/ 准备购买",
+              "价格"
+            ],
+            "prompt": "precio"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words to shop, pay and use services during a trip.",
+      "es": "Palabras para comprar, pagar y usar servicios durante un viaje."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u15-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Handle shopping and services",
+        "Ask about prices and opening hours"
+      ],
+      "es": [
+        "Resolver compras y servicios",
+        "Preguntar precios y horarios"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "compras / ir de compras",
+            "shopping / going for purchases",
+            "购买/ 准备购买"
+          ],
+          [
+            "tienda",
+            "shop",
+            "商店"
+          ],
+          [
+            "mercado",
+            "market",
+            "市场"
+          ],
+          [
+            "supermercado",
+            "supermarket",
+            "超市"
+          ],
+          [
+            "centro comercial",
+            "shopping centre",
+            "购物中心"
+          ],
+          [
+            "vendedor / tendero",
+            "seller / tenderer",
+            "卖方/投标人"
+          ],
+          [
+            "cliente / comprador",
+            "customer / buyer",
+            "客户/买方"
+          ],
+          [
+            "precio",
+            "price",
+            "价格"
+          ],
+          [
+            "dinero",
+            "money",
+            "钱"
+          ],
+          [
+            "rupia india (INR)",
+            "Indian rupee (INR)",
+            "印度卢比( INR)"
+          ],
+          [
+            "efectivo / dinero en efectivo",
+            "cash / money in the form of",
+            "现金/以下列形式支付的款项:"
+          ],
+          [
+            "tarjeta",
+            "card",
+            "纸牌"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Travel, shopping and services",
+      "es": "Viajes, compras y servicios"
+    },
+    "unit": 15
+  },
+  {
+    "concepts": [
+      "c:transporte-y-viajes.viaje",
+      "c:transporte-y-viajes.viaje-trayecto",
+      "c:transporte-y-viajes.turismo",
+      "c:transporte-y-viajes.coche-auto",
+      "c:transporte-y-viajes.taxi",
+      "c:transporte-y-viajes.autobus",
+      "c:transporte-y-viajes.tren",
+      "c:transporte-y-viajes.metro",
+      "c:transporte-y-viajes.avion",
+      "c:transporte-y-viajes.barco-avion",
+      "c:transporte-y-viajes.barco-bote",
+      "c:transporte-y-viajes.bicicleta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:transporte-y-viajes.viaje",
+        "en": "travel",
+        "es": "viaje",
+        "speaker": "A",
+        "translit": "lǚ fèi",
+        "zh": "旅费"
+      },
+      {
+        "concept": "c:transporte-y-viajes.viaje-trayecto",
+        "en": "travel / journey",
+        "es": "viaje / trayecto",
+        "speaker": "B",
+        "translit": "lǚ fèi / lǚ fèi",
+        "zh": "旅费/旅费"
+      },
+      {
+        "concept": "c:transporte-y-viajes.turismo",
+        "en": "tourism",
+        "es": "turismo",
+        "speaker": "A",
+        "translit": "lǚ yóu yè",
+        "zh": "旅游业"
+      },
+      {
+        "concept": "c:transporte-y-viajes.coche-auto",
+        "en": "car / vehicle",
+        "es": "coche / auto",
+        "speaker": "B",
+        "translit": "qì chē / chē liàng",
+        "zh": "汽车/车辆"
+      },
+      {
+        "concept": "c:transporte-y-viajes.taxi",
+        "en": "taxi",
+        "es": "taxi",
+        "speaker": "A",
+        "translit": "chū zū chē",
+        "zh": "出租车"
+      },
+      {
+        "concept": "c:transporte-y-viajes.autobus",
+        "en": "bus",
+        "es": "autobús",
+        "speaker": "B",
+        "translit": "gōng gòng qì chē",
+        "zh": "公共汽车"
+      },
+      {
+        "concept": "c:transporte-y-viajes.tren",
+        "en": "train",
+        "es": "tren",
+        "speaker": "A",
+        "translit": "huǒ chē",
+        "zh": "火车"
+      },
+      {
+        "concept": "c:transporte-y-viajes.metro",
+        "en": "Subway",
+        "es": "metro",
+        "speaker": "B",
+        "translit": "dì tiě",
+        "zh": "地铁"
+      },
+      {
+        "concept": "c:transporte-y-viajes.avion",
+        "en": "aircraft",
+        "es": "avión",
+        "speaker": "A",
+        "translit": "fēi jī",
+        "zh": "飞机"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-avion",
+        "en": "boat / aircraft",
+        "es": "barco / avión",
+        "speaker": "B",
+        "translit": "fēi jī / chuán zhī",
+        "zh": "飞机/船只"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-bote",
+        "en": "boat / ship",
+        "es": "barco / bote",
+        "speaker": "A",
+        "translit": "chuán / jiàn",
+        "zh": "船/舰"
+      },
+      {
+        "concept": "c:transporte-y-viajes.bicicleta",
+        "en": "bicycle",
+        "es": "bicicleta",
+        "speaker": "B",
+        "translit": "zì xíng chē",
+        "zh": "自行车"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "旅费",
+            "answerTranslit": "lǚ fèi",
+            "concept": "c:transporte-y-viajes.viaje",
+            "optionTranslit": {
+              "出租车": "chū zū chē",
+              "旅费": "lǚ fèi",
+              "船/舰": "chuán / jiàn",
+              "飞机/船只": "fēi jī / chuán zhī"
+            },
+            "options": [
+              "出租车",
+              "飞机/船只",
+              "船/舰",
+              "旅费"
+            ],
+            "prompt": "viaje"
+          },
+          {
+            "answer": "旅费/旅费",
+            "answerTranslit": "lǚ fèi / lǚ fèi",
+            "concept": "c:transporte-y-viajes.viaje-trayecto",
+            "optionTranslit": {
+              "地铁": "dì tiě",
+              "旅游业": "lǚ yóu yè",
+              "旅费/旅费": "lǚ fèi / lǚ fèi",
+              "船/舰": "chuán / jiàn"
+            },
+            "options": [
+              "地铁",
+              "旅游业",
+              "船/舰",
+              "旅费/旅费"
+            ],
+            "prompt": "viaje / trayecto"
+          },
+          {
+            "answer": "旅游业",
+            "answerTranslit": "lǚ yóu yè",
+            "concept": "c:transporte-y-viajes.turismo",
+            "optionTranslit": {
+              "地铁": "dì tiě",
+              "旅游业": "lǚ yóu yè",
+              "旅费/旅费": "lǚ fèi / lǚ fèi",
+              "飞机/船只": "fēi jī / chuán zhī"
+            },
+            "options": [
+              "旅费/旅费",
+              "飞机/船只",
+              "地铁",
+              "旅游业"
+            ],
+            "prompt": "turismo"
+          },
+          {
+            "answer": "汽车/车辆",
+            "answerTranslit": "qì chē / chē liàng",
+            "concept": "c:transporte-y-viajes.coche-auto",
+            "optionTranslit": {
+              "旅费": "lǚ fèi",
+              "汽车/车辆": "qì chē / chē liàng",
+              "飞机": "fēi jī",
+              "飞机/船只": "fēi jī / chuán zhī"
+            },
+            "options": [
+              "汽车/车辆",
+              "飞机",
+              "飞机/船只",
+              "旅费"
+            ],
+            "prompt": "coche / auto"
+          },
+          {
+            "answer": "出租车",
+            "answerTranslit": "chū zū chē",
+            "concept": "c:transporte-y-viajes.taxi",
+            "optionTranslit": {
+              "出租车": "chū zū chē",
+              "旅游业": "lǚ yóu yè",
+              "旅费": "lǚ fèi",
+              "旅费/旅费": "lǚ fèi / lǚ fèi"
+            },
+            "options": [
+              "旅费",
+              "旅游业",
+              "出租车",
+              "旅费/旅费"
+            ],
+            "prompt": "taxi"
+          },
+          {
+            "answer": "公共汽车",
+            "answerTranslit": "gōng gòng qì chē",
+            "concept": "c:transporte-y-viajes.autobus",
+            "optionTranslit": {
+              "公共汽车": "gōng gòng qì chē",
+              "出租车": "chū zū chē",
+              "汽车/车辆": "qì chē / chē liàng",
+              "自行车": "zì xíng chē"
+            },
+            "options": [
+              "汽车/车辆",
+              "出租车",
+              "公共汽车",
+              "自行车"
+            ],
+            "prompt": "autobús"
+          },
+          {
+            "answer": "火车",
+            "answerTranslit": "huǒ chē",
+            "concept": "c:transporte-y-viajes.tren",
+            "optionTranslit": {
+              "公共汽车": "gōng gòng qì chē",
+              "火车": "huǒ chē",
+              "自行车": "zì xíng chē",
+              "飞机/船只": "fēi jī / chuán zhī"
+            },
+            "options": [
+              "飞机/船只",
+              "公共汽车",
+              "火车",
+              "自行车"
+            ],
+            "prompt": "tren"
+          },
+          {
+            "answer": "地铁",
+            "answerTranslit": "dì tiě",
+            "concept": "c:transporte-y-viajes.metro",
+            "optionTranslit": {
+              "地铁": "dì tiě",
+              "旅费": "lǚ fèi",
+              "飞机": "fēi jī",
+              "飞机/船只": "fēi jī / chuán zhī"
+            },
+            "options": [
+              "旅费",
+              "地铁",
+              "飞机/船只",
+              "飞机"
+            ],
+            "prompt": "metro"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Means of transport and words useful to get around.",
+      "es": "Medios de transporte y palabras útiles para desplazarse."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u16-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name means of transport",
+        "Get around and travel"
+      ],
+      "es": [
+        "Nombrar medios de transporte",
+        "Moverse y viajar"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "viaje",
+            "travel",
+            "旅费"
+          ],
+          [
+            "viaje / trayecto",
+            "travel / journey",
+            "旅费/旅费"
+          ],
+          [
+            "turismo",
+            "tourism",
+            "旅游业"
+          ],
+          [
+            "coche / auto",
+            "car / vehicle",
+            "汽车/车辆"
+          ],
+          [
+            "taxi",
+            "taxi",
+            "出租车"
+          ],
+          [
+            "autobús",
+            "bus",
+            "公共汽车"
+          ],
+          [
+            "tren",
+            "train",
+            "火车"
+          ],
+          [
+            "metro",
+            "Subway",
+            "地铁"
+          ],
+          [
+            "avión",
+            "aircraft",
+            "飞机"
+          ],
+          [
+            "barco / avión",
+            "boat / aircraft",
+            "飞机/船只"
+          ],
+          [
+            "barco / bote",
+            "boat / ship",
+            "船/舰"
+          ],
+          [
+            "bicicleta",
+            "bicycle",
+            "自行车"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Transport and travel",
+      "es": "El transporte y los viajes"
+    },
+    "unit": 16
+  },
+  {
+    "concepts": [
+      "c:educacion-y-aprendizaje.educacion",
+      "c:educacion-y-aprendizaje.escuela",
+      "c:educacion-y-aprendizaje.clase-aula-grado",
+      "c:educacion-y-aprendizaje.leccion",
+      "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "c:educacion-y-aprendizaje.matematicas",
+      "c:educacion-y-aprendizaje.ciencia",
+      "c:educacion-y-aprendizaje.historia",
+      "c:educacion-y-aprendizaje.geografia",
+      "c:educacion-y-aprendizaje.literatura",
+      "c:educacion-y-aprendizaje.idioma-lengua"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:educacion-y-aprendizaje.educacion",
+        "en": "education",
+        "es": "educación",
+        "speaker": "A",
+        "translit": "jiào yù",
+        "zh": "教育"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.escuela",
+        "en": "school",
+        "es": "escuela",
+        "speaker": "B",
+        "translit": "xué xiào",
+        "zh": "学校"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+        "en": "class / classroom",
+        "es": "clase / aula / grado",
+        "speaker": "A",
+        "translit": "bān jí / jiào shì",
+        "zh": "班级/教室"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.leccion",
+        "en": "lesson",
+        "es": "lección",
+        "speaker": "B",
+        "translit": "kè chéng",
+        "zh": "课程"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+        "en": "curriculum / course",
+        "es": "plan de estudios / curso",
+        "speaker": "A",
+        "translit": "kè chéng / kè chéng",
+        "zh": "课程/课程"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+        "en": "subject / topic",
+        "es": "materia / tema / asunto",
+        "speaker": "B",
+        "translit": "zhǔ tí / zhuān tí",
+        "zh": "主题/专题"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.matematicas",
+        "en": "mathematics",
+        "es": "matemáticas",
+        "speaker": "A",
+        "translit": "shù xué",
+        "zh": "数学"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.ciencia",
+        "en": "science",
+        "es": "ciencia",
+        "speaker": "B",
+        "translit": "kē xué",
+        "zh": "科学"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.historia",
+        "en": "history",
+        "es": "historia",
+        "speaker": "A",
+        "translit": "lì shǐ",
+        "zh": "历史"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.geografia",
+        "en": "geography",
+        "es": "geografía",
+        "speaker": "B",
+        "translit": "dì lǐ qíng kuàng",
+        "zh": "地理情况"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.literatura",
+        "en": "literature",
+        "es": "literatura",
+        "speaker": "A",
+        "translit": "wén xiàn",
+        "zh": "文献"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+        "en": "language / tongue",
+        "es": "idioma / lengua",
+        "speaker": "B",
+        "translit": "yǔ yán / shé tou",
+        "zh": "语言/舌头"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "教育",
+            "answerTranslit": "jiào yù",
+            "concept": "c:educacion-y-aprendizaje.educacion",
+            "optionTranslit": {
+              "主题/专题": "zhǔ tí / zhuān tí",
+              "教育": "jiào yù",
+              "语言/舌头": "yǔ yán / shé tou",
+              "课程/课程": "kè chéng / kè chéng"
+            },
+            "options": [
+              "主题/专题",
+              "课程/课程",
+              "语言/舌头",
+              "教育"
+            ],
+            "prompt": "educación"
+          },
+          {
+            "answer": "学校",
+            "answerTranslit": "xué xiào",
+            "concept": "c:educacion-y-aprendizaje.escuela",
+            "optionTranslit": {
+              "主题/专题": "zhǔ tí / zhuān tí",
+              "地理情况": "dì lǐ qíng kuàng",
+              "学校": "xué xiào",
+              "数学": "shù xué"
+            },
+            "options": [
+              "主题/专题",
+              "地理情况",
+              "数学",
+              "学校"
+            ],
+            "prompt": "escuela"
+          },
+          {
+            "answer": "班级/教室",
+            "answerTranslit": "bān jí / jiào shì",
+            "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+            "optionTranslit": {
+              "主题/专题": "zhǔ tí / zhuān tí",
+              "历史": "lì shǐ",
+              "地理情况": "dì lǐ qíng kuàng",
+              "班级/教室": "bān jí / jiào shì"
+            },
+            "options": [
+              "主题/专题",
+              "地理情况",
+              "历史",
+              "班级/教室"
+            ],
+            "prompt": "clase / aula / grado"
+          },
+          {
+            "answer": "课程",
+            "answerTranslit": "kè chéng",
+            "concept": "c:educacion-y-aprendizaje.leccion",
+            "optionTranslit": {
+              "主题/专题": "zhǔ tí / zhuān tí",
+              "历史": "lì shǐ",
+              "语言/舌头": "yǔ yán / shé tou",
+              "课程": "kè chéng"
+            },
+            "options": [
+              "历史",
+              "语言/舌头",
+              "主题/专题",
+              "课程"
+            ],
+            "prompt": "lección"
+          },
+          {
+            "answer": "课程/课程",
+            "answerTranslit": "kè chéng / kè chéng",
+            "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+            "optionTranslit": {
+              "地理情况": "dì lǐ qíng kuàng",
+              "学校": "xué xiào",
+              "数学": "shù xué",
+              "课程/课程": "kè chéng / kè chéng"
+            },
+            "options": [
+              "学校",
+              "地理情况",
+              "数学",
+              "课程/课程"
+            ],
+            "prompt": "plan de estudios / curso"
+          },
+          {
+            "answer": "主题/专题",
+            "answerTranslit": "zhǔ tí / zhuān tí",
+            "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+            "optionTranslit": {
+              "主题/专题": "zhǔ tí / zhuān tí",
+              "地理情况": "dì lǐ qíng kuàng",
+              "学校": "xué xiào",
+              "文献": "wén xiàn"
+            },
+            "options": [
+              "主题/专题",
+              "学校",
+              "地理情况",
+              "文献"
+            ],
+            "prompt": "materia / tema / asunto"
+          },
+          {
+            "answer": "数学",
+            "answerTranslit": "shù xué",
+            "concept": "c:educacion-y-aprendizaje.matematicas",
+            "optionTranslit": {
+              "地理情况": "dì lǐ qíng kuàng",
+              "学校": "xué xiào",
+              "数学": "shù xué",
+              "语言/舌头": "yǔ yán / shé tou"
+            },
+            "options": [
+              "语言/舌头",
+              "地理情况",
+              "数学",
+              "学校"
+            ],
+            "prompt": "matemáticas"
+          },
+          {
+            "answer": "科学",
+            "answerTranslit": "kē xué",
+            "concept": "c:educacion-y-aprendizaje.ciencia",
+            "optionTranslit": {
+              "教育": "jiào yù",
+              "数学": "shù xué",
+              "科学": "kē xué",
+              "语言/舌头": "yǔ yán / shé tou"
+            },
+            "options": [
+              "教育",
+              "数学",
+              "语言/舌头",
+              "科学"
+            ],
+            "prompt": "ciencia"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words from school and learning.",
+      "es": "Palabras de la escuela y del aprendizaje."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u17-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Talk about studies",
+        "Name school and its objects"
+      ],
+      "es": [
+        "Hablar de estudios",
+        "Nombrar la escuela y sus objetos"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "educación",
+            "education",
+            "教育"
+          ],
+          [
+            "escuela",
+            "school",
+            "学校"
+          ],
+          [
+            "clase / aula / grado",
+            "class / classroom",
+            "班级/教室"
+          ],
+          [
+            "lección",
+            "lesson",
+            "课程"
+          ],
+          [
+            "plan de estudios / curso",
+            "curriculum / course",
+            "课程/课程"
+          ],
+          [
+            "materia / tema / asunto",
+            "subject / topic",
+            "主题/专题"
+          ],
+          [
+            "matemáticas",
+            "mathematics",
+            "数学"
+          ],
+          [
+            "ciencia",
+            "science",
+            "科学"
+          ],
+          [
+            "historia",
+            "history",
+            "历史"
+          ],
+          [
+            "geografía",
+            "geography",
+            "地理情况"
+          ],
+          [
+            "literatura",
+            "literature",
+            "文献"
+          ],
+          [
+            "idioma / lengua",
+            "language / tongue",
+            "语言/舌头"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Education and learning",
+      "es": "La educación y el aprendizaje"
+    },
+    "unit": 17
+  },
+  {
+    "concepts": [
+      "c:tecnologia-y-comunicacion.tecnologia",
+      "c:tecnologia-y-comunicacion.computadora-ordenador",
+      "c:tecnologia-y-comunicacion.portatil-laptop",
+      "c:tecnologia-y-comunicacion.tableta",
+      "c:tecnologia-y-comunicacion.telefono-movil-celular",
+      "c:tecnologia-y-comunicacion.telefono",
+      "c:tecnologia-y-comunicacion.pantalla",
+      "c:tecnologia-y-comunicacion.teclado",
+      "c:tecnologia-y-comunicacion.raton-informatica",
+      "c:tecnologia-y-comunicacion.impresora",
+      "c:tecnologia-y-comunicacion.camara",
+      "c:tecnologia-y-comunicacion.microfono"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:tecnologia-y-comunicacion.tecnologia",
+        "en": "technology",
+        "es": "tecnología",
+        "speaker": "A",
+        "translit": "jì shù",
+        "zh": "技术"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+        "en": "computer / PC",
+        "es": "computadora / ordenador",
+        "speaker": "B",
+        "translit": "jì suàn jī / gè rén diàn nǎo",
+        "zh": "计算机/个人电脑"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+        "en": "laptop / laptop",
+        "es": "portátil / laptop",
+        "speaker": "A",
+        "translit": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī",
+        "zh": "膝上型计算机/膝上型计算机"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.tableta",
+        "en": "tablet",
+        "es": "tableta",
+        "speaker": "B",
+        "translit": "píng bǎn diàn nǎo",
+        "zh": "平板电脑"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+        "en": "mobile / cell phone",
+        "es": "teléfono móvil / celular",
+        "speaker": "A",
+        "translit": "yí dòng diàn huà",
+        "zh": "移动电话"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono",
+        "en": "phone",
+        "es": "teléfono",
+        "speaker": "B",
+        "translit": "diàn huà",
+        "zh": "电话"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.pantalla",
+        "en": "screen",
+        "es": "pantalla",
+        "speaker": "A",
+        "translit": "píng mù",
+        "zh": "屏幕"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.teclado",
+        "en": "keyboard",
+        "es": "teclado",
+        "speaker": "B",
+        "translit": "jiàn pán",
+        "zh": "键盘"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.raton-informatica",
+        "en": "mouse (computer)",
+        "es": "ratón (informática)",
+        "speaker": "A",
+        "translit": "shǔ biāo ( jì suàn jī )",
+        "zh": "鼠标(计算机)"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.impresora",
+        "en": "printer",
+        "es": "impresora",
+        "speaker": "B",
+        "translit": "dǎ yìn jī",
+        "zh": "打印机"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.camara",
+        "en": "camera",
+        "es": "cámara",
+        "speaker": "A",
+        "translit": "xiàng jī",
+        "zh": "相机"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.microfono",
+        "en": "microphone",
+        "es": "micrófono",
+        "speaker": "B",
+        "translit": "mài kè fēng",
+        "zh": "麦克风"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "技术",
+            "answerTranslit": "jì shù",
+            "concept": "c:tecnologia-y-comunicacion.tecnologia",
+            "optionTranslit": {
+              "技术": "jì shù",
+              "膝上型计算机/膝上型计算机": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī",
+              "计算机/个人电脑": "jì suàn jī / gè rén diàn nǎo",
+              "鼠标(计算机)": "shǔ biāo ( jì suàn jī )"
+            },
+            "options": [
+              "技术",
+              "计算机/个人电脑",
+              "膝上型计算机/膝上型计算机",
+              "鼠标(计算机)"
+            ],
+            "prompt": "tecnología"
+          },
+          {
+            "answer": "计算机/个人电脑",
+            "answerTranslit": "jì suàn jī / gè rén diàn nǎo",
+            "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+            "optionTranslit": {
+              "平板电脑": "píng bǎn diàn nǎo",
+              "膝上型计算机/膝上型计算机": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī",
+              "计算机/个人电脑": "jì suàn jī / gè rén diàn nǎo",
+              "键盘": "jiàn pán"
+            },
+            "options": [
+              "膝上型计算机/膝上型计算机",
+              "键盘",
+              "平板电脑",
+              "计算机/个人电脑"
+            ],
+            "prompt": "computadora / ordenador"
+          },
+          {
+            "answer": "膝上型计算机/膝上型计算机",
+            "answerTranslit": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī",
+            "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+            "optionTranslit": {
+              "技术": "jì shù",
+              "电话": "diàn huà",
+              "移动电话": "yí dòng diàn huà",
+              "膝上型计算机/膝上型计算机": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī"
+            },
+            "options": [
+              "技术",
+              "膝上型计算机/膝上型计算机",
+              "移动电话",
+              "电话"
+            ],
+            "prompt": "portátil / laptop"
+          },
+          {
+            "answer": "平板电脑",
+            "answerTranslit": "píng bǎn diàn nǎo",
+            "concept": "c:tecnologia-y-comunicacion.tableta",
+            "optionTranslit": {
+              "平板电脑": "píng bǎn diàn nǎo",
+              "打印机": "dǎ yìn jī",
+              "电话": "diàn huà",
+              "麦克风": "mài kè fēng"
+            },
+            "options": [
+              "麦克风",
+              "打印机",
+              "电话",
+              "平板电脑"
+            ],
+            "prompt": "tableta"
+          },
+          {
+            "answer": "移动电话",
+            "answerTranslit": "yí dòng diàn huà",
+            "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+            "optionTranslit": {
+              "平板电脑": "píng bǎn diàn nǎo",
+              "移动电话": "yí dòng diàn huà",
+              "计算机/个人电脑": "jì suàn jī / gè rén diàn nǎo",
+              "键盘": "jiàn pán"
+            },
+            "options": [
+              "键盘",
+              "计算机/个人电脑",
+              "平板电脑",
+              "移动电话"
+            ],
+            "prompt": "teléfono móvil / celular"
+          },
+          {
+            "answer": "电话",
+            "answerTranslit": "diàn huà",
+            "concept": "c:tecnologia-y-comunicacion.telefono",
+            "optionTranslit": {
+              "打印机": "dǎ yìn jī",
+              "电话": "diàn huà",
+              "膝上型计算机/膝上型计算机": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī",
+              "键盘": "jiàn pán"
+            },
+            "options": [
+              "打印机",
+              "膝上型计算机/膝上型计算机",
+              "电话",
+              "键盘"
+            ],
+            "prompt": "teléfono"
+          },
+          {
+            "answer": "屏幕",
+            "answerTranslit": "píng mù",
+            "concept": "c:tecnologia-y-comunicacion.pantalla",
+            "optionTranslit": {
+              "屏幕": "píng mù",
+              "技术": "jì shù",
+              "相机": "xiàng jī",
+              "键盘": "jiàn pán"
+            },
+            "options": [
+              "技术",
+              "键盘",
+              "屏幕",
+              "相机"
+            ],
+            "prompt": "pantalla"
+          },
+          {
+            "answer": "键盘",
+            "answerTranslit": "jiàn pán",
+            "concept": "c:tecnologia-y-comunicacion.teclado",
+            "optionTranslit": {
+              "屏幕": "píng mù",
+              "平板电脑": "píng bǎn diàn nǎo",
+              "计算机/个人电脑": "jì suàn jī / gè rén diàn nǎo",
+              "键盘": "jiàn pán"
+            },
+            "options": [
+              "平板电脑",
+              "屏幕",
+              "键盘",
+              "计算机/个人电脑"
+            ],
+            "prompt": "teclado"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Devices, internet and everyday communication.",
+      "es": "Aparatos, internet y comunicación del día a día."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u18-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name devices and services",
+        "Talk on the phone and online"
+      ],
+      "es": [
+        "Nombrar aparatos y servicios",
+        "Hablar por teléfono e internet"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "tecnología",
+            "technology",
+            "技术"
+          ],
+          [
+            "computadora / ordenador",
+            "computer / PC",
+            "计算机/个人电脑"
+          ],
+          [
+            "portátil / laptop",
+            "laptop / laptop",
+            "膝上型计算机/膝上型计算机"
+          ],
+          [
+            "tableta",
+            "tablet",
+            "平板电脑"
+          ],
+          [
+            "teléfono móvil / celular",
+            "mobile / cell phone",
+            "移动电话"
+          ],
+          [
+            "teléfono",
+            "phone",
+            "电话"
+          ],
+          [
+            "pantalla",
+            "screen",
+            "屏幕"
+          ],
+          [
+            "teclado",
+            "keyboard",
+            "键盘"
+          ],
+          [
+            "ratón (informática)",
+            "mouse (computer)",
+            "鼠标(计算机)"
+          ],
+          [
+            "impresora",
+            "printer",
+            "打印机"
+          ],
+          [
+            "cámara",
+            "camera",
+            "相机"
+          ],
+          [
+            "micrófono",
+            "microphone",
+            "麦克风"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Technology and communication",
+      "es": "La tecnología y la comunicación"
+    },
+    "unit": 18
+  },
+  {
+    "concepts": [
+      "c:naturaleza-y-clima.naturaleza",
+      "c:naturaleza-y-clima.arbol",
+      "c:naturaleza-y-clima.planta",
+      "c:naturaleza-y-clima.flor",
+      "c:naturaleza-y-clima.hoja",
+      "c:naturaleza-y-clima.raiz",
+      "c:naturaleza-y-clima.rama",
+      "c:naturaleza-y-clima.tronco-tallo",
+      "c:naturaleza-y-clima.semilla",
+      "c:naturaleza-y-clima.hierba-cesped",
+      "c:naturaleza-y-clima.bosque-selva",
+      "c:naturaleza-y-clima.montana"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:naturaleza-y-clima.naturaleza",
+        "en": "nature",
+        "es": "naturaleza",
+        "speaker": "A",
+        "translit": "xìng zhì",
+        "zh": "性质"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.arbol",
+        "en": "tree",
+        "es": "árbol",
+        "speaker": "B",
+        "translit": "shù",
+        "zh": "树"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.planta",
+        "en": "plant",
+        "es": "planta",
+        "speaker": "A",
+        "translit": "gōng chǎng",
+        "zh": "工厂"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.flor",
+        "en": "flower",
+        "es": "flor",
+        "speaker": "B",
+        "translit": "huā duǒ   huā duǒ   huā duǒ   huā duǒ   huā duǒ",
+        "zh": "花朵 花朵 花朵 花朵 花朵"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hoja",
+        "en": "leaf",
+        "es": "hoja",
+        "speaker": "A",
+        "translit": "yè zi",
+        "zh": "叶子"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.raiz",
+        "en": "root",
+        "es": "raíz",
+        "speaker": "B",
+        "translit": "gēn hào",
+        "zh": "根号"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.rama",
+        "en": "branch",
+        "es": "rama",
+        "speaker": "A",
+        "translit": "fēn zhī",
+        "zh": "分支"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.tronco-tallo",
+        "en": "trunk / stem",
+        "es": "tronco / tallo",
+        "speaker": "B",
+        "translit": "shù gàn / gàn xiàn",
+        "zh": "树干/干线"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.semilla",
+        "en": "seed",
+        "es": "semilla",
+        "speaker": "A",
+        "translit": "zhǒng zi",
+        "zh": "种子"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hierba-cesped",
+        "en": "grass / lawn",
+        "es": "hierba / césped",
+        "speaker": "B",
+        "translit": "cǎo dì / cǎo dì ( C)",
+        "zh": "草地/草地( C)"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.bosque-selva",
+        "en": "forest / jungle",
+        "es": "bosque / selva",
+        "speaker": "A",
+        "translit": "sēn lín / cóng lín",
+        "zh": "森林/丛林"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.montana",
+        "en": "mountain",
+        "es": "montaña",
+        "speaker": "B",
+        "translit": "shān dì yǔ Name",
+        "zh": "山地语Name"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "性质",
+            "answerTranslit": "xìng zhì",
+            "concept": "c:naturaleza-y-clima.naturaleza",
+            "optionTranslit": {
+              "工厂": "gōng chǎng",
+              "性质": "xìng zhì",
+              "根号": "gēn hào",
+              "种子": "zhǒng zi"
+            },
+            "options": [
+              "性质",
+              "种子",
+              "工厂",
+              "根号"
+            ],
+            "prompt": "naturaleza"
+          },
+          {
+            "answer": "树",
+            "answerTranslit": "shù",
+            "concept": "c:naturaleza-y-clima.arbol",
+            "optionTranslit": {
+              "分支": "fēn zhī",
+              "山地语Name": "shān dì yǔ Name",
+              "性质": "xìng zhì",
+              "树": "shù"
+            },
+            "options": [
+              "山地语Name",
+              "树",
+              "性质",
+              "分支"
+            ],
+            "prompt": "árbol"
+          },
+          {
+            "answer": "工厂",
+            "answerTranslit": "gōng chǎng",
+            "concept": "c:naturaleza-y-clima.planta",
+            "optionTranslit": {
+              "工厂": "gōng chǎng",
+              "树": "shù",
+              "种子": "zhǒng zi",
+              "草地/草地( C)": "cǎo dì / cǎo dì ( C)"
+            },
+            "options": [
+              "草地/草地( C)",
+              "树",
+              "种子",
+              "工厂"
+            ],
+            "prompt": "planta"
+          },
+          {
+            "answer": "花朵 花朵 花朵 花朵 花朵",
+            "answerTranslit": "huā duǒ   huā duǒ   huā duǒ   huā duǒ   huā duǒ",
+            "concept": "c:naturaleza-y-clima.flor",
+            "optionTranslit": {
+              "分支": "fēn zhī",
+              "树干/干线": "shù gàn / gàn xiàn",
+              "森林/丛林": "sēn lín / cóng lín",
+              "花朵 花朵 花朵 花朵 花朵": "huā duǒ   huā duǒ   huā duǒ   huā duǒ   huā duǒ"
+            },
+            "options": [
+              "分支",
+              "树干/干线",
+              "森林/丛林",
+              "花朵 花朵 花朵 花朵 花朵"
+            ],
+            "prompt": "flor"
+          },
+          {
+            "answer": "叶子",
+            "answerTranslit": "yè zi",
+            "concept": "c:naturaleza-y-clima.hoja",
+            "optionTranslit": {
+              "叶子": "yè zi",
+              "树": "shù",
+              "种子": "zhǒng zi",
+              "草地/草地( C)": "cǎo dì / cǎo dì ( C)"
+            },
+            "options": [
+              "叶子",
+              "树",
+              "种子",
+              "草地/草地( C)"
+            ],
+            "prompt": "hoja"
+          },
+          {
+            "answer": "根号",
+            "answerTranslit": "gēn hào",
+            "concept": "c:naturaleza-y-clima.raiz",
+            "optionTranslit": {
+              "分支": "fēn zhī",
+              "树干/干线": "shù gàn / gàn xiàn",
+              "根号": "gēn hào",
+              "花朵 花朵 花朵 花朵 花朵": "huā duǒ   huā duǒ   huā duǒ   huā duǒ   huā duǒ"
+            },
+            "options": [
+              "树干/干线",
+              "花朵 花朵 花朵 花朵 花朵",
+              "分支",
+              "根号"
+            ],
+            "prompt": "raíz"
+          },
+          {
+            "answer": "分支",
+            "answerTranslit": "fēn zhī",
+            "concept": "c:naturaleza-y-clima.rama",
+            "optionTranslit": {
+              "分支": "fēn zhī",
+              "叶子": "yè zi",
+              "工厂": "gōng chǎng",
+              "草地/草地( C)": "cǎo dì / cǎo dì ( C)"
+            },
+            "options": [
+              "叶子",
+              "分支",
+              "草地/草地( C)",
+              "工厂"
+            ],
+            "prompt": "rama"
+          },
+          {
+            "answer": "树干/干线",
+            "answerTranslit": "shù gàn / gàn xiàn",
+            "concept": "c:naturaleza-y-clima.tronco-tallo",
+            "optionTranslit": {
+              "叶子": "yè zi",
+              "树干/干线": "shù gàn / gàn xiàn",
+              "种子": "zhǒng zi",
+              "草地/草地( C)": "cǎo dì / cǎo dì ( C)"
+            },
+            "options": [
+              "树干/干线",
+              "叶子",
+              "种子",
+              "草地/草地( C)"
+            ],
+            "prompt": "tronco / tallo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Nature, landscapes and weather to talk about the environment.",
+      "es": "Naturaleza, paisajes y clima para hablar del entorno."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u19-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name natural elements",
+        "Talk about weather and seasons"
+      ],
+      "es": [
+        "Nombrar elementos naturales",
+        "Hablar del tiempo y las estaciones"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "naturaleza",
+            "nature",
+            "性质"
+          ],
+          [
+            "árbol",
+            "tree",
+            "树"
+          ],
+          [
+            "planta",
+            "plant",
+            "工厂"
+          ],
+          [
+            "flor",
+            "flower",
+            "花朵 花朵 花朵 花朵 花朵"
+          ],
+          [
+            "hoja",
+            "leaf",
+            "叶子"
+          ],
+          [
+            "raíz",
+            "root",
+            "根号"
+          ],
+          [
+            "rama",
+            "branch",
+            "分支"
+          ],
+          [
+            "tronco / tallo",
+            "trunk / stem",
+            "树干/干线"
+          ],
+          [
+            "semilla",
+            "seed",
+            "种子"
+          ],
+          [
+            "hierba / césped",
+            "grass / lawn",
+            "草地/草地( C)"
+          ],
+          [
+            "bosque / selva",
+            "forest / jungle",
+            "森林/丛林"
+          ],
+          [
+            "montaña",
+            "mountain",
+            "山地语Name"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Nature and weather",
+      "es": "La naturaleza y el clima"
+    },
+    "unit": 19
   },
   {
     "concepts": [
@@ -827,6 +4021,7 @@
         "en": "zero",
         "es": "cero",
         "speaker": "A",
+        "translit": "líng",
         "zh": "零"
       },
       {
@@ -834,6 +4029,7 @@
         "en": "one",
         "es": "uno",
         "speaker": "B",
+        "translit": "yī",
         "zh": "一"
       },
       {
@@ -841,6 +4037,7 @@
         "en": "two",
         "es": "dos",
         "speaker": "A",
+        "translit": "èr",
         "zh": "二"
       },
       {
@@ -848,6 +4045,7 @@
         "en": "three",
         "es": "tres",
         "speaker": "B",
+        "translit": "sān",
         "zh": "三"
       },
       {
@@ -855,6 +4053,7 @@
         "en": "4",
         "es": "cuatro",
         "speaker": "A",
+        "translit": "sì",
         "zh": "四"
       },
       {
@@ -862,6 +4061,7 @@
         "en": "five",
         "es": "cinco",
         "speaker": "B",
+        "translit": "wǔ",
         "zh": "五"
       },
       {
@@ -869,6 +4069,7 @@
         "en": "6",
         "es": "seis",
         "speaker": "A",
+        "translit": "liù",
         "zh": "六"
       },
       {
@@ -876,6 +4077,7 @@
         "en": "seven",
         "es": "siete",
         "speaker": "B",
+        "translit": "qī",
         "zh": "七"
       },
       {
@@ -883,6 +4085,7 @@
         "en": "8",
         "es": "ocho",
         "speaker": "A",
+        "translit": "bā",
         "zh": "八"
       },
       {
@@ -890,6 +4093,7 @@
         "en": "9",
         "es": "nueve",
         "speaker": "B",
+        "translit": "jiǔ",
         "zh": "九"
       },
       {
@@ -897,6 +4101,7 @@
         "en": "10",
         "es": "diez",
         "speaker": "A",
+        "translit": "shí",
         "zh": "十"
       },
       {
@@ -904,14 +4109,168 @@
         "en": "11",
         "es": "once",
         "speaker": "B",
+        "translit": "shí yī",
         "zh": "十一"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "零",
+            "answerTranslit": "líng",
+            "concept": "c:numeros.cero",
+            "optionTranslit": {
+              "一": "yī",
+              "七": "qī",
+              "九": "jiǔ",
+              "零": "líng"
+            },
+            "options": [
+              "九",
+              "零",
+              "七",
+              "一"
+            ],
+            "prompt": "cero"
+          },
+          {
+            "answer": "一",
+            "answerTranslit": "yī",
+            "concept": "c:numeros.uno",
+            "optionTranslit": {
+              "一": "yī",
+              "二": "èr",
+              "五": "wǔ",
+              "十": "shí"
+            },
+            "options": [
+              "五",
+              "二",
+              "十",
+              "一"
+            ],
+            "prompt": "uno"
+          },
+          {
+            "answer": "二",
+            "answerTranslit": "èr",
+            "concept": "c:numeros.dos",
+            "optionTranslit": {
+              "九": "jiǔ",
+              "二": "èr",
+              "五": "wǔ",
+              "六": "liù"
+            },
+            "options": [
+              "六",
+              "九",
+              "五",
+              "二"
+            ],
+            "prompt": "dos"
+          },
+          {
+            "answer": "三",
+            "answerTranslit": "sān",
+            "concept": "c:numeros.tres",
+            "optionTranslit": {
+              "三": "sān",
+              "二": "èr",
+              "六": "liù",
+              "十": "shí"
+            },
+            "options": [
+              "十",
+              "六",
+              "二",
+              "三"
+            ],
+            "prompt": "tres"
+          },
+          {
+            "answer": "四",
+            "answerTranslit": "sì",
+            "concept": "c:numeros.cuatro",
+            "optionTranslit": {
+              "五": "wǔ",
+              "八": "bā",
+              "十": "shí",
+              "四": "sì"
+            },
+            "options": [
+              "四",
+              "五",
+              "十",
+              "八"
+            ],
+            "prompt": "cuatro"
+          },
+          {
+            "answer": "五",
+            "answerTranslit": "wǔ",
+            "concept": "c:numeros.cinco",
+            "optionTranslit": {
+              "七": "qī",
+              "五": "wǔ",
+              "四": "sì",
+              "零": "líng"
+            },
+            "options": [
+              "四",
+              "零",
+              "七",
+              "五"
+            ],
+            "prompt": "cinco"
+          },
+          {
+            "answer": "六",
+            "answerTranslit": "liù",
+            "concept": "c:numeros.seis",
+            "optionTranslit": {
+              "二": "èr",
+              "六": "liù",
+              "十一": "shí yī",
+              "零": "líng"
+            },
+            "options": [
+              "二",
+              "十一",
+              "六",
+              "零"
+            ],
+            "prompt": "seis"
+          },
+          {
+            "answer": "七",
+            "answerTranslit": "qī",
+            "concept": "c:numeros.siete",
+            "optionTranslit": {
+              "七": "qī",
+              "五": "wǔ",
+              "八": "bā",
+              "四": "sì"
+            },
+            "options": [
+              "八",
+              "七",
+              "五",
+              "四"
+            ],
+            "prompt": "siete"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Everyday numbers: used to count, give your age and talk about prices.",
-      "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
-      "zh": "至今的日数:用于计数,年龄和价格."
+      "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
     },
     "generator": "build_lessons",
     "id": "zh-u2-l1",
@@ -925,10 +4284,6 @@
       "es": [
         "Contar del cero al diez",
         "Reconocer los números básicos"
-      ],
-      "zh": [
-        "从0到10计数",
-        "识别基本数字"
       ]
     },
     "tables": [
@@ -1006,10 +4361,374 @@
     ],
     "title": {
       "en": "Numbers",
-      "es": "Los números",
-      "zh": "数字"
+      "es": "Los números"
     },
     "unit": 2
+  },
+  {
+    "concepts": [
+      "c:vocabulario-extra-y-frases-utiles.amor",
+      "c:vocabulario-extra-y-frases-utiles.odio",
+      "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "c:vocabulario-extra-y-frases-utiles.mentira",
+      "c:vocabulario-extra-y-frases-utiles.verdad",
+      "c:vocabulario-extra-y-frases-utiles.justicia",
+      "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "c:vocabulario-extra-y-frases-utiles.miedo",
+      "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+        "en": "love",
+        "es": "amor",
+        "speaker": "A",
+        "translit": "ài",
+        "zh": "爱"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+        "en": "I hate it.",
+        "es": "odio",
+        "speaker": "B",
+        "translit": "wǒ tǎo yàn tā 。",
+        "zh": "我讨厌它。"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+        "en": "honesty",
+        "es": "honestidad",
+        "speaker": "A",
+        "translit": "chéng shí",
+        "zh": "诚实"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+        "en": "lie",
+        "es": "mentira",
+        "speaker": "B",
+        "translit": "huǎng yán",
+        "zh": "谎言"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+        "en": "truth",
+        "es": "verdad",
+        "speaker": "A",
+        "translit": "shì shí",
+        "zh": "事实"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+        "en": "justice",
+        "es": "justicia",
+        "speaker": "B",
+        "translit": "sī fǎ",
+        "zh": "司法"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+        "en": "injustice",
+        "es": "injusticia",
+        "speaker": "A",
+        "translit": "bù gōng zhèng",
+        "zh": "不公正"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+        "en": "value / courage",
+        "es": "valor / coraje",
+        "speaker": "B",
+        "translit": "jià zhí / yǒng qì",
+        "zh": "价值/勇气"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+        "en": "fear",
+        "es": "miedo",
+        "speaker": "A",
+        "translit": "kǒng jù",
+        "zh": "恐惧"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+        "en": "hope",
+        "es": "esperanza",
+        "speaker": "B",
+        "translit": "yù gào",
+        "zh": "预告"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+        "en": "disappointment",
+        "es": "decepción",
+        "speaker": "A",
+        "translit": "shī wàng qíng xù",
+        "zh": "失望情绪"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+        "en": "anger / angry",
+        "es": "ira / enfado",
+        "speaker": "B",
+        "translit": "fèn nù / fèn nù",
+        "zh": "愤怒/愤怒"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "爱",
+            "answerTranslit": "ài",
+            "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+            "optionTranslit": {
+              "事实": "shì shí",
+              "司法": "sī fǎ",
+              "失望情绪": "shī wàng qíng xù",
+              "爱": "ài"
+            },
+            "options": [
+              "司法",
+              "爱",
+              "事实",
+              "失望情绪"
+            ],
+            "prompt": "amor"
+          },
+          {
+            "answer": "我讨厌它。",
+            "answerTranslit": "wǒ tǎo yàn tā 。",
+            "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+            "optionTranslit": {
+              "不公正": "bù gōng zhèng",
+              "我讨厌它。": "wǒ tǎo yàn tā 。",
+              "诚实": "chéng shí",
+              "预告": "yù gào"
+            },
+            "options": [
+              "诚实",
+              "预告",
+              "我讨厌它。",
+              "不公正"
+            ],
+            "prompt": "odio"
+          },
+          {
+            "answer": "诚实",
+            "answerTranslit": "chéng shí",
+            "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+            "optionTranslit": {
+              "事实": "shì shí",
+              "愤怒/愤怒": "fèn nù / fèn nù",
+              "诚实": "chéng shí",
+              "谎言": "huǎng yán"
+            },
+            "options": [
+              "事实",
+              "诚实",
+              "愤怒/愤怒",
+              "谎言"
+            ],
+            "prompt": "honestidad"
+          },
+          {
+            "answer": "谎言",
+            "answerTranslit": "huǎng yán",
+            "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+            "optionTranslit": {
+              "事实": "shì shí",
+              "爱": "ài",
+              "诚实": "chéng shí",
+              "谎言": "huǎng yán"
+            },
+            "options": [
+              "事实",
+              "诚实",
+              "爱",
+              "谎言"
+            ],
+            "prompt": "mentira"
+          },
+          {
+            "answer": "事实",
+            "answerTranslit": "shì shí",
+            "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+            "optionTranslit": {
+              "事实": "shì shí",
+              "司法": "sī fǎ",
+              "愤怒/愤怒": "fèn nù / fèn nù",
+              "诚实": "chéng shí"
+            },
+            "options": [
+              "事实",
+              "司法",
+              "诚实",
+              "愤怒/愤怒"
+            ],
+            "prompt": "verdad"
+          },
+          {
+            "answer": "司法",
+            "answerTranslit": "sī fǎ",
+            "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+            "optionTranslit": {
+              "不公正": "bù gōng zhèng",
+              "司法": "sī fǎ",
+              "失望情绪": "shī wàng qíng xù",
+              "愤怒/愤怒": "fèn nù / fèn nù"
+            },
+            "options": [
+              "愤怒/愤怒",
+              "不公正",
+              "司法",
+              "失望情绪"
+            ],
+            "prompt": "justicia"
+          },
+          {
+            "answer": "不公正",
+            "answerTranslit": "bù gōng zhèng",
+            "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+            "optionTranslit": {
+              "不公正": "bù gōng zhèng",
+              "事实": "shì shí",
+              "失望情绪": "shī wàng qíng xù",
+              "诚实": "chéng shí"
+            },
+            "options": [
+              "事实",
+              "诚实",
+              "不公正",
+              "失望情绪"
+            ],
+            "prompt": "injusticia"
+          },
+          {
+            "answer": "价值/勇气",
+            "answerTranslit": "jià zhí / yǒng qì",
+            "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+            "optionTranslit": {
+              "不公正": "bù gōng zhèng",
+              "价值/勇气": "jià zhí / yǒng qì",
+              "司法": "sī fǎ",
+              "预告": "yù gào"
+            },
+            "options": [
+              "价值/勇气",
+              "不公正",
+              "预告",
+              "司法"
+            ],
+            "prompt": "valor / coraje"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Support words and phrases that appear in many conversations.",
+      "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+    },
+    "generator": "build_lessons",
+    "id": "zh-u20-l1",
+    "lang": "zh",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Expand vocabulary",
+        "Use common everyday phrases"
+      ],
+      "es": [
+        "Ampliar vocabulario",
+        "Usar frases comunes del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "rows": [
+          [
+            "amor",
+            "love",
+            "爱"
+          ],
+          [
+            "odio",
+            "I hate it.",
+            "我讨厌它。"
+          ],
+          [
+            "honestidad",
+            "honesty",
+            "诚实"
+          ],
+          [
+            "mentira",
+            "lie",
+            "谎言"
+          ],
+          [
+            "verdad",
+            "truth",
+            "事实"
+          ],
+          [
+            "justicia",
+            "justice",
+            "司法"
+          ],
+          [
+            "injusticia",
+            "injustice",
+            "不公正"
+          ],
+          [
+            "valor / coraje",
+            "value / courage",
+            "价值/勇气"
+          ],
+          [
+            "miedo",
+            "fear",
+            "恐惧"
+          ],
+          [
+            "esperanza",
+            "hope",
+            "预告"
+          ],
+          [
+            "decepción",
+            "disappointment",
+            "失望情绪"
+          ],
+          [
+            "ira / enfado",
+            "anger / angry",
+            "愤怒/愤怒"
+          ]
+        ],
+        "title": "es · en · zh",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Extra vocabulary and useful phrases",
+      "es": "Vocabulario extra y frases útiles"
+    },
+    "unit": 20
   },
   {
     "concepts": [
@@ -1032,6 +4751,7 @@
         "en": "red",
         "es": "rojo",
         "speaker": "A",
+        "translit": "hóng sè",
         "zh": "红色"
       },
       {
@@ -1039,6 +4759,7 @@
         "en": "blue",
         "es": "azul",
         "speaker": "B",
+        "translit": "lán sè",
         "zh": "蓝色"
       },
       {
@@ -1046,6 +4767,7 @@
         "en": "green",
         "es": "verde",
         "speaker": "A",
+        "translit": "lǜ sè",
         "zh": "绿色"
       },
       {
@@ -1053,6 +4775,7 @@
         "en": "yellow",
         "es": "amarillo",
         "speaker": "B",
+        "translit": "huáng sè",
         "zh": "黄色"
       },
       {
@@ -1060,6 +4783,7 @@
         "en": "black",
         "es": "negro",
         "speaker": "A",
+        "translit": "hēi sè",
         "zh": "黑色"
       },
       {
@@ -1067,6 +4791,7 @@
         "en": "white",
         "es": "blanco",
         "speaker": "B",
+        "translit": "bái sè",
         "zh": "白色"
       },
       {
@@ -1074,6 +4799,7 @@
         "en": "orange",
         "es": "naranja",
         "speaker": "A",
+        "translit": "chéng sè",
         "zh": "橙色"
       },
       {
@@ -1081,6 +4807,7 @@
         "en": "pink",
         "es": "rosa",
         "speaker": "B",
+        "translit": "fěn hóng sè",
         "zh": "粉红色"
       },
       {
@@ -1088,6 +4815,7 @@
         "en": "purple / violet",
         "es": "morado / violeta",
         "speaker": "A",
+        "translit": "zǐ sè",
         "zh": "紫色"
       },
       {
@@ -1095,6 +4823,7 @@
         "en": "brown",
         "es": "marrón",
         "speaker": "B",
+        "translit": "zōng sè",
         "zh": "棕色"
       },
       {
@@ -1102,6 +4831,7 @@
         "en": "grey",
         "es": "gris",
         "speaker": "A",
+        "translit": "huī sè",
         "zh": "灰色"
       },
       {
@@ -1109,14 +4839,168 @@
         "en": "gold",
         "es": "dorado",
         "speaker": "B",
+        "translit": "jīn sè",
         "zh": "金色"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "红色",
+            "answerTranslit": "hóng sè",
+            "concept": "c:colores.rojo",
+            "optionTranslit": {
+              "橙色": "chéng sè",
+              "白色": "bái sè",
+              "红色": "hóng sè",
+              "绿色": "lǜ sè"
+            },
+            "options": [
+              "绿色",
+              "红色",
+              "白色",
+              "橙色"
+            ],
+            "prompt": "rojo"
+          },
+          {
+            "answer": "蓝色",
+            "answerTranslit": "lán sè",
+            "concept": "c:colores.azul",
+            "optionTranslit": {
+              "橙色": "chéng sè",
+              "粉红色": "fěn hóng sè",
+              "蓝色": "lán sè",
+              "金色": "jīn sè"
+            },
+            "options": [
+              "金色",
+              "蓝色",
+              "粉红色",
+              "橙色"
+            ],
+            "prompt": "azul"
+          },
+          {
+            "answer": "绿色",
+            "answerTranslit": "lǜ sè",
+            "concept": "c:colores.verde",
+            "optionTranslit": {
+              "橙色": "chéng sè",
+              "灰色": "huī sè",
+              "紫色": "zǐ sè",
+              "绿色": "lǜ sè"
+            },
+            "options": [
+              "橙色",
+              "灰色",
+              "绿色",
+              "紫色"
+            ],
+            "prompt": "verde"
+          },
+          {
+            "answer": "黄色",
+            "answerTranslit": "huáng sè",
+            "concept": "c:colores.amarillo",
+            "optionTranslit": {
+              "棕色": "zōng sè",
+              "灰色": "huī sè",
+              "红色": "hóng sè",
+              "黄色": "huáng sè"
+            },
+            "options": [
+              "棕色",
+              "红色",
+              "灰色",
+              "黄色"
+            ],
+            "prompt": "amarillo"
+          },
+          {
+            "answer": "黑色",
+            "answerTranslit": "hēi sè",
+            "concept": "c:colores.negro",
+            "optionTranslit": {
+              "棕色": "zōng sè",
+              "橙色": "chéng sè",
+              "蓝色": "lán sè",
+              "黑色": "hēi sè"
+            },
+            "options": [
+              "蓝色",
+              "黑色",
+              "棕色",
+              "橙色"
+            ],
+            "prompt": "negro"
+          },
+          {
+            "answer": "白色",
+            "answerTranslit": "bái sè",
+            "concept": "c:colores.blanco",
+            "optionTranslit": {
+              "灰色": "huī sè",
+              "白色": "bái sè",
+              "金色": "jīn sè",
+              "黄色": "huáng sè"
+            },
+            "options": [
+              "灰色",
+              "黄色",
+              "金色",
+              "白色"
+            ],
+            "prompt": "blanco"
+          },
+          {
+            "answer": "橙色",
+            "answerTranslit": "chéng sè",
+            "concept": "c:colores.naranja",
+            "optionTranslit": {
+              "棕色": "zōng sè",
+              "橙色": "chéng sè",
+              "白色": "bái sè",
+              "金色": "jīn sè"
+            },
+            "options": [
+              "白色",
+              "棕色",
+              "橙色",
+              "金色"
+            ],
+            "prompt": "naranja"
+          },
+          {
+            "answer": "粉红色",
+            "answerTranslit": "fěn hóng sè",
+            "concept": "c:colores.rosa",
+            "optionTranslit": {
+              "粉红色": "fěn hóng sè",
+              "红色": "hóng sè",
+              "黄色": "huáng sè",
+              "黑色": "hēi sè"
+            },
+            "options": [
+              "红色",
+              "黑色",
+              "粉红色",
+              "黄色"
+            ],
+            "prompt": "rosa"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Colours are used to describe objects, clothes and places.",
-      "es": "Los colores sirven para describir objetos, ropa y lugares.",
-      "zh": "颜色用来描述物体、衣服和地点。"
+      "es": "Los colores sirven para describir objetos, ropa y lugares."
     },
     "generator": "build_lessons",
     "id": "zh-u3-l1",
@@ -1130,10 +5014,6 @@
       "es": [
         "Nombrar los colores básicos",
         "Describir objetos por su color"
-      ],
-      "zh": [
-        "命名基本颜色",
-        "按颜色描述对象"
       ]
     },
     "tables": [
@@ -1211,8 +5091,7 @@
     ],
     "title": {
       "en": "Colours",
-      "es": "Los colores",
-      "zh": "颜色"
+      "es": "Los colores"
     },
     "unit": 3
   },
@@ -1237,6 +5116,7 @@
         "en": "Family",
         "es": "familia",
         "speaker": "A",
+        "translit": "jiā tíng",
         "zh": "家庭"
       },
       {
@@ -1244,6 +5124,7 @@
         "en": "Mother",
         "es": "madre",
         "speaker": "B",
+        "translit": "mā mā",
         "zh": "妈妈"
       },
       {
@@ -1251,6 +5132,7 @@
         "en": "Father",
         "es": "padre",
         "speaker": "A",
+        "translit": "fù qīn",
         "zh": "父亲"
       },
       {
@@ -1258,6 +5140,7 @@
         "en": "parents",
         "es": "padres",
         "speaker": "B",
+        "translit": "fù mǔ qīn",
         "zh": "父母亲"
       },
       {
@@ -1265,6 +5148,7 @@
         "en": "child",
         "es": "hijo",
         "speaker": "A",
+        "translit": "ér tóng",
         "zh": "儿童"
       },
       {
@@ -1272,6 +5156,7 @@
         "en": "daughter",
         "es": "hija",
         "speaker": "B",
+        "translit": "nǚ ér , nǐ zhè xiǎo gū niáng",
         "zh": "女儿,你这小姑娘"
       },
       {
@@ -1279,6 +5164,7 @@
         "en": "child",
         "es": "niño/a",
         "speaker": "A",
+        "translit": "ér tóng",
         "zh": "儿童"
       },
       {
@@ -1286,6 +5172,7 @@
         "en": "brother",
         "es": "hermano",
         "speaker": "B",
+        "translit": "gē gē , nǐ zhè hùn dàn",
         "zh": "哥哥,你这混蛋"
       },
       {
@@ -1293,6 +5180,7 @@
         "en": "sister",
         "es": "hermana",
         "speaker": "A",
+        "translit": "jiě jiě , nǐ zhè xiǎo gū niáng",
         "zh": "姐姐,你这小姑娘"
       },
       {
@@ -1300,6 +5188,7 @@
         "en": "brothers",
         "es": "hermanos",
         "speaker": "B",
+        "translit": "gē gē men",
         "zh": "哥哥们"
       },
       {
@@ -1307,6 +5196,7 @@
         "en": "paternal grandfather",
         "es": "abuelo paterno",
         "speaker": "A",
+        "translit": "yé yé",
         "zh": "爷爷"
       },
       {
@@ -1314,14 +5204,168 @@
         "en": "Father's grandmother",
         "es": "abuela paterna",
         "speaker": "B",
+        "translit": "fù qīn de wài pó",
         "zh": "父亲的外婆"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "家庭",
+            "answerTranslit": "jiā tíng",
+            "concept": "c:familia-y-personas.familia",
+            "optionTranslit": {
+              "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+              "哥哥们": "gē gē men",
+              "家庭": "jiā tíng",
+              "父亲的外婆": "fù qīn de wài pó"
+            },
+            "options": [
+              "哥哥们",
+              "哥哥,你这混蛋",
+              "父亲的外婆",
+              "家庭"
+            ],
+            "prompt": "familia"
+          },
+          {
+            "answer": "妈妈",
+            "answerTranslit": "mā mā",
+            "concept": "c:familia-y-personas.madre",
+            "optionTranslit": {
+              "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+              "妈妈": "mā mā",
+              "家庭": "jiā tíng",
+              "父亲的外婆": "fù qīn de wài pó"
+            },
+            "options": [
+              "父亲的外婆",
+              "女儿,你这小姑娘",
+              "家庭",
+              "妈妈"
+            ],
+            "prompt": "madre"
+          },
+          {
+            "answer": "父亲",
+            "answerTranslit": "fù qīn",
+            "concept": "c:familia-y-personas.padre",
+            "optionTranslit": {
+              "哥哥们": "gē gē men",
+              "父亲": "fù qīn",
+              "父亲的外婆": "fù qīn de wài pó",
+              "父母亲": "fù mǔ qīn"
+            },
+            "options": [
+              "父亲的外婆",
+              "哥哥们",
+              "父亲",
+              "父母亲"
+            ],
+            "prompt": "padre"
+          },
+          {
+            "answer": "父母亲",
+            "answerTranslit": "fù mǔ qīn",
+            "concept": "c:familia-y-personas.padres",
+            "optionTranslit": {
+              "儿童": "ér tóng",
+              "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+              "家庭": "jiā tíng",
+              "父母亲": "fù mǔ qīn"
+            },
+            "options": [
+              "哥哥,你这混蛋",
+              "父母亲",
+              "家庭",
+              "儿童"
+            ],
+            "prompt": "padres"
+          },
+          {
+            "answer": "儿童",
+            "answerTranslit": "ér tóng",
+            "concept": "c:familia-y-personas.hijo",
+            "optionTranslit": {
+              "儿童": "ér tóng",
+              "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+              "妈妈": "mā mā",
+              "爷爷": "yé yé"
+            },
+            "options": [
+              "女儿,你这小姑娘",
+              "爷爷",
+              "妈妈",
+              "儿童"
+            ],
+            "prompt": "hijo"
+          },
+          {
+            "answer": "女儿,你这小姑娘",
+            "answerTranslit": "nǚ ér , nǐ zhè xiǎo gū niáng",
+            "concept": "c:familia-y-personas.hija",
+            "optionTranslit": {
+              "儿童": "ér tóng",
+              "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+              "妈妈": "mā mā",
+              "父母亲": "fù mǔ qīn"
+            },
+            "options": [
+              "儿童",
+              "女儿,你这小姑娘",
+              "妈妈",
+              "父母亲"
+            ],
+            "prompt": "hija"
+          },
+          {
+            "answer": "儿童",
+            "answerTranslit": "ér tóng",
+            "concept": "c:familia-y-personas.nino-a",
+            "optionTranslit": {
+              "儿童": "ér tóng",
+              "哥哥们": "gē gē men",
+              "父母亲": "fù mǔ qīn",
+              "爷爷": "yé yé"
+            },
+            "options": [
+              "儿童",
+              "哥哥们",
+              "爷爷",
+              "父母亲"
+            ],
+            "prompt": "niño/a"
+          },
+          {
+            "answer": "哥哥,你这混蛋",
+            "answerTranslit": "gē gē , nǐ zhè hùn dàn",
+            "concept": "c:familia-y-personas.hermano",
+            "optionTranslit": {
+              "儿童": "ér tóng",
+              "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+              "哥哥们": "gē gē men",
+              "妈妈": "mā mā"
+            },
+            "options": [
+              "妈妈",
+              "哥哥,你这混蛋",
+              "儿童",
+              "哥哥们"
+            ],
+            "prompt": "hermano"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Words to refer to family and the people around you.",
-      "es": "Palabras para referirse a la familia y a las personas cercanas.",
-      "zh": "指亲相近之人所出."
+      "es": "Palabras para referirse a la familia y a las personas cercanas."
     },
     "generator": "build_lessons",
     "id": "zh-u4-l1",
@@ -1335,10 +5379,6 @@
       "es": [
         "Nombrar a los miembros de la familia",
         "Hablar de personas"
-      ],
-      "zh": [
-        "任命家庭成员",
-        "说人"
       ]
     },
     "tables": [
@@ -1416,8 +5456,7 @@
     ],
     "title": {
       "en": "Family and people",
-      "es": "La familia y las personas",
-      "zh": "家庭和个人"
+      "es": "La familia y las personas"
     },
     "unit": 4
   },
@@ -1442,6 +5481,7 @@
         "en": "body",
         "es": "cuerpo",
         "speaker": "A",
+        "translit": "tǐ xíng",
         "zh": "体型"
       },
       {
@@ -1449,6 +5489,7 @@
         "en": "head",
         "es": "cabeza",
         "speaker": "B",
+        "translit": "tóu",
         "zh": "头"
       },
       {
@@ -1456,6 +5497,7 @@
         "en": "hair / hair-",
         "es": "cabello / pelo",
         "speaker": "A",
+        "translit": "fà xíng / fà xíng",
         "zh": "发型/发型"
       },
       {
@@ -1463,6 +5505,7 @@
         "en": "face / side",
         "es": "cara / rostro",
         "speaker": "B",
+        "translit": "xiāng / cè",
         "zh": "相/侧"
       },
       {
@@ -1470,6 +5513,7 @@
         "en": "front",
         "es": "frente",
         "speaker": "A",
+        "translit": "qián miàn",
         "zh": "前面"
       },
       {
@@ -1477,6 +5521,7 @@
         "en": "eye",
         "es": "ojo",
         "speaker": "B",
+        "translit": "shuāng yǎn",
         "zh": "双眼"
       },
       {
@@ -1484,6 +5529,7 @@
         "en": "eyes",
         "es": "ojos",
         "speaker": "A",
+        "translit": "yǎn jīng ( shuāng yǎn )",
         "zh": "眼睛(双眼)"
       },
       {
@@ -1491,6 +5537,7 @@
         "en": "Beef",
         "es": "ceja",
         "speaker": "B",
+        "translit": "niú ròu",
         "zh": "牛肉"
       },
       {
@@ -1498,6 +5545,7 @@
         "en": "eyelid / tab",
         "es": "párpado / pestaña",
         "speaker": "A",
+        "translit": "yǎn pí /  biāo qiān",
         "zh": "眼皮/ 标签"
       },
       {
@@ -1505,6 +5553,7 @@
         "en": "ear / ears",
         "es": "oreja / oído",
         "speaker": "B",
+        "translit": "ěr duǒ / ěr duǒ",
         "zh": "耳朵/耳朵"
       },
       {
@@ -1512,6 +5561,7 @@
         "en": "nose",
         "es": "nariz",
         "speaker": "A",
+        "translit": "bí tóu",
         "zh": "鼻头"
       },
       {
@@ -1519,14 +5569,168 @@
         "en": "mouth",
         "es": "boca",
         "speaker": "B",
+        "translit": "kǒu hào",
         "zh": "口号"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "体型",
+            "answerTranslit": "tǐ xíng",
+            "concept": "c:cuerpo-humano.cuerpo",
+            "optionTranslit": {
+              "体型": "tǐ xíng",
+              "前面": "qián miàn",
+              "眼皮/ 标签": "yǎn pí /  biāo qiān",
+              "眼睛(双眼)": "yǎn jīng ( shuāng yǎn )"
+            },
+            "options": [
+              "眼睛(双眼)",
+              "体型",
+              "前面",
+              "眼皮/ 标签"
+            ],
+            "prompt": "cuerpo"
+          },
+          {
+            "answer": "头",
+            "answerTranslit": "tóu",
+            "concept": "c:cuerpo-humano.cabeza",
+            "optionTranslit": {
+              "双眼": "shuāng yǎn",
+              "口号": "kǒu hào",
+              "头": "tóu",
+              "眼睛(双眼)": "yǎn jīng ( shuāng yǎn )"
+            },
+            "options": [
+              "双眼",
+              "头",
+              "口号",
+              "眼睛(双眼)"
+            ],
+            "prompt": "cabeza"
+          },
+          {
+            "answer": "发型/发型",
+            "answerTranslit": "fà xíng / fà xíng",
+            "concept": "c:cuerpo-humano.cabello-pelo",
+            "optionTranslit": {
+              "前面": "qián miàn",
+              "发型/发型": "fà xíng / fà xíng",
+              "牛肉": "niú ròu",
+              "鼻头": "bí tóu"
+            },
+            "options": [
+              "鼻头",
+              "牛肉",
+              "发型/发型",
+              "前面"
+            ],
+            "prompt": "cabello / pelo"
+          },
+          {
+            "answer": "相/侧",
+            "answerTranslit": "xiāng / cè",
+            "concept": "c:cuerpo-humano.cara-rostro",
+            "optionTranslit": {
+              "体型": "tǐ xíng",
+              "发型/发型": "fà xíng / fà xíng",
+              "相/侧": "xiāng / cè",
+              "眼睛(双眼)": "yǎn jīng ( shuāng yǎn )"
+            },
+            "options": [
+              "体型",
+              "相/侧",
+              "发型/发型",
+              "眼睛(双眼)"
+            ],
+            "prompt": "cara / rostro"
+          },
+          {
+            "answer": "前面",
+            "answerTranslit": "qián miàn",
+            "concept": "c:cuerpo-humano.frente",
+            "optionTranslit": {
+              "前面": "qián miàn",
+              "双眼": "shuāng yǎn",
+              "发型/发型": "fà xíng / fà xíng",
+              "眼睛(双眼)": "yǎn jīng ( shuāng yǎn )"
+            },
+            "options": [
+              "发型/发型",
+              "前面",
+              "双眼",
+              "眼睛(双眼)"
+            ],
+            "prompt": "frente"
+          },
+          {
+            "answer": "双眼",
+            "answerTranslit": "shuāng yǎn",
+            "concept": "c:cuerpo-humano.ojo",
+            "optionTranslit": {
+              "前面": "qián miàn",
+              "双眼": "shuāng yǎn",
+              "头": "tóu",
+              "眼皮/ 标签": "yǎn pí /  biāo qiān"
+            },
+            "options": [
+              "前面",
+              "双眼",
+              "眼皮/ 标签",
+              "头"
+            ],
+            "prompt": "ojo"
+          },
+          {
+            "answer": "眼睛(双眼)",
+            "answerTranslit": "yǎn jīng ( shuāng yǎn )",
+            "concept": "c:cuerpo-humano.ojos",
+            "optionTranslit": {
+              "头": "tóu",
+              "眼睛(双眼)": "yǎn jīng ( shuāng yǎn )",
+              "耳朵/耳朵": "ěr duǒ / ěr duǒ",
+              "鼻头": "bí tóu"
+            },
+            "options": [
+              "眼睛(双眼)",
+              "耳朵/耳朵",
+              "头",
+              "鼻头"
+            ],
+            "prompt": "ojos"
+          },
+          {
+            "answer": "牛肉",
+            "answerTranslit": "niú ròu",
+            "concept": "c:cuerpo-humano.ceja",
+            "optionTranslit": {
+              "前面": "qián miàn",
+              "头": "tóu",
+              "牛肉": "niú ròu",
+              "眼皮/ 标签": "yǎn pí /  biāo qiān"
+            },
+            "options": [
+              "牛肉",
+              "前面",
+              "头",
+              "眼皮/ 标签"
+            ],
+            "prompt": "ceja"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Parts of the body, useful to talk about health and care.",
-      "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
-      "zh": "身体的部件,对讨论健康和保健很有帮助。"
+      "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
     },
     "generator": "build_lessons",
     "id": "zh-u5-l1",
@@ -1540,10 +5744,6 @@
       "es": [
         "Nombrar las partes del cuerpo",
         "Hablar de la salud"
-      ],
-      "zh": [
-        "命名身体部件",
-        "讲健康"
       ]
     },
     "tables": [
@@ -1621,8 +5821,7 @@
     ],
     "title": {
       "en": "The human body",
-      "es": "El cuerpo humano",
-      "zh": "人体"
+      "es": "El cuerpo humano"
     },
     "unit": 5
   },
@@ -1647,6 +5846,7 @@
         "en": "food / eat",
         "es": "comida / comer",
         "speaker": "A",
+        "translit": "shí wù / jìn shí",
         "zh": "食物/进食"
       },
       {
@@ -1654,6 +5854,7 @@
         "en": "food (formal)",
         "es": "comida (formal)",
         "speaker": "B",
+        "translit": "liáng shí ( zhèng guī )",
         "zh": "粮食(正规)"
       },
       {
@@ -1661,6 +5862,7 @@
         "en": "breakfast",
         "es": "desayuno",
         "speaker": "A",
+        "translit": "zǎo cān   zǎo fàn",
         "zh": "早餐 早饭"
       },
       {
@@ -1668,6 +5870,7 @@
         "en": "lunch",
         "es": "almuerzo",
         "speaker": "B",
+        "translit": "wǔ fàn",
         "zh": "午饭"
       },
       {
@@ -1675,6 +5878,7 @@
         "en": "dinner",
         "es": "cena",
         "speaker": "A",
+        "translit": "wǎn fàn",
         "zh": "晚饭"
       },
       {
@@ -1682,6 +5886,7 @@
         "en": "water",
         "es": "agua",
         "speaker": "B",
+        "translit": "shuǐ   shuǐ",
         "zh": "水 水"
       },
       {
@@ -1689,6 +5894,7 @@
         "en": "milk",
         "es": "leche",
         "speaker": "A",
+        "translit": "niú nǎi   niú nǎi",
         "zh": "牛奶 牛奶"
       },
       {
@@ -1696,6 +5902,7 @@
         "en": "tea",
         "es": "té",
         "speaker": "B",
+        "translit": "chá yè",
         "zh": "茶叶"
       },
       {
@@ -1703,6 +5910,7 @@
         "en": "coffee",
         "es": "café",
         "speaker": "A",
+        "translit": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
         "zh": "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡"
       },
       {
@@ -1710,6 +5918,7 @@
         "en": "juice / juices",
         "es": "zumo / jugo",
         "speaker": "B",
+        "translit": "guǒ zhī / guǒ zhī ( hán shuǐ )",
         "zh": "果汁/果汁(含水)"
       },
       {
@@ -1717,6 +5926,7 @@
         "en": "lassi (yoghurt beaten)",
         "es": "lassi (yogur batido)",
         "speaker": "A",
+        "translit": "là xī ( bèi yóu tài jiào ōu dǎ )",
         "zh": "腊西(被犹太教殴打)"
       },
       {
@@ -1724,14 +5934,168 @@
         "en": "alcohol / wine",
         "es": "alcohol / vino",
         "speaker": "B",
+        "translit": "jiǔ / jiǔ ( jiǔ )  jiǔ ( jiǔ )  jiǔ ( jiǔ )",
         "zh": "酒/酒(酒) 酒(酒) 酒(酒)"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "食物/进食",
+            "answerTranslit": "shí wù / jìn shí",
+            "concept": "c:comida-y-bebida.comida-comer",
+            "optionTranslit": {
+              "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
+              "果汁/果汁(含水)": "guǒ zhī / guǒ zhī ( hán shuǐ )",
+              "酒/酒(酒) 酒(酒) 酒(酒)": "jiǔ / jiǔ ( jiǔ )  jiǔ ( jiǔ )  jiǔ ( jiǔ )",
+              "食物/进食": "shí wù / jìn shí"
+            },
+            "options": [
+              "果汁/果汁(含水)",
+              "食物/进食",
+              "酒/酒(酒) 酒(酒) 酒(酒)",
+              "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡"
+            ],
+            "prompt": "comida / comer"
+          },
+          {
+            "answer": "粮食(正规)",
+            "answerTranslit": "liáng shí ( zhèng guī )",
+            "concept": "c:comida-y-bebida.comida-formal",
+            "optionTranslit": {
+              "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
+              "粮食(正规)": "liáng shí ( zhèng guī )",
+              "酒/酒(酒) 酒(酒) 酒(酒)": "jiǔ / jiǔ ( jiǔ )  jiǔ ( jiǔ )  jiǔ ( jiǔ )",
+              "食物/进食": "shí wù / jìn shí"
+            },
+            "options": [
+              "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡",
+              "食物/进食",
+              "粮食(正规)",
+              "酒/酒(酒) 酒(酒) 酒(酒)"
+            ],
+            "prompt": "comida (formal)"
+          },
+          {
+            "answer": "早餐 早饭",
+            "answerTranslit": "zǎo cān   zǎo fàn",
+            "concept": "c:comida-y-bebida.desayuno",
+            "optionTranslit": {
+              "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
+              "早餐 早饭": "zǎo cān   zǎo fàn",
+              "粮食(正规)": "liáng shí ( zhèng guī )",
+              "食物/进食": "shí wù / jìn shí"
+            },
+            "options": [
+              "粮食(正规)",
+              "早餐 早饭",
+              "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡",
+              "食物/进食"
+            ],
+            "prompt": "desayuno"
+          },
+          {
+            "answer": "午饭",
+            "answerTranslit": "wǔ fàn",
+            "concept": "c:comida-y-bebida.almuerzo",
+            "optionTranslit": {
+              "午饭": "wǔ fàn",
+              "水 水": "shuǐ   shuǐ",
+              "粮食(正规)": "liáng shí ( zhèng guī )",
+              "食物/进食": "shí wù / jìn shí"
+            },
+            "options": [
+              "水 水",
+              "午饭",
+              "粮食(正规)",
+              "食物/进食"
+            ],
+            "prompt": "almuerzo"
+          },
+          {
+            "answer": "晚饭",
+            "answerTranslit": "wǎn fàn",
+            "concept": "c:comida-y-bebida.cena",
+            "optionTranslit": {
+              "早餐 早饭": "zǎo cān   zǎo fàn",
+              "晚饭": "wǎn fàn",
+              "水 水": "shuǐ   shuǐ",
+              "茶叶": "chá yè"
+            },
+            "options": [
+              "茶叶",
+              "水 水",
+              "早餐 早饭",
+              "晚饭"
+            ],
+            "prompt": "cena"
+          },
+          {
+            "answer": "水 水",
+            "answerTranslit": "shuǐ   shuǐ",
+            "concept": "c:comida-y-bebida.agua",
+            "optionTranslit": {
+              "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
+              "早餐 早饭": "zǎo cān   zǎo fàn",
+              "水 水": "shuǐ   shuǐ",
+              "牛奶 牛奶": "niú nǎi   niú nǎi"
+            },
+            "options": [
+              "水 水",
+              "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡",
+              "牛奶 牛奶",
+              "早餐 早饭"
+            ],
+            "prompt": "agua"
+          },
+          {
+            "answer": "牛奶 牛奶",
+            "answerTranslit": "niú nǎi   niú nǎi",
+            "concept": "c:comida-y-bebida.leche",
+            "optionTranslit": {
+              "晚饭": "wǎn fàn",
+              "牛奶 牛奶": "niú nǎi   niú nǎi",
+              "腊西(被犹太教殴打)": "là xī ( bèi yóu tài jiào ōu dǎ )",
+              "酒/酒(酒) 酒(酒) 酒(酒)": "jiǔ / jiǔ ( jiǔ )  jiǔ ( jiǔ )  jiǔ ( jiǔ )"
+            },
+            "options": [
+              "晚饭",
+              "腊西(被犹太教殴打)",
+              "牛奶 牛奶",
+              "酒/酒(酒) 酒(酒) 酒(酒)"
+            ],
+            "prompt": "leche"
+          },
+          {
+            "answer": "茶叶",
+            "answerTranslit": "chá yè",
+            "concept": "c:comida-y-bebida.te",
+            "optionTranslit": {
+              "午饭": "wǔ fàn",
+              "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
+              "晚饭": "wǎn fàn",
+              "茶叶": "chá yè"
+            },
+            "options": [
+              "晚饭",
+              "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡",
+              "茶叶",
+              "午饭"
+            ],
+            "prompt": "té"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Basic foods and drinks, very useful when shopping or eating out.",
-      "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
-      "zh": "基本食物和饮料,在外购入或吃时非常有用."
+      "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
     },
     "generator": "build_lessons",
     "id": "zh-u6-l1",
@@ -1745,10 +6109,6 @@
       "es": [
         "Nombrar alimentos y bebidas",
         "Pedir en un restaurante"
-      ],
-      "zh": [
-        "指定食物和饮料",
-        "问问餐厅"
       ]
     },
     "tables": [
@@ -1826,8 +6186,7 @@
     ],
     "title": {
       "en": "Food and drink",
-      "es": "La comida y la bebida",
-      "zh": "食物和饮料"
+      "es": "La comida y la bebida"
     },
     "unit": 6
   },
@@ -1852,6 +6211,7 @@
         "en": "Home / home",
         "es": "casa / hogar",
         "speaker": "A",
+        "translit": "jiā / jiā   jiā  ( zhōng wén ( jiǎn tǐ ) ).",
         "zh": "家/家 家 (中文(简体) )."
       },
       {
@@ -1859,6 +6219,7 @@
         "en": "building / house",
         "es": "edificio / casa",
         "speaker": "B",
+        "translit": "jiàn zhù / zhù fáng",
         "zh": "建筑/住房"
       },
       {
@@ -1866,6 +6227,7 @@
         "en": "apartment",
         "es": "apartamento",
         "speaker": "A",
+        "translit": "gōng yù (  gōng yù )",
         "zh": "公寓( 公寓)"
       },
       {
@@ -1873,6 +6235,7 @@
         "en": "room / bedroom",
         "es": "habitación / cuarto",
         "speaker": "B",
+        "translit": "fáng jiān / wò shì",
         "zh": "房间/卧室"
       },
       {
@@ -1880,6 +6243,7 @@
         "en": "living room",
         "es": "sala de estar",
         "speaker": "A",
+        "translit": "kè tīng",
         "zh": "客厅"
       },
       {
@@ -1887,6 +6251,7 @@
         "en": "bedroom",
         "es": "dormitorio",
         "speaker": "B",
+        "translit": "wò shì",
         "zh": "卧室"
       },
       {
@@ -1894,6 +6259,7 @@
         "en": "kitchen (room)",
         "es": "cocina (habitación)",
         "speaker": "A",
+        "translit": "chú fáng ( fáng jiān )",
         "zh": "厨房(房间)"
       },
       {
@@ -1901,6 +6267,7 @@
         "en": "bathroom",
         "es": "baño",
         "speaker": "B",
+        "translit": "wèi shēng jiān",
         "zh": "卫生间"
       },
       {
@@ -1908,6 +6275,7 @@
         "en": "toilet / sink",
         "es": "inodoro / lavabo",
         "speaker": "A",
+        "translit": "cè suǒ / shuǐ cáo",
         "zh": "厕所/水槽"
       },
       {
@@ -1915,6 +6283,7 @@
         "en": "balcony",
         "es": "balcón",
         "speaker": "B",
+        "translit": "yáng tái",
         "zh": "阳台"
       },
       {
@@ -1922,6 +6291,7 @@
         "en": "roof / rooftop",
         "es": "techo / azotea",
         "speaker": "A",
+        "translit": "wū dǐng / wū dǐng",
         "zh": "屋顶/屋顶"
       },
       {
@@ -1929,14 +6299,168 @@
         "en": "wall",
         "es": "pared",
         "speaker": "B",
+        "translit": "qiáng",
         "zh": "墙"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "家/家 家 (中文(简体) ).",
+            "answerTranslit": "jiā / jiā   jiā  ( zhōng wén ( jiǎn tǐ ) ).",
+            "concept": "c:casa-y-hogar.casa-hogar",
+            "optionTranslit": {
+              "公寓( 公寓)": "gōng yù (  gōng yù )",
+              "客厅": "kè tīng",
+              "家/家 家 (中文(简体) ).": "jiā / jiā   jiā  ( zhōng wén ( jiǎn tǐ ) ).",
+              "屋顶/屋顶": "wū dǐng / wū dǐng"
+            },
+            "options": [
+              "屋顶/屋顶",
+              "客厅",
+              "公寓( 公寓)",
+              "家/家 家 (中文(简体) )."
+            ],
+            "prompt": "casa / hogar"
+          },
+          {
+            "answer": "建筑/住房",
+            "answerTranslit": "jiàn zhù / zhù fáng",
+            "concept": "c:casa-y-hogar.edificio-casa",
+            "optionTranslit": {
+              "厕所/水槽": "cè suǒ / shuǐ cáo",
+              "建筑/住房": "jiàn zhù / zhù fáng",
+              "房间/卧室": "fáng jiān / wò shì",
+              "阳台": "yáng tái"
+            },
+            "options": [
+              "厕所/水槽",
+              "建筑/住房",
+              "房间/卧室",
+              "阳台"
+            ],
+            "prompt": "edificio / casa"
+          },
+          {
+            "answer": "公寓( 公寓)",
+            "answerTranslit": "gōng yù (  gōng yù )",
+            "concept": "c:casa-y-hogar.apartamento",
+            "optionTranslit": {
+              "公寓( 公寓)": "gōng yù (  gōng yù )",
+              "卧室": "wò shì",
+              "家/家 家 (中文(简体) ).": "jiā / jiā   jiā  ( zhōng wén ( jiǎn tǐ ) ).",
+              "屋顶/屋顶": "wū dǐng / wū dǐng"
+            },
+            "options": [
+              "卧室",
+              "公寓( 公寓)",
+              "屋顶/屋顶",
+              "家/家 家 (中文(简体) )."
+            ],
+            "prompt": "apartamento"
+          },
+          {
+            "answer": "房间/卧室",
+            "answerTranslit": "fáng jiān / wò shì",
+            "concept": "c:casa-y-hogar.habitacion-cuarto",
+            "optionTranslit": {
+              "卫生间": "wèi shēng jiān",
+              "墙": "qiáng",
+              "客厅": "kè tīng",
+              "房间/卧室": "fáng jiān / wò shì"
+            },
+            "options": [
+              "房间/卧室",
+              "墙",
+              "客厅",
+              "卫生间"
+            ],
+            "prompt": "habitación / cuarto"
+          },
+          {
+            "answer": "客厅",
+            "answerTranslit": "kè tīng",
+            "concept": "c:casa-y-hogar.sala-de-estar",
+            "optionTranslit": {
+              "卧室": "wò shì",
+              "厕所/水槽": "cè suǒ / shuǐ cáo",
+              "墙": "qiáng",
+              "客厅": "kè tīng"
+            },
+            "options": [
+              "厕所/水槽",
+              "卧室",
+              "墙",
+              "客厅"
+            ],
+            "prompt": "sala de estar"
+          },
+          {
+            "answer": "卧室",
+            "answerTranslit": "wò shì",
+            "concept": "c:casa-y-hogar.dormitorio",
+            "optionTranslit": {
+              "公寓( 公寓)": "gōng yù (  gōng yù )",
+              "卧室": "wò shì",
+              "卫生间": "wèi shēng jiān",
+              "墙": "qiáng"
+            },
+            "options": [
+              "卧室",
+              "公寓( 公寓)",
+              "卫生间",
+              "墙"
+            ],
+            "prompt": "dormitorio"
+          },
+          {
+            "answer": "厨房(房间)",
+            "answerTranslit": "chú fáng ( fáng jiān )",
+            "concept": "c:casa-y-hogar.cocina-habitacion",
+            "optionTranslit": {
+              "厨房(房间)": "chú fáng ( fáng jiān )",
+              "屋顶/屋顶": "wū dǐng / wū dǐng",
+              "房间/卧室": "fáng jiān / wò shì",
+              "阳台": "yáng tái"
+            },
+            "options": [
+              "屋顶/屋顶",
+              "厨房(房间)",
+              "阳台",
+              "房间/卧室"
+            ],
+            "prompt": "cocina (habitación)"
+          },
+          {
+            "answer": "卫生间",
+            "answerTranslit": "wèi shēng jiān",
+            "concept": "c:casa-y-hogar.bano",
+            "optionTranslit": {
+              "卫生间": "wèi shēng jiān",
+              "墙": "qiáng",
+              "客厅": "kè tīng",
+              "屋顶/屋顶": "wū dǐng / wū dǐng"
+            },
+            "options": [
+              "卫生间",
+              "墙",
+              "客厅",
+              "屋顶/屋顶"
+            ],
+            "prompt": "baño"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "House vocabulary: rooms, furniture and everyday objects.",
-      "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos.",
-      "zh": "房屋词汇:房间,家具和日常物品."
+      "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
     },
     "generator": "build_lessons",
     "id": "zh-u7-l1",
@@ -1950,10 +6474,6 @@
       "es": [
         "Nombrar partes de la casa",
         "Describir objetos del hogar"
-      ],
-      "zh": [
-        "房子的单位名称",
-        "描述家庭对象"
       ]
     },
     "tables": [
@@ -2031,8 +6551,7 @@
     ],
     "title": {
       "en": "Home and household",
-      "es": "La casa y el hogar",
-      "zh": "房子和家 房子和家 房子和家 房子和家 房子和家 房子和家 房子和家"
+      "es": "La casa y el hogar"
     },
     "unit": 7
   },
@@ -2057,6 +6576,7 @@
         "en": "time / hour",
         "es": "tiempo / hora",
         "speaker": "A",
+        "translit": "shí jiān / xiǎo shí",
         "zh": "时间/小时"
       },
       {
@@ -2064,6 +6584,7 @@
         "en": "clock / time",
         "es": "reloj / hora",
         "speaker": "B",
+        "translit": "shí zhōng / shí jiān",
         "zh": "时钟/时间"
       },
       {
@@ -2071,6 +6592,7 @@
         "en": "minute",
         "es": "minuto",
         "speaker": "A",
+        "translit": "fēn zhōng",
         "zh": "分钟"
       },
       {
@@ -2078,6 +6600,7 @@
         "en": "second (time)",
         "es": "segundo (tiempo)",
         "speaker": "B",
+        "translit": "dì èr cì ( shí jiān )",
         "zh": "第二次(时间)"
       },
       {
@@ -2085,6 +6608,7 @@
         "en": "time (duration)",
         "es": "hora (duración)",
         "speaker": "A",
+        "translit": "shí jiān (  qī xiàn )",
         "zh": "时间( 期限)"
       },
       {
@@ -2092,6 +6616,7 @@
         "en": "(early)",
         "es": "mañana (temprano)",
         "speaker": "B",
+        "translit": "( zǎo )  wèn .",
         "zh": "(早) 问."
       },
       {
@@ -2099,6 +6624,7 @@
         "en": "noon / afternoon",
         "es": "mediodía / tarde",
         "speaker": "A",
+        "translit": "zhōng wǔ / xià wǔ",
         "zh": "中午/下午"
       },
       {
@@ -2106,6 +6632,7 @@
         "en": "late / evening",
         "es": "tarde / atardecer",
         "speaker": "B",
+        "translit": "wǎn / wǎn shàng (  wǎn shàng )",
         "zh": "晚/晚上( 晚上)"
       },
       {
@@ -2113,6 +6640,7 @@
         "en": "night",
         "es": "noche",
         "speaker": "A",
+        "translit": "wǎn shàng (  wǎn shàng )",
         "zh": "晚上( 晚上)"
       },
       {
@@ -2120,6 +6648,7 @@
         "en": "midnight",
         "es": "medianoche",
         "speaker": "B",
+        "translit": "wǔ yè shí fēn",
         "zh": "午夜时分"
       },
       {
@@ -2127,6 +6656,7 @@
         "en": "day",
         "es": "día",
         "speaker": "A",
+        "translit": "rì shù",
         "zh": "日数"
       },
       {
@@ -2134,14 +6664,168 @@
         "en": "Today",
         "es": "hoy",
         "speaker": "B",
+        "translit": "jīn tiān , wǒ men lái",
         "zh": "今天,我们来"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "时间/小时",
+            "answerTranslit": "shí jiān / xiǎo shí",
+            "concept": "c:tiempo-y-calendario.tiempo-hora",
+            "optionTranslit": {
+              "(早) 问.": "( zǎo )  wèn .",
+              "今天,我们来": "jīn tiān , wǒ men lái",
+              "分钟": "fēn zhōng",
+              "时间/小时": "shí jiān / xiǎo shí"
+            },
+            "options": [
+              "(早) 问.",
+              "今天,我们来",
+              "时间/小时",
+              "分钟"
+            ],
+            "prompt": "tiempo / hora"
+          },
+          {
+            "answer": "时钟/时间",
+            "answerTranslit": "shí zhōng / shí jiān",
+            "concept": "c:tiempo-y-calendario.reloj-hora",
+            "optionTranslit": {
+              "中午/下午": "zhōng wǔ / xià wǔ",
+              "午夜时分": "wǔ yè shí fēn",
+              "时钟/时间": "shí zhōng / shí jiān",
+              "晚上( 晚上)": "wǎn shàng (  wǎn shàng )"
+            },
+            "options": [
+              "时钟/时间",
+              "中午/下午",
+              "晚上( 晚上)",
+              "午夜时分"
+            ],
+            "prompt": "reloj / hora"
+          },
+          {
+            "answer": "分钟",
+            "answerTranslit": "fēn zhōng",
+            "concept": "c:tiempo-y-calendario.minuto",
+            "optionTranslit": {
+              "中午/下午": "zhōng wǔ / xià wǔ",
+              "分钟": "fēn zhōng",
+              "日数": "rì shù",
+              "第二次(时间)": "dì èr cì ( shí jiān )"
+            },
+            "options": [
+              "中午/下午",
+              "第二次(时间)",
+              "分钟",
+              "日数"
+            ],
+            "prompt": "minuto"
+          },
+          {
+            "answer": "第二次(时间)",
+            "answerTranslit": "dì èr cì ( shí jiān )",
+            "concept": "c:tiempo-y-calendario.segundo-tiempo",
+            "optionTranslit": {
+              "午夜时分": "wǔ yè shí fēn",
+              "日数": "rì shù",
+              "晚上( 晚上)": "wǎn shàng (  wǎn shàng )",
+              "第二次(时间)": "dì èr cì ( shí jiān )"
+            },
+            "options": [
+              "第二次(时间)",
+              "晚上( 晚上)",
+              "午夜时分",
+              "日数"
+            ],
+            "prompt": "segundo (tiempo)"
+          },
+          {
+            "answer": "时间( 期限)",
+            "answerTranslit": "shí jiān (  qī xiàn )",
+            "concept": "c:tiempo-y-calendario.hora-duracion",
+            "optionTranslit": {
+              "分钟": "fēn zhōng",
+              "时钟/时间": "shí zhōng / shí jiān",
+              "时间( 期限)": "shí jiān (  qī xiàn )",
+              "第二次(时间)": "dì èr cì ( shí jiān )"
+            },
+            "options": [
+              "第二次(时间)",
+              "时钟/时间",
+              "时间( 期限)",
+              "分钟"
+            ],
+            "prompt": "hora (duración)"
+          },
+          {
+            "answer": "(早) 问.",
+            "answerTranslit": "( zǎo )  wèn .",
+            "concept": "c:tiempo-y-calendario.manana-temprano",
+            "optionTranslit": {
+              "(早) 问.": "( zǎo )  wèn .",
+              "中午/下午": "zhōng wǔ / xià wǔ",
+              "日数": "rì shù",
+              "时间/小时": "shí jiān / xiǎo shí"
+            },
+            "options": [
+              "(早) 问.",
+              "日数",
+              "时间/小时",
+              "中午/下午"
+            ],
+            "prompt": "mañana (temprano)"
+          },
+          {
+            "answer": "中午/下午",
+            "answerTranslit": "zhōng wǔ / xià wǔ",
+            "concept": "c:tiempo-y-calendario.mediodia-tarde",
+            "optionTranslit": {
+              "中午/下午": "zhōng wǔ / xià wǔ",
+              "今天,我们来": "jīn tiān , wǒ men lái",
+              "分钟": "fēn zhōng",
+              "时间/小时": "shí jiān / xiǎo shí"
+            },
+            "options": [
+              "时间/小时",
+              "分钟",
+              "中午/下午",
+              "今天,我们来"
+            ],
+            "prompt": "mediodía / tarde"
+          },
+          {
+            "answer": "晚/晚上( 晚上)",
+            "answerTranslit": "wǎn / wǎn shàng (  wǎn shàng )",
+            "concept": "c:tiempo-y-calendario.tarde-atardecer",
+            "optionTranslit": {
+              "中午/下午": "zhōng wǔ / xià wǔ",
+              "分钟": "fēn zhōng",
+              "时钟/时间": "shí zhōng / shí jiān",
+              "晚/晚上( 晚上)": "wǎn / wǎn shàng (  wǎn shàng )"
+            },
+            "options": [
+              "时钟/时间",
+              "中午/下午",
+              "晚/晚上( 晚上)",
+              "分钟"
+            ],
+            "prompt": "tarde / atardecer"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Words to place actions in time: days, months and seasons.",
-      "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones.",
-      "zh": "将动作放置在时间上的单词:日,月和季."
+      "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."
     },
     "generator": "build_lessons",
     "id": "zh-u8-l1",
@@ -2155,10 +6839,6 @@
       "es": [
         "Decir días, meses y estaciones",
         "Hablar de fechas"
-      ],
-      "zh": [
-        "有天有月,有季节",
-        "谈起日期"
       ]
     },
     "tables": [
@@ -2236,8 +6916,7 @@
     ],
     "title": {
       "en": "Time and calendar",
-      "es": "El tiempo y el calendario",
-      "zh": "时间和日历"
+      "es": "El tiempo y el calendario"
     },
     "unit": 8
   },
@@ -2262,6 +6941,7 @@
         "en": "animal",
         "es": "animal",
         "speaker": "A",
+        "translit": "dòng wù",
         "zh": "动物"
       },
       {
@@ -2269,6 +6949,7 @@
         "en": "dog",
         "es": "perro",
         "speaker": "B",
+        "translit": "gǒu lèi",
         "zh": "狗类"
       },
       {
@@ -2276,6 +6957,7 @@
         "en": "cat",
         "es": "gato",
         "speaker": "A",
+        "translit": "māo",
         "zh": "猫"
       },
       {
@@ -2283,6 +6965,7 @@
         "en": "cow",
         "es": "vaca",
         "speaker": "B",
+        "translit": "huáng niú",
         "zh": "黄牛"
       },
       {
@@ -2290,6 +6973,7 @@
         "en": "ox / bull",
         "es": "buey / toro",
         "speaker": "A",
+        "translit": "niú / niú ( gōng niú )",
         "zh": "牛/牛(公牛)"
       },
       {
@@ -2297,6 +6981,7 @@
         "en": "buffalo",
         "es": "búfalo",
         "speaker": "B",
+        "translit": "shuǐ niú duì",
         "zh": "水牛队"
       },
       {
@@ -2304,6 +6989,7 @@
         "en": "horse",
         "es": "caballo",
         "speaker": "A",
+        "translit": "mǎ",
         "zh": "马"
       },
       {
@@ -2311,6 +6997,7 @@
         "en": "donkey / ass",
         "es": "burro / asno",
         "speaker": "B",
+        "translit": "lǘ zi / lǘ zi",
         "zh": "驴子/驴子"
       },
       {
@@ -2318,6 +7005,7 @@
         "en": "goat",
         "es": "cabra",
         "speaker": "A",
+        "translit": "shān yáng ( shān yáng )",
         "zh": "山羊(山羊)"
       },
       {
@@ -2325,6 +7013,7 @@
         "en": "sheep",
         "es": "oveja",
         "speaker": "B",
+        "translit": "yáng tóu",
         "zh": "羊头"
       },
       {
@@ -2332,6 +7021,7 @@
         "en": "pig",
         "es": "cerdo",
         "speaker": "A",
+        "translit": "zhū",
         "zh": "猪"
       },
       {
@@ -2339,14 +7029,168 @@
         "en": "chicken",
         "es": "gallina",
         "speaker": "B",
+        "translit": "jī ròu",
         "zh": "鸡肉"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "动物",
+            "answerTranslit": "dòng wù",
+            "concept": "c:animales.animal",
+            "optionTranslit": {
+              "动物": "dòng wù",
+              "猪": "zhū",
+              "猫": "māo",
+              "马": "mǎ"
+            },
+            "options": [
+              "马",
+              "动物",
+              "猫",
+              "猪"
+            ],
+            "prompt": "animal"
+          },
+          {
+            "answer": "狗类",
+            "answerTranslit": "gǒu lèi",
+            "concept": "c:animales.perro",
+            "optionTranslit": {
+              "动物": "dòng wù",
+              "狗类": "gǒu lèi",
+              "猪": "zhū",
+              "鸡肉": "jī ròu"
+            },
+            "options": [
+              "鸡肉",
+              "狗类",
+              "猪",
+              "动物"
+            ],
+            "prompt": "perro"
+          },
+          {
+            "answer": "猫",
+            "answerTranslit": "māo",
+            "concept": "c:animales.gato",
+            "optionTranslit": {
+              "动物": "dòng wù",
+              "猪": "zhū",
+              "猫": "māo",
+              "马": "mǎ"
+            },
+            "options": [
+              "猫",
+              "猪",
+              "马",
+              "动物"
+            ],
+            "prompt": "gato"
+          },
+          {
+            "answer": "黄牛",
+            "answerTranslit": "huáng niú",
+            "concept": "c:animales.vaca",
+            "optionTranslit": {
+              "牛/牛(公牛)": "niú / niú ( gōng niú )",
+              "猪": "zhū",
+              "猫": "māo",
+              "黄牛": "huáng niú"
+            },
+            "options": [
+              "黄牛",
+              "牛/牛(公牛)",
+              "猫",
+              "猪"
+            ],
+            "prompt": "vaca"
+          },
+          {
+            "answer": "牛/牛(公牛)",
+            "answerTranslit": "niú / niú ( gōng niú )",
+            "concept": "c:animales.buey-toro",
+            "optionTranslit": {
+              "水牛队": "shuǐ niú duì",
+              "牛/牛(公牛)": "niú / niú ( gōng niú )",
+              "狗类": "gǒu lèi",
+              "驴子/驴子": "lǘ zi / lǘ zi"
+            },
+            "options": [
+              "水牛队",
+              "驴子/驴子",
+              "牛/牛(公牛)",
+              "狗类"
+            ],
+            "prompt": "buey / toro"
+          },
+          {
+            "answer": "水牛队",
+            "answerTranslit": "shuǐ niú duì",
+            "concept": "c:animales.bufalo",
+            "optionTranslit": {
+              "动物": "dòng wù",
+              "山羊(山羊)": "shān yáng ( shān yáng )",
+              "水牛队": "shuǐ niú duì",
+              "鸡肉": "jī ròu"
+            },
+            "options": [
+              "水牛队",
+              "山羊(山羊)",
+              "鸡肉",
+              "动物"
+            ],
+            "prompt": "búfalo"
+          },
+          {
+            "answer": "马",
+            "answerTranslit": "mǎ",
+            "concept": "c:animales.caballo",
+            "optionTranslit": {
+              "动物": "dòng wù",
+              "牛/牛(公牛)": "niú / niú ( gōng niú )",
+              "马": "mǎ",
+              "鸡肉": "jī ròu"
+            },
+            "options": [
+              "牛/牛(公牛)",
+              "鸡肉",
+              "动物",
+              "马"
+            ],
+            "prompt": "caballo"
+          },
+          {
+            "answer": "驴子/驴子",
+            "answerTranslit": "lǘ zi / lǘ zi",
+            "concept": "c:animales.burro-asno",
+            "optionTranslit": {
+              "狗类": "gǒu lèi",
+              "羊头": "yáng tóu",
+              "驴子/驴子": "lǘ zi / lǘ zi",
+              "黄牛": "huáng niú"
+            },
+            "options": [
+              "羊头",
+              "狗类",
+              "黄牛",
+              "驴子/驴子"
+            ],
+            "prompt": "burro / asno"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Common animals, both domestic and wild.",
-      "es": "Animales frecuentes, tanto domésticos como salvajes.",
-      "zh": "常出家畜及野生等."
+      "es": "Animales frecuentes, tanto domésticos como salvajes."
     },
     "generator": "build_lessons",
     "id": "zh-u9-l1",
@@ -2360,10 +7204,6 @@
       "es": [
         "Nombrar animales comunes",
         "Describir animales"
-      ],
-      "zh": [
-        "普通动物名称",
-        "描述动物"
       ]
     },
     "tables": [
@@ -2441,8 +7281,7 @@
     ],
     "title": {
       "en": "Animals",
-      "es": "Los animales",
-      "zh": "动物"
+      "es": "Los animales"
     },
     "unit": 9
   }

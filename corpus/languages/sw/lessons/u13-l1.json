@@ -1,0 +1,308 @@
+{
+  "concepts": [
+    "c:verbos-comunes.ser-estar-haber",
+    "c:verbos-comunes.hacer",
+    "c:verbos-comunes.ir",
+    "c:verbos-comunes.venir",
+    "c:verbos-comunes.ver-mirar",
+    "c:verbos-comunes.oir-escuchar",
+    "c:verbos-comunes.hablar-decir",
+    "c:verbos-comunes.decir",
+    "c:verbos-comunes.preguntar",
+    "c:verbos-comunes.contar-explicar",
+    "c:verbos-comunes.entender-comprender",
+    "c:verbos-comunes.saber-conocer"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:verbos-comunes.ser-estar-haber",
+      "en": "be / are",
+      "es": "ser / estar / haber",
+      "speaker": "A",
+      "sw": "kuwa"
+    },
+    {
+      "concept": "c:verbos-comunes.hacer",
+      "en": "do",
+      "es": "hacer",
+      "speaker": "B",
+      "sw": "kufanya"
+    },
+    {
+      "concept": "c:verbos-comunes.ir",
+      "en": "go",
+      "es": "ir",
+      "speaker": "A",
+      "sw": "ir",
+      "translit": "ir"
+    },
+    {
+      "concept": "c:verbos-comunes.venir",
+      "en": "Come",
+      "es": "venir",
+      "speaker": "B",
+      "sw": "kuja"
+    },
+    {
+      "concept": "c:verbos-comunes.ver-mirar",
+      "en": "see / watch",
+      "es": "ver / mirar",
+      "speaker": "A",
+      "sw": "kuona"
+    },
+    {
+      "concept": "c:verbos-comunes.oir-escuchar",
+      "en": "hear / listen",
+      "es": "oír / escuchar",
+      "speaker": "B",
+      "sw": "kusikia"
+    },
+    {
+      "concept": "c:verbos-comunes.hablar-decir",
+      "en": "speak / say",
+      "es": "hablar / decir",
+      "speaker": "A",
+      "sw": "kuzungumza"
+    },
+    {
+      "concept": "c:verbos-comunes.decir",
+      "en": "say",
+      "es": "decir",
+      "speaker": "B",
+      "sw": "kusema"
+    },
+    {
+      "concept": "c:verbos-comunes.preguntar",
+      "en": "ask",
+      "es": "preguntar",
+      "speaker": "A",
+      "sw": "kuuliza"
+    },
+    {
+      "concept": "c:verbos-comunes.contar-explicar",
+      "en": "count / explain",
+      "es": "contar / explicar",
+      "speaker": "B",
+      "sw": "kueleza"
+    },
+    {
+      "concept": "c:verbos-comunes.entender-comprender",
+      "en": "understand / comprehend",
+      "es": "entender / comprender",
+      "speaker": "A",
+      "sw": "kuelewa"
+    },
+    {
+      "concept": "c:verbos-comunes.saber-conocer",
+      "en": "know / understand",
+      "es": "saber / conocer",
+      "speaker": "B",
+      "sw": "kujua"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "kuwa",
+          "concept": "c:verbos-comunes.ser-estar-haber",
+          "options": [
+            "kuwa",
+            "kuona",
+            "kuja",
+            "kuuliza"
+          ],
+          "prompt": "ser / estar / haber"
+        },
+        {
+          "answer": "kufanya",
+          "concept": "c:verbos-comunes.hacer",
+          "options": [
+            "kuona",
+            "kufanya",
+            "kueleza",
+            "kusema"
+          ],
+          "prompt": "hacer"
+        },
+        {
+          "answer": "ir",
+          "answerTranslit": "ir",
+          "concept": "c:verbos-comunes.ir",
+          "optionTranslit": {
+            "ir": "ir"
+          },
+          "options": [
+            "ir",
+            "kuwa",
+            "kuelewa",
+            "kuja"
+          ],
+          "prompt": "ir"
+        },
+        {
+          "answer": "kuja",
+          "concept": "c:verbos-comunes.venir",
+          "options": [
+            "kusema",
+            "kuja",
+            "kuelewa",
+            "kuona"
+          ],
+          "prompt": "venir"
+        },
+        {
+          "answer": "kuona",
+          "concept": "c:verbos-comunes.ver-mirar",
+          "optionTranslit": {
+            "ir": "ir"
+          },
+          "options": [
+            "kuona",
+            "kuzungumza",
+            "kujua",
+            "ir"
+          ],
+          "prompt": "ver / mirar"
+        },
+        {
+          "answer": "kusikia",
+          "concept": "c:verbos-comunes.oir-escuchar",
+          "options": [
+            "kusikia",
+            "kuuliza",
+            "kueleza",
+            "kuelewa"
+          ],
+          "prompt": "oír / escuchar"
+        },
+        {
+          "answer": "kuzungumza",
+          "concept": "c:verbos-comunes.hablar-decir",
+          "options": [
+            "kuelewa",
+            "kuzungumza",
+            "kuwa",
+            "kujua"
+          ],
+          "prompt": "hablar / decir"
+        },
+        {
+          "answer": "kusema",
+          "concept": "c:verbos-comunes.decir",
+          "optionTranslit": {
+            "ir": "ir"
+          },
+          "options": [
+            "ir",
+            "kufanya",
+            "kuona",
+            "kusema"
+          ],
+          "prompt": "decir"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "The most frequent verbs, the base for building sentences.",
+    "es": "Los verbos más frecuentes, la base para formar frases."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u13-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Recognise the most common verbs",
+      "Name everyday actions"
+    ],
+    "es": [
+      "Reconocer los verbos más usados",
+      "Nombrar acciones del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "ser / estar / haber",
+          "be / are",
+          "kuwa"
+        ],
+        [
+          "hacer",
+          "do",
+          "kufanya"
+        ],
+        [
+          "ir",
+          "go",
+          "ir"
+        ],
+        [
+          "venir",
+          "Come",
+          "kuja"
+        ],
+        [
+          "ver / mirar",
+          "see / watch",
+          "kuona"
+        ],
+        [
+          "oír / escuchar",
+          "hear / listen",
+          "kusikia"
+        ],
+        [
+          "hablar / decir",
+          "speak / say",
+          "kuzungumza"
+        ],
+        [
+          "decir",
+          "say",
+          "kusema"
+        ],
+        [
+          "preguntar",
+          "ask",
+          "kuuliza"
+        ],
+        [
+          "contar / explicar",
+          "count / explain",
+          "kueleza"
+        ],
+        [
+          "entender / comprender",
+          "understand / comprehend",
+          "kuelewa"
+        ],
+        [
+          "saber / conocer",
+          "know / understand",
+          "kujua"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Common verbs",
+    "es": "Los verbos comunes"
+  },
+  "unit": 13
+}

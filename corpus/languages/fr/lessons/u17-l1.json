@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:educacion-y-aprendizaje.educacion",
+    "c:educacion-y-aprendizaje.escuela",
+    "c:educacion-y-aprendizaje.clase-aula-grado",
+    "c:educacion-y-aprendizaje.leccion",
+    "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+    "c:educacion-y-aprendizaje.materia-tema-asunto",
+    "c:educacion-y-aprendizaje.matematicas",
+    "c:educacion-y-aprendizaje.ciencia",
+    "c:educacion-y-aprendizaje.historia",
+    "c:educacion-y-aprendizaje.geografia",
+    "c:educacion-y-aprendizaje.literatura",
+    "c:educacion-y-aprendizaje.idioma-lengua"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:educacion-y-aprendizaje.educacion",
+      "en": "education",
+      "es": "educación",
+      "fr": "éducation",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.escuela",
+      "en": "school",
+      "es": "escuela",
+      "fr": "école",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+      "en": "class / classroom",
+      "es": "clase / aula / grado",
+      "fr": "cours / salle de classe",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.leccion",
+      "en": "lesson",
+      "es": "lección",
+      "fr": "leçon",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "en": "curriculum / course",
+      "es": "plan de estudios / curso",
+      "fr": "programme / cours",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "en": "subject / topic",
+      "es": "materia / tema / asunto",
+      "fr": "Sujet/sujet",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.matematicas",
+      "en": "mathematics",
+      "es": "matemáticas",
+      "fr": "mathématiques",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.ciencia",
+      "en": "science",
+      "es": "ciencia",
+      "fr": "sciences",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.historia",
+      "en": "history",
+      "es": "historia",
+      "fr": "historique",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.geografia",
+      "en": "geography",
+      "es": "geografía",
+      "fr": "géographie",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.literatura",
+      "en": "literature",
+      "es": "literatura",
+      "fr": "littérature",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+      "en": "language / tongue",
+      "es": "idioma / lengua",
+      "fr": "langue / langue",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "éducation",
+          "concept": "c:educacion-y-aprendizaje.educacion",
+          "options": [
+            "Sujet/sujet",
+            "programme / cours",
+            "langue / langue",
+            "éducation"
+          ],
+          "prompt": "educación"
+        },
+        {
+          "answer": "école",
+          "concept": "c:educacion-y-aprendizaje.escuela",
+          "options": [
+            "Sujet/sujet",
+            "géographie",
+            "mathématiques",
+            "école"
+          ],
+          "prompt": "escuela"
+        },
+        {
+          "answer": "cours / salle de classe",
+          "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+          "options": [
+            "Sujet/sujet",
+            "géographie",
+            "historique",
+            "cours / salle de classe"
+          ],
+          "prompt": "clase / aula / grado"
+        },
+        {
+          "answer": "leçon",
+          "concept": "c:educacion-y-aprendizaje.leccion",
+          "options": [
+            "historique",
+            "langue / langue",
+            "Sujet/sujet",
+            "leçon"
+          ],
+          "prompt": "lección"
+        },
+        {
+          "answer": "programme / cours",
+          "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+          "options": [
+            "école",
+            "géographie",
+            "mathématiques",
+            "programme / cours"
+          ],
+          "prompt": "plan de estudios / curso"
+        },
+        {
+          "answer": "Sujet/sujet",
+          "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+          "options": [
+            "Sujet/sujet",
+            "école",
+            "géographie",
+            "littérature"
+          ],
+          "prompt": "materia / tema / asunto"
+        },
+        {
+          "answer": "mathématiques",
+          "concept": "c:educacion-y-aprendizaje.matematicas",
+          "options": [
+            "langue / langue",
+            "géographie",
+            "mathématiques",
+            "école"
+          ],
+          "prompt": "matemáticas"
+        },
+        {
+          "answer": "sciences",
+          "concept": "c:educacion-y-aprendizaje.ciencia",
+          "options": [
+            "éducation",
+            "mathématiques",
+            "langue / langue",
+            "sciences"
+          ],
+          "prompt": "ciencia"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Words from school and learning.",
+    "es": "Palabras de la escuela y del aprendizaje."
+  },
+  "generator": "build_lessons",
+  "id": "fr-u17-l1",
+  "lang": "fr",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Talk about studies",
+      "Name school and its objects"
+    ],
+    "es": [
+      "Hablar de estudios",
+      "Nombrar la escuela y sus objetos"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "fr"
+      ],
+      "rows": [
+        [
+          "educación",
+          "education",
+          "éducation"
+        ],
+        [
+          "escuela",
+          "school",
+          "école"
+        ],
+        [
+          "clase / aula / grado",
+          "class / classroom",
+          "cours / salle de classe"
+        ],
+        [
+          "lección",
+          "lesson",
+          "leçon"
+        ],
+        [
+          "plan de estudios / curso",
+          "curriculum / course",
+          "programme / cours"
+        ],
+        [
+          "materia / tema / asunto",
+          "subject / topic",
+          "Sujet/sujet"
+        ],
+        [
+          "matemáticas",
+          "mathematics",
+          "mathématiques"
+        ],
+        [
+          "ciencia",
+          "science",
+          "sciences"
+        ],
+        [
+          "historia",
+          "history",
+          "historique"
+        ],
+        [
+          "geografía",
+          "geography",
+          "géographie"
+        ],
+        [
+          "literatura",
+          "literature",
+          "littérature"
+        ],
+        [
+          "idioma / lengua",
+          "language / tongue",
+          "langue / langue"
+        ]
+      ],
+      "title": "es · en · fr",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Education and learning",
+    "es": "La educación y el aprendizaje"
+  },
+  "unit": 17
+}

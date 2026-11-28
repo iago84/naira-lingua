@@ -19,6 +19,7 @@
       "en": "work /",
       "es": "trabajo / labor",
       "speaker": "A",
+      "translit": "gōng zuò / shí jiān",
       "zh": "工作/时间"
     },
     {
@@ -26,6 +27,7 @@
       "en": "employment / work",
       "es": "empleo / trabajo",
       "speaker": "B",
+      "translit": "jiù yè / gōng zuò",
       "zh": "就业/工作"
     },
     {
@@ -33,6 +35,7 @@
       "en": "profession / trade",
       "es": "profesión / oficio",
       "speaker": "A",
+      "translit": "zhí yè / háng yè",
       "zh": "职业/行业"
     },
     {
@@ -40,6 +43,7 @@
       "en": "business / profession",
       "es": "negocio / profesión",
       "speaker": "B",
+      "translit": "shāng yè / zhuān yè",
       "zh": "商业/专业"
     },
     {
@@ -47,6 +51,7 @@
       "en": "company / enterprise",
       "es": "empresa / compañía",
       "speaker": "A",
+      "translit": "gōng sī / qǐ yè",
       "zh": "公司/企业"
     },
     {
@@ -54,6 +59,7 @@
       "en": "office",
       "es": "oficina",
       "speaker": "B",
+      "translit": "bàn gōng shì",
       "zh": "办公室"
     },
     {
@@ -61,6 +67,7 @@
       "en": "office /",
       "es": "oficina / despacho",
       "speaker": "A",
+      "translit": "bàn gōng shì /",
       "zh": "办公室/"
     },
     {
@@ -68,6 +75,7 @@
       "en": "owner / proprietor",
       "es": "dueño / propietario",
       "speaker": "B",
+      "translit": "yōng yǒu zhě / yè zhǔ",
       "zh": "拥有者/业主"
     },
     {
@@ -75,6 +83,7 @@
       "en": "Chief",
       "es": "jefe/a",
       "speaker": "A",
+      "translit": "chù zhǎng",
       "zh": "处长"
     },
     {
@@ -82,6 +91,7 @@
       "en": "employee",
       "es": "empleado/a",
       "speaker": "B",
+      "translit": "gù yuán",
       "zh": "雇员"
     },
     {
@@ -89,6 +99,7 @@
       "en": "- I'm sorry, buddy.",
       "es": "colega",
       "speaker": "A",
+      "translit": "-  duì bù qǐ , huǒ jì 。",
       "zh": "- 对不起,伙计。"
     },
     {
@@ -96,14 +107,168 @@
       "en": "equipment",
       "es": "equipo",
       "speaker": "B",
+      "translit": "shè bèi",
       "zh": "设备"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "工作/时间",
+          "answerTranslit": "gōng zuò / shí jiān",
+          "concept": "c:trabajo-y-profesiones.trabajo-labor",
+          "optionTranslit": {
+            "办公室/": "bàn gōng shì /",
+            "工作/时间": "gōng zuò / shí jiān",
+            "设备": "shè bèi",
+            "雇员": "gù yuán"
+          },
+          "options": [
+            "办公室/",
+            "雇员",
+            "工作/时间",
+            "设备"
+          ],
+          "prompt": "trabajo / labor"
+        },
+        {
+          "answer": "就业/工作",
+          "answerTranslit": "jiù yè / gōng zuò",
+          "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+          "optionTranslit": {
+            "公司/企业": "gōng sī / qǐ yè",
+            "办公室": "bàn gōng shì",
+            "就业/工作": "jiù yè / gōng zuò",
+            "雇员": "gù yuán"
+          },
+          "options": [
+            "就业/工作",
+            "雇员",
+            "办公室",
+            "公司/企业"
+          ],
+          "prompt": "empleo / trabajo"
+        },
+        {
+          "answer": "职业/行业",
+          "answerTranslit": "zhí yè / háng yè",
+          "concept": "c:trabajo-y-profesiones.profesion-oficio",
+          "optionTranslit": {
+            "办公室": "bàn gōng shì",
+            "工作/时间": "gōng zuò / shí jiān",
+            "职业/行业": "zhí yè / háng yè",
+            "雇员": "gù yuán"
+          },
+          "options": [
+            "职业/行业",
+            "工作/时间",
+            "办公室",
+            "雇员"
+          ],
+          "prompt": "profesión / oficio"
+        },
+        {
+          "answer": "商业/专业",
+          "answerTranslit": "shāng yè / zhuān yè",
+          "concept": "c:trabajo-y-profesiones.negocio-profesion",
+          "optionTranslit": {
+            "商业/专业": "shāng yè / zhuān yè",
+            "处长": "chù zhǎng",
+            "工作/时间": "gōng zuò / shí jiān",
+            "雇员": "gù yuán"
+          },
+          "options": [
+            "工作/时间",
+            "处长",
+            "雇员",
+            "商业/专业"
+          ],
+          "prompt": "negocio / profesión"
+        },
+        {
+          "answer": "公司/企业",
+          "answerTranslit": "gōng sī / qǐ yè",
+          "concept": "c:trabajo-y-profesiones.empresa-compania",
+          "optionTranslit": {
+            "公司/企业": "gōng sī / qǐ yè",
+            "商业/专业": "shāng yè / zhuān yè",
+            "工作/时间": "gōng zuò / shí jiān",
+            "拥有者/业主": "yōng yǒu zhě / yè zhǔ"
+          },
+          "options": [
+            "公司/企业",
+            "商业/专业",
+            "拥有者/业主",
+            "工作/时间"
+          ],
+          "prompt": "empresa / compañía"
+        },
+        {
+          "answer": "办公室",
+          "answerTranslit": "bàn gōng shì",
+          "concept": "c:trabajo-y-profesiones.oficina",
+          "optionTranslit": {
+            "办公室": "bàn gōng shì",
+            "办公室/": "bàn gōng shì /",
+            "拥有者/业主": "yōng yǒu zhě / yè zhǔ",
+            "设备": "shè bèi"
+          },
+          "options": [
+            "拥有者/业主",
+            "办公室",
+            "设备",
+            "办公室/"
+          ],
+          "prompt": "oficina"
+        },
+        {
+          "answer": "办公室/",
+          "answerTranslit": "bàn gōng shì /",
+          "concept": "c:trabajo-y-profesiones.oficina-despacho",
+          "optionTranslit": {
+            "办公室": "bàn gōng shì",
+            "办公室/": "bàn gōng shì /",
+            "就业/工作": "jiù yè / gōng zuò",
+            "工作/时间": "gōng zuò / shí jiān"
+          },
+          "options": [
+            "就业/工作",
+            "办公室/",
+            "工作/时间",
+            "办公室"
+          ],
+          "prompt": "oficina / despacho"
+        },
+        {
+          "answer": "拥有者/业主",
+          "answerTranslit": "yōng yǒu zhě / yè zhǔ",
+          "concept": "c:trabajo-y-profesiones.dueno-propietario",
+          "optionTranslit": {
+            "办公室": "bàn gōng shì",
+            "拥有者/业主": "yōng yǒu zhě / yè zhǔ",
+            "职业/行业": "zhí yè / háng yè",
+            "雇员": "gù yuán"
+          },
+          "options": [
+            "职业/行业",
+            "办公室",
+            "拥有者/业主",
+            "雇员"
+          ],
+          "prompt": "dueño / propietario"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Professions and words from the world of work.",
-    "es": "Profesiones y palabras del mundo laboral.",
-    "zh": "业与道相出世间活."
+    "es": "Profesiones y palabras del mundo laboral."
   },
   "generator": "build_lessons",
   "id": "zh-u12-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar profesiones",
       "Hablar del trabajo"
-    ],
-    "zh": [
-      "任命职业",
-      "说到工作"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Work and professions",
-    "es": "El trabajo y las profesiones",
-    "zh": "工作和职业"
+    "es": "El trabajo y las profesiones"
   },
   "unit": 12
 }

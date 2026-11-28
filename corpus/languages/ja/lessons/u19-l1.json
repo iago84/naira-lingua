@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:naturaleza-y-clima.naturaleza",
+    "c:naturaleza-y-clima.arbol",
+    "c:naturaleza-y-clima.planta",
+    "c:naturaleza-y-clima.flor",
+    "c:naturaleza-y-clima.hoja",
+    "c:naturaleza-y-clima.raiz",
+    "c:naturaleza-y-clima.rama",
+    "c:naturaleza-y-clima.tronco-tallo",
+    "c:naturaleza-y-clima.semilla",
+    "c:naturaleza-y-clima.hierba-cesped",
+    "c:naturaleza-y-clima.bosque-selva",
+    "c:naturaleza-y-clima.montana"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:naturaleza-y-clima.naturaleza",
+      "en": "nature",
+      "es": "naturaleza",
+      "ja": "自然と自然の",
+      "speaker": "A",
+      "translit": "shizen to shizen no"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.arbol",
+      "en": "tree",
+      "es": "árbol",
+      "ja": "ツリー",
+      "speaker": "B",
+      "translit": "tsurii"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.planta",
+      "en": "plant",
+      "es": "planta",
+      "ja": "プラント",
+      "speaker": "A",
+      "translit": "puranto"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.flor",
+      "en": "flower",
+      "es": "flor",
+      "ja": "フラワー",
+      "speaker": "B",
+      "translit": "furawaa"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.hoja",
+      "en": "leaf",
+      "es": "hoja",
+      "ja": "リーフレット",
+      "speaker": "A",
+      "translit": "riifuretto"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.raiz",
+      "en": "root",
+      "es": "raíz",
+      "ja": "ルーティング",
+      "speaker": "B",
+      "translit": "ruuteingu"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.rama",
+      "en": "branch",
+      "es": "rama",
+      "ja": "営業部",
+      "speaker": "A",
+      "translit": "eigyoubu"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.tronco-tallo",
+      "en": "trunk / stem",
+      "es": "tronco / tallo",
+      "ja": "トランク/茎",
+      "speaker": "B",
+      "translit": "toranku / kuki"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.semilla",
+      "en": "seed",
+      "es": "semilla",
+      "ja": "シード",
+      "speaker": "A",
+      "translit": "shiido"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.hierba-cesped",
+      "en": "grass / lawn",
+      "es": "hierba / césped",
+      "ja": "草/芝生",
+      "speaker": "B",
+      "translit": "kusa / shibafu"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.bosque-selva",
+      "en": "forest / jungle",
+      "es": "bosque / selva",
+      "ja": "森 /ジャングル",
+      "speaker": "A",
+      "translit": "mori / janguru"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.montana",
+      "en": "mountain",
+      "es": "montaña",
+      "ja": "マウンテン",
+      "speaker": "B",
+      "translit": "maunten"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "自然と自然の",
+          "answerTranslit": "shizen to shizen no",
+          "concept": "c:naturaleza-y-clima.naturaleza",
+          "optionTranslit": {
+            "シード": "shiido",
+            "プラント": "puranto",
+            "ルーティング": "ruuteingu",
+            "自然と自然の": "shizen to shizen no"
+          },
+          "options": [
+            "自然と自然の",
+            "シード",
+            "プラント",
+            "ルーティング"
+          ],
+          "prompt": "naturaleza"
+        },
+        {
+          "answer": "ツリー",
+          "answerTranslit": "tsurii",
+          "concept": "c:naturaleza-y-clima.arbol",
+          "optionTranslit": {
+            "ツリー": "tsurii",
+            "マウンテン": "maunten",
+            "営業部": "eigyoubu",
+            "自然と自然の": "shizen to shizen no"
+          },
+          "options": [
+            "マウンテン",
+            "ツリー",
+            "自然と自然の",
+            "営業部"
+          ],
+          "prompt": "árbol"
+        },
+        {
+          "answer": "プラント",
+          "answerTranslit": "puranto",
+          "concept": "c:naturaleza-y-clima.planta",
+          "optionTranslit": {
+            "シード": "shiido",
+            "ツリー": "tsurii",
+            "プラント": "puranto",
+            "草/芝生": "kusa / shibafu"
+          },
+          "options": [
+            "草/芝生",
+            "ツリー",
+            "シード",
+            "プラント"
+          ],
+          "prompt": "planta"
+        },
+        {
+          "answer": "フラワー",
+          "answerTranslit": "furawaa",
+          "concept": "c:naturaleza-y-clima.flor",
+          "optionTranslit": {
+            "トランク/茎": "toranku / kuki",
+            "フラワー": "furawaa",
+            "営業部": "eigyoubu",
+            "森 /ジャングル": "mori / janguru"
+          },
+          "options": [
+            "営業部",
+            "トランク/茎",
+            "森 /ジャングル",
+            "フラワー"
+          ],
+          "prompt": "flor"
+        },
+        {
+          "answer": "リーフレット",
+          "answerTranslit": "riifuretto",
+          "concept": "c:naturaleza-y-clima.hoja",
+          "optionTranslit": {
+            "シード": "shiido",
+            "ツリー": "tsurii",
+            "リーフレット": "riifuretto",
+            "草/芝生": "kusa / shibafu"
+          },
+          "options": [
+            "リーフレット",
+            "ツリー",
+            "シード",
+            "草/芝生"
+          ],
+          "prompt": "hoja"
+        },
+        {
+          "answer": "ルーティング",
+          "answerTranslit": "ruuteingu",
+          "concept": "c:naturaleza-y-clima.raiz",
+          "optionTranslit": {
+            "トランク/茎": "toranku / kuki",
+            "フラワー": "furawaa",
+            "ルーティング": "ruuteingu",
+            "営業部": "eigyoubu"
+          },
+          "options": [
+            "トランク/茎",
+            "フラワー",
+            "営業部",
+            "ルーティング"
+          ],
+          "prompt": "raíz"
+        },
+        {
+          "answer": "営業部",
+          "answerTranslit": "eigyoubu",
+          "concept": "c:naturaleza-y-clima.rama",
+          "optionTranslit": {
+            "プラント": "puranto",
+            "リーフレット": "riifuretto",
+            "営業部": "eigyoubu",
+            "草/芝生": "kusa / shibafu"
+          },
+          "options": [
+            "リーフレット",
+            "営業部",
+            "草/芝生",
+            "プラント"
+          ],
+          "prompt": "rama"
+        },
+        {
+          "answer": "トランク/茎",
+          "answerTranslit": "toranku / kuki",
+          "concept": "c:naturaleza-y-clima.tronco-tallo",
+          "optionTranslit": {
+            "シード": "shiido",
+            "トランク/茎": "toranku / kuki",
+            "リーフレット": "riifuretto",
+            "草/芝生": "kusa / shibafu"
+          },
+          "options": [
+            "トランク/茎",
+            "リーフレット",
+            "シード",
+            "草/芝生"
+          ],
+          "prompt": "tronco / tallo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Nature, landscapes and weather to talk about the environment.",
+    "es": "Naturaleza, paisajes y clima para hablar del entorno."
+  },
+  "generator": "build_lessons",
+  "id": "ja-u19-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name natural elements",
+      "Talk about weather and seasons"
+    ],
+    "es": [
+      "Nombrar elementos naturales",
+      "Hablar del tiempo y las estaciones"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "naturaleza",
+          "nature",
+          "自然と自然の"
+        ],
+        [
+          "árbol",
+          "tree",
+          "ツリー"
+        ],
+        [
+          "planta",
+          "plant",
+          "プラント"
+        ],
+        [
+          "flor",
+          "flower",
+          "フラワー"
+        ],
+        [
+          "hoja",
+          "leaf",
+          "リーフレット"
+        ],
+        [
+          "raíz",
+          "root",
+          "ルーティング"
+        ],
+        [
+          "rama",
+          "branch",
+          "営業部"
+        ],
+        [
+          "tronco / tallo",
+          "trunk / stem",
+          "トランク/茎"
+        ],
+        [
+          "semilla",
+          "seed",
+          "シード"
+        ],
+        [
+          "hierba / césped",
+          "grass / lawn",
+          "草/芝生"
+        ],
+        [
+          "bosque / selva",
+          "forest / jungle",
+          "森 /ジャングル"
+        ],
+        [
+          "montaña",
+          "mountain",
+          "マウンテン"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Nature and weather",
+    "es": "La naturaleza y el clima"
+  },
+  "unit": 19
+}

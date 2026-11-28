@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Famille",
+          "concept": "c:familia-y-personas.familia",
+          "options": [
+            "frères",
+            "frère",
+            "La grand-mère de père",
+            "Famille"
+          ],
+          "prompt": "familia"
+        },
+        {
+          "answer": "Mère",
+          "concept": "c:familia-y-personas.madre",
+          "options": [
+            "La grand-mère de père",
+            "fille",
+            "Famille",
+            "Mère"
+          ],
+          "prompt": "madre"
+        },
+        {
+          "answer": "Père",
+          "concept": "c:familia-y-personas.padre",
+          "options": [
+            "La grand-mère de père",
+            "frères",
+            "Père",
+            "parents"
+          ],
+          "prompt": "padre"
+        },
+        {
+          "answer": "parents",
+          "concept": "c:familia-y-personas.padres",
+          "options": [
+            "frère",
+            "parents",
+            "Famille",
+            "enfant"
+          ],
+          "prompt": "padres"
+        },
+        {
+          "answer": "enfant",
+          "concept": "c:familia-y-personas.hijo",
+          "options": [
+            "fille",
+            "grand-père paternel",
+            "Mère",
+            "enfant"
+          ],
+          "prompt": "hijo"
+        },
+        {
+          "answer": "fille",
+          "concept": "c:familia-y-personas.hija",
+          "options": [
+            "enfant",
+            "fille",
+            "Mère",
+            "parents"
+          ],
+          "prompt": "hija"
+        },
+        {
+          "answer": "enfant",
+          "concept": "c:familia-y-personas.nino-a",
+          "options": [
+            "enfant",
+            "frères",
+            "grand-père paternel",
+            "parents"
+          ],
+          "prompt": "niño/a"
+        },
+        {
+          "answer": "frère",
+          "concept": "c:familia-y-personas.hermano",
+          "options": [
+            "Mère",
+            "frère",
+            "enfant",
+            "frères"
+          ],
+          "prompt": "hermano"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to refer to family and the people around you.",
-    "es": "Palabras para referirse a la familia y a las personas cercanas.",
-    "fr": "Des mots à faire référence à la famille et aux gens qui sont proches."
+    "es": "Palabras para referirse a la familia y a las personas cercanas."
   },
   "generator": "build_lessons",
   "id": "fr-u4-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar a los miembros de la familia",
       "Hablar de personas"
-    ],
-    "fr": [
-      "Nommer des membres de la famille",
-      "Parlez des gens"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Family and people",
-    "es": "La familia y las personas",
-    "fr": "Famille et individus"
+    "es": "La familia y las personas"
   },
   "unit": 4
 }

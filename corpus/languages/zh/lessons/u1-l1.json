@@ -18,6 +18,7 @@
       "en": "Hello.",
       "es": "hola",
       "speaker": "A",
+      "translit": "nǐ hǎo",
       "zh": "你好"
     },
     {
@@ -25,6 +26,7 @@
       "en": "Good morning.",
       "es": "buenos días",
       "speaker": "B",
+      "translit": "zǎo shàng hǎo",
       "zh": "早上好"
     },
     {
@@ -32,6 +34,7 @@
       "en": "Good afternoon.",
       "es": "buenas tardes",
       "speaker": "A",
+      "translit": "xià wǔ hǎo",
       "zh": "下午好"
     },
     {
@@ -39,6 +42,7 @@
       "en": "Good night.",
       "es": "buenas noches",
       "speaker": "B",
+      "translit": "wǎn ān",
       "zh": "晚安"
     },
     {
@@ -46,6 +50,7 @@
       "en": "Thank you.",
       "es": "gracias",
       "speaker": "A",
+      "translit": "xiè xiè",
       "zh": "谢谢"
     },
     {
@@ -53,6 +58,7 @@
       "en": "Please.",
       "es": "por favor",
       "speaker": "B",
+      "translit": "qǐng",
       "zh": "请"
     },
     {
@@ -60,6 +66,7 @@
       "en": "Excuse me / excuse",
       "es": "perdón / disculpe",
       "speaker": "A",
+      "translit": "duì bù qǐ",
       "zh": "对不起"
     },
     {
@@ -67,6 +74,7 @@
       "en": "Bye.",
       "es": "adiós",
       "speaker": "B",
+      "translit": "zài jiàn",
       "zh": "再见"
     },
     {
@@ -74,6 +82,7 @@
       "en": "See you later.",
       "es": "hasta luego",
       "speaker": "A",
+      "translit": "huí tóu jiàn",
       "zh": "回头见"
     },
     {
@@ -81,6 +90,7 @@
       "en": "Yes",
       "es": "sí",
       "speaker": "B",
+      "translit": "shì",
       "zh": "是"
     },
     {
@@ -88,14 +98,168 @@
       "en": "No.",
       "es": "no",
       "speaker": "A",
+      "translit": "bù",
       "zh": "不"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "你好",
+          "answerTranslit": "nǐ hǎo",
+          "concept": "c:saludos-y-expresiones.hola",
+          "optionTranslit": {
+            "下午好": "xià wǔ hǎo",
+            "你好": "nǐ hǎo",
+            "回头见": "huí tóu jiàn",
+            "请": "qǐng"
+          },
+          "options": [
+            "回头见",
+            "你好",
+            "请",
+            "下午好"
+          ],
+          "prompt": "hola"
+        },
+        {
+          "answer": "早上好",
+          "answerTranslit": "zǎo shàng hǎo",
+          "concept": "c:saludos-y-expresiones.buenos-dias",
+          "optionTranslit": {
+            "对不起": "duì bù qǐ",
+            "早上好": "zǎo shàng hǎo",
+            "是": "shì",
+            "请": "qǐng"
+          },
+          "options": [
+            "是",
+            "对不起",
+            "早上好",
+            "请"
+          ],
+          "prompt": "buenos días"
+        },
+        {
+          "answer": "下午好",
+          "answerTranslit": "xià wǔ hǎo",
+          "concept": "c:saludos-y-expresiones.buenas-tardes",
+          "optionTranslit": {
+            "下午好": "xià wǔ hǎo",
+            "再见": "zài jiàn",
+            "回头见": "huí tóu jiàn",
+            "谢谢": "xiè xiè"
+          },
+          "options": [
+            "下午好",
+            "回头见",
+            "再见",
+            "谢谢"
+          ],
+          "prompt": "buenas tardes"
+        },
+        {
+          "answer": "晚安",
+          "answerTranslit": "wǎn ān",
+          "concept": "c:saludos-y-expresiones.buenas-noches",
+          "optionTranslit": {
+            "你好": "nǐ hǎo",
+            "再见": "zài jiàn",
+            "回头见": "huí tóu jiàn",
+            "晚安": "wǎn ān"
+          },
+          "options": [
+            "回头见",
+            "你好",
+            "晚安",
+            "再见"
+          ],
+          "prompt": "buenas noches"
+        },
+        {
+          "answer": "谢谢",
+          "answerTranslit": "xiè xiè",
+          "concept": "c:saludos-y-expresiones.gracias",
+          "optionTranslit": {
+            "下午好": "xià wǔ hǎo",
+            "你好": "nǐ hǎo",
+            "回头见": "huí tóu jiàn",
+            "谢谢": "xiè xiè"
+          },
+          "options": [
+            "谢谢",
+            "回头见",
+            "你好",
+            "下午好"
+          ],
+          "prompt": "gracias"
+        },
+        {
+          "answer": "请",
+          "answerTranslit": "qǐng",
+          "concept": "c:saludos-y-expresiones.por-favor",
+          "optionTranslit": {
+            "你好": "nǐ hǎo",
+            "早上好": "zǎo shàng hǎo",
+            "请": "qǐng",
+            "谢谢": "xiè xiè"
+          },
+          "options": [
+            "请",
+            "谢谢",
+            "早上好",
+            "你好"
+          ],
+          "prompt": "por favor"
+        },
+        {
+          "answer": "对不起",
+          "answerTranslit": "duì bù qǐ",
+          "concept": "c:saludos-y-expresiones.perdon-disculpe",
+          "optionTranslit": {
+            "不": "bù",
+            "你好": "nǐ hǎo",
+            "回头见": "huí tóu jiàn",
+            "对不起": "duì bù qǐ"
+          },
+          "options": [
+            "你好",
+            "对不起",
+            "回头见",
+            "不"
+          ],
+          "prompt": "perdón / disculpe"
+        },
+        {
+          "answer": "再见",
+          "answerTranslit": "zài jiàn",
+          "concept": "c:saludos-y-expresiones.adios",
+          "optionTranslit": {
+            "不": "bù",
+            "再见": "zài jiàn",
+            "回头见": "huí tóu jiàn",
+            "对不起": "duì bù qǐ"
+          },
+          "options": [
+            "再见",
+            "对不起",
+            "回头见",
+            "不"
+          ],
+          "prompt": "adiós"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic courtesy expressions to open and close a conversation.",
-    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
-    "zh": "基本表达礼节,开口闭口."
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
   },
   "generator": "build_lessons",
   "id": "zh-u1-l1",
@@ -109,10 +273,6 @@
     "es": [
       "Saludar y despedirse",
       "Dar las gracias y pedir por favor"
-    ],
-    "zh": [
-      "问候和道别",
-      "麻烦你多谢一下"
     ]
   },
   "tables": [
@@ -185,8 +345,7 @@
   ],
   "title": {
     "en": "Greetings and courtesy",
-    "es": "Saludos y cortesía",
-    "zh": "问候和礼貌"
+    "es": "Saludos y cortesía"
   },
   "unit": 1
 }

@@ -99,9 +99,106 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Körper",
+          "concept": "c:cuerpo-humano.cuerpo",
+          "options": [
+            "Augen",
+            "Körper",
+            "vorn",
+            "Augenlid/Tab"
+          ],
+          "prompt": "cuerpo"
+        },
+        {
+          "answer": "Kopf",
+          "concept": "c:cuerpo-humano.cabeza",
+          "options": [
+            "Auge",
+            "Kopf",
+            "Mund",
+            "Augen"
+          ],
+          "prompt": "cabeza"
+        },
+        {
+          "answer": "Haare/Haare-",
+          "concept": "c:cuerpo-humano.cabello-pelo",
+          "options": [
+            "Nase",
+            "Rindfleisch",
+            "Haare/Haare-",
+            "vorn"
+          ],
+          "prompt": "cabello / pelo"
+        },
+        {
+          "answer": "Fläche/Seite",
+          "concept": "c:cuerpo-humano.cara-rostro",
+          "options": [
+            "Körper",
+            "Fläche/Seite",
+            "Haare/Haare-",
+            "Augen"
+          ],
+          "prompt": "cara / rostro"
+        },
+        {
+          "answer": "vorn",
+          "concept": "c:cuerpo-humano.frente",
+          "options": [
+            "Haare/Haare-",
+            "vorn",
+            "Auge",
+            "Augen"
+          ],
+          "prompt": "frente"
+        },
+        {
+          "answer": "Auge",
+          "concept": "c:cuerpo-humano.ojo",
+          "options": [
+            "vorn",
+            "Auge",
+            "Augenlid/Tab",
+            "Kopf"
+          ],
+          "prompt": "ojo"
+        },
+        {
+          "answer": "Augen",
+          "concept": "c:cuerpo-humano.ojos",
+          "options": [
+            "Augen",
+            "Ohr/Ohren",
+            "Kopf",
+            "Nase"
+          ],
+          "prompt": "ojos"
+        },
+        {
+          "answer": "Rindfleisch",
+          "concept": "c:cuerpo-humano.ceja",
+          "options": [
+            "Rindfleisch",
+            "vorn",
+            "Kopf",
+            "Augenlid/Tab"
+          ],
+          "prompt": "ceja"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
-    "de": "Die Körperteile, nützlich für das Sprechen über Gesundheit und Pflege.",
     "en": "Parts of the body, useful to talk about health and care.",
     "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
   },
@@ -110,10 +207,6 @@
   "lang": "de",
   "lesson": 1,
   "objectives": {
-    "de": [
-      "Benennt die Körperteile",
-      "Sprechen Sie über Gesundheit"
-    ],
     "en": [
       "Name parts of the body",
       "Talk about health"
@@ -197,7 +290,6 @@
     }
   ],
   "title": {
-    "de": "Der menschliche Körper",
     "en": "The human body",
     "es": "El cuerpo humano"
   },

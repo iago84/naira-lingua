@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:educacion-y-aprendizaje.educacion",
+    "c:educacion-y-aprendizaje.escuela",
+    "c:educacion-y-aprendizaje.clase-aula-grado",
+    "c:educacion-y-aprendizaje.leccion",
+    "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+    "c:educacion-y-aprendizaje.materia-tema-asunto",
+    "c:educacion-y-aprendizaje.matematicas",
+    "c:educacion-y-aprendizaje.ciencia",
+    "c:educacion-y-aprendizaje.historia",
+    "c:educacion-y-aprendizaje.geografia",
+    "c:educacion-y-aprendizaje.literatura",
+    "c:educacion-y-aprendizaje.idioma-lengua"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:educacion-y-aprendizaje.educacion",
+      "en": "education",
+      "es": "educación",
+      "hi": "शिक्षा",
+      "speaker": "A",
+      "translit": "śikṣā"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.escuela",
+      "en": "school",
+      "es": "escuela",
+      "hi": "स्कूल",
+      "speaker": "B",
+      "translit": "skūl"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+      "en": "class / classroom",
+      "es": "clase / aula / grado",
+      "hi": "कक्षा",
+      "speaker": "A",
+      "translit": "kakṣā"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.leccion",
+      "en": "lesson",
+      "es": "lección",
+      "hi": "पाठ",
+      "speaker": "B",
+      "translit": "pāṭh"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "en": "curriculum / course",
+      "es": "plan de estudios / curso",
+      "hi": "पाठ्यक्रम",
+      "speaker": "A",
+      "translit": "pāṭhyakram"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "en": "subject / topic",
+      "es": "materia / tema / asunto",
+      "hi": "विषय",
+      "speaker": "B",
+      "translit": "viṣay"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.matematicas",
+      "en": "mathematics",
+      "es": "matemáticas",
+      "hi": "गणित",
+      "speaker": "A",
+      "translit": "gaṇit"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.ciencia",
+      "en": "science",
+      "es": "ciencia",
+      "hi": "विज्ञान",
+      "speaker": "B",
+      "translit": "vijñān"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.historia",
+      "en": "history",
+      "es": "historia",
+      "hi": "इतिहास",
+      "speaker": "A",
+      "translit": "itihās"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.geografia",
+      "en": "geography",
+      "es": "geografía",
+      "hi": "भूगोल",
+      "speaker": "B",
+      "translit": "bhūgol"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.literatura",
+      "en": "literature",
+      "es": "literatura",
+      "hi": "साहित्य",
+      "speaker": "A",
+      "translit": "sāhitya"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+      "en": "language / tongue",
+      "es": "idioma / lengua",
+      "hi": "भाषा",
+      "speaker": "B",
+      "translit": "bhāṣā"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "शिक्षा",
+          "answerTranslit": "śikṣā",
+          "concept": "c:educacion-y-aprendizaje.educacion",
+          "optionTranslit": {
+            "पाठ्यक्रम": "pāṭhyakram",
+            "भाषा": "bhāṣā",
+            "विषय": "viṣay",
+            "शिक्षा": "śikṣā"
+          },
+          "options": [
+            "विषय",
+            "पाठ्यक्रम",
+            "भाषा",
+            "शिक्षा"
+          ],
+          "prompt": "educación"
+        },
+        {
+          "answer": "स्कूल",
+          "answerTranslit": "skūl",
+          "concept": "c:educacion-y-aprendizaje.escuela",
+          "optionTranslit": {
+            "गणित": "gaṇit",
+            "भूगोल": "bhūgol",
+            "विषय": "viṣay",
+            "स्कूल": "skūl"
+          },
+          "options": [
+            "विषय",
+            "भूगोल",
+            "गणित",
+            "स्कूल"
+          ],
+          "prompt": "escuela"
+        },
+        {
+          "answer": "कक्षा",
+          "answerTranslit": "kakṣā",
+          "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+          "optionTranslit": {
+            "इतिहास": "itihās",
+            "कक्षा": "kakṣā",
+            "भूगोल": "bhūgol",
+            "विषय": "viṣay"
+          },
+          "options": [
+            "विषय",
+            "भूगोल",
+            "इतिहास",
+            "कक्षा"
+          ],
+          "prompt": "clase / aula / grado"
+        },
+        {
+          "answer": "पाठ",
+          "answerTranslit": "pāṭh",
+          "concept": "c:educacion-y-aprendizaje.leccion",
+          "optionTranslit": {
+            "इतिहास": "itihās",
+            "पाठ": "pāṭh",
+            "भाषा": "bhāṣā",
+            "विषय": "viṣay"
+          },
+          "options": [
+            "इतिहास",
+            "भाषा",
+            "विषय",
+            "पाठ"
+          ],
+          "prompt": "lección"
+        },
+        {
+          "answer": "पाठ्यक्रम",
+          "answerTranslit": "pāṭhyakram",
+          "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+          "optionTranslit": {
+            "गणित": "gaṇit",
+            "पाठ्यक्रम": "pāṭhyakram",
+            "भूगोल": "bhūgol",
+            "स्कूल": "skūl"
+          },
+          "options": [
+            "स्कूल",
+            "भूगोल",
+            "गणित",
+            "पाठ्यक्रम"
+          ],
+          "prompt": "plan de estudios / curso"
+        },
+        {
+          "answer": "विषय",
+          "answerTranslit": "viṣay",
+          "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+          "optionTranslit": {
+            "भूगोल": "bhūgol",
+            "विषय": "viṣay",
+            "साहित्य": "sāhitya",
+            "स्कूल": "skūl"
+          },
+          "options": [
+            "विषय",
+            "स्कूल",
+            "भूगोल",
+            "साहित्य"
+          ],
+          "prompt": "materia / tema / asunto"
+        },
+        {
+          "answer": "गणित",
+          "answerTranslit": "gaṇit",
+          "concept": "c:educacion-y-aprendizaje.matematicas",
+          "optionTranslit": {
+            "गणित": "gaṇit",
+            "भाषा": "bhāṣā",
+            "भूगोल": "bhūgol",
+            "स्कूल": "skūl"
+          },
+          "options": [
+            "भाषा",
+            "भूगोल",
+            "गणित",
+            "स्कूल"
+          ],
+          "prompt": "matemáticas"
+        },
+        {
+          "answer": "विज्ञान",
+          "answerTranslit": "vijñān",
+          "concept": "c:educacion-y-aprendizaje.ciencia",
+          "optionTranslit": {
+            "गणित": "gaṇit",
+            "भाषा": "bhāṣā",
+            "विज्ञान": "vijñān",
+            "शिक्षा": "śikṣā"
+          },
+          "options": [
+            "शिक्षा",
+            "गणित",
+            "भाषा",
+            "विज्ञान"
+          ],
+          "prompt": "ciencia"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Words from school and learning.",
+    "es": "Palabras de la escuela y del aprendizaje."
+  },
+  "generator": "build_lessons",
+  "id": "hi-u17-l1",
+  "lang": "hi",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Talk about studies",
+      "Name school and its objects"
+    ],
+    "es": [
+      "Hablar de estudios",
+      "Nombrar la escuela y sus objetos"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "hi"
+      ],
+      "rows": [
+        [
+          "educación",
+          "education",
+          "शिक्षा"
+        ],
+        [
+          "escuela",
+          "school",
+          "स्कूल"
+        ],
+        [
+          "clase / aula / grado",
+          "class / classroom",
+          "कक्षा"
+        ],
+        [
+          "lección",
+          "lesson",
+          "पाठ"
+        ],
+        [
+          "plan de estudios / curso",
+          "curriculum / course",
+          "पाठ्यक्रम"
+        ],
+        [
+          "materia / tema / asunto",
+          "subject / topic",
+          "विषय"
+        ],
+        [
+          "matemáticas",
+          "mathematics",
+          "गणित"
+        ],
+        [
+          "ciencia",
+          "science",
+          "विज्ञान"
+        ],
+        [
+          "historia",
+          "history",
+          "इतिहास"
+        ],
+        [
+          "geografía",
+          "geography",
+          "भूगोल"
+        ],
+        [
+          "literatura",
+          "literature",
+          "साहित्य"
+        ],
+        [
+          "idioma / lengua",
+          "language / tongue",
+          "भाषा"
+        ]
+      ],
+      "title": "es · en · hi",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Education and learning",
+    "es": "La educación y el aprendizaje"
+  },
+  "unit": 17
+}

@@ -19,91 +19,256 @@
       "en": "clothing",
       "es": "ropa",
       "ja": "衣類の服",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "irui no fuku"
     },
     {
       "concept": "c:ropa-y-accesorios.camisa",
       "en": "shirt",
       "es": "camisa",
       "ja": "シャツ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "shatsu"
     },
     {
       "concept": "c:ropa-y-accesorios.camiseta",
       "en": "T-shirt",
       "es": "camiseta",
       "ja": "Tシャツ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "T shatsu"
     },
     {
       "concept": "c:ropa-y-accesorios.pantalon",
       "en": "Pants",
       "es": "pantalón",
       "ja": "パンツ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "pantsu"
     },
     {
       "concept": "c:ropa-y-accesorios.vaqueros-jeans",
       "en": "jeans / jans",
       "es": "vaqueros / jeans",
       "ja": "ジーンズ/ジャン",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "jiinzu / jan"
     },
     {
       "concept": "c:ropa-y-accesorios.pantalones-cortos",
       "en": "Short pants",
       "es": "pantalones cortos",
       "ja": "ショートパンツ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "shootopantsu"
     },
     {
       "concept": "c:ropa-y-accesorios.falda",
       "en": "skirt",
       "es": "falda",
       "ja": "スカート",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "sukaato"
     },
     {
       "concept": "c:ropa-y-accesorios.vestido",
       "en": "dress up",
       "es": "vestido",
       "ja": "ドレスアップ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "doresuappu"
     },
     {
       "concept": "c:ropa-y-accesorios.sari",
       "en": "sari",
       "es": "sari",
       "ja": "サーリ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "saari"
     },
     {
       "concept": "c:ropa-y-accesorios.salwar-kameez",
       "en": "salwar kameez",
       "es": "salwar kameez",
       "ja": "サルワー・カメエズ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "saruwaa・kameezu"
     },
     {
       "concept": "c:ropa-y-accesorios.kurta",
       "en": "kurta",
       "es": "kurta",
       "ja": "クリタ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "kurita"
     },
     {
       "concept": "c:ropa-y-accesorios.pijama",
       "en": "pajamas",
       "es": "pijama",
       "ja": "パジャマ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "pajama"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "衣類の服",
+          "answerTranslit": "irui no fuku",
+          "concept": "c:ropa-y-accesorios.ropa",
+          "optionTranslit": {
+            "Tシャツ": "T shatsu",
+            "ジーンズ/ジャン": "jiinzu / jan",
+            "ドレスアップ": "doresuappu",
+            "衣類の服": "irui no fuku"
+          },
+          "options": [
+            "ジーンズ/ジャン",
+            "ドレスアップ",
+            "Tシャツ",
+            "衣類の服"
+          ],
+          "prompt": "ropa"
+        },
+        {
+          "answer": "シャツ",
+          "answerTranslit": "shatsu",
+          "concept": "c:ropa-y-accesorios.camisa",
+          "optionTranslit": {
+            "シャツ": "shatsu",
+            "ショートパンツ": "shootopantsu",
+            "ドレスアップ": "doresuappu",
+            "パジャマ": "pajama"
+          },
+          "options": [
+            "シャツ",
+            "ショートパンツ",
+            "パジャマ",
+            "ドレスアップ"
+          ],
+          "prompt": "camisa"
+        },
+        {
+          "answer": "Tシャツ",
+          "answerTranslit": "T shatsu",
+          "concept": "c:ropa-y-accesorios.camiseta",
+          "optionTranslit": {
+            "Tシャツ": "T shatsu",
+            "クリタ": "kurita",
+            "ドレスアップ": "doresuappu",
+            "パジャマ": "pajama"
+          },
+          "options": [
+            "Tシャツ",
+            "パジャマ",
+            "ドレスアップ",
+            "クリタ"
+          ],
+          "prompt": "camiseta"
+        },
+        {
+          "answer": "パンツ",
+          "answerTranslit": "pantsu",
+          "concept": "c:ropa-y-accesorios.pantalon",
+          "optionTranslit": {
+            "サルワー・カメエズ": "saruwaa・kameezu",
+            "パジャマ": "pajama",
+            "パンツ": "pantsu",
+            "衣類の服": "irui no fuku"
+          },
+          "options": [
+            "衣類の服",
+            "パンツ",
+            "パジャマ",
+            "サルワー・カメエズ"
+          ],
+          "prompt": "pantalón"
+        },
+        {
+          "answer": "ジーンズ/ジャン",
+          "answerTranslit": "jiinzu / jan",
+          "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+          "optionTranslit": {
+            "Tシャツ": "T shatsu",
+            "サーリ": "saari",
+            "ジーンズ/ジャン": "jiinzu / jan",
+            "スカート": "sukaato"
+          },
+          "options": [
+            "サーリ",
+            "Tシャツ",
+            "ジーンズ/ジャン",
+            "スカート"
+          ],
+          "prompt": "vaqueros / jeans"
+        },
+        {
+          "answer": "ショートパンツ",
+          "answerTranslit": "shootopantsu",
+          "concept": "c:ropa-y-accesorios.pantalones-cortos",
+          "optionTranslit": {
+            "Tシャツ": "T shatsu",
+            "クリタ": "kurita",
+            "ショートパンツ": "shootopantsu",
+            "パンツ": "pantsu"
+          },
+          "options": [
+            "Tシャツ",
+            "ショートパンツ",
+            "パンツ",
+            "クリタ"
+          ],
+          "prompt": "pantalones cortos"
+        },
+        {
+          "answer": "スカート",
+          "answerTranslit": "sukaato",
+          "concept": "c:ropa-y-accesorios.falda",
+          "optionTranslit": {
+            "サーリ": "saari",
+            "スカート": "sukaato",
+            "ドレスアップ": "doresuappu",
+            "衣類の服": "irui no fuku"
+          },
+          "options": [
+            "スカート",
+            "ドレスアップ",
+            "サーリ",
+            "衣類の服"
+          ],
+          "prompt": "falda"
+        },
+        {
+          "answer": "ドレスアップ",
+          "answerTranslit": "doresuappu",
+          "concept": "c:ropa-y-accesorios.vestido",
+          "optionTranslit": {
+            "ドレスアップ": "doresuappu",
+            "パジャマ": "pajama",
+            "パンツ": "pantsu",
+            "衣類の服": "irui no fuku"
+          },
+          "options": [
+            "衣類の服",
+            "ドレスアップ",
+            "パジャマ",
+            "パンツ"
+          ],
+          "prompt": "vestido"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Clothes and accessories, with words useful for clothes shopping.",
-    "es": "Prendas y accesorios, con palabras útiles para comprar ropa.",
-    "ja": "ペンやアクセサリー、着替えを買うための便利な言葉。"
+    "es": "Prendas y accesorios, con palabras útiles para comprar ropa."
   },
   "generator": "build_lessons",
   "id": "ja-u11-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar prendas de ropa",
       "Ir de compras"
-    ],
-    "ja": [
-      "服を着る",
-      "ショッピング"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Clothing and accessories",
-    "es": "La ropa y los accesorios",
-    "ja": "衣類および付属品"
+    "es": "La ropa y los accesorios"
   },
   "unit": 11
 }

@@ -19,91 +19,256 @@
       "en": "zero",
       "es": "cero",
       "ja": "ゼロ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "zero"
     },
     {
       "concept": "c:numeros.uno",
       "en": "one",
       "es": "uno",
       "ja": "一",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "ichi"
     },
     {
       "concept": "c:numeros.dos",
       "en": "two",
       "es": "dos",
       "ja": "二",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "ni"
     },
     {
       "concept": "c:numeros.tres",
       "en": "three",
       "es": "tres",
       "ja": "三",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "san"
     },
     {
       "concept": "c:numeros.cuatro",
       "en": "4",
       "es": "cuatro",
       "ja": "四",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "shi"
     },
     {
       "concept": "c:numeros.cinco",
       "en": "five",
       "es": "cinco",
       "ja": "五",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "go"
     },
     {
       "concept": "c:numeros.seis",
       "en": "6",
       "es": "seis",
       "ja": "六",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "roku"
     },
     {
       "concept": "c:numeros.siete",
       "en": "seven",
       "es": "siete",
       "ja": "七",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "shichi"
     },
     {
       "concept": "c:numeros.ocho",
       "en": "8",
       "es": "ocho",
       "ja": "八",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "hachi"
     },
     {
       "concept": "c:numeros.nueve",
       "en": "9",
       "es": "nueve",
       "ja": "九",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "kyuu"
     },
     {
       "concept": "c:numeros.diez",
       "en": "10",
       "es": "diez",
       "ja": "十",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "juu"
     },
     {
       "concept": "c:numeros.once",
       "en": "11",
       "es": "once",
       "ja": "十一",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "juuichi"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "ゼロ",
+          "answerTranslit": "zero",
+          "concept": "c:numeros.cero",
+          "optionTranslit": {
+            "ゼロ": "zero",
+            "一": "ichi",
+            "七": "shichi",
+            "九": "kyuu"
+          },
+          "options": [
+            "九",
+            "ゼロ",
+            "七",
+            "一"
+          ],
+          "prompt": "cero"
+        },
+        {
+          "answer": "一",
+          "answerTranslit": "ichi",
+          "concept": "c:numeros.uno",
+          "optionTranslit": {
+            "一": "ichi",
+            "二": "ni",
+            "五": "go",
+            "十": "juu"
+          },
+          "options": [
+            "五",
+            "二",
+            "十",
+            "一"
+          ],
+          "prompt": "uno"
+        },
+        {
+          "answer": "二",
+          "answerTranslit": "ni",
+          "concept": "c:numeros.dos",
+          "optionTranslit": {
+            "九": "kyuu",
+            "二": "ni",
+            "五": "go",
+            "六": "roku"
+          },
+          "options": [
+            "六",
+            "九",
+            "五",
+            "二"
+          ],
+          "prompt": "dos"
+        },
+        {
+          "answer": "三",
+          "answerTranslit": "san",
+          "concept": "c:numeros.tres",
+          "optionTranslit": {
+            "三": "san",
+            "二": "ni",
+            "六": "roku",
+            "十": "juu"
+          },
+          "options": [
+            "十",
+            "六",
+            "二",
+            "三"
+          ],
+          "prompt": "tres"
+        },
+        {
+          "answer": "四",
+          "answerTranslit": "shi",
+          "concept": "c:numeros.cuatro",
+          "optionTranslit": {
+            "五": "go",
+            "八": "hachi",
+            "十": "juu",
+            "四": "shi"
+          },
+          "options": [
+            "四",
+            "五",
+            "十",
+            "八"
+          ],
+          "prompt": "cuatro"
+        },
+        {
+          "answer": "五",
+          "answerTranslit": "go",
+          "concept": "c:numeros.cinco",
+          "optionTranslit": {
+            "ゼロ": "zero",
+            "七": "shichi",
+            "五": "go",
+            "四": "shi"
+          },
+          "options": [
+            "四",
+            "ゼロ",
+            "七",
+            "五"
+          ],
+          "prompt": "cinco"
+        },
+        {
+          "answer": "六",
+          "answerTranslit": "roku",
+          "concept": "c:numeros.seis",
+          "optionTranslit": {
+            "ゼロ": "zero",
+            "二": "ni",
+            "六": "roku",
+            "十一": "juuichi"
+          },
+          "options": [
+            "二",
+            "十一",
+            "六",
+            "ゼロ"
+          ],
+          "prompt": "seis"
+        },
+        {
+          "answer": "七",
+          "answerTranslit": "shichi",
+          "concept": "c:numeros.siete",
+          "optionTranslit": {
+            "七": "shichi",
+            "五": "go",
+            "八": "hachi",
+            "四": "shi"
+          },
+          "options": [
+            "八",
+            "七",
+            "五",
+            "四"
+          ],
+          "prompt": "siete"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Everyday numbers: used to count, give your age and talk about prices.",
-    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
-    "ja": "日数:カウント、年齢および価格に使用されます。"
+    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
   },
   "generator": "build_lessons",
   "id": "ja-u2-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Contar del cero al diez",
       "Reconocer los números básicos"
-    ],
-    "ja": [
-      "ゼロから10までのカウント",
-      "基本数字を認識する"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Numbers",
-    "es": "Los números",
-    "ja": "数字"
+    "es": "Los números"
   },
   "unit": 2
 }

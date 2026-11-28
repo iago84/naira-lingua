@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Famiglia",
+          "concept": "c:familia-y-personas.familia",
+          "options": [
+            "fratelli",
+            "fratello",
+            "La nonna del padre",
+            "Famiglia"
+          ],
+          "prompt": "familia"
+        },
+        {
+          "answer": "Madre",
+          "concept": "c:familia-y-personas.madre",
+          "options": [
+            "La nonna del padre",
+            "figlia di una donna",
+            "Famiglia",
+            "Madre"
+          ],
+          "prompt": "madre"
+        },
+        {
+          "answer": "Padre",
+          "concept": "c:familia-y-personas.padre",
+          "options": [
+            "La nonna del padre",
+            "fratelli",
+            "Padre",
+            "genitori"
+          ],
+          "prompt": "padre"
+        },
+        {
+          "answer": "genitori",
+          "concept": "c:familia-y-personas.padres",
+          "options": [
+            "fratello",
+            "genitori",
+            "Famiglia",
+            "bambino"
+          ],
+          "prompt": "padres"
+        },
+        {
+          "answer": "bambino",
+          "concept": "c:familia-y-personas.hijo",
+          "options": [
+            "figlia di una donna",
+            "nonno paterna",
+            "Madre",
+            "bambino"
+          ],
+          "prompt": "hijo"
+        },
+        {
+          "answer": "figlia di una donna",
+          "concept": "c:familia-y-personas.hija",
+          "options": [
+            "bambino",
+            "figlia di una donna",
+            "Madre",
+            "genitori"
+          ],
+          "prompt": "hija"
+        },
+        {
+          "answer": "bambino",
+          "concept": "c:familia-y-personas.nino-a",
+          "options": [
+            "bambino",
+            "fratelli",
+            "nonno paterna",
+            "genitori"
+          ],
+          "prompt": "niño/a"
+        },
+        {
+          "answer": "fratello",
+          "concept": "c:familia-y-personas.hermano",
+          "options": [
+            "Madre",
+            "fratello",
+            "bambino",
+            "fratelli"
+          ],
+          "prompt": "hermano"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to refer to family and the people around you.",
-    "es": "Palabras para referirse a la familia y a las personas cercanas.",
-    "it": "Parole da riferire sulla famiglia e le persone vicino."
+    "es": "Palabras para referirse a la familia y a las personas cercanas."
   },
   "generator": "build_lessons",
   "id": "it-u4-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar a los miembros de la familia",
       "Hablar de personas"
-    ],
-    "it": [
-      "Appuntamento famiglia membri",
-      "Parlare di persone"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Family and people",
-    "es": "La familia y las personas",
-    "it": "Famiglia e individui"
+    "es": "La familia y las personas"
   },
   "unit": 4
 }

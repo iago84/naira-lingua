@@ -26,3 +26,19 @@ test("renderStudy avisa si no hay tarjetas", () => {
   const html = renderStudy({ t: tt, pairs: [], i: 0, flipped: false });
   assert.match(html, /No hay tarjetas/);
 });
+
+const TL_PAIRS = [
+  { concept: "c:saludos.hola", domain: "saludos", src: "こんにちは",
+    srcTranslit: "konnichiha", tgt: "hola", tgtTranslit: "" },
+];
+
+test("renderStudy muestra la transliteración del origen cuando aporta", () => {
+  const html = renderStudy({ t: tt, pairs: TL_PAIRS, i: 0, flipped: false, translit: true });
+  assert.match(html, /konnichiha/);
+  assert.match(html, /translit/);
+});
+
+test("renderStudy oculta la transliteración si está desactivada", () => {
+  const html = renderStudy({ t: tt, pairs: TL_PAIRS, i: 0, flipped: false, translit: false });
+  assert.doesNotMatch(html, /konnichiha/);
+});

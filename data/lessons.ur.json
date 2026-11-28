@@ -19,6 +19,7 @@
         "en": "Hello.",
         "es": "hola",
         "speaker": "A",
+        "translit": "salaam / hello",
         "ur": "سلام / ہیلو"
       },
       {
@@ -26,6 +27,7 @@
         "en": "Good morning.",
         "es": "buenos días",
         "speaker": "B",
+        "translit": "subh bakhair",
         "ur": "صبح بخیر"
       },
       {
@@ -33,6 +35,7 @@
         "en": "Good afternoon.",
         "es": "buenas tardes",
         "speaker": "A",
+        "translit": "dopahar bakhair",
         "ur": "دوپہر بخیر"
       },
       {
@@ -40,6 +43,7 @@
         "en": "Good night.",
         "es": "buenas noches",
         "speaker": "B",
+        "translit": "shab bakhair",
         "ur": "شب بخیر"
       },
       {
@@ -47,6 +51,7 @@
         "en": "Thank you.",
         "es": "gracias",
         "speaker": "A",
+        "translit": "shukriya",
         "ur": "شکریہ"
       },
       {
@@ -54,6 +59,7 @@
         "en": "Please.",
         "es": "por favor",
         "speaker": "B",
+        "translit": "barah-e-karam / meherbani",
         "ur": "براہ کرم / مہربانی"
       },
       {
@@ -61,6 +67,7 @@
         "en": "Excuse me / excuse",
         "es": "perdón / disculpe",
         "speaker": "A",
+        "translit": "maaf kijiye",
         "ur": "معاف کیجیے"
       },
       {
@@ -68,6 +75,7 @@
         "en": "Bye.",
         "es": "adiós",
         "speaker": "B",
+        "translit": "alvida / khuda hafiz",
         "ur": "الوداع / خدا حافظ"
       },
       {
@@ -75,6 +83,7 @@
         "en": "See you later.",
         "es": "hasta luego",
         "speaker": "A",
+        "translit": "phir milen ge",
         "ur": "پھر ملیں گے"
       },
       {
@@ -82,6 +91,7 @@
         "en": "Yes",
         "es": "sí",
         "speaker": "B",
+        "translit": "haan / ji haan",
         "ur": "ہاں / جی ہاں"
       },
       {
@@ -89,10 +99,165 @@
         "en": "No.",
         "es": "no",
         "speaker": "A",
+        "translit": "nahin / ji nahin",
         "ur": "نہیں / جی نہیں"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "سلام / ہیلو",
+            "answerTranslit": "salaam / hello",
+            "concept": "c:saludos-y-expresiones.hola",
+            "optionTranslit": {
+              "براہ کرم / مہربانی": "barah-e-karam / meherbani",
+              "دوپہر بخیر": "dopahar bakhair",
+              "سلام / ہیلو": "salaam / hello",
+              "پھر ملیں گے": "phir milen ge"
+            },
+            "options": [
+              "پھر ملیں گے",
+              "سلام / ہیلو",
+              "براہ کرم / مہربانی",
+              "دوپہر بخیر"
+            ],
+            "prompt": "hola"
+          },
+          {
+            "answer": "صبح بخیر",
+            "answerTranslit": "subh bakhair",
+            "concept": "c:saludos-y-expresiones.buenos-dias",
+            "optionTranslit": {
+              "براہ کرم / مہربانی": "barah-e-karam / meherbani",
+              "صبح بخیر": "subh bakhair",
+              "معاف کیجیے": "maaf kijiye",
+              "ہاں / جی ہاں": "haan / ji haan"
+            },
+            "options": [
+              "ہاں / جی ہاں",
+              "معاف کیجیے",
+              "صبح بخیر",
+              "براہ کرم / مہربانی"
+            ],
+            "prompt": "buenos días"
+          },
+          {
+            "answer": "دوپہر بخیر",
+            "answerTranslit": "dopahar bakhair",
+            "concept": "c:saludos-y-expresiones.buenas-tardes",
+            "optionTranslit": {
+              "الوداع / خدا حافظ": "alvida / khuda hafiz",
+              "دوپہر بخیر": "dopahar bakhair",
+              "شکریہ": "shukriya",
+              "پھر ملیں گے": "phir milen ge"
+            },
+            "options": [
+              "دوپہر بخیر",
+              "پھر ملیں گے",
+              "الوداع / خدا حافظ",
+              "شکریہ"
+            ],
+            "prompt": "buenas tardes"
+          },
+          {
+            "answer": "شب بخیر",
+            "answerTranslit": "shab bakhair",
+            "concept": "c:saludos-y-expresiones.buenas-noches",
+            "optionTranslit": {
+              "الوداع / خدا حافظ": "alvida / khuda hafiz",
+              "سلام / ہیلو": "salaam / hello",
+              "شب بخیر": "shab bakhair",
+              "پھر ملیں گے": "phir milen ge"
+            },
+            "options": [
+              "پھر ملیں گے",
+              "سلام / ہیلو",
+              "شب بخیر",
+              "الوداع / خدا حافظ"
+            ],
+            "prompt": "buenas noches"
+          },
+          {
+            "answer": "شکریہ",
+            "answerTranslit": "shukriya",
+            "concept": "c:saludos-y-expresiones.gracias",
+            "optionTranslit": {
+              "دوپہر بخیر": "dopahar bakhair",
+              "سلام / ہیلو": "salaam / hello",
+              "شکریہ": "shukriya",
+              "پھر ملیں گے": "phir milen ge"
+            },
+            "options": [
+              "شکریہ",
+              "پھر ملیں گے",
+              "سلام / ہیلو",
+              "دوپہر بخیر"
+            ],
+            "prompt": "gracias"
+          },
+          {
+            "answer": "براہ کرم / مہربانی",
+            "answerTranslit": "barah-e-karam / meherbani",
+            "concept": "c:saludos-y-expresiones.por-favor",
+            "optionTranslit": {
+              "براہ کرم / مہربانی": "barah-e-karam / meherbani",
+              "سلام / ہیلو": "salaam / hello",
+              "شکریہ": "shukriya",
+              "صبح بخیر": "subh bakhair"
+            },
+            "options": [
+              "براہ کرم / مہربانی",
+              "شکریہ",
+              "صبح بخیر",
+              "سلام / ہیلو"
+            ],
+            "prompt": "por favor"
+          },
+          {
+            "answer": "معاف کیجیے",
+            "answerTranslit": "maaf kijiye",
+            "concept": "c:saludos-y-expresiones.perdon-disculpe",
+            "optionTranslit": {
+              "سلام / ہیلو": "salaam / hello",
+              "معاف کیجیے": "maaf kijiye",
+              "نہیں / جی نہیں": "nahin / ji nahin",
+              "پھر ملیں گے": "phir milen ge"
+            },
+            "options": [
+              "سلام / ہیلو",
+              "معاف کیجیے",
+              "پھر ملیں گے",
+              "نہیں / جی نہیں"
+            ],
+            "prompt": "perdón / disculpe"
+          },
+          {
+            "answer": "الوداع / خدا حافظ",
+            "answerTranslit": "alvida / khuda hafiz",
+            "concept": "c:saludos-y-expresiones.adios",
+            "optionTranslit": {
+              "الوداع / خدا حافظ": "alvida / khuda hafiz",
+              "معاف کیجیے": "maaf kijiye",
+              "نہیں / جی نہیں": "nahin / ji nahin",
+              "پھر ملیں گے": "phir milen ge"
+            },
+            "options": [
+              "الوداع / خدا حافظ",
+              "معاف کیجیے",
+              "پھر ملیں گے",
+              "نہیں / جی نہیں"
+            ],
+            "prompt": "adiós"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Basic courtesy expressions to open and close a conversation.",
       "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
@@ -206,6 +371,7 @@
         "en": "city",
         "es": "ciudad",
         "speaker": "A",
+        "translit": "sheher",
         "ur": "شہر"
       },
       {
@@ -213,6 +379,7 @@
         "en": "village / town",
         "es": "pueblo / aldea",
         "speaker": "B",
+        "translit": "gā̃v",
         "ur": "گاںو"
       },
       {
@@ -220,6 +387,7 @@
         "en": "country",
         "es": "país",
         "speaker": "A",
+        "translit": "mulk / desh",
         "ur": "ملک / دیش"
       },
       {
@@ -227,6 +395,7 @@
         "en": "State / province",
         "es": "estado / provincia",
         "speaker": "B",
+        "translit": "rājya",
         "ur": "راجی"
       },
       {
@@ -234,6 +403,7 @@
         "en": "capital",
         "es": "capital",
         "speaker": "A",
+        "translit": "rājdhānī",
         "ur": "راجدھانی"
       },
       {
@@ -241,6 +411,7 @@
         "en": "area / zone",
         "es": "zona / área",
         "speaker": "B",
+        "translit": "ilākā",
         "ur": "اِلاکا"
       },
       {
@@ -248,6 +419,7 @@
         "en": "Street / road",
         "es": "calle / carretera",
         "speaker": "A",
+        "translit": "saṛak",
         "ur": "سڈک"
       },
       {
@@ -255,6 +427,7 @@
         "en": "alley",
         "es": "callejón",
         "speaker": "B",
+        "translit": "galī",
         "ur": "گلی"
       },
       {
@@ -262,6 +435,7 @@
         "en": "cross / intersection",
         "es": "cruce / intersección",
         "speaker": "A",
+        "translit": "caurāhā",
         "ur": "چوراہا"
       },
       {
@@ -269,6 +443,7 @@
         "en": "bridge",
         "es": "puente",
         "speaker": "B",
+        "translit": "pul",
         "ur": "پُل"
       },
       {
@@ -276,6 +451,7 @@
         "en": "square",
         "es": "plaza",
         "speaker": "A",
+        "translit": "cauk",
         "ur": "چوک"
       },
       {
@@ -283,10 +459,165 @@
         "en": "market",
         "es": "mercado",
         "speaker": "B",
+        "translit": "baazaar",
         "ur": "بازار"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "شہر",
+            "answerTranslit": "sheher",
+            "concept": "c:ciudad-y-lugares.ciudad",
+            "optionTranslit": {
+              "اِلاکا": "ilākā",
+              "شہر": "sheher",
+              "ملک / دیش": "mulk / desh",
+              "پُل": "pul"
+            },
+            "options": [
+              "ملک / دیش",
+              "اِلاکا",
+              "پُل",
+              "شہر"
+            ],
+            "prompt": "ciudad"
+          },
+          {
+            "answer": "گاںو",
+            "answerTranslit": "gā̃v",
+            "concept": "c:ciudad-y-lugares.pueblo-aldea",
+            "optionTranslit": {
+              "راجدھانی": "rājdhānī",
+              "پُل": "pul",
+              "چوک": "cauk",
+              "گاںو": "gā̃v"
+            },
+            "options": [
+              "راجدھانی",
+              "گاںو",
+              "پُل",
+              "چوک"
+            ],
+            "prompt": "pueblo / aldea"
+          },
+          {
+            "answer": "ملک / دیش",
+            "answerTranslit": "mulk / desh",
+            "concept": "c:ciudad-y-lugares.pais",
+            "optionTranslit": {
+              "راجی": "rājya",
+              "سڈک": "saṛak",
+              "ملک / دیش": "mulk / desh",
+              "گلی": "galī"
+            },
+            "options": [
+              "سڈک",
+              "ملک / دیش",
+              "راجی",
+              "گلی"
+            ],
+            "prompt": "país"
+          },
+          {
+            "answer": "راجی",
+            "answerTranslit": "rājya",
+            "concept": "c:ciudad-y-lugares.estado-provincia",
+            "optionTranslit": {
+              "بازار": "baazaar",
+              "راجی": "rājya",
+              "شہر": "sheher",
+              "چوراہا": "caurāhā"
+            },
+            "options": [
+              "بازار",
+              "شہر",
+              "راجی",
+              "چوراہا"
+            ],
+            "prompt": "estado / provincia"
+          },
+          {
+            "answer": "راجدھانی",
+            "answerTranslit": "rājdhānī",
+            "concept": "c:ciudad-y-lugares.capital",
+            "optionTranslit": {
+              "راجدھانی": "rājdhānī",
+              "راجی": "rājya",
+              "پُل": "pul",
+              "چوک": "cauk"
+            },
+            "options": [
+              "پُل",
+              "راجی",
+              "راجدھانی",
+              "چوک"
+            ],
+            "prompt": "capital"
+          },
+          {
+            "answer": "اِلاکا",
+            "answerTranslit": "ilākā",
+            "concept": "c:ciudad-y-lugares.zona-area",
+            "optionTranslit": {
+              "اِلاکا": "ilākā",
+              "راجی": "rājya",
+              "سڈک": "saṛak",
+              "ملک / دیش": "mulk / desh"
+            },
+            "options": [
+              "سڈک",
+              "راجی",
+              "ملک / دیش",
+              "اِلاکا"
+            ],
+            "prompt": "zona / área"
+          },
+          {
+            "answer": "سڈک",
+            "answerTranslit": "saṛak",
+            "concept": "c:ciudad-y-lugares.calle-carretera",
+            "optionTranslit": {
+              "سڈک": "saṛak",
+              "شہر": "sheher",
+              "ملک / دیش": "mulk / desh",
+              "پُل": "pul"
+            },
+            "options": [
+              "ملک / دیش",
+              "سڈک",
+              "شہر",
+              "پُل"
+            ],
+            "prompt": "calle / carretera"
+          },
+          {
+            "answer": "گلی",
+            "answerTranslit": "galī",
+            "concept": "c:ciudad-y-lugares.callejon",
+            "optionTranslit": {
+              "اِلاکا": "ilākā",
+              "سڈک": "saṛak",
+              "چوک": "cauk",
+              "گلی": "galī"
+            },
+            "options": [
+              "چوک",
+              "اِلاکا",
+              "گلی",
+              "سڈک"
+            ],
+            "prompt": "callejón"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Places in the city to move around and ask for directions.",
       "es": "Lugares de la ciudad para moverse y pedir indicaciones."
@@ -405,6 +736,7 @@
         "en": "clothing",
         "es": "ropa",
         "speaker": "A",
+        "translit": "kapṛe",
         "ur": "کپڈے"
       },
       {
@@ -412,6 +744,7 @@
         "en": "shirt",
         "es": "camisa",
         "speaker": "B",
+        "translit": "śarṭ",
         "ur": "شرٹ"
       },
       {
@@ -419,6 +752,7 @@
         "en": "T-shirt",
         "es": "camiseta",
         "speaker": "A",
+        "translit": "ṭī-śarṭ",
         "ur": "ٹی-شرٹ"
       },
       {
@@ -426,6 +760,7 @@
         "en": "Pants",
         "es": "pantalón",
         "speaker": "B",
+        "translit": "paiṇṭ",
         "ur": "پےںٹ"
       },
       {
@@ -433,6 +768,7 @@
         "en": "jeans / jans",
         "es": "vaqueros / jeans",
         "speaker": "A",
+        "translit": "jīns",
         "ur": "جیںس"
       },
       {
@@ -440,6 +776,7 @@
         "en": "Short pants",
         "es": "pantalones cortos",
         "speaker": "B",
+        "translit": "śôrṭs",
         "ur": "شارٹس"
       },
       {
@@ -447,6 +784,7 @@
         "en": "skirt",
         "es": "falda",
         "speaker": "A",
+        "translit": "skarṭ",
         "ur": "سکرٹ"
       },
       {
@@ -454,6 +792,7 @@
         "en": "dress up",
         "es": "vestido",
         "speaker": "B",
+        "translit": "ḍres",
         "ur": "ڈرےس"
       },
       {
@@ -461,6 +800,7 @@
         "en": "sari",
         "es": "sari",
         "speaker": "A",
+        "translit": "sāṛī",
         "ur": "ساڈی"
       },
       {
@@ -468,6 +808,7 @@
         "en": "salwar kameez",
         "es": "salwar kameez",
         "speaker": "B",
+        "translit": "salvār kamīz",
         "ur": "سلوار کمیج"
       },
       {
@@ -475,6 +816,7 @@
         "en": "kurta",
         "es": "kurta",
         "speaker": "A",
+        "translit": "kurtā",
         "ur": "کُرتا"
       },
       {
@@ -482,10 +824,165 @@
         "en": "pajamas",
         "es": "pijama",
         "speaker": "B",
+        "translit": "pāyjāmā",
         "ur": "پایجاما"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "کپڈے",
+            "answerTranslit": "kapṛe",
+            "concept": "c:ropa-y-accesorios.ropa",
+            "optionTranslit": {
+              "جیںس": "jīns",
+              "ٹی-شرٹ": "ṭī-śarṭ",
+              "ڈرےس": "ḍres",
+              "کپڈے": "kapṛe"
+            },
+            "options": [
+              "جیںس",
+              "ڈرےس",
+              "ٹی-شرٹ",
+              "کپڈے"
+            ],
+            "prompt": "ropa"
+          },
+          {
+            "answer": "شرٹ",
+            "answerTranslit": "śarṭ",
+            "concept": "c:ropa-y-accesorios.camisa",
+            "optionTranslit": {
+              "شارٹس": "śôrṭs",
+              "شرٹ": "śarṭ",
+              "پایجاما": "pāyjāmā",
+              "ڈرےس": "ḍres"
+            },
+            "options": [
+              "شرٹ",
+              "شارٹس",
+              "پایجاما",
+              "ڈرےس"
+            ],
+            "prompt": "camisa"
+          },
+          {
+            "answer": "ٹی-شرٹ",
+            "answerTranslit": "ṭī-śarṭ",
+            "concept": "c:ropa-y-accesorios.camiseta",
+            "optionTranslit": {
+              "ٹی-شرٹ": "ṭī-śarṭ",
+              "پایجاما": "pāyjāmā",
+              "ڈرےس": "ḍres",
+              "کُرتا": "kurtā"
+            },
+            "options": [
+              "ٹی-شرٹ",
+              "پایجاما",
+              "ڈرےس",
+              "کُرتا"
+            ],
+            "prompt": "camiseta"
+          },
+          {
+            "answer": "پےںٹ",
+            "answerTranslit": "paiṇṭ",
+            "concept": "c:ropa-y-accesorios.pantalon",
+            "optionTranslit": {
+              "سلوار کمیج": "salvār kamīz",
+              "پایجاما": "pāyjāmā",
+              "پےںٹ": "paiṇṭ",
+              "کپڈے": "kapṛe"
+            },
+            "options": [
+              "کپڈے",
+              "پےںٹ",
+              "پایجاما",
+              "سلوار کمیج"
+            ],
+            "prompt": "pantalón"
+          },
+          {
+            "answer": "جیںس",
+            "answerTranslit": "jīns",
+            "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+            "optionTranslit": {
+              "جیںس": "jīns",
+              "ساڈی": "sāṛī",
+              "سکرٹ": "skarṭ",
+              "ٹی-شرٹ": "ṭī-śarṭ"
+            },
+            "options": [
+              "ساڈی",
+              "ٹی-شرٹ",
+              "جیںس",
+              "سکرٹ"
+            ],
+            "prompt": "vaqueros / jeans"
+          },
+          {
+            "answer": "شارٹس",
+            "answerTranslit": "śôrṭs",
+            "concept": "c:ropa-y-accesorios.pantalones-cortos",
+            "optionTranslit": {
+              "شارٹس": "śôrṭs",
+              "ٹی-شرٹ": "ṭī-śarṭ",
+              "پےںٹ": "paiṇṭ",
+              "کُرتا": "kurtā"
+            },
+            "options": [
+              "ٹی-شرٹ",
+              "شارٹس",
+              "پےںٹ",
+              "کُرتا"
+            ],
+            "prompt": "pantalones cortos"
+          },
+          {
+            "answer": "سکرٹ",
+            "answerTranslit": "skarṭ",
+            "concept": "c:ropa-y-accesorios.falda",
+            "optionTranslit": {
+              "ساڈی": "sāṛī",
+              "سکرٹ": "skarṭ",
+              "ڈرےس": "ḍres",
+              "کپڈے": "kapṛe"
+            },
+            "options": [
+              "سکرٹ",
+              "ڈرےس",
+              "ساڈی",
+              "کپڈے"
+            ],
+            "prompt": "falda"
+          },
+          {
+            "answer": "ڈرےس",
+            "answerTranslit": "ḍres",
+            "concept": "c:ropa-y-accesorios.vestido",
+            "optionTranslit": {
+              "پایجاما": "pāyjāmā",
+              "پےںٹ": "paiṇṭ",
+              "ڈرےس": "ḍres",
+              "کپڈے": "kapṛe"
+            },
+            "options": [
+              "کپڈے",
+              "ڈرےس",
+              "پایجاما",
+              "پےںٹ"
+            ],
+            "prompt": "vestido"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Clothes and accessories, with words useful for clothes shopping.",
       "es": "Prendas y accesorios, con palabras útiles para comprar ropa."
@@ -604,6 +1101,7 @@
         "en": "work /",
         "es": "trabajo / labor",
         "speaker": "A",
+        "translit": "kām",
         "ur": "کام"
       },
       {
@@ -611,6 +1109,7 @@
         "en": "employment / work",
         "es": "empleo / trabajo",
         "speaker": "B",
+        "translit": "naukrī",
         "ur": "نوکری"
       },
       {
@@ -618,6 +1117,7 @@
         "en": "profession / trade",
         "es": "profesión / oficio",
         "speaker": "A",
+        "translit": "peśā",
         "ur": "پےشا"
       },
       {
@@ -625,6 +1125,7 @@
         "en": "business / profession",
         "es": "negocio / profesión",
         "speaker": "B",
+        "translit": "vyavsāy",
         "ur": "ویوسای"
       },
       {
@@ -632,6 +1133,7 @@
         "en": "company / enterprise",
         "es": "empresa / compañía",
         "speaker": "A",
+        "translit": "kampanī",
         "ur": "کںپنی"
       },
       {
@@ -639,6 +1141,7 @@
         "en": "office",
         "es": "oficina",
         "speaker": "B",
+        "translit": "kāryālay",
         "ur": "کاریالی — oficina"
       },
       {
@@ -646,6 +1149,7 @@
         "en": "office /",
         "es": "oficina / despacho",
         "speaker": "A",
+        "translit": "daftar",
         "ur": "دپھتر"
       },
       {
@@ -653,6 +1157,7 @@
         "en": "owner / proprietor",
         "es": "dueño / propietario",
         "speaker": "B",
+        "translit": "mālik",
         "ur": "مالِک"
       },
       {
@@ -660,6 +1165,7 @@
         "en": "Chief",
         "es": "jefe/a",
         "speaker": "A",
+        "translit": "bôs",
         "ur": "باس — jefe/a"
       },
       {
@@ -667,6 +1173,7 @@
         "en": "employee",
         "es": "empleado/a",
         "speaker": "B",
+        "translit": "karmacārī",
         "ur": "کرمچاری"
       },
       {
@@ -674,6 +1181,7 @@
         "en": "- I'm sorry, buddy.",
         "es": "colega",
         "speaker": "A",
+        "translit": "sahkarmī",
         "ur": "سہکرمی"
       },
       {
@@ -681,10 +1189,165 @@
         "en": "equipment",
         "es": "equipo",
         "speaker": "B",
+        "translit": "ṭīm",
         "ur": "ٹیم — equipo"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "کام",
+            "answerTranslit": "kām",
+            "concept": "c:trabajo-y-profesiones.trabajo-labor",
+            "optionTranslit": {
+              "دپھتر": "daftar",
+              "ٹیم — equipo": "ṭīm",
+              "کام": "kām",
+              "کرمچاری": "karmacārī"
+            },
+            "options": [
+              "دپھتر",
+              "کرمچاری",
+              "کام",
+              "ٹیم — equipo"
+            ],
+            "prompt": "trabajo / labor"
+          },
+          {
+            "answer": "نوکری",
+            "answerTranslit": "naukrī",
+            "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+            "optionTranslit": {
+              "نوکری": "naukrī",
+              "کاریالی — oficina": "kāryālay",
+              "کرمچاری": "karmacārī",
+              "کںپنی": "kampanī"
+            },
+            "options": [
+              "نوکری",
+              "کرمچاری",
+              "کاریالی — oficina",
+              "کںپنی"
+            ],
+            "prompt": "empleo / trabajo"
+          },
+          {
+            "answer": "پےشا",
+            "answerTranslit": "peśā",
+            "concept": "c:trabajo-y-profesiones.profesion-oficio",
+            "optionTranslit": {
+              "پےشا": "peśā",
+              "کاریالی — oficina": "kāryālay",
+              "کام": "kām",
+              "کرمچاری": "karmacārī"
+            },
+            "options": [
+              "پےشا",
+              "کام",
+              "کاریالی — oficina",
+              "کرمچاری"
+            ],
+            "prompt": "profesión / oficio"
+          },
+          {
+            "answer": "ویوسای",
+            "answerTranslit": "vyavsāy",
+            "concept": "c:trabajo-y-profesiones.negocio-profesion",
+            "optionTranslit": {
+              "باس — jefe/a": "bôs",
+              "ویوسای": "vyavsāy",
+              "کام": "kām",
+              "کرمچاری": "karmacārī"
+            },
+            "options": [
+              "کام",
+              "باس — jefe/a",
+              "کرمچاری",
+              "ویوسای"
+            ],
+            "prompt": "negocio / profesión"
+          },
+          {
+            "answer": "کںپنی",
+            "answerTranslit": "kampanī",
+            "concept": "c:trabajo-y-profesiones.empresa-compania",
+            "optionTranslit": {
+              "مالِک": "mālik",
+              "ویوسای": "vyavsāy",
+              "کام": "kām",
+              "کںپنی": "kampanī"
+            },
+            "options": [
+              "کںپنی",
+              "ویوسای",
+              "مالِک",
+              "کام"
+            ],
+            "prompt": "empresa / compañía"
+          },
+          {
+            "answer": "کاریالی — oficina",
+            "answerTranslit": "kāryālay",
+            "concept": "c:trabajo-y-profesiones.oficina",
+            "optionTranslit": {
+              "دپھتر": "daftar",
+              "مالِک": "mālik",
+              "ٹیم — equipo": "ṭīm",
+              "کاریالی — oficina": "kāryālay"
+            },
+            "options": [
+              "مالِک",
+              "کاریالی — oficina",
+              "ٹیم — equipo",
+              "دپھتر"
+            ],
+            "prompt": "oficina"
+          },
+          {
+            "answer": "دپھتر",
+            "answerTranslit": "daftar",
+            "concept": "c:trabajo-y-profesiones.oficina-despacho",
+            "optionTranslit": {
+              "دپھتر": "daftar",
+              "نوکری": "naukrī",
+              "کاریالی — oficina": "kāryālay",
+              "کام": "kām"
+            },
+            "options": [
+              "نوکری",
+              "دپھتر",
+              "کام",
+              "کاریالی — oficina"
+            ],
+            "prompt": "oficina / despacho"
+          },
+          {
+            "answer": "مالِک",
+            "answerTranslit": "mālik",
+            "concept": "c:trabajo-y-profesiones.dueno-propietario",
+            "optionTranslit": {
+              "مالِک": "mālik",
+              "پےشا": "peśā",
+              "کاریالی — oficina": "kāryālay",
+              "کرمچاری": "karmacārī"
+            },
+            "options": [
+              "پےشا",
+              "کاریالی — oficina",
+              "مالِک",
+              "کرمچاری"
+            ],
+            "prompt": "dueño / propietario"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Professions and words from the world of work.",
       "es": "Profesiones y palabras del mundo laboral."
@@ -784,6 +1447,2561 @@
   },
   {
     "concepts": [
+      "c:verbos-comunes.ser-estar-haber",
+      "c:verbos-comunes.hacer",
+      "c:verbos-comunes.ir",
+      "c:verbos-comunes.venir",
+      "c:verbos-comunes.ver-mirar",
+      "c:verbos-comunes.oir-escuchar",
+      "c:verbos-comunes.hablar-decir",
+      "c:verbos-comunes.decir",
+      "c:verbos-comunes.preguntar",
+      "c:verbos-comunes.contar-explicar",
+      "c:verbos-comunes.entender-comprender",
+      "c:verbos-comunes.saber-conocer"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:verbos-comunes.ser-estar-haber",
+        "en": "be / are",
+        "es": "ser / estar / haber",
+        "speaker": "A",
+        "translit": "honā",
+        "ur": "ہونا"
+      },
+      {
+        "concept": "c:verbos-comunes.hacer",
+        "en": "do",
+        "es": "hacer",
+        "speaker": "B",
+        "translit": "karna",
+        "ur": "کرنا"
+      },
+      {
+        "concept": "c:verbos-comunes.ir",
+        "en": "go",
+        "es": "ir",
+        "speaker": "A",
+        "translit": "jaana",
+        "ur": "جانا"
+      },
+      {
+        "concept": "c:verbos-comunes.venir",
+        "en": "Come",
+        "es": "venir",
+        "speaker": "B",
+        "translit": "aana",
+        "ur": "آنا"
+      },
+      {
+        "concept": "c:verbos-comunes.ver-mirar",
+        "en": "see / watch",
+        "es": "ver / mirar",
+        "speaker": "A",
+        "translit": "dekhna",
+        "ur": "دیکھنا"
+      },
+      {
+        "concept": "c:verbos-comunes.oir-escuchar",
+        "en": "hear / listen",
+        "es": "oír / escuchar",
+        "speaker": "B",
+        "translit": "sunnā",
+        "ur": "سُننا"
+      },
+      {
+        "concept": "c:verbos-comunes.hablar-decir",
+        "en": "speak / say",
+        "es": "hablar / decir",
+        "speaker": "A",
+        "translit": "kehna",
+        "ur": "کہنا"
+      },
+      {
+        "concept": "c:verbos-comunes.decir",
+        "en": "say",
+        "es": "decir",
+        "speaker": "B",
+        "translit": "kehna",
+        "ur": "کہنا"
+      },
+      {
+        "concept": "c:verbos-comunes.preguntar",
+        "en": "ask",
+        "es": "preguntar",
+        "speaker": "A",
+        "translit": "pūchnā",
+        "ur": "پوچھنا"
+      },
+      {
+        "concept": "c:verbos-comunes.contar-explicar",
+        "en": "count / explain",
+        "es": "contar / explicar",
+        "speaker": "B",
+        "translit": "batānā",
+        "ur": "بتانا"
+      },
+      {
+        "concept": "c:verbos-comunes.entender-comprender",
+        "en": "understand / comprehend",
+        "es": "entender / comprender",
+        "speaker": "A",
+        "translit": "samajhnā",
+        "ur": "سمجھنا"
+      },
+      {
+        "concept": "c:verbos-comunes.saber-conocer",
+        "en": "know / understand",
+        "es": "saber / conocer",
+        "speaker": "B",
+        "translit": "jaanna",
+        "ur": "جاننا"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "ہونا",
+            "answerTranslit": "honā",
+            "concept": "c:verbos-comunes.ser-estar-haber",
+            "optionTranslit": {
+              "آنا": "aana",
+              "بتانا": "batānā",
+              "دیکھنا": "dekhna",
+              "ہونا": "honā"
+            },
+            "options": [
+              "ہونا",
+              "دیکھنا",
+              "آنا",
+              "بتانا"
+            ],
+            "prompt": "ser / estar / haber"
+          },
+          {
+            "answer": "کرنا",
+            "answerTranslit": "karna",
+            "concept": "c:verbos-comunes.hacer",
+            "optionTranslit": {
+              "دیکھنا": "dekhna",
+              "سمجھنا": "samajhnā",
+              "پوچھنا": "pūchnā",
+              "کرنا": "karna"
+            },
+            "options": [
+              "دیکھنا",
+              "کرنا",
+              "سمجھنا",
+              "پوچھنا"
+            ],
+            "prompt": "hacer"
+          },
+          {
+            "answer": "جانا",
+            "answerTranslit": "jaana",
+            "concept": "c:verbos-comunes.ir",
+            "optionTranslit": {
+              "آنا": "aana",
+              "جانا": "jaana",
+              "سمجھنا": "samajhnā",
+              "ہونا": "honā"
+            },
+            "options": [
+              "جانا",
+              "ہونا",
+              "سمجھنا",
+              "آنا"
+            ],
+            "prompt": "ir"
+          },
+          {
+            "answer": "آنا",
+            "answerTranslit": "aana",
+            "concept": "c:verbos-comunes.venir",
+            "optionTranslit": {
+              "آنا": "aana",
+              "جاننا": "jaanna",
+              "دیکھنا": "dekhna",
+              "پوچھنا": "pūchnā"
+            },
+            "options": [
+              "پوچھنا",
+              "آنا",
+              "جاننا",
+              "دیکھنا"
+            ],
+            "prompt": "venir"
+          },
+          {
+            "answer": "دیکھنا",
+            "answerTranslit": "dekhna",
+            "concept": "c:verbos-comunes.ver-mirar",
+            "optionTranslit": {
+              "جانا": "jaana",
+              "جاننا": "jaanna",
+              "دیکھنا": "dekhna",
+              "کہنا": "kehna"
+            },
+            "options": [
+              "دیکھنا",
+              "کہنا",
+              "جاننا",
+              "جانا"
+            ],
+            "prompt": "ver / mirar"
+          },
+          {
+            "answer": "سُننا",
+            "answerTranslit": "sunnā",
+            "concept": "c:verbos-comunes.oir-escuchar",
+            "optionTranslit": {
+              "بتانا": "batānā",
+              "سمجھنا": "samajhnā",
+              "سُننا": "sunnā",
+              "کرنا": "karna"
+            },
+            "options": [
+              "کرنا",
+              "سمجھنا",
+              "بتانا",
+              "سُننا"
+            ],
+            "prompt": "oír / escuchar"
+          },
+          {
+            "answer": "کہنا",
+            "answerTranslit": "kehna",
+            "concept": "c:verbos-comunes.hablar-decir",
+            "optionTranslit": {
+              "جاننا": "jaanna",
+              "پوچھنا": "pūchnā",
+              "کہنا": "kehna",
+              "ہونا": "honā"
+            },
+            "options": [
+              "ہونا",
+              "جاننا",
+              "کہنا",
+              "پوچھنا"
+            ],
+            "prompt": "hablar / decir"
+          },
+          {
+            "answer": "کہنا",
+            "answerTranslit": "kehna",
+            "concept": "c:verbos-comunes.decir",
+            "optionTranslit": {
+              "جانا": "jaana",
+              "دیکھنا": "dekhna",
+              "کرنا": "karna",
+              "کہنا": "kehna"
+            },
+            "options": [
+              "جانا",
+              "کرنا",
+              "دیکھنا",
+              "کہنا"
+            ],
+            "prompt": "decir"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "The most frequent verbs, the base for building sentences.",
+      "es": "Los verbos más frecuentes, la base para formar frases."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u13-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Recognise the most common verbs",
+        "Name everyday actions"
+      ],
+      "es": [
+        "Reconocer los verbos más usados",
+        "Nombrar acciones del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "ser / estar / haber",
+            "be / are",
+            "ہونا"
+          ],
+          [
+            "hacer",
+            "do",
+            "کرنا"
+          ],
+          [
+            "ir",
+            "go",
+            "جانا"
+          ],
+          [
+            "venir",
+            "Come",
+            "آنا"
+          ],
+          [
+            "ver / mirar",
+            "see / watch",
+            "دیکھنا"
+          ],
+          [
+            "oír / escuchar",
+            "hear / listen",
+            "سُننا"
+          ],
+          [
+            "hablar / decir",
+            "speak / say",
+            "کہنا"
+          ],
+          [
+            "decir",
+            "say",
+            "کہنا"
+          ],
+          [
+            "preguntar",
+            "ask",
+            "پوچھنا"
+          ],
+          [
+            "contar / explicar",
+            "count / explain",
+            "بتانا"
+          ],
+          [
+            "entender / comprender",
+            "understand / comprehend",
+            "سمجھنا"
+          ],
+          [
+            "saber / conocer",
+            "know / understand",
+            "جاننا"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Common verbs",
+      "es": "Los verbos comunes"
+    },
+    "unit": 13
+  },
+  {
+    "concepts": [
+      "c:adjetivos.bueno",
+      "c:adjetivos.malo",
+      "c:adjetivos.grande",
+      "c:adjetivos.pequeno",
+      "c:adjetivos.largo-alto",
+      "c:adjetivos.bajo-corto",
+      "c:adjetivos.nuevo",
+      "c:adjetivos.viejo-antiguo",
+      "c:adjetivos.joven",
+      "c:adjetivos.viejo-persona",
+      "c:adjetivos.hermoso-bonito",
+      "c:adjetivos.feo"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:adjetivos.bueno",
+        "en": "Good.",
+        "es": "bueno",
+        "speaker": "A",
+        "translit": "achha",
+        "ur": "اچھا"
+      },
+      {
+        "concept": "c:adjetivos.malo",
+        "en": "bad",
+        "es": "malo",
+        "speaker": "B",
+        "translit": "bura / kharaab",
+        "ur": "برا / خراب"
+      },
+      {
+        "concept": "c:adjetivos.grande",
+        "en": "large",
+        "es": "grande",
+        "speaker": "A",
+        "translit": "bada",
+        "ur": "بڑا"
+      },
+      {
+        "concept": "c:adjetivos.pequeno",
+        "en": "small",
+        "es": "pequeño",
+        "speaker": "B",
+        "translit": "chhota",
+        "ur": "چھوٹا"
+      },
+      {
+        "concept": "c:adjetivos.largo-alto",
+        "en": "long / high",
+        "es": "largo / alto",
+        "speaker": "A",
+        "translit": "lambā",
+        "ur": "لںبا"
+      },
+      {
+        "concept": "c:adjetivos.bajo-corto",
+        "en": "low / short",
+        "es": "bajo / corto",
+        "speaker": "B",
+        "translit": "choṭā (ū̃cāī)",
+        "ur": "چھوٹا (اوںچاای)"
+      },
+      {
+        "concept": "c:adjetivos.nuevo",
+        "en": "new",
+        "es": "nuevo",
+        "speaker": "A",
+        "translit": "naya",
+        "ur": "نیا — nuevo"
+      },
+      {
+        "concept": "c:adjetivos.viejo-antiguo",
+        "en": "old / ancient",
+        "es": "viejo / antiguo",
+        "speaker": "B",
+        "translit": "purānā",
+        "ur": "پُرانا"
+      },
+      {
+        "concept": "c:adjetivos.joven",
+        "en": "young",
+        "es": "joven",
+        "speaker": "A",
+        "translit": "yuvā",
+        "ur": "یوا — joven"
+      },
+      {
+        "concept": "c:adjetivos.viejo-persona",
+        "en": "old (person)",
+        "es": "viejo (persona)",
+        "speaker": "B",
+        "translit": "būṛhā",
+        "ur": "بوڈھا"
+      },
+      {
+        "concept": "c:adjetivos.hermoso-bonito",
+        "en": "beautiful / pretty",
+        "es": "hermoso / bonito",
+        "speaker": "A",
+        "translit": "sundar",
+        "ur": "سُںدر"
+      },
+      {
+        "concept": "c:adjetivos.feo",
+        "en": "ugly",
+        "es": "feo",
+        "speaker": "B",
+        "translit": "badsūrat",
+        "ur": "بدسورت"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "اچھا",
+            "answerTranslit": "achha",
+            "concept": "c:adjetivos.bueno",
+            "optionTranslit": {
+              "اچھا": "achha",
+              "نیا — nuevo": "naya",
+              "چھوٹا (اوںچاای)": "choṭā (ū̃cāī)",
+              "یوا — joven": "yuvā"
+            },
+            "options": [
+              "یوا — joven",
+              "نیا — nuevo",
+              "چھوٹا (اوںچاای)",
+              "اچھا"
+            ],
+            "prompt": "bueno"
+          },
+          {
+            "answer": "برا / خراب",
+            "answerTranslit": "bura / kharaab",
+            "concept": "c:adjetivos.malo",
+            "optionTranslit": {
+              "برا / خراب": "bura / kharaab",
+              "نیا — nuevo": "naya",
+              "چھوٹا": "chhota",
+              "چھوٹا (اوںچاای)": "choṭā (ū̃cāī)"
+            },
+            "options": [
+              "چھوٹا",
+              "چھوٹا (اوںچاای)",
+              "برا / خراب",
+              "نیا — nuevo"
+            ],
+            "prompt": "malo"
+          },
+          {
+            "answer": "بڑا",
+            "answerTranslit": "bada",
+            "concept": "c:adjetivos.grande",
+            "optionTranslit": {
+              "اچھا": "achha",
+              "برا / خراب": "bura / kharaab",
+              "بڑا": "bada",
+              "لںبا": "lambā"
+            },
+            "options": [
+              "لںبا",
+              "اچھا",
+              "برا / خراب",
+              "بڑا"
+            ],
+            "prompt": "grande"
+          },
+          {
+            "answer": "چھوٹا",
+            "answerTranslit": "chhota",
+            "concept": "c:adjetivos.pequeno",
+            "optionTranslit": {
+              "برا / خراب": "bura / kharaab",
+              "بوڈھا": "būṛhā",
+              "نیا — nuevo": "naya",
+              "چھوٹا": "chhota"
+            },
+            "options": [
+              "برا / خراب",
+              "چھوٹا",
+              "نیا — nuevo",
+              "بوڈھا"
+            ],
+            "prompt": "pequeño"
+          },
+          {
+            "answer": "لںبا",
+            "answerTranslit": "lambā",
+            "concept": "c:adjetivos.largo-alto",
+            "optionTranslit": {
+              "اچھا": "achha",
+              "سُںدر": "sundar",
+              "لںبا": "lambā",
+              "یوا — joven": "yuvā"
+            },
+            "options": [
+              "لںبا",
+              "اچھا",
+              "یوا — joven",
+              "سُںدر"
+            ],
+            "prompt": "largo / alto"
+          },
+          {
+            "answer": "چھوٹا (اوںچاای)",
+            "answerTranslit": "choṭā (ū̃cāī)",
+            "concept": "c:adjetivos.bajo-corto",
+            "optionTranslit": {
+              "بڑا": "bada",
+              "لںبا": "lambā",
+              "پُرانا": "purānā",
+              "چھوٹا (اوںچاای)": "choṭā (ū̃cāī)"
+            },
+            "options": [
+              "بڑا",
+              "لںبا",
+              "چھوٹا (اوںچاای)",
+              "پُرانا"
+            ],
+            "prompt": "bajo / corto"
+          },
+          {
+            "answer": "نیا — nuevo",
+            "answerTranslit": "naya",
+            "concept": "c:adjetivos.nuevo",
+            "optionTranslit": {
+              "بدسورت": "badsūrat",
+              "بوڈھا": "būṛhā",
+              "نیا — nuevo": "naya",
+              "چھوٹا (اوںچاای)": "choṭā (ū̃cāī)"
+            },
+            "options": [
+              "بوڈھا",
+              "نیا — nuevo",
+              "بدسورت",
+              "چھوٹا (اوںچاای)"
+            ],
+            "prompt": "nuevo"
+          },
+          {
+            "answer": "پُرانا",
+            "answerTranslit": "purānā",
+            "concept": "c:adjetivos.viejo-antiguo",
+            "optionTranslit": {
+              "برا / خراب": "bura / kharaab",
+              "سُںدر": "sundar",
+              "پُرانا": "purānā",
+              "یوا — joven": "yuvā"
+            },
+            "options": [
+              "برا / خراب",
+              "یوا — joven",
+              "پُرانا",
+              "سُںدر"
+            ],
+            "prompt": "viejo / antiguo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Adjectives to describe size, character, state and qualities.",
+      "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u14-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Describe with adjectives",
+        "Give opinions about things and people"
+      ],
+      "es": [
+        "Describir con adjetivos",
+        "Opinar sobre cosas y personas"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "bueno",
+            "Good.",
+            "اچھا"
+          ],
+          [
+            "malo",
+            "bad",
+            "برا / خراب"
+          ],
+          [
+            "grande",
+            "large",
+            "بڑا"
+          ],
+          [
+            "pequeño",
+            "small",
+            "چھوٹا"
+          ],
+          [
+            "largo / alto",
+            "long / high",
+            "لںبا"
+          ],
+          [
+            "bajo / corto",
+            "low / short",
+            "چھوٹا (اوںچاای)"
+          ],
+          [
+            "nuevo",
+            "new",
+            "نیا — nuevo"
+          ],
+          [
+            "viejo / antiguo",
+            "old / ancient",
+            "پُرانا"
+          ],
+          [
+            "joven",
+            "young",
+            "یوا — joven"
+          ],
+          [
+            "viejo (persona)",
+            "old (person)",
+            "بوڈھا"
+          ],
+          [
+            "hermoso / bonito",
+            "beautiful / pretty",
+            "سُںدر"
+          ],
+          [
+            "feo",
+            "ugly",
+            "بدسورت"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Adjectives",
+      "es": "Los adjetivos"
+    },
+    "unit": 14
+  },
+  {
+    "concepts": [
+      "c:viajes-compras-y-servicios.compras-ir-de-compras",
+      "c:viajes-compras-y-servicios.tienda",
+      "c:viajes-compras-y-servicios.mercado",
+      "c:viajes-compras-y-servicios.supermercado",
+      "c:viajes-compras-y-servicios.centro-comercial",
+      "c:viajes-compras-y-servicios.vendedor-tendero",
+      "c:viajes-compras-y-servicios.cliente-comprador",
+      "c:viajes-compras-y-servicios.precio",
+      "c:viajes-compras-y-servicios.dinero",
+      "c:viajes-compras-y-servicios.rupia-india-inr",
+      "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+      "c:viajes-compras-y-servicios.tarjeta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+        "en": "shopping / going for purchases",
+        "es": "compras / ir de compras",
+        "speaker": "A",
+        "translit": "kharīdārī",
+        "ur": "کھریداری"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tienda",
+        "en": "shop",
+        "es": "tienda",
+        "speaker": "B",
+        "translit": "dukān",
+        "ur": "دُکان — tienda"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.mercado",
+        "en": "market",
+        "es": "mercado",
+        "speaker": "A",
+        "translit": "baazaar",
+        "ur": "بازار — mercado"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.supermercado",
+        "en": "supermarket",
+        "es": "supermercado",
+        "speaker": "B",
+        "translit": "suparmārkeṭ",
+        "ur": "سُپرمارکےٹ — supermercado"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.centro-comercial",
+        "en": "shopping centre",
+        "es": "centro comercial",
+        "speaker": "A",
+        "translit": "môl",
+        "ur": "مال — centro comercial"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+        "en": "seller / tenderer",
+        "es": "vendedor / tendero",
+        "speaker": "B",
+        "translit": "dukāndār",
+        "ur": "دُکاندار"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+        "en": "customer / buyer",
+        "es": "cliente / comprador",
+        "speaker": "A",
+        "translit": "grāhak",
+        "ur": "گراہک"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.precio",
+        "en": "price",
+        "es": "precio",
+        "speaker": "B",
+        "translit": "kīmat",
+        "ur": "کیمت"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.dinero",
+        "en": "money",
+        "es": "dinero",
+        "speaker": "A",
+        "translit": "paisa / raqam",
+        "ur": "پیسہ / رقم"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.rupia-india-inr",
+        "en": "Indian rupee (INR)",
+        "es": "rupia india (INR)",
+        "speaker": "B",
+        "translit": "rupayā",
+        "ur": "رُپیا"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+        "en": "cash / money in the form of",
+        "es": "efectivo / dinero en efectivo",
+        "speaker": "A",
+        "translit": "nakad",
+        "ur": "نکد"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tarjeta",
+        "en": "card",
+        "es": "tarjeta",
+        "speaker": "B",
+        "translit": "kārḍ",
+        "ur": "کارڈ"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "کھریداری",
+            "answerTranslit": "kharīdārī",
+            "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+            "optionTranslit": {
+              "سُپرمارکےٹ — supermercado": "suparmārkeṭ",
+              "مال — centro comercial": "môl",
+              "کھریداری": "kharīdārī",
+              "گراہک": "grāhak"
+            },
+            "options": [
+              "سُپرمارکےٹ — supermercado",
+              "گراہک",
+              "کھریداری",
+              "مال — centro comercial"
+            ],
+            "prompt": "compras / ir de compras"
+          },
+          {
+            "answer": "دُکان — tienda",
+            "answerTranslit": "dukān",
+            "concept": "c:viajes-compras-y-servicios.tienda",
+            "optionTranslit": {
+              "دُکان — tienda": "dukān",
+              "دُکاندار": "dukāndār",
+              "نکد": "nakad",
+              "کارڈ": "kārḍ"
+            },
+            "options": [
+              "دُکاندار",
+              "دُکان — tienda",
+              "کارڈ",
+              "نکد"
+            ],
+            "prompt": "tienda"
+          },
+          {
+            "answer": "بازار — mercado",
+            "answerTranslit": "baazaar",
+            "concept": "c:viajes-compras-y-servicios.mercado",
+            "optionTranslit": {
+              "بازار — mercado": "baazaar",
+              "دُکان — tienda": "dukān",
+              "رُپیا": "rupayā",
+              "کارڈ": "kārḍ"
+            },
+            "options": [
+              "رُپیا",
+              "دُکان — tienda",
+              "بازار — mercado",
+              "کارڈ"
+            ],
+            "prompt": "mercado"
+          },
+          {
+            "answer": "سُپرمارکےٹ — supermercado",
+            "answerTranslit": "suparmārkeṭ",
+            "concept": "c:viajes-compras-y-servicios.supermercado",
+            "optionTranslit": {
+              "دُکان — tienda": "dukān",
+              "رُپیا": "rupayā",
+              "سُپرمارکےٹ — supermercado": "suparmārkeṭ",
+              "کیمت": "kīmat"
+            },
+            "options": [
+              "رُپیا",
+              "کیمت",
+              "دُکان — tienda",
+              "سُپرمارکےٹ — supermercado"
+            ],
+            "prompt": "supermercado"
+          },
+          {
+            "answer": "مال — centro comercial",
+            "answerTranslit": "môl",
+            "concept": "c:viajes-compras-y-servicios.centro-comercial",
+            "optionTranslit": {
+              "بازار — mercado": "baazaar",
+              "دُکاندار": "dukāndār",
+              "سُپرمارکےٹ — supermercado": "suparmārkeṭ",
+              "مال — centro comercial": "môl"
+            },
+            "options": [
+              "سُپرمارکےٹ — supermercado",
+              "دُکاندار",
+              "مال — centro comercial",
+              "بازار — mercado"
+            ],
+            "prompt": "centro comercial"
+          },
+          {
+            "answer": "دُکاندار",
+            "answerTranslit": "dukāndār",
+            "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+            "optionTranslit": {
+              "دُکاندار": "dukāndār",
+              "رُپیا": "rupayā",
+              "سُپرمارکےٹ — supermercado": "suparmārkeṭ",
+              "کھریداری": "kharīdārī"
+            },
+            "options": [
+              "کھریداری",
+              "رُپیا",
+              "دُکاندار",
+              "سُپرمارکےٹ — supermercado"
+            ],
+            "prompt": "vendedor / tendero"
+          },
+          {
+            "answer": "گراہک",
+            "answerTranslit": "grāhak",
+            "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+            "optionTranslit": {
+              "نکد": "nakad",
+              "کھریداری": "kharīdārī",
+              "کیمت": "kīmat",
+              "گراہک": "grāhak"
+            },
+            "options": [
+              "کھریداری",
+              "کیمت",
+              "نکد",
+              "گراہک"
+            ],
+            "prompt": "cliente / comprador"
+          },
+          {
+            "answer": "کیمت",
+            "answerTranslit": "kīmat",
+            "concept": "c:viajes-compras-y-servicios.precio",
+            "optionTranslit": {
+              "نکد": "nakad",
+              "پیسہ / رقم": "paisa / raqam",
+              "کھریداری": "kharīdārī",
+              "کیمت": "kīmat"
+            },
+            "options": [
+              "پیسہ / رقم",
+              "نکد",
+              "کھریداری",
+              "کیمت"
+            ],
+            "prompt": "precio"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words to shop, pay and use services during a trip.",
+      "es": "Palabras para comprar, pagar y usar servicios durante un viaje."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u15-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Handle shopping and services",
+        "Ask about prices and opening hours"
+      ],
+      "es": [
+        "Resolver compras y servicios",
+        "Preguntar precios y horarios"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "compras / ir de compras",
+            "shopping / going for purchases",
+            "کھریداری"
+          ],
+          [
+            "tienda",
+            "shop",
+            "دُکان — tienda"
+          ],
+          [
+            "mercado",
+            "market",
+            "بازار — mercado"
+          ],
+          [
+            "supermercado",
+            "supermarket",
+            "سُپرمارکےٹ — supermercado"
+          ],
+          [
+            "centro comercial",
+            "shopping centre",
+            "مال — centro comercial"
+          ],
+          [
+            "vendedor / tendero",
+            "seller / tenderer",
+            "دُکاندار"
+          ],
+          [
+            "cliente / comprador",
+            "customer / buyer",
+            "گراہک"
+          ],
+          [
+            "precio",
+            "price",
+            "کیمت"
+          ],
+          [
+            "dinero",
+            "money",
+            "پیسہ / رقم"
+          ],
+          [
+            "rupia india (INR)",
+            "Indian rupee (INR)",
+            "رُپیا"
+          ],
+          [
+            "efectivo / dinero en efectivo",
+            "cash / money in the form of",
+            "نکد"
+          ],
+          [
+            "tarjeta",
+            "card",
+            "کارڈ"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Travel, shopping and services",
+      "es": "Viajes, compras y servicios"
+    },
+    "unit": 15
+  },
+  {
+    "concepts": [
+      "c:transporte-y-viajes.viaje",
+      "c:transporte-y-viajes.viaje-trayecto",
+      "c:transporte-y-viajes.turismo",
+      "c:transporte-y-viajes.coche-auto",
+      "c:transporte-y-viajes.taxi",
+      "c:transporte-y-viajes.autobus",
+      "c:transporte-y-viajes.tren",
+      "c:transporte-y-viajes.metro",
+      "c:transporte-y-viajes.avion",
+      "c:transporte-y-viajes.barco-avion",
+      "c:transporte-y-viajes.barco-bote",
+      "c:transporte-y-viajes.bicicleta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:transporte-y-viajes.viaje",
+        "en": "travel",
+        "es": "viaje",
+        "speaker": "A",
+        "translit": "yātrā",
+        "ur": "یاترا"
+      },
+      {
+        "concept": "c:transporte-y-viajes.viaje-trayecto",
+        "en": "travel / journey",
+        "es": "viaje / trayecto",
+        "speaker": "B",
+        "translit": "safar",
+        "ur": "سپھر"
+      },
+      {
+        "concept": "c:transporte-y-viajes.turismo",
+        "en": "tourism",
+        "es": "turismo",
+        "speaker": "A",
+        "translit": "paryaṭan",
+        "ur": "پریٹن"
+      },
+      {
+        "concept": "c:transporte-y-viajes.coche-auto",
+        "en": "car / vehicle",
+        "es": "coche / auto",
+        "speaker": "B",
+        "translit": "kār",
+        "ur": "کار"
+      },
+      {
+        "concept": "c:transporte-y-viajes.taxi",
+        "en": "taxi",
+        "es": "taxi",
+        "speaker": "A",
+        "translit": "ṭaiksī",
+        "ur": "ٹےکسی"
+      },
+      {
+        "concept": "c:transporte-y-viajes.autobus",
+        "en": "bus",
+        "es": "autobús",
+        "speaker": "B",
+        "translit": "bas",
+        "ur": "بس"
+      },
+      {
+        "concept": "c:transporte-y-viajes.tren",
+        "en": "train",
+        "es": "tren",
+        "speaker": "A",
+        "translit": "train / rail gaadi",
+        "ur": "ٹرین / ریل گاڑی"
+      },
+      {
+        "concept": "c:transporte-y-viajes.metro",
+        "en": "Subway",
+        "es": "metro",
+        "speaker": "B",
+        "translit": "meṭro",
+        "ur": "مےٹرو"
+      },
+      {
+        "concept": "c:transporte-y-viajes.avion",
+        "en": "aircraft",
+        "es": "avión",
+        "speaker": "A",
+        "translit": "hawai jahaaz",
+        "ur": "ہوائی جہاز"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-avion",
+        "en": "boat / aircraft",
+        "es": "barco / avión",
+        "speaker": "B",
+        "translit": "hawai jahaaz",
+        "ur": "ہوائی جہاز"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-bote",
+        "en": "boat / ship",
+        "es": "barco / bote",
+        "speaker": "A",
+        "translit": "nāv",
+        "ur": "ناو"
+      },
+      {
+        "concept": "c:transporte-y-viajes.bicicleta",
+        "en": "bicycle",
+        "es": "bicicleta",
+        "speaker": "B",
+        "translit": "sāikil",
+        "ur": "سااِکِل"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "یاترا",
+            "answerTranslit": "yātrā",
+            "concept": "c:transporte-y-viajes.viaje",
+            "optionTranslit": {
+              "سااِکِل": "sāikil",
+              "ناو": "nāv",
+              "ٹےکسی": "ṭaiksī",
+              "یاترا": "yātrā"
+            },
+            "options": [
+              "ٹےکسی",
+              "ناو",
+              "سااِکِل",
+              "یاترا"
+            ],
+            "prompt": "viaje"
+          },
+          {
+            "answer": "سپھر",
+            "answerTranslit": "safar",
+            "concept": "c:transporte-y-viajes.viaje-trayecto",
+            "optionTranslit": {
+              "سپھر": "safar",
+              "مےٹرو": "meṭro",
+              "ناو": "nāv",
+              "پریٹن": "paryaṭan"
+            },
+            "options": [
+              "مےٹرو",
+              "پریٹن",
+              "ناو",
+              "سپھر"
+            ],
+            "prompt": "viaje / trayecto"
+          },
+          {
+            "answer": "پریٹن",
+            "answerTranslit": "paryaṭan",
+            "concept": "c:transporte-y-viajes.turismo",
+            "optionTranslit": {
+              "سپھر": "safar",
+              "مےٹرو": "meṭro",
+              "ٹرین / ریل گاڑی": "train / rail gaadi",
+              "پریٹن": "paryaṭan"
+            },
+            "options": [
+              "سپھر",
+              "پریٹن",
+              "ٹرین / ریل گاڑی",
+              "مےٹرو"
+            ],
+            "prompt": "turismo"
+          },
+          {
+            "answer": "کار",
+            "answerTranslit": "kār",
+            "concept": "c:transporte-y-viajes.coche-auto",
+            "optionTranslit": {
+              "ناو": "nāv",
+              "کار": "kār",
+              "ہوائی جہاز": "hawai jahaaz",
+              "یاترا": "yātrā"
+            },
+            "options": [
+              "کار",
+              "ہوائی جہاز",
+              "ناو",
+              "یاترا"
+            ],
+            "prompt": "coche / auto"
+          },
+          {
+            "answer": "ٹےکسی",
+            "answerTranslit": "ṭaiksī",
+            "concept": "c:transporte-y-viajes.taxi",
+            "optionTranslit": {
+              "سپھر": "safar",
+              "ٹےکسی": "ṭaiksī",
+              "پریٹن": "paryaṭan",
+              "یاترا": "yātrā"
+            },
+            "options": [
+              "یاترا",
+              "پریٹن",
+              "ٹےکسی",
+              "سپھر"
+            ],
+            "prompt": "taxi"
+          },
+          {
+            "answer": "بس",
+            "answerTranslit": "bas",
+            "concept": "c:transporte-y-viajes.autobus",
+            "optionTranslit": {
+              "بس": "bas",
+              "ناو": "nāv",
+              "ٹےکسی": "ṭaiksī",
+              "کار": "kār"
+            },
+            "options": [
+              "کار",
+              "ٹےکسی",
+              "بس",
+              "ناو"
+            ],
+            "prompt": "autobús"
+          },
+          {
+            "answer": "ٹرین / ریل گاڑی",
+            "answerTranslit": "train / rail gaadi",
+            "concept": "c:transporte-y-viajes.tren",
+            "optionTranslit": {
+              "بس": "bas",
+              "ناو": "nāv",
+              "ٹرین / ریل گاڑی": "train / rail gaadi",
+              "ہوائی جہاز": "hawai jahaaz"
+            },
+            "options": [
+              "ٹرین / ریل گاڑی",
+              "ہوائی جہاز",
+              "بس",
+              "ناو"
+            ],
+            "prompt": "tren"
+          },
+          {
+            "answer": "مےٹرو",
+            "answerTranslit": "meṭro",
+            "concept": "c:transporte-y-viajes.metro",
+            "optionTranslit": {
+              "مےٹرو": "meṭro",
+              "ناو": "nāv",
+              "ہوائی جہاز": "hawai jahaaz",
+              "یاترا": "yātrā"
+            },
+            "options": [
+              "یاترا",
+              "مےٹرو",
+              "ناو",
+              "ہوائی جہاز"
+            ],
+            "prompt": "metro"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Means of transport and words useful to get around.",
+      "es": "Medios de transporte y palabras útiles para desplazarse."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u16-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name means of transport",
+        "Get around and travel"
+      ],
+      "es": [
+        "Nombrar medios de transporte",
+        "Moverse y viajar"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "viaje",
+            "travel",
+            "یاترا"
+          ],
+          [
+            "viaje / trayecto",
+            "travel / journey",
+            "سپھر"
+          ],
+          [
+            "turismo",
+            "tourism",
+            "پریٹن"
+          ],
+          [
+            "coche / auto",
+            "car / vehicle",
+            "کار"
+          ],
+          [
+            "taxi",
+            "taxi",
+            "ٹےکسی"
+          ],
+          [
+            "autobús",
+            "bus",
+            "بس"
+          ],
+          [
+            "tren",
+            "train",
+            "ٹرین / ریل گاڑی"
+          ],
+          [
+            "metro",
+            "Subway",
+            "مےٹرو"
+          ],
+          [
+            "avión",
+            "aircraft",
+            "ہوائی جہاز"
+          ],
+          [
+            "barco / avión",
+            "boat / aircraft",
+            "ہوائی جہاز"
+          ],
+          [
+            "barco / bote",
+            "boat / ship",
+            "ناو"
+          ],
+          [
+            "bicicleta",
+            "bicycle",
+            "سااِکِل"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Transport and travel",
+      "es": "El transporte y los viajes"
+    },
+    "unit": 16
+  },
+  {
+    "concepts": [
+      "c:educacion-y-aprendizaje.educacion",
+      "c:educacion-y-aprendizaje.escuela",
+      "c:educacion-y-aprendizaje.clase-aula-grado",
+      "c:educacion-y-aprendizaje.leccion",
+      "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "c:educacion-y-aprendizaje.matematicas",
+      "c:educacion-y-aprendizaje.ciencia",
+      "c:educacion-y-aprendizaje.historia",
+      "c:educacion-y-aprendizaje.geografia",
+      "c:educacion-y-aprendizaje.literatura",
+      "c:educacion-y-aprendizaje.idioma-lengua"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:educacion-y-aprendizaje.educacion",
+        "en": "education",
+        "es": "educación",
+        "speaker": "A",
+        "translit": "śikṣā",
+        "ur": "شِکشا"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.escuela",
+        "en": "school",
+        "es": "escuela",
+        "speaker": "B",
+        "translit": "school / madrasa",
+        "ur": "اسکول / مدرسہ — escuela"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+        "en": "class / classroom",
+        "es": "clase / aula / grado",
+        "speaker": "A",
+        "translit": "kakṣā",
+        "ur": "ککشا"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.leccion",
+        "en": "lesson",
+        "es": "lección",
+        "speaker": "B",
+        "translit": "pāṭh",
+        "ur": "پاٹھ"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+        "en": "curriculum / course",
+        "es": "plan de estudios / curso",
+        "speaker": "A",
+        "translit": "pāṭhyakram",
+        "ur": "پاٹھیکرم"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+        "en": "subject / topic",
+        "es": "materia / tema / asunto",
+        "speaker": "B",
+        "translit": "viṣay",
+        "ur": "وِشی"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.matematicas",
+        "en": "mathematics",
+        "es": "matemáticas",
+        "speaker": "A",
+        "translit": "gaṇit",
+        "ur": "گنِت"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.ciencia",
+        "en": "science",
+        "es": "ciencia",
+        "speaker": "B",
+        "translit": "vijñān",
+        "ur": "وِجنجان"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.historia",
+        "en": "history",
+        "es": "historia",
+        "speaker": "A",
+        "translit": "itihās",
+        "ur": "اِتِہاس"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.geografia",
+        "en": "geography",
+        "es": "geografía",
+        "speaker": "B",
+        "translit": "bhūgol",
+        "ur": "بھوگول"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.literatura",
+        "en": "literature",
+        "es": "literatura",
+        "speaker": "A",
+        "translit": "sāhitya",
+        "ur": "ساہِتی"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+        "en": "language / tongue",
+        "es": "idioma / lengua",
+        "speaker": "B",
+        "translit": "zubaan",
+        "ur": "زبان"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "شِکشا",
+            "answerTranslit": "śikṣā",
+            "concept": "c:educacion-y-aprendizaje.educacion",
+            "optionTranslit": {
+              "زبان": "zubaan",
+              "شِکشا": "śikṣā",
+              "وِشی": "viṣay",
+              "پاٹھیکرم": "pāṭhyakram"
+            },
+            "options": [
+              "وِشی",
+              "پاٹھیکرم",
+              "زبان",
+              "شِکشا"
+            ],
+            "prompt": "educación"
+          },
+          {
+            "answer": "اسکول / مدرسہ — escuela",
+            "answerTranslit": "school / madrasa",
+            "concept": "c:educacion-y-aprendizaje.escuela",
+            "optionTranslit": {
+              "اسکول / مدرسہ — escuela": "school / madrasa",
+              "بھوگول": "bhūgol",
+              "وِشی": "viṣay",
+              "گنِت": "gaṇit"
+            },
+            "options": [
+              "وِشی",
+              "بھوگول",
+              "گنِت",
+              "اسکول / مدرسہ — escuela"
+            ],
+            "prompt": "escuela"
+          },
+          {
+            "answer": "ککشا",
+            "answerTranslit": "kakṣā",
+            "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+            "optionTranslit": {
+              "اِتِہاس": "itihās",
+              "بھوگول": "bhūgol",
+              "وِشی": "viṣay",
+              "ککشا": "kakṣā"
+            },
+            "options": [
+              "وِشی",
+              "بھوگول",
+              "اِتِہاس",
+              "ککشا"
+            ],
+            "prompt": "clase / aula / grado"
+          },
+          {
+            "answer": "پاٹھ",
+            "answerTranslit": "pāṭh",
+            "concept": "c:educacion-y-aprendizaje.leccion",
+            "optionTranslit": {
+              "اِتِہاس": "itihās",
+              "زبان": "zubaan",
+              "وِشی": "viṣay",
+              "پاٹھ": "pāṭh"
+            },
+            "options": [
+              "اِتِہاس",
+              "زبان",
+              "وِشی",
+              "پاٹھ"
+            ],
+            "prompt": "lección"
+          },
+          {
+            "answer": "پاٹھیکرم",
+            "answerTranslit": "pāṭhyakram",
+            "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+            "optionTranslit": {
+              "اسکول / مدرسہ — escuela": "school / madrasa",
+              "بھوگول": "bhūgol",
+              "پاٹھیکرم": "pāṭhyakram",
+              "گنِت": "gaṇit"
+            },
+            "options": [
+              "اسکول / مدرسہ — escuela",
+              "بھوگول",
+              "گنِت",
+              "پاٹھیکرم"
+            ],
+            "prompt": "plan de estudios / curso"
+          },
+          {
+            "answer": "وِشی",
+            "answerTranslit": "viṣay",
+            "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+            "optionTranslit": {
+              "اسکول / مدرسہ — escuela": "school / madrasa",
+              "بھوگول": "bhūgol",
+              "ساہِتی": "sāhitya",
+              "وِشی": "viṣay"
+            },
+            "options": [
+              "وِشی",
+              "اسکول / مدرسہ — escuela",
+              "بھوگول",
+              "ساہِتی"
+            ],
+            "prompt": "materia / tema / asunto"
+          },
+          {
+            "answer": "گنِت",
+            "answerTranslit": "gaṇit",
+            "concept": "c:educacion-y-aprendizaje.matematicas",
+            "optionTranslit": {
+              "اسکول / مدرسہ — escuela": "school / madrasa",
+              "بھوگول": "bhūgol",
+              "زبان": "zubaan",
+              "گنِت": "gaṇit"
+            },
+            "options": [
+              "زبان",
+              "بھوگول",
+              "گنِت",
+              "اسکول / مدرسہ — escuela"
+            ],
+            "prompt": "matemáticas"
+          },
+          {
+            "answer": "وِجنجان",
+            "answerTranslit": "vijñān",
+            "concept": "c:educacion-y-aprendizaje.ciencia",
+            "optionTranslit": {
+              "زبان": "zubaan",
+              "شِکشا": "śikṣā",
+              "وِجنجان": "vijñān",
+              "گنِت": "gaṇit"
+            },
+            "options": [
+              "شِکشا",
+              "گنِت",
+              "زبان",
+              "وِجنجان"
+            ],
+            "prompt": "ciencia"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words from school and learning.",
+      "es": "Palabras de la escuela y del aprendizaje."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u17-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Talk about studies",
+        "Name school and its objects"
+      ],
+      "es": [
+        "Hablar de estudios",
+        "Nombrar la escuela y sus objetos"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "educación",
+            "education",
+            "شِکشا"
+          ],
+          [
+            "escuela",
+            "school",
+            "اسکول / مدرسہ — escuela"
+          ],
+          [
+            "clase / aula / grado",
+            "class / classroom",
+            "ککشا"
+          ],
+          [
+            "lección",
+            "lesson",
+            "پاٹھ"
+          ],
+          [
+            "plan de estudios / curso",
+            "curriculum / course",
+            "پاٹھیکرم"
+          ],
+          [
+            "materia / tema / asunto",
+            "subject / topic",
+            "وِشی"
+          ],
+          [
+            "matemáticas",
+            "mathematics",
+            "گنِت"
+          ],
+          [
+            "ciencia",
+            "science",
+            "وِجنجان"
+          ],
+          [
+            "historia",
+            "history",
+            "اِتِہاس"
+          ],
+          [
+            "geografía",
+            "geography",
+            "بھوگول"
+          ],
+          [
+            "literatura",
+            "literature",
+            "ساہِتی"
+          ],
+          [
+            "idioma / lengua",
+            "language / tongue",
+            "زبان"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Education and learning",
+      "es": "La educación y el aprendizaje"
+    },
+    "unit": 17
+  },
+  {
+    "concepts": [
+      "c:tecnologia-y-comunicacion.tecnologia",
+      "c:tecnologia-y-comunicacion.computadora-ordenador",
+      "c:tecnologia-y-comunicacion.portatil-laptop",
+      "c:tecnologia-y-comunicacion.tableta",
+      "c:tecnologia-y-comunicacion.telefono-movil-celular",
+      "c:tecnologia-y-comunicacion.telefono",
+      "c:tecnologia-y-comunicacion.pantalla",
+      "c:tecnologia-y-comunicacion.teclado",
+      "c:tecnologia-y-comunicacion.raton-informatica",
+      "c:tecnologia-y-comunicacion.impresora",
+      "c:tecnologia-y-comunicacion.camara",
+      "c:tecnologia-y-comunicacion.microfono"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:tecnologia-y-comunicacion.tecnologia",
+        "en": "technology",
+        "es": "tecnología",
+        "speaker": "A",
+        "translit": "taknīk",
+        "ur": "تکنیک"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+        "en": "computer / PC",
+        "es": "computadora / ordenador",
+        "speaker": "B",
+        "translit": "kampyūṭar",
+        "ur": "کںپیوٹر — computadora / ordenador"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+        "en": "laptop / laptop",
+        "es": "portátil / laptop",
+        "speaker": "A",
+        "translit": "laipṭôp",
+        "ur": "لےپٹاپ"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.tableta",
+        "en": "tablet",
+        "es": "tableta",
+        "speaker": "B",
+        "translit": "ṭaibleṭ",
+        "ur": "ٹےبلےٹ"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+        "en": "mobile / cell phone",
+        "es": "teléfono móvil / celular",
+        "speaker": "A",
+        "translit": "mobāil",
+        "ur": "موبااِل"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono",
+        "en": "phone",
+        "es": "teléfono",
+        "speaker": "B",
+        "translit": "phone / telephone",
+        "ur": "فون / ٹیلی فون — teléfono"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.pantalla",
+        "en": "screen",
+        "es": "pantalla",
+        "speaker": "A",
+        "translit": "skrīn",
+        "ur": "سکرین"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.teclado",
+        "en": "keyboard",
+        "es": "teclado",
+        "speaker": "B",
+        "translit": "kīborḍ",
+        "ur": "کیبورڈ"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.raton-informatica",
+        "en": "mouse (computer)",
+        "es": "ratón (informática)",
+        "speaker": "A",
+        "translit": "māus",
+        "ur": "مااُس"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.impresora",
+        "en": "printer",
+        "es": "impresora",
+        "speaker": "B",
+        "translit": "prinṭar",
+        "ur": "پرِںٹر"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.camara",
+        "en": "camera",
+        "es": "cámara",
+        "speaker": "A",
+        "translit": "kaimrā",
+        "ur": "کےمرا"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.microfono",
+        "en": "microphone",
+        "es": "micrófono",
+        "speaker": "B",
+        "translit": "māikrofon",
+        "ur": "مااِکروپھون"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "تکنیک",
+            "answerTranslit": "taknīk",
+            "concept": "c:tecnologia-y-comunicacion.tecnologia",
+            "optionTranslit": {
+              "تکنیک": "taknīk",
+              "لےپٹاپ": "laipṭôp",
+              "مااُس": "māus",
+              "کںپیوٹر — computadora / ordenador": "kampyūṭar"
+            },
+            "options": [
+              "تکنیک",
+              "کںپیوٹر — computadora / ordenador",
+              "لےپٹاپ",
+              "مااُس"
+            ],
+            "prompt": "tecnología"
+          },
+          {
+            "answer": "کںپیوٹر — computadora / ordenador",
+            "answerTranslit": "kampyūṭar",
+            "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+            "optionTranslit": {
+              "لےپٹاپ": "laipṭôp",
+              "ٹےبلےٹ": "ṭaibleṭ",
+              "کںپیوٹر — computadora / ordenador": "kampyūṭar",
+              "کیبورڈ": "kīborḍ"
+            },
+            "options": [
+              "لےپٹاپ",
+              "کیبورڈ",
+              "ٹےبلےٹ",
+              "کںپیوٹر — computadora / ordenador"
+            ],
+            "prompt": "computadora / ordenador"
+          },
+          {
+            "answer": "لےپٹاپ",
+            "answerTranslit": "laipṭôp",
+            "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+            "optionTranslit": {
+              "تکنیک": "taknīk",
+              "فون / ٹیلی فون — teléfono": "phone / telephone",
+              "لےپٹاپ": "laipṭôp",
+              "موبااِل": "mobāil"
+            },
+            "options": [
+              "تکنیک",
+              "لےپٹاپ",
+              "موبااِل",
+              "فون / ٹیلی فون — teléfono"
+            ],
+            "prompt": "portátil / laptop"
+          },
+          {
+            "answer": "ٹےبلےٹ",
+            "answerTranslit": "ṭaibleṭ",
+            "concept": "c:tecnologia-y-comunicacion.tableta",
+            "optionTranslit": {
+              "فون / ٹیلی فون — teléfono": "phone / telephone",
+              "مااِکروپھون": "māikrofon",
+              "ٹےبلےٹ": "ṭaibleṭ",
+              "پرِںٹر": "prinṭar"
+            },
+            "options": [
+              "مااِکروپھون",
+              "پرِںٹر",
+              "فون / ٹیلی فون — teléfono",
+              "ٹےبلےٹ"
+            ],
+            "prompt": "tableta"
+          },
+          {
+            "answer": "موبااِل",
+            "answerTranslit": "mobāil",
+            "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+            "optionTranslit": {
+              "موبااِل": "mobāil",
+              "ٹےبلےٹ": "ṭaibleṭ",
+              "کںپیوٹر — computadora / ordenador": "kampyūṭar",
+              "کیبورڈ": "kīborḍ"
+            },
+            "options": [
+              "کیبورڈ",
+              "کںپیوٹر — computadora / ordenador",
+              "ٹےبلےٹ",
+              "موبااِل"
+            ],
+            "prompt": "teléfono móvil / celular"
+          },
+          {
+            "answer": "فون / ٹیلی فون — teléfono",
+            "answerTranslit": "phone / telephone",
+            "concept": "c:tecnologia-y-comunicacion.telefono",
+            "optionTranslit": {
+              "فون / ٹیلی فون — teléfono": "phone / telephone",
+              "لےپٹاپ": "laipṭôp",
+              "پرِںٹر": "prinṭar",
+              "کیبورڈ": "kīborḍ"
+            },
+            "options": [
+              "پرِںٹر",
+              "لےپٹاپ",
+              "فون / ٹیلی فون — teléfono",
+              "کیبورڈ"
+            ],
+            "prompt": "teléfono"
+          },
+          {
+            "answer": "سکرین",
+            "answerTranslit": "skrīn",
+            "concept": "c:tecnologia-y-comunicacion.pantalla",
+            "optionTranslit": {
+              "تکنیک": "taknīk",
+              "سکرین": "skrīn",
+              "کیبورڈ": "kīborḍ",
+              "کےمرا": "kaimrā"
+            },
+            "options": [
+              "تکنیک",
+              "کیبورڈ",
+              "سکرین",
+              "کےمرا"
+            ],
+            "prompt": "pantalla"
+          },
+          {
+            "answer": "کیبورڈ",
+            "answerTranslit": "kīborḍ",
+            "concept": "c:tecnologia-y-comunicacion.teclado",
+            "optionTranslit": {
+              "سکرین": "skrīn",
+              "ٹےبلےٹ": "ṭaibleṭ",
+              "کںپیوٹر — computadora / ordenador": "kampyūṭar",
+              "کیبورڈ": "kīborḍ"
+            },
+            "options": [
+              "ٹےبلےٹ",
+              "سکرین",
+              "کیبورڈ",
+              "کںپیوٹر — computadora / ordenador"
+            ],
+            "prompt": "teclado"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Devices, internet and everyday communication.",
+      "es": "Aparatos, internet y comunicación del día a día."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u18-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name devices and services",
+        "Talk on the phone and online"
+      ],
+      "es": [
+        "Nombrar aparatos y servicios",
+        "Hablar por teléfono e internet"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "tecnología",
+            "technology",
+            "تکنیک"
+          ],
+          [
+            "computadora / ordenador",
+            "computer / PC",
+            "کںپیوٹر — computadora / ordenador"
+          ],
+          [
+            "portátil / laptop",
+            "laptop / laptop",
+            "لےپٹاپ"
+          ],
+          [
+            "tableta",
+            "tablet",
+            "ٹےبلےٹ"
+          ],
+          [
+            "teléfono móvil / celular",
+            "mobile / cell phone",
+            "موبااِل"
+          ],
+          [
+            "teléfono",
+            "phone",
+            "فون / ٹیلی فون — teléfono"
+          ],
+          [
+            "pantalla",
+            "screen",
+            "سکرین"
+          ],
+          [
+            "teclado",
+            "keyboard",
+            "کیبورڈ"
+          ],
+          [
+            "ratón (informática)",
+            "mouse (computer)",
+            "مااُس"
+          ],
+          [
+            "impresora",
+            "printer",
+            "پرِںٹر"
+          ],
+          [
+            "cámara",
+            "camera",
+            "کےمرا"
+          ],
+          [
+            "micrófono",
+            "microphone",
+            "مااِکروپھون"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Technology and communication",
+      "es": "La tecnología y la comunicación"
+    },
+    "unit": 18
+  },
+  {
+    "concepts": [
+      "c:naturaleza-y-clima.naturaleza",
+      "c:naturaleza-y-clima.arbol",
+      "c:naturaleza-y-clima.planta",
+      "c:naturaleza-y-clima.flor",
+      "c:naturaleza-y-clima.hoja",
+      "c:naturaleza-y-clima.raiz",
+      "c:naturaleza-y-clima.rama",
+      "c:naturaleza-y-clima.tronco-tallo",
+      "c:naturaleza-y-clima.semilla",
+      "c:naturaleza-y-clima.hierba-cesped",
+      "c:naturaleza-y-clima.bosque-selva",
+      "c:naturaleza-y-clima.montana"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:naturaleza-y-clima.naturaleza",
+        "en": "nature",
+        "es": "naturaleza",
+        "speaker": "A",
+        "translit": "prakṛti",
+        "ur": "پرکرتِ"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.arbol",
+        "en": "tree",
+        "es": "árbol",
+        "speaker": "B",
+        "translit": "darakht / ped",
+        "ur": "درخت / پیڑ"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.planta",
+        "en": "plant",
+        "es": "planta",
+        "speaker": "A",
+        "translit": "paudhā",
+        "ur": "پودھا"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.flor",
+        "en": "flower",
+        "es": "flor",
+        "speaker": "B",
+        "translit": "phool",
+        "ur": "پھول"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hoja",
+        "en": "leaf",
+        "es": "hoja",
+        "speaker": "A",
+        "translit": "pattā",
+        "ur": "پتتا"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.raiz",
+        "en": "root",
+        "es": "raíz",
+        "speaker": "B",
+        "translit": "jaṛ",
+        "ur": "جڈ"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.rama",
+        "en": "branch",
+        "es": "rama",
+        "speaker": "A",
+        "translit": "ḍālī",
+        "ur": "ڈالی"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.tronco-tallo",
+        "en": "trunk / stem",
+        "es": "tronco / tallo",
+        "speaker": "B",
+        "translit": "tanā",
+        "ur": "تنا"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.semilla",
+        "en": "seed",
+        "es": "semilla",
+        "speaker": "A",
+        "translit": "bīj",
+        "ur": "بیج"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hierba-cesped",
+        "en": "grass / lawn",
+        "es": "hierba / césped",
+        "speaker": "B",
+        "translit": "ghās",
+        "ur": "گھاس"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.bosque-selva",
+        "en": "forest / jungle",
+        "es": "bosque / selva",
+        "speaker": "A",
+        "translit": "jaṅgal",
+        "ur": "جںگل — bosque / selva"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.montana",
+        "en": "mountain",
+        "es": "montaña",
+        "speaker": "B",
+        "translit": "pahāṛ",
+        "ur": "پہاڈ — montaña"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "پرکرتِ",
+            "answerTranslit": "prakṛti",
+            "concept": "c:naturaleza-y-clima.naturaleza",
+            "optionTranslit": {
+              "بیج": "bīj",
+              "جڈ": "jaṛ",
+              "پرکرتِ": "prakṛti",
+              "پودھا": "paudhā"
+            },
+            "options": [
+              "پرکرتِ",
+              "بیج",
+              "پودھا",
+              "جڈ"
+            ],
+            "prompt": "naturaleza"
+          },
+          {
+            "answer": "درخت / پیڑ",
+            "answerTranslit": "darakht / ped",
+            "concept": "c:naturaleza-y-clima.arbol",
+            "optionTranslit": {
+              "درخت / پیڑ": "darakht / ped",
+              "پرکرتِ": "prakṛti",
+              "پہاڈ — montaña": "pahāṛ",
+              "ڈالی": "ḍālī"
+            },
+            "options": [
+              "پہاڈ — montaña",
+              "درخت / پیڑ",
+              "پرکرتِ",
+              "ڈالی"
+            ],
+            "prompt": "árbol"
+          },
+          {
+            "answer": "پودھا",
+            "answerTranslit": "paudhā",
+            "concept": "c:naturaleza-y-clima.planta",
+            "optionTranslit": {
+              "بیج": "bīj",
+              "درخت / پیڑ": "darakht / ped",
+              "پودھا": "paudhā",
+              "گھاس": "ghās"
+            },
+            "options": [
+              "گھاس",
+              "درخت / پیڑ",
+              "بیج",
+              "پودھا"
+            ],
+            "prompt": "planta"
+          },
+          {
+            "answer": "پھول",
+            "answerTranslit": "phool",
+            "concept": "c:naturaleza-y-clima.flor",
+            "optionTranslit": {
+              "تنا": "tanā",
+              "جںگل — bosque / selva": "jaṅgal",
+              "پھول": "phool",
+              "ڈالی": "ḍālī"
+            },
+            "options": [
+              "ڈالی",
+              "تنا",
+              "جںگل — bosque / selva",
+              "پھول"
+            ],
+            "prompt": "flor"
+          },
+          {
+            "answer": "پتتا",
+            "answerTranslit": "pattā",
+            "concept": "c:naturaleza-y-clima.hoja",
+            "optionTranslit": {
+              "بیج": "bīj",
+              "درخت / پیڑ": "darakht / ped",
+              "پتتا": "pattā",
+              "گھاس": "ghās"
+            },
+            "options": [
+              "پتتا",
+              "درخت / پیڑ",
+              "بیج",
+              "گھاس"
+            ],
+            "prompt": "hoja"
+          },
+          {
+            "answer": "جڈ",
+            "answerTranslit": "jaṛ",
+            "concept": "c:naturaleza-y-clima.raiz",
+            "optionTranslit": {
+              "تنا": "tanā",
+              "جڈ": "jaṛ",
+              "پھول": "phool",
+              "ڈالی": "ḍālī"
+            },
+            "options": [
+              "تنا",
+              "پھول",
+              "ڈالی",
+              "جڈ"
+            ],
+            "prompt": "raíz"
+          },
+          {
+            "answer": "ڈالی",
+            "answerTranslit": "ḍālī",
+            "concept": "c:naturaleza-y-clima.rama",
+            "optionTranslit": {
+              "پتتا": "pattā",
+              "پودھا": "paudhā",
+              "ڈالی": "ḍālī",
+              "گھاس": "ghās"
+            },
+            "options": [
+              "پتتا",
+              "ڈالی",
+              "گھاس",
+              "پودھا"
+            ],
+            "prompt": "rama"
+          },
+          {
+            "answer": "تنا",
+            "answerTranslit": "tanā",
+            "concept": "c:naturaleza-y-clima.tronco-tallo",
+            "optionTranslit": {
+              "بیج": "bīj",
+              "تنا": "tanā",
+              "پتتا": "pattā",
+              "گھاس": "ghās"
+            },
+            "options": [
+              "تنا",
+              "پتتا",
+              "بیج",
+              "گھاس"
+            ],
+            "prompt": "tronco / tallo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Nature, landscapes and weather to talk about the environment.",
+      "es": "Naturaleza, paisajes y clima para hablar del entorno."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u19-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name natural elements",
+        "Talk about weather and seasons"
+      ],
+      "es": [
+        "Nombrar elementos naturales",
+        "Hablar del tiempo y las estaciones"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "naturaleza",
+            "nature",
+            "پرکرتِ"
+          ],
+          [
+            "árbol",
+            "tree",
+            "درخت / پیڑ"
+          ],
+          [
+            "planta",
+            "plant",
+            "پودھا"
+          ],
+          [
+            "flor",
+            "flower",
+            "پھول"
+          ],
+          [
+            "hoja",
+            "leaf",
+            "پتتا"
+          ],
+          [
+            "raíz",
+            "root",
+            "جڈ"
+          ],
+          [
+            "rama",
+            "branch",
+            "ڈالی"
+          ],
+          [
+            "tronco / tallo",
+            "trunk / stem",
+            "تنا"
+          ],
+          [
+            "semilla",
+            "seed",
+            "بیج"
+          ],
+          [
+            "hierba / césped",
+            "grass / lawn",
+            "گھاس"
+          ],
+          [
+            "bosque / selva",
+            "forest / jungle",
+            "جںگل — bosque / selva"
+          ],
+          [
+            "montaña",
+            "mountain",
+            "پہاڈ — montaña"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Nature and weather",
+      "es": "La naturaleza y el clima"
+    },
+    "unit": 19
+  },
+  {
+    "concepts": [
       "c:numeros.cero",
       "c:numeros.uno",
       "c:numeros.dos",
@@ -803,6 +4021,7 @@
         "en": "zero",
         "es": "cero",
         "speaker": "A",
+        "translit": "sifar",
         "ur": "صفر"
       },
       {
@@ -810,6 +4029,7 @@
         "en": "one",
         "es": "uno",
         "speaker": "B",
+        "translit": "ek",
         "ur": "ایک"
       },
       {
@@ -817,6 +4037,7 @@
         "en": "two",
         "es": "dos",
         "speaker": "A",
+        "translit": "do",
         "ur": "دو"
       },
       {
@@ -824,6 +4045,7 @@
         "en": "three",
         "es": "tres",
         "speaker": "B",
+        "translit": "teen",
         "ur": "تین"
       },
       {
@@ -831,6 +4053,7 @@
         "en": "4",
         "es": "cuatro",
         "speaker": "A",
+        "translit": "chaar",
         "ur": "چار"
       },
       {
@@ -838,6 +4061,7 @@
         "en": "five",
         "es": "cinco",
         "speaker": "B",
+        "translit": "paanch",
         "ur": "پانچ"
       },
       {
@@ -845,6 +4069,7 @@
         "en": "6",
         "es": "seis",
         "speaker": "A",
+        "translit": "chhe",
         "ur": "چھ"
       },
       {
@@ -852,6 +4077,7 @@
         "en": "seven",
         "es": "siete",
         "speaker": "B",
+        "translit": "saat",
         "ur": "سات"
       },
       {
@@ -859,6 +4085,7 @@
         "en": "8",
         "es": "ocho",
         "speaker": "A",
+        "translit": "aath",
         "ur": "آٹھ"
       },
       {
@@ -866,6 +4093,7 @@
         "en": "9",
         "es": "nueve",
         "speaker": "B",
+        "translit": "nau",
         "ur": "نو"
       },
       {
@@ -873,6 +4101,7 @@
         "en": "10",
         "es": "diez",
         "speaker": "A",
+        "translit": "das",
         "ur": "دس"
       },
       {
@@ -880,10 +4109,165 @@
         "en": "11",
         "es": "once",
         "speaker": "B",
+        "translit": "gyaarah",
         "ur": "گیارہ"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "صفر",
+            "answerTranslit": "sifar",
+            "concept": "c:numeros.cero",
+            "optionTranslit": {
+              "ایک": "ek",
+              "سات": "saat",
+              "صفر": "sifar",
+              "نو": "nau"
+            },
+            "options": [
+              "نو",
+              "صفر",
+              "سات",
+              "ایک"
+            ],
+            "prompt": "cero"
+          },
+          {
+            "answer": "ایک",
+            "answerTranslit": "ek",
+            "concept": "c:numeros.uno",
+            "optionTranslit": {
+              "ایک": "ek",
+              "دس": "das",
+              "دو": "do",
+              "پانچ": "paanch"
+            },
+            "options": [
+              "پانچ",
+              "دو",
+              "دس",
+              "ایک"
+            ],
+            "prompt": "uno"
+          },
+          {
+            "answer": "دو",
+            "answerTranslit": "do",
+            "concept": "c:numeros.dos",
+            "optionTranslit": {
+              "دو": "do",
+              "نو": "nau",
+              "پانچ": "paanch",
+              "چھ": "chhe"
+            },
+            "options": [
+              "چھ",
+              "نو",
+              "پانچ",
+              "دو"
+            ],
+            "prompt": "dos"
+          },
+          {
+            "answer": "تین",
+            "answerTranslit": "teen",
+            "concept": "c:numeros.tres",
+            "optionTranslit": {
+              "تین": "teen",
+              "دس": "das",
+              "دو": "do",
+              "چھ": "chhe"
+            },
+            "options": [
+              "دس",
+              "چھ",
+              "دو",
+              "تین"
+            ],
+            "prompt": "tres"
+          },
+          {
+            "answer": "چار",
+            "answerTranslit": "chaar",
+            "concept": "c:numeros.cuatro",
+            "optionTranslit": {
+              "آٹھ": "aath",
+              "دس": "das",
+              "پانچ": "paanch",
+              "چار": "chaar"
+            },
+            "options": [
+              "چار",
+              "پانچ",
+              "دس",
+              "آٹھ"
+            ],
+            "prompt": "cuatro"
+          },
+          {
+            "answer": "پانچ",
+            "answerTranslit": "paanch",
+            "concept": "c:numeros.cinco",
+            "optionTranslit": {
+              "سات": "saat",
+              "صفر": "sifar",
+              "پانچ": "paanch",
+              "چار": "chaar"
+            },
+            "options": [
+              "چار",
+              "صفر",
+              "سات",
+              "پانچ"
+            ],
+            "prompt": "cinco"
+          },
+          {
+            "answer": "چھ",
+            "answerTranslit": "chhe",
+            "concept": "c:numeros.seis",
+            "optionTranslit": {
+              "دو": "do",
+              "صفر": "sifar",
+              "چھ": "chhe",
+              "گیارہ": "gyaarah"
+            },
+            "options": [
+              "دو",
+              "گیارہ",
+              "چھ",
+              "صفر"
+            ],
+            "prompt": "seis"
+          },
+          {
+            "answer": "سات",
+            "answerTranslit": "saat",
+            "concept": "c:numeros.siete",
+            "optionTranslit": {
+              "آٹھ": "aath",
+              "سات": "saat",
+              "پانچ": "paanch",
+              "چار": "chaar"
+            },
+            "options": [
+              "آٹھ",
+              "سات",
+              "پانچ",
+              "چار"
+            ],
+            "prompt": "siete"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Everyday numbers: used to count, give your age and talk about prices.",
       "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
@@ -983,6 +4367,371 @@
   },
   {
     "concepts": [
+      "c:vocabulario-extra-y-frases-utiles.amor",
+      "c:vocabulario-extra-y-frases-utiles.odio",
+      "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "c:vocabulario-extra-y-frases-utiles.mentira",
+      "c:vocabulario-extra-y-frases-utiles.verdad",
+      "c:vocabulario-extra-y-frases-utiles.justicia",
+      "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "c:vocabulario-extra-y-frases-utiles.miedo",
+      "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+        "en": "love",
+        "es": "amor",
+        "speaker": "A",
+        "translit": "mohabbat / pyaar",
+        "ur": "محبت / پیار"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+        "en": "I hate it.",
+        "es": "odio",
+        "speaker": "B",
+        "translit": "ghṛṇā",
+        "ur": "گھرنا"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+        "en": "honesty",
+        "es": "honestidad",
+        "speaker": "A",
+        "translit": "īmāndārī",
+        "ur": "ایمانداری"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+        "en": "lie",
+        "es": "mentira",
+        "speaker": "B",
+        "translit": "jhūṭh",
+        "ur": "جھوٹھ"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+        "en": "truth",
+        "es": "verdad",
+        "speaker": "A",
+        "translit": "saccāī",
+        "ur": "سچچاای"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+        "en": "justice",
+        "es": "justicia",
+        "speaker": "B",
+        "translit": "nyāy",
+        "ur": "نیای"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+        "en": "injustice",
+        "es": "injusticia",
+        "speaker": "A",
+        "translit": "anyāy",
+        "ur": "انیای"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+        "en": "value / courage",
+        "es": "valor / coraje",
+        "speaker": "B",
+        "translit": "sāhas",
+        "ur": "ساہس"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+        "en": "fear",
+        "es": "miedo",
+        "speaker": "A",
+        "translit": "dar / khauf",
+        "ur": "ڈر / خوف"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+        "en": "hope",
+        "es": "esperanza",
+        "speaker": "B",
+        "translit": "āśā",
+        "ur": "آشا"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+        "en": "disappointment",
+        "es": "decepción",
+        "speaker": "A",
+        "translit": "nirāśā",
+        "ur": "نِراشا"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+        "en": "anger / angry",
+        "es": "ira / enfado",
+        "speaker": "B",
+        "translit": "gussā",
+        "ur": "گُسسا"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "محبت / پیار",
+            "answerTranslit": "mohabbat / pyaar",
+            "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+            "optionTranslit": {
+              "سچچاای": "saccāī",
+              "محبت / پیار": "mohabbat / pyaar",
+              "نِراشا": "nirāśā",
+              "نیای": "nyāy"
+            },
+            "options": [
+              "نیای",
+              "محبت / پیار",
+              "سچچاای",
+              "نِراشا"
+            ],
+            "prompt": "amor"
+          },
+          {
+            "answer": "گھرنا",
+            "answerTranslit": "ghṛṇā",
+            "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+            "optionTranslit": {
+              "آشا": "āśā",
+              "انیای": "anyāy",
+              "ایمانداری": "īmāndārī",
+              "گھرنا": "ghṛṇā"
+            },
+            "options": [
+              "ایمانداری",
+              "آشا",
+              "گھرنا",
+              "انیای"
+            ],
+            "prompt": "odio"
+          },
+          {
+            "answer": "ایمانداری",
+            "answerTranslit": "īmāndārī",
+            "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+            "optionTranslit": {
+              "ایمانداری": "īmāndārī",
+              "جھوٹھ": "jhūṭh",
+              "سچچاای": "saccāī",
+              "گُسسا": "gussā"
+            },
+            "options": [
+              "سچچاای",
+              "ایمانداری",
+              "گُسسا",
+              "جھوٹھ"
+            ],
+            "prompt": "honestidad"
+          },
+          {
+            "answer": "جھوٹھ",
+            "answerTranslit": "jhūṭh",
+            "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+            "optionTranslit": {
+              "ایمانداری": "īmāndārī",
+              "جھوٹھ": "jhūṭh",
+              "سچچاای": "saccāī",
+              "محبت / پیار": "mohabbat / pyaar"
+            },
+            "options": [
+              "سچچاای",
+              "ایمانداری",
+              "محبت / پیار",
+              "جھوٹھ"
+            ],
+            "prompt": "mentira"
+          },
+          {
+            "answer": "سچچاای",
+            "answerTranslit": "saccāī",
+            "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+            "optionTranslit": {
+              "ایمانداری": "īmāndārī",
+              "سچچاای": "saccāī",
+              "نیای": "nyāy",
+              "گُسسا": "gussā"
+            },
+            "options": [
+              "سچچاای",
+              "نیای",
+              "ایمانداری",
+              "گُسسا"
+            ],
+            "prompt": "verdad"
+          },
+          {
+            "answer": "نیای",
+            "answerTranslit": "nyāy",
+            "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+            "optionTranslit": {
+              "انیای": "anyāy",
+              "نِراشا": "nirāśā",
+              "نیای": "nyāy",
+              "گُسسا": "gussā"
+            },
+            "options": [
+              "گُسسا",
+              "انیای",
+              "نیای",
+              "نِراشا"
+            ],
+            "prompt": "justicia"
+          },
+          {
+            "answer": "انیای",
+            "answerTranslit": "anyāy",
+            "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+            "optionTranslit": {
+              "انیای": "anyāy",
+              "ایمانداری": "īmāndārī",
+              "سچچاای": "saccāī",
+              "نِراشا": "nirāśā"
+            },
+            "options": [
+              "سچچاای",
+              "ایمانداری",
+              "انیای",
+              "نِراشا"
+            ],
+            "prompt": "injusticia"
+          },
+          {
+            "answer": "ساہس",
+            "answerTranslit": "sāhas",
+            "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+            "optionTranslit": {
+              "آشا": "āśā",
+              "انیای": "anyāy",
+              "ساہس": "sāhas",
+              "نیای": "nyāy"
+            },
+            "options": [
+              "ساہس",
+              "انیای",
+              "آشا",
+              "نیای"
+            ],
+            "prompt": "valor / coraje"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Support words and phrases that appear in many conversations.",
+      "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+    },
+    "generator": "build_lessons",
+    "id": "ur-u20-l1",
+    "lang": "ur",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Expand vocabulary",
+        "Use common everyday phrases"
+      ],
+      "es": [
+        "Ampliar vocabulario",
+        "Usar frases comunes del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "ur"
+        ],
+        "rows": [
+          [
+            "amor",
+            "love",
+            "محبت / پیار"
+          ],
+          [
+            "odio",
+            "I hate it.",
+            "گھرنا"
+          ],
+          [
+            "honestidad",
+            "honesty",
+            "ایمانداری"
+          ],
+          [
+            "mentira",
+            "lie",
+            "جھوٹھ"
+          ],
+          [
+            "verdad",
+            "truth",
+            "سچچاای"
+          ],
+          [
+            "justicia",
+            "justice",
+            "نیای"
+          ],
+          [
+            "injusticia",
+            "injustice",
+            "انیای"
+          ],
+          [
+            "valor / coraje",
+            "value / courage",
+            "ساہس"
+          ],
+          [
+            "miedo",
+            "fear",
+            "ڈر / خوف"
+          ],
+          [
+            "esperanza",
+            "hope",
+            "آشا"
+          ],
+          [
+            "decepción",
+            "disappointment",
+            "نِراشا"
+          ],
+          [
+            "ira / enfado",
+            "anger / angry",
+            "گُسسا"
+          ]
+        ],
+        "title": "es · en · ur",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Extra vocabulary and useful phrases",
+      "es": "Vocabulario extra y frases útiles"
+    },
+    "unit": 20
+  },
+  {
+    "concepts": [
       "c:colores.rojo",
       "c:colores.azul",
       "c:colores.verde",
@@ -1002,6 +4751,7 @@
         "en": "red",
         "es": "rojo",
         "speaker": "A",
+        "translit": "laal / surkh",
         "ur": "لال / سرخ"
       },
       {
@@ -1009,6 +4759,7 @@
         "en": "blue",
         "es": "azul",
         "speaker": "B",
+        "translit": "neela",
         "ur": "نیلا"
       },
       {
@@ -1016,6 +4767,7 @@
         "en": "green",
         "es": "verde",
         "speaker": "A",
+        "translit": "hara / sabz",
         "ur": "ہرا / سبز"
       },
       {
@@ -1023,6 +4775,7 @@
         "en": "yellow",
         "es": "amarillo",
         "speaker": "B",
+        "translit": "peela / zard",
         "ur": "پیلا / زرد"
       },
       {
@@ -1030,6 +4783,7 @@
         "en": "black",
         "es": "negro",
         "speaker": "A",
+        "translit": "kaala / siyah",
         "ur": "کالا / سیاہ"
       },
       {
@@ -1037,6 +4791,7 @@
         "en": "white",
         "es": "blanco",
         "speaker": "B",
+        "translit": "safed",
         "ur": "سفید"
       },
       {
@@ -1044,6 +4799,7 @@
         "en": "orange",
         "es": "naranja",
         "speaker": "A",
+        "translit": "nāraṅgī",
         "ur": "نارںگی"
       },
       {
@@ -1051,6 +4807,7 @@
         "en": "pink",
         "es": "rosa",
         "speaker": "B",
+        "translit": "gulābī",
         "ur": "گُلابی"
       },
       {
@@ -1058,6 +4815,7 @@
         "en": "purple / violet",
         "es": "morado / violeta",
         "speaker": "A",
+        "translit": "baiṅganī",
         "ur": "بےںگنی"
       },
       {
@@ -1065,6 +4823,7 @@
         "en": "brown",
         "es": "marrón",
         "speaker": "B",
+        "translit": "bhūrā",
         "ur": "بھورا"
       },
       {
@@ -1072,6 +4831,7 @@
         "en": "grey",
         "es": "gris",
         "speaker": "A",
+        "translit": "sleṭī",
         "ur": "سلےٹی"
       },
       {
@@ -1079,10 +4839,165 @@
         "en": "gold",
         "es": "dorado",
         "speaker": "B",
+        "translit": "sunahrā",
         "ur": "سُنہرا"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "لال / سرخ",
+            "answerTranslit": "laal / surkh",
+            "concept": "c:colores.rojo",
+            "optionTranslit": {
+              "سفید": "safed",
+              "لال / سرخ": "laal / surkh",
+              "نارںگی": "nāraṅgī",
+              "ہرا / سبز": "hara / sabz"
+            },
+            "options": [
+              "ہرا / سبز",
+              "لال / سرخ",
+              "سفید",
+              "نارںگی"
+            ],
+            "prompt": "rojo"
+          },
+          {
+            "answer": "نیلا",
+            "answerTranslit": "neela",
+            "concept": "c:colores.azul",
+            "optionTranslit": {
+              "سُنہرا": "sunahrā",
+              "نارںگی": "nāraṅgī",
+              "نیلا": "neela",
+              "گُلابی": "gulābī"
+            },
+            "options": [
+              "سُنہرا",
+              "نیلا",
+              "گُلابی",
+              "نارںگی"
+            ],
+            "prompt": "azul"
+          },
+          {
+            "answer": "ہرا / سبز",
+            "answerTranslit": "hara / sabz",
+            "concept": "c:colores.verde",
+            "optionTranslit": {
+              "بےںگنی": "baiṅganī",
+              "سلےٹی": "sleṭī",
+              "نارںگی": "nāraṅgī",
+              "ہرا / سبز": "hara / sabz"
+            },
+            "options": [
+              "نارںگی",
+              "سلےٹی",
+              "ہرا / سبز",
+              "بےںگنی"
+            ],
+            "prompt": "verde"
+          },
+          {
+            "answer": "پیلا / زرد",
+            "answerTranslit": "peela / zard",
+            "concept": "c:colores.amarillo",
+            "optionTranslit": {
+              "بھورا": "bhūrā",
+              "سلےٹی": "sleṭī",
+              "لال / سرخ": "laal / surkh",
+              "پیلا / زرد": "peela / zard"
+            },
+            "options": [
+              "بھورا",
+              "لال / سرخ",
+              "سلےٹی",
+              "پیلا / زرد"
+            ],
+            "prompt": "amarillo"
+          },
+          {
+            "answer": "کالا / سیاہ",
+            "answerTranslit": "kaala / siyah",
+            "concept": "c:colores.negro",
+            "optionTranslit": {
+              "بھورا": "bhūrā",
+              "نارںگی": "nāraṅgī",
+              "نیلا": "neela",
+              "کالا / سیاہ": "kaala / siyah"
+            },
+            "options": [
+              "نیلا",
+              "کالا / سیاہ",
+              "بھورا",
+              "نارںگی"
+            ],
+            "prompt": "negro"
+          },
+          {
+            "answer": "سفید",
+            "answerTranslit": "safed",
+            "concept": "c:colores.blanco",
+            "optionTranslit": {
+              "سفید": "safed",
+              "سلےٹی": "sleṭī",
+              "سُنہرا": "sunahrā",
+              "پیلا / زرد": "peela / zard"
+            },
+            "options": [
+              "سلےٹی",
+              "پیلا / زرد",
+              "سُنہرا",
+              "سفید"
+            ],
+            "prompt": "blanco"
+          },
+          {
+            "answer": "نارںگی",
+            "answerTranslit": "nāraṅgī",
+            "concept": "c:colores.naranja",
+            "optionTranslit": {
+              "بھورا": "bhūrā",
+              "سفید": "safed",
+              "سُنہرا": "sunahrā",
+              "نارںگی": "nāraṅgī"
+            },
+            "options": [
+              "سفید",
+              "بھورا",
+              "نارںگی",
+              "سُنہرا"
+            ],
+            "prompt": "naranja"
+          },
+          {
+            "answer": "گُلابی",
+            "answerTranslit": "gulābī",
+            "concept": "c:colores.rosa",
+            "optionTranslit": {
+              "لال / سرخ": "laal / surkh",
+              "پیلا / زرد": "peela / zard",
+              "کالا / سیاہ": "kaala / siyah",
+              "گُلابی": "gulābī"
+            },
+            "options": [
+              "لال / سرخ",
+              "کالا / سیاہ",
+              "گُلابی",
+              "پیلا / زرد"
+            ],
+            "prompt": "rosa"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Colours are used to describe objects, clothes and places.",
       "es": "Los colores sirven para describir objetos, ropa y lugares."
@@ -1201,6 +5116,7 @@
         "en": "Family",
         "es": "familia",
         "speaker": "A",
+        "translit": "khaandaan",
         "ur": "خاندان"
       },
       {
@@ -1208,6 +5124,7 @@
         "en": "Mother",
         "es": "madre",
         "speaker": "B",
+        "translit": "maan / waalida",
         "ur": "ماں / والدہ"
       },
       {
@@ -1215,6 +5132,7 @@
         "en": "Father",
         "es": "padre",
         "speaker": "A",
+        "translit": "baap / waalid",
         "ur": "باپ / والد"
       },
       {
@@ -1222,6 +5140,7 @@
         "en": "parents",
         "es": "padres",
         "speaker": "B",
+        "translit": "mātā-pitā",
         "ur": "ماتا-پِتا"
       },
       {
@@ -1229,6 +5148,7 @@
         "en": "child",
         "es": "hijo",
         "speaker": "A",
+        "translit": "beta",
         "ur": "بیٹا"
       },
       {
@@ -1236,6 +5156,7 @@
         "en": "daughter",
         "es": "hija",
         "speaker": "B",
+        "translit": "beti",
         "ur": "بیٹی"
       },
       {
@@ -1243,6 +5164,7 @@
         "en": "child",
         "es": "niño/a",
         "speaker": "A",
+        "translit": "baccā",
         "ur": "بچچا"
       },
       {
@@ -1250,6 +5172,7 @@
         "en": "brother",
         "es": "hermano",
         "speaker": "B",
+        "translit": "bhaai",
         "ur": "بھائی"
       },
       {
@@ -1257,6 +5180,7 @@
         "en": "sister",
         "es": "hermana",
         "speaker": "A",
+        "translit": "bahan",
         "ur": "بہن"
       },
       {
@@ -1264,6 +5188,7 @@
         "en": "brothers",
         "es": "hermanos",
         "speaker": "B",
+        "translit": "bhāī-bahan",
         "ur": "بھاای-بہن"
       },
       {
@@ -1271,6 +5196,7 @@
         "en": "paternal grandfather",
         "es": "abuelo paterno",
         "speaker": "A",
+        "translit": "dādā",
         "ur": "دادا"
       },
       {
@@ -1278,10 +5204,165 @@
         "en": "Father's grandmother",
         "es": "abuela paterna",
         "speaker": "B",
+        "translit": "dādī",
         "ur": "دادی"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "خاندان",
+            "answerTranslit": "khaandaan",
+            "concept": "c:familia-y-personas.familia",
+            "optionTranslit": {
+              "بچچا": "baccā",
+              "خاندان": "khaandaan",
+              "دادا": "dādā",
+              "دادی": "dādī"
+            },
+            "options": [
+              "دادا",
+              "بچچا",
+              "دادی",
+              "خاندان"
+            ],
+            "prompt": "familia"
+          },
+          {
+            "answer": "ماں / والدہ",
+            "answerTranslit": "maan / waalida",
+            "concept": "c:familia-y-personas.madre",
+            "optionTranslit": {
+              "بیٹی": "beti",
+              "خاندان": "khaandaan",
+              "دادی": "dādī",
+              "ماں / والدہ": "maan / waalida"
+            },
+            "options": [
+              "دادی",
+              "بیٹی",
+              "خاندان",
+              "ماں / والدہ"
+            ],
+            "prompt": "madre"
+          },
+          {
+            "answer": "باپ / والد",
+            "answerTranslit": "baap / waalid",
+            "concept": "c:familia-y-personas.padre",
+            "optionTranslit": {
+              "باپ / والد": "baap / waalid",
+              "بہن": "bahan",
+              "دادا": "dādā",
+              "ماتا-پِتا": "mātā-pitā"
+            },
+            "options": [
+              "دادا",
+              "بہن",
+              "باپ / والد",
+              "ماتا-پِتا"
+            ],
+            "prompt": "padre"
+          },
+          {
+            "answer": "ماتا-پِتا",
+            "answerTranslit": "mātā-pitā",
+            "concept": "c:familia-y-personas.padres",
+            "optionTranslit": {
+              "بچچا": "baccā",
+              "بیٹا": "beta",
+              "خاندان": "khaandaan",
+              "ماتا-پِتا": "mātā-pitā"
+            },
+            "options": [
+              "بچچا",
+              "ماتا-پِتا",
+              "خاندان",
+              "بیٹا"
+            ],
+            "prompt": "padres"
+          },
+          {
+            "answer": "بیٹا",
+            "answerTranslit": "beta",
+            "concept": "c:familia-y-personas.hijo",
+            "optionTranslit": {
+              "بھاای-بہن": "bhāī-bahan",
+              "بیٹا": "beta",
+              "بیٹی": "beti",
+              "ماں / والدہ": "maan / waalida"
+            },
+            "options": [
+              "بیٹی",
+              "بھاای-بہن",
+              "ماں / والدہ",
+              "بیٹا"
+            ],
+            "prompt": "hijo"
+          },
+          {
+            "answer": "بیٹی",
+            "answerTranslit": "beti",
+            "concept": "c:familia-y-personas.hija",
+            "optionTranslit": {
+              "بیٹا": "beta",
+              "بیٹی": "beti",
+              "دادی": "dādī",
+              "ماتا-پِتا": "mātā-pitā"
+            },
+            "options": [
+              "بیٹی",
+              "ماتا-پِتا",
+              "بیٹا",
+              "دادی"
+            ],
+            "prompt": "hija"
+          },
+          {
+            "answer": "بچچا",
+            "answerTranslit": "baccā",
+            "concept": "c:familia-y-personas.nino-a",
+            "optionTranslit": {
+              "بچچا": "baccā",
+              "بہن": "bahan",
+              "دادا": "dādā",
+              "ماتا-پِتا": "mātā-pitā"
+            },
+            "options": [
+              "بچچا",
+              "بہن",
+              "دادا",
+              "ماتا-پِتا"
+            ],
+            "prompt": "niño/a"
+          },
+          {
+            "answer": "بھائی",
+            "answerTranslit": "bhaai",
+            "concept": "c:familia-y-personas.hermano",
+            "optionTranslit": {
+              "بھائی": "bhaai",
+              "بہن": "bahan",
+              "بیٹا": "beta",
+              "ماں / والدہ": "maan / waalida"
+            },
+            "options": [
+              "ماں / والدہ",
+              "بھائی",
+              "بیٹا",
+              "بہن"
+            ],
+            "prompt": "hermano"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Words to refer to family and the people around you.",
       "es": "Palabras para referirse a la familia y a las personas cercanas."
@@ -1400,6 +5481,7 @@
         "en": "body",
         "es": "cuerpo",
         "speaker": "A",
+        "translit": "śarīr",
         "ur": "شریر"
       },
       {
@@ -1407,6 +5489,7 @@
         "en": "head",
         "es": "cabeza",
         "speaker": "B",
+        "translit": "sar",
         "ur": "سر"
       },
       {
@@ -1414,6 +5497,7 @@
         "en": "hair / hair-",
         "es": "cabello / pelo",
         "speaker": "A",
+        "translit": "bāl",
         "ur": "بال"
       },
       {
@@ -1421,6 +5505,7 @@
         "en": "face / side",
         "es": "cara / rostro",
         "speaker": "B",
+        "translit": "cehrā",
         "ur": "چےہرا"
       },
       {
@@ -1428,6 +5513,7 @@
         "en": "front",
         "es": "frente",
         "speaker": "A",
+        "translit": "māthā",
         "ur": "ماتھا"
       },
       {
@@ -1435,6 +5521,7 @@
         "en": "eye",
         "es": "ojo",
         "speaker": "B",
+        "translit": "aankh",
         "ur": "آنکھ"
       },
       {
@@ -1442,6 +5529,7 @@
         "en": "eyes",
         "es": "ojos",
         "speaker": "A",
+        "translit": "ā̃khẽ",
         "ur": "آںکھےں"
       },
       {
@@ -1449,6 +5537,7 @@
         "en": "Beef",
         "es": "ceja",
         "speaker": "B",
+        "translit": "bhaũh",
         "ur": "بھوںہ"
       },
       {
@@ -1456,6 +5545,7 @@
         "en": "eyelid / tab",
         "es": "párpado / pestaña",
         "speaker": "A",
+        "translit": "palak",
         "ur": "پلک"
       },
       {
@@ -1463,6 +5553,7 @@
         "en": "ear / ears",
         "es": "oreja / oído",
         "speaker": "B",
+        "translit": "kān",
         "ur": "کان"
       },
       {
@@ -1470,6 +5561,7 @@
         "en": "nose",
         "es": "nariz",
         "speaker": "A",
+        "translit": "nāk",
         "ur": "ناک"
       },
       {
@@ -1477,10 +5569,165 @@
         "en": "mouth",
         "es": "boca",
         "speaker": "B",
+        "translit": "mũh",
         "ur": "مُںہ"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "شریر",
+            "answerTranslit": "śarīr",
+            "concept": "c:cuerpo-humano.cuerpo",
+            "optionTranslit": {
+              "آںکھےں": "ā̃khẽ",
+              "شریر": "śarīr",
+              "ماتھا": "māthā",
+              "پلک": "palak"
+            },
+            "options": [
+              "آںکھےں",
+              "شریر",
+              "ماتھا",
+              "پلک"
+            ],
+            "prompt": "cuerpo"
+          },
+          {
+            "answer": "سر",
+            "answerTranslit": "sar",
+            "concept": "c:cuerpo-humano.cabeza",
+            "optionTranslit": {
+              "آنکھ": "aankh",
+              "آںکھےں": "ā̃khẽ",
+              "سر": "sar",
+              "مُںہ": "mũh"
+            },
+            "options": [
+              "آنکھ",
+              "سر",
+              "مُںہ",
+              "آںکھےں"
+            ],
+            "prompt": "cabeza"
+          },
+          {
+            "answer": "بال",
+            "answerTranslit": "bāl",
+            "concept": "c:cuerpo-humano.cabello-pelo",
+            "optionTranslit": {
+              "بال": "bāl",
+              "بھوںہ": "bhaũh",
+              "ماتھا": "māthā",
+              "ناک": "nāk"
+            },
+            "options": [
+              "ناک",
+              "بھوںہ",
+              "بال",
+              "ماتھا"
+            ],
+            "prompt": "cabello / pelo"
+          },
+          {
+            "answer": "چےہرا",
+            "answerTranslit": "cehrā",
+            "concept": "c:cuerpo-humano.cara-rostro",
+            "optionTranslit": {
+              "آںکھےں": "ā̃khẽ",
+              "بال": "bāl",
+              "شریر": "śarīr",
+              "چےہرا": "cehrā"
+            },
+            "options": [
+              "شریر",
+              "چےہرا",
+              "بال",
+              "آںکھےں"
+            ],
+            "prompt": "cara / rostro"
+          },
+          {
+            "answer": "ماتھا",
+            "answerTranslit": "māthā",
+            "concept": "c:cuerpo-humano.frente",
+            "optionTranslit": {
+              "آنکھ": "aankh",
+              "آںکھےں": "ā̃khẽ",
+              "بال": "bāl",
+              "ماتھا": "māthā"
+            },
+            "options": [
+              "بال",
+              "ماتھا",
+              "آنکھ",
+              "آںکھےں"
+            ],
+            "prompt": "frente"
+          },
+          {
+            "answer": "آنکھ",
+            "answerTranslit": "aankh",
+            "concept": "c:cuerpo-humano.ojo",
+            "optionTranslit": {
+              "آنکھ": "aankh",
+              "سر": "sar",
+              "ماتھا": "māthā",
+              "پلک": "palak"
+            },
+            "options": [
+              "ماتھا",
+              "آنکھ",
+              "پلک",
+              "سر"
+            ],
+            "prompt": "ojo"
+          },
+          {
+            "answer": "آںکھےں",
+            "answerTranslit": "ā̃khẽ",
+            "concept": "c:cuerpo-humano.ojos",
+            "optionTranslit": {
+              "آںکھےں": "ā̃khẽ",
+              "سر": "sar",
+              "ناک": "nāk",
+              "کان": "kān"
+            },
+            "options": [
+              "آںکھےں",
+              "کان",
+              "سر",
+              "ناک"
+            ],
+            "prompt": "ojos"
+          },
+          {
+            "answer": "بھوںہ",
+            "answerTranslit": "bhaũh",
+            "concept": "c:cuerpo-humano.ceja",
+            "optionTranslit": {
+              "بھوںہ": "bhaũh",
+              "سر": "sar",
+              "ماتھا": "māthā",
+              "پلک": "palak"
+            },
+            "options": [
+              "بھوںہ",
+              "ماتھا",
+              "سر",
+              "پلک"
+            ],
+            "prompt": "ceja"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Parts of the body, useful to talk about health and care.",
       "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
@@ -1599,6 +5846,7 @@
         "en": "food / eat",
         "es": "comida / comer",
         "speaker": "A",
+        "translit": "khaana",
         "ur": "کھانا"
       },
       {
@@ -1606,6 +5854,7 @@
         "en": "food (formal)",
         "es": "comida (formal)",
         "speaker": "B",
+        "translit": "bhojan",
         "ur": "بھوجن"
       },
       {
@@ -1613,6 +5862,7 @@
         "en": "breakfast",
         "es": "desayuno",
         "speaker": "A",
+        "translit": "nāśtā",
         "ur": "ناشتا"
       },
       {
@@ -1620,6 +5870,7 @@
         "en": "lunch",
         "es": "almuerzo",
         "speaker": "B",
+        "translit": "dopahar kā khānā",
         "ur": "دوپہر کا کھانا"
       },
       {
@@ -1627,6 +5878,7 @@
         "en": "dinner",
         "es": "cena",
         "speaker": "A",
+        "translit": "rāt kā khānā",
         "ur": "رات کا کھانا"
       },
       {
@@ -1634,6 +5886,7 @@
         "en": "water",
         "es": "agua",
         "speaker": "B",
+        "translit": "paani",
         "ur": "پانی"
       },
       {
@@ -1641,6 +5894,7 @@
         "en": "milk",
         "es": "leche",
         "speaker": "A",
+        "translit": "dūdh",
         "ur": "دودھ"
       },
       {
@@ -1648,6 +5902,7 @@
         "en": "tea",
         "es": "té",
         "speaker": "B",
+        "translit": "cāy",
         "ur": "چای"
       },
       {
@@ -1655,6 +5910,7 @@
         "en": "coffee",
         "es": "café",
         "speaker": "A",
+        "translit": "kôfī",
         "ur": "کاپھی"
       },
       {
@@ -1662,6 +5918,7 @@
         "en": "juice / juices",
         "es": "zumo / jugo",
         "speaker": "B",
+        "translit": "jūs",
         "ur": "جوس"
       },
       {
@@ -1669,6 +5926,7 @@
         "en": "lassi (yoghurt beaten)",
         "es": "lassi (yogur batido)",
         "speaker": "A",
+        "translit": "lassī",
         "ur": "لسسی"
       },
       {
@@ -1676,10 +5934,165 @@
         "en": "alcohol / wine",
         "es": "alcohol / vino",
         "speaker": "B",
+        "translit": "śarāb",
         "ur": "شراب"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "کھانا",
+            "answerTranslit": "khaana",
+            "concept": "c:comida-y-bebida.comida-comer",
+            "optionTranslit": {
+              "جوس": "jūs",
+              "شراب": "śarāb",
+              "کاپھی": "kôfī",
+              "کھانا": "khaana"
+            },
+            "options": [
+              "جوس",
+              "کھانا",
+              "شراب",
+              "کاپھی"
+            ],
+            "prompt": "comida / comer"
+          },
+          {
+            "answer": "بھوجن",
+            "answerTranslit": "bhojan",
+            "concept": "c:comida-y-bebida.comida-formal",
+            "optionTranslit": {
+              "بھوجن": "bhojan",
+              "شراب": "śarāb",
+              "کاپھی": "kôfī",
+              "کھانا": "khaana"
+            },
+            "options": [
+              "کاپھی",
+              "کھانا",
+              "بھوجن",
+              "شراب"
+            ],
+            "prompt": "comida (formal)"
+          },
+          {
+            "answer": "ناشتا",
+            "answerTranslit": "nāśtā",
+            "concept": "c:comida-y-bebida.desayuno",
+            "optionTranslit": {
+              "بھوجن": "bhojan",
+              "ناشتا": "nāśtā",
+              "کاپھی": "kôfī",
+              "کھانا": "khaana"
+            },
+            "options": [
+              "بھوجن",
+              "ناشتا",
+              "کاپھی",
+              "کھانا"
+            ],
+            "prompt": "desayuno"
+          },
+          {
+            "answer": "دوپہر کا کھانا",
+            "answerTranslit": "dopahar kā khānā",
+            "concept": "c:comida-y-bebida.almuerzo",
+            "optionTranslit": {
+              "بھوجن": "bhojan",
+              "دوپہر کا کھانا": "dopahar kā khānā",
+              "پانی": "paani",
+              "کھانا": "khaana"
+            },
+            "options": [
+              "پانی",
+              "دوپہر کا کھانا",
+              "بھوجن",
+              "کھانا"
+            ],
+            "prompt": "almuerzo"
+          },
+          {
+            "answer": "رات کا کھانا",
+            "answerTranslit": "rāt kā khānā",
+            "concept": "c:comida-y-bebida.cena",
+            "optionTranslit": {
+              "رات کا کھانا": "rāt kā khānā",
+              "ناشتا": "nāśtā",
+              "پانی": "paani",
+              "چای": "cāy"
+            },
+            "options": [
+              "چای",
+              "پانی",
+              "ناشتا",
+              "رات کا کھانا"
+            ],
+            "prompt": "cena"
+          },
+          {
+            "answer": "پانی",
+            "answerTranslit": "paani",
+            "concept": "c:comida-y-bebida.agua",
+            "optionTranslit": {
+              "دودھ": "dūdh",
+              "ناشتا": "nāśtā",
+              "پانی": "paani",
+              "کاپھی": "kôfī"
+            },
+            "options": [
+              "پانی",
+              "کاپھی",
+              "دودھ",
+              "ناشتا"
+            ],
+            "prompt": "agua"
+          },
+          {
+            "answer": "دودھ",
+            "answerTranslit": "dūdh",
+            "concept": "c:comida-y-bebida.leche",
+            "optionTranslit": {
+              "دودھ": "dūdh",
+              "رات کا کھانا": "rāt kā khānā",
+              "شراب": "śarāb",
+              "لسسی": "lassī"
+            },
+            "options": [
+              "رات کا کھانا",
+              "لسسی",
+              "دودھ",
+              "شراب"
+            ],
+            "prompt": "leche"
+          },
+          {
+            "answer": "چای",
+            "answerTranslit": "cāy",
+            "concept": "c:comida-y-bebida.te",
+            "optionTranslit": {
+              "دوپہر کا کھانا": "dopahar kā khānā",
+              "رات کا کھانا": "rāt kā khānā",
+              "چای": "cāy",
+              "کاپھی": "kôfī"
+            },
+            "options": [
+              "رات کا کھانا",
+              "کاپھی",
+              "چای",
+              "دوپہر کا کھانا"
+            ],
+            "prompt": "té"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Basic foods and drinks, very useful when shopping or eating out.",
       "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
@@ -1798,6 +6211,7 @@
         "en": "Home / home",
         "es": "casa / hogar",
         "speaker": "A",
+        "translit": "ghar",
         "ur": "گھر"
       },
       {
@@ -1805,6 +6219,7 @@
         "en": "building / house",
         "es": "edificio / casa",
         "speaker": "B",
+        "translit": "makān",
         "ur": "مکان"
       },
       {
@@ -1812,6 +6227,7 @@
         "en": "apartment",
         "es": "apartamento",
         "speaker": "A",
+        "translit": "apārṭmeṇṭ",
         "ur": "اپارٹمےںٹ"
       },
       {
@@ -1819,6 +6235,7 @@
         "en": "room / bedroom",
         "es": "habitación / cuarto",
         "speaker": "B",
+        "translit": "kamrā",
         "ur": "کمرا"
       },
       {
@@ -1826,6 +6243,7 @@
         "en": "living room",
         "es": "sala de estar",
         "speaker": "A",
+        "translit": "baiṭhak",
         "ur": "بےٹھک"
       },
       {
@@ -1833,6 +6251,7 @@
         "en": "bedroom",
         "es": "dormitorio",
         "speaker": "B",
+        "translit": "śayanakakṣ",
         "ur": "شینککش"
       },
       {
@@ -1840,6 +6259,7 @@
         "en": "kitchen (room)",
         "es": "cocina (habitación)",
         "speaker": "A",
+        "translit": "rasoī",
         "ur": "رسوای"
       },
       {
@@ -1847,6 +6267,7 @@
         "en": "bathroom",
         "es": "baño",
         "speaker": "B",
+        "translit": "bāthrūm",
         "ur": "باتھروم"
       },
       {
@@ -1854,6 +6275,7 @@
         "en": "toilet / sink",
         "es": "inodoro / lavabo",
         "speaker": "A",
+        "translit": "śaucālay",
         "ur": "شوچالی"
       },
       {
@@ -1861,6 +6283,7 @@
         "en": "balcony",
         "es": "balcón",
         "speaker": "B",
+        "translit": "bālkanī",
         "ur": "بالکنی"
       },
       {
@@ -1868,6 +6291,7 @@
         "en": "roof / rooftop",
         "es": "techo / azotea",
         "speaker": "A",
+        "translit": "chat",
         "ur": "چھت"
       },
       {
@@ -1875,10 +6299,165 @@
         "en": "wall",
         "es": "pared",
         "speaker": "B",
+        "translit": "dīvār",
         "ur": "دیوار"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "گھر",
+            "answerTranslit": "ghar",
+            "concept": "c:casa-y-hogar.casa-hogar",
+            "optionTranslit": {
+              "اپارٹمےںٹ": "apārṭmeṇṭ",
+              "بےٹھک": "baiṭhak",
+              "چھت": "chat",
+              "گھر": "ghar"
+            },
+            "options": [
+              "چھت",
+              "بےٹھک",
+              "اپارٹمےںٹ",
+              "گھر"
+            ],
+            "prompt": "casa / hogar"
+          },
+          {
+            "answer": "مکان",
+            "answerTranslit": "makān",
+            "concept": "c:casa-y-hogar.edificio-casa",
+            "optionTranslit": {
+              "بالکنی": "bālkanī",
+              "شوچالی": "śaucālay",
+              "مکان": "makān",
+              "کمرا": "kamrā"
+            },
+            "options": [
+              "شوچالی",
+              "مکان",
+              "کمرا",
+              "بالکنی"
+            ],
+            "prompt": "edificio / casa"
+          },
+          {
+            "answer": "اپارٹمےںٹ",
+            "answerTranslit": "apārṭmeṇṭ",
+            "concept": "c:casa-y-hogar.apartamento",
+            "optionTranslit": {
+              "اپارٹمےںٹ": "apārṭmeṇṭ",
+              "شینککش": "śayanakakṣ",
+              "چھت": "chat",
+              "گھر": "ghar"
+            },
+            "options": [
+              "شینککش",
+              "اپارٹمےںٹ",
+              "چھت",
+              "گھر"
+            ],
+            "prompt": "apartamento"
+          },
+          {
+            "answer": "کمرا",
+            "answerTranslit": "kamrā",
+            "concept": "c:casa-y-hogar.habitacion-cuarto",
+            "optionTranslit": {
+              "باتھروم": "bāthrūm",
+              "بےٹھک": "baiṭhak",
+              "دیوار": "dīvār",
+              "کمرا": "kamrā"
+            },
+            "options": [
+              "کمرا",
+              "دیوار",
+              "بےٹھک",
+              "باتھروم"
+            ],
+            "prompt": "habitación / cuarto"
+          },
+          {
+            "answer": "بےٹھک",
+            "answerTranslit": "baiṭhak",
+            "concept": "c:casa-y-hogar.sala-de-estar",
+            "optionTranslit": {
+              "بےٹھک": "baiṭhak",
+              "دیوار": "dīvār",
+              "شوچالی": "śaucālay",
+              "شینککش": "śayanakakṣ"
+            },
+            "options": [
+              "شوچالی",
+              "شینککش",
+              "دیوار",
+              "بےٹھک"
+            ],
+            "prompt": "sala de estar"
+          },
+          {
+            "answer": "شینککش",
+            "answerTranslit": "śayanakakṣ",
+            "concept": "c:casa-y-hogar.dormitorio",
+            "optionTranslit": {
+              "اپارٹمےںٹ": "apārṭmeṇṭ",
+              "باتھروم": "bāthrūm",
+              "دیوار": "dīvār",
+              "شینککش": "śayanakakṣ"
+            },
+            "options": [
+              "شینککش",
+              "اپارٹمےںٹ",
+              "باتھروم",
+              "دیوار"
+            ],
+            "prompt": "dormitorio"
+          },
+          {
+            "answer": "رسوای",
+            "answerTranslit": "rasoī",
+            "concept": "c:casa-y-hogar.cocina-habitacion",
+            "optionTranslit": {
+              "بالکنی": "bālkanī",
+              "رسوای": "rasoī",
+              "چھت": "chat",
+              "کمرا": "kamrā"
+            },
+            "options": [
+              "چھت",
+              "رسوای",
+              "بالکنی",
+              "کمرا"
+            ],
+            "prompt": "cocina (habitación)"
+          },
+          {
+            "answer": "باتھروم",
+            "answerTranslit": "bāthrūm",
+            "concept": "c:casa-y-hogar.bano",
+            "optionTranslit": {
+              "باتھروم": "bāthrūm",
+              "بےٹھک": "baiṭhak",
+              "دیوار": "dīvār",
+              "چھت": "chat"
+            },
+            "options": [
+              "باتھروم",
+              "دیوار",
+              "بےٹھک",
+              "چھت"
+            ],
+            "prompt": "baño"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "House vocabulary: rooms, furniture and everyday objects.",
       "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
@@ -1997,6 +6576,7 @@
         "en": "time / hour",
         "es": "tiempo / hora",
         "speaker": "A",
+        "translit": "samay",
         "ur": "سمی"
       },
       {
@@ -2004,6 +6584,7 @@
         "en": "clock / time",
         "es": "reloj / hora",
         "speaker": "B",
+        "translit": "ghaṛī",
         "ur": "گھڈی"
       },
       {
@@ -2011,6 +6592,7 @@
         "en": "minute",
         "es": "minuto",
         "speaker": "A",
+        "translit": "minaṭ",
         "ur": "مِنٹ"
       },
       {
@@ -2018,6 +6600,7 @@
         "en": "second (time)",
         "es": "segundo (tiempo)",
         "speaker": "B",
+        "translit": "sekaṇḍ",
         "ur": "سےکںڈ"
       },
       {
@@ -2025,6 +6608,7 @@
         "en": "time (duration)",
         "es": "hora (duración)",
         "speaker": "A",
+        "translit": "ghaṇṭā",
         "ur": "گھںٹا"
       },
       {
@@ -2032,6 +6616,7 @@
         "en": "(early)",
         "es": "mañana (temprano)",
         "speaker": "B",
+        "translit": "subah",
         "ur": "سُبہ — mañana (temprano)"
       },
       {
@@ -2039,6 +6624,7 @@
         "en": "noon / afternoon",
         "es": "mediodía / tarde",
         "speaker": "A",
+        "translit": "dopahar",
         "ur": "دوپہر — mediodía / tarde"
       },
       {
@@ -2046,6 +6632,7 @@
         "en": "late / evening",
         "es": "tarde / atardecer",
         "speaker": "B",
+        "translit": "śām",
         "ur": "شام — tarde / atardecer"
       },
       {
@@ -2053,6 +6640,7 @@
         "en": "night",
         "es": "noche",
         "speaker": "A",
+        "translit": "rāt",
         "ur": "رات — noche"
       },
       {
@@ -2060,6 +6648,7 @@
         "en": "midnight",
         "es": "medianoche",
         "speaker": "B",
+        "translit": "ādhī rāt",
         "ur": "آدھی رات"
       },
       {
@@ -2067,6 +6656,7 @@
         "en": "day",
         "es": "día",
         "speaker": "A",
+        "translit": "din",
         "ur": "دِن — día"
       },
       {
@@ -2074,10 +6664,165 @@
         "en": "Today",
         "es": "hoy",
         "speaker": "B",
+        "translit": "aaj",
         "ur": "آج — hoy"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "سمی",
+            "answerTranslit": "samay",
+            "concept": "c:tiempo-y-calendario.tiempo-hora",
+            "optionTranslit": {
+              "آج — hoy": "aaj",
+              "سمی": "samay",
+              "سُبہ — mañana (temprano)": "subah",
+              "مِنٹ": "minaṭ"
+            },
+            "options": [
+              "سُبہ — mañana (temprano)",
+              "آج — hoy",
+              "سمی",
+              "مِنٹ"
+            ],
+            "prompt": "tiempo / hora"
+          },
+          {
+            "answer": "گھڈی",
+            "answerTranslit": "ghaṛī",
+            "concept": "c:tiempo-y-calendario.reloj-hora",
+            "optionTranslit": {
+              "آدھی رات": "ādhī rāt",
+              "دوپہر — mediodía / tarde": "dopahar",
+              "رات — noche": "rāt",
+              "گھڈی": "ghaṛī"
+            },
+            "options": [
+              "گھڈی",
+              "دوپہر — mediodía / tarde",
+              "رات — noche",
+              "آدھی رات"
+            ],
+            "prompt": "reloj / hora"
+          },
+          {
+            "answer": "مِنٹ",
+            "answerTranslit": "minaṭ",
+            "concept": "c:tiempo-y-calendario.minuto",
+            "optionTranslit": {
+              "دوپہر — mediodía / tarde": "dopahar",
+              "دِن — día": "din",
+              "سےکںڈ": "sekaṇḍ",
+              "مِنٹ": "minaṭ"
+            },
+            "options": [
+              "دوپہر — mediodía / tarde",
+              "سےکںڈ",
+              "مِنٹ",
+              "دِن — día"
+            ],
+            "prompt": "minuto"
+          },
+          {
+            "answer": "سےکںڈ",
+            "answerTranslit": "sekaṇḍ",
+            "concept": "c:tiempo-y-calendario.segundo-tiempo",
+            "optionTranslit": {
+              "آدھی رات": "ādhī rāt",
+              "دِن — día": "din",
+              "رات — noche": "rāt",
+              "سےکںڈ": "sekaṇḍ"
+            },
+            "options": [
+              "سےکںڈ",
+              "رات — noche",
+              "آدھی رات",
+              "دِن — día"
+            ],
+            "prompt": "segundo (tiempo)"
+          },
+          {
+            "answer": "گھںٹا",
+            "answerTranslit": "ghaṇṭā",
+            "concept": "c:tiempo-y-calendario.hora-duracion",
+            "optionTranslit": {
+              "سےکںڈ": "sekaṇḍ",
+              "مِنٹ": "minaṭ",
+              "گھڈی": "ghaṛī",
+              "گھںٹا": "ghaṇṭā"
+            },
+            "options": [
+              "سےکںڈ",
+              "گھڈی",
+              "گھںٹا",
+              "مِنٹ"
+            ],
+            "prompt": "hora (duración)"
+          },
+          {
+            "answer": "سُبہ — mañana (temprano)",
+            "answerTranslit": "subah",
+            "concept": "c:tiempo-y-calendario.manana-temprano",
+            "optionTranslit": {
+              "دوپہر — mediodía / tarde": "dopahar",
+              "دِن — día": "din",
+              "سمی": "samay",
+              "سُبہ — mañana (temprano)": "subah"
+            },
+            "options": [
+              "سُبہ — mañana (temprano)",
+              "دِن — día",
+              "سمی",
+              "دوپہر — mediodía / tarde"
+            ],
+            "prompt": "mañana (temprano)"
+          },
+          {
+            "answer": "دوپہر — mediodía / tarde",
+            "answerTranslit": "dopahar",
+            "concept": "c:tiempo-y-calendario.mediodia-tarde",
+            "optionTranslit": {
+              "آج — hoy": "aaj",
+              "دوپہر — mediodía / tarde": "dopahar",
+              "سمی": "samay",
+              "مِنٹ": "minaṭ"
+            },
+            "options": [
+              "سمی",
+              "مِنٹ",
+              "دوپہر — mediodía / tarde",
+              "آج — hoy"
+            ],
+            "prompt": "mediodía / tarde"
+          },
+          {
+            "answer": "شام — tarde / atardecer",
+            "answerTranslit": "śām",
+            "concept": "c:tiempo-y-calendario.tarde-atardecer",
+            "optionTranslit": {
+              "دوپہر — mediodía / tarde": "dopahar",
+              "شام — tarde / atardecer": "śām",
+              "مِنٹ": "minaṭ",
+              "گھڈی": "ghaṛī"
+            },
+            "options": [
+              "گھڈی",
+              "دوپہر — mediodía / tarde",
+              "شام — tarde / atardecer",
+              "مِنٹ"
+            ],
+            "prompt": "tarde / atardecer"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Words to place actions in time: days, months and seasons.",
       "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."
@@ -2196,6 +6941,7 @@
         "en": "animal",
         "es": "animal",
         "speaker": "A",
+        "translit": "jaanwar",
         "ur": "جانور"
       },
       {
@@ -2203,6 +6949,7 @@
         "en": "dog",
         "es": "perro",
         "speaker": "B",
+        "translit": "kutta",
         "ur": "کتا"
       },
       {
@@ -2210,6 +6957,7 @@
         "en": "cat",
         "es": "gato",
         "speaker": "A",
+        "translit": "billi",
         "ur": "بلی"
       },
       {
@@ -2217,6 +6965,7 @@
         "en": "cow",
         "es": "vaca",
         "speaker": "B",
+        "translit": "gāy",
         "ur": "گای"
       },
       {
@@ -2224,6 +6973,7 @@
         "en": "ox / bull",
         "es": "buey / toro",
         "speaker": "A",
+        "translit": "bail",
         "ur": "بےل"
       },
       {
@@ -2231,6 +6981,7 @@
         "en": "buffalo",
         "es": "búfalo",
         "speaker": "B",
+        "translit": "bhaĩs",
         "ur": "بھےںس"
       },
       {
@@ -2238,6 +6989,7 @@
         "en": "horse",
         "es": "caballo",
         "speaker": "A",
+        "translit": "ghoṛā",
         "ur": "گھوڈا"
       },
       {
@@ -2245,6 +6997,7 @@
         "en": "donkey / ass",
         "es": "burro / asno",
         "speaker": "B",
+        "translit": "gadhā",
         "ur": "گدھا"
       },
       {
@@ -2252,6 +7005,7 @@
         "en": "goat",
         "es": "cabra",
         "speaker": "A",
+        "translit": "bakrī",
         "ur": "بکری"
       },
       {
@@ -2259,6 +7013,7 @@
         "en": "sheep",
         "es": "oveja",
         "speaker": "B",
+        "translit": "bheṛ",
         "ur": "بھےڈ"
       },
       {
@@ -2266,6 +7021,7 @@
         "en": "pig",
         "es": "cerdo",
         "speaker": "A",
+        "translit": "sūar",
         "ur": "سوار"
       },
       {
@@ -2273,10 +7029,165 @@
         "en": "chicken",
         "es": "gallina",
         "speaker": "B",
+        "translit": "murgī",
         "ur": "مُرگی"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "جانور",
+            "answerTranslit": "jaanwar",
+            "concept": "c:animales.animal",
+            "optionTranslit": {
+              "بلی": "billi",
+              "جانور": "jaanwar",
+              "سوار": "sūar",
+              "گھوڈا": "ghoṛā"
+            },
+            "options": [
+              "گھوڈا",
+              "جانور",
+              "بلی",
+              "سوار"
+            ],
+            "prompt": "animal"
+          },
+          {
+            "answer": "کتا",
+            "answerTranslit": "kutta",
+            "concept": "c:animales.perro",
+            "optionTranslit": {
+              "جانور": "jaanwar",
+              "سوار": "sūar",
+              "مُرگی": "murgī",
+              "کتا": "kutta"
+            },
+            "options": [
+              "مُرگی",
+              "کتا",
+              "سوار",
+              "جانور"
+            ],
+            "prompt": "perro"
+          },
+          {
+            "answer": "بلی",
+            "answerTranslit": "billi",
+            "concept": "c:animales.gato",
+            "optionTranslit": {
+              "بلی": "billi",
+              "جانور": "jaanwar",
+              "سوار": "sūar",
+              "گھوڈا": "ghoṛā"
+            },
+            "options": [
+              "بلی",
+              "سوار",
+              "گھوڈا",
+              "جانور"
+            ],
+            "prompt": "gato"
+          },
+          {
+            "answer": "گای",
+            "answerTranslit": "gāy",
+            "concept": "c:animales.vaca",
+            "optionTranslit": {
+              "بلی": "billi",
+              "بےل": "bail",
+              "سوار": "sūar",
+              "گای": "gāy"
+            },
+            "options": [
+              "گای",
+              "بےل",
+              "بلی",
+              "سوار"
+            ],
+            "prompt": "vaca"
+          },
+          {
+            "answer": "بےل",
+            "answerTranslit": "bail",
+            "concept": "c:animales.buey-toro",
+            "optionTranslit": {
+              "بھےںس": "bhaĩs",
+              "بےل": "bail",
+              "کتا": "kutta",
+              "گدھا": "gadhā"
+            },
+            "options": [
+              "بھےںس",
+              "گدھا",
+              "بےل",
+              "کتا"
+            ],
+            "prompt": "buey / toro"
+          },
+          {
+            "answer": "بھےںس",
+            "answerTranslit": "bhaĩs",
+            "concept": "c:animales.bufalo",
+            "optionTranslit": {
+              "بکری": "bakrī",
+              "بھےںس": "bhaĩs",
+              "جانور": "jaanwar",
+              "مُرگی": "murgī"
+            },
+            "options": [
+              "بھےںس",
+              "بکری",
+              "مُرگی",
+              "جانور"
+            ],
+            "prompt": "búfalo"
+          },
+          {
+            "answer": "گھوڈا",
+            "answerTranslit": "ghoṛā",
+            "concept": "c:animales.caballo",
+            "optionTranslit": {
+              "بےل": "bail",
+              "جانور": "jaanwar",
+              "مُرگی": "murgī",
+              "گھوڈا": "ghoṛā"
+            },
+            "options": [
+              "بےل",
+              "مُرگی",
+              "جانور",
+              "گھوڈا"
+            ],
+            "prompt": "caballo"
+          },
+          {
+            "answer": "گدھا",
+            "answerTranslit": "gadhā",
+            "concept": "c:animales.burro-asno",
+            "optionTranslit": {
+              "بھےڈ": "bheṛ",
+              "کتا": "kutta",
+              "گای": "gāy",
+              "گدھا": "gadhā"
+            },
+            "options": [
+              "بھےڈ",
+              "کتا",
+              "گای",
+              "گدھا"
+            ],
+            "prompt": "burro / asno"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Common animals, both domestic and wild.",
       "es": "Animales frecuentes, tanto domésticos como salvajes."

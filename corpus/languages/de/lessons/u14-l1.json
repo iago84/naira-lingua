@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:adjetivos.bueno",
+    "c:adjetivos.malo",
+    "c:adjetivos.grande",
+    "c:adjetivos.pequeno",
+    "c:adjetivos.largo-alto",
+    "c:adjetivos.bajo-corto",
+    "c:adjetivos.nuevo",
+    "c:adjetivos.viejo-antiguo",
+    "c:adjetivos.joven",
+    "c:adjetivos.viejo-persona",
+    "c:adjetivos.hermoso-bonito",
+    "c:adjetivos.feo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:adjetivos.bueno",
+      "de": "Gut.",
+      "en": "Good.",
+      "es": "bueno",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.malo",
+      "de": "schlecht",
+      "en": "bad",
+      "es": "malo",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.grande",
+      "de": "groß",
+      "en": "large",
+      "es": "grande",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.pequeno",
+      "de": "klein",
+      "en": "small",
+      "es": "pequeño",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.largo-alto",
+      "de": "lang/hoch",
+      "en": "long / high",
+      "es": "largo / alto",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.bajo-corto",
+      "de": "niedrig / kurz",
+      "en": "low / short",
+      "es": "bajo / corto",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.nuevo",
+      "de": "neu",
+      "en": "new",
+      "es": "nuevo",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.viejo-antiguo",
+      "de": "alt/alt",
+      "en": "old / ancient",
+      "es": "viejo / antiguo",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.joven",
+      "de": "Jung",
+      "en": "young",
+      "es": "joven",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.viejo-persona",
+      "de": "alt (Person)",
+      "en": "old (person)",
+      "es": "viejo (persona)",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.hermoso-bonito",
+      "de": "schön/schön",
+      "en": "beautiful / pretty",
+      "es": "hermoso / bonito",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.feo",
+      "de": "Hässlich",
+      "en": "ugly",
+      "es": "feo",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Gut.",
+          "concept": "c:adjetivos.bueno",
+          "options": [
+            "Jung",
+            "neu",
+            "niedrig / kurz",
+            "Gut."
+          ],
+          "prompt": "bueno"
+        },
+        {
+          "answer": "schlecht",
+          "concept": "c:adjetivos.malo",
+          "options": [
+            "klein",
+            "niedrig / kurz",
+            "schlecht",
+            "neu"
+          ],
+          "prompt": "malo"
+        },
+        {
+          "answer": "groß",
+          "concept": "c:adjetivos.grande",
+          "options": [
+            "lang/hoch",
+            "Gut.",
+            "schlecht",
+            "groß"
+          ],
+          "prompt": "grande"
+        },
+        {
+          "answer": "klein",
+          "concept": "c:adjetivos.pequeno",
+          "options": [
+            "schlecht",
+            "klein",
+            "neu",
+            "alt (Person)"
+          ],
+          "prompt": "pequeño"
+        },
+        {
+          "answer": "lang/hoch",
+          "concept": "c:adjetivos.largo-alto",
+          "options": [
+            "lang/hoch",
+            "Gut.",
+            "Jung",
+            "schön/schön"
+          ],
+          "prompt": "largo / alto"
+        },
+        {
+          "answer": "niedrig / kurz",
+          "concept": "c:adjetivos.bajo-corto",
+          "options": [
+            "groß",
+            "lang/hoch",
+            "niedrig / kurz",
+            "alt/alt"
+          ],
+          "prompt": "bajo / corto"
+        },
+        {
+          "answer": "neu",
+          "concept": "c:adjetivos.nuevo",
+          "options": [
+            "alt (Person)",
+            "neu",
+            "Hässlich",
+            "niedrig / kurz"
+          ],
+          "prompt": "nuevo"
+        },
+        {
+          "answer": "alt/alt",
+          "concept": "c:adjetivos.viejo-antiguo",
+          "options": [
+            "schlecht",
+            "Jung",
+            "alt/alt",
+            "schön/schön"
+          ],
+          "prompt": "viejo / antiguo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Adjectives to describe size, character, state and qualities.",
+    "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+  },
+  "generator": "build_lessons",
+  "id": "de-u14-l1",
+  "lang": "de",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Describe with adjectives",
+      "Give opinions about things and people"
+    ],
+    "es": [
+      "Describir con adjetivos",
+      "Opinar sobre cosas y personas"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "de"
+      ],
+      "rows": [
+        [
+          "bueno",
+          "Good.",
+          "Gut."
+        ],
+        [
+          "malo",
+          "bad",
+          "schlecht"
+        ],
+        [
+          "grande",
+          "large",
+          "groß"
+        ],
+        [
+          "pequeño",
+          "small",
+          "klein"
+        ],
+        [
+          "largo / alto",
+          "long / high",
+          "lang/hoch"
+        ],
+        [
+          "bajo / corto",
+          "low / short",
+          "niedrig / kurz"
+        ],
+        [
+          "nuevo",
+          "new",
+          "neu"
+        ],
+        [
+          "viejo / antiguo",
+          "old / ancient",
+          "alt/alt"
+        ],
+        [
+          "joven",
+          "young",
+          "Jung"
+        ],
+        [
+          "viejo (persona)",
+          "old (person)",
+          "alt (Person)"
+        ],
+        [
+          "hermoso / bonito",
+          "beautiful / pretty",
+          "schön/schön"
+        ],
+        [
+          "feo",
+          "ugly",
+          "Hässlich"
+        ]
+      ],
+      "title": "es · en · de",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Adjectives",
+    "es": "Los adjetivos"
+  },
+  "unit": 14
+}

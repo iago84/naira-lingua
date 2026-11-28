@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Família",
+          "concept": "c:familia-y-personas.familia",
+          "options": [
+            "irmãos",
+            "irmão",
+            "A avó do pai",
+            "Família"
+          ],
+          "prompt": "familia"
+        },
+        {
+          "answer": "Mãe.",
+          "concept": "c:familia-y-personas.madre",
+          "options": [
+            "A avó do pai",
+            "filha",
+            "Família",
+            "Mãe."
+          ],
+          "prompt": "madre"
+        },
+        {
+          "answer": "Padre.",
+          "concept": "c:familia-y-personas.padre",
+          "options": [
+            "A avó do pai",
+            "irmãos",
+            "Padre.",
+            "pais"
+          ],
+          "prompt": "padre"
+        },
+        {
+          "answer": "pais",
+          "concept": "c:familia-y-personas.padres",
+          "options": [
+            "irmão",
+            "pais",
+            "Família",
+            "criança"
+          ],
+          "prompt": "padres"
+        },
+        {
+          "answer": "criança",
+          "concept": "c:familia-y-personas.hijo",
+          "options": [
+            "filha",
+            "avô paterno",
+            "Mãe.",
+            "criança"
+          ],
+          "prompt": "hijo"
+        },
+        {
+          "answer": "filha",
+          "concept": "c:familia-y-personas.hija",
+          "options": [
+            "criança",
+            "filha",
+            "Mãe.",
+            "pais"
+          ],
+          "prompt": "hija"
+        },
+        {
+          "answer": "criança",
+          "concept": "c:familia-y-personas.nino-a",
+          "options": [
+            "criança",
+            "irmãos",
+            "avô paterno",
+            "pais"
+          ],
+          "prompt": "niño/a"
+        },
+        {
+          "answer": "irmão",
+          "concept": "c:familia-y-personas.hermano",
+          "options": [
+            "Mãe.",
+            "irmão",
+            "criança",
+            "irmãos"
+          ],
+          "prompt": "hermano"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to refer to family and the people around you.",
-    "es": "Palabras para referirse a la familia y a las personas cercanas.",
-    "pt": "Palavras para se referir à família e às pessoas próximas."
+    "es": "Palabras para referirse a la familia y a las personas cercanas."
   },
   "generator": "build_lessons",
   "id": "pt-u4-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar a los miembros de la familia",
       "Hablar de personas"
-    ],
-    "pt": [
-      "Nomear familiares",
-      "Falar sobre as pessoas"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Family and people",
-    "es": "La familia y las personas",
-    "pt": "Família e indivíduos"
+    "es": "La familia y las personas"
   },
   "unit": 4
 }

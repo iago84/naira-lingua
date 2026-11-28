@@ -87,7 +87,105 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "body",
+          "concept": "c:cuerpo-humano.cuerpo",
+          "options": [
+            "eyes",
+            "body",
+            "front",
+            "eyelid / tab"
+          ],
+          "prompt": "cuerpo"
+        },
+        {
+          "answer": "head",
+          "concept": "c:cuerpo-humano.cabeza",
+          "options": [
+            "eye",
+            "head",
+            "mouth",
+            "eyes"
+          ],
+          "prompt": "cabeza"
+        },
+        {
+          "answer": "hair / hair-",
+          "concept": "c:cuerpo-humano.cabello-pelo",
+          "options": [
+            "nose",
+            "Beef",
+            "hair / hair-",
+            "front"
+          ],
+          "prompt": "cabello / pelo"
+        },
+        {
+          "answer": "face / side",
+          "concept": "c:cuerpo-humano.cara-rostro",
+          "options": [
+            "body",
+            "face / side",
+            "hair / hair-",
+            "eyes"
+          ],
+          "prompt": "cara / rostro"
+        },
+        {
+          "answer": "front",
+          "concept": "c:cuerpo-humano.frente",
+          "options": [
+            "hair / hair-",
+            "front",
+            "eye",
+            "eyes"
+          ],
+          "prompt": "frente"
+        },
+        {
+          "answer": "eye",
+          "concept": "c:cuerpo-humano.ojo",
+          "options": [
+            "front",
+            "eye",
+            "eyelid / tab",
+            "head"
+          ],
+          "prompt": "ojo"
+        },
+        {
+          "answer": "eyes",
+          "concept": "c:cuerpo-humano.ojos",
+          "options": [
+            "eyes",
+            "ear / ears",
+            "head",
+            "nose"
+          ],
+          "prompt": "ojos"
+        },
+        {
+          "answer": "Beef",
+          "concept": "c:cuerpo-humano.ceja",
+          "options": [
+            "Beef",
+            "front",
+            "head",
+            "eyelid / tab"
+          ],
+          "prompt": "ceja"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Parts of the body, useful to talk about health and care.",
     "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."

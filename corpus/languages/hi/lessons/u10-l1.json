@@ -19,91 +19,256 @@
       "en": "city",
       "es": "ciudad",
       "hi": "शहर",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "śahar"
     },
     {
       "concept": "c:ciudad-y-lugares.pueblo-aldea",
       "en": "village / town",
       "es": "pueblo / aldea",
       "hi": "गाँव",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "gā̃v"
     },
     {
       "concept": "c:ciudad-y-lugares.pais",
       "en": "country",
       "es": "país",
       "hi": "देश",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "deś"
     },
     {
       "concept": "c:ciudad-y-lugares.estado-provincia",
       "en": "State / province",
       "es": "estado / provincia",
       "hi": "राज्य",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "rājya"
     },
     {
       "concept": "c:ciudad-y-lugares.capital",
       "en": "capital",
       "es": "capital",
       "hi": "राजधानी",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "rājdhānī"
     },
     {
       "concept": "c:ciudad-y-lugares.zona-area",
       "en": "area / zone",
       "es": "zona / área",
       "hi": "इलाका",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "ilākā"
     },
     {
       "concept": "c:ciudad-y-lugares.calle-carretera",
       "en": "Street / road",
       "es": "calle / carretera",
       "hi": "सड़क",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "saṛak"
     },
     {
       "concept": "c:ciudad-y-lugares.callejon",
       "en": "alley",
       "es": "callejón",
       "hi": "गली",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "galī"
     },
     {
       "concept": "c:ciudad-y-lugares.cruce-interseccion",
       "en": "cross / intersection",
       "es": "cruce / intersección",
       "hi": "चौराहा",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "caurāhā"
     },
     {
       "concept": "c:ciudad-y-lugares.puente",
       "en": "bridge",
       "es": "puente",
       "hi": "पुल",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "pul"
     },
     {
       "concept": "c:ciudad-y-lugares.plaza",
       "en": "square",
       "es": "plaza",
       "hi": "चौक",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "cauk"
     },
     {
       "concept": "c:ciudad-y-lugares.mercado",
       "en": "market",
       "es": "mercado",
       "hi": "बाज़ार",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "bāzār"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "शहर",
+          "answerTranslit": "śahar",
+          "concept": "c:ciudad-y-lugares.ciudad",
+          "optionTranslit": {
+            "इलाका": "ilākā",
+            "देश": "deś",
+            "पुल": "pul",
+            "शहर": "śahar"
+          },
+          "options": [
+            "देश",
+            "इलाका",
+            "पुल",
+            "शहर"
+          ],
+          "prompt": "ciudad"
+        },
+        {
+          "answer": "गाँव",
+          "answerTranslit": "gā̃v",
+          "concept": "c:ciudad-y-lugares.pueblo-aldea",
+          "optionTranslit": {
+            "गाँव": "gā̃v",
+            "चौक": "cauk",
+            "पुल": "pul",
+            "राजधानी": "rājdhānī"
+          },
+          "options": [
+            "राजधानी",
+            "गाँव",
+            "पुल",
+            "चौक"
+          ],
+          "prompt": "pueblo / aldea"
+        },
+        {
+          "answer": "देश",
+          "answerTranslit": "deś",
+          "concept": "c:ciudad-y-lugares.pais",
+          "optionTranslit": {
+            "गली": "galī",
+            "देश": "deś",
+            "राज्य": "rājya",
+            "सड़क": "saṛak"
+          },
+          "options": [
+            "सड़क",
+            "देश",
+            "राज्य",
+            "गली"
+          ],
+          "prompt": "país"
+        },
+        {
+          "answer": "राज्य",
+          "answerTranslit": "rājya",
+          "concept": "c:ciudad-y-lugares.estado-provincia",
+          "optionTranslit": {
+            "चौराहा": "caurāhā",
+            "बाज़ार": "bāzār",
+            "राज्य": "rājya",
+            "शहर": "śahar"
+          },
+          "options": [
+            "बाज़ार",
+            "शहर",
+            "राज्य",
+            "चौराहा"
+          ],
+          "prompt": "estado / provincia"
+        },
+        {
+          "answer": "राजधानी",
+          "answerTranslit": "rājdhānī",
+          "concept": "c:ciudad-y-lugares.capital",
+          "optionTranslit": {
+            "चौक": "cauk",
+            "पुल": "pul",
+            "राजधानी": "rājdhānī",
+            "राज्य": "rājya"
+          },
+          "options": [
+            "पुल",
+            "राज्य",
+            "राजधानी",
+            "चौक"
+          ],
+          "prompt": "capital"
+        },
+        {
+          "answer": "इलाका",
+          "answerTranslit": "ilākā",
+          "concept": "c:ciudad-y-lugares.zona-area",
+          "optionTranslit": {
+            "इलाका": "ilākā",
+            "देश": "deś",
+            "राज्य": "rājya",
+            "सड़क": "saṛak"
+          },
+          "options": [
+            "सड़क",
+            "राज्य",
+            "देश",
+            "इलाका"
+          ],
+          "prompt": "zona / área"
+        },
+        {
+          "answer": "सड़क",
+          "answerTranslit": "saṛak",
+          "concept": "c:ciudad-y-lugares.calle-carretera",
+          "optionTranslit": {
+            "देश": "deś",
+            "पुल": "pul",
+            "शहर": "śahar",
+            "सड़क": "saṛak"
+          },
+          "options": [
+            "देश",
+            "सड़क",
+            "शहर",
+            "पुल"
+          ],
+          "prompt": "calle / carretera"
+        },
+        {
+          "answer": "गली",
+          "answerTranslit": "galī",
+          "concept": "c:ciudad-y-lugares.callejon",
+          "optionTranslit": {
+            "इलाका": "ilākā",
+            "गली": "galī",
+            "चौक": "cauk",
+            "सड़क": "saṛak"
+          },
+          "options": [
+            "चौक",
+            "इलाका",
+            "गली",
+            "सड़क"
+          ],
+          "prompt": "callejón"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Places in the city to move around and ask for directions.",
-    "es": "Lugares de la ciudad para moverse y pedir indicaciones.",
-    "hi": "शहर में स्थानों को स्थानांतरित करने और दिशा के लिए पूछने के लिए।"
+    "es": "Lugares de la ciudad para moverse y pedir indicaciones."
   },
   "generator": "build_lessons",
   "id": "hi-u10-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar lugares de la ciudad",
       "Pedir direcciones"
-    ],
-    "hi": [
-      "शहर में नाम स्थान",
-      "पते के लिए पूछो"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "City and places",
-    "es": "La ciudad y los lugares",
-    "hi": "शहर और जगह"
+    "es": "La ciudad y los lugares"
   },
   "unit": 10
 }

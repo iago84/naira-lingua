@@ -19,6 +19,7 @@
       "en": "clothing",
       "es": "ropa",
       "speaker": "A",
+      "translit": "fú zhuāng",
       "zh": "服装"
     },
     {
@@ -26,6 +27,7 @@
       "en": "shirt",
       "es": "camisa",
       "speaker": "B",
+      "translit": "chèn shān",
       "zh": "衬衫"
     },
     {
@@ -33,6 +35,7 @@
       "en": "T-shirt",
       "es": "camiseta",
       "speaker": "A",
+      "translit": "T xù",
       "zh": "T恤"
     },
     {
@@ -40,6 +43,7 @@
       "en": "Pants",
       "es": "pantalón",
       "speaker": "B",
+      "translit": "kù zi",
       "zh": "裤子"
     },
     {
@@ -47,6 +51,7 @@
       "en": "jeans / jans",
       "es": "vaqueros / jeans",
       "speaker": "A",
+      "translit": "niú zǎi kù / niú zǎi kù",
       "zh": "牛仔裤/牛仔裤"
     },
     {
@@ -54,6 +59,7 @@
       "en": "Short pants",
       "es": "pantalones cortos",
       "speaker": "B",
+      "translit": "duǎn kù",
       "zh": "短裤"
     },
     {
@@ -61,6 +67,7 @@
       "en": "skirt",
       "es": "falda",
       "speaker": "A",
+      "translit": "xiàn tiáo",
       "zh": "线条"
     },
     {
@@ -68,6 +75,7 @@
       "en": "dress up",
       "es": "vestido",
       "speaker": "B",
+      "translit": "chuān qǐ lái",
       "zh": "穿起来"
     },
     {
@@ -75,6 +83,7 @@
       "en": "sari",
       "es": "sari",
       "speaker": "A",
+      "translit": "sà lǐ",
       "zh": "萨里"
     },
     {
@@ -82,6 +91,7 @@
       "en": "salwar kameez",
       "es": "salwar kameez",
       "speaker": "B",
+      "translit": "sà ěr wǎ ěr · kǎ mǐ zī",
       "zh": "萨尔瓦尔·卡米兹"
     },
     {
@@ -89,6 +99,7 @@
       "en": "kurta",
       "es": "kurta",
       "speaker": "A",
+      "translit": "kù ěr tǎ",
       "zh": "库尔塔"
     },
     {
@@ -96,14 +107,168 @@
       "en": "pajamas",
       "es": "pijama",
       "speaker": "B",
+      "translit": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
       "zh": "睡衣(Shopple) : 睡衣(Phase, suffer-s."
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "服装",
+          "answerTranslit": "fú zhuāng",
+          "concept": "c:ropa-y-accesorios.ropa",
+          "optionTranslit": {
+            "T恤": "T xù",
+            "服装": "fú zhuāng",
+            "牛仔裤/牛仔裤": "niú zǎi kù / niú zǎi kù",
+            "穿起来": "chuān qǐ lái"
+          },
+          "options": [
+            "牛仔裤/牛仔裤",
+            "穿起来",
+            "T恤",
+            "服装"
+          ],
+          "prompt": "ropa"
+        },
+        {
+          "answer": "衬衫",
+          "answerTranslit": "chèn shān",
+          "concept": "c:ropa-y-accesorios.camisa",
+          "optionTranslit": {
+            "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+            "短裤": "duǎn kù",
+            "穿起来": "chuān qǐ lái",
+            "衬衫": "chèn shān"
+          },
+          "options": [
+            "衬衫",
+            "短裤",
+            "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+            "穿起来"
+          ],
+          "prompt": "camisa"
+        },
+        {
+          "answer": "T恤",
+          "answerTranslit": "T xù",
+          "concept": "c:ropa-y-accesorios.camiseta",
+          "optionTranslit": {
+            "T恤": "T xù",
+            "库尔塔": "kù ěr tǎ",
+            "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+            "穿起来": "chuān qǐ lái"
+          },
+          "options": [
+            "T恤",
+            "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+            "穿起来",
+            "库尔塔"
+          ],
+          "prompt": "camiseta"
+        },
+        {
+          "answer": "裤子",
+          "answerTranslit": "kù zi",
+          "concept": "c:ropa-y-accesorios.pantalon",
+          "optionTranslit": {
+            "服装": "fú zhuāng",
+            "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+            "萨尔瓦尔·卡米兹": "sà ěr wǎ ěr · kǎ mǐ zī",
+            "裤子": "kù zi"
+          },
+          "options": [
+            "服装",
+            "裤子",
+            "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+            "萨尔瓦尔·卡米兹"
+          ],
+          "prompt": "pantalón"
+        },
+        {
+          "answer": "牛仔裤/牛仔裤",
+          "answerTranslit": "niú zǎi kù / niú zǎi kù",
+          "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+          "optionTranslit": {
+            "T恤": "T xù",
+            "牛仔裤/牛仔裤": "niú zǎi kù / niú zǎi kù",
+            "线条": "xiàn tiáo",
+            "萨里": "sà lǐ"
+          },
+          "options": [
+            "萨里",
+            "T恤",
+            "牛仔裤/牛仔裤",
+            "线条"
+          ],
+          "prompt": "vaqueros / jeans"
+        },
+        {
+          "answer": "短裤",
+          "answerTranslit": "duǎn kù",
+          "concept": "c:ropa-y-accesorios.pantalones-cortos",
+          "optionTranslit": {
+            "T恤": "T xù",
+            "库尔塔": "kù ěr tǎ",
+            "短裤": "duǎn kù",
+            "裤子": "kù zi"
+          },
+          "options": [
+            "T恤",
+            "短裤",
+            "裤子",
+            "库尔塔"
+          ],
+          "prompt": "pantalones cortos"
+        },
+        {
+          "answer": "线条",
+          "answerTranslit": "xiàn tiáo",
+          "concept": "c:ropa-y-accesorios.falda",
+          "optionTranslit": {
+            "服装": "fú zhuāng",
+            "穿起来": "chuān qǐ lái",
+            "线条": "xiàn tiáo",
+            "萨里": "sà lǐ"
+          },
+          "options": [
+            "线条",
+            "穿起来",
+            "萨里",
+            "服装"
+          ],
+          "prompt": "falda"
+        },
+        {
+          "answer": "穿起来",
+          "answerTranslit": "chuān qǐ lái",
+          "concept": "c:ropa-y-accesorios.vestido",
+          "optionTranslit": {
+            "服装": "fú zhuāng",
+            "睡衣(Shopple) : 睡衣(Phase, suffer-s.": "shuì yī (Shopple) :  shuì yī (Phase, suffer-s.",
+            "穿起来": "chuān qǐ lái",
+            "裤子": "kù zi"
+          },
+          "options": [
+            "服装",
+            "穿起来",
+            "睡衣(Shopple) : 睡衣(Phase, suffer-s.",
+            "裤子"
+          ],
+          "prompt": "vestido"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Clothes and accessories, with words useful for clothes shopping.",
-    "es": "Prendas y accesorios, con palabras útiles para comprar ropa.",
-    "zh": "笔和饰品,有用词来购买衣服."
+    "es": "Prendas y accesorios, con palabras útiles para comprar ropa."
   },
   "generator": "build_lessons",
   "id": "zh-u11-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar prendas de ropa",
       "Ir de compras"
-    ],
-    "zh": [
-      "指定服装",
-      "买东西去"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Clothing and accessories",
-    "es": "La ropa y los accesorios",
-    "zh": "服装和配件"
+    "es": "La ropa y los accesorios"
   },
   "unit": 11
 }

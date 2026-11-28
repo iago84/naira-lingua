@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "zéro",
+          "concept": "c:numeros.cero",
+          "options": [
+            "9",
+            "zéro",
+            "sept",
+            "un"
+          ],
+          "prompt": "cero"
+        },
+        {
+          "answer": "un",
+          "concept": "c:numeros.uno",
+          "options": [
+            "cinq",
+            "deux",
+            "10",
+            "un"
+          ],
+          "prompt": "uno"
+        },
+        {
+          "answer": "deux",
+          "concept": "c:numeros.dos",
+          "options": [
+            "6",
+            "9",
+            "cinq",
+            "deux"
+          ],
+          "prompt": "dos"
+        },
+        {
+          "answer": "trois",
+          "concept": "c:numeros.tres",
+          "options": [
+            "10",
+            "6",
+            "deux",
+            "trois"
+          ],
+          "prompt": "tres"
+        },
+        {
+          "answer": "4",
+          "concept": "c:numeros.cuatro",
+          "options": [
+            "4",
+            "cinq",
+            "10",
+            "8"
+          ],
+          "prompt": "cuatro"
+        },
+        {
+          "answer": "cinq",
+          "concept": "c:numeros.cinco",
+          "options": [
+            "4",
+            "zéro",
+            "sept",
+            "cinq"
+          ],
+          "prompt": "cinco"
+        },
+        {
+          "answer": "6",
+          "concept": "c:numeros.seis",
+          "options": [
+            "deux",
+            "11",
+            "6",
+            "zéro"
+          ],
+          "prompt": "seis"
+        },
+        {
+          "answer": "sept",
+          "concept": "c:numeros.siete",
+          "options": [
+            "8",
+            "sept",
+            "cinq",
+            "4"
+          ],
+          "prompt": "siete"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Everyday numbers: used to count, give your age and talk about prices.",
-    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
-    "fr": "Les numéros du jour à ce jour: ils sont utilisés pour le comptage, l'âge et le prix."
+    "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
   },
   "generator": "build_lessons",
   "id": "fr-u2-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Contar del cero al diez",
       "Reconocer los números básicos"
-    ],
-    "fr": [
-      "Nombre de zéro à dix",
-      "Reconnaître les numéros de base"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Numbers",
-    "es": "Los números",
-    "fr": "Les chiffres"
+    "es": "Los números"
   },
   "unit": 2
 }

@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:vocabulario-extra-y-frases-utiles.amor",
+    "c:vocabulario-extra-y-frases-utiles.odio",
+    "c:vocabulario-extra-y-frases-utiles.honestidad",
+    "c:vocabulario-extra-y-frases-utiles.mentira",
+    "c:vocabulario-extra-y-frases-utiles.verdad",
+    "c:vocabulario-extra-y-frases-utiles.justicia",
+    "c:vocabulario-extra-y-frases-utiles.injusticia",
+    "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+    "c:vocabulario-extra-y-frases-utiles.miedo",
+    "c:vocabulario-extra-y-frases-utiles.esperanza",
+    "c:vocabulario-extra-y-frases-utiles.decepcion",
+    "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+      "en": "love",
+      "es": "amor",
+      "ja": "恋物癖",
+      "speaker": "A",
+      "translit": "koi mono kuse"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+      "en": "I hate it.",
+      "es": "odio",
+      "ja": "嫌がらせ",
+      "speaker": "B",
+      "translit": "iyagarase"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "en": "honesty",
+      "es": "honestidad",
+      "ja": "正直なところ",
+      "speaker": "A",
+      "translit": "shoujiki natokoro"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+      "en": "lie",
+      "es": "mentira",
+      "ja": "うつる",
+      "speaker": "B",
+      "translit": "utsuru"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+      "en": "truth",
+      "es": "verdad",
+      "ja": "真実",
+      "speaker": "A",
+      "translit": "shinjitsu"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+      "en": "justice",
+      "es": "justicia",
+      "ja": "正義",
+      "speaker": "B",
+      "translit": "seigi"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "en": "injustice",
+      "es": "injusticia",
+      "ja": "不整形",
+      "speaker": "A",
+      "translit": "fuseikei"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "en": "value / courage",
+      "es": "valor / coraje",
+      "ja": "価値/勇気",
+      "speaker": "B",
+      "translit": "kachi / yuuki"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+      "en": "fear",
+      "es": "miedo",
+      "ja": "恐怖の恐れ",
+      "speaker": "A",
+      "translit": "kyoufu no osore"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "en": "hope",
+      "es": "esperanza",
+      "ja": "希望する",
+      "speaker": "B",
+      "translit": "kibou suru"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "en": "disappointment",
+      "es": "decepción",
+      "ja": "不審な点",
+      "speaker": "A",
+      "translit": "fushin na ten"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+      "en": "anger / angry",
+      "es": "ira / enfado",
+      "ja": "怒り / アングリ",
+      "speaker": "B",
+      "translit": "ikari / anguri"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "恋物癖",
+          "answerTranslit": "koi mono kuse",
+          "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+          "optionTranslit": {
+            "不審な点": "fushin na ten",
+            "恋物癖": "koi mono kuse",
+            "正義": "seigi",
+            "真実": "shinjitsu"
+          },
+          "options": [
+            "正義",
+            "恋物癖",
+            "真実",
+            "不審な点"
+          ],
+          "prompt": "amor"
+        },
+        {
+          "answer": "嫌がらせ",
+          "answerTranslit": "iyagarase",
+          "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+          "optionTranslit": {
+            "不整形": "fuseikei",
+            "嫌がらせ": "iyagarase",
+            "希望する": "kibou suru",
+            "正直なところ": "shoujiki natokoro"
+          },
+          "options": [
+            "正直なところ",
+            "希望する",
+            "嫌がらせ",
+            "不整形"
+          ],
+          "prompt": "odio"
+        },
+        {
+          "answer": "正直なところ",
+          "answerTranslit": "shoujiki natokoro",
+          "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+          "optionTranslit": {
+            "うつる": "utsuru",
+            "怒り / アングリ": "ikari / anguri",
+            "正直なところ": "shoujiki natokoro",
+            "真実": "shinjitsu"
+          },
+          "options": [
+            "真実",
+            "正直なところ",
+            "怒り / アングリ",
+            "うつる"
+          ],
+          "prompt": "honestidad"
+        },
+        {
+          "answer": "うつる",
+          "answerTranslit": "utsuru",
+          "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+          "optionTranslit": {
+            "うつる": "utsuru",
+            "恋物癖": "koi mono kuse",
+            "正直なところ": "shoujiki natokoro",
+            "真実": "shinjitsu"
+          },
+          "options": [
+            "真実",
+            "正直なところ",
+            "恋物癖",
+            "うつる"
+          ],
+          "prompt": "mentira"
+        },
+        {
+          "answer": "真実",
+          "answerTranslit": "shinjitsu",
+          "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+          "optionTranslit": {
+            "怒り / アングリ": "ikari / anguri",
+            "正直なところ": "shoujiki natokoro",
+            "正義": "seigi",
+            "真実": "shinjitsu"
+          },
+          "options": [
+            "真実",
+            "正義",
+            "正直なところ",
+            "怒り / アングリ"
+          ],
+          "prompt": "verdad"
+        },
+        {
+          "answer": "正義",
+          "answerTranslit": "seigi",
+          "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+          "optionTranslit": {
+            "不審な点": "fushin na ten",
+            "不整形": "fuseikei",
+            "怒り / アングリ": "ikari / anguri",
+            "正義": "seigi"
+          },
+          "options": [
+            "怒り / アングリ",
+            "不整形",
+            "正義",
+            "不審な点"
+          ],
+          "prompt": "justicia"
+        },
+        {
+          "answer": "不整形",
+          "answerTranslit": "fuseikei",
+          "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+          "optionTranslit": {
+            "不審な点": "fushin na ten",
+            "不整形": "fuseikei",
+            "正直なところ": "shoujiki natokoro",
+            "真実": "shinjitsu"
+          },
+          "options": [
+            "真実",
+            "正直なところ",
+            "不整形",
+            "不審な点"
+          ],
+          "prompt": "injusticia"
+        },
+        {
+          "answer": "価値/勇気",
+          "answerTranslit": "kachi / yuuki",
+          "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+          "optionTranslit": {
+            "不整形": "fuseikei",
+            "価値/勇気": "kachi / yuuki",
+            "希望する": "kibou suru",
+            "正義": "seigi"
+          },
+          "options": [
+            "価値/勇気",
+            "不整形",
+            "希望する",
+            "正義"
+          ],
+          "prompt": "valor / coraje"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Support words and phrases that appear in many conversations.",
+    "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+  },
+  "generator": "build_lessons",
+  "id": "ja-u20-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Expand vocabulary",
+      "Use common everyday phrases"
+    ],
+    "es": [
+      "Ampliar vocabulario",
+      "Usar frases comunes del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "amor",
+          "love",
+          "恋物癖"
+        ],
+        [
+          "odio",
+          "I hate it.",
+          "嫌がらせ"
+        ],
+        [
+          "honestidad",
+          "honesty",
+          "正直なところ"
+        ],
+        [
+          "mentira",
+          "lie",
+          "うつる"
+        ],
+        [
+          "verdad",
+          "truth",
+          "真実"
+        ],
+        [
+          "justicia",
+          "justice",
+          "正義"
+        ],
+        [
+          "injusticia",
+          "injustice",
+          "不整形"
+        ],
+        [
+          "valor / coraje",
+          "value / courage",
+          "価値/勇気"
+        ],
+        [
+          "miedo",
+          "fear",
+          "恐怖の恐れ"
+        ],
+        [
+          "esperanza",
+          "hope",
+          "希望する"
+        ],
+        [
+          "decepción",
+          "disappointment",
+          "不審な点"
+        ],
+        [
+          "ira / enfado",
+          "anger / angry",
+          "怒り / アングリ"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Extra vocabulary and useful phrases",
+    "es": "Vocabulario extra y frases útiles"
+  },
+  "unit": 20
+}

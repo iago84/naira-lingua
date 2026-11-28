@@ -1,0 +1,123 @@
+{
+  "direction": "ltr",
+  "intro": {
+    "en": "Italian has 21 letters of its own; j, k, w, x and y appear only in foreign words. It barely uses accents, except the final grave accent (à, è, ì, ò, ù).",
+    "es": "El italiano tiene 21 letras propias; j, k, w, x e y solo aparecen en palabras extranjeras. Apenas usa acentos, salvo la tilde final (à, è, ì, ò, ù)."
+  },
+  "lang": "it",
+  "script": "latin",
+  "sections": [
+    {
+      "columns": [
+        {
+          "key": "char",
+          "label": {
+            "en": "Glyph",
+            "es": "Signo"
+          }
+        },
+        {
+          "key": "translit",
+          "label": {
+            "en": "Letter",
+            "es": "Letra"
+          }
+        }
+      ],
+      "items": [
+        {
+          "char": "a",
+          "translit": "a"
+        },
+        {
+          "char": "b",
+          "translit": "b"
+        },
+        {
+          "char": "c",
+          "translit": "c"
+        },
+        {
+          "char": "d",
+          "translit": "d"
+        },
+        {
+          "char": "e",
+          "translit": "e"
+        },
+        {
+          "char": "f",
+          "translit": "f"
+        },
+        {
+          "char": "g",
+          "translit": "g"
+        },
+        {
+          "char": "h",
+          "translit": "h"
+        },
+        {
+          "char": "i",
+          "translit": "i"
+        },
+        {
+          "char": "l",
+          "translit": "l"
+        },
+        {
+          "char": "m",
+          "translit": "m"
+        },
+        {
+          "char": "n",
+          "translit": "n"
+        },
+        {
+          "char": "o",
+          "translit": "o"
+        },
+        {
+          "char": "p",
+          "translit": "p"
+        },
+        {
+          "char": "q",
+          "translit": "q"
+        },
+        {
+          "char": "r",
+          "translit": "r"
+        },
+        {
+          "char": "s",
+          "translit": "s"
+        },
+        {
+          "char": "t",
+          "translit": "t"
+        },
+        {
+          "char": "u",
+          "translit": "u"
+        },
+        {
+          "char": "v",
+          "translit": "v"
+        },
+        {
+          "char": "z",
+          "translit": "z"
+        }
+      ],
+      "title": {
+        "en": "Alphabet",
+        "es": "Alfabeto"
+      }
+    }
+  ],
+  "title": {
+    "en": "Italian: the alphabet",
+    "es": "Italiano: l'alfabeto"
+  }
+}

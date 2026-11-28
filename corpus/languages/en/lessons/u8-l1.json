@@ -87,7 +87,105 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "time / hour",
+          "concept": "c:tiempo-y-calendario.tiempo-hora",
+          "options": [
+            "(early)",
+            "Today",
+            "time / hour",
+            "minute"
+          ],
+          "prompt": "tiempo / hora"
+        },
+        {
+          "answer": "clock / time",
+          "concept": "c:tiempo-y-calendario.reloj-hora",
+          "options": [
+            "clock / time",
+            "noon / afternoon",
+            "night",
+            "midnight"
+          ],
+          "prompt": "reloj / hora"
+        },
+        {
+          "answer": "minute",
+          "concept": "c:tiempo-y-calendario.minuto",
+          "options": [
+            "noon / afternoon",
+            "second (time)",
+            "minute",
+            "day"
+          ],
+          "prompt": "minuto"
+        },
+        {
+          "answer": "second (time)",
+          "concept": "c:tiempo-y-calendario.segundo-tiempo",
+          "options": [
+            "second (time)",
+            "night",
+            "midnight",
+            "day"
+          ],
+          "prompt": "segundo (tiempo)"
+        },
+        {
+          "answer": "time (duration)",
+          "concept": "c:tiempo-y-calendario.hora-duracion",
+          "options": [
+            "second (time)",
+            "clock / time",
+            "time (duration)",
+            "minute"
+          ],
+          "prompt": "hora (duración)"
+        },
+        {
+          "answer": "(early)",
+          "concept": "c:tiempo-y-calendario.manana-temprano",
+          "options": [
+            "(early)",
+            "day",
+            "time / hour",
+            "noon / afternoon"
+          ],
+          "prompt": "mañana (temprano)"
+        },
+        {
+          "answer": "noon / afternoon",
+          "concept": "c:tiempo-y-calendario.mediodia-tarde",
+          "options": [
+            "time / hour",
+            "minute",
+            "noon / afternoon",
+            "Today"
+          ],
+          "prompt": "mediodía / tarde"
+        },
+        {
+          "answer": "late / evening",
+          "concept": "c:tiempo-y-calendario.tarde-atardecer",
+          "options": [
+            "clock / time",
+            "noon / afternoon",
+            "late / evening",
+            "minute"
+          ],
+          "prompt": "tarde / atardecer"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to place actions in time: days, months and seasons.",
     "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."

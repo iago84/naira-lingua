@@ -91,11 +91,108 @@
       "speaker": "A"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Olá.",
+          "concept": "c:saludos-y-expresiones.hola",
+          "options": [
+            "Até logo.",
+            "Olá.",
+            "Por favor.",
+            "Boa tarde."
+          ],
+          "prompt": "hola"
+        },
+        {
+          "answer": "Bom dia.",
+          "concept": "c:saludos-y-expresiones.buenos-dias",
+          "options": [
+            "Sim.",
+            "Desculpe-me",
+            "Bom dia.",
+            "Por favor."
+          ],
+          "prompt": "buenos días"
+        },
+        {
+          "answer": "Boa tarde.",
+          "concept": "c:saludos-y-expresiones.buenas-tardes",
+          "options": [
+            "Boa tarde.",
+            "Até logo.",
+            "Adeus.",
+            "Obrigado."
+          ],
+          "prompt": "buenas tardes"
+        },
+        {
+          "answer": "Boa noite.",
+          "concept": "c:saludos-y-expresiones.buenas-noches",
+          "options": [
+            "Até logo.",
+            "Olá.",
+            "Boa noite.",
+            "Adeus."
+          ],
+          "prompt": "buenas noches"
+        },
+        {
+          "answer": "Obrigado.",
+          "concept": "c:saludos-y-expresiones.gracias",
+          "options": [
+            "Obrigado.",
+            "Até logo.",
+            "Olá.",
+            "Boa tarde."
+          ],
+          "prompt": "gracias"
+        },
+        {
+          "answer": "Por favor.",
+          "concept": "c:saludos-y-expresiones.por-favor",
+          "options": [
+            "Por favor.",
+            "Obrigado.",
+            "Bom dia.",
+            "Olá."
+          ],
+          "prompt": "por favor"
+        },
+        {
+          "answer": "Desculpe-me",
+          "concept": "c:saludos-y-expresiones.perdon-disculpe",
+          "options": [
+            "Olá.",
+            "Desculpe-me",
+            "Até logo.",
+            "Não."
+          ],
+          "prompt": "perdón / disculpe"
+        },
+        {
+          "answer": "Adeus.",
+          "concept": "c:saludos-y-expresiones.adios",
+          "options": [
+            "Adeus.",
+            "Desculpe-me",
+            "Até logo.",
+            "Não."
+          ],
+          "prompt": "adiós"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic courtesy expressions to open and close a conversation.",
-    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
-    "pt": "Expressões básicas de cortesia para abrir e fechar uma conversa."
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
   },
   "generator": "build_lessons",
   "id": "pt-u1-l1",
@@ -109,10 +206,6 @@
     "es": [
       "Saludar y despedirse",
       "Dar las gracias y pedir por favor"
-    ],
-    "pt": [
-      "Cumprimentando e dizendo adeus",
-      "Por favor, agradeça e pergunte"
     ]
   },
   "tables": [
@@ -185,8 +278,7 @@
   ],
   "title": {
     "en": "Greetings and courtesy",
-    "es": "Saludos y cortesía",
-    "pt": "Saudações e cortesia"
+    "es": "Saludos y cortesía"
   },
   "unit": 1
 }

@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:adjetivos.bueno",
+    "c:adjetivos.malo",
+    "c:adjetivos.grande",
+    "c:adjetivos.pequeno",
+    "c:adjetivos.largo-alto",
+    "c:adjetivos.bajo-corto",
+    "c:adjetivos.nuevo",
+    "c:adjetivos.viejo-antiguo",
+    "c:adjetivos.joven",
+    "c:adjetivos.viejo-persona",
+    "c:adjetivos.hermoso-bonito",
+    "c:adjetivos.feo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:adjetivos.bueno",
+      "en": "Good.",
+      "es": "bueno",
+      "it": "Bene.",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.malo",
+      "en": "bad",
+      "es": "malo",
+      "it": "- Non male.",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.grande",
+      "en": "large",
+      "es": "grande",
+      "it": "grande",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.pequeno",
+      "en": "small",
+      "es": "pequeño",
+      "it": "piccolo",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.largo-alto",
+      "en": "long / high",
+      "es": "largo / alto",
+      "it": "lungo / alto",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.bajo-corto",
+      "en": "low / short",
+      "es": "bajo / corto",
+      "it": "basso / corto",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.nuevo",
+      "en": "new",
+      "es": "nuevo",
+      "it": "nuovo",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.viejo-antiguo",
+      "en": "old / ancient",
+      "es": "viejo / antiguo",
+      "it": "antico / vecchio",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.joven",
+      "en": "young",
+      "es": "joven",
+      "it": "giovani",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.viejo-persona",
+      "en": "old (person)",
+      "es": "viejo (persona)",
+      "it": "vecchio (persona)",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.hermoso-bonito",
+      "en": "beautiful / pretty",
+      "es": "hermoso / bonito",
+      "it": "bello / carino",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.feo",
+      "en": "ugly",
+      "es": "feo",
+      "it": "brutto bruttino",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Bene.",
+          "concept": "c:adjetivos.bueno",
+          "options": [
+            "giovani",
+            "nuovo",
+            "basso / corto",
+            "Bene."
+          ],
+          "prompt": "bueno"
+        },
+        {
+          "answer": "- Non male.",
+          "concept": "c:adjetivos.malo",
+          "options": [
+            "piccolo",
+            "basso / corto",
+            "- Non male.",
+            "nuovo"
+          ],
+          "prompt": "malo"
+        },
+        {
+          "answer": "grande",
+          "concept": "c:adjetivos.grande",
+          "options": [
+            "lungo / alto",
+            "Bene.",
+            "- Non male.",
+            "grande"
+          ],
+          "prompt": "grande"
+        },
+        {
+          "answer": "piccolo",
+          "concept": "c:adjetivos.pequeno",
+          "options": [
+            "- Non male.",
+            "piccolo",
+            "nuovo",
+            "vecchio (persona)"
+          ],
+          "prompt": "pequeño"
+        },
+        {
+          "answer": "lungo / alto",
+          "concept": "c:adjetivos.largo-alto",
+          "options": [
+            "lungo / alto",
+            "Bene.",
+            "giovani",
+            "bello / carino"
+          ],
+          "prompt": "largo / alto"
+        },
+        {
+          "answer": "basso / corto",
+          "concept": "c:adjetivos.bajo-corto",
+          "options": [
+            "grande",
+            "lungo / alto",
+            "basso / corto",
+            "antico / vecchio"
+          ],
+          "prompt": "bajo / corto"
+        },
+        {
+          "answer": "nuovo",
+          "concept": "c:adjetivos.nuevo",
+          "options": [
+            "vecchio (persona)",
+            "nuovo",
+            "brutto bruttino",
+            "basso / corto"
+          ],
+          "prompt": "nuevo"
+        },
+        {
+          "answer": "antico / vecchio",
+          "concept": "c:adjetivos.viejo-antiguo",
+          "options": [
+            "- Non male.",
+            "giovani",
+            "antico / vecchio",
+            "bello / carino"
+          ],
+          "prompt": "viejo / antiguo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Adjectives to describe size, character, state and qualities.",
+    "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+  },
+  "generator": "build_lessons",
+  "id": "it-u14-l1",
+  "lang": "it",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Describe with adjectives",
+      "Give opinions about things and people"
+    ],
+    "es": [
+      "Describir con adjetivos",
+      "Opinar sobre cosas y personas"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "it"
+      ],
+      "rows": [
+        [
+          "bueno",
+          "Good.",
+          "Bene."
+        ],
+        [
+          "malo",
+          "bad",
+          "- Non male."
+        ],
+        [
+          "grande",
+          "large",
+          "grande"
+        ],
+        [
+          "pequeño",
+          "small",
+          "piccolo"
+        ],
+        [
+          "largo / alto",
+          "long / high",
+          "lungo / alto"
+        ],
+        [
+          "bajo / corto",
+          "low / short",
+          "basso / corto"
+        ],
+        [
+          "nuevo",
+          "new",
+          "nuovo"
+        ],
+        [
+          "viejo / antiguo",
+          "old / ancient",
+          "antico / vecchio"
+        ],
+        [
+          "joven",
+          "young",
+          "giovani"
+        ],
+        [
+          "viejo (persona)",
+          "old (person)",
+          "vecchio (persona)"
+        ],
+        [
+          "hermoso / bonito",
+          "beautiful / pretty",
+          "bello / carino"
+        ],
+        [
+          "feo",
+          "ugly",
+          "brutto bruttino"
+        ]
+      ],
+      "title": "es · en · it",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Adjectives",
+    "es": "Los adjetivos"
+  },
+  "unit": 14
+}

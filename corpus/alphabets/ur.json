@@ -1,0 +1,55 @@
+{
+  "lang": "ur",
+  "script": "arabic",
+  "direction": "rtl",
+  "title": {"es": "Urdu: el alfabeto árabe-urdu", "en": "Urdu: the Arabic-Urdu alphabet"},
+  "intro": {
+    "es": "El urdu se escribe con el alfabeto árabe en estilo nastaliq, de derecha a izquierda. Tiene unas 39 letras y cada una cambia algo de forma según su posición (inicial, media, final o aislada). Aquí las verás en forma aislada con su romanización.",
+    "en": "Urdu is written in the Arabic alphabet in the Nastaliq style, right to left. It has about 39 letters, each changing shape slightly depending on its position (initial, medial, final or isolated). Here you see them in isolated form with their romanisation."
+  },
+  "sections": [
+    {
+      "title": {"es": "Alfabeto (حروف تہجی)", "en": "Alphabet (حروف تہجی)"},
+      "columns": [
+        {"key": "char", "label": {"es": "Letra", "en": "Letter"}},
+        {"key": "translit", "label": {"es": "Romanización", "en": "Romanisation"}}
+      ],
+      "items": [
+        {"char": "ا", "translit": "alif (ā)"}, {"char": "ب", "translit": "be (b)"},
+        {"char": "پ", "translit": "pe (p)"}, {"char": "ت", "translit": "te (t)"},
+        {"char": "ٹ", "translit": "ṭe (ṭ)"}, {"char": "ث", "translit": "se (s)"},
+        {"char": "ج", "translit": "jim (j)"}, {"char": "چ", "translit": "che (ch)"},
+        {"char": "ح", "translit": "he (ḥ)"}, {"char": "خ", "translit": "khe (kh)"},
+        {"char": "د", "translit": "dāl (d)"}, {"char": "ڈ", "translit": "ḍāl (ḍ)"},
+        {"char": "ذ", "translit": "zāl (z)"}, {"char": "ر", "translit": "re (r)"},
+        {"char": "ڑ", "translit": "ṛe (ṛ)"}, {"char": "ز", "translit": "ze (z)"},
+        {"char": "ژ", "translit": "zhe (zh)"}, {"char": "س", "translit": "sīn (s)"},
+        {"char": "ش", "translit": "shīn (sh)"}, {"char": "ص", "translit": "suād (s)"},
+        {"char": "ض", "translit": "zuād (z)"}, {"char": "ط", "translit": "to'e (t)"},
+        {"char": "ظ", "translit": "zo'e (z)"}, {"char": "ع", "translit": "ain ('a)"},
+        {"char": "غ", "translit": "ghain (gh)"}, {"char": "ف", "translit": "fe (f)"},
+        {"char": "ق", "translit": "qāf (q)"}, {"char": "ک", "translit": "kāf (k)"},
+        {"char": "گ", "translit": "gāf (g)"}, {"char": "ل", "translit": "lām (l)"},
+        {"char": "م", "translit": "mīm (m)"}, {"char": "ن", "translit": "nūn (n)"},
+        {"char": "ں", "translit": "nūn ghunna (nasal)"}, {"char": "و", "translit": "wāo (w/v)"},
+        {"char": "ہ", "translit": "he gol (h)"}, {"char": "ھ", "translit": "he do chashmi (aspiración)"},
+        {"char": "ء", "translit": "hamza (ʼ)"}, {"char": "ی", "translit": "ye (y)"},
+        {"char": "ے", "translit": "ye barrī (e)"}
+      ]
+    },
+    {
+      "title": {"es": "Vocales y diacríticos (اِعراب)", "en": "Vowels and diacritics (اِعراب)"},
+      "columns": [
+        {"key": "char", "label": {"es": "Signo", "en": "Mark"}},
+        {"key": "translit", "label": {"es": "Sonido", "en": "Sound"}}
+      ],
+      "items": [
+        {"char": "َ", "translit": "zabar: a corta"},
+        {"char": "ِ", "translit": "zer: i corta"},
+        {"char": "ُ", "translit": "pesh: u corta"},
+        {"char": "ّ", "translit": "tashdīd: duplica la consonante"},
+        {"char": "ْ", "translit": "jazm: sin vocal"}
+      ]
+    }
+  ]
+}

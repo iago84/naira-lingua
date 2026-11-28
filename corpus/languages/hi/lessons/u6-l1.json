@@ -19,91 +19,256 @@
       "en": "food / eat",
       "es": "comida / comer",
       "hi": "खाना",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "khānā"
     },
     {
       "concept": "c:comida-y-bebida.comida-formal",
       "en": "food (formal)",
       "es": "comida (formal)",
       "hi": "भोजन",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "bhojan"
     },
     {
       "concept": "c:comida-y-bebida.desayuno",
       "en": "breakfast",
       "es": "desayuno",
       "hi": "नाश्ता",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "nāśtā"
     },
     {
       "concept": "c:comida-y-bebida.almuerzo",
       "en": "lunch",
       "es": "almuerzo",
       "hi": "दोपहर का खाना",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "dopahar kā khānā"
     },
     {
       "concept": "c:comida-y-bebida.cena",
       "en": "dinner",
       "es": "cena",
       "hi": "रात का खाना",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "rāt kā khānā"
     },
     {
       "concept": "c:comida-y-bebida.agua",
       "en": "water",
       "es": "agua",
       "hi": "पानी",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "pānī"
     },
     {
       "concept": "c:comida-y-bebida.leche",
       "en": "milk",
       "es": "leche",
       "hi": "दूध",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "dūdh"
     },
     {
       "concept": "c:comida-y-bebida.te",
       "en": "tea",
       "es": "té",
       "hi": "चाय",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "cāy"
     },
     {
       "concept": "c:comida-y-bebida.cafe",
       "en": "coffee",
       "es": "café",
       "hi": "कॉफ़ी",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "kôfī"
     },
     {
       "concept": "c:comida-y-bebida.zumo-jugo",
       "en": "juice / juices",
       "es": "zumo / jugo",
       "hi": "जूस",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "jūs"
     },
     {
       "concept": "c:comida-y-bebida.lassi-yogur-batido",
       "en": "lassi (yoghurt beaten)",
       "es": "lassi (yogur batido)",
       "hi": "लस्सी",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "lassī"
     },
     {
       "concept": "c:comida-y-bebida.alcohol-vino",
       "en": "alcohol / wine",
       "es": "alcohol / vino",
       "hi": "शराब",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "śarāb"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "खाना",
+          "answerTranslit": "khānā",
+          "concept": "c:comida-y-bebida.comida-comer",
+          "optionTranslit": {
+            "कॉफ़ी": "kôfī",
+            "खाना": "khānā",
+            "जूस": "jūs",
+            "शराब": "śarāb"
+          },
+          "options": [
+            "जूस",
+            "खाना",
+            "शराब",
+            "कॉफ़ी"
+          ],
+          "prompt": "comida / comer"
+        },
+        {
+          "answer": "भोजन",
+          "answerTranslit": "bhojan",
+          "concept": "c:comida-y-bebida.comida-formal",
+          "optionTranslit": {
+            "कॉफ़ी": "kôfī",
+            "खाना": "khānā",
+            "भोजन": "bhojan",
+            "शराब": "śarāb"
+          },
+          "options": [
+            "कॉफ़ी",
+            "खाना",
+            "भोजन",
+            "शराब"
+          ],
+          "prompt": "comida (formal)"
+        },
+        {
+          "answer": "नाश्ता",
+          "answerTranslit": "nāśtā",
+          "concept": "c:comida-y-bebida.desayuno",
+          "optionTranslit": {
+            "कॉफ़ी": "kôfī",
+            "खाना": "khānā",
+            "नाश्ता": "nāśtā",
+            "भोजन": "bhojan"
+          },
+          "options": [
+            "भोजन",
+            "नाश्ता",
+            "कॉफ़ी",
+            "खाना"
+          ],
+          "prompt": "desayuno"
+        },
+        {
+          "answer": "दोपहर का खाना",
+          "answerTranslit": "dopahar kā khānā",
+          "concept": "c:comida-y-bebida.almuerzo",
+          "optionTranslit": {
+            "खाना": "khānā",
+            "दोपहर का खाना": "dopahar kā khānā",
+            "पानी": "pānī",
+            "भोजन": "bhojan"
+          },
+          "options": [
+            "पानी",
+            "दोपहर का खाना",
+            "भोजन",
+            "खाना"
+          ],
+          "prompt": "almuerzo"
+        },
+        {
+          "answer": "रात का खाना",
+          "answerTranslit": "rāt kā khānā",
+          "concept": "c:comida-y-bebida.cena",
+          "optionTranslit": {
+            "चाय": "cāy",
+            "नाश्ता": "nāśtā",
+            "पानी": "pānī",
+            "रात का खाना": "rāt kā khānā"
+          },
+          "options": [
+            "चाय",
+            "पानी",
+            "नाश्ता",
+            "रात का खाना"
+          ],
+          "prompt": "cena"
+        },
+        {
+          "answer": "पानी",
+          "answerTranslit": "pānī",
+          "concept": "c:comida-y-bebida.agua",
+          "optionTranslit": {
+            "कॉफ़ी": "kôfī",
+            "दूध": "dūdh",
+            "नाश्ता": "nāśtā",
+            "पानी": "pānī"
+          },
+          "options": [
+            "पानी",
+            "कॉफ़ी",
+            "दूध",
+            "नाश्ता"
+          ],
+          "prompt": "agua"
+        },
+        {
+          "answer": "दूध",
+          "answerTranslit": "dūdh",
+          "concept": "c:comida-y-bebida.leche",
+          "optionTranslit": {
+            "दूध": "dūdh",
+            "रात का खाना": "rāt kā khānā",
+            "लस्सी": "lassī",
+            "शराब": "śarāb"
+          },
+          "options": [
+            "रात का खाना",
+            "लस्सी",
+            "दूध",
+            "शराब"
+          ],
+          "prompt": "leche"
+        },
+        {
+          "answer": "चाय",
+          "answerTranslit": "cāy",
+          "concept": "c:comida-y-bebida.te",
+          "optionTranslit": {
+            "कॉफ़ी": "kôfī",
+            "चाय": "cāy",
+            "दोपहर का खाना": "dopahar kā khānā",
+            "रात का खाना": "rāt kā khānā"
+          },
+          "options": [
+            "रात का खाना",
+            "कॉफ़ी",
+            "चाय",
+            "दोपहर का खाना"
+          ],
+          "prompt": "té"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic foods and drinks, very useful when shopping or eating out.",
-    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
-    "hi": "मूल भोजन और पेय, घर के बाहर खरीद या खाने पर बहुत उपयोगी होते हैं।"
+    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
   },
   "generator": "build_lessons",
   "id": "hi-u6-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar alimentos y bebidas",
       "Pedir en un restaurante"
-    ],
-    "hi": [
-      "भोजन और पेय",
-      "एक रेस्तरां में पूछो"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Food and drink",
-    "es": "La comida y la bebida",
-    "hi": "खाद्य और पेय"
+    "es": "La comida y la bebida"
   },
   "unit": 6
 }

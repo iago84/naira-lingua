@@ -99,9 +99,106 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "rot",
+          "concept": "c:colores.rojo",
+          "options": [
+            "grün",
+            "rot",
+            "Weiß",
+            "orange"
+          ],
+          "prompt": "rojo"
+        },
+        {
+          "answer": "Blau",
+          "concept": "c:colores.azul",
+          "options": [
+            "Gold",
+            "Blau",
+            "rosafarben",
+            "orange"
+          ],
+          "prompt": "azul"
+        },
+        {
+          "answer": "grün",
+          "concept": "c:colores.verde",
+          "options": [
+            "orange",
+            "grau",
+            "grün",
+            "violett/violett"
+          ],
+          "prompt": "verde"
+        },
+        {
+          "answer": "gelb",
+          "concept": "c:colores.amarillo",
+          "options": [
+            "Braun",
+            "rot",
+            "grau",
+            "gelb"
+          ],
+          "prompt": "amarillo"
+        },
+        {
+          "answer": "Schwarz",
+          "concept": "c:colores.negro",
+          "options": [
+            "Blau",
+            "Schwarz",
+            "Braun",
+            "orange"
+          ],
+          "prompt": "negro"
+        },
+        {
+          "answer": "Weiß",
+          "concept": "c:colores.blanco",
+          "options": [
+            "grau",
+            "gelb",
+            "Gold",
+            "Weiß"
+          ],
+          "prompt": "blanco"
+        },
+        {
+          "answer": "orange",
+          "concept": "c:colores.naranja",
+          "options": [
+            "Weiß",
+            "Braun",
+            "orange",
+            "Gold"
+          ],
+          "prompt": "naranja"
+        },
+        {
+          "answer": "rosafarben",
+          "concept": "c:colores.rosa",
+          "options": [
+            "rot",
+            "Schwarz",
+            "rosafarben",
+            "gelb"
+          ],
+          "prompt": "rosa"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
-    "de": "Die Farben dienen dazu, Objekte, Kleidung und Orte zu beschreiben.",
     "en": "Colours are used to describe objects, clothes and places.",
     "es": "Los colores sirven para describir objetos, ropa y lugares."
   },
@@ -110,10 +207,6 @@
   "lang": "de",
   "lesson": 1,
   "objectives": {
-    "de": [
-      "Nennen Sie die Grundfarben",
-      "Objekte nach Farbe beschreiben"
-    ],
     "en": [
       "Name basic colours",
       "Describe objects by colour"
@@ -197,7 +290,6 @@
     }
   ],
   "title": {
-    "de": "Die Farben",
     "en": "Colours",
     "es": "Los colores"
   },

@@ -80,7 +80,105 @@
       "speaker": "A"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Hello.",
+          "concept": "c:saludos-y-expresiones.hola",
+          "options": [
+            "See you later.",
+            "Hello.",
+            "Please.",
+            "Good afternoon."
+          ],
+          "prompt": "hola"
+        },
+        {
+          "answer": "Good morning.",
+          "concept": "c:saludos-y-expresiones.buenos-dias",
+          "options": [
+            "Yes",
+            "Excuse me / excuse",
+            "Good morning.",
+            "Please."
+          ],
+          "prompt": "buenos días"
+        },
+        {
+          "answer": "Good afternoon.",
+          "concept": "c:saludos-y-expresiones.buenas-tardes",
+          "options": [
+            "Good afternoon.",
+            "See you later.",
+            "Bye.",
+            "Thank you."
+          ],
+          "prompt": "buenas tardes"
+        },
+        {
+          "answer": "Good night.",
+          "concept": "c:saludos-y-expresiones.buenas-noches",
+          "options": [
+            "See you later.",
+            "Hello.",
+            "Good night.",
+            "Bye."
+          ],
+          "prompt": "buenas noches"
+        },
+        {
+          "answer": "Thank you.",
+          "concept": "c:saludos-y-expresiones.gracias",
+          "options": [
+            "Thank you.",
+            "See you later.",
+            "Hello.",
+            "Good afternoon."
+          ],
+          "prompt": "gracias"
+        },
+        {
+          "answer": "Please.",
+          "concept": "c:saludos-y-expresiones.por-favor",
+          "options": [
+            "Please.",
+            "Thank you.",
+            "Good morning.",
+            "Hello."
+          ],
+          "prompt": "por favor"
+        },
+        {
+          "answer": "Excuse me / excuse",
+          "concept": "c:saludos-y-expresiones.perdon-disculpe",
+          "options": [
+            "Hello.",
+            "Excuse me / excuse",
+            "See you later.",
+            "No."
+          ],
+          "prompt": "perdón / disculpe"
+        },
+        {
+          "answer": "Bye.",
+          "concept": "c:saludos-y-expresiones.adios",
+          "options": [
+            "Bye.",
+            "Excuse me / excuse",
+            "See you later.",
+            "No."
+          ],
+          "prompt": "adiós"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic courtesy expressions to open and close a conversation.",
     "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."

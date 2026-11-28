@@ -8,6 +8,15 @@ export function esc(s) {
     .replace(/'/g, "&#39;");
 }
 
+// Devuelve la transliteración solo si aporta algo: no vacía y distinta del
+// término (evita repetir el propio texto en las escrituras latinas).
+export function translitFor(term, translit) {
+  const tl = String(translit ?? "").trim();
+  if (!tl) return "";
+  if (tl.toLowerCase() === String(term ?? "").trim().toLowerCase()) return "";
+  return tl;
+}
+
 export function uniqSorted(arr) {
   return [...new Set(arr)].sort((a, b) => a.localeCompare(b));
 }

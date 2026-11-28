@@ -19,6 +19,7 @@
       "en": "Family",
       "es": "familia",
       "speaker": "A",
+      "translit": "jiā tíng",
       "zh": "家庭"
     },
     {
@@ -26,6 +27,7 @@
       "en": "Mother",
       "es": "madre",
       "speaker": "B",
+      "translit": "mā mā",
       "zh": "妈妈"
     },
     {
@@ -33,6 +35,7 @@
       "en": "Father",
       "es": "padre",
       "speaker": "A",
+      "translit": "fù qīn",
       "zh": "父亲"
     },
     {
@@ -40,6 +43,7 @@
       "en": "parents",
       "es": "padres",
       "speaker": "B",
+      "translit": "fù mǔ qīn",
       "zh": "父母亲"
     },
     {
@@ -47,6 +51,7 @@
       "en": "child",
       "es": "hijo",
       "speaker": "A",
+      "translit": "ér tóng",
       "zh": "儿童"
     },
     {
@@ -54,6 +59,7 @@
       "en": "daughter",
       "es": "hija",
       "speaker": "B",
+      "translit": "nǚ ér , nǐ zhè xiǎo gū niáng",
       "zh": "女儿,你这小姑娘"
     },
     {
@@ -61,6 +67,7 @@
       "en": "child",
       "es": "niño/a",
       "speaker": "A",
+      "translit": "ér tóng",
       "zh": "儿童"
     },
     {
@@ -68,6 +75,7 @@
       "en": "brother",
       "es": "hermano",
       "speaker": "B",
+      "translit": "gē gē , nǐ zhè hùn dàn",
       "zh": "哥哥,你这混蛋"
     },
     {
@@ -75,6 +83,7 @@
       "en": "sister",
       "es": "hermana",
       "speaker": "A",
+      "translit": "jiě jiě , nǐ zhè xiǎo gū niáng",
       "zh": "姐姐,你这小姑娘"
     },
     {
@@ -82,6 +91,7 @@
       "en": "brothers",
       "es": "hermanos",
       "speaker": "B",
+      "translit": "gē gē men",
       "zh": "哥哥们"
     },
     {
@@ -89,6 +99,7 @@
       "en": "paternal grandfather",
       "es": "abuelo paterno",
       "speaker": "A",
+      "translit": "yé yé",
       "zh": "爷爷"
     },
     {
@@ -96,14 +107,168 @@
       "en": "Father's grandmother",
       "es": "abuela paterna",
       "speaker": "B",
+      "translit": "fù qīn de wài pó",
       "zh": "父亲的外婆"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "家庭",
+          "answerTranslit": "jiā tíng",
+          "concept": "c:familia-y-personas.familia",
+          "optionTranslit": {
+            "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+            "哥哥们": "gē gē men",
+            "家庭": "jiā tíng",
+            "父亲的外婆": "fù qīn de wài pó"
+          },
+          "options": [
+            "哥哥们",
+            "哥哥,你这混蛋",
+            "父亲的外婆",
+            "家庭"
+          ],
+          "prompt": "familia"
+        },
+        {
+          "answer": "妈妈",
+          "answerTranslit": "mā mā",
+          "concept": "c:familia-y-personas.madre",
+          "optionTranslit": {
+            "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+            "妈妈": "mā mā",
+            "家庭": "jiā tíng",
+            "父亲的外婆": "fù qīn de wài pó"
+          },
+          "options": [
+            "父亲的外婆",
+            "女儿,你这小姑娘",
+            "家庭",
+            "妈妈"
+          ],
+          "prompt": "madre"
+        },
+        {
+          "answer": "父亲",
+          "answerTranslit": "fù qīn",
+          "concept": "c:familia-y-personas.padre",
+          "optionTranslit": {
+            "哥哥们": "gē gē men",
+            "父亲": "fù qīn",
+            "父亲的外婆": "fù qīn de wài pó",
+            "父母亲": "fù mǔ qīn"
+          },
+          "options": [
+            "父亲的外婆",
+            "哥哥们",
+            "父亲",
+            "父母亲"
+          ],
+          "prompt": "padre"
+        },
+        {
+          "answer": "父母亲",
+          "answerTranslit": "fù mǔ qīn",
+          "concept": "c:familia-y-personas.padres",
+          "optionTranslit": {
+            "儿童": "ér tóng",
+            "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+            "家庭": "jiā tíng",
+            "父母亲": "fù mǔ qīn"
+          },
+          "options": [
+            "哥哥,你这混蛋",
+            "父母亲",
+            "家庭",
+            "儿童"
+          ],
+          "prompt": "padres"
+        },
+        {
+          "answer": "儿童",
+          "answerTranslit": "ér tóng",
+          "concept": "c:familia-y-personas.hijo",
+          "optionTranslit": {
+            "儿童": "ér tóng",
+            "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+            "妈妈": "mā mā",
+            "爷爷": "yé yé"
+          },
+          "options": [
+            "女儿,你这小姑娘",
+            "爷爷",
+            "妈妈",
+            "儿童"
+          ],
+          "prompt": "hijo"
+        },
+        {
+          "answer": "女儿,你这小姑娘",
+          "answerTranslit": "nǚ ér , nǐ zhè xiǎo gū niáng",
+          "concept": "c:familia-y-personas.hija",
+          "optionTranslit": {
+            "儿童": "ér tóng",
+            "女儿,你这小姑娘": "nǚ ér , nǐ zhè xiǎo gū niáng",
+            "妈妈": "mā mā",
+            "父母亲": "fù mǔ qīn"
+          },
+          "options": [
+            "儿童",
+            "女儿,你这小姑娘",
+            "妈妈",
+            "父母亲"
+          ],
+          "prompt": "hija"
+        },
+        {
+          "answer": "儿童",
+          "answerTranslit": "ér tóng",
+          "concept": "c:familia-y-personas.nino-a",
+          "optionTranslit": {
+            "儿童": "ér tóng",
+            "哥哥们": "gē gē men",
+            "父母亲": "fù mǔ qīn",
+            "爷爷": "yé yé"
+          },
+          "options": [
+            "儿童",
+            "哥哥们",
+            "爷爷",
+            "父母亲"
+          ],
+          "prompt": "niño/a"
+        },
+        {
+          "answer": "哥哥,你这混蛋",
+          "answerTranslit": "gē gē , nǐ zhè hùn dàn",
+          "concept": "c:familia-y-personas.hermano",
+          "optionTranslit": {
+            "儿童": "ér tóng",
+            "哥哥,你这混蛋": "gē gē , nǐ zhè hùn dàn",
+            "哥哥们": "gē gē men",
+            "妈妈": "mā mā"
+          },
+          "options": [
+            "妈妈",
+            "哥哥,你这混蛋",
+            "儿童",
+            "哥哥们"
+          ],
+          "prompt": "hermano"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to refer to family and the people around you.",
-    "es": "Palabras para referirse a la familia y a las personas cercanas.",
-    "zh": "指亲相近之人所出."
+    "es": "Palabras para referirse a la familia y a las personas cercanas."
   },
   "generator": "build_lessons",
   "id": "zh-u4-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar a los miembros de la familia",
       "Hablar de personas"
-    ],
-    "zh": [
-      "任命家庭成员",
-      "说人"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Family and people",
-    "es": "La familia y las personas",
-    "zh": "家庭和个人"
+    "es": "La familia y las personas"
   },
   "unit": 4
 }

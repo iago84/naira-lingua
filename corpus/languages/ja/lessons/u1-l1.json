@@ -18,84 +18,248 @@
       "en": "Hello.",
       "es": "hola",
       "ja": "こんにちは",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "konnichiha"
     },
     {
       "concept": "c:saludos-y-expresiones.buenos-dias",
       "en": "Good morning.",
       "es": "buenos días",
       "ja": "おはようございます",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "ohayougozaimasu"
     },
     {
       "concept": "c:saludos-y-expresiones.buenas-tardes",
       "en": "Good afternoon.",
       "es": "buenas tardes",
       "ja": "こんにちは",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "konnichiha"
     },
     {
       "concept": "c:saludos-y-expresiones.buenas-noches",
       "en": "Good night.",
       "es": "buenas noches",
       "ja": "こんばんは",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "konbanha"
     },
     {
       "concept": "c:saludos-y-expresiones.gracias",
       "en": "Thank you.",
       "es": "gracias",
       "ja": "ありがとう",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "arigatou"
     },
     {
       "concept": "c:saludos-y-expresiones.por-favor",
       "en": "Please.",
       "es": "por favor",
       "ja": "お願いします",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "o negai shimasu"
     },
     {
       "concept": "c:saludos-y-expresiones.perdon-disculpe",
       "en": "Excuse me / excuse",
       "es": "perdón / disculpe",
       "ja": "すみません",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "sumimasen"
     },
     {
       "concept": "c:saludos-y-expresiones.adios",
       "en": "Bye.",
       "es": "adiós",
       "ja": "さようなら",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "sayounara"
     },
     {
       "concept": "c:saludos-y-expresiones.hasta-luego",
       "en": "See you later.",
       "es": "hasta luego",
       "ja": "またね",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "matane"
     },
     {
       "concept": "c:saludos-y-expresiones.si",
       "en": "Yes",
       "es": "sí",
       "ja": "はい",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "hai"
     },
     {
       "concept": "c:saludos-y-expresiones.no",
       "en": "No.",
       "es": "no",
       "ja": "いいえ",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "iie"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "こんにちは",
+          "answerTranslit": "konnichiha",
+          "concept": "c:saludos-y-expresiones.hola",
+          "optionTranslit": {
+            "お願いします": "o negai shimasu",
+            "こんにちは": "konnichiha",
+            "こんばんは": "konbanha",
+            "すみません": "sumimasen"
+          },
+          "options": [
+            "お願いします",
+            "こんにちは",
+            "すみません",
+            "こんばんは"
+          ],
+          "prompt": "hola"
+        },
+        {
+          "answer": "おはようございます",
+          "answerTranslit": "ohayougozaimasu",
+          "concept": "c:saludos-y-expresiones.buenos-dias",
+          "optionTranslit": {
+            "いいえ": "iie",
+            "おはようございます": "ohayougozaimasu",
+            "さようなら": "sayounara",
+            "はい": "hai"
+          },
+          "options": [
+            "さようなら",
+            "はい",
+            "おはようございます",
+            "いいえ"
+          ],
+          "prompt": "buenos días"
+        },
+        {
+          "answer": "こんにちは",
+          "answerTranslit": "konnichiha",
+          "concept": "c:saludos-y-expresiones.buenas-tardes",
+          "optionTranslit": {
+            "お願いします": "o negai shimasu",
+            "こんにちは": "konnichiha",
+            "さようなら": "sayounara",
+            "はい": "hai"
+          },
+          "options": [
+            "さようなら",
+            "こんにちは",
+            "はい",
+            "お願いします"
+          ],
+          "prompt": "buenas tardes"
+        },
+        {
+          "answer": "こんばんは",
+          "answerTranslit": "konbanha",
+          "concept": "c:saludos-y-expresiones.buenas-noches",
+          "optionTranslit": {
+            "いいえ": "iie",
+            "こんばんは": "konbanha",
+            "はい": "hai",
+            "またね": "matane"
+          },
+          "options": [
+            "こんばんは",
+            "いいえ",
+            "はい",
+            "またね"
+          ],
+          "prompt": "buenas noches"
+        },
+        {
+          "answer": "ありがとう",
+          "answerTranslit": "arigatou",
+          "concept": "c:saludos-y-expresiones.gracias",
+          "optionTranslit": {
+            "ありがとう": "arigatou",
+            "こんにちは": "konnichiha",
+            "こんばんは": "konbanha",
+            "すみません": "sumimasen"
+          },
+          "options": [
+            "すみません",
+            "ありがとう",
+            "こんにちは",
+            "こんばんは"
+          ],
+          "prompt": "gracias"
+        },
+        {
+          "answer": "お願いします",
+          "answerTranslit": "o negai shimasu",
+          "concept": "c:saludos-y-expresiones.por-favor",
+          "optionTranslit": {
+            "おはようございます": "ohayougozaimasu",
+            "お願いします": "o negai shimasu",
+            "こんにちは": "konnichiha",
+            "こんばんは": "konbanha"
+          },
+          "options": [
+            "お願いします",
+            "こんばんは",
+            "おはようございます",
+            "こんにちは"
+          ],
+          "prompt": "por favor"
+        },
+        {
+          "answer": "すみません",
+          "answerTranslit": "sumimasen",
+          "concept": "c:saludos-y-expresiones.perdon-disculpe",
+          "optionTranslit": {
+            "ありがとう": "arigatou",
+            "こんにちは": "konnichiha",
+            "すみません": "sumimasen",
+            "はい": "hai"
+          },
+          "options": [
+            "はい",
+            "すみません",
+            "ありがとう",
+            "こんにちは"
+          ],
+          "prompt": "perdón / disculpe"
+        },
+        {
+          "answer": "さようなら",
+          "answerTranslit": "sayounara",
+          "concept": "c:saludos-y-expresiones.adios",
+          "optionTranslit": {
+            "ありがとう": "arigatou",
+            "いいえ": "iie",
+            "さようなら": "sayounara",
+            "またね": "matane"
+          },
+          "options": [
+            "さようなら",
+            "またね",
+            "ありがとう",
+            "いいえ"
+          ],
+          "prompt": "adiós"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic courtesy expressions to open and close a conversation.",
-    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
-    "ja": "礼儀の基本的な表現は、会話を開閉します。"
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
   },
   "generator": "build_lessons",
   "id": "ja-u1-l1",
@@ -109,10 +273,6 @@
     "es": [
       "Saludar y despedirse",
       "Dar las gracias y pedir por favor"
-    ],
-    "ja": [
-      "ご挨拶と挨拶",
-      "よろしくお願いします"
     ]
   },
   "tables": [
@@ -185,8 +345,7 @@
   ],
   "title": {
     "en": "Greetings and courtesy",
-    "es": "Saludos y cortesía",
-    "ja": "ご挨拶と礼儀"
+    "es": "Saludos y cortesía"
   },
   "unit": 1
 }

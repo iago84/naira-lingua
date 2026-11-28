@@ -87,7 +87,105 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "casa / hogar",
+          "concept": "c:casa-y-hogar.casa-hogar",
+          "options": [
+            "techo / azotea",
+            "sala de estar",
+            "apartamento",
+            "casa / hogar"
+          ],
+          "prompt": "casa / hogar"
+        },
+        {
+          "answer": "edificio / casa",
+          "concept": "c:casa-y-hogar.edificio-casa",
+          "options": [
+            "inodoro / lavabo",
+            "edificio / casa",
+            "habitación / cuarto",
+            "balcón"
+          ],
+          "prompt": "edificio / casa"
+        },
+        {
+          "answer": "apartamento",
+          "concept": "c:casa-y-hogar.apartamento",
+          "options": [
+            "dormitorio",
+            "apartamento",
+            "techo / azotea",
+            "casa / hogar"
+          ],
+          "prompt": "apartamento"
+        },
+        {
+          "answer": "habitación / cuarto",
+          "concept": "c:casa-y-hogar.habitacion-cuarto",
+          "options": [
+            "habitación / cuarto",
+            "pared",
+            "sala de estar",
+            "baño"
+          ],
+          "prompt": "habitación / cuarto"
+        },
+        {
+          "answer": "sala de estar",
+          "concept": "c:casa-y-hogar.sala-de-estar",
+          "options": [
+            "inodoro / lavabo",
+            "dormitorio",
+            "pared",
+            "sala de estar"
+          ],
+          "prompt": "sala de estar"
+        },
+        {
+          "answer": "dormitorio",
+          "concept": "c:casa-y-hogar.dormitorio",
+          "options": [
+            "dormitorio",
+            "apartamento",
+            "baño",
+            "pared"
+          ],
+          "prompt": "dormitorio"
+        },
+        {
+          "answer": "cocina (habitación)",
+          "concept": "c:casa-y-hogar.cocina-habitacion",
+          "options": [
+            "techo / azotea",
+            "cocina (habitación)",
+            "balcón",
+            "habitación / cuarto"
+          ],
+          "prompt": "cocina (habitación)"
+        },
+        {
+          "answer": "baño",
+          "concept": "c:casa-y-hogar.bano",
+          "options": [
+            "baño",
+            "pared",
+            "sala de estar",
+            "techo / azotea"
+          ],
+          "prompt": "baño"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "House vocabulary: rooms, furniture and everyday objects.",
     "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."

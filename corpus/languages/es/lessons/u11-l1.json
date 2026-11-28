@@ -87,7 +87,105 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "ropa",
+          "concept": "c:ropa-y-accesorios.ropa",
+          "options": [
+            "vaqueros / jeans",
+            "vestido",
+            "camiseta",
+            "ropa"
+          ],
+          "prompt": "ropa"
+        },
+        {
+          "answer": "camisa",
+          "concept": "c:ropa-y-accesorios.camisa",
+          "options": [
+            "camisa",
+            "pantalones cortos",
+            "pijama",
+            "vestido"
+          ],
+          "prompt": "camisa"
+        },
+        {
+          "answer": "camiseta",
+          "concept": "c:ropa-y-accesorios.camiseta",
+          "options": [
+            "camiseta",
+            "pijama",
+            "vestido",
+            "kurta"
+          ],
+          "prompt": "camiseta"
+        },
+        {
+          "answer": "pantalón",
+          "concept": "c:ropa-y-accesorios.pantalon",
+          "options": [
+            "ropa",
+            "pantalón",
+            "pijama",
+            "salwar kameez"
+          ],
+          "prompt": "pantalón"
+        },
+        {
+          "answer": "vaqueros / jeans",
+          "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+          "options": [
+            "sari",
+            "camiseta",
+            "vaqueros / jeans",
+            "falda"
+          ],
+          "prompt": "vaqueros / jeans"
+        },
+        {
+          "answer": "pantalones cortos",
+          "concept": "c:ropa-y-accesorios.pantalones-cortos",
+          "options": [
+            "camiseta",
+            "pantalones cortos",
+            "pantalón",
+            "kurta"
+          ],
+          "prompt": "pantalones cortos"
+        },
+        {
+          "answer": "falda",
+          "concept": "c:ropa-y-accesorios.falda",
+          "options": [
+            "falda",
+            "vestido",
+            "sari",
+            "ropa"
+          ],
+          "prompt": "falda"
+        },
+        {
+          "answer": "vestido",
+          "concept": "c:ropa-y-accesorios.vestido",
+          "options": [
+            "ropa",
+            "vestido",
+            "pijama",
+            "pantalón"
+          ],
+          "prompt": "vestido"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Clothes and accessories, with words useful for clothes shopping.",
     "es": "Prendas y accesorios, con palabras útiles para comprar ropa."

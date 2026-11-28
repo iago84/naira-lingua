@@ -87,7 +87,105 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "animal",
+          "concept": "c:animales.animal",
+          "options": [
+            "caballo",
+            "animal",
+            "gato",
+            "cerdo"
+          ],
+          "prompt": "animal"
+        },
+        {
+          "answer": "perro",
+          "concept": "c:animales.perro",
+          "options": [
+            "gallina",
+            "perro",
+            "cerdo",
+            "animal"
+          ],
+          "prompt": "perro"
+        },
+        {
+          "answer": "gato",
+          "concept": "c:animales.gato",
+          "options": [
+            "gato",
+            "cerdo",
+            "caballo",
+            "animal"
+          ],
+          "prompt": "gato"
+        },
+        {
+          "answer": "vaca",
+          "concept": "c:animales.vaca",
+          "options": [
+            "vaca",
+            "buey / toro",
+            "gato",
+            "cerdo"
+          ],
+          "prompt": "vaca"
+        },
+        {
+          "answer": "buey / toro",
+          "concept": "c:animales.buey-toro",
+          "options": [
+            "búfalo",
+            "burro / asno",
+            "buey / toro",
+            "perro"
+          ],
+          "prompt": "buey / toro"
+        },
+        {
+          "answer": "búfalo",
+          "concept": "c:animales.bufalo",
+          "options": [
+            "búfalo",
+            "cabra",
+            "gallina",
+            "animal"
+          ],
+          "prompt": "búfalo"
+        },
+        {
+          "answer": "caballo",
+          "concept": "c:animales.caballo",
+          "options": [
+            "buey / toro",
+            "gallina",
+            "animal",
+            "caballo"
+          ],
+          "prompt": "caballo"
+        },
+        {
+          "answer": "burro / asno",
+          "concept": "c:animales.burro-asno",
+          "options": [
+            "oveja",
+            "perro",
+            "vaca",
+            "burro / asno"
+          ],
+          "prompt": "burro / asno"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Common animals, both domestic and wild.",
     "es": "Animales frecuentes, tanto domésticos como salvajes."

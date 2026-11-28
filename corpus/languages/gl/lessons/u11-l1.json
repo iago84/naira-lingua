@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Roupa",
+          "concept": "c:ropa-y-accesorios.ropa",
+          "options": [
+            "Jeans / Jan",
+            "Vestir-se de arriba",
+            "T-shirt",
+            "Roupa"
+          ],
+          "prompt": "ropa"
+        },
+        {
+          "answer": "camisa",
+          "concept": "c:ropa-y-accesorios.camisa",
+          "options": [
+            "camisa",
+            "pantalón curto",
+            "pajamas",
+            "Vestir-se de arriba"
+          ],
+          "prompt": "camisa"
+        },
+        {
+          "answer": "T-shirt",
+          "concept": "c:ropa-y-accesorios.camiseta",
+          "options": [
+            "T-shirt",
+            "pajamas",
+            "Vestir-se de arriba",
+            "kurta"
+          ],
+          "prompt": "camiseta"
+        },
+        {
+          "answer": "Pants",
+          "concept": "c:ropa-y-accesorios.pantalon",
+          "options": [
+            "Roupa",
+            "Pants",
+            "pajamas",
+            "Salwar kameez"
+          ],
+          "prompt": "pantalón"
+        },
+        {
+          "answer": "Jeans / Jan",
+          "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+          "options": [
+            "sari",
+            "T-shirt",
+            "Jeans / Jan",
+            "saia"
+          ],
+          "prompt": "vaqueros / jeans"
+        },
+        {
+          "answer": "pantalón curto",
+          "concept": "c:ropa-y-accesorios.pantalones-cortos",
+          "options": [
+            "T-shirt",
+            "pantalón curto",
+            "Pants",
+            "kurta"
+          ],
+          "prompt": "pantalones cortos"
+        },
+        {
+          "answer": "saia",
+          "concept": "c:ropa-y-accesorios.falda",
+          "options": [
+            "saia",
+            "Vestir-se de arriba",
+            "sari",
+            "Roupa"
+          ],
+          "prompt": "falda"
+        },
+        {
+          "answer": "Vestir-se de arriba",
+          "concept": "c:ropa-y-accesorios.vestido",
+          "options": [
+            "Roupa",
+            "Vestir-se de arriba",
+            "pajamas",
+            "Pants"
+          ],
+          "prompt": "vestido"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Clothes and accessories, with words useful for clothes shopping.",
-    "es": "Prendas y accesorios, con palabras útiles para comprar ropa.",
-    "gl": "Pens e accesorios, con palabras útiles para mercar roupa."
+    "es": "Prendas y accesorios, con palabras útiles para comprar ropa."
   },
   "generator": "build_lessons",
   "id": "gl-u11-l1",
@@ -116,10 +213,6 @@
     ],
     "es": [
       "Nombrar prendas de ropa",
-      "Ir de compras"
-    ],
-    "gl": [
-      "Nomear roupa",
       "Ir de compras"
     ]
   },
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Clothing and accessories",
-    "es": "La ropa y los accesorios",
-    "gl": "Roupa e accesorios"
+    "es": "La ropa y los accesorios"
   },
   "unit": 11
 }

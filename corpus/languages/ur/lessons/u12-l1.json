@@ -19,6 +19,7 @@
       "en": "work /",
       "es": "trabajo / labor",
       "speaker": "A",
+      "translit": "kām",
       "ur": "کام"
     },
     {
@@ -26,6 +27,7 @@
       "en": "employment / work",
       "es": "empleo / trabajo",
       "speaker": "B",
+      "translit": "naukrī",
       "ur": "نوکری"
     },
     {
@@ -33,6 +35,7 @@
       "en": "profession / trade",
       "es": "profesión / oficio",
       "speaker": "A",
+      "translit": "peśā",
       "ur": "پےشا"
     },
     {
@@ -40,6 +43,7 @@
       "en": "business / profession",
       "es": "negocio / profesión",
       "speaker": "B",
+      "translit": "vyavsāy",
       "ur": "ویوسای"
     },
     {
@@ -47,6 +51,7 @@
       "en": "company / enterprise",
       "es": "empresa / compañía",
       "speaker": "A",
+      "translit": "kampanī",
       "ur": "کںپنی"
     },
     {
@@ -54,6 +59,7 @@
       "en": "office",
       "es": "oficina",
       "speaker": "B",
+      "translit": "kāryālay",
       "ur": "کاریالی — oficina"
     },
     {
@@ -61,6 +67,7 @@
       "en": "office /",
       "es": "oficina / despacho",
       "speaker": "A",
+      "translit": "daftar",
       "ur": "دپھتر"
     },
     {
@@ -68,6 +75,7 @@
       "en": "owner / proprietor",
       "es": "dueño / propietario",
       "speaker": "B",
+      "translit": "mālik",
       "ur": "مالِک"
     },
     {
@@ -75,6 +83,7 @@
       "en": "Chief",
       "es": "jefe/a",
       "speaker": "A",
+      "translit": "bôs",
       "ur": "باس — jefe/a"
     },
     {
@@ -82,6 +91,7 @@
       "en": "employee",
       "es": "empleado/a",
       "speaker": "B",
+      "translit": "karmacārī",
       "ur": "کرمچاری"
     },
     {
@@ -89,6 +99,7 @@
       "en": "- I'm sorry, buddy.",
       "es": "colega",
       "speaker": "A",
+      "translit": "sahkarmī",
       "ur": "سہکرمی"
     },
     {
@@ -96,10 +107,165 @@
       "en": "equipment",
       "es": "equipo",
       "speaker": "B",
+      "translit": "ṭīm",
       "ur": "ٹیم — equipo"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "کام",
+          "answerTranslit": "kām",
+          "concept": "c:trabajo-y-profesiones.trabajo-labor",
+          "optionTranslit": {
+            "دپھتر": "daftar",
+            "ٹیم — equipo": "ṭīm",
+            "کام": "kām",
+            "کرمچاری": "karmacārī"
+          },
+          "options": [
+            "دپھتر",
+            "کرمچاری",
+            "کام",
+            "ٹیم — equipo"
+          ],
+          "prompt": "trabajo / labor"
+        },
+        {
+          "answer": "نوکری",
+          "answerTranslit": "naukrī",
+          "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+          "optionTranslit": {
+            "نوکری": "naukrī",
+            "کاریالی — oficina": "kāryālay",
+            "کرمچاری": "karmacārī",
+            "کںپنی": "kampanī"
+          },
+          "options": [
+            "نوکری",
+            "کرمچاری",
+            "کاریالی — oficina",
+            "کںپنی"
+          ],
+          "prompt": "empleo / trabajo"
+        },
+        {
+          "answer": "پےشا",
+          "answerTranslit": "peśā",
+          "concept": "c:trabajo-y-profesiones.profesion-oficio",
+          "optionTranslit": {
+            "پےشا": "peśā",
+            "کاریالی — oficina": "kāryālay",
+            "کام": "kām",
+            "کرمچاری": "karmacārī"
+          },
+          "options": [
+            "پےشا",
+            "کام",
+            "کاریالی — oficina",
+            "کرمچاری"
+          ],
+          "prompt": "profesión / oficio"
+        },
+        {
+          "answer": "ویوسای",
+          "answerTranslit": "vyavsāy",
+          "concept": "c:trabajo-y-profesiones.negocio-profesion",
+          "optionTranslit": {
+            "باس — jefe/a": "bôs",
+            "ویوسای": "vyavsāy",
+            "کام": "kām",
+            "کرمچاری": "karmacārī"
+          },
+          "options": [
+            "کام",
+            "باس — jefe/a",
+            "کرمچاری",
+            "ویوسای"
+          ],
+          "prompt": "negocio / profesión"
+        },
+        {
+          "answer": "کںپنی",
+          "answerTranslit": "kampanī",
+          "concept": "c:trabajo-y-profesiones.empresa-compania",
+          "optionTranslit": {
+            "مالِک": "mālik",
+            "ویوسای": "vyavsāy",
+            "کام": "kām",
+            "کںپنی": "kampanī"
+          },
+          "options": [
+            "کںپنی",
+            "ویوسای",
+            "مالِک",
+            "کام"
+          ],
+          "prompt": "empresa / compañía"
+        },
+        {
+          "answer": "کاریالی — oficina",
+          "answerTranslit": "kāryālay",
+          "concept": "c:trabajo-y-profesiones.oficina",
+          "optionTranslit": {
+            "دپھتر": "daftar",
+            "مالِک": "mālik",
+            "ٹیم — equipo": "ṭīm",
+            "کاریالی — oficina": "kāryālay"
+          },
+          "options": [
+            "مالِک",
+            "کاریالی — oficina",
+            "ٹیم — equipo",
+            "دپھتر"
+          ],
+          "prompt": "oficina"
+        },
+        {
+          "answer": "دپھتر",
+          "answerTranslit": "daftar",
+          "concept": "c:trabajo-y-profesiones.oficina-despacho",
+          "optionTranslit": {
+            "دپھتر": "daftar",
+            "نوکری": "naukrī",
+            "کاریالی — oficina": "kāryālay",
+            "کام": "kām"
+          },
+          "options": [
+            "نوکری",
+            "دپھتر",
+            "کام",
+            "کاریالی — oficina"
+          ],
+          "prompt": "oficina / despacho"
+        },
+        {
+          "answer": "مالِک",
+          "answerTranslit": "mālik",
+          "concept": "c:trabajo-y-profesiones.dueno-propietario",
+          "optionTranslit": {
+            "مالِک": "mālik",
+            "پےشا": "peśā",
+            "کاریالی — oficina": "kāryālay",
+            "کرمچاری": "karmacārī"
+          },
+          "options": [
+            "پےشا",
+            "کاریالی — oficina",
+            "مالِک",
+            "کرمچاری"
+          ],
+          "prompt": "dueño / propietario"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Professions and words from the world of work.",
     "es": "Profesiones y palabras del mundo laboral."

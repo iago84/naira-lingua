@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Home / home",
+          "concept": "c:casa-y-hogar.casa-hogar",
+          "options": [
+            "Tejado / Rooftop",
+            "Sala de estar",
+            "apartamento",
+            "Home / home"
+          ],
+          "prompt": "casa / hogar"
+        },
+        {
+          "answer": "Edificio / Casa",
+          "concept": "c:casa-y-hogar.edificio-casa",
+          "options": [
+            "baño / sumidoiro",
+            "Edificio / Casa",
+            "Habitación / dormitorio",
+            "balcón"
+          ],
+          "prompt": "edificio / casa"
+        },
+        {
+          "answer": "apartamento",
+          "concept": "c:casa-y-hogar.apartamento",
+          "options": [
+            "dormitorio",
+            "apartamento",
+            "Tejado / Rooftop",
+            "Home / home"
+          ],
+          "prompt": "apartamento"
+        },
+        {
+          "answer": "Habitación / dormitorio",
+          "concept": "c:casa-y-hogar.habitacion-cuarto",
+          "options": [
+            "Habitación / dormitorio",
+            "muro",
+            "Sala de estar",
+            "baño"
+          ],
+          "prompt": "habitación / cuarto"
+        },
+        {
+          "answer": "Sala de estar",
+          "concept": "c:casa-y-hogar.sala-de-estar",
+          "options": [
+            "baño / sumidoiro",
+            "dormitorio",
+            "muro",
+            "Sala de estar"
+          ],
+          "prompt": "sala de estar"
+        },
+        {
+          "answer": "dormitorio",
+          "concept": "c:casa-y-hogar.dormitorio",
+          "options": [
+            "dormitorio",
+            "apartamento",
+            "baño",
+            "muro"
+          ],
+          "prompt": "dormitorio"
+        },
+        {
+          "answer": "Cociña ( Sala)",
+          "concept": "c:casa-y-hogar.cocina-habitacion",
+          "options": [
+            "Tejado / Rooftop",
+            "Cociña ( Sala)",
+            "balcón",
+            "Habitación / dormitorio"
+          ],
+          "prompt": "cocina (habitación)"
+        },
+        {
+          "answer": "baño",
+          "concept": "c:casa-y-hogar.bano",
+          "options": [
+            "baño",
+            "muro",
+            "Sala de estar",
+            "Tejado / Rooftop"
+          ],
+          "prompt": "baño"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "House vocabulary: rooms, furniture and everyday objects.",
-    "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos.",
-    "gl": "Vocabulario da casa: habitacións, mobles e obxectos diarios."
+    "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
   },
   "generator": "build_lessons",
   "id": "gl-u7-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar partes de la casa",
       "Describir objetos del hogar"
-    ],
-    "gl": [
-      "Nome das partes da casa",
-      "Describe obxectos domésticos"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Home and household",
-    "es": "La casa y el hogar",
-    "gl": "A casa e a casa"
+    "es": "La casa y el hogar"
   },
   "unit": 7
 }

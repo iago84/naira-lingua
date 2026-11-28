@@ -91,11 +91,108 @@
       "speaker": "A"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "bonjour",
+          "concept": "c:saludos-y-expresiones.hola",
+          "options": [
+            "s'il vous plaît",
+            "bonjour",
+            "Excusez-moi / excusez-vous",
+            "Bonne nuit."
+          ],
+          "prompt": "hola"
+        },
+        {
+          "answer": "Bonjour.",
+          "concept": "c:saludos-y-expresiones.buenos-dias",
+          "options": [
+            "au revoir",
+            "oui",
+            "Bonjour.",
+            "non"
+          ],
+          "prompt": "buenos días"
+        },
+        {
+          "answer": "Bonjour.",
+          "concept": "c:saludos-y-expresiones.buenas-tardes",
+          "options": [
+            "au revoir",
+            "Bonjour.",
+            "oui",
+            "s'il vous plaît"
+          ],
+          "prompt": "buenas tardes"
+        },
+        {
+          "answer": "Bonne nuit.",
+          "concept": "c:saludos-y-expresiones.buenas-noches",
+          "options": [
+            "Bonne nuit.",
+            "non",
+            "oui",
+            "A tout à l'heure."
+          ],
+          "prompt": "buenas noches"
+        },
+        {
+          "answer": "merci",
+          "concept": "c:saludos-y-expresiones.gracias",
+          "options": [
+            "Excusez-moi / excusez-vous",
+            "merci",
+            "bonjour",
+            "Bonne nuit."
+          ],
+          "prompt": "gracias"
+        },
+        {
+          "answer": "s'il vous plaît",
+          "concept": "c:saludos-y-expresiones.por-favor",
+          "options": [
+            "s'il vous plaît",
+            "Bonne nuit.",
+            "Bonjour.",
+            "bonjour"
+          ],
+          "prompt": "por favor"
+        },
+        {
+          "answer": "Excusez-moi / excusez-vous",
+          "concept": "c:saludos-y-expresiones.perdon-disculpe",
+          "options": [
+            "oui",
+            "Excusez-moi / excusez-vous",
+            "merci",
+            "bonjour"
+          ],
+          "prompt": "perdón / disculpe"
+        },
+        {
+          "answer": "au revoir",
+          "concept": "c:saludos-y-expresiones.adios",
+          "options": [
+            "au revoir",
+            "A tout à l'heure.",
+            "merci",
+            "non"
+          ],
+          "prompt": "adiós"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic courtesy expressions to open and close a conversation.",
-    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
-    "fr": "Expressions de courtoisie pour ouvrir et clore une conversation."
+    "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
   },
   "generator": "build_lessons",
   "id": "fr-u1-l1",
@@ -109,10 +206,6 @@
     "es": [
       "Saludar y despedirse",
       "Dar las gracias y pedir por favor"
-    ],
-    "fr": [
-      "Salutation et adieu",
-      "Merci et demandez-lui"
     ]
   },
   "tables": [
@@ -185,8 +278,7 @@
   ],
   "title": {
     "en": "Greetings and courtesy",
-    "es": "Saludos y cortesía",
-    "fr": "Salutations et courtoisie"
+    "es": "Saludos y cortesía"
   },
   "unit": 1
 }

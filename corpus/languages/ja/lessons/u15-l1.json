@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:viajes-compras-y-servicios.compras-ir-de-compras",
+    "c:viajes-compras-y-servicios.tienda",
+    "c:viajes-compras-y-servicios.mercado",
+    "c:viajes-compras-y-servicios.supermercado",
+    "c:viajes-compras-y-servicios.centro-comercial",
+    "c:viajes-compras-y-servicios.vendedor-tendero",
+    "c:viajes-compras-y-servicios.cliente-comprador",
+    "c:viajes-compras-y-servicios.precio",
+    "c:viajes-compras-y-servicios.dinero",
+    "c:viajes-compras-y-servicios.rupia-india-inr",
+    "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+    "c:viajes-compras-y-servicios.tarjeta"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+      "en": "shopping / going for purchases",
+      "es": "compras / ir de compras",
+      "ja": "ショッピング/購入に行く",
+      "speaker": "A",
+      "translit": "shoppingu / kounyuu ni iku"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.tienda",
+      "en": "shop",
+      "es": "tienda",
+      "ja": "ショップ",
+      "speaker": "B",
+      "translit": "shoppu"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.mercado",
+      "en": "market",
+      "es": "mercado",
+      "ja": "マーケット",
+      "speaker": "A",
+      "translit": "maaketto"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.supermercado",
+      "en": "supermarket",
+      "es": "supermercado",
+      "ja": "スーパーマーケット",
+      "speaker": "B",
+      "translit": "suupaamaaketto"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.centro-comercial",
+      "en": "shopping centre",
+      "es": "centro comercial",
+      "ja": "ショッピングセンター",
+      "speaker": "A",
+      "translit": "shoppingusentaa"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+      "en": "seller / tenderer",
+      "es": "vendedor / tendero",
+      "ja": "売り手/入札者",
+      "speaker": "B",
+      "translit": "urite / nyuusatsu mono"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+      "en": "customer / buyer",
+      "es": "cliente / comprador",
+      "ja": "顧客/バイヤー",
+      "speaker": "A",
+      "translit": "kokyaku / baiyaa"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.precio",
+      "en": "price",
+      "es": "precio",
+      "ja": "注文価格",
+      "speaker": "B",
+      "translit": "chuumon kakaku"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.dinero",
+      "en": "money",
+      "es": "dinero",
+      "ja": "お金の",
+      "speaker": "A",
+      "translit": "o kin no"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.rupia-india-inr",
+      "en": "Indian rupee (INR)",
+      "es": "rupia india (INR)",
+      "ja": "インドルピー (INR)",
+      "speaker": "B",
+      "translit": "indorupii (INR )"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+      "en": "cash / money in the form of",
+      "es": "efectivo / dinero en efectivo",
+      "ja": "現金/金銭の形態で",
+      "speaker": "A",
+      "translit": "genkin / kinsen no keitai de"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.tarjeta",
+      "en": "card",
+      "es": "tarjeta",
+      "ja": "チケット",
+      "speaker": "B",
+      "translit": "chiketto"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "ショッピング/購入に行く",
+          "answerTranslit": "shoppingu / kounyuu ni iku",
+          "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+          "optionTranslit": {
+            "ショッピング/購入に行く": "shoppingu / kounyuu ni iku",
+            "ショッピングセンター": "shoppingusentaa",
+            "スーパーマーケット": "suupaamaaketto",
+            "顧客/バイヤー": "kokyaku / baiyaa"
+          },
+          "options": [
+            "スーパーマーケット",
+            "顧客/バイヤー",
+            "ショッピング/購入に行く",
+            "ショッピングセンター"
+          ],
+          "prompt": "compras / ir de compras"
+        },
+        {
+          "answer": "ショップ",
+          "answerTranslit": "shoppu",
+          "concept": "c:viajes-compras-y-servicios.tienda",
+          "optionTranslit": {
+            "ショップ": "shoppu",
+            "チケット": "chiketto",
+            "売り手/入札者": "urite / nyuusatsu mono",
+            "現金/金銭の形態で": "genkin / kinsen no keitai de"
+          },
+          "options": [
+            "売り手/入札者",
+            "ショップ",
+            "チケット",
+            "現金/金銭の形態で"
+          ],
+          "prompt": "tienda"
+        },
+        {
+          "answer": "マーケット",
+          "answerTranslit": "maaketto",
+          "concept": "c:viajes-compras-y-servicios.mercado",
+          "optionTranslit": {
+            "インドルピー (INR)": "indorupii (INR )",
+            "ショップ": "shoppu",
+            "チケット": "chiketto",
+            "マーケット": "maaketto"
+          },
+          "options": [
+            "インドルピー (INR)",
+            "ショップ",
+            "マーケット",
+            "チケット"
+          ],
+          "prompt": "mercado"
+        },
+        {
+          "answer": "スーパーマーケット",
+          "answerTranslit": "suupaamaaketto",
+          "concept": "c:viajes-compras-y-servicios.supermercado",
+          "optionTranslit": {
+            "インドルピー (INR)": "indorupii (INR )",
+            "ショップ": "shoppu",
+            "スーパーマーケット": "suupaamaaketto",
+            "注文価格": "chuumon kakaku"
+          },
+          "options": [
+            "インドルピー (INR)",
+            "注文価格",
+            "ショップ",
+            "スーパーマーケット"
+          ],
+          "prompt": "supermercado"
+        },
+        {
+          "answer": "ショッピングセンター",
+          "answerTranslit": "shoppingusentaa",
+          "concept": "c:viajes-compras-y-servicios.centro-comercial",
+          "optionTranslit": {
+            "ショッピングセンター": "shoppingusentaa",
+            "スーパーマーケット": "suupaamaaketto",
+            "マーケット": "maaketto",
+            "売り手/入札者": "urite / nyuusatsu mono"
+          },
+          "options": [
+            "スーパーマーケット",
+            "売り手/入札者",
+            "ショッピングセンター",
+            "マーケット"
+          ],
+          "prompt": "centro comercial"
+        },
+        {
+          "answer": "売り手/入札者",
+          "answerTranslit": "urite / nyuusatsu mono",
+          "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+          "optionTranslit": {
+            "インドルピー (INR)": "indorupii (INR )",
+            "ショッピング/購入に行く": "shoppingu / kounyuu ni iku",
+            "スーパーマーケット": "suupaamaaketto",
+            "売り手/入札者": "urite / nyuusatsu mono"
+          },
+          "options": [
+            "ショッピング/購入に行く",
+            "インドルピー (INR)",
+            "売り手/入札者",
+            "スーパーマーケット"
+          ],
+          "prompt": "vendedor / tendero"
+        },
+        {
+          "answer": "顧客/バイヤー",
+          "answerTranslit": "kokyaku / baiyaa",
+          "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+          "optionTranslit": {
+            "ショッピング/購入に行く": "shoppingu / kounyuu ni iku",
+            "注文価格": "chuumon kakaku",
+            "現金/金銭の形態で": "genkin / kinsen no keitai de",
+            "顧客/バイヤー": "kokyaku / baiyaa"
+          },
+          "options": [
+            "ショッピング/購入に行く",
+            "注文価格",
+            "現金/金銭の形態で",
+            "顧客/バイヤー"
+          ],
+          "prompt": "cliente / comprador"
+        },
+        {
+          "answer": "注文価格",
+          "answerTranslit": "chuumon kakaku",
+          "concept": "c:viajes-compras-y-servicios.precio",
+          "optionTranslit": {
+            "お金の": "o kin no",
+            "ショッピング/購入に行く": "shoppingu / kounyuu ni iku",
+            "注文価格": "chuumon kakaku",
+            "現金/金銭の形態で": "genkin / kinsen no keitai de"
+          },
+          "options": [
+            "お金の",
+            "現金/金銭の形態で",
+            "ショッピング/購入に行く",
+            "注文価格"
+          ],
+          "prompt": "precio"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Words to shop, pay and use services during a trip.",
+    "es": "Palabras para comprar, pagar y usar servicios durante un viaje."
+  },
+  "generator": "build_lessons",
+  "id": "ja-u15-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Handle shopping and services",
+      "Ask about prices and opening hours"
+    ],
+    "es": [
+      "Resolver compras y servicios",
+      "Preguntar precios y horarios"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "compras / ir de compras",
+          "shopping / going for purchases",
+          "ショッピング/購入に行く"
+        ],
+        [
+          "tienda",
+          "shop",
+          "ショップ"
+        ],
+        [
+          "mercado",
+          "market",
+          "マーケット"
+        ],
+        [
+          "supermercado",
+          "supermarket",
+          "スーパーマーケット"
+        ],
+        [
+          "centro comercial",
+          "shopping centre",
+          "ショッピングセンター"
+        ],
+        [
+          "vendedor / tendero",
+          "seller / tenderer",
+          "売り手/入札者"
+        ],
+        [
+          "cliente / comprador",
+          "customer / buyer",
+          "顧客/バイヤー"
+        ],
+        [
+          "precio",
+          "price",
+          "注文価格"
+        ],
+        [
+          "dinero",
+          "money",
+          "お金の"
+        ],
+        [
+          "rupia india (INR)",
+          "Indian rupee (INR)",
+          "インドルピー (INR)"
+        ],
+        [
+          "efectivo / dinero en efectivo",
+          "cash / money in the form of",
+          "現金/金銭の形態で"
+        ],
+        [
+          "tarjeta",
+          "card",
+          "チケット"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Travel, shopping and services",
+    "es": "Viajes, compras y servicios"
+  },
+  "unit": 15
+}

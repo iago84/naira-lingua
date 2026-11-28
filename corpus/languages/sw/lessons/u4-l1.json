@@ -19,87 +19,246 @@
       "en": "Family",
       "es": "familia",
       "speaker": "A",
-      "sw": "familia / jamaa"
+      "sw": "familia / jamaa",
+      "translit": "fa-mi-li-a"
     },
     {
       "concept": "c:familia-y-personas.madre",
       "en": "Mother",
       "es": "madre",
       "speaker": "B",
-      "sw": "mama"
+      "sw": "mama",
+      "translit": "ma-ma"
     },
     {
       "concept": "c:familia-y-personas.padre",
       "en": "Father",
       "es": "padre",
       "speaker": "A",
-      "sw": "baba"
+      "sw": "baba",
+      "translit": "ba-ba"
     },
     {
       "concept": "c:familia-y-personas.padres",
       "en": "parents",
       "es": "padres",
       "speaker": "B",
-      "sw": "wazazi"
+      "sw": "wazazi",
+      "translit": "wa-za-zi"
     },
     {
       "concept": "c:familia-y-personas.hijo",
       "en": "child",
       "es": "hijo",
       "speaker": "A",
-      "sw": "mtoto wa kiume / mwana"
+      "sw": "mtoto wa kiume / mwana",
+      "translit": "mwa-na"
     },
     {
       "concept": "c:familia-y-personas.hija",
       "en": "daughter",
       "es": "hija",
       "speaker": "B",
-      "sw": "mtoto wa kike / binti"
+      "sw": "mtoto wa kike / binti",
+      "translit": "bin-ti"
     },
     {
       "concept": "c:familia-y-personas.nino-a",
       "en": "child",
       "es": "niño/a",
       "speaker": "A",
-      "sw": "niño/a"
+      "sw": "mtoto"
     },
     {
       "concept": "c:familia-y-personas.hermano",
       "en": "brother",
       "es": "hermano",
       "speaker": "B",
-      "sw": "kaka / ndugu wa kiume"
+      "sw": "kaka / ndugu wa kiume",
+      "translit": "ka-ka"
     },
     {
       "concept": "c:familia-y-personas.hermana",
       "en": "sister",
       "es": "hermana",
       "speaker": "A",
-      "sw": "dada / ndugu wa kike"
+      "sw": "dada / ndugu wa kike",
+      "translit": "da-da"
     },
     {
       "concept": "c:familia-y-personas.hermanos",
       "en": "brothers",
       "es": "hermanos",
       "speaker": "B",
-      "sw": "hermanos"
+      "sw": "ndugu"
     },
     {
       "concept": "c:familia-y-personas.abuelo-paterno",
       "en": "paternal grandfather",
       "es": "abuelo paterno",
       "speaker": "A",
-      "sw": "babu"
+      "sw": "babu",
+      "translit": "ba-bu"
     },
     {
       "concept": "c:familia-y-personas.abuela-paterna",
       "en": "Father's grandmother",
       "es": "abuela paterna",
       "speaker": "B",
-      "sw": "bibi"
+      "sw": "bibi",
+      "translit": "bi-bi"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "familia / jamaa",
+          "answerTranslit": "fa-mi-li-a",
+          "concept": "c:familia-y-personas.familia",
+          "optionTranslit": {
+            "babu": "ba-bu",
+            "bibi": "bi-bi",
+            "familia / jamaa": "fa-mi-li-a"
+          },
+          "options": [
+            "babu",
+            "mtoto",
+            "bibi",
+            "familia / jamaa"
+          ],
+          "prompt": "familia"
+        },
+        {
+          "answer": "mama",
+          "answerTranslit": "ma-ma",
+          "concept": "c:familia-y-personas.madre",
+          "optionTranslit": {
+            "bibi": "bi-bi",
+            "familia / jamaa": "fa-mi-li-a",
+            "mama": "ma-ma",
+            "mtoto wa kike / binti": "bin-ti"
+          },
+          "options": [
+            "bibi",
+            "mtoto wa kike / binti",
+            "familia / jamaa",
+            "mama"
+          ],
+          "prompt": "madre"
+        },
+        {
+          "answer": "baba",
+          "answerTranslit": "ba-ba",
+          "concept": "c:familia-y-personas.padre",
+          "optionTranslit": {
+            "baba": "ba-ba",
+            "babu": "ba-bu",
+            "dada / ndugu wa kike": "da-da",
+            "wazazi": "wa-za-zi"
+          },
+          "options": [
+            "babu",
+            "dada / ndugu wa kike",
+            "baba",
+            "wazazi"
+          ],
+          "prompt": "padre"
+        },
+        {
+          "answer": "wazazi",
+          "answerTranslit": "wa-za-zi",
+          "concept": "c:familia-y-personas.padres",
+          "optionTranslit": {
+            "familia / jamaa": "fa-mi-li-a",
+            "mtoto wa kiume / mwana": "mwa-na",
+            "wazazi": "wa-za-zi"
+          },
+          "options": [
+            "mtoto",
+            "wazazi",
+            "familia / jamaa",
+            "mtoto wa kiume / mwana"
+          ],
+          "prompt": "padres"
+        },
+        {
+          "answer": "mtoto wa kiume / mwana",
+          "answerTranslit": "mwa-na",
+          "concept": "c:familia-y-personas.hijo",
+          "optionTranslit": {
+            "mama": "ma-ma",
+            "mtoto wa kike / binti": "bin-ti",
+            "mtoto wa kiume / mwana": "mwa-na"
+          },
+          "options": [
+            "mtoto wa kike / binti",
+            "ndugu",
+            "mama",
+            "mtoto wa kiume / mwana"
+          ],
+          "prompt": "hijo"
+        },
+        {
+          "answer": "mtoto wa kike / binti",
+          "answerTranslit": "bin-ti",
+          "concept": "c:familia-y-personas.hija",
+          "optionTranslit": {
+            "bibi": "bi-bi",
+            "mtoto wa kike / binti": "bin-ti",
+            "mtoto wa kiume / mwana": "mwa-na",
+            "wazazi": "wa-za-zi"
+          },
+          "options": [
+            "mtoto wa kike / binti",
+            "wazazi",
+            "mtoto wa kiume / mwana",
+            "bibi"
+          ],
+          "prompt": "hija"
+        },
+        {
+          "answer": "mtoto",
+          "concept": "c:familia-y-personas.nino-a",
+          "optionTranslit": {
+            "babu": "ba-bu",
+            "dada / ndugu wa kike": "da-da",
+            "wazazi": "wa-za-zi"
+          },
+          "options": [
+            "mtoto",
+            "dada / ndugu wa kike",
+            "babu",
+            "wazazi"
+          ],
+          "prompt": "niño/a"
+        },
+        {
+          "answer": "kaka / ndugu wa kiume",
+          "answerTranslit": "ka-ka",
+          "concept": "c:familia-y-personas.hermano",
+          "optionTranslit": {
+            "dada / ndugu wa kike": "da-da",
+            "kaka / ndugu wa kiume": "ka-ka",
+            "mama": "ma-ma",
+            "mtoto wa kiume / mwana": "mwa-na"
+          },
+          "options": [
+            "mama",
+            "kaka / ndugu wa kiume",
+            "mtoto wa kiume / mwana",
+            "dada / ndugu wa kike"
+          ],
+          "prompt": "hermano"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to refer to family and the people around you.",
     "es": "Palabras para referirse a la familia y a las personas cercanas."
@@ -159,7 +318,7 @@
         [
           "niño/a",
           "child",
-          "niño/a"
+          "mtoto"
         ],
         [
           "hermano",
@@ -174,7 +333,7 @@
         [
           "hermanos",
           "brothers",
-          "hermanos"
+          "ndugu"
         ],
         [
           "abuelo paterno",

@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:adjetivos.bueno",
+    "c:adjetivos.malo",
+    "c:adjetivos.grande",
+    "c:adjetivos.pequeno",
+    "c:adjetivos.largo-alto",
+    "c:adjetivos.bajo-corto",
+    "c:adjetivos.nuevo",
+    "c:adjetivos.viejo-antiguo",
+    "c:adjetivos.joven",
+    "c:adjetivos.viejo-persona",
+    "c:adjetivos.hermoso-bonito",
+    "c:adjetivos.feo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:adjetivos.bueno",
+      "en": "Good.",
+      "es": "bueno",
+      "ja": "おすすめ",
+      "speaker": "A",
+      "translit": "osusume"
+    },
+    {
+      "concept": "c:adjetivos.malo",
+      "en": "bad",
+      "es": "malo",
+      "ja": "悪玉",
+      "speaker": "B",
+      "translit": "warudama"
+    },
+    {
+      "concept": "c:adjetivos.grande",
+      "en": "large",
+      "es": "grande",
+      "ja": "大きいです",
+      "speaker": "A",
+      "translit": "ookii desu"
+    },
+    {
+      "concept": "c:adjetivos.pequeno",
+      "en": "small",
+      "es": "pequeño",
+      "ja": "小さな小さめ",
+      "speaker": "B",
+      "translit": "chiisa na chiisa me"
+    },
+    {
+      "concept": "c:adjetivos.largo-alto",
+      "en": "long / high",
+      "es": "largo / alto",
+      "ja": "長く/高く",
+      "speaker": "A",
+      "translit": "nagaku / takaku"
+    },
+    {
+      "concept": "c:adjetivos.bajo-corto",
+      "en": "low / short",
+      "es": "bajo / corto",
+      "ja": "低い/不足分",
+      "speaker": "B",
+      "translit": "hikui / fusokubun"
+    },
+    {
+      "concept": "c:adjetivos.nuevo",
+      "en": "new",
+      "es": "nuevo",
+      "ja": "新規登録",
+      "speaker": "A",
+      "translit": "shinkitouroku"
+    },
+    {
+      "concept": "c:adjetivos.viejo-antiguo",
+      "en": "old / ancient",
+      "es": "viejo / antiguo",
+      "ja": "古い/古代",
+      "speaker": "B",
+      "translit": "furui / kodai"
+    },
+    {
+      "concept": "c:adjetivos.joven",
+      "en": "young",
+      "es": "joven",
+      "ja": "若い",
+      "speaker": "A",
+      "translit": "wakai"
+    },
+    {
+      "concept": "c:adjetivos.viejo-persona",
+      "en": "old (person)",
+      "es": "viejo (persona)",
+      "ja": "古い (人)",
+      "speaker": "B",
+      "translit": "furui ( nin )"
+    },
+    {
+      "concept": "c:adjetivos.hermoso-bonito",
+      "en": "beautiful / pretty",
+      "es": "hermoso / bonito",
+      "ja": "美しい / かわいい",
+      "speaker": "A",
+      "translit": "utsukushii / kawaii"
+    },
+    {
+      "concept": "c:adjetivos.feo",
+      "en": "ugly",
+      "es": "feo",
+      "ja": "醜い",
+      "speaker": "B",
+      "translit": "minikui"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "おすすめ",
+          "answerTranslit": "osusume",
+          "concept": "c:adjetivos.bueno",
+          "optionTranslit": {
+            "おすすめ": "osusume",
+            "低い/不足分": "hikui / fusokubun",
+            "新規登録": "shinkitouroku",
+            "若い": "wakai"
+          },
+          "options": [
+            "若い",
+            "新規登録",
+            "低い/不足分",
+            "おすすめ"
+          ],
+          "prompt": "bueno"
+        },
+        {
+          "answer": "悪玉",
+          "answerTranslit": "warudama",
+          "concept": "c:adjetivos.malo",
+          "optionTranslit": {
+            "低い/不足分": "hikui / fusokubun",
+            "小さな小さめ": "chiisa na chiisa me",
+            "悪玉": "warudama",
+            "新規登録": "shinkitouroku"
+          },
+          "options": [
+            "小さな小さめ",
+            "低い/不足分",
+            "悪玉",
+            "新規登録"
+          ],
+          "prompt": "malo"
+        },
+        {
+          "answer": "大きいです",
+          "answerTranslit": "ookii desu",
+          "concept": "c:adjetivos.grande",
+          "optionTranslit": {
+            "おすすめ": "osusume",
+            "大きいです": "ookii desu",
+            "悪玉": "warudama",
+            "長く/高く": "nagaku / takaku"
+          },
+          "options": [
+            "長く/高く",
+            "おすすめ",
+            "悪玉",
+            "大きいです"
+          ],
+          "prompt": "grande"
+        },
+        {
+          "answer": "小さな小さめ",
+          "answerTranslit": "chiisa na chiisa me",
+          "concept": "c:adjetivos.pequeno",
+          "optionTranslit": {
+            "古い (人)": "furui ( nin )",
+            "小さな小さめ": "chiisa na chiisa me",
+            "悪玉": "warudama",
+            "新規登録": "shinkitouroku"
+          },
+          "options": [
+            "悪玉",
+            "小さな小さめ",
+            "新規登録",
+            "古い (人)"
+          ],
+          "prompt": "pequeño"
+        },
+        {
+          "answer": "長く/高く",
+          "answerTranslit": "nagaku / takaku",
+          "concept": "c:adjetivos.largo-alto",
+          "optionTranslit": {
+            "おすすめ": "osusume",
+            "美しい / かわいい": "utsukushii / kawaii",
+            "若い": "wakai",
+            "長く/高く": "nagaku / takaku"
+          },
+          "options": [
+            "長く/高く",
+            "おすすめ",
+            "若い",
+            "美しい / かわいい"
+          ],
+          "prompt": "largo / alto"
+        },
+        {
+          "answer": "低い/不足分",
+          "answerTranslit": "hikui / fusokubun",
+          "concept": "c:adjetivos.bajo-corto",
+          "optionTranslit": {
+            "低い/不足分": "hikui / fusokubun",
+            "古い/古代": "furui / kodai",
+            "大きいです": "ookii desu",
+            "長く/高く": "nagaku / takaku"
+          },
+          "options": [
+            "大きいです",
+            "長く/高く",
+            "低い/不足分",
+            "古い/古代"
+          ],
+          "prompt": "bajo / corto"
+        },
+        {
+          "answer": "新規登録",
+          "answerTranslit": "shinkitouroku",
+          "concept": "c:adjetivos.nuevo",
+          "optionTranslit": {
+            "低い/不足分": "hikui / fusokubun",
+            "古い (人)": "furui ( nin )",
+            "新規登録": "shinkitouroku",
+            "醜い": "minikui"
+          },
+          "options": [
+            "古い (人)",
+            "新規登録",
+            "醜い",
+            "低い/不足分"
+          ],
+          "prompt": "nuevo"
+        },
+        {
+          "answer": "古い/古代",
+          "answerTranslit": "furui / kodai",
+          "concept": "c:adjetivos.viejo-antiguo",
+          "optionTranslit": {
+            "古い/古代": "furui / kodai",
+            "悪玉": "warudama",
+            "美しい / かわいい": "utsukushii / kawaii",
+            "若い": "wakai"
+          },
+          "options": [
+            "悪玉",
+            "若い",
+            "古い/古代",
+            "美しい / かわいい"
+          ],
+          "prompt": "viejo / antiguo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Adjectives to describe size, character, state and qualities.",
+    "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+  },
+  "generator": "build_lessons",
+  "id": "ja-u14-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Describe with adjectives",
+      "Give opinions about things and people"
+    ],
+    "es": [
+      "Describir con adjetivos",
+      "Opinar sobre cosas y personas"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "bueno",
+          "Good.",
+          "おすすめ"
+        ],
+        [
+          "malo",
+          "bad",
+          "悪玉"
+        ],
+        [
+          "grande",
+          "large",
+          "大きいです"
+        ],
+        [
+          "pequeño",
+          "small",
+          "小さな小さめ"
+        ],
+        [
+          "largo / alto",
+          "long / high",
+          "長く/高く"
+        ],
+        [
+          "bajo / corto",
+          "low / short",
+          "低い/不足分"
+        ],
+        [
+          "nuevo",
+          "new",
+          "新規登録"
+        ],
+        [
+          "viejo / antiguo",
+          "old / ancient",
+          "古い/古代"
+        ],
+        [
+          "joven",
+          "young",
+          "若い"
+        ],
+        [
+          "viejo (persona)",
+          "old (person)",
+          "古い (人)"
+        ],
+        [
+          "hermoso / bonito",
+          "beautiful / pretty",
+          "美しい / かわいい"
+        ],
+        [
+          "feo",
+          "ugly",
+          "醜い"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Adjectives",
+    "es": "Los adjetivos"
+  },
+  "unit": 14
+}

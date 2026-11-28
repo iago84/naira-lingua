@@ -1,0 +1,318 @@
+{
+  "concepts": [
+    "c:tecnologia-y-comunicacion.tecnologia",
+    "c:tecnologia-y-comunicacion.computadora-ordenador",
+    "c:tecnologia-y-comunicacion.portatil-laptop",
+    "c:tecnologia-y-comunicacion.tableta",
+    "c:tecnologia-y-comunicacion.telefono-movil-celular",
+    "c:tecnologia-y-comunicacion.telefono",
+    "c:tecnologia-y-comunicacion.pantalla",
+    "c:tecnologia-y-comunicacion.teclado",
+    "c:tecnologia-y-comunicacion.raton-informatica",
+    "c:tecnologia-y-comunicacion.impresora",
+    "c:tecnologia-y-comunicacion.camara",
+    "c:tecnologia-y-comunicacion.microfono"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:tecnologia-y-comunicacion.tecnologia",
+      "en": "technology",
+      "es": "tecnología",
+      "speaker": "A",
+      "sw": "teknolojia"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+      "en": "computer / PC",
+      "es": "computadora / ordenador",
+      "speaker": "B",
+      "sw": "kompyuta"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+      "en": "laptop / laptop",
+      "es": "portátil / laptop",
+      "speaker": "A",
+      "sw": "laptop"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.tableta",
+      "en": "tablet",
+      "es": "tableta",
+      "speaker": "B",
+      "sw": "kompyuta ndogo"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+      "en": "mobile / cell phone",
+      "es": "teléfono móvil / celular",
+      "speaker": "A",
+      "sw": "simu",
+      "translit": "si-mu"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.telefono",
+      "en": "phone",
+      "es": "teléfono",
+      "speaker": "B",
+      "sw": "simu"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.pantalla",
+      "en": "screen",
+      "es": "pantalla",
+      "speaker": "A",
+      "sw": "skrini"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.teclado",
+      "en": "keyboard",
+      "es": "teclado",
+      "speaker": "B",
+      "sw": "keyboard"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.raton-informatica",
+      "en": "mouse (computer)",
+      "es": "ratón (informática)",
+      "speaker": "A",
+      "sw": "panya",
+      "translit": "pa-nya"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.impresora",
+      "en": "printer",
+      "es": "impresora",
+      "speaker": "B",
+      "sw": "prenta"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.camara",
+      "en": "camera",
+      "es": "cámara",
+      "speaker": "A",
+      "sw": "kamera"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.microfono",
+      "en": "microphone",
+      "es": "micrófono",
+      "speaker": "B",
+      "sw": "sauti"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "teknolojia",
+          "concept": "c:tecnologia-y-comunicacion.tecnologia",
+          "options": [
+            "teknolojia",
+            "kompyuta",
+            "laptop",
+            "prenta"
+          ],
+          "prompt": "tecnología"
+        },
+        {
+          "answer": "kompyuta",
+          "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+          "optionTranslit": {
+            "panya": "pa-nya"
+          },
+          "options": [
+            "laptop",
+            "panya",
+            "kompyuta ndogo",
+            "kompyuta"
+          ],
+          "prompt": "computadora / ordenador"
+        },
+        {
+          "answer": "laptop",
+          "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+          "options": [
+            "teknolojia",
+            "laptop",
+            "simu",
+            "skrini"
+          ],
+          "prompt": "portátil / laptop"
+        },
+        {
+          "answer": "kompyuta ndogo",
+          "concept": "c:tecnologia-y-comunicacion.tableta",
+          "optionTranslit": {
+            "panya": "pa-nya"
+          },
+          "options": [
+            "skrini",
+            "kamera",
+            "panya",
+            "kompyuta ndogo"
+          ],
+          "prompt": "tableta"
+        },
+        {
+          "answer": "simu",
+          "answerTranslit": "si-mu",
+          "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+          "optionTranslit": {
+            "panya": "pa-nya"
+          },
+          "options": [
+            "panya",
+            "kompyuta",
+            "kompyuta ndogo",
+            "simu"
+          ],
+          "prompt": "teléfono móvil / celular"
+        },
+        {
+          "answer": "simu",
+          "concept": "c:tecnologia-y-comunicacion.telefono",
+          "optionTranslit": {
+            "panya": "pa-nya"
+          },
+          "options": [
+            "kamera",
+            "laptop",
+            "simu",
+            "panya"
+          ],
+          "prompt": "teléfono"
+        },
+        {
+          "answer": "skrini",
+          "concept": "c:tecnologia-y-comunicacion.pantalla",
+          "optionTranslit": {
+            "panya": "pa-nya"
+          },
+          "options": [
+            "panya",
+            "kompyuta ndogo",
+            "skrini",
+            "teknolojia"
+          ],
+          "prompt": "pantalla"
+        },
+        {
+          "answer": "keyboard",
+          "concept": "c:tecnologia-y-comunicacion.teclado",
+          "optionTranslit": {
+            "panya": "pa-nya"
+          },
+          "options": [
+            "kompyuta ndogo",
+            "panya",
+            "keyboard",
+            "kompyuta"
+          ],
+          "prompt": "teclado"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Devices, internet and everyday communication.",
+    "es": "Aparatos, internet y comunicación del día a día."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u18-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name devices and services",
+      "Talk on the phone and online"
+    ],
+    "es": [
+      "Nombrar aparatos y servicios",
+      "Hablar por teléfono e internet"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "tecnología",
+          "technology",
+          "teknolojia"
+        ],
+        [
+          "computadora / ordenador",
+          "computer / PC",
+          "kompyuta"
+        ],
+        [
+          "portátil / laptop",
+          "laptop / laptop",
+          "laptop"
+        ],
+        [
+          "tableta",
+          "tablet",
+          "kompyuta ndogo"
+        ],
+        [
+          "teléfono móvil / celular",
+          "mobile / cell phone",
+          "simu"
+        ],
+        [
+          "teléfono",
+          "phone",
+          "simu"
+        ],
+        [
+          "pantalla",
+          "screen",
+          "skrini"
+        ],
+        [
+          "teclado",
+          "keyboard",
+          "keyboard"
+        ],
+        [
+          "ratón (informática)",
+          "mouse (computer)",
+          "panya"
+        ],
+        [
+          "impresora",
+          "printer",
+          "prenta"
+        ],
+        [
+          "cámara",
+          "camera",
+          "kamera"
+        ],
+        [
+          "micrófono",
+          "microphone",
+          "sauti"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Technology and communication",
+    "es": "La tecnología y la comunicación"
+  },
+  "unit": 18
+}

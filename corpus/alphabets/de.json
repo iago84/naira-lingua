@@ -1,0 +1,175 @@
+{
+  "direction": "ltr",
+  "intro": {
+    "en": "German uses 26 letters plus three umlaut vowels (ä, ö, ü) and the eszett (ß). All nouns are capitalised.",
+    "es": "El alemán usa 26 letras más tres vocales con diéresis (ä, ö, ü) y la eszett (ß). Todas las sustantivos se escriben con mayúscula."
+  },
+  "lang": "de",
+  "script": "latin",
+  "sections": [
+    {
+      "columns": [
+        {
+          "key": "char",
+          "label": {
+            "en": "Glyph",
+            "es": "Signo"
+          }
+        },
+        {
+          "key": "translit",
+          "label": {
+            "en": "Letter",
+            "es": "Letra"
+          }
+        }
+      ],
+      "items": [
+        {
+          "char": "a",
+          "translit": "a"
+        },
+        {
+          "char": "b",
+          "translit": "b"
+        },
+        {
+          "char": "c",
+          "translit": "c"
+        },
+        {
+          "char": "d",
+          "translit": "d"
+        },
+        {
+          "char": "e",
+          "translit": "e"
+        },
+        {
+          "char": "f",
+          "translit": "f"
+        },
+        {
+          "char": "g",
+          "translit": "g"
+        },
+        {
+          "char": "h",
+          "translit": "h"
+        },
+        {
+          "char": "i",
+          "translit": "i"
+        },
+        {
+          "char": "j",
+          "translit": "j"
+        },
+        {
+          "char": "k",
+          "translit": "k"
+        },
+        {
+          "char": "l",
+          "translit": "l"
+        },
+        {
+          "char": "m",
+          "translit": "m"
+        },
+        {
+          "char": "n",
+          "translit": "n"
+        },
+        {
+          "char": "o",
+          "translit": "o"
+        },
+        {
+          "char": "p",
+          "translit": "p"
+        },
+        {
+          "char": "q",
+          "translit": "q"
+        },
+        {
+          "char": "r",
+          "translit": "r"
+        },
+        {
+          "char": "s",
+          "translit": "s"
+        },
+        {
+          "char": "t",
+          "translit": "t"
+        },
+        {
+          "char": "u",
+          "translit": "u"
+        },
+        {
+          "char": "v",
+          "translit": "v"
+        },
+        {
+          "char": "w",
+          "translit": "w"
+        },
+        {
+          "char": "x",
+          "translit": "x"
+        },
+        {
+          "char": "y",
+          "translit": "y"
+        },
+        {
+          "char": "z",
+          "translit": "z"
+        },
+        {
+          "char": "ä",
+          "note": {
+            "en": "«a-Umlaut»: rounded e.",
+            "es": "«a-Umlaut»: e redondeada."
+          },
+          "translit": "ä"
+        },
+        {
+          "char": "ö",
+          "note": {
+            "en": "«o-Umlaut».",
+            "es": "«o-Umlaut»."
+          },
+          "translit": "ö"
+        },
+        {
+          "char": "ü",
+          "note": {
+            "en": "«u-Umlaut»: u with i lips.",
+            "es": "«u-Umlaut»: u con labios de i."
+          },
+          "translit": "ü"
+        },
+        {
+          "char": "ß",
+          "note": {
+            "en": "«Eszett»: voiceless double s.",
+            "es": "«Eszett»: doble s sorda."
+          },
+          "translit": "ß"
+        }
+      ],
+      "title": {
+        "en": "Alphabet",
+        "es": "Alfabeto"
+      }
+    }
+  ],
+  "title": {
+    "en": "German: the alphabet",
+    "es": "Deutsch: das Alphabet"
+  }
+}

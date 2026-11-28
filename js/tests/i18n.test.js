@@ -20,5 +20,13 @@ test("t cae a español y luego a la clave", () => {
 });
 
 test("availableLangs lista los idiomas de UI", () => {
-  assert.deepEqual(availableLangs().sort(), ["en", "es"]);
+  assert.deepEqual(availableLangs().sort(),
+    ["de", "en", "es", "fr", "gl", "hi", "it", "ja", "pt", "sw", "ur", "zh"]);
+});
+
+test("todas las lenguas comparten las mismas claves de UI", () => {
+  const base = Object.keys(STRINGS.es).sort();
+  for (const [lang, table] of Object.entries(STRINGS)) {
+    assert.deepEqual(Object.keys(table).sort(), base, `claves distintas en ${lang}`);
+  }
 });

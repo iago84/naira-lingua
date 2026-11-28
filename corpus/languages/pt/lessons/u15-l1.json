@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:viajes-compras-y-servicios.compras-ir-de-compras",
+    "c:viajes-compras-y-servicios.tienda",
+    "c:viajes-compras-y-servicios.mercado",
+    "c:viajes-compras-y-servicios.supermercado",
+    "c:viajes-compras-y-servicios.centro-comercial",
+    "c:viajes-compras-y-servicios.vendedor-tendero",
+    "c:viajes-compras-y-servicios.cliente-comprador",
+    "c:viajes-compras-y-servicios.precio",
+    "c:viajes-compras-y-servicios.dinero",
+    "c:viajes-compras-y-servicios.rupia-india-inr",
+    "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+    "c:viajes-compras-y-servicios.tarjeta"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+      "en": "shopping / going for purchases",
+      "es": "compras / ir de compras",
+      "pt": "compras / indo para compras",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.tienda",
+      "en": "shop",
+      "es": "tienda",
+      "pt": "loja",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.mercado",
+      "en": "market",
+      "es": "mercado",
+      "pt": "mercado",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.supermercado",
+      "en": "supermarket",
+      "es": "supermercado",
+      "pt": "supermercado",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.centro-comercial",
+      "en": "shopping centre",
+      "es": "centro comercial",
+      "pt": "Centro comercial",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+      "en": "seller / tenderer",
+      "es": "vendedor / tendero",
+      "pt": "vendedor/proponente",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+      "en": "customer / buyer",
+      "es": "cliente / comprador",
+      "pt": "cliente / comprador",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.precio",
+      "en": "price",
+      "es": "precio",
+      "pt": "preço",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.dinero",
+      "en": "money",
+      "es": "dinero",
+      "pt": "dinheiro",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.rupia-india-inr",
+      "en": "Indian rupee (INR)",
+      "es": "rupia india (INR)",
+      "pt": "Rupia indiana (INR)",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+      "en": "cash / money in the form of",
+      "es": "efectivo / dinero en efectivo",
+      "pt": "dinheiro / em espécie de",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:viajes-compras-y-servicios.tarjeta",
+      "en": "card",
+      "es": "tarjeta",
+      "pt": "cartão",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "compras / indo para compras",
+          "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+          "options": [
+            "supermercado",
+            "cliente / comprador",
+            "compras / indo para compras",
+            "Centro comercial"
+          ],
+          "prompt": "compras / ir de compras"
+        },
+        {
+          "answer": "loja",
+          "concept": "c:viajes-compras-y-servicios.tienda",
+          "options": [
+            "vendedor/proponente",
+            "loja",
+            "cartão",
+            "dinheiro / em espécie de"
+          ],
+          "prompt": "tienda"
+        },
+        {
+          "answer": "mercado",
+          "concept": "c:viajes-compras-y-servicios.mercado",
+          "options": [
+            "Rupia indiana (INR)",
+            "loja",
+            "mercado",
+            "cartão"
+          ],
+          "prompt": "mercado"
+        },
+        {
+          "answer": "supermercado",
+          "concept": "c:viajes-compras-y-servicios.supermercado",
+          "options": [
+            "Rupia indiana (INR)",
+            "preço",
+            "loja",
+            "supermercado"
+          ],
+          "prompt": "supermercado"
+        },
+        {
+          "answer": "Centro comercial",
+          "concept": "c:viajes-compras-y-servicios.centro-comercial",
+          "options": [
+            "supermercado",
+            "vendedor/proponente",
+            "Centro comercial",
+            "mercado"
+          ],
+          "prompt": "centro comercial"
+        },
+        {
+          "answer": "vendedor/proponente",
+          "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+          "options": [
+            "compras / indo para compras",
+            "Rupia indiana (INR)",
+            "vendedor/proponente",
+            "supermercado"
+          ],
+          "prompt": "vendedor / tendero"
+        },
+        {
+          "answer": "cliente / comprador",
+          "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+          "options": [
+            "compras / indo para compras",
+            "preço",
+            "dinheiro / em espécie de",
+            "cliente / comprador"
+          ],
+          "prompt": "cliente / comprador"
+        },
+        {
+          "answer": "preço",
+          "concept": "c:viajes-compras-y-servicios.precio",
+          "options": [
+            "dinheiro",
+            "dinheiro / em espécie de",
+            "compras / indo para compras",
+            "preço"
+          ],
+          "prompt": "precio"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Words to shop, pay and use services during a trip.",
+    "es": "Palabras para comprar, pagar y usar servicios durante un viaje."
+  },
+  "generator": "build_lessons",
+  "id": "pt-u15-l1",
+  "lang": "pt",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Handle shopping and services",
+      "Ask about prices and opening hours"
+    ],
+    "es": [
+      "Resolver compras y servicios",
+      "Preguntar precios y horarios"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "pt"
+      ],
+      "rows": [
+        [
+          "compras / ir de compras",
+          "shopping / going for purchases",
+          "compras / indo para compras"
+        ],
+        [
+          "tienda",
+          "shop",
+          "loja"
+        ],
+        [
+          "mercado",
+          "market",
+          "mercado"
+        ],
+        [
+          "supermercado",
+          "supermarket",
+          "supermercado"
+        ],
+        [
+          "centro comercial",
+          "shopping centre",
+          "Centro comercial"
+        ],
+        [
+          "vendedor / tendero",
+          "seller / tenderer",
+          "vendedor/proponente"
+        ],
+        [
+          "cliente / comprador",
+          "customer / buyer",
+          "cliente / comprador"
+        ],
+        [
+          "precio",
+          "price",
+          "preço"
+        ],
+        [
+          "dinero",
+          "money",
+          "dinheiro"
+        ],
+        [
+          "rupia india (INR)",
+          "Indian rupee (INR)",
+          "Rupia indiana (INR)"
+        ],
+        [
+          "efectivo / dinero en efectivo",
+          "cash / money in the form of",
+          "dinheiro / em espécie de"
+        ],
+        [
+          "tarjeta",
+          "card",
+          "cartão"
+        ]
+      ],
+      "title": "es · en · pt",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Travel, shopping and services",
+    "es": "Viajes, compras y servicios"
+  },
+  "unit": 15
+}

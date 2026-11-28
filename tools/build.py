@@ -47,12 +47,19 @@ def run(repo_dir) -> None:
         langs.append(lang_dir.name)
         counts[lang_dir.name] = len(terms)
         lesson_counts[lang_dir.name] = len(lessons)
+    alphabets = {}
+    adir = repo / "corpus" / "alphabets"
+    if adir.exists():
+        for fp in sorted(adir.glob("*.json")):
+            alphabets[fp.stem] = common.read_json(fp, default={})
+    common.write_json(repo / "data" / "alphabets.json", alphabets)
     manifest = {"generated": _build_timestamp(repo),
                 "concepts": len(concepts), "languages": langs, "counts": counts,
-                "lessons": lesson_counts}
+                "lessons": lesson_counts, "alphabets": sorted(alphabets)}
     common.write_json(repo / "data" / "manifest.json", manifest)
     common.write_json(repo / "data" / "concepts.json", concepts)
-    print(f"build ok: {len(concepts)} conceptos, idiomas={langs}")
+    print(f"build ok: {len(concepts)} conceptos, idiomas={langs}, "
+          f"alfabetos={len(alphabets)}")
 
 
 if __name__ == "__main__":

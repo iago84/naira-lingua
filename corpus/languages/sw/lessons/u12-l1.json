@@ -19,87 +19,221 @@
       "en": "work /",
       "es": "trabajo / labor",
       "speaker": "A",
-      "sw": "trabajo"
+      "sw": "kazi"
     },
     {
       "concept": "c:trabajo-y-profesiones.empleo-trabajo",
       "en": "employment / work",
       "es": "empleo / trabajo",
       "speaker": "B",
-      "sw": "empleo"
+      "sw": "kazi"
     },
     {
       "concept": "c:trabajo-y-profesiones.profesion-oficio",
       "en": "profession / trade",
       "es": "profesión / oficio",
       "speaker": "A",
-      "sw": "profesión"
+      "sw": "utaalamu"
     },
     {
       "concept": "c:trabajo-y-profesiones.negocio-profesion",
       "en": "business / profession",
       "es": "negocio / profesión",
       "speaker": "B",
-      "sw": "negocio"
+      "sw": "biashara"
     },
     {
       "concept": "c:trabajo-y-profesiones.empresa-compania",
       "en": "company / enterprise",
       "es": "empresa / compañía",
       "speaker": "A",
-      "sw": "empresa"
+      "sw": "kampuni"
     },
     {
       "concept": "c:trabajo-y-profesiones.oficina",
       "en": "office",
       "es": "oficina",
       "speaker": "B",
-      "sw": "ofisi — oficina"
+      "sw": "ofisi"
     },
     {
       "concept": "c:trabajo-y-profesiones.oficina-despacho",
       "en": "office /",
       "es": "oficina / despacho",
       "speaker": "A",
-      "sw": "ofisi"
+      "sw": "ofisi",
+      "translit": "o-fi-si"
     },
     {
       "concept": "c:trabajo-y-profesiones.dueno-propietario",
       "en": "owner / proprietor",
       "es": "dueño / propietario",
       "speaker": "B",
-      "sw": "mmiliki"
+      "sw": "mmiliki",
+      "translit": "mmi-li-ki"
     },
     {
       "concept": "c:trabajo-y-profesiones.jefe-a",
       "en": "Chief",
       "es": "jefe/a",
       "speaker": "A",
-      "sw": "bosi / mkuu — jefe/a"
+      "sw": "mkuu"
     },
     {
       "concept": "c:trabajo-y-profesiones.empleado-a",
       "en": "employee",
       "es": "empleado/a",
       "speaker": "B",
-      "sw": "mfanyakazi / mwajiriwa"
+      "sw": "mfanyakazi / mwajiriwa",
+      "translit": "mfa-nya-ka-zi"
     },
     {
       "concept": "c:trabajo-y-profesiones.colega",
       "en": "- I'm sorry, buddy.",
       "es": "colega",
       "speaker": "A",
-      "sw": "mfanyakazi mwenzake"
+      "sw": "mfanyakazi mwenzake",
+      "translit": "mwe-nza-ke"
     },
     {
       "concept": "c:trabajo-y-profesiones.equipo",
       "en": "equipment",
       "es": "equipo",
       "speaker": "B",
-      "sw": "equipo — equipo"
+      "sw": "timu"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "kazi",
+          "concept": "c:trabajo-y-profesiones.trabajo-labor",
+          "optionTranslit": {
+            "ofisi": "o-fi-si"
+          },
+          "options": [
+            "timu",
+            "ofisi",
+            "kazi",
+            "mkuu"
+          ],
+          "prompt": "trabajo / labor"
+        },
+        {
+          "answer": "kazi",
+          "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+          "optionTranslit": {
+            "mfanyakazi mwenzake": "mwe-nza-ke",
+            "mmiliki": "mmi-li-ki",
+            "ofisi": "o-fi-si"
+          },
+          "options": [
+            "kazi",
+            "mfanyakazi mwenzake",
+            "mmiliki",
+            "ofisi"
+          ],
+          "prompt": "empleo / trabajo"
+        },
+        {
+          "answer": "utaalamu",
+          "concept": "c:trabajo-y-profesiones.profesion-oficio",
+          "optionTranslit": {
+            "mmiliki": "mmi-li-ki"
+          },
+          "options": [
+            "utaalamu",
+            "kazi",
+            "mmiliki",
+            "timu"
+          ],
+          "prompt": "profesión / oficio"
+        },
+        {
+          "answer": "biashara",
+          "concept": "c:trabajo-y-profesiones.negocio-profesion",
+          "optionTranslit": {
+            "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
+            "mfanyakazi mwenzake": "mwe-nza-ke"
+          },
+          "options": [
+            "kazi",
+            "mfanyakazi / mwajiriwa",
+            "mfanyakazi mwenzake",
+            "biashara"
+          ],
+          "prompt": "negocio / profesión"
+        },
+        {
+          "answer": "kampuni",
+          "concept": "c:trabajo-y-profesiones.empresa-compania",
+          "optionTranslit": {
+            "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi"
+          },
+          "options": [
+            "kampuni",
+            "utaalamu",
+            "mfanyakazi / mwajiriwa",
+            "kazi"
+          ],
+          "prompt": "empresa / compañía"
+        },
+        {
+          "answer": "ofisi",
+          "concept": "c:trabajo-y-profesiones.oficina",
+          "optionTranslit": {
+            "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
+            "mmiliki": "mmi-li-ki",
+            "ofisi": "o-fi-si"
+          },
+          "options": [
+            "mmiliki",
+            "ofisi",
+            "mkuu",
+            "mfanyakazi / mwajiriwa"
+          ],
+          "prompt": "oficina"
+        },
+        {
+          "answer": "ofisi",
+          "answerTranslit": "o-fi-si",
+          "concept": "c:trabajo-y-profesiones.oficina-despacho",
+          "optionTranslit": {
+            "ofisi": "o-fi-si"
+          },
+          "options": [
+            "ofisi",
+            "mkuu",
+            "timu",
+            "kazi"
+          ],
+          "prompt": "oficina / despacho"
+        },
+        {
+          "answer": "mmiliki",
+          "answerTranslit": "mmi-li-ki",
+          "concept": "c:trabajo-y-profesiones.dueno-propietario",
+          "optionTranslit": {
+            "mfanyakazi / mwajiriwa": "mfa-nya-ka-zi",
+            "mmiliki": "mmi-li-ki"
+          },
+          "options": [
+            "timu",
+            "mfanyakazi / mwajiriwa",
+            "mmiliki",
+            "mkuu"
+          ],
+          "prompt": "dueño / propietario"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Professions and words from the world of work.",
     "es": "Profesiones y palabras del mundo laboral."
@@ -129,32 +263,32 @@
         [
           "trabajo / labor",
           "work /",
-          "trabajo"
+          "kazi"
         ],
         [
           "empleo / trabajo",
           "employment / work",
-          "empleo"
+          "kazi"
         ],
         [
           "profesión / oficio",
           "profession / trade",
-          "profesión"
+          "utaalamu"
         ],
         [
           "negocio / profesión",
           "business / profession",
-          "negocio"
+          "biashara"
         ],
         [
           "empresa / compañía",
           "company / enterprise",
-          "empresa"
+          "kampuni"
         ],
         [
           "oficina",
           "office",
-          "ofisi — oficina"
+          "ofisi"
         ],
         [
           "oficina / despacho",
@@ -169,7 +303,7 @@
         [
           "jefe/a",
           "Chief",
-          "bosi / mkuu — jefe/a"
+          "mkuu"
         ],
         [
           "empleado/a",
@@ -184,7 +318,7 @@
         [
           "equipo",
           "equipment",
-          "equipo — equipo"
+          "timu"
         ]
       ],
       "title": "es · en · sw",

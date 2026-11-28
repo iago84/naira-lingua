@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:tecnologia-y-comunicacion.tecnologia",
+    "c:tecnologia-y-comunicacion.computadora-ordenador",
+    "c:tecnologia-y-comunicacion.portatil-laptop",
+    "c:tecnologia-y-comunicacion.tableta",
+    "c:tecnologia-y-comunicacion.telefono-movil-celular",
+    "c:tecnologia-y-comunicacion.telefono",
+    "c:tecnologia-y-comunicacion.pantalla",
+    "c:tecnologia-y-comunicacion.teclado",
+    "c:tecnologia-y-comunicacion.raton-informatica",
+    "c:tecnologia-y-comunicacion.impresora",
+    "c:tecnologia-y-comunicacion.camara",
+    "c:tecnologia-y-comunicacion.microfono"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:tecnologia-y-comunicacion.tecnologia",
+      "en": "technology",
+      "es": "tecnología",
+      "speaker": "A",
+      "translit": "taknīk",
+      "ur": "تکنیک"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+      "en": "computer / PC",
+      "es": "computadora / ordenador",
+      "speaker": "B",
+      "translit": "kampyūṭar",
+      "ur": "کںپیوٹر — computadora / ordenador"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+      "en": "laptop / laptop",
+      "es": "portátil / laptop",
+      "speaker": "A",
+      "translit": "laipṭôp",
+      "ur": "لےپٹاپ"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.tableta",
+      "en": "tablet",
+      "es": "tableta",
+      "speaker": "B",
+      "translit": "ṭaibleṭ",
+      "ur": "ٹےبلےٹ"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+      "en": "mobile / cell phone",
+      "es": "teléfono móvil / celular",
+      "speaker": "A",
+      "translit": "mobāil",
+      "ur": "موبااِل"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.telefono",
+      "en": "phone",
+      "es": "teléfono",
+      "speaker": "B",
+      "translit": "phone / telephone",
+      "ur": "فون / ٹیلی فون — teléfono"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.pantalla",
+      "en": "screen",
+      "es": "pantalla",
+      "speaker": "A",
+      "translit": "skrīn",
+      "ur": "سکرین"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.teclado",
+      "en": "keyboard",
+      "es": "teclado",
+      "speaker": "B",
+      "translit": "kīborḍ",
+      "ur": "کیبورڈ"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.raton-informatica",
+      "en": "mouse (computer)",
+      "es": "ratón (informática)",
+      "speaker": "A",
+      "translit": "māus",
+      "ur": "مااُس"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.impresora",
+      "en": "printer",
+      "es": "impresora",
+      "speaker": "B",
+      "translit": "prinṭar",
+      "ur": "پرِںٹر"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.camara",
+      "en": "camera",
+      "es": "cámara",
+      "speaker": "A",
+      "translit": "kaimrā",
+      "ur": "کےمرا"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.microfono",
+      "en": "microphone",
+      "es": "micrófono",
+      "speaker": "B",
+      "translit": "māikrofon",
+      "ur": "مااِکروپھون"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "تکنیک",
+          "answerTranslit": "taknīk",
+          "concept": "c:tecnologia-y-comunicacion.tecnologia",
+          "optionTranslit": {
+            "تکنیک": "taknīk",
+            "لےپٹاپ": "laipṭôp",
+            "مااُس": "māus",
+            "کںپیوٹر — computadora / ordenador": "kampyūṭar"
+          },
+          "options": [
+            "تکنیک",
+            "کںپیوٹر — computadora / ordenador",
+            "لےپٹاپ",
+            "مااُس"
+          ],
+          "prompt": "tecnología"
+        },
+        {
+          "answer": "کںپیوٹر — computadora / ordenador",
+          "answerTranslit": "kampyūṭar",
+          "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+          "optionTranslit": {
+            "لےپٹاپ": "laipṭôp",
+            "ٹےبلےٹ": "ṭaibleṭ",
+            "کںپیوٹر — computadora / ordenador": "kampyūṭar",
+            "کیبورڈ": "kīborḍ"
+          },
+          "options": [
+            "لےپٹاپ",
+            "کیبورڈ",
+            "ٹےبلےٹ",
+            "کںپیوٹر — computadora / ordenador"
+          ],
+          "prompt": "computadora / ordenador"
+        },
+        {
+          "answer": "لےپٹاپ",
+          "answerTranslit": "laipṭôp",
+          "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+          "optionTranslit": {
+            "تکنیک": "taknīk",
+            "فون / ٹیلی فون — teléfono": "phone / telephone",
+            "لےپٹاپ": "laipṭôp",
+            "موبااِل": "mobāil"
+          },
+          "options": [
+            "تکنیک",
+            "لےپٹاپ",
+            "موبااِل",
+            "فون / ٹیلی فون — teléfono"
+          ],
+          "prompt": "portátil / laptop"
+        },
+        {
+          "answer": "ٹےبلےٹ",
+          "answerTranslit": "ṭaibleṭ",
+          "concept": "c:tecnologia-y-comunicacion.tableta",
+          "optionTranslit": {
+            "فون / ٹیلی فون — teléfono": "phone / telephone",
+            "مااِکروپھون": "māikrofon",
+            "ٹےبلےٹ": "ṭaibleṭ",
+            "پرِںٹر": "prinṭar"
+          },
+          "options": [
+            "مااِکروپھون",
+            "پرِںٹر",
+            "فون / ٹیلی فون — teléfono",
+            "ٹےبلےٹ"
+          ],
+          "prompt": "tableta"
+        },
+        {
+          "answer": "موبااِل",
+          "answerTranslit": "mobāil",
+          "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+          "optionTranslit": {
+            "موبااِل": "mobāil",
+            "ٹےبلےٹ": "ṭaibleṭ",
+            "کںپیوٹر — computadora / ordenador": "kampyūṭar",
+            "کیبورڈ": "kīborḍ"
+          },
+          "options": [
+            "کیبورڈ",
+            "کںپیوٹر — computadora / ordenador",
+            "ٹےبلےٹ",
+            "موبااِل"
+          ],
+          "prompt": "teléfono móvil / celular"
+        },
+        {
+          "answer": "فون / ٹیلی فون — teléfono",
+          "answerTranslit": "phone / telephone",
+          "concept": "c:tecnologia-y-comunicacion.telefono",
+          "optionTranslit": {
+            "فون / ٹیلی فون — teléfono": "phone / telephone",
+            "لےپٹاپ": "laipṭôp",
+            "پرِںٹر": "prinṭar",
+            "کیبورڈ": "kīborḍ"
+          },
+          "options": [
+            "پرِںٹر",
+            "لےپٹاپ",
+            "فون / ٹیلی فون — teléfono",
+            "کیبورڈ"
+          ],
+          "prompt": "teléfono"
+        },
+        {
+          "answer": "سکرین",
+          "answerTranslit": "skrīn",
+          "concept": "c:tecnologia-y-comunicacion.pantalla",
+          "optionTranslit": {
+            "تکنیک": "taknīk",
+            "سکرین": "skrīn",
+            "کیبورڈ": "kīborḍ",
+            "کےمرا": "kaimrā"
+          },
+          "options": [
+            "تکنیک",
+            "کیبورڈ",
+            "سکرین",
+            "کےمرا"
+          ],
+          "prompt": "pantalla"
+        },
+        {
+          "answer": "کیبورڈ",
+          "answerTranslit": "kīborḍ",
+          "concept": "c:tecnologia-y-comunicacion.teclado",
+          "optionTranslit": {
+            "سکرین": "skrīn",
+            "ٹےبلےٹ": "ṭaibleṭ",
+            "کںپیوٹر — computadora / ordenador": "kampyūṭar",
+            "کیبورڈ": "kīborḍ"
+          },
+          "options": [
+            "ٹےبلےٹ",
+            "سکرین",
+            "کیبورڈ",
+            "کںپیوٹر — computadora / ordenador"
+          ],
+          "prompt": "teclado"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Devices, internet and everyday communication.",
+    "es": "Aparatos, internet y comunicación del día a día."
+  },
+  "generator": "build_lessons",
+  "id": "ur-u18-l1",
+  "lang": "ur",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name devices and services",
+      "Talk on the phone and online"
+    ],
+    "es": [
+      "Nombrar aparatos y servicios",
+      "Hablar por teléfono e internet"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ur"
+      ],
+      "rows": [
+        [
+          "tecnología",
+          "technology",
+          "تکنیک"
+        ],
+        [
+          "computadora / ordenador",
+          "computer / PC",
+          "کںپیوٹر — computadora / ordenador"
+        ],
+        [
+          "portátil / laptop",
+          "laptop / laptop",
+          "لےپٹاپ"
+        ],
+        [
+          "tableta",
+          "tablet",
+          "ٹےبلےٹ"
+        ],
+        [
+          "teléfono móvil / celular",
+          "mobile / cell phone",
+          "موبااِل"
+        ],
+        [
+          "teléfono",
+          "phone",
+          "فون / ٹیلی فون — teléfono"
+        ],
+        [
+          "pantalla",
+          "screen",
+          "سکرین"
+        ],
+        [
+          "teclado",
+          "keyboard",
+          "کیبورڈ"
+        ],
+        [
+          "ratón (informática)",
+          "mouse (computer)",
+          "مااُس"
+        ],
+        [
+          "impresora",
+          "printer",
+          "پرِںٹر"
+        ],
+        [
+          "cámara",
+          "camera",
+          "کےمرا"
+        ],
+        [
+          "micrófono",
+          "microphone",
+          "مااِکروپھون"
+        ]
+      ],
+      "title": "es · en · ur",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Technology and communication",
+    "es": "La tecnología y la comunicación"
+  },
+  "unit": 18
+}

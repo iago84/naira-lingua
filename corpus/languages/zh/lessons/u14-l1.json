@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:adjetivos.bueno",
+    "c:adjetivos.malo",
+    "c:adjetivos.grande",
+    "c:adjetivos.pequeno",
+    "c:adjetivos.largo-alto",
+    "c:adjetivos.bajo-corto",
+    "c:adjetivos.nuevo",
+    "c:adjetivos.viejo-antiguo",
+    "c:adjetivos.joven",
+    "c:adjetivos.viejo-persona",
+    "c:adjetivos.hermoso-bonito",
+    "c:adjetivos.feo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:adjetivos.bueno",
+      "en": "Good.",
+      "es": "bueno",
+      "speaker": "A",
+      "translit": "bù cuò 。",
+      "zh": "不错。"
+    },
+    {
+      "concept": "c:adjetivos.malo",
+      "en": "bad",
+      "es": "malo",
+      "speaker": "B",
+      "translit": "bù hǎo , nǐ lái zhè gàn má ?",
+      "zh": "不好,你来这干嘛?"
+    },
+    {
+      "concept": "c:adjetivos.grande",
+      "en": "large",
+      "es": "grande",
+      "speaker": "A",
+      "translit": "dà kuài",
+      "zh": "大块"
+    },
+    {
+      "concept": "c:adjetivos.pequeno",
+      "en": "small",
+      "es": "pequeño",
+      "speaker": "B",
+      "translit": "xiǎo shù",
+      "zh": "小数"
+    },
+    {
+      "concept": "c:adjetivos.largo-alto",
+      "en": "long / high",
+      "es": "largo / alto",
+      "speaker": "A",
+      "translit": "zhǎng / gāo",
+      "zh": "长/高"
+    },
+    {
+      "concept": "c:adjetivos.bajo-corto",
+      "en": "low / short",
+      "es": "bajo / corto",
+      "speaker": "B",
+      "translit": "dī /  duǎn shù",
+      "zh": "低/ 短数"
+    },
+    {
+      "concept": "c:adjetivos.nuevo",
+      "en": "new",
+      "es": "nuevo",
+      "speaker": "A",
+      "translit": "xīn jiàn ( N)",
+      "zh": "新建( N)"
+    },
+    {
+      "concept": "c:adjetivos.viejo-antiguo",
+      "en": "old / ancient",
+      "es": "viejo / antiguo",
+      "speaker": "B",
+      "translit": "jiù / gǔ",
+      "zh": "旧/古"
+    },
+    {
+      "concept": "c:adjetivos.joven",
+      "en": "young",
+      "es": "joven",
+      "speaker": "A",
+      "translit": "nián qīng",
+      "zh": "年轻"
+    },
+    {
+      "concept": "c:adjetivos.viejo-persona",
+      "en": "old (person)",
+      "es": "viejo (persona)",
+      "speaker": "B",
+      "translit": "jiù (  rén )",
+      "zh": "旧( 人)"
+    },
+    {
+      "concept": "c:adjetivos.hermoso-bonito",
+      "en": "beautiful / pretty",
+      "es": "hermoso / bonito",
+      "speaker": "A",
+      "translit": "měi lì xiàng mào",
+      "zh": "美丽相貌"
+    },
+    {
+      "concept": "c:adjetivos.feo",
+      "en": "ugly",
+      "es": "feo",
+      "speaker": "B",
+      "translit": "chǒu lòu de , nǐ zhè hùn dàn",
+      "zh": "丑陋的,你这混蛋"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "不错。",
+          "answerTranslit": "bù cuò 。",
+          "concept": "c:adjetivos.bueno",
+          "optionTranslit": {
+            "不错。": "bù cuò 。",
+            "低/ 短数": "dī /  duǎn shù",
+            "年轻": "nián qīng",
+            "新建( N)": "xīn jiàn ( N)"
+          },
+          "options": [
+            "年轻",
+            "新建( N)",
+            "低/ 短数",
+            "不错。"
+          ],
+          "prompt": "bueno"
+        },
+        {
+          "answer": "不好,你来这干嘛?",
+          "answerTranslit": "bù hǎo , nǐ lái zhè gàn má ?",
+          "concept": "c:adjetivos.malo",
+          "optionTranslit": {
+            "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+            "低/ 短数": "dī /  duǎn shù",
+            "小数": "xiǎo shù",
+            "新建( N)": "xīn jiàn ( N)"
+          },
+          "options": [
+            "小数",
+            "低/ 短数",
+            "不好,你来这干嘛?",
+            "新建( N)"
+          ],
+          "prompt": "malo"
+        },
+        {
+          "answer": "大块",
+          "answerTranslit": "dà kuài",
+          "concept": "c:adjetivos.grande",
+          "optionTranslit": {
+            "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+            "不错。": "bù cuò 。",
+            "大块": "dà kuài",
+            "长/高": "zhǎng / gāo"
+          },
+          "options": [
+            "长/高",
+            "不错。",
+            "不好,你来这干嘛?",
+            "大块"
+          ],
+          "prompt": "grande"
+        },
+        {
+          "answer": "小数",
+          "answerTranslit": "xiǎo shù",
+          "concept": "c:adjetivos.pequeno",
+          "optionTranslit": {
+            "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+            "小数": "xiǎo shù",
+            "新建( N)": "xīn jiàn ( N)",
+            "旧( 人)": "jiù (  rén )"
+          },
+          "options": [
+            "不好,你来这干嘛?",
+            "小数",
+            "新建( N)",
+            "旧( 人)"
+          ],
+          "prompt": "pequeño"
+        },
+        {
+          "answer": "长/高",
+          "answerTranslit": "zhǎng / gāo",
+          "concept": "c:adjetivos.largo-alto",
+          "optionTranslit": {
+            "不错。": "bù cuò 。",
+            "年轻": "nián qīng",
+            "美丽相貌": "měi lì xiàng mào",
+            "长/高": "zhǎng / gāo"
+          },
+          "options": [
+            "长/高",
+            "不错。",
+            "年轻",
+            "美丽相貌"
+          ],
+          "prompt": "largo / alto"
+        },
+        {
+          "answer": "低/ 短数",
+          "answerTranslit": "dī /  duǎn shù",
+          "concept": "c:adjetivos.bajo-corto",
+          "optionTranslit": {
+            "低/ 短数": "dī /  duǎn shù",
+            "大块": "dà kuài",
+            "旧/古": "jiù / gǔ",
+            "长/高": "zhǎng / gāo"
+          },
+          "options": [
+            "大块",
+            "长/高",
+            "低/ 短数",
+            "旧/古"
+          ],
+          "prompt": "bajo / corto"
+        },
+        {
+          "answer": "新建( N)",
+          "answerTranslit": "xīn jiàn ( N)",
+          "concept": "c:adjetivos.nuevo",
+          "optionTranslit": {
+            "丑陋的,你这混蛋": "chǒu lòu de , nǐ zhè hùn dàn",
+            "低/ 短数": "dī /  duǎn shù",
+            "新建( N)": "xīn jiàn ( N)",
+            "旧( 人)": "jiù (  rén )"
+          },
+          "options": [
+            "旧( 人)",
+            "新建( N)",
+            "丑陋的,你这混蛋",
+            "低/ 短数"
+          ],
+          "prompt": "nuevo"
+        },
+        {
+          "answer": "旧/古",
+          "answerTranslit": "jiù / gǔ",
+          "concept": "c:adjetivos.viejo-antiguo",
+          "optionTranslit": {
+            "不好,你来这干嘛?": "bù hǎo , nǐ lái zhè gàn má ?",
+            "年轻": "nián qīng",
+            "旧/古": "jiù / gǔ",
+            "美丽相貌": "měi lì xiàng mào"
+          },
+          "options": [
+            "不好,你来这干嘛?",
+            "年轻",
+            "旧/古",
+            "美丽相貌"
+          ],
+          "prompt": "viejo / antiguo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Adjectives to describe size, character, state and qualities.",
+    "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u14-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Describe with adjectives",
+      "Give opinions about things and people"
+    ],
+    "es": [
+      "Describir con adjetivos",
+      "Opinar sobre cosas y personas"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "bueno",
+          "Good.",
+          "不错。"
+        ],
+        [
+          "malo",
+          "bad",
+          "不好,你来这干嘛?"
+        ],
+        [
+          "grande",
+          "large",
+          "大块"
+        ],
+        [
+          "pequeño",
+          "small",
+          "小数"
+        ],
+        [
+          "largo / alto",
+          "long / high",
+          "长/高"
+        ],
+        [
+          "bajo / corto",
+          "low / short",
+          "低/ 短数"
+        ],
+        [
+          "nuevo",
+          "new",
+          "新建( N)"
+        ],
+        [
+          "viejo / antiguo",
+          "old / ancient",
+          "旧/古"
+        ],
+        [
+          "joven",
+          "young",
+          "年轻"
+        ],
+        [
+          "viejo (persona)",
+          "old (person)",
+          "旧( 人)"
+        ],
+        [
+          "hermoso / bonito",
+          "beautiful / pretty",
+          "美丽相貌"
+        ],
+        [
+          "feo",
+          "ugly",
+          "丑陋的,你这混蛋"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Adjectives",
+    "es": "Los adjetivos"
+  },
+  "unit": 14
+}

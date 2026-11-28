@@ -17,6 +17,7 @@ export function createDataSource(base = ".", fetchFn = globalThis.fetch) {
     loadConcepts: () => json(`${base}/data/concepts.json`),
     loadTerms: (lang) => json(`${base}/data/terms.${lang}.json`),
     loadLessons: (lang) => json(`${base}/data/lessons.${lang}.json`),
+    loadAlphabets: () => json(`${base}/data/alphabets.json`),
     _cache: cache,
   };
 }

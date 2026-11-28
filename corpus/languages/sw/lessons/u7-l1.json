@@ -19,87 +19,240 @@
       "en": "Home / home",
       "es": "casa / hogar",
       "speaker": "A",
-      "sw": "nyumba / makazi"
+      "sw": "nyumba / makazi",
+      "translit": "nyum-ba"
     },
     {
       "concept": "c:casa-y-hogar.edificio-casa",
       "en": "building / house",
       "es": "edificio / casa",
       "speaker": "B",
-      "sw": "jengo / majengo"
+      "sw": "jengo / majengo",
+      "translit": "jen-go"
     },
     {
       "concept": "c:casa-y-hogar.apartamento",
       "en": "apartment",
       "es": "apartamento",
       "speaker": "A",
-      "sw": "apartamento"
+      "sw": "ghala"
     },
     {
       "concept": "c:casa-y-hogar.habitacion-cuarto",
       "en": "room / bedroom",
       "es": "habitación / cuarto",
       "speaker": "B",
-      "sw": "chumba"
+      "sw": "chumba",
+      "translit": "chum-ba"
     },
     {
       "concept": "c:casa-y-hogar.sala-de-estar",
       "en": "living room",
       "es": "sala de estar",
       "speaker": "A",
-      "sw": "sala"
+      "sw": "sala",
+      "translit": "sala"
     },
     {
       "concept": "c:casa-y-hogar.dormitorio",
       "en": "bedroom",
       "es": "dormitorio",
       "speaker": "B",
-      "sw": "chumba cha kulala"
+      "sw": "chumba cha kulala",
+      "translit": "chum-ba cha ku-la-la"
     },
     {
       "concept": "c:casa-y-hogar.cocina-habitacion",
       "en": "kitchen (room)",
       "es": "cocina (habitación)",
       "speaker": "A",
-      "sw": "jikoni"
+      "sw": "jikoni",
+      "translit": "ji-ko-ni"
     },
     {
       "concept": "c:casa-y-hogar.bano",
       "en": "bathroom",
       "es": "baño",
       "speaker": "B",
-      "sw": "bafu / choo"
+      "sw": "bafu / choo",
+      "translit": "ba-fu"
     },
     {
       "concept": "c:casa-y-hogar.inodoro-lavabo",
       "en": "toilet / sink",
       "es": "inodoro / lavabo",
       "speaker": "A",
-      "sw": "inodoro"
+      "sw": "choo"
     },
     {
       "concept": "c:casa-y-hogar.balcon",
       "en": "balcony",
       "es": "balcón",
       "speaker": "B",
-      "sw": "roshani / balcony"
+      "sw": "roshani / balcony",
+      "translit": "ro-sha-ni"
     },
     {
       "concept": "c:casa-y-hogar.techo-azotea",
       "en": "roof / rooftop",
       "es": "techo / azotea",
       "speaker": "A",
-      "sw": "techo"
+      "sw": "paa"
     },
     {
       "concept": "c:casa-y-hogar.pared",
       "en": "wall",
       "es": "pared",
       "speaker": "B",
-      "sw": "ukuta"
+      "sw": "ukuta",
+      "translit": "u-ku-ta"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "nyumba / makazi",
+          "answerTranslit": "nyum-ba",
+          "concept": "c:casa-y-hogar.casa-hogar",
+          "optionTranslit": {
+            "nyumba / makazi": "nyum-ba",
+            "sala": "sala"
+          },
+          "options": [
+            "paa",
+            "sala",
+            "ghala",
+            "nyumba / makazi"
+          ],
+          "prompt": "casa / hogar"
+        },
+        {
+          "answer": "jengo / majengo",
+          "answerTranslit": "jen-go",
+          "concept": "c:casa-y-hogar.edificio-casa",
+          "optionTranslit": {
+            "chumba": "chum-ba",
+            "jengo / majengo": "jen-go",
+            "roshani / balcony": "ro-sha-ni"
+          },
+          "options": [
+            "choo",
+            "jengo / majengo",
+            "chumba",
+            "roshani / balcony"
+          ],
+          "prompt": "edificio / casa"
+        },
+        {
+          "answer": "ghala",
+          "concept": "c:casa-y-hogar.apartamento",
+          "optionTranslit": {
+            "chumba cha kulala": "chum-ba cha ku-la-la",
+            "nyumba / makazi": "nyum-ba"
+          },
+          "options": [
+            "chumba cha kulala",
+            "ghala",
+            "paa",
+            "nyumba / makazi"
+          ],
+          "prompt": "apartamento"
+        },
+        {
+          "answer": "chumba",
+          "answerTranslit": "chum-ba",
+          "concept": "c:casa-y-hogar.habitacion-cuarto",
+          "optionTranslit": {
+            "bafu / choo": "ba-fu",
+            "chumba": "chum-ba",
+            "sala": "sala",
+            "ukuta": "u-ku-ta"
+          },
+          "options": [
+            "chumba",
+            "ukuta",
+            "sala",
+            "bafu / choo"
+          ],
+          "prompt": "habitación / cuarto"
+        },
+        {
+          "answer": "sala",
+          "answerTranslit": "sala",
+          "concept": "c:casa-y-hogar.sala-de-estar",
+          "optionTranslit": {
+            "chumba cha kulala": "chum-ba cha ku-la-la",
+            "sala": "sala",
+            "ukuta": "u-ku-ta"
+          },
+          "options": [
+            "choo",
+            "chumba cha kulala",
+            "ukuta",
+            "sala"
+          ],
+          "prompt": "sala de estar"
+        },
+        {
+          "answer": "chumba cha kulala",
+          "answerTranslit": "chum-ba cha ku-la-la",
+          "concept": "c:casa-y-hogar.dormitorio",
+          "optionTranslit": {
+            "bafu / choo": "ba-fu",
+            "chumba cha kulala": "chum-ba cha ku-la-la",
+            "ukuta": "u-ku-ta"
+          },
+          "options": [
+            "chumba cha kulala",
+            "ghala",
+            "bafu / choo",
+            "ukuta"
+          ],
+          "prompt": "dormitorio"
+        },
+        {
+          "answer": "jikoni",
+          "answerTranslit": "ji-ko-ni",
+          "concept": "c:casa-y-hogar.cocina-habitacion",
+          "optionTranslit": {
+            "chumba": "chum-ba",
+            "jikoni": "ji-ko-ni",
+            "roshani / balcony": "ro-sha-ni"
+          },
+          "options": [
+            "paa",
+            "jikoni",
+            "roshani / balcony",
+            "chumba"
+          ],
+          "prompt": "cocina (habitación)"
+        },
+        {
+          "answer": "bafu / choo",
+          "answerTranslit": "ba-fu",
+          "concept": "c:casa-y-hogar.bano",
+          "optionTranslit": {
+            "bafu / choo": "ba-fu",
+            "sala": "sala",
+            "ukuta": "u-ku-ta"
+          },
+          "options": [
+            "bafu / choo",
+            "ukuta",
+            "sala",
+            "paa"
+          ],
+          "prompt": "baño"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "House vocabulary: rooms, furniture and everyday objects.",
     "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
@@ -139,7 +292,7 @@
         [
           "apartamento",
           "apartment",
-          "apartamento"
+          "ghala"
         ],
         [
           "habitación / cuarto",
@@ -169,7 +322,7 @@
         [
           "inodoro / lavabo",
           "toilet / sink",
-          "inodoro"
+          "choo"
         ],
         [
           "balcón",
@@ -179,7 +332,7 @@
         [
           "techo / azotea",
           "roof / rooftop",
-          "techo"
+          "paa"
         ],
         [
           "pared",

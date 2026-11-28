@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:naturaleza-y-clima.naturaleza",
+    "c:naturaleza-y-clima.arbol",
+    "c:naturaleza-y-clima.planta",
+    "c:naturaleza-y-clima.flor",
+    "c:naturaleza-y-clima.hoja",
+    "c:naturaleza-y-clima.raiz",
+    "c:naturaleza-y-clima.rama",
+    "c:naturaleza-y-clima.tronco-tallo",
+    "c:naturaleza-y-clima.semilla",
+    "c:naturaleza-y-clima.hierba-cesped",
+    "c:naturaleza-y-clima.bosque-selva",
+    "c:naturaleza-y-clima.montana"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:naturaleza-y-clima.naturaleza",
+      "en": "nature",
+      "es": "naturaleza",
+      "speaker": "A",
+      "translit": "prakṛti",
+      "ur": "پرکرتِ"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.arbol",
+      "en": "tree",
+      "es": "árbol",
+      "speaker": "B",
+      "translit": "darakht / ped",
+      "ur": "درخت / پیڑ"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.planta",
+      "en": "plant",
+      "es": "planta",
+      "speaker": "A",
+      "translit": "paudhā",
+      "ur": "پودھا"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.flor",
+      "en": "flower",
+      "es": "flor",
+      "speaker": "B",
+      "translit": "phool",
+      "ur": "پھول"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.hoja",
+      "en": "leaf",
+      "es": "hoja",
+      "speaker": "A",
+      "translit": "pattā",
+      "ur": "پتتا"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.raiz",
+      "en": "root",
+      "es": "raíz",
+      "speaker": "B",
+      "translit": "jaṛ",
+      "ur": "جڈ"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.rama",
+      "en": "branch",
+      "es": "rama",
+      "speaker": "A",
+      "translit": "ḍālī",
+      "ur": "ڈالی"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.tronco-tallo",
+      "en": "trunk / stem",
+      "es": "tronco / tallo",
+      "speaker": "B",
+      "translit": "tanā",
+      "ur": "تنا"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.semilla",
+      "en": "seed",
+      "es": "semilla",
+      "speaker": "A",
+      "translit": "bīj",
+      "ur": "بیج"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.hierba-cesped",
+      "en": "grass / lawn",
+      "es": "hierba / césped",
+      "speaker": "B",
+      "translit": "ghās",
+      "ur": "گھاس"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.bosque-selva",
+      "en": "forest / jungle",
+      "es": "bosque / selva",
+      "speaker": "A",
+      "translit": "jaṅgal",
+      "ur": "جںگل — bosque / selva"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.montana",
+      "en": "mountain",
+      "es": "montaña",
+      "speaker": "B",
+      "translit": "pahāṛ",
+      "ur": "پہاڈ — montaña"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "پرکرتِ",
+          "answerTranslit": "prakṛti",
+          "concept": "c:naturaleza-y-clima.naturaleza",
+          "optionTranslit": {
+            "بیج": "bīj",
+            "جڈ": "jaṛ",
+            "پرکرتِ": "prakṛti",
+            "پودھا": "paudhā"
+          },
+          "options": [
+            "پرکرتِ",
+            "بیج",
+            "پودھا",
+            "جڈ"
+          ],
+          "prompt": "naturaleza"
+        },
+        {
+          "answer": "درخت / پیڑ",
+          "answerTranslit": "darakht / ped",
+          "concept": "c:naturaleza-y-clima.arbol",
+          "optionTranslit": {
+            "درخت / پیڑ": "darakht / ped",
+            "پرکرتِ": "prakṛti",
+            "پہاڈ — montaña": "pahāṛ",
+            "ڈالی": "ḍālī"
+          },
+          "options": [
+            "پہاڈ — montaña",
+            "درخت / پیڑ",
+            "پرکرتِ",
+            "ڈالی"
+          ],
+          "prompt": "árbol"
+        },
+        {
+          "answer": "پودھا",
+          "answerTranslit": "paudhā",
+          "concept": "c:naturaleza-y-clima.planta",
+          "optionTranslit": {
+            "بیج": "bīj",
+            "درخت / پیڑ": "darakht / ped",
+            "پودھا": "paudhā",
+            "گھاس": "ghās"
+          },
+          "options": [
+            "گھاس",
+            "درخت / پیڑ",
+            "بیج",
+            "پودھا"
+          ],
+          "prompt": "planta"
+        },
+        {
+          "answer": "پھول",
+          "answerTranslit": "phool",
+          "concept": "c:naturaleza-y-clima.flor",
+          "optionTranslit": {
+            "تنا": "tanā",
+            "جںگل — bosque / selva": "jaṅgal",
+            "پھول": "phool",
+            "ڈالی": "ḍālī"
+          },
+          "options": [
+            "ڈالی",
+            "تنا",
+            "جںگل — bosque / selva",
+            "پھول"
+          ],
+          "prompt": "flor"
+        },
+        {
+          "answer": "پتتا",
+          "answerTranslit": "pattā",
+          "concept": "c:naturaleza-y-clima.hoja",
+          "optionTranslit": {
+            "بیج": "bīj",
+            "درخت / پیڑ": "darakht / ped",
+            "پتتا": "pattā",
+            "گھاس": "ghās"
+          },
+          "options": [
+            "پتتا",
+            "درخت / پیڑ",
+            "بیج",
+            "گھاس"
+          ],
+          "prompt": "hoja"
+        },
+        {
+          "answer": "جڈ",
+          "answerTranslit": "jaṛ",
+          "concept": "c:naturaleza-y-clima.raiz",
+          "optionTranslit": {
+            "تنا": "tanā",
+            "جڈ": "jaṛ",
+            "پھول": "phool",
+            "ڈالی": "ḍālī"
+          },
+          "options": [
+            "تنا",
+            "پھول",
+            "ڈالی",
+            "جڈ"
+          ],
+          "prompt": "raíz"
+        },
+        {
+          "answer": "ڈالی",
+          "answerTranslit": "ḍālī",
+          "concept": "c:naturaleza-y-clima.rama",
+          "optionTranslit": {
+            "پتتا": "pattā",
+            "پودھا": "paudhā",
+            "ڈالی": "ḍālī",
+            "گھاس": "ghās"
+          },
+          "options": [
+            "پتتا",
+            "ڈالی",
+            "گھاس",
+            "پودھا"
+          ],
+          "prompt": "rama"
+        },
+        {
+          "answer": "تنا",
+          "answerTranslit": "tanā",
+          "concept": "c:naturaleza-y-clima.tronco-tallo",
+          "optionTranslit": {
+            "بیج": "bīj",
+            "تنا": "tanā",
+            "پتتا": "pattā",
+            "گھاس": "ghās"
+          },
+          "options": [
+            "تنا",
+            "پتتا",
+            "بیج",
+            "گھاس"
+          ],
+          "prompt": "tronco / tallo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Nature, landscapes and weather to talk about the environment.",
+    "es": "Naturaleza, paisajes y clima para hablar del entorno."
+  },
+  "generator": "build_lessons",
+  "id": "ur-u19-l1",
+  "lang": "ur",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name natural elements",
+      "Talk about weather and seasons"
+    ],
+    "es": [
+      "Nombrar elementos naturales",
+      "Hablar del tiempo y las estaciones"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ur"
+      ],
+      "rows": [
+        [
+          "naturaleza",
+          "nature",
+          "پرکرتِ"
+        ],
+        [
+          "árbol",
+          "tree",
+          "درخت / پیڑ"
+        ],
+        [
+          "planta",
+          "plant",
+          "پودھا"
+        ],
+        [
+          "flor",
+          "flower",
+          "پھول"
+        ],
+        [
+          "hoja",
+          "leaf",
+          "پتتا"
+        ],
+        [
+          "raíz",
+          "root",
+          "جڈ"
+        ],
+        [
+          "rama",
+          "branch",
+          "ڈالی"
+        ],
+        [
+          "tronco / tallo",
+          "trunk / stem",
+          "تنا"
+        ],
+        [
+          "semilla",
+          "seed",
+          "بیج"
+        ],
+        [
+          "hierba / césped",
+          "grass / lawn",
+          "گھاس"
+        ],
+        [
+          "bosque / selva",
+          "forest / jungle",
+          "جںگل — bosque / selva"
+        ],
+        [
+          "montaña",
+          "mountain",
+          "پہاڈ — montaña"
+        ]
+      ],
+      "title": "es · en · ur",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Nature and weather",
+    "es": "La naturaleza y el clima"
+  },
+  "unit": 19
+}

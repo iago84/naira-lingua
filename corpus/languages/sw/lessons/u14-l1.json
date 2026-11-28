@@ -1,0 +1,306 @@
+{
+  "concepts": [
+    "c:adjetivos.bueno",
+    "c:adjetivos.malo",
+    "c:adjetivos.grande",
+    "c:adjetivos.pequeno",
+    "c:adjetivos.largo-alto",
+    "c:adjetivos.bajo-corto",
+    "c:adjetivos.nuevo",
+    "c:adjetivos.viejo-antiguo",
+    "c:adjetivos.joven",
+    "c:adjetivos.viejo-persona",
+    "c:adjetivos.hermoso-bonito",
+    "c:adjetivos.feo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:adjetivos.bueno",
+      "en": "Good.",
+      "es": "bueno",
+      "speaker": "A",
+      "sw": "nzuri"
+    },
+    {
+      "concept": "c:adjetivos.malo",
+      "en": "bad",
+      "es": "malo",
+      "speaker": "B",
+      "sw": "mbaya"
+    },
+    {
+      "concept": "c:adjetivos.grande",
+      "en": "large",
+      "es": "grande",
+      "speaker": "A",
+      "sw": "mkubwa"
+    },
+    {
+      "concept": "c:adjetivos.pequeno",
+      "en": "small",
+      "es": "pequeño",
+      "speaker": "B",
+      "sw": "ndogo"
+    },
+    {
+      "concept": "c:adjetivos.largo-alto",
+      "en": "long / high",
+      "es": "largo / alto",
+      "speaker": "A",
+      "sw": "mrefu"
+    },
+    {
+      "concept": "c:adjetivos.bajo-corto",
+      "en": "low / short",
+      "es": "bajo / corto",
+      "speaker": "B",
+      "sw": "mfupi"
+    },
+    {
+      "concept": "c:adjetivos.nuevo",
+      "en": "new",
+      "es": "nuevo",
+      "speaker": "A",
+      "sw": "mpya"
+    },
+    {
+      "concept": "c:adjetivos.viejo-antiguo",
+      "en": "old / ancient",
+      "es": "viejo / antiguo",
+      "speaker": "B",
+      "sw": "zamani"
+    },
+    {
+      "concept": "c:adjetivos.joven",
+      "en": "young",
+      "es": "joven",
+      "speaker": "A",
+      "sw": "kijana"
+    },
+    {
+      "concept": "c:adjetivos.viejo-persona",
+      "en": "old (person)",
+      "es": "viejo (persona)",
+      "speaker": "B",
+      "sw": "chakavu / iliyotumika",
+      "translit": "cha-ka-vu"
+    },
+    {
+      "concept": "c:adjetivos.hermoso-bonito",
+      "en": "beautiful / pretty",
+      "es": "hermoso / bonito",
+      "speaker": "A",
+      "sw": "mzuri"
+    },
+    {
+      "concept": "c:adjetivos.feo",
+      "en": "ugly",
+      "es": "feo",
+      "speaker": "B",
+      "sw": "mbaya / kibaya",
+      "translit": "mba-ya"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "nzuri",
+          "concept": "c:adjetivos.bueno",
+          "options": [
+            "kijana",
+            "mpya",
+            "mfupi",
+            "nzuri"
+          ],
+          "prompt": "bueno"
+        },
+        {
+          "answer": "mbaya",
+          "concept": "c:adjetivos.malo",
+          "options": [
+            "ndogo",
+            "mfupi",
+            "mbaya",
+            "mpya"
+          ],
+          "prompt": "malo"
+        },
+        {
+          "answer": "mkubwa",
+          "concept": "c:adjetivos.grande",
+          "options": [
+            "mrefu",
+            "nzuri",
+            "mbaya",
+            "mkubwa"
+          ],
+          "prompt": "grande"
+        },
+        {
+          "answer": "ndogo",
+          "concept": "c:adjetivos.pequeno",
+          "optionTranslit": {
+            "chakavu / iliyotumika": "cha-ka-vu"
+          },
+          "options": [
+            "mbaya",
+            "ndogo",
+            "mpya",
+            "chakavu / iliyotumika"
+          ],
+          "prompt": "pequeño"
+        },
+        {
+          "answer": "mrefu",
+          "concept": "c:adjetivos.largo-alto",
+          "options": [
+            "mrefu",
+            "nzuri",
+            "kijana",
+            "mzuri"
+          ],
+          "prompt": "largo / alto"
+        },
+        {
+          "answer": "mfupi",
+          "concept": "c:adjetivos.bajo-corto",
+          "options": [
+            "mkubwa",
+            "mrefu",
+            "mfupi",
+            "zamani"
+          ],
+          "prompt": "bajo / corto"
+        },
+        {
+          "answer": "mpya",
+          "concept": "c:adjetivos.nuevo",
+          "optionTranslit": {
+            "chakavu / iliyotumika": "cha-ka-vu",
+            "mbaya / kibaya": "mba-ya"
+          },
+          "options": [
+            "chakavu / iliyotumika",
+            "mpya",
+            "mbaya / kibaya",
+            "mfupi"
+          ],
+          "prompt": "nuevo"
+        },
+        {
+          "answer": "zamani",
+          "concept": "c:adjetivos.viejo-antiguo",
+          "options": [
+            "mbaya",
+            "kijana",
+            "zamani",
+            "mzuri"
+          ],
+          "prompt": "viejo / antiguo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Adjectives to describe size, character, state and qualities.",
+    "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u14-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Describe with adjectives",
+      "Give opinions about things and people"
+    ],
+    "es": [
+      "Describir con adjetivos",
+      "Opinar sobre cosas y personas"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "bueno",
+          "Good.",
+          "nzuri"
+        ],
+        [
+          "malo",
+          "bad",
+          "mbaya"
+        ],
+        [
+          "grande",
+          "large",
+          "mkubwa"
+        ],
+        [
+          "pequeño",
+          "small",
+          "ndogo"
+        ],
+        [
+          "largo / alto",
+          "long / high",
+          "mrefu"
+        ],
+        [
+          "bajo / corto",
+          "low / short",
+          "mfupi"
+        ],
+        [
+          "nuevo",
+          "new",
+          "mpya"
+        ],
+        [
+          "viejo / antiguo",
+          "old / ancient",
+          "zamani"
+        ],
+        [
+          "joven",
+          "young",
+          "kijana"
+        ],
+        [
+          "viejo (persona)",
+          "old (person)",
+          "chakavu / iliyotumika"
+        ],
+        [
+          "hermoso / bonito",
+          "beautiful / pretty",
+          "mzuri"
+        ],
+        [
+          "feo",
+          "ugly",
+          "mbaya / kibaya"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Adjectives",
+    "es": "Los adjetivos"
+  },
+  "unit": 14
+}

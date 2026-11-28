@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:verbos-comunes.ser-estar-haber",
+    "c:verbos-comunes.hacer",
+    "c:verbos-comunes.ir",
+    "c:verbos-comunes.venir",
+    "c:verbos-comunes.ver-mirar",
+    "c:verbos-comunes.oir-escuchar",
+    "c:verbos-comunes.hablar-decir",
+    "c:verbos-comunes.decir",
+    "c:verbos-comunes.preguntar",
+    "c:verbos-comunes.contar-explicar",
+    "c:verbos-comunes.entender-comprender",
+    "c:verbos-comunes.saber-conocer"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:verbos-comunes.ser-estar-haber",
+      "en": "be / are",
+      "es": "ser / estar / haber",
+      "pt": "ser / são",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.hacer",
+      "en": "do",
+      "es": "hacer",
+      "pt": "fazer",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:verbos-comunes.ir",
+      "en": "go",
+      "es": "ir",
+      "pt": "Vai.",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.venir",
+      "en": "Come",
+      "es": "venir",
+      "pt": "Vem.",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:verbos-comunes.ver-mirar",
+      "en": "see / watch",
+      "es": "ver / mirar",
+      "pt": "ver / observar",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.oir-escuchar",
+      "en": "hear / listen",
+      "es": "oír / escuchar",
+      "pt": "ouvir / ouvir",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:verbos-comunes.hablar-decir",
+      "en": "speak / say",
+      "es": "hablar / decir",
+      "pt": "falar / dizer",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.decir",
+      "en": "say",
+      "es": "decir",
+      "pt": "dizer",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:verbos-comunes.preguntar",
+      "en": "ask",
+      "es": "preguntar",
+      "pt": "perguntar",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.contar-explicar",
+      "en": "count / explain",
+      "es": "contar / explicar",
+      "pt": "contagem/explicação",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:verbos-comunes.entender-comprender",
+      "en": "understand / comprehend",
+      "es": "entender / comprender",
+      "pt": "compreender/compreender",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:verbos-comunes.saber-conocer",
+      "en": "know / understand",
+      "es": "saber / conocer",
+      "pt": "saber / entender",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "ser / são",
+          "concept": "c:verbos-comunes.ser-estar-haber",
+          "options": [
+            "ser / são",
+            "ver / observar",
+            "Vem.",
+            "perguntar"
+          ],
+          "prompt": "ser / estar / haber"
+        },
+        {
+          "answer": "fazer",
+          "concept": "c:verbos-comunes.hacer",
+          "options": [
+            "ver / observar",
+            "fazer",
+            "contagem/explicação",
+            "dizer"
+          ],
+          "prompt": "hacer"
+        },
+        {
+          "answer": "Vai.",
+          "concept": "c:verbos-comunes.ir",
+          "options": [
+            "Vai.",
+            "ser / são",
+            "compreender/compreender",
+            "Vem."
+          ],
+          "prompt": "ir"
+        },
+        {
+          "answer": "Vem.",
+          "concept": "c:verbos-comunes.venir",
+          "options": [
+            "dizer",
+            "Vem.",
+            "compreender/compreender",
+            "ver / observar"
+          ],
+          "prompt": "venir"
+        },
+        {
+          "answer": "ver / observar",
+          "concept": "c:verbos-comunes.ver-mirar",
+          "options": [
+            "ver / observar",
+            "falar / dizer",
+            "saber / entender",
+            "Vai."
+          ],
+          "prompt": "ver / mirar"
+        },
+        {
+          "answer": "ouvir / ouvir",
+          "concept": "c:verbos-comunes.oir-escuchar",
+          "options": [
+            "ouvir / ouvir",
+            "perguntar",
+            "contagem/explicação",
+            "compreender/compreender"
+          ],
+          "prompt": "oír / escuchar"
+        },
+        {
+          "answer": "falar / dizer",
+          "concept": "c:verbos-comunes.hablar-decir",
+          "options": [
+            "compreender/compreender",
+            "falar / dizer",
+            "ser / são",
+            "saber / entender"
+          ],
+          "prompt": "hablar / decir"
+        },
+        {
+          "answer": "dizer",
+          "concept": "c:verbos-comunes.decir",
+          "options": [
+            "Vai.",
+            "fazer",
+            "ver / observar",
+            "dizer"
+          ],
+          "prompt": "decir"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "The most frequent verbs, the base for building sentences.",
+    "es": "Los verbos más frecuentes, la base para formar frases."
+  },
+  "generator": "build_lessons",
+  "id": "pt-u13-l1",
+  "lang": "pt",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Recognise the most common verbs",
+      "Name everyday actions"
+    ],
+    "es": [
+      "Reconocer los verbos más usados",
+      "Nombrar acciones del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "pt"
+      ],
+      "rows": [
+        [
+          "ser / estar / haber",
+          "be / are",
+          "ser / são"
+        ],
+        [
+          "hacer",
+          "do",
+          "fazer"
+        ],
+        [
+          "ir",
+          "go",
+          "Vai."
+        ],
+        [
+          "venir",
+          "Come",
+          "Vem."
+        ],
+        [
+          "ver / mirar",
+          "see / watch",
+          "ver / observar"
+        ],
+        [
+          "oír / escuchar",
+          "hear / listen",
+          "ouvir / ouvir"
+        ],
+        [
+          "hablar / decir",
+          "speak / say",
+          "falar / dizer"
+        ],
+        [
+          "decir",
+          "say",
+          "dizer"
+        ],
+        [
+          "preguntar",
+          "ask",
+          "perguntar"
+        ],
+        [
+          "contar / explicar",
+          "count / explain",
+          "contagem/explicação"
+        ],
+        [
+          "entender / comprender",
+          "understand / comprehend",
+          "compreender/compreender"
+        ],
+        [
+          "saber / conocer",
+          "know / understand",
+          "saber / entender"
+        ]
+      ],
+      "title": "es · en · pt",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Common verbs",
+    "es": "Los verbos comunes"
+  },
+  "unit": 13
+}

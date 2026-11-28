@@ -6,6 +6,7 @@ const MODES = [
   ["study", "nav.study", "🃏"],
   ["quiz", "nav.quiz", "❓"],
   ["lessons", "nav.lessons", "📖"],
+  ["alphabet", "nav.alphabet", "🔤"],
   ["dictionary", "nav.dictionary", "🔎"],
   ["progress", "nav.progress", "📈"],
 ];

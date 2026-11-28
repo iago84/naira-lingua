@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:educacion-y-aprendizaje.educacion",
+    "c:educacion-y-aprendizaje.escuela",
+    "c:educacion-y-aprendizaje.clase-aula-grado",
+    "c:educacion-y-aprendizaje.leccion",
+    "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+    "c:educacion-y-aprendizaje.materia-tema-asunto",
+    "c:educacion-y-aprendizaje.matematicas",
+    "c:educacion-y-aprendizaje.ciencia",
+    "c:educacion-y-aprendizaje.historia",
+    "c:educacion-y-aprendizaje.geografia",
+    "c:educacion-y-aprendizaje.literatura",
+    "c:educacion-y-aprendizaje.idioma-lengua"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:educacion-y-aprendizaje.educacion",
+      "en": "education",
+      "es": "educación",
+      "speaker": "A",
+      "translit": "jiào yù",
+      "zh": "教育"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.escuela",
+      "en": "school",
+      "es": "escuela",
+      "speaker": "B",
+      "translit": "xué xiào",
+      "zh": "学校"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+      "en": "class / classroom",
+      "es": "clase / aula / grado",
+      "speaker": "A",
+      "translit": "bān jí / jiào shì",
+      "zh": "班级/教室"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.leccion",
+      "en": "lesson",
+      "es": "lección",
+      "speaker": "B",
+      "translit": "kè chéng",
+      "zh": "课程"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "en": "curriculum / course",
+      "es": "plan de estudios / curso",
+      "speaker": "A",
+      "translit": "kè chéng / kè chéng",
+      "zh": "课程/课程"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "en": "subject / topic",
+      "es": "materia / tema / asunto",
+      "speaker": "B",
+      "translit": "zhǔ tí / zhuān tí",
+      "zh": "主题/专题"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.matematicas",
+      "en": "mathematics",
+      "es": "matemáticas",
+      "speaker": "A",
+      "translit": "shù xué",
+      "zh": "数学"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.ciencia",
+      "en": "science",
+      "es": "ciencia",
+      "speaker": "B",
+      "translit": "kē xué",
+      "zh": "科学"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.historia",
+      "en": "history",
+      "es": "historia",
+      "speaker": "A",
+      "translit": "lì shǐ",
+      "zh": "历史"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.geografia",
+      "en": "geography",
+      "es": "geografía",
+      "speaker": "B",
+      "translit": "dì lǐ qíng kuàng",
+      "zh": "地理情况"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.literatura",
+      "en": "literature",
+      "es": "literatura",
+      "speaker": "A",
+      "translit": "wén xiàn",
+      "zh": "文献"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+      "en": "language / tongue",
+      "es": "idioma / lengua",
+      "speaker": "B",
+      "translit": "yǔ yán / shé tou",
+      "zh": "语言/舌头"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "教育",
+          "answerTranslit": "jiào yù",
+          "concept": "c:educacion-y-aprendizaje.educacion",
+          "optionTranslit": {
+            "主题/专题": "zhǔ tí / zhuān tí",
+            "教育": "jiào yù",
+            "语言/舌头": "yǔ yán / shé tou",
+            "课程/课程": "kè chéng / kè chéng"
+          },
+          "options": [
+            "主题/专题",
+            "课程/课程",
+            "语言/舌头",
+            "教育"
+          ],
+          "prompt": "educación"
+        },
+        {
+          "answer": "学校",
+          "answerTranslit": "xué xiào",
+          "concept": "c:educacion-y-aprendizaje.escuela",
+          "optionTranslit": {
+            "主题/专题": "zhǔ tí / zhuān tí",
+            "地理情况": "dì lǐ qíng kuàng",
+            "学校": "xué xiào",
+            "数学": "shù xué"
+          },
+          "options": [
+            "主题/专题",
+            "地理情况",
+            "数学",
+            "学校"
+          ],
+          "prompt": "escuela"
+        },
+        {
+          "answer": "班级/教室",
+          "answerTranslit": "bān jí / jiào shì",
+          "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+          "optionTranslit": {
+            "主题/专题": "zhǔ tí / zhuān tí",
+            "历史": "lì shǐ",
+            "地理情况": "dì lǐ qíng kuàng",
+            "班级/教室": "bān jí / jiào shì"
+          },
+          "options": [
+            "主题/专题",
+            "地理情况",
+            "历史",
+            "班级/教室"
+          ],
+          "prompt": "clase / aula / grado"
+        },
+        {
+          "answer": "课程",
+          "answerTranslit": "kè chéng",
+          "concept": "c:educacion-y-aprendizaje.leccion",
+          "optionTranslit": {
+            "主题/专题": "zhǔ tí / zhuān tí",
+            "历史": "lì shǐ",
+            "语言/舌头": "yǔ yán / shé tou",
+            "课程": "kè chéng"
+          },
+          "options": [
+            "历史",
+            "语言/舌头",
+            "主题/专题",
+            "课程"
+          ],
+          "prompt": "lección"
+        },
+        {
+          "answer": "课程/课程",
+          "answerTranslit": "kè chéng / kè chéng",
+          "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+          "optionTranslit": {
+            "地理情况": "dì lǐ qíng kuàng",
+            "学校": "xué xiào",
+            "数学": "shù xué",
+            "课程/课程": "kè chéng / kè chéng"
+          },
+          "options": [
+            "学校",
+            "地理情况",
+            "数学",
+            "课程/课程"
+          ],
+          "prompt": "plan de estudios / curso"
+        },
+        {
+          "answer": "主题/专题",
+          "answerTranslit": "zhǔ tí / zhuān tí",
+          "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+          "optionTranslit": {
+            "主题/专题": "zhǔ tí / zhuān tí",
+            "地理情况": "dì lǐ qíng kuàng",
+            "学校": "xué xiào",
+            "文献": "wén xiàn"
+          },
+          "options": [
+            "主题/专题",
+            "学校",
+            "地理情况",
+            "文献"
+          ],
+          "prompt": "materia / tema / asunto"
+        },
+        {
+          "answer": "数学",
+          "answerTranslit": "shù xué",
+          "concept": "c:educacion-y-aprendizaje.matematicas",
+          "optionTranslit": {
+            "地理情况": "dì lǐ qíng kuàng",
+            "学校": "xué xiào",
+            "数学": "shù xué",
+            "语言/舌头": "yǔ yán / shé tou"
+          },
+          "options": [
+            "语言/舌头",
+            "地理情况",
+            "数学",
+            "学校"
+          ],
+          "prompt": "matemáticas"
+        },
+        {
+          "answer": "科学",
+          "answerTranslit": "kē xué",
+          "concept": "c:educacion-y-aprendizaje.ciencia",
+          "optionTranslit": {
+            "教育": "jiào yù",
+            "数学": "shù xué",
+            "科学": "kē xué",
+            "语言/舌头": "yǔ yán / shé tou"
+          },
+          "options": [
+            "教育",
+            "数学",
+            "语言/舌头",
+            "科学"
+          ],
+          "prompt": "ciencia"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Words from school and learning.",
+    "es": "Palabras de la escuela y del aprendizaje."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u17-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Talk about studies",
+      "Name school and its objects"
+    ],
+    "es": [
+      "Hablar de estudios",
+      "Nombrar la escuela y sus objetos"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "educación",
+          "education",
+          "教育"
+        ],
+        [
+          "escuela",
+          "school",
+          "学校"
+        ],
+        [
+          "clase / aula / grado",
+          "class / classroom",
+          "班级/教室"
+        ],
+        [
+          "lección",
+          "lesson",
+          "课程"
+        ],
+        [
+          "plan de estudios / curso",
+          "curriculum / course",
+          "课程/课程"
+        ],
+        [
+          "materia / tema / asunto",
+          "subject / topic",
+          "主题/专题"
+        ],
+        [
+          "matemáticas",
+          "mathematics",
+          "数学"
+        ],
+        [
+          "ciencia",
+          "science",
+          "科学"
+        ],
+        [
+          "historia",
+          "history",
+          "历史"
+        ],
+        [
+          "geografía",
+          "geography",
+          "地理情况"
+        ],
+        [
+          "literatura",
+          "literature",
+          "文献"
+        ],
+        [
+          "idioma / lengua",
+          "language / tongue",
+          "语言/舌头"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Education and learning",
+    "es": "La educación y el aprendizaje"
+  },
+  "unit": 17
+}

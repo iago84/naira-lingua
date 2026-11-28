@@ -99,9 +99,106 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Kleidung",
+          "concept": "c:ropa-y-accesorios.ropa",
+          "options": [
+            "Jeans/Jans",
+            "Dress up",
+            "T-Shirt",
+            "Kleidung"
+          ],
+          "prompt": "ropa"
+        },
+        {
+          "answer": "Heft",
+          "concept": "c:ropa-y-accesorios.camisa",
+          "options": [
+            "Heft",
+            "Kurzhose",
+            "Pyjama",
+            "Dress up"
+          ],
+          "prompt": "camisa"
+        },
+        {
+          "answer": "T-Shirt",
+          "concept": "c:ropa-y-accesorios.camiseta",
+          "options": [
+            "T-Shirt",
+            "Pyjama",
+            "Dress up",
+            "kurta"
+          ],
+          "prompt": "camiseta"
+        },
+        {
+          "answer": "Hose",
+          "concept": "c:ropa-y-accesorios.pantalon",
+          "options": [
+            "Kleidung",
+            "Hose",
+            "Pyjama",
+            "Salwar Kameez"
+          ],
+          "prompt": "pantalón"
+        },
+        {
+          "answer": "Jeans/Jans",
+          "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+          "options": [
+            "Sari",
+            "T-Shirt",
+            "Jeans/Jans",
+            "Zwerchfell"
+          ],
+          "prompt": "vaqueros / jeans"
+        },
+        {
+          "answer": "Kurzhose",
+          "concept": "c:ropa-y-accesorios.pantalones-cortos",
+          "options": [
+            "T-Shirt",
+            "Kurzhose",
+            "Hose",
+            "kurta"
+          ],
+          "prompt": "pantalones cortos"
+        },
+        {
+          "answer": "Zwerchfell",
+          "concept": "c:ropa-y-accesorios.falda",
+          "options": [
+            "Zwerchfell",
+            "Dress up",
+            "Sari",
+            "Kleidung"
+          ],
+          "prompt": "falda"
+        },
+        {
+          "answer": "Dress up",
+          "concept": "c:ropa-y-accesorios.vestido",
+          "options": [
+            "Kleidung",
+            "Dress up",
+            "Pyjama",
+            "Hose"
+          ],
+          "prompt": "vestido"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
-    "de": "Stifte und Accessoires, mit nützlichen Worten zum Kauf von Kleidung.",
     "en": "Clothes and accessories, with words useful for clothes shopping.",
     "es": "Prendas y accesorios, con palabras útiles para comprar ropa."
   },
@@ -110,10 +207,6 @@
   "lang": "de",
   "lesson": 1,
   "objectives": {
-    "de": [
-      "Bekleidung",
-      "Einkaufen gehen"
-    ],
     "en": [
       "Name clothes",
       "Go shopping"
@@ -197,7 +290,6 @@
     }
   ],
   "title": {
-    "de": "Bekleidung und Zubehör",
     "en": "Clothing and accessories",
     "es": "La ropa y los accesorios"
   },

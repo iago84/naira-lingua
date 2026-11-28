@@ -19,91 +19,256 @@
       "en": "body",
       "es": "cuerpo",
       "hi": "शरीर",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "śarīr"
     },
     {
       "concept": "c:cuerpo-humano.cabeza",
       "en": "head",
       "es": "cabeza",
       "hi": "सिर",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "sir"
     },
     {
       "concept": "c:cuerpo-humano.cabello-pelo",
       "en": "hair / hair-",
       "es": "cabello / pelo",
       "hi": "बाल",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "bāl"
     },
     {
       "concept": "c:cuerpo-humano.cara-rostro",
       "en": "face / side",
       "es": "cara / rostro",
       "hi": "चेहरा",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "cehrā"
     },
     {
       "concept": "c:cuerpo-humano.frente",
       "en": "front",
       "es": "frente",
       "hi": "माथा",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "māthā"
     },
     {
       "concept": "c:cuerpo-humano.ojo",
       "en": "eye",
       "es": "ojo",
       "hi": "आँख",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "ā̃kh"
     },
     {
       "concept": "c:cuerpo-humano.ojos",
       "en": "eyes",
       "es": "ojos",
       "hi": "आँखें",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "ā̃khẽ"
     },
     {
       "concept": "c:cuerpo-humano.ceja",
       "en": "Beef",
       "es": "ceja",
       "hi": "भौंह",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "bhaũh"
     },
     {
       "concept": "c:cuerpo-humano.parpado-pestana",
       "en": "eyelid / tab",
       "es": "párpado / pestaña",
       "hi": "पलक",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "palak"
     },
     {
       "concept": "c:cuerpo-humano.oreja-oido",
       "en": "ear / ears",
       "es": "oreja / oído",
       "hi": "कान",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "kān"
     },
     {
       "concept": "c:cuerpo-humano.nariz",
       "en": "nose",
       "es": "nariz",
       "hi": "नाक",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "nāk"
     },
     {
       "concept": "c:cuerpo-humano.boca",
       "en": "mouth",
       "es": "boca",
       "hi": "मुँह",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "mũh"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "शरीर",
+          "answerTranslit": "śarīr",
+          "concept": "c:cuerpo-humano.cuerpo",
+          "optionTranslit": {
+            "आँखें": "ā̃khẽ",
+            "पलक": "palak",
+            "माथा": "māthā",
+            "शरीर": "śarīr"
+          },
+          "options": [
+            "आँखें",
+            "शरीर",
+            "माथा",
+            "पलक"
+          ],
+          "prompt": "cuerpo"
+        },
+        {
+          "answer": "सिर",
+          "answerTranslit": "sir",
+          "concept": "c:cuerpo-humano.cabeza",
+          "optionTranslit": {
+            "आँख": "ā̃kh",
+            "आँखें": "ā̃khẽ",
+            "मुँह": "mũh",
+            "सिर": "sir"
+          },
+          "options": [
+            "आँख",
+            "सिर",
+            "मुँह",
+            "आँखें"
+          ],
+          "prompt": "cabeza"
+        },
+        {
+          "answer": "बाल",
+          "answerTranslit": "bāl",
+          "concept": "c:cuerpo-humano.cabello-pelo",
+          "optionTranslit": {
+            "नाक": "nāk",
+            "बाल": "bāl",
+            "भौंह": "bhaũh",
+            "माथा": "māthā"
+          },
+          "options": [
+            "नाक",
+            "भौंह",
+            "बाल",
+            "माथा"
+          ],
+          "prompt": "cabello / pelo"
+        },
+        {
+          "answer": "चेहरा",
+          "answerTranslit": "cehrā",
+          "concept": "c:cuerpo-humano.cara-rostro",
+          "optionTranslit": {
+            "आँखें": "ā̃khẽ",
+            "चेहरा": "cehrā",
+            "बाल": "bāl",
+            "शरीर": "śarīr"
+          },
+          "options": [
+            "शरीर",
+            "चेहरा",
+            "बाल",
+            "आँखें"
+          ],
+          "prompt": "cara / rostro"
+        },
+        {
+          "answer": "माथा",
+          "answerTranslit": "māthā",
+          "concept": "c:cuerpo-humano.frente",
+          "optionTranslit": {
+            "आँख": "ā̃kh",
+            "आँखें": "ā̃khẽ",
+            "बाल": "bāl",
+            "माथा": "māthā"
+          },
+          "options": [
+            "बाल",
+            "माथा",
+            "आँख",
+            "आँखें"
+          ],
+          "prompt": "frente"
+        },
+        {
+          "answer": "आँख",
+          "answerTranslit": "ā̃kh",
+          "concept": "c:cuerpo-humano.ojo",
+          "optionTranslit": {
+            "आँख": "ā̃kh",
+            "पलक": "palak",
+            "माथा": "māthā",
+            "सिर": "sir"
+          },
+          "options": [
+            "माथा",
+            "आँख",
+            "पलक",
+            "सिर"
+          ],
+          "prompt": "ojo"
+        },
+        {
+          "answer": "आँखें",
+          "answerTranslit": "ā̃khẽ",
+          "concept": "c:cuerpo-humano.ojos",
+          "optionTranslit": {
+            "आँखें": "ā̃khẽ",
+            "कान": "kān",
+            "नाक": "nāk",
+            "सिर": "sir"
+          },
+          "options": [
+            "आँखें",
+            "कान",
+            "सिर",
+            "नाक"
+          ],
+          "prompt": "ojos"
+        },
+        {
+          "answer": "भौंह",
+          "answerTranslit": "bhaũh",
+          "concept": "c:cuerpo-humano.ceja",
+          "optionTranslit": {
+            "पलक": "palak",
+            "भौंह": "bhaũh",
+            "माथा": "māthā",
+            "सिर": "sir"
+          },
+          "options": [
+            "भौंह",
+            "माथा",
+            "सिर",
+            "पलक"
+          ],
+          "prompt": "ceja"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Parts of the body, useful to talk about health and care.",
-    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
-    "hi": "शरीर के अंगों, स्वास्थ्य और देखभाल की बात करने में उपयोगी है।"
+    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
   },
   "generator": "build_lessons",
   "id": "hi-u5-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar las partes del cuerpo",
       "Hablar de la salud"
-    ],
-    "hi": [
-      "शरीर के अंगों का नाम",
-      "स्वास्थ्य के बारे में बात करें"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "The human body",
-    "es": "El cuerpo humano",
-    "hi": "मानव शरीर"
+    "es": "El cuerpo humano"
   },
   "unit": 5
 }

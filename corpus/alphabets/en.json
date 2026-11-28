@@ -1,0 +1,143 @@
+{
+  "direction": "ltr",
+  "intro": {
+    "en": "English uses the 26-letter Latin alphabet, with no diacritics of its own. Spelling keeps historical forms.",
+    "es": "El inglés usa el alfabeto latino de 26 letras, sin signos diacríticos propios. La ortografía conserva grafías históricas."
+  },
+  "lang": "en",
+  "script": "latin",
+  "sections": [
+    {
+      "columns": [
+        {
+          "key": "char",
+          "label": {
+            "en": "Glyph",
+            "es": "Signo"
+          }
+        },
+        {
+          "key": "translit",
+          "label": {
+            "en": "Letter",
+            "es": "Letra"
+          }
+        }
+      ],
+      "items": [
+        {
+          "char": "a",
+          "translit": "a"
+        },
+        {
+          "char": "b",
+          "translit": "b"
+        },
+        {
+          "char": "c",
+          "translit": "c"
+        },
+        {
+          "char": "d",
+          "translit": "d"
+        },
+        {
+          "char": "e",
+          "translit": "e"
+        },
+        {
+          "char": "f",
+          "translit": "f"
+        },
+        {
+          "char": "g",
+          "translit": "g"
+        },
+        {
+          "char": "h",
+          "translit": "h"
+        },
+        {
+          "char": "i",
+          "translit": "i"
+        },
+        {
+          "char": "j",
+          "translit": "j"
+        },
+        {
+          "char": "k",
+          "translit": "k"
+        },
+        {
+          "char": "l",
+          "translit": "l"
+        },
+        {
+          "char": "m",
+          "translit": "m"
+        },
+        {
+          "char": "n",
+          "translit": "n"
+        },
+        {
+          "char": "o",
+          "translit": "o"
+        },
+        {
+          "char": "p",
+          "translit": "p"
+        },
+        {
+          "char": "q",
+          "translit": "q"
+        },
+        {
+          "char": "r",
+          "translit": "r"
+        },
+        {
+          "char": "s",
+          "translit": "s"
+        },
+        {
+          "char": "t",
+          "translit": "t"
+        },
+        {
+          "char": "u",
+          "translit": "u"
+        },
+        {
+          "char": "v",
+          "translit": "v"
+        },
+        {
+          "char": "w",
+          "translit": "w"
+        },
+        {
+          "char": "x",
+          "translit": "x"
+        },
+        {
+          "char": "y",
+          "translit": "y"
+        },
+        {
+          "char": "z",
+          "translit": "z"
+        }
+      ],
+      "title": {
+        "en": "Alphabet",
+        "es": "Alfabeto"
+      }
+    }
+  ],
+  "title": {
+    "en": "English: the Latin alphabet",
+    "es": "English: the Latin alphabet"
+  }
+}

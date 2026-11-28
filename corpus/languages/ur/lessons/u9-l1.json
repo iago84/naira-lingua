@@ -19,6 +19,7 @@
       "en": "animal",
       "es": "animal",
       "speaker": "A",
+      "translit": "jaanwar",
       "ur": "جانور"
     },
     {
@@ -26,6 +27,7 @@
       "en": "dog",
       "es": "perro",
       "speaker": "B",
+      "translit": "kutta",
       "ur": "کتا"
     },
     {
@@ -33,6 +35,7 @@
       "en": "cat",
       "es": "gato",
       "speaker": "A",
+      "translit": "billi",
       "ur": "بلی"
     },
     {
@@ -40,6 +43,7 @@
       "en": "cow",
       "es": "vaca",
       "speaker": "B",
+      "translit": "gāy",
       "ur": "گای"
     },
     {
@@ -47,6 +51,7 @@
       "en": "ox / bull",
       "es": "buey / toro",
       "speaker": "A",
+      "translit": "bail",
       "ur": "بےل"
     },
     {
@@ -54,6 +59,7 @@
       "en": "buffalo",
       "es": "búfalo",
       "speaker": "B",
+      "translit": "bhaĩs",
       "ur": "بھےںس"
     },
     {
@@ -61,6 +67,7 @@
       "en": "horse",
       "es": "caballo",
       "speaker": "A",
+      "translit": "ghoṛā",
       "ur": "گھوڈا"
     },
     {
@@ -68,6 +75,7 @@
       "en": "donkey / ass",
       "es": "burro / asno",
       "speaker": "B",
+      "translit": "gadhā",
       "ur": "گدھا"
     },
     {
@@ -75,6 +83,7 @@
       "en": "goat",
       "es": "cabra",
       "speaker": "A",
+      "translit": "bakrī",
       "ur": "بکری"
     },
     {
@@ -82,6 +91,7 @@
       "en": "sheep",
       "es": "oveja",
       "speaker": "B",
+      "translit": "bheṛ",
       "ur": "بھےڈ"
     },
     {
@@ -89,6 +99,7 @@
       "en": "pig",
       "es": "cerdo",
       "speaker": "A",
+      "translit": "sūar",
       "ur": "سوار"
     },
     {
@@ -96,10 +107,165 @@
       "en": "chicken",
       "es": "gallina",
       "speaker": "B",
+      "translit": "murgī",
       "ur": "مُرگی"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "جانور",
+          "answerTranslit": "jaanwar",
+          "concept": "c:animales.animal",
+          "optionTranslit": {
+            "بلی": "billi",
+            "جانور": "jaanwar",
+            "سوار": "sūar",
+            "گھوڈا": "ghoṛā"
+          },
+          "options": [
+            "گھوڈا",
+            "جانور",
+            "بلی",
+            "سوار"
+          ],
+          "prompt": "animal"
+        },
+        {
+          "answer": "کتا",
+          "answerTranslit": "kutta",
+          "concept": "c:animales.perro",
+          "optionTranslit": {
+            "جانور": "jaanwar",
+            "سوار": "sūar",
+            "مُرگی": "murgī",
+            "کتا": "kutta"
+          },
+          "options": [
+            "مُرگی",
+            "کتا",
+            "سوار",
+            "جانور"
+          ],
+          "prompt": "perro"
+        },
+        {
+          "answer": "بلی",
+          "answerTranslit": "billi",
+          "concept": "c:animales.gato",
+          "optionTranslit": {
+            "بلی": "billi",
+            "جانور": "jaanwar",
+            "سوار": "sūar",
+            "گھوڈا": "ghoṛā"
+          },
+          "options": [
+            "بلی",
+            "سوار",
+            "گھوڈا",
+            "جانور"
+          ],
+          "prompt": "gato"
+        },
+        {
+          "answer": "گای",
+          "answerTranslit": "gāy",
+          "concept": "c:animales.vaca",
+          "optionTranslit": {
+            "بلی": "billi",
+            "بےل": "bail",
+            "سوار": "sūar",
+            "گای": "gāy"
+          },
+          "options": [
+            "گای",
+            "بےل",
+            "بلی",
+            "سوار"
+          ],
+          "prompt": "vaca"
+        },
+        {
+          "answer": "بےل",
+          "answerTranslit": "bail",
+          "concept": "c:animales.buey-toro",
+          "optionTranslit": {
+            "بھےںس": "bhaĩs",
+            "بےل": "bail",
+            "کتا": "kutta",
+            "گدھا": "gadhā"
+          },
+          "options": [
+            "بھےںس",
+            "گدھا",
+            "بےل",
+            "کتا"
+          ],
+          "prompt": "buey / toro"
+        },
+        {
+          "answer": "بھےںس",
+          "answerTranslit": "bhaĩs",
+          "concept": "c:animales.bufalo",
+          "optionTranslit": {
+            "بکری": "bakrī",
+            "بھےںس": "bhaĩs",
+            "جانور": "jaanwar",
+            "مُرگی": "murgī"
+          },
+          "options": [
+            "بھےںس",
+            "بکری",
+            "مُرگی",
+            "جانور"
+          ],
+          "prompt": "búfalo"
+        },
+        {
+          "answer": "گھوڈا",
+          "answerTranslit": "ghoṛā",
+          "concept": "c:animales.caballo",
+          "optionTranslit": {
+            "بےل": "bail",
+            "جانور": "jaanwar",
+            "مُرگی": "murgī",
+            "گھوڈا": "ghoṛā"
+          },
+          "options": [
+            "بےل",
+            "مُرگی",
+            "جانور",
+            "گھوڈا"
+          ],
+          "prompt": "caballo"
+        },
+        {
+          "answer": "گدھا",
+          "answerTranslit": "gadhā",
+          "concept": "c:animales.burro-asno",
+          "optionTranslit": {
+            "بھےڈ": "bheṛ",
+            "کتا": "kutta",
+            "گای": "gāy",
+            "گدھا": "gadhā"
+          },
+          "options": [
+            "بھےڈ",
+            "کتا",
+            "گای",
+            "گدھا"
+          ],
+          "prompt": "burro / asno"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Common animals, both domestic and wild.",
     "es": "Animales frecuentes, tanto domésticos como salvajes."

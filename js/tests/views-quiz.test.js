@@ -33,3 +33,34 @@ test("renderQuiz muestra pregunta y opciones", () => {
   assert.match(html, /hola/);
   assert.match(html, /data-opt="bonjour"/);
 });
+
+const PAIRS_TL = [
+  { concept: "a", domain: "saludos", src: "こんにちは", srcTranslit: "konnichiha",
+    tgt: "Dzień dobry", tgtTranslit: "djen dobre" },
+  { concept: "b", domain: "despedidas", src: "adiós", srcTranslit: "",
+    tgt: "こんばんは", tgtTranslit: "konbanha" },
+];
+
+test("buildQuestions adjunta lecturas a prompt y opciones", () => {
+  const qs = buildQuestions(PAIRS_TL, () => 0.5);
+  assert.equal(qs[0].promptTranslit, "konnichiha");
+  assert.equal(qs[0].optionTranslit["Dzień dobry"], "djen dobre");
+});
+
+test("renderQuiz muestra la transliteración si está activada", () => {
+  const q = { prompt: "こんにちは", promptTranslit: "konnichiha",
+              answer: "こんばんは", options: ["こんばんは", "さようなら"],
+              optionTranslit: { "こんばんは": "konbanha", "さようなら": "sayounara" } };
+  const on = renderQuiz({ t: tt, q, i: 0, total: 2, chosen: null, translit: true });
+  assert.match(on, /konnichiha/);
+  assert.match(on, /opt-translit/);
+});
+
+test("renderQuiz oculta la transliteración si está desactivada", () => {
+  const q = { prompt: "こんにちは", promptTranslit: "konnichiha",
+              answer: "こんばんは", options: ["こんばんは", "さようなら"],
+              optionTranslit: { "こんばんは": "konbanha", "さようなら": "sayounara" } };
+  const off = renderQuiz({ t: tt, q, i: 0, total: 2, chosen: null, translit: false });
+  assert.doesNotMatch(off, /konnichiha/);
+  assert.doesNotMatch(off, /opt-translit/);
+});

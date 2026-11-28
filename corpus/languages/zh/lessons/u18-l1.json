@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:tecnologia-y-comunicacion.tecnologia",
+    "c:tecnologia-y-comunicacion.computadora-ordenador",
+    "c:tecnologia-y-comunicacion.portatil-laptop",
+    "c:tecnologia-y-comunicacion.tableta",
+    "c:tecnologia-y-comunicacion.telefono-movil-celular",
+    "c:tecnologia-y-comunicacion.telefono",
+    "c:tecnologia-y-comunicacion.pantalla",
+    "c:tecnologia-y-comunicacion.teclado",
+    "c:tecnologia-y-comunicacion.raton-informatica",
+    "c:tecnologia-y-comunicacion.impresora",
+    "c:tecnologia-y-comunicacion.camara",
+    "c:tecnologia-y-comunicacion.microfono"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:tecnologia-y-comunicacion.tecnologia",
+      "en": "technology",
+      "es": "tecnología",
+      "speaker": "A",
+      "translit": "jì shù",
+      "zh": "技术"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+      "en": "computer / PC",
+      "es": "computadora / ordenador",
+      "speaker": "B",
+      "translit": "jì suàn jī / gè rén diàn nǎo",
+      "zh": "计算机/个人电脑"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+      "en": "laptop / laptop",
+      "es": "portátil / laptop",
+      "speaker": "A",
+      "translit": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī",
+      "zh": "膝上型计算机/膝上型计算机"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.tableta",
+      "en": "tablet",
+      "es": "tableta",
+      "speaker": "B",
+      "translit": "píng bǎn diàn nǎo",
+      "zh": "平板电脑"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+      "en": "mobile / cell phone",
+      "es": "teléfono móvil / celular",
+      "speaker": "A",
+      "translit": "yí dòng diàn huà",
+      "zh": "移动电话"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.telefono",
+      "en": "phone",
+      "es": "teléfono",
+      "speaker": "B",
+      "translit": "diàn huà",
+      "zh": "电话"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.pantalla",
+      "en": "screen",
+      "es": "pantalla",
+      "speaker": "A",
+      "translit": "píng mù",
+      "zh": "屏幕"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.teclado",
+      "en": "keyboard",
+      "es": "teclado",
+      "speaker": "B",
+      "translit": "jiàn pán",
+      "zh": "键盘"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.raton-informatica",
+      "en": "mouse (computer)",
+      "es": "ratón (informática)",
+      "speaker": "A",
+      "translit": "shǔ biāo ( jì suàn jī )",
+      "zh": "鼠标(计算机)"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.impresora",
+      "en": "printer",
+      "es": "impresora",
+      "speaker": "B",
+      "translit": "dǎ yìn jī",
+      "zh": "打印机"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.camara",
+      "en": "camera",
+      "es": "cámara",
+      "speaker": "A",
+      "translit": "xiàng jī",
+      "zh": "相机"
+    },
+    {
+      "concept": "c:tecnologia-y-comunicacion.microfono",
+      "en": "microphone",
+      "es": "micrófono",
+      "speaker": "B",
+      "translit": "mài kè fēng",
+      "zh": "麦克风"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "技术",
+          "answerTranslit": "jì shù",
+          "concept": "c:tecnologia-y-comunicacion.tecnologia",
+          "optionTranslit": {
+            "技术": "jì shù",
+            "膝上型计算机/膝上型计算机": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī",
+            "计算机/个人电脑": "jì suàn jī / gè rén diàn nǎo",
+            "鼠标(计算机)": "shǔ biāo ( jì suàn jī )"
+          },
+          "options": [
+            "技术",
+            "计算机/个人电脑",
+            "膝上型计算机/膝上型计算机",
+            "鼠标(计算机)"
+          ],
+          "prompt": "tecnología"
+        },
+        {
+          "answer": "计算机/个人电脑",
+          "answerTranslit": "jì suàn jī / gè rén diàn nǎo",
+          "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+          "optionTranslit": {
+            "平板电脑": "píng bǎn diàn nǎo",
+            "膝上型计算机/膝上型计算机": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī",
+            "计算机/个人电脑": "jì suàn jī / gè rén diàn nǎo",
+            "键盘": "jiàn pán"
+          },
+          "options": [
+            "膝上型计算机/膝上型计算机",
+            "键盘",
+            "平板电脑",
+            "计算机/个人电脑"
+          ],
+          "prompt": "computadora / ordenador"
+        },
+        {
+          "answer": "膝上型计算机/膝上型计算机",
+          "answerTranslit": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī",
+          "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+          "optionTranslit": {
+            "技术": "jì shù",
+            "电话": "diàn huà",
+            "移动电话": "yí dòng diàn huà",
+            "膝上型计算机/膝上型计算机": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī"
+          },
+          "options": [
+            "技术",
+            "膝上型计算机/膝上型计算机",
+            "移动电话",
+            "电话"
+          ],
+          "prompt": "portátil / laptop"
+        },
+        {
+          "answer": "平板电脑",
+          "answerTranslit": "píng bǎn diàn nǎo",
+          "concept": "c:tecnologia-y-comunicacion.tableta",
+          "optionTranslit": {
+            "平板电脑": "píng bǎn diàn nǎo",
+            "打印机": "dǎ yìn jī",
+            "电话": "diàn huà",
+            "麦克风": "mài kè fēng"
+          },
+          "options": [
+            "麦克风",
+            "打印机",
+            "电话",
+            "平板电脑"
+          ],
+          "prompt": "tableta"
+        },
+        {
+          "answer": "移动电话",
+          "answerTranslit": "yí dòng diàn huà",
+          "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+          "optionTranslit": {
+            "平板电脑": "píng bǎn diàn nǎo",
+            "移动电话": "yí dòng diàn huà",
+            "计算机/个人电脑": "jì suàn jī / gè rén diàn nǎo",
+            "键盘": "jiàn pán"
+          },
+          "options": [
+            "键盘",
+            "计算机/个人电脑",
+            "平板电脑",
+            "移动电话"
+          ],
+          "prompt": "teléfono móvil / celular"
+        },
+        {
+          "answer": "电话",
+          "answerTranslit": "diàn huà",
+          "concept": "c:tecnologia-y-comunicacion.telefono",
+          "optionTranslit": {
+            "打印机": "dǎ yìn jī",
+            "电话": "diàn huà",
+            "膝上型计算机/膝上型计算机": "xī shàng xíng jì suàn jī / xī shàng xíng jì suàn jī",
+            "键盘": "jiàn pán"
+          },
+          "options": [
+            "打印机",
+            "膝上型计算机/膝上型计算机",
+            "电话",
+            "键盘"
+          ],
+          "prompt": "teléfono"
+        },
+        {
+          "answer": "屏幕",
+          "answerTranslit": "píng mù",
+          "concept": "c:tecnologia-y-comunicacion.pantalla",
+          "optionTranslit": {
+            "屏幕": "píng mù",
+            "技术": "jì shù",
+            "相机": "xiàng jī",
+            "键盘": "jiàn pán"
+          },
+          "options": [
+            "技术",
+            "键盘",
+            "屏幕",
+            "相机"
+          ],
+          "prompt": "pantalla"
+        },
+        {
+          "answer": "键盘",
+          "answerTranslit": "jiàn pán",
+          "concept": "c:tecnologia-y-comunicacion.teclado",
+          "optionTranslit": {
+            "屏幕": "píng mù",
+            "平板电脑": "píng bǎn diàn nǎo",
+            "计算机/个人电脑": "jì suàn jī / gè rén diàn nǎo",
+            "键盘": "jiàn pán"
+          },
+          "options": [
+            "平板电脑",
+            "屏幕",
+            "键盘",
+            "计算机/个人电脑"
+          ],
+          "prompt": "teclado"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Devices, internet and everyday communication.",
+    "es": "Aparatos, internet y comunicación del día a día."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u18-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name devices and services",
+      "Talk on the phone and online"
+    ],
+    "es": [
+      "Nombrar aparatos y servicios",
+      "Hablar por teléfono e internet"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "tecnología",
+          "technology",
+          "技术"
+        ],
+        [
+          "computadora / ordenador",
+          "computer / PC",
+          "计算机/个人电脑"
+        ],
+        [
+          "portátil / laptop",
+          "laptop / laptop",
+          "膝上型计算机/膝上型计算机"
+        ],
+        [
+          "tableta",
+          "tablet",
+          "平板电脑"
+        ],
+        [
+          "teléfono móvil / celular",
+          "mobile / cell phone",
+          "移动电话"
+        ],
+        [
+          "teléfono",
+          "phone",
+          "电话"
+        ],
+        [
+          "pantalla",
+          "screen",
+          "屏幕"
+        ],
+        [
+          "teclado",
+          "keyboard",
+          "键盘"
+        ],
+        [
+          "ratón (informática)",
+          "mouse (computer)",
+          "鼠标(计算机)"
+        ],
+        [
+          "impresora",
+          "printer",
+          "打印机"
+        ],
+        [
+          "cámara",
+          "camera",
+          "相机"
+        ],
+        [
+          "micrófono",
+          "microphone",
+          "麦克风"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Technology and communication",
+    "es": "La tecnología y la comunicación"
+  },
+  "unit": 18
+}

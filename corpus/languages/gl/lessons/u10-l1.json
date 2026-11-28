@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "cidade",
+          "concept": "c:ciudad-y-lugares.ciudad",
+          "options": [
+            "país",
+            "Zona / zona",
+            "Ponte",
+            "cidade"
+          ],
+          "prompt": "ciudad"
+        },
+        {
+          "answer": "Cidade / Vila",
+          "concept": "c:ciudad-y-lugares.pueblo-aldea",
+          "options": [
+            "capital",
+            "Cidade / Vila",
+            "Ponte",
+            "Plaza"
+          ],
+          "prompt": "pueblo / aldea"
+        },
+        {
+          "answer": "país",
+          "concept": "c:ciudad-y-lugares.pais",
+          "options": [
+            "Rúa / Estrada",
+            "país",
+            "Estado / Provincia",
+            "Alley"
+          ],
+          "prompt": "país"
+        },
+        {
+          "answer": "Estado / Provincia",
+          "concept": "c:ciudad-y-lugares.estado-provincia",
+          "options": [
+            "Mercado",
+            "cidade",
+            "Estado / Provincia",
+            "Cruz / Interseccional"
+          ],
+          "prompt": "estado / provincia"
+        },
+        {
+          "answer": "capital",
+          "concept": "c:ciudad-y-lugares.capital",
+          "options": [
+            "Ponte",
+            "Estado / Provincia",
+            "capital",
+            "Plaza"
+          ],
+          "prompt": "capital"
+        },
+        {
+          "answer": "Zona / zona",
+          "concept": "c:ciudad-y-lugares.zona-area",
+          "options": [
+            "Rúa / Estrada",
+            "Estado / Provincia",
+            "país",
+            "Zona / zona"
+          ],
+          "prompt": "zona / área"
+        },
+        {
+          "answer": "Rúa / Estrada",
+          "concept": "c:ciudad-y-lugares.calle-carretera",
+          "options": [
+            "país",
+            "Rúa / Estrada",
+            "cidade",
+            "Ponte"
+          ],
+          "prompt": "calle / carretera"
+        },
+        {
+          "answer": "Alley",
+          "concept": "c:ciudad-y-lugares.callejon",
+          "options": [
+            "Plaza",
+            "Zona / zona",
+            "Alley",
+            "Rúa / Estrada"
+          ],
+          "prompt": "callejón"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Places in the city to move around and ask for directions.",
-    "es": "Lugares de la ciudad para moverse y pedir indicaciones.",
-    "gl": "Lugares na cidade para moverse e pedir direccións."
+    "es": "Lugares de la ciudad para moverse y pedir indicaciones."
   },
   "generator": "build_lessons",
   "id": "gl-u10-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar lugares de la ciudad",
       "Pedir direcciones"
-    ],
-    "gl": [
-      "Nome Lugares na cidade",
-      "Preguntar por enderezos"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "City and places",
-    "es": "La ciudad y los lugares",
-    "gl": "A cidade e os lugares"
+    "es": "La ciudad y los lugares"
   },
   "unit": 10
 }

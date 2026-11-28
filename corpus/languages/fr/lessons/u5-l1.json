@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "corps",
+          "concept": "c:cuerpo-humano.cuerpo",
+          "options": [
+            "Boeuf",
+            "corps",
+            "devant",
+            "oreille / oreilles"
+          ],
+          "prompt": "cuerpo"
+        },
+        {
+          "answer": "tête",
+          "concept": "c:cuerpo-humano.cabeza",
+          "options": [
+            "yeux",
+            "tête",
+            "bouche",
+            "Boeuf"
+          ],
+          "prompt": "cabeza"
+        },
+        {
+          "answer": "cheveux / cheveux...",
+          "concept": "c:cuerpo-humano.cabello-pelo",
+          "options": [
+            "bouche",
+            "paupière / onglet",
+            "cheveux / cheveux...",
+            "devant"
+          ],
+          "prompt": "cabello / pelo"
+        },
+        {
+          "answer": "face/face",
+          "concept": "c:cuerpo-humano.cara-rostro",
+          "options": [
+            "corps",
+            "face/face",
+            "cheveux / cheveux...",
+            "Boeuf"
+          ],
+          "prompt": "cara / rostro"
+        },
+        {
+          "answer": "devant",
+          "concept": "c:cuerpo-humano.frente",
+          "options": [
+            "cheveux / cheveux...",
+            "devant",
+            "yeux",
+            "Boeuf"
+          ],
+          "prompt": "frente"
+        },
+        {
+          "answer": "yeux",
+          "concept": "c:cuerpo-humano.ojo",
+          "options": [
+            "devant",
+            "yeux",
+            "oreille / oreilles",
+            "tête"
+          ],
+          "prompt": "ojo"
+        },
+        {
+          "answer": "yeux",
+          "concept": "c:cuerpo-humano.ojos",
+          "options": [
+            "tête",
+            "corps",
+            "nez",
+            "yeux"
+          ],
+          "prompt": "ojos"
+        },
+        {
+          "answer": "Boeuf",
+          "concept": "c:cuerpo-humano.ceja",
+          "options": [
+            "Boeuf",
+            "devant",
+            "tête",
+            "oreille / oreilles"
+          ],
+          "prompt": "ceja"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Parts of the body, useful to talk about health and care.",
-    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
-    "fr": "Les parties du corps, utiles pour parler de santé et de soins."
+    "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
   },
   "generator": "build_lessons",
   "id": "fr-u5-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar las partes del cuerpo",
       "Hablar de la salud"
-    ],
-    "fr": [
-      "Nom des parties du corps",
-      "Parlons de santé"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "The human body",
-    "es": "El cuerpo humano",
-    "fr": "Le corps humain"
+    "es": "El cuerpo humano"
   },
   "unit": 5
 }

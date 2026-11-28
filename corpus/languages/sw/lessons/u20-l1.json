@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:vocabulario-extra-y-frases-utiles.amor",
+    "c:vocabulario-extra-y-frases-utiles.odio",
+    "c:vocabulario-extra-y-frases-utiles.honestidad",
+    "c:vocabulario-extra-y-frases-utiles.mentira",
+    "c:vocabulario-extra-y-frases-utiles.verdad",
+    "c:vocabulario-extra-y-frases-utiles.justicia",
+    "c:vocabulario-extra-y-frases-utiles.injusticia",
+    "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+    "c:vocabulario-extra-y-frases-utiles.miedo",
+    "c:vocabulario-extra-y-frases-utiles.esperanza",
+    "c:vocabulario-extra-y-frases-utiles.decepcion",
+    "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+      "en": "love",
+      "es": "amor",
+      "speaker": "A",
+      "sw": "upendo"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+      "en": "I hate it.",
+      "es": "odio",
+      "speaker": "B",
+      "sw": "chuki"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "en": "honesty",
+      "es": "honestidad",
+      "speaker": "A",
+      "sw": "uaminifu"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+      "en": "lie",
+      "es": "mentira",
+      "speaker": "B",
+      "sw": "uongo"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+      "en": "truth",
+      "es": "verdad",
+      "speaker": "A",
+      "sw": "kweli"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+      "en": "justice",
+      "es": "justicia",
+      "speaker": "B",
+      "sw": "haki"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "en": "injustice",
+      "es": "injusticia",
+      "speaker": "A",
+      "sw": "dhuluma"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "en": "value / courage",
+      "es": "valor / coraje",
+      "speaker": "B",
+      "sw": "ujaasiri"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+      "en": "fear",
+      "es": "miedo",
+      "speaker": "A",
+      "sw": "hofu"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "en": "hope",
+      "es": "esperanza",
+      "speaker": "B",
+      "sw": "tumaini"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "en": "disappointment",
+      "es": "decepción",
+      "speaker": "A",
+      "sw": "kushindwa"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+      "en": "anger / angry",
+      "es": "ira / enfado",
+      "speaker": "B",
+      "sw": "kichaka"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "upendo",
+          "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+          "options": [
+            "haki",
+            "upendo",
+            "kweli",
+            "kushindwa"
+          ],
+          "prompt": "amor"
+        },
+        {
+          "answer": "chuki",
+          "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+          "options": [
+            "uaminifu",
+            "tumaini",
+            "chuki",
+            "dhuluma"
+          ],
+          "prompt": "odio"
+        },
+        {
+          "answer": "uaminifu",
+          "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+          "options": [
+            "kweli",
+            "uaminifu",
+            "kichaka",
+            "uongo"
+          ],
+          "prompt": "honestidad"
+        },
+        {
+          "answer": "uongo",
+          "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+          "options": [
+            "kweli",
+            "uaminifu",
+            "upendo",
+            "uongo"
+          ],
+          "prompt": "mentira"
+        },
+        {
+          "answer": "kweli",
+          "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+          "options": [
+            "kweli",
+            "haki",
+            "uaminifu",
+            "kichaka"
+          ],
+          "prompt": "verdad"
+        },
+        {
+          "answer": "haki",
+          "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+          "options": [
+            "kichaka",
+            "dhuluma",
+            "haki",
+            "kushindwa"
+          ],
+          "prompt": "justicia"
+        },
+        {
+          "answer": "dhuluma",
+          "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+          "options": [
+            "kweli",
+            "uaminifu",
+            "dhuluma",
+            "kushindwa"
+          ],
+          "prompt": "injusticia"
+        },
+        {
+          "answer": "ujaasiri",
+          "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+          "options": [
+            "ujaasiri",
+            "dhuluma",
+            "tumaini",
+            "haki"
+          ],
+          "prompt": "valor / coraje"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Support words and phrases that appear in many conversations.",
+    "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+  },
+  "generator": "build_lessons",
+  "id": "sw-u20-l1",
+  "lang": "sw",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Expand vocabulary",
+      "Use common everyday phrases"
+    ],
+    "es": [
+      "Ampliar vocabulario",
+      "Usar frases comunes del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "sw"
+      ],
+      "rows": [
+        [
+          "amor",
+          "love",
+          "upendo"
+        ],
+        [
+          "odio",
+          "I hate it.",
+          "chuki"
+        ],
+        [
+          "honestidad",
+          "honesty",
+          "uaminifu"
+        ],
+        [
+          "mentira",
+          "lie",
+          "uongo"
+        ],
+        [
+          "verdad",
+          "truth",
+          "kweli"
+        ],
+        [
+          "justicia",
+          "justice",
+          "haki"
+        ],
+        [
+          "injusticia",
+          "injustice",
+          "dhuluma"
+        ],
+        [
+          "valor / coraje",
+          "value / courage",
+          "ujaasiri"
+        ],
+        [
+          "miedo",
+          "fear",
+          "hofu"
+        ],
+        [
+          "esperanza",
+          "hope",
+          "tumaini"
+        ],
+        [
+          "decepción",
+          "disappointment",
+          "kushindwa"
+        ],
+        [
+          "ira / enfado",
+          "anger / angry",
+          "kichaka"
+        ]
+      ],
+      "title": "es · en · sw",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Extra vocabulary and useful phrases",
+    "es": "Vocabulario extra y frases útiles"
+  },
+  "unit": 20
+}

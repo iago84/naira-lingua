@@ -19,6 +19,7 @@
       "en": "Family",
       "es": "familia",
       "speaker": "A",
+      "translit": "khaandaan",
       "ur": "خاندان"
     },
     {
@@ -26,6 +27,7 @@
       "en": "Mother",
       "es": "madre",
       "speaker": "B",
+      "translit": "maan / waalida",
       "ur": "ماں / والدہ"
     },
     {
@@ -33,6 +35,7 @@
       "en": "Father",
       "es": "padre",
       "speaker": "A",
+      "translit": "baap / waalid",
       "ur": "باپ / والد"
     },
     {
@@ -40,6 +43,7 @@
       "en": "parents",
       "es": "padres",
       "speaker": "B",
+      "translit": "mātā-pitā",
       "ur": "ماتا-پِتا"
     },
     {
@@ -47,6 +51,7 @@
       "en": "child",
       "es": "hijo",
       "speaker": "A",
+      "translit": "beta",
       "ur": "بیٹا"
     },
     {
@@ -54,6 +59,7 @@
       "en": "daughter",
       "es": "hija",
       "speaker": "B",
+      "translit": "beti",
       "ur": "بیٹی"
     },
     {
@@ -61,6 +67,7 @@
       "en": "child",
       "es": "niño/a",
       "speaker": "A",
+      "translit": "baccā",
       "ur": "بچچا"
     },
     {
@@ -68,6 +75,7 @@
       "en": "brother",
       "es": "hermano",
       "speaker": "B",
+      "translit": "bhaai",
       "ur": "بھائی"
     },
     {
@@ -75,6 +83,7 @@
       "en": "sister",
       "es": "hermana",
       "speaker": "A",
+      "translit": "bahan",
       "ur": "بہن"
     },
     {
@@ -82,6 +91,7 @@
       "en": "brothers",
       "es": "hermanos",
       "speaker": "B",
+      "translit": "bhāī-bahan",
       "ur": "بھاای-بہن"
     },
     {
@@ -89,6 +99,7 @@
       "en": "paternal grandfather",
       "es": "abuelo paterno",
       "speaker": "A",
+      "translit": "dādā",
       "ur": "دادا"
     },
     {
@@ -96,10 +107,165 @@
       "en": "Father's grandmother",
       "es": "abuela paterna",
       "speaker": "B",
+      "translit": "dādī",
       "ur": "دادی"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "خاندان",
+          "answerTranslit": "khaandaan",
+          "concept": "c:familia-y-personas.familia",
+          "optionTranslit": {
+            "بچچا": "baccā",
+            "خاندان": "khaandaan",
+            "دادا": "dādā",
+            "دادی": "dādī"
+          },
+          "options": [
+            "دادا",
+            "بچچا",
+            "دادی",
+            "خاندان"
+          ],
+          "prompt": "familia"
+        },
+        {
+          "answer": "ماں / والدہ",
+          "answerTranslit": "maan / waalida",
+          "concept": "c:familia-y-personas.madre",
+          "optionTranslit": {
+            "بیٹی": "beti",
+            "خاندان": "khaandaan",
+            "دادی": "dādī",
+            "ماں / والدہ": "maan / waalida"
+          },
+          "options": [
+            "دادی",
+            "بیٹی",
+            "خاندان",
+            "ماں / والدہ"
+          ],
+          "prompt": "madre"
+        },
+        {
+          "answer": "باپ / والد",
+          "answerTranslit": "baap / waalid",
+          "concept": "c:familia-y-personas.padre",
+          "optionTranslit": {
+            "باپ / والد": "baap / waalid",
+            "بہن": "bahan",
+            "دادا": "dādā",
+            "ماتا-پِتا": "mātā-pitā"
+          },
+          "options": [
+            "دادا",
+            "بہن",
+            "باپ / والد",
+            "ماتا-پِتا"
+          ],
+          "prompt": "padre"
+        },
+        {
+          "answer": "ماتا-پِتا",
+          "answerTranslit": "mātā-pitā",
+          "concept": "c:familia-y-personas.padres",
+          "optionTranslit": {
+            "بچچا": "baccā",
+            "بیٹا": "beta",
+            "خاندان": "khaandaan",
+            "ماتا-پِتا": "mātā-pitā"
+          },
+          "options": [
+            "بچچا",
+            "ماتا-پِتا",
+            "خاندان",
+            "بیٹا"
+          ],
+          "prompt": "padres"
+        },
+        {
+          "answer": "بیٹا",
+          "answerTranslit": "beta",
+          "concept": "c:familia-y-personas.hijo",
+          "optionTranslit": {
+            "بھاای-بہن": "bhāī-bahan",
+            "بیٹا": "beta",
+            "بیٹی": "beti",
+            "ماں / والدہ": "maan / waalida"
+          },
+          "options": [
+            "بیٹی",
+            "بھاای-بہن",
+            "ماں / والدہ",
+            "بیٹا"
+          ],
+          "prompt": "hijo"
+        },
+        {
+          "answer": "بیٹی",
+          "answerTranslit": "beti",
+          "concept": "c:familia-y-personas.hija",
+          "optionTranslit": {
+            "بیٹا": "beta",
+            "بیٹی": "beti",
+            "دادی": "dādī",
+            "ماتا-پِتا": "mātā-pitā"
+          },
+          "options": [
+            "بیٹی",
+            "ماتا-پِتا",
+            "بیٹا",
+            "دادی"
+          ],
+          "prompt": "hija"
+        },
+        {
+          "answer": "بچچا",
+          "answerTranslit": "baccā",
+          "concept": "c:familia-y-personas.nino-a",
+          "optionTranslit": {
+            "بچچا": "baccā",
+            "بہن": "bahan",
+            "دادا": "dādā",
+            "ماتا-پِتا": "mātā-pitā"
+          },
+          "options": [
+            "بچچا",
+            "بہن",
+            "دادا",
+            "ماتا-پِتا"
+          ],
+          "prompt": "niño/a"
+        },
+        {
+          "answer": "بھائی",
+          "answerTranslit": "bhaai",
+          "concept": "c:familia-y-personas.hermano",
+          "optionTranslit": {
+            "بھائی": "bhaai",
+            "بہن": "bahan",
+            "بیٹا": "beta",
+            "ماں / والدہ": "maan / waalida"
+          },
+          "options": [
+            "ماں / والدہ",
+            "بھائی",
+            "بیٹا",
+            "بہن"
+          ],
+          "prompt": "hermano"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to refer to family and the people around you.",
     "es": "Palabras para referirse a la familia y a las personas cercanas."

@@ -19,6 +19,7 @@
       "en": "Home / home",
       "es": "casa / hogar",
       "speaker": "A",
+      "translit": "ghar",
       "ur": "گھر"
     },
     {
@@ -26,6 +27,7 @@
       "en": "building / house",
       "es": "edificio / casa",
       "speaker": "B",
+      "translit": "makān",
       "ur": "مکان"
     },
     {
@@ -33,6 +35,7 @@
       "en": "apartment",
       "es": "apartamento",
       "speaker": "A",
+      "translit": "apārṭmeṇṭ",
       "ur": "اپارٹمےںٹ"
     },
     {
@@ -40,6 +43,7 @@
       "en": "room / bedroom",
       "es": "habitación / cuarto",
       "speaker": "B",
+      "translit": "kamrā",
       "ur": "کمرا"
     },
     {
@@ -47,6 +51,7 @@
       "en": "living room",
       "es": "sala de estar",
       "speaker": "A",
+      "translit": "baiṭhak",
       "ur": "بےٹھک"
     },
     {
@@ -54,6 +59,7 @@
       "en": "bedroom",
       "es": "dormitorio",
       "speaker": "B",
+      "translit": "śayanakakṣ",
       "ur": "شینککش"
     },
     {
@@ -61,6 +67,7 @@
       "en": "kitchen (room)",
       "es": "cocina (habitación)",
       "speaker": "A",
+      "translit": "rasoī",
       "ur": "رسوای"
     },
     {
@@ -68,6 +75,7 @@
       "en": "bathroom",
       "es": "baño",
       "speaker": "B",
+      "translit": "bāthrūm",
       "ur": "باتھروم"
     },
     {
@@ -75,6 +83,7 @@
       "en": "toilet / sink",
       "es": "inodoro / lavabo",
       "speaker": "A",
+      "translit": "śaucālay",
       "ur": "شوچالی"
     },
     {
@@ -82,6 +91,7 @@
       "en": "balcony",
       "es": "balcón",
       "speaker": "B",
+      "translit": "bālkanī",
       "ur": "بالکنی"
     },
     {
@@ -89,6 +99,7 @@
       "en": "roof / rooftop",
       "es": "techo / azotea",
       "speaker": "A",
+      "translit": "chat",
       "ur": "چھت"
     },
     {
@@ -96,10 +107,165 @@
       "en": "wall",
       "es": "pared",
       "speaker": "B",
+      "translit": "dīvār",
       "ur": "دیوار"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "گھر",
+          "answerTranslit": "ghar",
+          "concept": "c:casa-y-hogar.casa-hogar",
+          "optionTranslit": {
+            "اپارٹمےںٹ": "apārṭmeṇṭ",
+            "بےٹھک": "baiṭhak",
+            "چھت": "chat",
+            "گھر": "ghar"
+          },
+          "options": [
+            "چھت",
+            "بےٹھک",
+            "اپارٹمےںٹ",
+            "گھر"
+          ],
+          "prompt": "casa / hogar"
+        },
+        {
+          "answer": "مکان",
+          "answerTranslit": "makān",
+          "concept": "c:casa-y-hogar.edificio-casa",
+          "optionTranslit": {
+            "بالکنی": "bālkanī",
+            "شوچالی": "śaucālay",
+            "مکان": "makān",
+            "کمرا": "kamrā"
+          },
+          "options": [
+            "شوچالی",
+            "مکان",
+            "کمرا",
+            "بالکنی"
+          ],
+          "prompt": "edificio / casa"
+        },
+        {
+          "answer": "اپارٹمےںٹ",
+          "answerTranslit": "apārṭmeṇṭ",
+          "concept": "c:casa-y-hogar.apartamento",
+          "optionTranslit": {
+            "اپارٹمےںٹ": "apārṭmeṇṭ",
+            "شینککش": "śayanakakṣ",
+            "چھت": "chat",
+            "گھر": "ghar"
+          },
+          "options": [
+            "شینککش",
+            "اپارٹمےںٹ",
+            "چھت",
+            "گھر"
+          ],
+          "prompt": "apartamento"
+        },
+        {
+          "answer": "کمرا",
+          "answerTranslit": "kamrā",
+          "concept": "c:casa-y-hogar.habitacion-cuarto",
+          "optionTranslit": {
+            "باتھروم": "bāthrūm",
+            "بےٹھک": "baiṭhak",
+            "دیوار": "dīvār",
+            "کمرا": "kamrā"
+          },
+          "options": [
+            "کمرا",
+            "دیوار",
+            "بےٹھک",
+            "باتھروم"
+          ],
+          "prompt": "habitación / cuarto"
+        },
+        {
+          "answer": "بےٹھک",
+          "answerTranslit": "baiṭhak",
+          "concept": "c:casa-y-hogar.sala-de-estar",
+          "optionTranslit": {
+            "بےٹھک": "baiṭhak",
+            "دیوار": "dīvār",
+            "شوچالی": "śaucālay",
+            "شینککش": "śayanakakṣ"
+          },
+          "options": [
+            "شوچالی",
+            "شینککش",
+            "دیوار",
+            "بےٹھک"
+          ],
+          "prompt": "sala de estar"
+        },
+        {
+          "answer": "شینککش",
+          "answerTranslit": "śayanakakṣ",
+          "concept": "c:casa-y-hogar.dormitorio",
+          "optionTranslit": {
+            "اپارٹمےںٹ": "apārṭmeṇṭ",
+            "باتھروم": "bāthrūm",
+            "دیوار": "dīvār",
+            "شینککش": "śayanakakṣ"
+          },
+          "options": [
+            "شینککش",
+            "اپارٹمےںٹ",
+            "باتھروم",
+            "دیوار"
+          ],
+          "prompt": "dormitorio"
+        },
+        {
+          "answer": "رسوای",
+          "answerTranslit": "rasoī",
+          "concept": "c:casa-y-hogar.cocina-habitacion",
+          "optionTranslit": {
+            "بالکنی": "bālkanī",
+            "رسوای": "rasoī",
+            "چھت": "chat",
+            "کمرا": "kamrā"
+          },
+          "options": [
+            "چھت",
+            "رسوای",
+            "بالکنی",
+            "کمرا"
+          ],
+          "prompt": "cocina (habitación)"
+        },
+        {
+          "answer": "باتھروم",
+          "answerTranslit": "bāthrūm",
+          "concept": "c:casa-y-hogar.bano",
+          "optionTranslit": {
+            "باتھروم": "bāthrūm",
+            "بےٹھک": "baiṭhak",
+            "دیوار": "dīvār",
+            "چھت": "chat"
+          },
+          "options": [
+            "باتھروم",
+            "دیوار",
+            "بےٹھک",
+            "چھت"
+          ],
+          "prompt": "baño"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "House vocabulary: rooms, furniture and everyday objects.",
     "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."

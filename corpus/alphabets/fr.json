@@ -1,0 +1,211 @@
+{
+  "direction": "ltr",
+  "intro": {
+    "en": "French uses 26 letters plus five accents (acute, grave, circumflex, diaeresis and cedilla), which change pronunciation.",
+    "es": "El francés usa 26 letras más cinco acentos (agudo, grave, circunflejo, diéresis y cedilla), que cambian la pronunciación."
+  },
+  "lang": "fr",
+  "script": "latin",
+  "sections": [
+    {
+      "columns": [
+        {
+          "key": "char",
+          "label": {
+            "en": "Glyph",
+            "es": "Signo"
+          }
+        },
+        {
+          "key": "translit",
+          "label": {
+            "en": "Letter",
+            "es": "Letra"
+          }
+        }
+      ],
+      "items": [
+        {
+          "char": "a",
+          "translit": "a"
+        },
+        {
+          "char": "b",
+          "translit": "b"
+        },
+        {
+          "char": "c",
+          "translit": "c"
+        },
+        {
+          "char": "d",
+          "translit": "d"
+        },
+        {
+          "char": "e",
+          "translit": "e"
+        },
+        {
+          "char": "f",
+          "translit": "f"
+        },
+        {
+          "char": "g",
+          "translit": "g"
+        },
+        {
+          "char": "h",
+          "translit": "h"
+        },
+        {
+          "char": "i",
+          "translit": "i"
+        },
+        {
+          "char": "j",
+          "translit": "j"
+        },
+        {
+          "char": "k",
+          "translit": "k"
+        },
+        {
+          "char": "l",
+          "translit": "l"
+        },
+        {
+          "char": "m",
+          "translit": "m"
+        },
+        {
+          "char": "n",
+          "translit": "n"
+        },
+        {
+          "char": "o",
+          "translit": "o"
+        },
+        {
+          "char": "p",
+          "translit": "p"
+        },
+        {
+          "char": "q",
+          "translit": "q"
+        },
+        {
+          "char": "r",
+          "translit": "r"
+        },
+        {
+          "char": "s",
+          "translit": "s"
+        },
+        {
+          "char": "t",
+          "translit": "t"
+        },
+        {
+          "char": "u",
+          "translit": "u"
+        },
+        {
+          "char": "v",
+          "translit": "v"
+        },
+        {
+          "char": "w",
+          "translit": "w"
+        },
+        {
+          "char": "x",
+          "translit": "x"
+        },
+        {
+          "char": "y",
+          "translit": "y"
+        },
+        {
+          "char": "z",
+          "translit": "z"
+        },
+        {
+          "char": "é",
+          "note": {
+            "en": "«e accent aigu»: closed e.",
+            "es": "«e accent aigu»: e cerrada."
+          },
+          "translit": "é"
+        },
+        {
+          "char": "è",
+          "note": {
+            "en": "«e accent grave»: open e.",
+            "es": "«e accent grave»: e abierta."
+          },
+          "translit": "è"
+        },
+        {
+          "char": "ê",
+          "translit": "ê"
+        },
+        {
+          "char": "ë",
+          "translit": "ë"
+        },
+        {
+          "char": "à",
+          "translit": "à"
+        },
+        {
+          "char": "â",
+          "translit": "â"
+        },
+        {
+          "char": "ç",
+          "note": {
+            "en": "«c cédille»: sounds like «s».",
+            "es": "«c cédille»: suena como «s»."
+          },
+          "translit": "ç"
+        },
+        {
+          "char": "î",
+          "translit": "î"
+        },
+        {
+          "char": "ï",
+          "translit": "ï"
+        },
+        {
+          "char": "ô",
+          "translit": "ô"
+        },
+        {
+          "char": "û",
+          "translit": "û"
+        },
+        {
+          "char": "ù",
+          "translit": "ù"
+        },
+        {
+          "char": "œ",
+          "note": {
+            "en": "Digraph: e + u, as in «œuf».",
+            "es": "Dígrafo: e + u, como en «œuf»."
+          },
+          "translit": "œ"
+        }
+      ],
+      "title": {
+        "en": "Alphabet",
+        "es": "Alfabeto"
+      }
+    }
+  ],
+  "title": {
+    "en": "French: Latin alphabet and accents",
+    "es": "Français : alphabet latin et accents"
+  }
+}

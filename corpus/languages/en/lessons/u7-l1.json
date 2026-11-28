@@ -87,7 +87,105 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Home / home",
+          "concept": "c:casa-y-hogar.casa-hogar",
+          "options": [
+            "roof / rooftop",
+            "living room",
+            "apartment",
+            "Home / home"
+          ],
+          "prompt": "casa / hogar"
+        },
+        {
+          "answer": "building / house",
+          "concept": "c:casa-y-hogar.edificio-casa",
+          "options": [
+            "toilet / sink",
+            "building / house",
+            "room / bedroom",
+            "balcony"
+          ],
+          "prompt": "edificio / casa"
+        },
+        {
+          "answer": "apartment",
+          "concept": "c:casa-y-hogar.apartamento",
+          "options": [
+            "bedroom",
+            "apartment",
+            "roof / rooftop",
+            "Home / home"
+          ],
+          "prompt": "apartamento"
+        },
+        {
+          "answer": "room / bedroom",
+          "concept": "c:casa-y-hogar.habitacion-cuarto",
+          "options": [
+            "room / bedroom",
+            "wall",
+            "living room",
+            "bathroom"
+          ],
+          "prompt": "habitación / cuarto"
+        },
+        {
+          "answer": "living room",
+          "concept": "c:casa-y-hogar.sala-de-estar",
+          "options": [
+            "toilet / sink",
+            "bedroom",
+            "wall",
+            "living room"
+          ],
+          "prompt": "sala de estar"
+        },
+        {
+          "answer": "bedroom",
+          "concept": "c:casa-y-hogar.dormitorio",
+          "options": [
+            "bedroom",
+            "apartment",
+            "bathroom",
+            "wall"
+          ],
+          "prompt": "dormitorio"
+        },
+        {
+          "answer": "kitchen (room)",
+          "concept": "c:casa-y-hogar.cocina-habitacion",
+          "options": [
+            "roof / rooftop",
+            "kitchen (room)",
+            "balcony",
+            "room / bedroom"
+          ],
+          "prompt": "cocina (habitación)"
+        },
+        {
+          "answer": "bathroom",
+          "concept": "c:casa-y-hogar.bano",
+          "options": [
+            "bathroom",
+            "wall",
+            "living room",
+            "roof / rooftop"
+          ],
+          "prompt": "baño"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "House vocabulary: rooms, furniture and everyday objects.",
     "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."

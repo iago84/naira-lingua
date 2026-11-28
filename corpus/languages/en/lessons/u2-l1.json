@@ -87,7 +87,105 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "zero",
+          "concept": "c:numeros.cero",
+          "options": [
+            "9",
+            "zero",
+            "seven",
+            "one"
+          ],
+          "prompt": "cero"
+        },
+        {
+          "answer": "one",
+          "concept": "c:numeros.uno",
+          "options": [
+            "five",
+            "two",
+            "10",
+            "one"
+          ],
+          "prompt": "uno"
+        },
+        {
+          "answer": "two",
+          "concept": "c:numeros.dos",
+          "options": [
+            "6",
+            "9",
+            "five",
+            "two"
+          ],
+          "prompt": "dos"
+        },
+        {
+          "answer": "three",
+          "concept": "c:numeros.tres",
+          "options": [
+            "10",
+            "6",
+            "two",
+            "three"
+          ],
+          "prompt": "tres"
+        },
+        {
+          "answer": "4",
+          "concept": "c:numeros.cuatro",
+          "options": [
+            "4",
+            "five",
+            "10",
+            "8"
+          ],
+          "prompt": "cuatro"
+        },
+        {
+          "answer": "five",
+          "concept": "c:numeros.cinco",
+          "options": [
+            "4",
+            "zero",
+            "seven",
+            "five"
+          ],
+          "prompt": "cinco"
+        },
+        {
+          "answer": "6",
+          "concept": "c:numeros.seis",
+          "options": [
+            "two",
+            "11",
+            "6",
+            "zero"
+          ],
+          "prompt": "seis"
+        },
+        {
+          "answer": "seven",
+          "concept": "c:numeros.siete",
+          "options": [
+            "8",
+            "seven",
+            "five",
+            "4"
+          ],
+          "prompt": "siete"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Everyday numbers: used to count, give your age and talk about prices.",
     "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."

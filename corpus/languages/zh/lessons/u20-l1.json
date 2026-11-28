@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:vocabulario-extra-y-frases-utiles.amor",
+    "c:vocabulario-extra-y-frases-utiles.odio",
+    "c:vocabulario-extra-y-frases-utiles.honestidad",
+    "c:vocabulario-extra-y-frases-utiles.mentira",
+    "c:vocabulario-extra-y-frases-utiles.verdad",
+    "c:vocabulario-extra-y-frases-utiles.justicia",
+    "c:vocabulario-extra-y-frases-utiles.injusticia",
+    "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+    "c:vocabulario-extra-y-frases-utiles.miedo",
+    "c:vocabulario-extra-y-frases-utiles.esperanza",
+    "c:vocabulario-extra-y-frases-utiles.decepcion",
+    "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+      "en": "love",
+      "es": "amor",
+      "speaker": "A",
+      "translit": "ài",
+      "zh": "爱"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+      "en": "I hate it.",
+      "es": "odio",
+      "speaker": "B",
+      "translit": "wǒ tǎo yàn tā 。",
+      "zh": "我讨厌它。"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "en": "honesty",
+      "es": "honestidad",
+      "speaker": "A",
+      "translit": "chéng shí",
+      "zh": "诚实"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+      "en": "lie",
+      "es": "mentira",
+      "speaker": "B",
+      "translit": "huǎng yán",
+      "zh": "谎言"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+      "en": "truth",
+      "es": "verdad",
+      "speaker": "A",
+      "translit": "shì shí",
+      "zh": "事实"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+      "en": "justice",
+      "es": "justicia",
+      "speaker": "B",
+      "translit": "sī fǎ",
+      "zh": "司法"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "en": "injustice",
+      "es": "injusticia",
+      "speaker": "A",
+      "translit": "bù gōng zhèng",
+      "zh": "不公正"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "en": "value / courage",
+      "es": "valor / coraje",
+      "speaker": "B",
+      "translit": "jià zhí / yǒng qì",
+      "zh": "价值/勇气"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+      "en": "fear",
+      "es": "miedo",
+      "speaker": "A",
+      "translit": "kǒng jù",
+      "zh": "恐惧"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "en": "hope",
+      "es": "esperanza",
+      "speaker": "B",
+      "translit": "yù gào",
+      "zh": "预告"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "en": "disappointment",
+      "es": "decepción",
+      "speaker": "A",
+      "translit": "shī wàng qíng xù",
+      "zh": "失望情绪"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+      "en": "anger / angry",
+      "es": "ira / enfado",
+      "speaker": "B",
+      "translit": "fèn nù / fèn nù",
+      "zh": "愤怒/愤怒"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "爱",
+          "answerTranslit": "ài",
+          "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+          "optionTranslit": {
+            "事实": "shì shí",
+            "司法": "sī fǎ",
+            "失望情绪": "shī wàng qíng xù",
+            "爱": "ài"
+          },
+          "options": [
+            "司法",
+            "爱",
+            "事实",
+            "失望情绪"
+          ],
+          "prompt": "amor"
+        },
+        {
+          "answer": "我讨厌它。",
+          "answerTranslit": "wǒ tǎo yàn tā 。",
+          "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+          "optionTranslit": {
+            "不公正": "bù gōng zhèng",
+            "我讨厌它。": "wǒ tǎo yàn tā 。",
+            "诚实": "chéng shí",
+            "预告": "yù gào"
+          },
+          "options": [
+            "诚实",
+            "预告",
+            "我讨厌它。",
+            "不公正"
+          ],
+          "prompt": "odio"
+        },
+        {
+          "answer": "诚实",
+          "answerTranslit": "chéng shí",
+          "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+          "optionTranslit": {
+            "事实": "shì shí",
+            "愤怒/愤怒": "fèn nù / fèn nù",
+            "诚实": "chéng shí",
+            "谎言": "huǎng yán"
+          },
+          "options": [
+            "事实",
+            "诚实",
+            "愤怒/愤怒",
+            "谎言"
+          ],
+          "prompt": "honestidad"
+        },
+        {
+          "answer": "谎言",
+          "answerTranslit": "huǎng yán",
+          "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+          "optionTranslit": {
+            "事实": "shì shí",
+            "爱": "ài",
+            "诚实": "chéng shí",
+            "谎言": "huǎng yán"
+          },
+          "options": [
+            "事实",
+            "诚实",
+            "爱",
+            "谎言"
+          ],
+          "prompt": "mentira"
+        },
+        {
+          "answer": "事实",
+          "answerTranslit": "shì shí",
+          "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+          "optionTranslit": {
+            "事实": "shì shí",
+            "司法": "sī fǎ",
+            "愤怒/愤怒": "fèn nù / fèn nù",
+            "诚实": "chéng shí"
+          },
+          "options": [
+            "事实",
+            "司法",
+            "诚实",
+            "愤怒/愤怒"
+          ],
+          "prompt": "verdad"
+        },
+        {
+          "answer": "司法",
+          "answerTranslit": "sī fǎ",
+          "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+          "optionTranslit": {
+            "不公正": "bù gōng zhèng",
+            "司法": "sī fǎ",
+            "失望情绪": "shī wàng qíng xù",
+            "愤怒/愤怒": "fèn nù / fèn nù"
+          },
+          "options": [
+            "愤怒/愤怒",
+            "不公正",
+            "司法",
+            "失望情绪"
+          ],
+          "prompt": "justicia"
+        },
+        {
+          "answer": "不公正",
+          "answerTranslit": "bù gōng zhèng",
+          "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+          "optionTranslit": {
+            "不公正": "bù gōng zhèng",
+            "事实": "shì shí",
+            "失望情绪": "shī wàng qíng xù",
+            "诚实": "chéng shí"
+          },
+          "options": [
+            "事实",
+            "诚实",
+            "不公正",
+            "失望情绪"
+          ],
+          "prompt": "injusticia"
+        },
+        {
+          "answer": "价值/勇气",
+          "answerTranslit": "jià zhí / yǒng qì",
+          "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+          "optionTranslit": {
+            "不公正": "bù gōng zhèng",
+            "价值/勇气": "jià zhí / yǒng qì",
+            "司法": "sī fǎ",
+            "预告": "yù gào"
+          },
+          "options": [
+            "价值/勇气",
+            "不公正",
+            "预告",
+            "司法"
+          ],
+          "prompt": "valor / coraje"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Support words and phrases that appear in many conversations.",
+    "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u20-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Expand vocabulary",
+      "Use common everyday phrases"
+    ],
+    "es": [
+      "Ampliar vocabulario",
+      "Usar frases comunes del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "amor",
+          "love",
+          "爱"
+        ],
+        [
+          "odio",
+          "I hate it.",
+          "我讨厌它。"
+        ],
+        [
+          "honestidad",
+          "honesty",
+          "诚实"
+        ],
+        [
+          "mentira",
+          "lie",
+          "谎言"
+        ],
+        [
+          "verdad",
+          "truth",
+          "事实"
+        ],
+        [
+          "justicia",
+          "justice",
+          "司法"
+        ],
+        [
+          "injusticia",
+          "injustice",
+          "不公正"
+        ],
+        [
+          "valor / coraje",
+          "value / courage",
+          "价值/勇气"
+        ],
+        [
+          "miedo",
+          "fear",
+          "恐惧"
+        ],
+        [
+          "esperanza",
+          "hope",
+          "预告"
+        ],
+        [
+          "decepción",
+          "disappointment",
+          "失望情绪"
+        ],
+        [
+          "ira / enfado",
+          "anger / angry",
+          "愤怒/愤怒"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Extra vocabulary and useful phrases",
+    "es": "Vocabulario extra y frases útiles"
+  },
+  "unit": 20
+}

@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Alimentation / alimentation",
+          "concept": "c:comida-y-bebida.comida-comer",
+          "options": [
+            "jus / jus",
+            "Alimentation / alimentation",
+            "alcool / vin",
+            "café"
+          ],
+          "prompt": "comida / comer"
+        },
+        {
+          "answer": "alimentaire (formel)",
+          "concept": "c:comida-y-bebida.comida-formal",
+          "options": [
+            "café",
+            "Alimentation / alimentation",
+            "alimentaire (formel)",
+            "alcool / vin"
+          ],
+          "prompt": "comida (formal)"
+        },
+        {
+          "answer": "Petit déjeuner",
+          "concept": "c:comida-y-bebida.desayuno",
+          "options": [
+            "alimentaire (formel)",
+            "Petit déjeuner",
+            "café",
+            "Alimentation / alimentation"
+          ],
+          "prompt": "desayuno"
+        },
+        {
+          "answer": "Déjeuner",
+          "concept": "c:comida-y-bebida.almuerzo",
+          "options": [
+            "eau",
+            "Déjeuner",
+            "alimentaire (formel)",
+            "Alimentation / alimentation"
+          ],
+          "prompt": "almuerzo"
+        },
+        {
+          "answer": "Dîner",
+          "concept": "c:comida-y-bebida.cena",
+          "options": [
+            "thé",
+            "eau",
+            "Petit déjeuner",
+            "Dîner"
+          ],
+          "prompt": "cena"
+        },
+        {
+          "answer": "eau",
+          "concept": "c:comida-y-bebida.agua",
+          "options": [
+            "eau",
+            "café",
+            "lait",
+            "Petit déjeuner"
+          ],
+          "prompt": "agua"
+        },
+        {
+          "answer": "lait",
+          "concept": "c:comida-y-bebida.leche",
+          "options": [
+            "Dîner",
+            "lassi (yoghurt battu)",
+            "lait",
+            "alcool / vin"
+          ],
+          "prompt": "leche"
+        },
+        {
+          "answer": "thé",
+          "concept": "c:comida-y-bebida.te",
+          "options": [
+            "Dîner",
+            "café",
+            "thé",
+            "Déjeuner"
+          ],
+          "prompt": "té"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic foods and drinks, very useful when shopping or eating out.",
-    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
-    "fr": "Nourriture et boissons de base, très utile pour acheter ou manger en dehors de la maison."
+    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
   },
   "generator": "build_lessons",
   "id": "fr-u6-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar alimentos y bebidas",
       "Pedir en un restaurante"
-    ],
-    "fr": [
-      "Désigner les aliments et boissons",
-      "Demandez dans un restaurant"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Food and drink",
-    "es": "La comida y la bebida",
-    "fr": "Produits alimentaires et boissons"
+    "es": "La comida y la bebida"
   },
   "unit": 6
 }

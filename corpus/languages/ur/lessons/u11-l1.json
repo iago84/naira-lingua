@@ -19,6 +19,7 @@
       "en": "clothing",
       "es": "ropa",
       "speaker": "A",
+      "translit": "kapṛe",
       "ur": "کپڈے"
     },
     {
@@ -26,6 +27,7 @@
       "en": "shirt",
       "es": "camisa",
       "speaker": "B",
+      "translit": "śarṭ",
       "ur": "شرٹ"
     },
     {
@@ -33,6 +35,7 @@
       "en": "T-shirt",
       "es": "camiseta",
       "speaker": "A",
+      "translit": "ṭī-śarṭ",
       "ur": "ٹی-شرٹ"
     },
     {
@@ -40,6 +43,7 @@
       "en": "Pants",
       "es": "pantalón",
       "speaker": "B",
+      "translit": "paiṇṭ",
       "ur": "پےںٹ"
     },
     {
@@ -47,6 +51,7 @@
       "en": "jeans / jans",
       "es": "vaqueros / jeans",
       "speaker": "A",
+      "translit": "jīns",
       "ur": "جیںس"
     },
     {
@@ -54,6 +59,7 @@
       "en": "Short pants",
       "es": "pantalones cortos",
       "speaker": "B",
+      "translit": "śôrṭs",
       "ur": "شارٹس"
     },
     {
@@ -61,6 +67,7 @@
       "en": "skirt",
       "es": "falda",
       "speaker": "A",
+      "translit": "skarṭ",
       "ur": "سکرٹ"
     },
     {
@@ -68,6 +75,7 @@
       "en": "dress up",
       "es": "vestido",
       "speaker": "B",
+      "translit": "ḍres",
       "ur": "ڈرےس"
     },
     {
@@ -75,6 +83,7 @@
       "en": "sari",
       "es": "sari",
       "speaker": "A",
+      "translit": "sāṛī",
       "ur": "ساڈی"
     },
     {
@@ -82,6 +91,7 @@
       "en": "salwar kameez",
       "es": "salwar kameez",
       "speaker": "B",
+      "translit": "salvār kamīz",
       "ur": "سلوار کمیج"
     },
     {
@@ -89,6 +99,7 @@
       "en": "kurta",
       "es": "kurta",
       "speaker": "A",
+      "translit": "kurtā",
       "ur": "کُرتا"
     },
     {
@@ -96,10 +107,165 @@
       "en": "pajamas",
       "es": "pijama",
       "speaker": "B",
+      "translit": "pāyjāmā",
       "ur": "پایجاما"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "کپڈے",
+          "answerTranslit": "kapṛe",
+          "concept": "c:ropa-y-accesorios.ropa",
+          "optionTranslit": {
+            "جیںس": "jīns",
+            "ٹی-شرٹ": "ṭī-śarṭ",
+            "ڈرےس": "ḍres",
+            "کپڈے": "kapṛe"
+          },
+          "options": [
+            "جیںس",
+            "ڈرےس",
+            "ٹی-شرٹ",
+            "کپڈے"
+          ],
+          "prompt": "ropa"
+        },
+        {
+          "answer": "شرٹ",
+          "answerTranslit": "śarṭ",
+          "concept": "c:ropa-y-accesorios.camisa",
+          "optionTranslit": {
+            "شارٹس": "śôrṭs",
+            "شرٹ": "śarṭ",
+            "پایجاما": "pāyjāmā",
+            "ڈرےس": "ḍres"
+          },
+          "options": [
+            "شرٹ",
+            "شارٹس",
+            "پایجاما",
+            "ڈرےس"
+          ],
+          "prompt": "camisa"
+        },
+        {
+          "answer": "ٹی-شرٹ",
+          "answerTranslit": "ṭī-śarṭ",
+          "concept": "c:ropa-y-accesorios.camiseta",
+          "optionTranslit": {
+            "ٹی-شرٹ": "ṭī-śarṭ",
+            "پایجاما": "pāyjāmā",
+            "ڈرےس": "ḍres",
+            "کُرتا": "kurtā"
+          },
+          "options": [
+            "ٹی-شرٹ",
+            "پایجاما",
+            "ڈرےس",
+            "کُرتا"
+          ],
+          "prompt": "camiseta"
+        },
+        {
+          "answer": "پےںٹ",
+          "answerTranslit": "paiṇṭ",
+          "concept": "c:ropa-y-accesorios.pantalon",
+          "optionTranslit": {
+            "سلوار کمیج": "salvār kamīz",
+            "پایجاما": "pāyjāmā",
+            "پےںٹ": "paiṇṭ",
+            "کپڈے": "kapṛe"
+          },
+          "options": [
+            "کپڈے",
+            "پےںٹ",
+            "پایجاما",
+            "سلوار کمیج"
+          ],
+          "prompt": "pantalón"
+        },
+        {
+          "answer": "جیںس",
+          "answerTranslit": "jīns",
+          "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+          "optionTranslit": {
+            "جیںس": "jīns",
+            "ساڈی": "sāṛī",
+            "سکرٹ": "skarṭ",
+            "ٹی-شرٹ": "ṭī-śarṭ"
+          },
+          "options": [
+            "ساڈی",
+            "ٹی-شرٹ",
+            "جیںس",
+            "سکرٹ"
+          ],
+          "prompt": "vaqueros / jeans"
+        },
+        {
+          "answer": "شارٹس",
+          "answerTranslit": "śôrṭs",
+          "concept": "c:ropa-y-accesorios.pantalones-cortos",
+          "optionTranslit": {
+            "شارٹس": "śôrṭs",
+            "ٹی-شرٹ": "ṭī-śarṭ",
+            "پےںٹ": "paiṇṭ",
+            "کُرتا": "kurtā"
+          },
+          "options": [
+            "ٹی-شرٹ",
+            "شارٹس",
+            "پےںٹ",
+            "کُرتا"
+          ],
+          "prompt": "pantalones cortos"
+        },
+        {
+          "answer": "سکرٹ",
+          "answerTranslit": "skarṭ",
+          "concept": "c:ropa-y-accesorios.falda",
+          "optionTranslit": {
+            "ساڈی": "sāṛī",
+            "سکرٹ": "skarṭ",
+            "ڈرےس": "ḍres",
+            "کپڈے": "kapṛe"
+          },
+          "options": [
+            "سکرٹ",
+            "ڈرےس",
+            "ساڈی",
+            "کپڈے"
+          ],
+          "prompt": "falda"
+        },
+        {
+          "answer": "ڈرےس",
+          "answerTranslit": "ḍres",
+          "concept": "c:ropa-y-accesorios.vestido",
+          "optionTranslit": {
+            "پایجاما": "pāyjāmā",
+            "پےںٹ": "paiṇṭ",
+            "ڈرےس": "ḍres",
+            "کپڈے": "kapṛe"
+          },
+          "options": [
+            "کپڈے",
+            "ڈرےس",
+            "پایجاما",
+            "پےںٹ"
+          ],
+          "prompt": "vestido"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Clothes and accessories, with words useful for clothes shopping.",
     "es": "Prendas y accesorios, con palabras útiles para comprar ropa."

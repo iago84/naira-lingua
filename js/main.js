@@ -10,6 +10,7 @@ import { renderPick } from "./views/pick.js";
 import { mountStudy, renderStudy } from "./views/study.js";
 import { mountQuiz } from "./views/quiz.js";
 import { renderLessonList, renderLesson } from "./views/lessons.js";
+import { renderAlphabetList, renderAlphabet, mountAlphabet } from "./views/alphabet.js";
 import { mountDictionary } from "./views/dictionary.js";
 import { mountProgress } from "./views/progress.js";
 import { page } from "./views/common.js";
@@ -18,12 +19,13 @@ import { esc } from "./util.js";
 const store = createStore(defaultStorage());
 const data = createDataSource(".");
 
-const NAV = ["home", "pick", "study", "quiz", "lessons", "dictionary", "progress"];
+const NAV = ["home", "pick", "study", "quiz", "lessons", "alphabet", "dictionary", "progress"];
 const MODE_ROUTES = new Set(["study", "quiz", "lessons", "dictionary", "progress"]);
 
 let uiLang = normalizeLang(store.getState().ui.lang || navigator.language);
 let manifest = null;
 let concepts = null;
+let alphabets = null;
 const termsCache = new Map(); // lang -> terms[]
 const lessonsCache = new Map(); // lang -> lessons[]
 
@@ -47,6 +49,13 @@ async function getLessons(lang) {
     catch (_) { lessonsCache.set(lang, []); }
   }
   return lessonsCache.get(lang);
+}
+async function getAlphabets() {
+  if (!alphabets) {
+    try { alphabets = await data.loadAlphabets(); }
+    catch (_) { alphabets = {}; }
+  }
+  return alphabets;
 }
 
 function currentPair() {
@@ -75,6 +84,17 @@ function paintUiLang() {
     .join("");
 }
 
+function paintTranslitToggle() {
+  const btn = document.getElementById("translitToggle");
+  if (!btn) return;
+  const on = store.showTranslit();
+  const label = t("common.showTranslit");
+  btn.textContent = "Aa";
+  btn.setAttribute("aria-pressed", on ? "true" : "false");
+  btn.setAttribute("aria-label", label);
+  btn.setAttribute("title", label);
+}
+
 function errorView(msg) {
   return page(t("common.error"), `<p class="muted">${esc(msg)}</p>`);
 }
@@ -84,6 +104,7 @@ async function render() {
   const route = parseHash(location.hash);
   document.documentElement.lang = uiLang;
   document.documentElement.dir = isRtl(uiLang) ? "rtl" : "ltr";
+  const translit = store.showTranslit();
 
   try {
     if (route.name === "home") {
@@ -111,9 +132,22 @@ async function render() {
         const lessons = await getLessons(tgt);
         const lesson = lessons.find((l) => l.id === route.param);
         if (!lesson) { app.innerHTML = errorView(`No lesson ${route.param}`); return; }
-        app.innerHTML = renderLesson({ t, lesson, uiLang, srcLang: "es" });
+        app.innerHTML = renderLesson({ t, lesson, uiLang, srcLang: "es", translit });
       } else {
         app.innerHTML = renderLessonList({ t, lessons: await getLessons(tgt), uiLang });
+      }
+      return;
+    }
+
+    if (route.name === "alphabet") {
+      paintNav("alphabet");
+      const all = await getAlphabets();
+      if (route.param) {
+        app.innerHTML = renderAlphabet({ t, lang: route.param,
+          alphabet: all[route.param], uiLang });
+        mountAlphabet(app);
+      } else {
+        app.innerHTML = renderAlphabetList({ t, alphabets: all, uiLang });
       }
       return;
     }
@@ -124,12 +158,12 @@ async function render() {
       const pair = buildPair(await getConcepts(), await getTerms(src), await getTerms(tgt));
 
       if (route.name === "study") {
-        app.innerHTML = renderStudy({ t, pairs: pair, i: 0, flipped: false });
-        mountStudy(app, { pairs: pair, i: 0, store, src, tgt, t });
+        app.innerHTML = renderStudy({ t, pairs: pair, i: 0, flipped: false, translit });
+        mountStudy(app, { pairs: pair, i: 0, store, src, tgt, t, translit });
       } else if (route.name === "quiz") {
-        mountQuiz(app, { pairs: pair, store, src, tgt, t });
+        mountQuiz(app, { pairs: pair, store, src, tgt, t, translit });
       } else if (route.name === "dictionary") {
-        mountDictionary(app, { concepts: await getConcepts(), data, langs, t });
+        mountDictionary(app, { concepts: await getConcepts(), data, langs, t, translit });
       } else if (route.name === "progress") {
         mountProgress(app, { src, tgt, store, t });
       }
@@ -171,12 +205,20 @@ document.getElementById("uiLang").addEventListener("change", (e) => {
   uiLang = normalizeLang(e.target.value);
   store.setUiLang(uiLang);
   paintUiLang();
+  paintTranslitToggle();
+  render();
+});
+
+document.getElementById("translitToggle").addEventListener("click", () => {
+  store.setShowTranslit(!store.showTranslit());
+  paintTranslitToggle();
   render();
 });
 
 window.addEventListener("hashchange", render);
 window.addEventListener("DOMContentLoaded", () => {
   paintUiLang();
+  paintTranslitToggle();
   render();
 });
 

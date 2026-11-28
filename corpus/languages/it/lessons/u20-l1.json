@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:vocabulario-extra-y-frases-utiles.amor",
+    "c:vocabulario-extra-y-frases-utiles.odio",
+    "c:vocabulario-extra-y-frases-utiles.honestidad",
+    "c:vocabulario-extra-y-frases-utiles.mentira",
+    "c:vocabulario-extra-y-frases-utiles.verdad",
+    "c:vocabulario-extra-y-frases-utiles.justicia",
+    "c:vocabulario-extra-y-frases-utiles.injusticia",
+    "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+    "c:vocabulario-extra-y-frases-utiles.miedo",
+    "c:vocabulario-extra-y-frases-utiles.esperanza",
+    "c:vocabulario-extra-y-frases-utiles.decepcion",
+    "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+      "en": "love",
+      "es": "amor",
+      "it": "amore",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+      "en": "I hate it.",
+      "es": "odio",
+      "it": "Lo odio.",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "en": "honesty",
+      "es": "honestidad",
+      "it": "Onestà",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+      "en": "lie",
+      "es": "mentira",
+      "it": "bugiarda",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+      "en": "truth",
+      "es": "verdad",
+      "it": "verità",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+      "en": "justice",
+      "es": "justicia",
+      "it": "giustizia",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "en": "injustice",
+      "es": "injusticia",
+      "it": "ingiustizia",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "en": "value / courage",
+      "es": "valor / coraje",
+      "it": "valore / coraggio",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+      "en": "fear",
+      "es": "miedo",
+      "it": "paura tem",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "en": "hope",
+      "es": "esperanza",
+      "it": "speranza",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "en": "disappointment",
+      "es": "decepción",
+      "it": "delusione",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+      "en": "anger / angry",
+      "es": "ira / enfado",
+      "it": "rabbia / arrabbiato",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "amore",
+          "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+          "options": [
+            "giustizia",
+            "amore",
+            "verità",
+            "delusione"
+          ],
+          "prompt": "amor"
+        },
+        {
+          "answer": "Lo odio.",
+          "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+          "options": [
+            "Onestà",
+            "speranza",
+            "Lo odio.",
+            "ingiustizia"
+          ],
+          "prompt": "odio"
+        },
+        {
+          "answer": "Onestà",
+          "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+          "options": [
+            "verità",
+            "Onestà",
+            "rabbia / arrabbiato",
+            "bugiarda"
+          ],
+          "prompt": "honestidad"
+        },
+        {
+          "answer": "bugiarda",
+          "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+          "options": [
+            "verità",
+            "Onestà",
+            "amore",
+            "bugiarda"
+          ],
+          "prompt": "mentira"
+        },
+        {
+          "answer": "verità",
+          "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+          "options": [
+            "verità",
+            "giustizia",
+            "Onestà",
+            "rabbia / arrabbiato"
+          ],
+          "prompt": "verdad"
+        },
+        {
+          "answer": "giustizia",
+          "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+          "options": [
+            "rabbia / arrabbiato",
+            "ingiustizia",
+            "giustizia",
+            "delusione"
+          ],
+          "prompt": "justicia"
+        },
+        {
+          "answer": "ingiustizia",
+          "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+          "options": [
+            "verità",
+            "Onestà",
+            "ingiustizia",
+            "delusione"
+          ],
+          "prompt": "injusticia"
+        },
+        {
+          "answer": "valore / coraggio",
+          "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+          "options": [
+            "valore / coraggio",
+            "ingiustizia",
+            "speranza",
+            "giustizia"
+          ],
+          "prompt": "valor / coraje"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Support words and phrases that appear in many conversations.",
+    "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+  },
+  "generator": "build_lessons",
+  "id": "it-u20-l1",
+  "lang": "it",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Expand vocabulary",
+      "Use common everyday phrases"
+    ],
+    "es": [
+      "Ampliar vocabulario",
+      "Usar frases comunes del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "it"
+      ],
+      "rows": [
+        [
+          "amor",
+          "love",
+          "amore"
+        ],
+        [
+          "odio",
+          "I hate it.",
+          "Lo odio."
+        ],
+        [
+          "honestidad",
+          "honesty",
+          "Onestà"
+        ],
+        [
+          "mentira",
+          "lie",
+          "bugiarda"
+        ],
+        [
+          "verdad",
+          "truth",
+          "verità"
+        ],
+        [
+          "justicia",
+          "justice",
+          "giustizia"
+        ],
+        [
+          "injusticia",
+          "injustice",
+          "ingiustizia"
+        ],
+        [
+          "valor / coraje",
+          "value / courage",
+          "valore / coraggio"
+        ],
+        [
+          "miedo",
+          "fear",
+          "paura tem"
+        ],
+        [
+          "esperanza",
+          "hope",
+          "speranza"
+        ],
+        [
+          "decepción",
+          "disappointment",
+          "delusione"
+        ],
+        [
+          "ira / enfado",
+          "anger / angry",
+          "rabbia / arrabbiato"
+        ]
+      ],
+      "title": "es · en · it",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Extra vocabulary and useful phrases",
+    "es": "Vocabulario extra y frases útiles"
+  },
+  "unit": 20
+}

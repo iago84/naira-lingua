@@ -19,6 +19,7 @@
       "en": "animal",
       "es": "animal",
       "speaker": "A",
+      "translit": "dòng wù",
       "zh": "动物"
     },
     {
@@ -26,6 +27,7 @@
       "en": "dog",
       "es": "perro",
       "speaker": "B",
+      "translit": "gǒu lèi",
       "zh": "狗类"
     },
     {
@@ -33,6 +35,7 @@
       "en": "cat",
       "es": "gato",
       "speaker": "A",
+      "translit": "māo",
       "zh": "猫"
     },
     {
@@ -40,6 +43,7 @@
       "en": "cow",
       "es": "vaca",
       "speaker": "B",
+      "translit": "huáng niú",
       "zh": "黄牛"
     },
     {
@@ -47,6 +51,7 @@
       "en": "ox / bull",
       "es": "buey / toro",
       "speaker": "A",
+      "translit": "niú / niú ( gōng niú )",
       "zh": "牛/牛(公牛)"
     },
     {
@@ -54,6 +59,7 @@
       "en": "buffalo",
       "es": "búfalo",
       "speaker": "B",
+      "translit": "shuǐ niú duì",
       "zh": "水牛队"
     },
     {
@@ -61,6 +67,7 @@
       "en": "horse",
       "es": "caballo",
       "speaker": "A",
+      "translit": "mǎ",
       "zh": "马"
     },
     {
@@ -68,6 +75,7 @@
       "en": "donkey / ass",
       "es": "burro / asno",
       "speaker": "B",
+      "translit": "lǘ zi / lǘ zi",
       "zh": "驴子/驴子"
     },
     {
@@ -75,6 +83,7 @@
       "en": "goat",
       "es": "cabra",
       "speaker": "A",
+      "translit": "shān yáng ( shān yáng )",
       "zh": "山羊(山羊)"
     },
     {
@@ -82,6 +91,7 @@
       "en": "sheep",
       "es": "oveja",
       "speaker": "B",
+      "translit": "yáng tóu",
       "zh": "羊头"
     },
     {
@@ -89,6 +99,7 @@
       "en": "pig",
       "es": "cerdo",
       "speaker": "A",
+      "translit": "zhū",
       "zh": "猪"
     },
     {
@@ -96,14 +107,168 @@
       "en": "chicken",
       "es": "gallina",
       "speaker": "B",
+      "translit": "jī ròu",
       "zh": "鸡肉"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "动物",
+          "answerTranslit": "dòng wù",
+          "concept": "c:animales.animal",
+          "optionTranslit": {
+            "动物": "dòng wù",
+            "猪": "zhū",
+            "猫": "māo",
+            "马": "mǎ"
+          },
+          "options": [
+            "马",
+            "动物",
+            "猫",
+            "猪"
+          ],
+          "prompt": "animal"
+        },
+        {
+          "answer": "狗类",
+          "answerTranslit": "gǒu lèi",
+          "concept": "c:animales.perro",
+          "optionTranslit": {
+            "动物": "dòng wù",
+            "狗类": "gǒu lèi",
+            "猪": "zhū",
+            "鸡肉": "jī ròu"
+          },
+          "options": [
+            "鸡肉",
+            "狗类",
+            "猪",
+            "动物"
+          ],
+          "prompt": "perro"
+        },
+        {
+          "answer": "猫",
+          "answerTranslit": "māo",
+          "concept": "c:animales.gato",
+          "optionTranslit": {
+            "动物": "dòng wù",
+            "猪": "zhū",
+            "猫": "māo",
+            "马": "mǎ"
+          },
+          "options": [
+            "猫",
+            "猪",
+            "马",
+            "动物"
+          ],
+          "prompt": "gato"
+        },
+        {
+          "answer": "黄牛",
+          "answerTranslit": "huáng niú",
+          "concept": "c:animales.vaca",
+          "optionTranslit": {
+            "牛/牛(公牛)": "niú / niú ( gōng niú )",
+            "猪": "zhū",
+            "猫": "māo",
+            "黄牛": "huáng niú"
+          },
+          "options": [
+            "黄牛",
+            "牛/牛(公牛)",
+            "猫",
+            "猪"
+          ],
+          "prompt": "vaca"
+        },
+        {
+          "answer": "牛/牛(公牛)",
+          "answerTranslit": "niú / niú ( gōng niú )",
+          "concept": "c:animales.buey-toro",
+          "optionTranslit": {
+            "水牛队": "shuǐ niú duì",
+            "牛/牛(公牛)": "niú / niú ( gōng niú )",
+            "狗类": "gǒu lèi",
+            "驴子/驴子": "lǘ zi / lǘ zi"
+          },
+          "options": [
+            "水牛队",
+            "驴子/驴子",
+            "牛/牛(公牛)",
+            "狗类"
+          ],
+          "prompt": "buey / toro"
+        },
+        {
+          "answer": "水牛队",
+          "answerTranslit": "shuǐ niú duì",
+          "concept": "c:animales.bufalo",
+          "optionTranslit": {
+            "动物": "dòng wù",
+            "山羊(山羊)": "shān yáng ( shān yáng )",
+            "水牛队": "shuǐ niú duì",
+            "鸡肉": "jī ròu"
+          },
+          "options": [
+            "水牛队",
+            "山羊(山羊)",
+            "鸡肉",
+            "动物"
+          ],
+          "prompt": "búfalo"
+        },
+        {
+          "answer": "马",
+          "answerTranslit": "mǎ",
+          "concept": "c:animales.caballo",
+          "optionTranslit": {
+            "动物": "dòng wù",
+            "牛/牛(公牛)": "niú / niú ( gōng niú )",
+            "马": "mǎ",
+            "鸡肉": "jī ròu"
+          },
+          "options": [
+            "牛/牛(公牛)",
+            "鸡肉",
+            "动物",
+            "马"
+          ],
+          "prompt": "caballo"
+        },
+        {
+          "answer": "驴子/驴子",
+          "answerTranslit": "lǘ zi / lǘ zi",
+          "concept": "c:animales.burro-asno",
+          "optionTranslit": {
+            "狗类": "gǒu lèi",
+            "羊头": "yáng tóu",
+            "驴子/驴子": "lǘ zi / lǘ zi",
+            "黄牛": "huáng niú"
+          },
+          "options": [
+            "羊头",
+            "狗类",
+            "黄牛",
+            "驴子/驴子"
+          ],
+          "prompt": "burro / asno"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Common animals, both domestic and wild.",
-    "es": "Animales frecuentes, tanto domésticos como salvajes.",
-    "zh": "常出家畜及野生等."
+    "es": "Animales frecuentes, tanto domésticos como salvajes."
   },
   "generator": "build_lessons",
   "id": "zh-u9-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar animales comunes",
       "Describir animales"
-    ],
-    "zh": [
-      "普通动物名称",
-      "描述动物"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Animals",
-    "es": "Los animales",
-    "zh": "动物"
+    "es": "Los animales"
   },
   "unit": 9
 }

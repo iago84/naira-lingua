@@ -1,7 +1,7 @@
 // js/tests/util.test.js
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { esc, uniqSorted, shuffle } from "../util.js";
+import { esc, uniqSorted, shuffle, translitFor } from "../util.js";
 
 test("esc escapa los caracteres peligrosos de HTML", () => {
   assert.equal(esc('<a href="x">&\'</a>'),
@@ -22,4 +22,11 @@ test("shuffle conserva los elementos (rng determinista)", () => {
   const out = shuffle([1, 2, 3], rng);
   assert.equal(out.length, 3);
   assert.deepEqual([...out].sort(), [1, 2, 3]);
+});
+
+test("translitFor devuelve la lectura solo si aporta algo", () => {
+  assert.equal(translitFor("こんにちは", "konnichiha"), "konnichiha");
+  assert.equal(translitFor("habari", "habari"), ""); // igual al término: se omite
+  assert.equal(translitFor("hola", ""), "");
+  assert.equal(translitFor("hola", null), "");
 });

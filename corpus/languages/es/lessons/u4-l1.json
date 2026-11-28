@@ -87,7 +87,105 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "familia",
+          "concept": "c:familia-y-personas.familia",
+          "options": [
+            "abuelo paterno",
+            "niño/a",
+            "abuela paterna",
+            "familia"
+          ],
+          "prompt": "familia"
+        },
+        {
+          "answer": "madre",
+          "concept": "c:familia-y-personas.madre",
+          "options": [
+            "abuela paterna",
+            "hija",
+            "familia",
+            "madre"
+          ],
+          "prompt": "madre"
+        },
+        {
+          "answer": "padre",
+          "concept": "c:familia-y-personas.padre",
+          "options": [
+            "abuelo paterno",
+            "hermana",
+            "padre",
+            "padres"
+          ],
+          "prompt": "padre"
+        },
+        {
+          "answer": "padres",
+          "concept": "c:familia-y-personas.padres",
+          "options": [
+            "niño/a",
+            "padres",
+            "familia",
+            "hijo"
+          ],
+          "prompt": "padres"
+        },
+        {
+          "answer": "hijo",
+          "concept": "c:familia-y-personas.hijo",
+          "options": [
+            "hija",
+            "hermanos",
+            "madre",
+            "hijo"
+          ],
+          "prompt": "hijo"
+        },
+        {
+          "answer": "hija",
+          "concept": "c:familia-y-personas.hija",
+          "options": [
+            "hija",
+            "padres",
+            "hijo",
+            "abuela paterna"
+          ],
+          "prompt": "hija"
+        },
+        {
+          "answer": "niño/a",
+          "concept": "c:familia-y-personas.nino-a",
+          "options": [
+            "niño/a",
+            "hermana",
+            "abuelo paterno",
+            "padres"
+          ],
+          "prompt": "niño/a"
+        },
+        {
+          "answer": "hermano",
+          "concept": "c:familia-y-personas.hermano",
+          "options": [
+            "madre",
+            "hermano",
+            "hijo",
+            "hermana"
+          ],
+          "prompt": "hermano"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to refer to family and the people around you.",
     "es": "Palabras para referirse a la familia y a las personas cercanas."

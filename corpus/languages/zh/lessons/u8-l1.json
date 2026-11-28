@@ -19,6 +19,7 @@
       "en": "time / hour",
       "es": "tiempo / hora",
       "speaker": "A",
+      "translit": "shí jiān / xiǎo shí",
       "zh": "时间/小时"
     },
     {
@@ -26,6 +27,7 @@
       "en": "clock / time",
       "es": "reloj / hora",
       "speaker": "B",
+      "translit": "shí zhōng / shí jiān",
       "zh": "时钟/时间"
     },
     {
@@ -33,6 +35,7 @@
       "en": "minute",
       "es": "minuto",
       "speaker": "A",
+      "translit": "fēn zhōng",
       "zh": "分钟"
     },
     {
@@ -40,6 +43,7 @@
       "en": "second (time)",
       "es": "segundo (tiempo)",
       "speaker": "B",
+      "translit": "dì èr cì ( shí jiān )",
       "zh": "第二次(时间)"
     },
     {
@@ -47,6 +51,7 @@
       "en": "time (duration)",
       "es": "hora (duración)",
       "speaker": "A",
+      "translit": "shí jiān (  qī xiàn )",
       "zh": "时间( 期限)"
     },
     {
@@ -54,6 +59,7 @@
       "en": "(early)",
       "es": "mañana (temprano)",
       "speaker": "B",
+      "translit": "( zǎo )  wèn .",
       "zh": "(早) 问."
     },
     {
@@ -61,6 +67,7 @@
       "en": "noon / afternoon",
       "es": "mediodía / tarde",
       "speaker": "A",
+      "translit": "zhōng wǔ / xià wǔ",
       "zh": "中午/下午"
     },
     {
@@ -68,6 +75,7 @@
       "en": "late / evening",
       "es": "tarde / atardecer",
       "speaker": "B",
+      "translit": "wǎn / wǎn shàng (  wǎn shàng )",
       "zh": "晚/晚上( 晚上)"
     },
     {
@@ -75,6 +83,7 @@
       "en": "night",
       "es": "noche",
       "speaker": "A",
+      "translit": "wǎn shàng (  wǎn shàng )",
       "zh": "晚上( 晚上)"
     },
     {
@@ -82,6 +91,7 @@
       "en": "midnight",
       "es": "medianoche",
       "speaker": "B",
+      "translit": "wǔ yè shí fēn",
       "zh": "午夜时分"
     },
     {
@@ -89,6 +99,7 @@
       "en": "day",
       "es": "día",
       "speaker": "A",
+      "translit": "rì shù",
       "zh": "日数"
     },
     {
@@ -96,14 +107,168 @@
       "en": "Today",
       "es": "hoy",
       "speaker": "B",
+      "translit": "jīn tiān , wǒ men lái",
       "zh": "今天,我们来"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "时间/小时",
+          "answerTranslit": "shí jiān / xiǎo shí",
+          "concept": "c:tiempo-y-calendario.tiempo-hora",
+          "optionTranslit": {
+            "(早) 问.": "( zǎo )  wèn .",
+            "今天,我们来": "jīn tiān , wǒ men lái",
+            "分钟": "fēn zhōng",
+            "时间/小时": "shí jiān / xiǎo shí"
+          },
+          "options": [
+            "(早) 问.",
+            "今天,我们来",
+            "时间/小时",
+            "分钟"
+          ],
+          "prompt": "tiempo / hora"
+        },
+        {
+          "answer": "时钟/时间",
+          "answerTranslit": "shí zhōng / shí jiān",
+          "concept": "c:tiempo-y-calendario.reloj-hora",
+          "optionTranslit": {
+            "中午/下午": "zhōng wǔ / xià wǔ",
+            "午夜时分": "wǔ yè shí fēn",
+            "时钟/时间": "shí zhōng / shí jiān",
+            "晚上( 晚上)": "wǎn shàng (  wǎn shàng )"
+          },
+          "options": [
+            "时钟/时间",
+            "中午/下午",
+            "晚上( 晚上)",
+            "午夜时分"
+          ],
+          "prompt": "reloj / hora"
+        },
+        {
+          "answer": "分钟",
+          "answerTranslit": "fēn zhōng",
+          "concept": "c:tiempo-y-calendario.minuto",
+          "optionTranslit": {
+            "中午/下午": "zhōng wǔ / xià wǔ",
+            "分钟": "fēn zhōng",
+            "日数": "rì shù",
+            "第二次(时间)": "dì èr cì ( shí jiān )"
+          },
+          "options": [
+            "中午/下午",
+            "第二次(时间)",
+            "分钟",
+            "日数"
+          ],
+          "prompt": "minuto"
+        },
+        {
+          "answer": "第二次(时间)",
+          "answerTranslit": "dì èr cì ( shí jiān )",
+          "concept": "c:tiempo-y-calendario.segundo-tiempo",
+          "optionTranslit": {
+            "午夜时分": "wǔ yè shí fēn",
+            "日数": "rì shù",
+            "晚上( 晚上)": "wǎn shàng (  wǎn shàng )",
+            "第二次(时间)": "dì èr cì ( shí jiān )"
+          },
+          "options": [
+            "第二次(时间)",
+            "晚上( 晚上)",
+            "午夜时分",
+            "日数"
+          ],
+          "prompt": "segundo (tiempo)"
+        },
+        {
+          "answer": "时间( 期限)",
+          "answerTranslit": "shí jiān (  qī xiàn )",
+          "concept": "c:tiempo-y-calendario.hora-duracion",
+          "optionTranslit": {
+            "分钟": "fēn zhōng",
+            "时钟/时间": "shí zhōng / shí jiān",
+            "时间( 期限)": "shí jiān (  qī xiàn )",
+            "第二次(时间)": "dì èr cì ( shí jiān )"
+          },
+          "options": [
+            "第二次(时间)",
+            "时钟/时间",
+            "时间( 期限)",
+            "分钟"
+          ],
+          "prompt": "hora (duración)"
+        },
+        {
+          "answer": "(早) 问.",
+          "answerTranslit": "( zǎo )  wèn .",
+          "concept": "c:tiempo-y-calendario.manana-temprano",
+          "optionTranslit": {
+            "(早) 问.": "( zǎo )  wèn .",
+            "中午/下午": "zhōng wǔ / xià wǔ",
+            "日数": "rì shù",
+            "时间/小时": "shí jiān / xiǎo shí"
+          },
+          "options": [
+            "(早) 问.",
+            "日数",
+            "时间/小时",
+            "中午/下午"
+          ],
+          "prompt": "mañana (temprano)"
+        },
+        {
+          "answer": "中午/下午",
+          "answerTranslit": "zhōng wǔ / xià wǔ",
+          "concept": "c:tiempo-y-calendario.mediodia-tarde",
+          "optionTranslit": {
+            "中午/下午": "zhōng wǔ / xià wǔ",
+            "今天,我们来": "jīn tiān , wǒ men lái",
+            "分钟": "fēn zhōng",
+            "时间/小时": "shí jiān / xiǎo shí"
+          },
+          "options": [
+            "时间/小时",
+            "分钟",
+            "中午/下午",
+            "今天,我们来"
+          ],
+          "prompt": "mediodía / tarde"
+        },
+        {
+          "answer": "晚/晚上( 晚上)",
+          "answerTranslit": "wǎn / wǎn shàng (  wǎn shàng )",
+          "concept": "c:tiempo-y-calendario.tarde-atardecer",
+          "optionTranslit": {
+            "中午/下午": "zhōng wǔ / xià wǔ",
+            "分钟": "fēn zhōng",
+            "时钟/时间": "shí zhōng / shí jiān",
+            "晚/晚上( 晚上)": "wǎn / wǎn shàng (  wǎn shàng )"
+          },
+          "options": [
+            "时钟/时间",
+            "中午/下午",
+            "晚/晚上( 晚上)",
+            "分钟"
+          ],
+          "prompt": "tarde / atardecer"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to place actions in time: days, months and seasons.",
-    "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones.",
-    "zh": "将动作放置在时间上的单词:日,月和季."
+    "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."
   },
   "generator": "build_lessons",
   "id": "zh-u8-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Decir días, meses y estaciones",
       "Hablar de fechas"
-    ],
-    "zh": [
-      "有天有月,有季节",
-      "谈起日期"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Time and calendar",
-    "es": "El tiempo y el calendario",
-    "zh": "时间和日历"
+    "es": "El tiempo y el calendario"
   },
   "unit": 8
 }

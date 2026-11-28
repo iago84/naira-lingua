@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:adjetivos.bueno",
+    "c:adjetivos.malo",
+    "c:adjetivos.grande",
+    "c:adjetivos.pequeno",
+    "c:adjetivos.largo-alto",
+    "c:adjetivos.bajo-corto",
+    "c:adjetivos.nuevo",
+    "c:adjetivos.viejo-antiguo",
+    "c:adjetivos.joven",
+    "c:adjetivos.viejo-persona",
+    "c:adjetivos.hermoso-bonito",
+    "c:adjetivos.feo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:adjetivos.bueno",
+      "en": "Good.",
+      "es": "bueno",
+      "hi": "अच्छा",
+      "speaker": "A",
+      "translit": "acchā"
+    },
+    {
+      "concept": "c:adjetivos.malo",
+      "en": "bad",
+      "es": "malo",
+      "hi": "बुरा",
+      "speaker": "B",
+      "translit": "burā"
+    },
+    {
+      "concept": "c:adjetivos.grande",
+      "en": "large",
+      "es": "grande",
+      "hi": "बड़ा",
+      "speaker": "A",
+      "translit": "baṛā"
+    },
+    {
+      "concept": "c:adjetivos.pequeno",
+      "en": "small",
+      "es": "pequeño",
+      "hi": "छोटा",
+      "speaker": "B",
+      "translit": "choṭā"
+    },
+    {
+      "concept": "c:adjetivos.largo-alto",
+      "en": "long / high",
+      "es": "largo / alto",
+      "hi": "लंबा",
+      "speaker": "A",
+      "translit": "lambā"
+    },
+    {
+      "concept": "c:adjetivos.bajo-corto",
+      "en": "low / short",
+      "es": "bajo / corto",
+      "hi": "छोटा (ऊँचाई)",
+      "speaker": "B",
+      "translit": "choṭā (ū̃cāī)"
+    },
+    {
+      "concept": "c:adjetivos.nuevo",
+      "en": "new",
+      "es": "nuevo",
+      "hi": "नया",
+      "speaker": "A",
+      "translit": "nayā"
+    },
+    {
+      "concept": "c:adjetivos.viejo-antiguo",
+      "en": "old / ancient",
+      "es": "viejo / antiguo",
+      "hi": "पुराना",
+      "speaker": "B",
+      "translit": "purānā"
+    },
+    {
+      "concept": "c:adjetivos.joven",
+      "en": "young",
+      "es": "joven",
+      "hi": "युवा",
+      "speaker": "A",
+      "translit": "yuvā"
+    },
+    {
+      "concept": "c:adjetivos.viejo-persona",
+      "en": "old (person)",
+      "es": "viejo (persona)",
+      "hi": "बूढ़ा",
+      "speaker": "B",
+      "translit": "būṛhā"
+    },
+    {
+      "concept": "c:adjetivos.hermoso-bonito",
+      "en": "beautiful / pretty",
+      "es": "hermoso / bonito",
+      "hi": "सुंदर",
+      "speaker": "A",
+      "translit": "sundar"
+    },
+    {
+      "concept": "c:adjetivos.feo",
+      "en": "ugly",
+      "es": "feo",
+      "hi": "बदसूरत",
+      "speaker": "B",
+      "translit": "badsūrat"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "अच्छा",
+          "answerTranslit": "acchā",
+          "concept": "c:adjetivos.bueno",
+          "optionTranslit": {
+            "अच्छा": "acchā",
+            "छोटा (ऊँचाई)": "choṭā (ū̃cāī)",
+            "नया": "nayā",
+            "युवा": "yuvā"
+          },
+          "options": [
+            "युवा",
+            "नया",
+            "छोटा (ऊँचाई)",
+            "अच्छा"
+          ],
+          "prompt": "bueno"
+        },
+        {
+          "answer": "बुरा",
+          "answerTranslit": "burā",
+          "concept": "c:adjetivos.malo",
+          "optionTranslit": {
+            "छोटा": "choṭā",
+            "छोटा (ऊँचाई)": "choṭā (ū̃cāī)",
+            "नया": "nayā",
+            "बुरा": "burā"
+          },
+          "options": [
+            "छोटा",
+            "छोटा (ऊँचाई)",
+            "बुरा",
+            "नया"
+          ],
+          "prompt": "malo"
+        },
+        {
+          "answer": "बड़ा",
+          "answerTranslit": "baṛā",
+          "concept": "c:adjetivos.grande",
+          "optionTranslit": {
+            "अच्छा": "acchā",
+            "बड़ा": "baṛā",
+            "बुरा": "burā",
+            "लंबा": "lambā"
+          },
+          "options": [
+            "लंबा",
+            "अच्छा",
+            "बुरा",
+            "बड़ा"
+          ],
+          "prompt": "grande"
+        },
+        {
+          "answer": "छोटा",
+          "answerTranslit": "choṭā",
+          "concept": "c:adjetivos.pequeno",
+          "optionTranslit": {
+            "छोटा": "choṭā",
+            "नया": "nayā",
+            "बुरा": "burā",
+            "बूढ़ा": "būṛhā"
+          },
+          "options": [
+            "बुरा",
+            "छोटा",
+            "नया",
+            "बूढ़ा"
+          ],
+          "prompt": "pequeño"
+        },
+        {
+          "answer": "लंबा",
+          "answerTranslit": "lambā",
+          "concept": "c:adjetivos.largo-alto",
+          "optionTranslit": {
+            "अच्छा": "acchā",
+            "युवा": "yuvā",
+            "लंबा": "lambā",
+            "सुंदर": "sundar"
+          },
+          "options": [
+            "लंबा",
+            "अच्छा",
+            "युवा",
+            "सुंदर"
+          ],
+          "prompt": "largo / alto"
+        },
+        {
+          "answer": "छोटा (ऊँचाई)",
+          "answerTranslit": "choṭā (ū̃cāī)",
+          "concept": "c:adjetivos.bajo-corto",
+          "optionTranslit": {
+            "छोटा (ऊँचाई)": "choṭā (ū̃cāī)",
+            "पुराना": "purānā",
+            "बड़ा": "baṛā",
+            "लंबा": "lambā"
+          },
+          "options": [
+            "बड़ा",
+            "लंबा",
+            "छोटा (ऊँचाई)",
+            "पुराना"
+          ],
+          "prompt": "bajo / corto"
+        },
+        {
+          "answer": "नया",
+          "answerTranslit": "nayā",
+          "concept": "c:adjetivos.nuevo",
+          "optionTranslit": {
+            "छोटा (ऊँचाई)": "choṭā (ū̃cāī)",
+            "नया": "nayā",
+            "बदसूरत": "badsūrat",
+            "बूढ़ा": "būṛhā"
+          },
+          "options": [
+            "बूढ़ा",
+            "नया",
+            "बदसूरत",
+            "छोटा (ऊँचाई)"
+          ],
+          "prompt": "nuevo"
+        },
+        {
+          "answer": "पुराना",
+          "answerTranslit": "purānā",
+          "concept": "c:adjetivos.viejo-antiguo",
+          "optionTranslit": {
+            "पुराना": "purānā",
+            "बुरा": "burā",
+            "युवा": "yuvā",
+            "सुंदर": "sundar"
+          },
+          "options": [
+            "बुरा",
+            "युवा",
+            "पुराना",
+            "सुंदर"
+          ],
+          "prompt": "viejo / antiguo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Adjectives to describe size, character, state and qualities.",
+    "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+  },
+  "generator": "build_lessons",
+  "id": "hi-u14-l1",
+  "lang": "hi",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Describe with adjectives",
+      "Give opinions about things and people"
+    ],
+    "es": [
+      "Describir con adjetivos",
+      "Opinar sobre cosas y personas"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "hi"
+      ],
+      "rows": [
+        [
+          "bueno",
+          "Good.",
+          "अच्छा"
+        ],
+        [
+          "malo",
+          "bad",
+          "बुरा"
+        ],
+        [
+          "grande",
+          "large",
+          "बड़ा"
+        ],
+        [
+          "pequeño",
+          "small",
+          "छोटा"
+        ],
+        [
+          "largo / alto",
+          "long / high",
+          "लंबा"
+        ],
+        [
+          "bajo / corto",
+          "low / short",
+          "छोटा (ऊँचाई)"
+        ],
+        [
+          "nuevo",
+          "new",
+          "नया"
+        ],
+        [
+          "viejo / antiguo",
+          "old / ancient",
+          "पुराना"
+        ],
+        [
+          "joven",
+          "young",
+          "युवा"
+        ],
+        [
+          "viejo (persona)",
+          "old (person)",
+          "बूढ़ा"
+        ],
+        [
+          "hermoso / bonito",
+          "beautiful / pretty",
+          "सुंदर"
+        ],
+        [
+          "feo",
+          "ugly",
+          "बदसूरत"
+        ]
+      ],
+      "title": "es · en · hi",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Adjectives",
+    "es": "Los adjetivos"
+  },
+  "unit": 14
+}

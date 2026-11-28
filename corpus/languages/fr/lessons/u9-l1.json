@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Animaux",
+          "concept": "c:animales.animal",
+          "options": [
+            "cheval",
+            "Animaux",
+            "chat",
+            "porc"
+          ],
+          "prompt": "animal"
+        },
+        {
+          "answer": "chien",
+          "concept": "c:animales.perro",
+          "options": [
+            "poulet",
+            "chien",
+            "porc",
+            "Animaux"
+          ],
+          "prompt": "perro"
+        },
+        {
+          "answer": "chat",
+          "concept": "c:animales.gato",
+          "options": [
+            "chat",
+            "porc",
+            "cheval",
+            "Animaux"
+          ],
+          "prompt": "gato"
+        },
+        {
+          "answer": "vache",
+          "concept": "c:animales.vaca",
+          "options": [
+            "vache",
+            "boeuf/boeuf",
+            "chat",
+            "porc"
+          ],
+          "prompt": "vaca"
+        },
+        {
+          "answer": "boeuf/boeuf",
+          "concept": "c:animales.buey-toro",
+          "options": [
+            "buffle",
+            "ânes / cul",
+            "boeuf/boeuf",
+            "chien"
+          ],
+          "prompt": "buey / toro"
+        },
+        {
+          "answer": "buffle",
+          "concept": "c:animales.bufalo",
+          "options": [
+            "buffle",
+            "Chèvre",
+            "poulet",
+            "Animaux"
+          ],
+          "prompt": "búfalo"
+        },
+        {
+          "answer": "cheval",
+          "concept": "c:animales.caballo",
+          "options": [
+            "boeuf/boeuf",
+            "poulet",
+            "Animaux",
+            "cheval"
+          ],
+          "prompt": "caballo"
+        },
+        {
+          "answer": "ânes / cul",
+          "concept": "c:animales.burro-asno",
+          "options": [
+            "ovins",
+            "chien",
+            "vache",
+            "ânes / cul"
+          ],
+          "prompt": "burro / asno"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Common animals, both domestic and wild.",
-    "es": "Animales frecuentes, tanto domésticos como salvajes.",
-    "fr": "Les animaux sont fréquents, domestiques et sauvages."
+    "es": "Animales frecuentes, tanto domésticos como salvajes."
   },
   "generator": "build_lessons",
   "id": "fr-u9-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar animales comunes",
       "Describir animales"
-    ],
-    "fr": [
-      "Nom des animaux communs",
-      "Décrire les animaux"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Animals",
-    "es": "Los animales",
-    "fr": "Animaux"
+    "es": "Los animales"
   },
   "unit": 9
 }

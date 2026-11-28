@@ -92,9 +92,106 @@
         "speaker": "A"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Hallo.",
+            "concept": "c:saludos-y-expresiones.hola",
+            "options": [
+              "Bis später.",
+              "Hallo.",
+              "Bitte.",
+              "Guten Tag."
+            ],
+            "prompt": "hola"
+          },
+          {
+            "answer": "Guten Morgen.",
+            "concept": "c:saludos-y-expresiones.buenos-dias",
+            "options": [
+              "Ja",
+              "Entschuldigung / Entschuldigen",
+              "Guten Morgen.",
+              "Bitte."
+            ],
+            "prompt": "buenos días"
+          },
+          {
+            "answer": "Guten Tag.",
+            "concept": "c:saludos-y-expresiones.buenas-tardes",
+            "options": [
+              "Guten Tag.",
+              "Bis später.",
+              "Bye.",
+              "Vielen Dank."
+            ],
+            "prompt": "buenas tardes"
+          },
+          {
+            "answer": "Gute Nacht.",
+            "concept": "c:saludos-y-expresiones.buenas-noches",
+            "options": [
+              "Bis später.",
+              "Hallo.",
+              "Gute Nacht.",
+              "Bye."
+            ],
+            "prompt": "buenas noches"
+          },
+          {
+            "answer": "Vielen Dank.",
+            "concept": "c:saludos-y-expresiones.gracias",
+            "options": [
+              "Vielen Dank.",
+              "Bis später.",
+              "Hallo.",
+              "Guten Tag."
+            ],
+            "prompt": "gracias"
+          },
+          {
+            "answer": "Bitte.",
+            "concept": "c:saludos-y-expresiones.por-favor",
+            "options": [
+              "Bitte.",
+              "Vielen Dank.",
+              "Guten Morgen.",
+              "Hallo."
+            ],
+            "prompt": "por favor"
+          },
+          {
+            "answer": "Entschuldigung / Entschuldigen",
+            "concept": "c:saludos-y-expresiones.perdon-disculpe",
+            "options": [
+              "Hallo.",
+              "Entschuldigung / Entschuldigen",
+              "Bis später.",
+              "Nein."
+            ],
+            "prompt": "perdón / disculpe"
+          },
+          {
+            "answer": "Bye.",
+            "concept": "c:saludos-y-expresiones.adios",
+            "options": [
+              "Bye.",
+              "Entschuldigung / Entschuldigen",
+              "Bis später.",
+              "Nein."
+            ],
+            "prompt": "adiós"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Grundlegende ausdrücke der höflichkeit, ein gespräch zu öffnen und abzuschließen.",
       "en": "Basic courtesy expressions to open and close a conversation.",
       "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
     },
@@ -103,10 +200,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Begrüßung und Abschied",
-        "Bitte danken und fragen"
-      ],
       "en": [
         "Greet and say goodbye",
         "Thank and say please"
@@ -185,7 +278,6 @@
       }
     ],
     "title": {
-      "de": "Grüße und Höflichkeit",
       "en": "Greetings and courtesy",
       "es": "Saludos y cortesía"
     },
@@ -292,9 +384,106 @@
         "speaker": "B"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Stadt",
+            "concept": "c:ciudad-y-lugares.ciudad",
+            "options": [
+              "Land",
+              "Gebiet/Zone",
+              "Brücke",
+              "Stadt"
+            ],
+            "prompt": "ciudad"
+          },
+          {
+            "answer": "Dorf/Stadt",
+            "concept": "c:ciudad-y-lugares.pueblo-aldea",
+            "options": [
+              "Kapital",
+              "Dorf/Stadt",
+              "Brücke",
+              "Quadrat"
+            ],
+            "prompt": "pueblo / aldea"
+          },
+          {
+            "answer": "Land",
+            "concept": "c:ciudad-y-lugares.pais",
+            "options": [
+              "Straße/Straße",
+              "Land",
+              "Staat/Provinz",
+              "Gasse"
+            ],
+            "prompt": "país"
+          },
+          {
+            "answer": "Staat/Provinz",
+            "concept": "c:ciudad-y-lugares.estado-provincia",
+            "options": [
+              "Markt",
+              "Stadt",
+              "Staat/Provinz",
+              "Kreuzung/Kreuzungspunkt"
+            ],
+            "prompt": "estado / provincia"
+          },
+          {
+            "answer": "Kapital",
+            "concept": "c:ciudad-y-lugares.capital",
+            "options": [
+              "Brücke",
+              "Staat/Provinz",
+              "Kapital",
+              "Quadrat"
+            ],
+            "prompt": "capital"
+          },
+          {
+            "answer": "Gebiet/Zone",
+            "concept": "c:ciudad-y-lugares.zona-area",
+            "options": [
+              "Straße/Straße",
+              "Staat/Provinz",
+              "Land",
+              "Gebiet/Zone"
+            ],
+            "prompt": "zona / área"
+          },
+          {
+            "answer": "Straße/Straße",
+            "concept": "c:ciudad-y-lugares.calle-carretera",
+            "options": [
+              "Land",
+              "Straße/Straße",
+              "Stadt",
+              "Brücke"
+            ],
+            "prompt": "calle / carretera"
+          },
+          {
+            "answer": "Gasse",
+            "concept": "c:ciudad-y-lugares.callejon",
+            "options": [
+              "Quadrat",
+              "Gebiet/Zone",
+              "Gasse",
+              "Straße/Straße"
+            ],
+            "prompt": "callejón"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Orte in der Stadt zu bewegen und fragen Sie nach Richtungen.",
       "en": "Places in the city to move around and ask for directions.",
       "es": "Lugares de la ciudad para moverse y pedir indicaciones."
     },
@@ -303,10 +492,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Namen Orte in der Stadt",
-        "Fragen Sie nach Adressen"
-      ],
       "en": [
         "Name places in the city",
         "Ask for directions"
@@ -390,7 +575,6 @@
       }
     ],
     "title": {
-      "de": "Die Stadt und die Orte",
       "en": "City and places",
       "es": "La ciudad y los lugares"
     },
@@ -497,9 +681,106 @@
         "speaker": "B"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Kleidung",
+            "concept": "c:ropa-y-accesorios.ropa",
+            "options": [
+              "Jeans/Jans",
+              "Dress up",
+              "T-Shirt",
+              "Kleidung"
+            ],
+            "prompt": "ropa"
+          },
+          {
+            "answer": "Heft",
+            "concept": "c:ropa-y-accesorios.camisa",
+            "options": [
+              "Heft",
+              "Kurzhose",
+              "Pyjama",
+              "Dress up"
+            ],
+            "prompt": "camisa"
+          },
+          {
+            "answer": "T-Shirt",
+            "concept": "c:ropa-y-accesorios.camiseta",
+            "options": [
+              "T-Shirt",
+              "Pyjama",
+              "Dress up",
+              "kurta"
+            ],
+            "prompt": "camiseta"
+          },
+          {
+            "answer": "Hose",
+            "concept": "c:ropa-y-accesorios.pantalon",
+            "options": [
+              "Kleidung",
+              "Hose",
+              "Pyjama",
+              "Salwar Kameez"
+            ],
+            "prompt": "pantalón"
+          },
+          {
+            "answer": "Jeans/Jans",
+            "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+            "options": [
+              "Sari",
+              "T-Shirt",
+              "Jeans/Jans",
+              "Zwerchfell"
+            ],
+            "prompt": "vaqueros / jeans"
+          },
+          {
+            "answer": "Kurzhose",
+            "concept": "c:ropa-y-accesorios.pantalones-cortos",
+            "options": [
+              "T-Shirt",
+              "Kurzhose",
+              "Hose",
+              "kurta"
+            ],
+            "prompt": "pantalones cortos"
+          },
+          {
+            "answer": "Zwerchfell",
+            "concept": "c:ropa-y-accesorios.falda",
+            "options": [
+              "Zwerchfell",
+              "Dress up",
+              "Sari",
+              "Kleidung"
+            ],
+            "prompt": "falda"
+          },
+          {
+            "answer": "Dress up",
+            "concept": "c:ropa-y-accesorios.vestido",
+            "options": [
+              "Kleidung",
+              "Dress up",
+              "Pyjama",
+              "Hose"
+            ],
+            "prompt": "vestido"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Stifte und Accessoires, mit nützlichen Worten zum Kauf von Kleidung.",
       "en": "Clothes and accessories, with words useful for clothes shopping.",
       "es": "Prendas y accesorios, con palabras útiles para comprar ropa."
     },
@@ -508,10 +789,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Bekleidung",
-        "Einkaufen gehen"
-      ],
       "en": [
         "Name clothes",
         "Go shopping"
@@ -595,7 +872,6 @@
       }
     ],
     "title": {
-      "de": "Bekleidung und Zubehör",
       "en": "Clothing and accessories",
       "es": "La ropa y los accesorios"
     },
@@ -702,9 +978,106 @@
         "speaker": "B"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Arbeit /",
+            "concept": "c:trabajo-y-profesiones.trabajo-labor",
+            "options": [
+              "Büro/",
+              "Arbeitnehmer",
+              "Arbeit /",
+              "Ausrüstung"
+            ],
+            "prompt": "trabajo / labor"
+          },
+          {
+            "answer": "Beschäftigung/Arbeit",
+            "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+            "options": [
+              "Beschäftigung/Arbeit",
+              "Arbeitnehmer",
+              "Büro",
+              "Unternehmen/Unternehmen"
+            ],
+            "prompt": "empleo / trabajo"
+          },
+          {
+            "answer": "Beruf/Handel",
+            "concept": "c:trabajo-y-profesiones.profesion-oficio",
+            "options": [
+              "Beruf/Handel",
+              "Arbeit /",
+              "Büro",
+              "Arbeitnehmer"
+            ],
+            "prompt": "profesión / oficio"
+          },
+          {
+            "answer": "Gewerbe/Beruf",
+            "concept": "c:trabajo-y-profesiones.negocio-profesion",
+            "options": [
+              "Arbeit /",
+              "Chef",
+              "Arbeitnehmer",
+              "Gewerbe/Beruf"
+            ],
+            "prompt": "negocio / profesión"
+          },
+          {
+            "answer": "Unternehmen/Unternehmen",
+            "concept": "c:trabajo-y-profesiones.empresa-compania",
+            "options": [
+              "Unternehmen/Unternehmen",
+              "Gewerbe/Beruf",
+              "Eigentümer/Eigentümer",
+              "Arbeit /"
+            ],
+            "prompt": "empresa / compañía"
+          },
+          {
+            "answer": "Büro",
+            "concept": "c:trabajo-y-profesiones.oficina",
+            "options": [
+              "Eigentümer/Eigentümer",
+              "Büro",
+              "Ausrüstung",
+              "Büro/"
+            ],
+            "prompt": "oficina"
+          },
+          {
+            "answer": "Büro/",
+            "concept": "c:trabajo-y-profesiones.oficina-despacho",
+            "options": [
+              "Beschäftigung/Arbeit",
+              "Büro/",
+              "Arbeit /",
+              "Büro"
+            ],
+            "prompt": "oficina / despacho"
+          },
+          {
+            "answer": "Eigentümer/Eigentümer",
+            "concept": "c:trabajo-y-profesiones.dueno-propietario",
+            "options": [
+              "Beruf/Handel",
+              "Büro",
+              "Eigentümer/Eigentümer",
+              "Arbeitnehmer"
+            ],
+            "prompt": "dueño / propietario"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Berufe und Worte der Weltarbeit.",
       "en": "Professions and words from the world of work.",
       "es": "Profesiones y palabras del mundo laboral."
     },
@@ -713,10 +1086,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Berufe",
-        "Sprechen Sie über Arbeit"
-      ],
       "en": [
         "Name professions",
         "Talk about work"
@@ -800,11 +1169,2089 @@
       }
     ],
     "title": {
-      "de": "Arbeit und Berufe",
       "en": "Work and professions",
       "es": "El trabajo y las profesiones"
     },
     "unit": 12
+  },
+  {
+    "concepts": [
+      "c:verbos-comunes.ser-estar-haber",
+      "c:verbos-comunes.hacer",
+      "c:verbos-comunes.ir",
+      "c:verbos-comunes.venir",
+      "c:verbos-comunes.ver-mirar",
+      "c:verbos-comunes.oir-escuchar",
+      "c:verbos-comunes.hablar-decir",
+      "c:verbos-comunes.decir",
+      "c:verbos-comunes.preguntar",
+      "c:verbos-comunes.contar-explicar",
+      "c:verbos-comunes.entender-comprender",
+      "c:verbos-comunes.saber-conocer"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:verbos-comunes.ser-estar-haber",
+        "de": "be / sind",
+        "en": "be / are",
+        "es": "ser / estar / haber",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:verbos-comunes.hacer",
+        "de": "do",
+        "en": "do",
+        "es": "hacer",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:verbos-comunes.ir",
+        "de": "gehen",
+        "en": "go",
+        "es": "ir",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:verbos-comunes.venir",
+        "de": "Kommen",
+        "en": "Come",
+        "es": "venir",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:verbos-comunes.ver-mirar",
+        "de": "Sehen/sehen",
+        "en": "see / watch",
+        "es": "ver / mirar",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:verbos-comunes.oir-escuchar",
+        "de": "Hören / hören",
+        "en": "hear / listen",
+        "es": "oír / escuchar",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:verbos-comunes.hablar-decir",
+        "de": "Sprechen / Sagen",
+        "en": "speak / say",
+        "es": "hablar / decir",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:verbos-comunes.decir",
+        "de": "Sagen",
+        "en": "say",
+        "es": "decir",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:verbos-comunes.preguntar",
+        "de": "Bitten",
+        "en": "ask",
+        "es": "preguntar",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:verbos-comunes.contar-explicar",
+        "de": "Zählen/Erklären",
+        "en": "count / explain",
+        "es": "contar / explicar",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:verbos-comunes.entender-comprender",
+        "de": "verstehen/verstehen",
+        "en": "understand / comprehend",
+        "es": "entender / comprender",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:verbos-comunes.saber-conocer",
+        "de": "Wissen/verstehen",
+        "en": "know / understand",
+        "es": "saber / conocer",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "be / sind",
+            "concept": "c:verbos-comunes.ser-estar-haber",
+            "options": [
+              "be / sind",
+              "Sehen/sehen",
+              "Kommen",
+              "Bitten"
+            ],
+            "prompt": "ser / estar / haber"
+          },
+          {
+            "answer": "do",
+            "concept": "c:verbos-comunes.hacer",
+            "options": [
+              "Sehen/sehen",
+              "do",
+              "Zählen/Erklären",
+              "Sagen"
+            ],
+            "prompt": "hacer"
+          },
+          {
+            "answer": "gehen",
+            "concept": "c:verbos-comunes.ir",
+            "options": [
+              "gehen",
+              "be / sind",
+              "verstehen/verstehen",
+              "Kommen"
+            ],
+            "prompt": "ir"
+          },
+          {
+            "answer": "Kommen",
+            "concept": "c:verbos-comunes.venir",
+            "options": [
+              "Sagen",
+              "Kommen",
+              "verstehen/verstehen",
+              "Sehen/sehen"
+            ],
+            "prompt": "venir"
+          },
+          {
+            "answer": "Sehen/sehen",
+            "concept": "c:verbos-comunes.ver-mirar",
+            "options": [
+              "Sehen/sehen",
+              "Sprechen / Sagen",
+              "Wissen/verstehen",
+              "gehen"
+            ],
+            "prompt": "ver / mirar"
+          },
+          {
+            "answer": "Hören / hören",
+            "concept": "c:verbos-comunes.oir-escuchar",
+            "options": [
+              "Hören / hören",
+              "Bitten",
+              "Zählen/Erklären",
+              "verstehen/verstehen"
+            ],
+            "prompt": "oír / escuchar"
+          },
+          {
+            "answer": "Sprechen / Sagen",
+            "concept": "c:verbos-comunes.hablar-decir",
+            "options": [
+              "verstehen/verstehen",
+              "Sprechen / Sagen",
+              "be / sind",
+              "Wissen/verstehen"
+            ],
+            "prompt": "hablar / decir"
+          },
+          {
+            "answer": "Sagen",
+            "concept": "c:verbos-comunes.decir",
+            "options": [
+              "gehen",
+              "do",
+              "Sehen/sehen",
+              "Sagen"
+            ],
+            "prompt": "decir"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "The most frequent verbs, the base for building sentences.",
+      "es": "Los verbos más frecuentes, la base para formar frases."
+    },
+    "generator": "build_lessons",
+    "id": "de-u13-l1",
+    "lang": "de",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Recognise the most common verbs",
+        "Name everyday actions"
+      ],
+      "es": [
+        "Reconocer los verbos más usados",
+        "Nombrar acciones del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "de"
+        ],
+        "rows": [
+          [
+            "ser / estar / haber",
+            "be / are",
+            "be / sind"
+          ],
+          [
+            "hacer",
+            "do",
+            "do"
+          ],
+          [
+            "ir",
+            "go",
+            "gehen"
+          ],
+          [
+            "venir",
+            "Come",
+            "Kommen"
+          ],
+          [
+            "ver / mirar",
+            "see / watch",
+            "Sehen/sehen"
+          ],
+          [
+            "oír / escuchar",
+            "hear / listen",
+            "Hören / hören"
+          ],
+          [
+            "hablar / decir",
+            "speak / say",
+            "Sprechen / Sagen"
+          ],
+          [
+            "decir",
+            "say",
+            "Sagen"
+          ],
+          [
+            "preguntar",
+            "ask",
+            "Bitten"
+          ],
+          [
+            "contar / explicar",
+            "count / explain",
+            "Zählen/Erklären"
+          ],
+          [
+            "entender / comprender",
+            "understand / comprehend",
+            "verstehen/verstehen"
+          ],
+          [
+            "saber / conocer",
+            "know / understand",
+            "Wissen/verstehen"
+          ]
+        ],
+        "title": "es · en · de",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Common verbs",
+      "es": "Los verbos comunes"
+    },
+    "unit": 13
+  },
+  {
+    "concepts": [
+      "c:adjetivos.bueno",
+      "c:adjetivos.malo",
+      "c:adjetivos.grande",
+      "c:adjetivos.pequeno",
+      "c:adjetivos.largo-alto",
+      "c:adjetivos.bajo-corto",
+      "c:adjetivos.nuevo",
+      "c:adjetivos.viejo-antiguo",
+      "c:adjetivos.joven",
+      "c:adjetivos.viejo-persona",
+      "c:adjetivos.hermoso-bonito",
+      "c:adjetivos.feo"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:adjetivos.bueno",
+        "de": "Gut.",
+        "en": "Good.",
+        "es": "bueno",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:adjetivos.malo",
+        "de": "schlecht",
+        "en": "bad",
+        "es": "malo",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:adjetivos.grande",
+        "de": "groß",
+        "en": "large",
+        "es": "grande",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:adjetivos.pequeno",
+        "de": "klein",
+        "en": "small",
+        "es": "pequeño",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:adjetivos.largo-alto",
+        "de": "lang/hoch",
+        "en": "long / high",
+        "es": "largo / alto",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:adjetivos.bajo-corto",
+        "de": "niedrig / kurz",
+        "en": "low / short",
+        "es": "bajo / corto",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:adjetivos.nuevo",
+        "de": "neu",
+        "en": "new",
+        "es": "nuevo",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:adjetivos.viejo-antiguo",
+        "de": "alt/alt",
+        "en": "old / ancient",
+        "es": "viejo / antiguo",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:adjetivos.joven",
+        "de": "Jung",
+        "en": "young",
+        "es": "joven",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:adjetivos.viejo-persona",
+        "de": "alt (Person)",
+        "en": "old (person)",
+        "es": "viejo (persona)",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:adjetivos.hermoso-bonito",
+        "de": "schön/schön",
+        "en": "beautiful / pretty",
+        "es": "hermoso / bonito",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:adjetivos.feo",
+        "de": "Hässlich",
+        "en": "ugly",
+        "es": "feo",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Gut.",
+            "concept": "c:adjetivos.bueno",
+            "options": [
+              "Jung",
+              "neu",
+              "niedrig / kurz",
+              "Gut."
+            ],
+            "prompt": "bueno"
+          },
+          {
+            "answer": "schlecht",
+            "concept": "c:adjetivos.malo",
+            "options": [
+              "klein",
+              "niedrig / kurz",
+              "schlecht",
+              "neu"
+            ],
+            "prompt": "malo"
+          },
+          {
+            "answer": "groß",
+            "concept": "c:adjetivos.grande",
+            "options": [
+              "lang/hoch",
+              "Gut.",
+              "schlecht",
+              "groß"
+            ],
+            "prompt": "grande"
+          },
+          {
+            "answer": "klein",
+            "concept": "c:adjetivos.pequeno",
+            "options": [
+              "schlecht",
+              "klein",
+              "neu",
+              "alt (Person)"
+            ],
+            "prompt": "pequeño"
+          },
+          {
+            "answer": "lang/hoch",
+            "concept": "c:adjetivos.largo-alto",
+            "options": [
+              "lang/hoch",
+              "Gut.",
+              "Jung",
+              "schön/schön"
+            ],
+            "prompt": "largo / alto"
+          },
+          {
+            "answer": "niedrig / kurz",
+            "concept": "c:adjetivos.bajo-corto",
+            "options": [
+              "groß",
+              "lang/hoch",
+              "niedrig / kurz",
+              "alt/alt"
+            ],
+            "prompt": "bajo / corto"
+          },
+          {
+            "answer": "neu",
+            "concept": "c:adjetivos.nuevo",
+            "options": [
+              "alt (Person)",
+              "neu",
+              "Hässlich",
+              "niedrig / kurz"
+            ],
+            "prompt": "nuevo"
+          },
+          {
+            "answer": "alt/alt",
+            "concept": "c:adjetivos.viejo-antiguo",
+            "options": [
+              "schlecht",
+              "Jung",
+              "alt/alt",
+              "schön/schön"
+            ],
+            "prompt": "viejo / antiguo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Adjectives to describe size, character, state and qualities.",
+      "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+    },
+    "generator": "build_lessons",
+    "id": "de-u14-l1",
+    "lang": "de",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Describe with adjectives",
+        "Give opinions about things and people"
+      ],
+      "es": [
+        "Describir con adjetivos",
+        "Opinar sobre cosas y personas"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "de"
+        ],
+        "rows": [
+          [
+            "bueno",
+            "Good.",
+            "Gut."
+          ],
+          [
+            "malo",
+            "bad",
+            "schlecht"
+          ],
+          [
+            "grande",
+            "large",
+            "groß"
+          ],
+          [
+            "pequeño",
+            "small",
+            "klein"
+          ],
+          [
+            "largo / alto",
+            "long / high",
+            "lang/hoch"
+          ],
+          [
+            "bajo / corto",
+            "low / short",
+            "niedrig / kurz"
+          ],
+          [
+            "nuevo",
+            "new",
+            "neu"
+          ],
+          [
+            "viejo / antiguo",
+            "old / ancient",
+            "alt/alt"
+          ],
+          [
+            "joven",
+            "young",
+            "Jung"
+          ],
+          [
+            "viejo (persona)",
+            "old (person)",
+            "alt (Person)"
+          ],
+          [
+            "hermoso / bonito",
+            "beautiful / pretty",
+            "schön/schön"
+          ],
+          [
+            "feo",
+            "ugly",
+            "Hässlich"
+          ]
+        ],
+        "title": "es · en · de",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Adjectives",
+      "es": "Los adjetivos"
+    },
+    "unit": 14
+  },
+  {
+    "concepts": [
+      "c:viajes-compras-y-servicios.compras-ir-de-compras",
+      "c:viajes-compras-y-servicios.tienda",
+      "c:viajes-compras-y-servicios.mercado",
+      "c:viajes-compras-y-servicios.supermercado",
+      "c:viajes-compras-y-servicios.centro-comercial",
+      "c:viajes-compras-y-servicios.vendedor-tendero",
+      "c:viajes-compras-y-servicios.cliente-comprador",
+      "c:viajes-compras-y-servicios.precio",
+      "c:viajes-compras-y-servicios.dinero",
+      "c:viajes-compras-y-servicios.rupia-india-inr",
+      "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+      "c:viajes-compras-y-servicios.tarjeta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+        "de": "Einkaufen / Gehen für Einkäufe",
+        "en": "shopping / going for purchases",
+        "es": "compras / ir de compras",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tienda",
+        "de": "Ladengeschäft",
+        "en": "shop",
+        "es": "tienda",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.mercado",
+        "de": "Markt",
+        "en": "market",
+        "es": "mercado",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.supermercado",
+        "de": "Supermarkt",
+        "en": "supermarket",
+        "es": "supermercado",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.centro-comercial",
+        "de": "Einkaufszentrum",
+        "en": "shopping centre",
+        "es": "centro comercial",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+        "de": "Verkäufer/Bieter",
+        "en": "seller / tenderer",
+        "es": "vendedor / tendero",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+        "de": "Kunde/Käufer",
+        "en": "customer / buyer",
+        "es": "cliente / comprador",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.precio",
+        "de": "Preis",
+        "en": "price",
+        "es": "precio",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.dinero",
+        "de": "Geld",
+        "en": "money",
+        "es": "dinero",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.rupia-india-inr",
+        "de": "Indische Rupie (INR)",
+        "en": "Indian rupee (INR)",
+        "es": "rupia india (INR)",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+        "de": "Bargeld / Geld in Form von",
+        "en": "cash / money in the form of",
+        "es": "efectivo / dinero en efectivo",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tarjeta",
+        "de": "Karte",
+        "en": "card",
+        "es": "tarjeta",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Einkaufen / Gehen für Einkäufe",
+            "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+            "options": [
+              "Supermarkt",
+              "Kunde/Käufer",
+              "Einkaufen / Gehen für Einkäufe",
+              "Einkaufszentrum"
+            ],
+            "prompt": "compras / ir de compras"
+          },
+          {
+            "answer": "Ladengeschäft",
+            "concept": "c:viajes-compras-y-servicios.tienda",
+            "options": [
+              "Verkäufer/Bieter",
+              "Ladengeschäft",
+              "Karte",
+              "Bargeld / Geld in Form von"
+            ],
+            "prompt": "tienda"
+          },
+          {
+            "answer": "Markt",
+            "concept": "c:viajes-compras-y-servicios.mercado",
+            "options": [
+              "Indische Rupie (INR)",
+              "Ladengeschäft",
+              "Markt",
+              "Karte"
+            ],
+            "prompt": "mercado"
+          },
+          {
+            "answer": "Supermarkt",
+            "concept": "c:viajes-compras-y-servicios.supermercado",
+            "options": [
+              "Indische Rupie (INR)",
+              "Preis",
+              "Ladengeschäft",
+              "Supermarkt"
+            ],
+            "prompt": "supermercado"
+          },
+          {
+            "answer": "Einkaufszentrum",
+            "concept": "c:viajes-compras-y-servicios.centro-comercial",
+            "options": [
+              "Supermarkt",
+              "Verkäufer/Bieter",
+              "Einkaufszentrum",
+              "Markt"
+            ],
+            "prompt": "centro comercial"
+          },
+          {
+            "answer": "Verkäufer/Bieter",
+            "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+            "options": [
+              "Einkaufen / Gehen für Einkäufe",
+              "Indische Rupie (INR)",
+              "Verkäufer/Bieter",
+              "Supermarkt"
+            ],
+            "prompt": "vendedor / tendero"
+          },
+          {
+            "answer": "Kunde/Käufer",
+            "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+            "options": [
+              "Einkaufen / Gehen für Einkäufe",
+              "Preis",
+              "Bargeld / Geld in Form von",
+              "Kunde/Käufer"
+            ],
+            "prompt": "cliente / comprador"
+          },
+          {
+            "answer": "Preis",
+            "concept": "c:viajes-compras-y-servicios.precio",
+            "options": [
+              "Geld",
+              "Bargeld / Geld in Form von",
+              "Einkaufen / Gehen für Einkäufe",
+              "Preis"
+            ],
+            "prompt": "precio"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words to shop, pay and use services during a trip.",
+      "es": "Palabras para comprar, pagar y usar servicios durante un viaje."
+    },
+    "generator": "build_lessons",
+    "id": "de-u15-l1",
+    "lang": "de",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Handle shopping and services",
+        "Ask about prices and opening hours"
+      ],
+      "es": [
+        "Resolver compras y servicios",
+        "Preguntar precios y horarios"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "de"
+        ],
+        "rows": [
+          [
+            "compras / ir de compras",
+            "shopping / going for purchases",
+            "Einkaufen / Gehen für Einkäufe"
+          ],
+          [
+            "tienda",
+            "shop",
+            "Ladengeschäft"
+          ],
+          [
+            "mercado",
+            "market",
+            "Markt"
+          ],
+          [
+            "supermercado",
+            "supermarket",
+            "Supermarkt"
+          ],
+          [
+            "centro comercial",
+            "shopping centre",
+            "Einkaufszentrum"
+          ],
+          [
+            "vendedor / tendero",
+            "seller / tenderer",
+            "Verkäufer/Bieter"
+          ],
+          [
+            "cliente / comprador",
+            "customer / buyer",
+            "Kunde/Käufer"
+          ],
+          [
+            "precio",
+            "price",
+            "Preis"
+          ],
+          [
+            "dinero",
+            "money",
+            "Geld"
+          ],
+          [
+            "rupia india (INR)",
+            "Indian rupee (INR)",
+            "Indische Rupie (INR)"
+          ],
+          [
+            "efectivo / dinero en efectivo",
+            "cash / money in the form of",
+            "Bargeld / Geld in Form von"
+          ],
+          [
+            "tarjeta",
+            "card",
+            "Karte"
+          ]
+        ],
+        "title": "es · en · de",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Travel, shopping and services",
+      "es": "Viajes, compras y servicios"
+    },
+    "unit": 15
+  },
+  {
+    "concepts": [
+      "c:transporte-y-viajes.viaje",
+      "c:transporte-y-viajes.viaje-trayecto",
+      "c:transporte-y-viajes.turismo",
+      "c:transporte-y-viajes.coche-auto",
+      "c:transporte-y-viajes.taxi",
+      "c:transporte-y-viajes.autobus",
+      "c:transporte-y-viajes.tren",
+      "c:transporte-y-viajes.metro",
+      "c:transporte-y-viajes.avion",
+      "c:transporte-y-viajes.barco-avion",
+      "c:transporte-y-viajes.barco-bote",
+      "c:transporte-y-viajes.bicicleta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:transporte-y-viajes.viaje",
+        "de": "Reise",
+        "en": "travel",
+        "es": "viaje",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:transporte-y-viajes.viaje-trayecto",
+        "de": "Reise/Reise",
+        "en": "travel / journey",
+        "es": "viaje / trayecto",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:transporte-y-viajes.turismo",
+        "de": "Tourismus",
+        "en": "tourism",
+        "es": "turismo",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:transporte-y-viajes.coche-auto",
+        "de": "PKW/Fahrzeug",
+        "en": "car / vehicle",
+        "es": "coche / auto",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:transporte-y-viajes.taxi",
+        "de": "Taxi",
+        "en": "taxi",
+        "es": "taxi",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:transporte-y-viajes.autobus",
+        "de": "Busbus",
+        "en": "bus",
+        "es": "autobús",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:transporte-y-viajes.tren",
+        "de": "Zug",
+        "en": "train",
+        "es": "tren",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:transporte-y-viajes.metro",
+        "de": "U-Bahn",
+        "en": "Subway",
+        "es": "metro",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:transporte-y-viajes.avion",
+        "de": "Luftfahrzeuge",
+        "en": "aircraft",
+        "es": "avión",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-avion",
+        "de": "Schiff/Flugzeug",
+        "en": "boat / aircraft",
+        "es": "barco / avión",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-bote",
+        "de": "Schiff/Schiff",
+        "en": "boat / ship",
+        "es": "barco / bote",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:transporte-y-viajes.bicicleta",
+        "de": "Fahrrad",
+        "en": "bicycle",
+        "es": "bicicleta",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Reise",
+            "concept": "c:transporte-y-viajes.viaje",
+            "options": [
+              "Taxi",
+              "Schiff/Flugzeug",
+              "Schiff/Schiff",
+              "Reise"
+            ],
+            "prompt": "viaje"
+          },
+          {
+            "answer": "Reise/Reise",
+            "concept": "c:transporte-y-viajes.viaje-trayecto",
+            "options": [
+              "U-Bahn",
+              "Tourismus",
+              "Schiff/Schiff",
+              "Reise/Reise"
+            ],
+            "prompt": "viaje / trayecto"
+          },
+          {
+            "answer": "Tourismus",
+            "concept": "c:transporte-y-viajes.turismo",
+            "options": [
+              "Reise/Reise",
+              "Schiff/Flugzeug",
+              "U-Bahn",
+              "Tourismus"
+            ],
+            "prompt": "turismo"
+          },
+          {
+            "answer": "PKW/Fahrzeug",
+            "concept": "c:transporte-y-viajes.coche-auto",
+            "options": [
+              "PKW/Fahrzeug",
+              "Luftfahrzeuge",
+              "Schiff/Flugzeug",
+              "Reise"
+            ],
+            "prompt": "coche / auto"
+          },
+          {
+            "answer": "Taxi",
+            "concept": "c:transporte-y-viajes.taxi",
+            "options": [
+              "Reise",
+              "Tourismus",
+              "Taxi",
+              "Reise/Reise"
+            ],
+            "prompt": "taxi"
+          },
+          {
+            "answer": "Busbus",
+            "concept": "c:transporte-y-viajes.autobus",
+            "options": [
+              "PKW/Fahrzeug",
+              "Taxi",
+              "Busbus",
+              "Fahrrad"
+            ],
+            "prompt": "autobús"
+          },
+          {
+            "answer": "Zug",
+            "concept": "c:transporte-y-viajes.tren",
+            "options": [
+              "Schiff/Flugzeug",
+              "Busbus",
+              "Zug",
+              "Fahrrad"
+            ],
+            "prompt": "tren"
+          },
+          {
+            "answer": "U-Bahn",
+            "concept": "c:transporte-y-viajes.metro",
+            "options": [
+              "Reise",
+              "U-Bahn",
+              "Schiff/Flugzeug",
+              "Luftfahrzeuge"
+            ],
+            "prompt": "metro"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Means of transport and words useful to get around.",
+      "es": "Medios de transporte y palabras útiles para desplazarse."
+    },
+    "generator": "build_lessons",
+    "id": "de-u16-l1",
+    "lang": "de",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name means of transport",
+        "Get around and travel"
+      ],
+      "es": [
+        "Nombrar medios de transporte",
+        "Moverse y viajar"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "de"
+        ],
+        "rows": [
+          [
+            "viaje",
+            "travel",
+            "Reise"
+          ],
+          [
+            "viaje / trayecto",
+            "travel / journey",
+            "Reise/Reise"
+          ],
+          [
+            "turismo",
+            "tourism",
+            "Tourismus"
+          ],
+          [
+            "coche / auto",
+            "car / vehicle",
+            "PKW/Fahrzeug"
+          ],
+          [
+            "taxi",
+            "taxi",
+            "Taxi"
+          ],
+          [
+            "autobús",
+            "bus",
+            "Busbus"
+          ],
+          [
+            "tren",
+            "train",
+            "Zug"
+          ],
+          [
+            "metro",
+            "Subway",
+            "U-Bahn"
+          ],
+          [
+            "avión",
+            "aircraft",
+            "Luftfahrzeuge"
+          ],
+          [
+            "barco / avión",
+            "boat / aircraft",
+            "Schiff/Flugzeug"
+          ],
+          [
+            "barco / bote",
+            "boat / ship",
+            "Schiff/Schiff"
+          ],
+          [
+            "bicicleta",
+            "bicycle",
+            "Fahrrad"
+          ]
+        ],
+        "title": "es · en · de",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Transport and travel",
+      "es": "El transporte y los viajes"
+    },
+    "unit": 16
+  },
+  {
+    "concepts": [
+      "c:educacion-y-aprendizaje.educacion",
+      "c:educacion-y-aprendizaje.escuela",
+      "c:educacion-y-aprendizaje.clase-aula-grado",
+      "c:educacion-y-aprendizaje.leccion",
+      "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "c:educacion-y-aprendizaje.matematicas",
+      "c:educacion-y-aprendizaje.ciencia",
+      "c:educacion-y-aprendizaje.historia",
+      "c:educacion-y-aprendizaje.geografia",
+      "c:educacion-y-aprendizaje.literatura",
+      "c:educacion-y-aprendizaje.idioma-lengua"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:educacion-y-aprendizaje.educacion",
+        "de": "Bildung",
+        "en": "education",
+        "es": "educación",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.escuela",
+        "de": "Schuljahr",
+        "en": "school",
+        "es": "escuela",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+        "de": "Klasse/Klasse",
+        "en": "class / classroom",
+        "es": "clase / aula / grado",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.leccion",
+        "de": "Unterricht",
+        "en": "lesson",
+        "es": "lección",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+        "de": "Lehrplan/Kurs",
+        "en": "curriculum / course",
+        "es": "plan de estudios / curso",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+        "de": "Thema / Themenbereich",
+        "en": "subject / topic",
+        "es": "materia / tema / asunto",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.matematicas",
+        "de": "Mathematik",
+        "en": "mathematics",
+        "es": "matemáticas",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.ciencia",
+        "de": "Wissenschaft",
+        "en": "science",
+        "es": "ciencia",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.historia",
+        "de": "Geschichte",
+        "en": "history",
+        "es": "historia",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.geografia",
+        "de": "Geografie",
+        "en": "geography",
+        "es": "geografía",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.literatura",
+        "de": "Literatur",
+        "en": "literature",
+        "es": "literatura",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+        "de": "Sprache/Sprache",
+        "en": "language / tongue",
+        "es": "idioma / lengua",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Bildung",
+            "concept": "c:educacion-y-aprendizaje.educacion",
+            "options": [
+              "Thema / Themenbereich",
+              "Lehrplan/Kurs",
+              "Sprache/Sprache",
+              "Bildung"
+            ],
+            "prompt": "educación"
+          },
+          {
+            "answer": "Schuljahr",
+            "concept": "c:educacion-y-aprendizaje.escuela",
+            "options": [
+              "Thema / Themenbereich",
+              "Geografie",
+              "Mathematik",
+              "Schuljahr"
+            ],
+            "prompt": "escuela"
+          },
+          {
+            "answer": "Klasse/Klasse",
+            "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+            "options": [
+              "Thema / Themenbereich",
+              "Geografie",
+              "Geschichte",
+              "Klasse/Klasse"
+            ],
+            "prompt": "clase / aula / grado"
+          },
+          {
+            "answer": "Unterricht",
+            "concept": "c:educacion-y-aprendizaje.leccion",
+            "options": [
+              "Geschichte",
+              "Sprache/Sprache",
+              "Thema / Themenbereich",
+              "Unterricht"
+            ],
+            "prompt": "lección"
+          },
+          {
+            "answer": "Lehrplan/Kurs",
+            "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+            "options": [
+              "Schuljahr",
+              "Geografie",
+              "Mathematik",
+              "Lehrplan/Kurs"
+            ],
+            "prompt": "plan de estudios / curso"
+          },
+          {
+            "answer": "Thema / Themenbereich",
+            "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+            "options": [
+              "Thema / Themenbereich",
+              "Schuljahr",
+              "Geografie",
+              "Literatur"
+            ],
+            "prompt": "materia / tema / asunto"
+          },
+          {
+            "answer": "Mathematik",
+            "concept": "c:educacion-y-aprendizaje.matematicas",
+            "options": [
+              "Sprache/Sprache",
+              "Geografie",
+              "Mathematik",
+              "Schuljahr"
+            ],
+            "prompt": "matemáticas"
+          },
+          {
+            "answer": "Wissenschaft",
+            "concept": "c:educacion-y-aprendizaje.ciencia",
+            "options": [
+              "Bildung",
+              "Mathematik",
+              "Sprache/Sprache",
+              "Wissenschaft"
+            ],
+            "prompt": "ciencia"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words from school and learning.",
+      "es": "Palabras de la escuela y del aprendizaje."
+    },
+    "generator": "build_lessons",
+    "id": "de-u17-l1",
+    "lang": "de",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Talk about studies",
+        "Name school and its objects"
+      ],
+      "es": [
+        "Hablar de estudios",
+        "Nombrar la escuela y sus objetos"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "de"
+        ],
+        "rows": [
+          [
+            "educación",
+            "education",
+            "Bildung"
+          ],
+          [
+            "escuela",
+            "school",
+            "Schuljahr"
+          ],
+          [
+            "clase / aula / grado",
+            "class / classroom",
+            "Klasse/Klasse"
+          ],
+          [
+            "lección",
+            "lesson",
+            "Unterricht"
+          ],
+          [
+            "plan de estudios / curso",
+            "curriculum / course",
+            "Lehrplan/Kurs"
+          ],
+          [
+            "materia / tema / asunto",
+            "subject / topic",
+            "Thema / Themenbereich"
+          ],
+          [
+            "matemáticas",
+            "mathematics",
+            "Mathematik"
+          ],
+          [
+            "ciencia",
+            "science",
+            "Wissenschaft"
+          ],
+          [
+            "historia",
+            "history",
+            "Geschichte"
+          ],
+          [
+            "geografía",
+            "geography",
+            "Geografie"
+          ],
+          [
+            "literatura",
+            "literature",
+            "Literatur"
+          ],
+          [
+            "idioma / lengua",
+            "language / tongue",
+            "Sprache/Sprache"
+          ]
+        ],
+        "title": "es · en · de",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Education and learning",
+      "es": "La educación y el aprendizaje"
+    },
+    "unit": 17
+  },
+  {
+    "concepts": [
+      "c:tecnologia-y-comunicacion.tecnologia",
+      "c:tecnologia-y-comunicacion.computadora-ordenador",
+      "c:tecnologia-y-comunicacion.portatil-laptop",
+      "c:tecnologia-y-comunicacion.tableta",
+      "c:tecnologia-y-comunicacion.telefono-movil-celular",
+      "c:tecnologia-y-comunicacion.telefono",
+      "c:tecnologia-y-comunicacion.pantalla",
+      "c:tecnologia-y-comunicacion.teclado",
+      "c:tecnologia-y-comunicacion.raton-informatica",
+      "c:tecnologia-y-comunicacion.impresora",
+      "c:tecnologia-y-comunicacion.camara",
+      "c:tecnologia-y-comunicacion.microfono"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:tecnologia-y-comunicacion.tecnologia",
+        "de": "Technologie",
+        "en": "technology",
+        "es": "tecnología",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+        "de": "Computer/PC",
+        "en": "computer / PC",
+        "es": "computadora / ordenador",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+        "de": "Laptop/Laptop",
+        "en": "laptop / laptop",
+        "es": "portátil / laptop",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.tableta",
+        "de": "Tablette",
+        "en": "tablet",
+        "es": "tableta",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+        "de": "Handy/Mobiltelefon",
+        "en": "mobile / cell phone",
+        "es": "teléfono móvil / celular",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono",
+        "de": "Telefon",
+        "en": "phone",
+        "es": "teléfono",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.pantalla",
+        "de": "Bildschirm",
+        "en": "screen",
+        "es": "pantalla",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.teclado",
+        "de": "Tastatur",
+        "en": "keyboard",
+        "es": "teclado",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.raton-informatica",
+        "de": "Maus (Computer)",
+        "en": "mouse (computer)",
+        "es": "ratón (informática)",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.impresora",
+        "de": "Drucker",
+        "en": "printer",
+        "es": "impresora",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.camara",
+        "de": "Kamera",
+        "en": "camera",
+        "es": "cámara",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.microfono",
+        "de": "Mikrofon",
+        "en": "microphone",
+        "es": "micrófono",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Technologie",
+            "concept": "c:tecnologia-y-comunicacion.tecnologia",
+            "options": [
+              "Technologie",
+              "Computer/PC",
+              "Laptop/Laptop",
+              "Maus (Computer)"
+            ],
+            "prompt": "tecnología"
+          },
+          {
+            "answer": "Computer/PC",
+            "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+            "options": [
+              "Laptop/Laptop",
+              "Tastatur",
+              "Tablette",
+              "Computer/PC"
+            ],
+            "prompt": "computadora / ordenador"
+          },
+          {
+            "answer": "Laptop/Laptop",
+            "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+            "options": [
+              "Technologie",
+              "Laptop/Laptop",
+              "Handy/Mobiltelefon",
+              "Telefon"
+            ],
+            "prompt": "portátil / laptop"
+          },
+          {
+            "answer": "Tablette",
+            "concept": "c:tecnologia-y-comunicacion.tableta",
+            "options": [
+              "Mikrofon",
+              "Drucker",
+              "Telefon",
+              "Tablette"
+            ],
+            "prompt": "tableta"
+          },
+          {
+            "answer": "Handy/Mobiltelefon",
+            "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+            "options": [
+              "Tastatur",
+              "Computer/PC",
+              "Tablette",
+              "Handy/Mobiltelefon"
+            ],
+            "prompt": "teléfono móvil / celular"
+          },
+          {
+            "answer": "Telefon",
+            "concept": "c:tecnologia-y-comunicacion.telefono",
+            "options": [
+              "Drucker",
+              "Laptop/Laptop",
+              "Telefon",
+              "Tastatur"
+            ],
+            "prompt": "teléfono"
+          },
+          {
+            "answer": "Bildschirm",
+            "concept": "c:tecnologia-y-comunicacion.pantalla",
+            "options": [
+              "Technologie",
+              "Tastatur",
+              "Bildschirm",
+              "Kamera"
+            ],
+            "prompt": "pantalla"
+          },
+          {
+            "answer": "Tastatur",
+            "concept": "c:tecnologia-y-comunicacion.teclado",
+            "options": [
+              "Tablette",
+              "Bildschirm",
+              "Tastatur",
+              "Computer/PC"
+            ],
+            "prompt": "teclado"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Devices, internet and everyday communication.",
+      "es": "Aparatos, internet y comunicación del día a día."
+    },
+    "generator": "build_lessons",
+    "id": "de-u18-l1",
+    "lang": "de",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name devices and services",
+        "Talk on the phone and online"
+      ],
+      "es": [
+        "Nombrar aparatos y servicios",
+        "Hablar por teléfono e internet"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "de"
+        ],
+        "rows": [
+          [
+            "tecnología",
+            "technology",
+            "Technologie"
+          ],
+          [
+            "computadora / ordenador",
+            "computer / PC",
+            "Computer/PC"
+          ],
+          [
+            "portátil / laptop",
+            "laptop / laptop",
+            "Laptop/Laptop"
+          ],
+          [
+            "tableta",
+            "tablet",
+            "Tablette"
+          ],
+          [
+            "teléfono móvil / celular",
+            "mobile / cell phone",
+            "Handy/Mobiltelefon"
+          ],
+          [
+            "teléfono",
+            "phone",
+            "Telefon"
+          ],
+          [
+            "pantalla",
+            "screen",
+            "Bildschirm"
+          ],
+          [
+            "teclado",
+            "keyboard",
+            "Tastatur"
+          ],
+          [
+            "ratón (informática)",
+            "mouse (computer)",
+            "Maus (Computer)"
+          ],
+          [
+            "impresora",
+            "printer",
+            "Drucker"
+          ],
+          [
+            "cámara",
+            "camera",
+            "Kamera"
+          ],
+          [
+            "micrófono",
+            "microphone",
+            "Mikrofon"
+          ]
+        ],
+        "title": "es · en · de",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Technology and communication",
+      "es": "La tecnología y la comunicación"
+    },
+    "unit": 18
+  },
+  {
+    "concepts": [
+      "c:naturaleza-y-clima.naturaleza",
+      "c:naturaleza-y-clima.arbol",
+      "c:naturaleza-y-clima.planta",
+      "c:naturaleza-y-clima.flor",
+      "c:naturaleza-y-clima.hoja",
+      "c:naturaleza-y-clima.raiz",
+      "c:naturaleza-y-clima.rama",
+      "c:naturaleza-y-clima.tronco-tallo",
+      "c:naturaleza-y-clima.semilla",
+      "c:naturaleza-y-clima.hierba-cesped",
+      "c:naturaleza-y-clima.bosque-selva",
+      "c:naturaleza-y-clima.montana"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:naturaleza-y-clima.naturaleza",
+        "de": "Naturschutz",
+        "en": "nature",
+        "es": "naturaleza",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.arbol",
+        "de": "Baum",
+        "en": "tree",
+        "es": "árbol",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.planta",
+        "de": "Pflanzen",
+        "en": "plant",
+        "es": "planta",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.flor",
+        "de": "Blüte",
+        "en": "flower",
+        "es": "flor",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hoja",
+        "de": "Blatt",
+        "en": "leaf",
+        "es": "hoja",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.raiz",
+        "de": "Wurzel",
+        "en": "root",
+        "es": "raíz",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.rama",
+        "de": "Zweigstelle",
+        "en": "branch",
+        "es": "rama",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.tronco-tallo",
+        "de": "Stamm/Stängel",
+        "en": "trunk / stem",
+        "es": "tronco / tallo",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.semilla",
+        "de": "Samen",
+        "en": "seed",
+        "es": "semilla",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hierba-cesped",
+        "de": "Gras/Rasen",
+        "en": "grass / lawn",
+        "es": "hierba / césped",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.bosque-selva",
+        "de": "Wald/Dschungel",
+        "en": "forest / jungle",
+        "es": "bosque / selva",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.montana",
+        "de": "Bergberg",
+        "en": "mountain",
+        "es": "montaña",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Naturschutz",
+            "concept": "c:naturaleza-y-clima.naturaleza",
+            "options": [
+              "Naturschutz",
+              "Samen",
+              "Pflanzen",
+              "Wurzel"
+            ],
+            "prompt": "naturaleza"
+          },
+          {
+            "answer": "Baum",
+            "concept": "c:naturaleza-y-clima.arbol",
+            "options": [
+              "Bergberg",
+              "Baum",
+              "Naturschutz",
+              "Zweigstelle"
+            ],
+            "prompt": "árbol"
+          },
+          {
+            "answer": "Pflanzen",
+            "concept": "c:naturaleza-y-clima.planta",
+            "options": [
+              "Gras/Rasen",
+              "Baum",
+              "Samen",
+              "Pflanzen"
+            ],
+            "prompt": "planta"
+          },
+          {
+            "answer": "Blüte",
+            "concept": "c:naturaleza-y-clima.flor",
+            "options": [
+              "Zweigstelle",
+              "Stamm/Stängel",
+              "Wald/Dschungel",
+              "Blüte"
+            ],
+            "prompt": "flor"
+          },
+          {
+            "answer": "Blatt",
+            "concept": "c:naturaleza-y-clima.hoja",
+            "options": [
+              "Blatt",
+              "Baum",
+              "Samen",
+              "Gras/Rasen"
+            ],
+            "prompt": "hoja"
+          },
+          {
+            "answer": "Wurzel",
+            "concept": "c:naturaleza-y-clima.raiz",
+            "options": [
+              "Stamm/Stängel",
+              "Blüte",
+              "Zweigstelle",
+              "Wurzel"
+            ],
+            "prompt": "raíz"
+          },
+          {
+            "answer": "Zweigstelle",
+            "concept": "c:naturaleza-y-clima.rama",
+            "options": [
+              "Blatt",
+              "Zweigstelle",
+              "Gras/Rasen",
+              "Pflanzen"
+            ],
+            "prompt": "rama"
+          },
+          {
+            "answer": "Stamm/Stängel",
+            "concept": "c:naturaleza-y-clima.tronco-tallo",
+            "options": [
+              "Stamm/Stängel",
+              "Blatt",
+              "Samen",
+              "Gras/Rasen"
+            ],
+            "prompt": "tronco / tallo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Nature, landscapes and weather to talk about the environment.",
+      "es": "Naturaleza, paisajes y clima para hablar del entorno."
+    },
+    "generator": "build_lessons",
+    "id": "de-u19-l1",
+    "lang": "de",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name natural elements",
+        "Talk about weather and seasons"
+      ],
+      "es": [
+        "Nombrar elementos naturales",
+        "Hablar del tiempo y las estaciones"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "de"
+        ],
+        "rows": [
+          [
+            "naturaleza",
+            "nature",
+            "Naturschutz"
+          ],
+          [
+            "árbol",
+            "tree",
+            "Baum"
+          ],
+          [
+            "planta",
+            "plant",
+            "Pflanzen"
+          ],
+          [
+            "flor",
+            "flower",
+            "Blüte"
+          ],
+          [
+            "hoja",
+            "leaf",
+            "Blatt"
+          ],
+          [
+            "raíz",
+            "root",
+            "Wurzel"
+          ],
+          [
+            "rama",
+            "branch",
+            "Zweigstelle"
+          ],
+          [
+            "tronco / tallo",
+            "trunk / stem",
+            "Stamm/Stängel"
+          ],
+          [
+            "semilla",
+            "seed",
+            "Samen"
+          ],
+          [
+            "hierba / césped",
+            "grass / lawn",
+            "Gras/Rasen"
+          ],
+          [
+            "bosque / selva",
+            "forest / jungle",
+            "Wald/Dschungel"
+          ],
+          [
+            "montaña",
+            "mountain",
+            "Bergberg"
+          ]
+        ],
+        "title": "es · en · de",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Nature and weather",
+      "es": "La naturaleza y el clima"
+    },
+    "unit": 19
   },
   {
     "concepts": [
@@ -907,9 +3354,106 @@
         "speaker": "B"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Null",
+            "concept": "c:numeros.cero",
+            "options": [
+              "9",
+              "Null",
+              "sieben",
+              "1"
+            ],
+            "prompt": "cero"
+          },
+          {
+            "answer": "1",
+            "concept": "c:numeros.uno",
+            "options": [
+              "5",
+              "zwei",
+              "10",
+              "1"
+            ],
+            "prompt": "uno"
+          },
+          {
+            "answer": "zwei",
+            "concept": "c:numeros.dos",
+            "options": [
+              "6",
+              "9",
+              "5",
+              "zwei"
+            ],
+            "prompt": "dos"
+          },
+          {
+            "answer": "Drei",
+            "concept": "c:numeros.tres",
+            "options": [
+              "10",
+              "6",
+              "zwei",
+              "Drei"
+            ],
+            "prompt": "tres"
+          },
+          {
+            "answer": "4",
+            "concept": "c:numeros.cuatro",
+            "options": [
+              "4",
+              "5",
+              "10",
+              "8"
+            ],
+            "prompt": "cuatro"
+          },
+          {
+            "answer": "5",
+            "concept": "c:numeros.cinco",
+            "options": [
+              "4",
+              "Null",
+              "sieben",
+              "5"
+            ],
+            "prompt": "cinco"
+          },
+          {
+            "answer": "6",
+            "concept": "c:numeros.seis",
+            "options": [
+              "zwei",
+              "11",
+              "6",
+              "Null"
+            ],
+            "prompt": "seis"
+          },
+          {
+            "answer": "sieben",
+            "concept": "c:numeros.siete",
+            "options": [
+              "8",
+              "sieben",
+              "5",
+              "4"
+            ],
+            "prompt": "siete"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Die Zahlen des Tages bis heute: Sie werden für Zählen, Alter und Preis verwendet.",
       "en": "Everyday numbers: used to count, give your age and talk about prices.",
       "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
     },
@@ -918,10 +3462,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Zählen Sie von Null bis Zehn",
-        "Erkennen Sie die Grundzahlen"
-      ],
       "en": [
         "Count from zero to ten",
         "Recognise basic numbers"
@@ -1005,11 +3545,307 @@
       }
     ],
     "title": {
-      "de": "Die Nummern",
       "en": "Numbers",
       "es": "Los números"
     },
     "unit": 2
+  },
+  {
+    "concepts": [
+      "c:vocabulario-extra-y-frases-utiles.amor",
+      "c:vocabulario-extra-y-frases-utiles.odio",
+      "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "c:vocabulario-extra-y-frases-utiles.mentira",
+      "c:vocabulario-extra-y-frases-utiles.verdad",
+      "c:vocabulario-extra-y-frases-utiles.justicia",
+      "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "c:vocabulario-extra-y-frases-utiles.miedo",
+      "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+        "de": "Liebe",
+        "en": "love",
+        "es": "amor",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+        "de": "Ich hasse es.",
+        "en": "I hate it.",
+        "es": "odio",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+        "de": "Ehrlichkeit",
+        "en": "honesty",
+        "es": "honestidad",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+        "de": "Lehne",
+        "en": "lie",
+        "es": "mentira",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+        "de": "Wahrheit",
+        "en": "truth",
+        "es": "verdad",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+        "de": "Gerechtigkeit",
+        "en": "justice",
+        "es": "justicia",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+        "de": "Ungerechtigkeit",
+        "en": "injustice",
+        "es": "injusticia",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+        "de": "Wert / Mut",
+        "en": "value / courage",
+        "es": "valor / coraje",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+        "de": "Angst",
+        "en": "fear",
+        "es": "miedo",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+        "de": "Hoffnung",
+        "en": "hope",
+        "es": "esperanza",
+        "speaker": "B"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+        "de": "Enttäuschung",
+        "en": "disappointment",
+        "es": "decepción",
+        "speaker": "A"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+        "de": "Wut / Zorn",
+        "en": "anger / angry",
+        "es": "ira / enfado",
+        "speaker": "B"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Liebe",
+            "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+            "options": [
+              "Gerechtigkeit",
+              "Liebe",
+              "Wahrheit",
+              "Enttäuschung"
+            ],
+            "prompt": "amor"
+          },
+          {
+            "answer": "Ich hasse es.",
+            "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+            "options": [
+              "Ehrlichkeit",
+              "Hoffnung",
+              "Ich hasse es.",
+              "Ungerechtigkeit"
+            ],
+            "prompt": "odio"
+          },
+          {
+            "answer": "Ehrlichkeit",
+            "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+            "options": [
+              "Wahrheit",
+              "Ehrlichkeit",
+              "Wut / Zorn",
+              "Lehne"
+            ],
+            "prompt": "honestidad"
+          },
+          {
+            "answer": "Lehne",
+            "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+            "options": [
+              "Wahrheit",
+              "Ehrlichkeit",
+              "Liebe",
+              "Lehne"
+            ],
+            "prompt": "mentira"
+          },
+          {
+            "answer": "Wahrheit",
+            "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+            "options": [
+              "Wahrheit",
+              "Gerechtigkeit",
+              "Ehrlichkeit",
+              "Wut / Zorn"
+            ],
+            "prompt": "verdad"
+          },
+          {
+            "answer": "Gerechtigkeit",
+            "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+            "options": [
+              "Wut / Zorn",
+              "Ungerechtigkeit",
+              "Gerechtigkeit",
+              "Enttäuschung"
+            ],
+            "prompt": "justicia"
+          },
+          {
+            "answer": "Ungerechtigkeit",
+            "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+            "options": [
+              "Wahrheit",
+              "Ehrlichkeit",
+              "Ungerechtigkeit",
+              "Enttäuschung"
+            ],
+            "prompt": "injusticia"
+          },
+          {
+            "answer": "Wert / Mut",
+            "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+            "options": [
+              "Wert / Mut",
+              "Ungerechtigkeit",
+              "Hoffnung",
+              "Gerechtigkeit"
+            ],
+            "prompt": "valor / coraje"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Support words and phrases that appear in many conversations.",
+      "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+    },
+    "generator": "build_lessons",
+    "id": "de-u20-l1",
+    "lang": "de",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Expand vocabulary",
+        "Use common everyday phrases"
+      ],
+      "es": [
+        "Ampliar vocabulario",
+        "Usar frases comunes del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "de"
+        ],
+        "rows": [
+          [
+            "amor",
+            "love",
+            "Liebe"
+          ],
+          [
+            "odio",
+            "I hate it.",
+            "Ich hasse es."
+          ],
+          [
+            "honestidad",
+            "honesty",
+            "Ehrlichkeit"
+          ],
+          [
+            "mentira",
+            "lie",
+            "Lehne"
+          ],
+          [
+            "verdad",
+            "truth",
+            "Wahrheit"
+          ],
+          [
+            "justicia",
+            "justice",
+            "Gerechtigkeit"
+          ],
+          [
+            "injusticia",
+            "injustice",
+            "Ungerechtigkeit"
+          ],
+          [
+            "valor / coraje",
+            "value / courage",
+            "Wert / Mut"
+          ],
+          [
+            "miedo",
+            "fear",
+            "Angst"
+          ],
+          [
+            "esperanza",
+            "hope",
+            "Hoffnung"
+          ],
+          [
+            "decepción",
+            "disappointment",
+            "Enttäuschung"
+          ],
+          [
+            "ira / enfado",
+            "anger / angry",
+            "Wut / Zorn"
+          ]
+        ],
+        "title": "es · en · de",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Extra vocabulary and useful phrases",
+      "es": "Vocabulario extra y frases útiles"
+    },
+    "unit": 20
   },
   {
     "concepts": [
@@ -1112,9 +3948,106 @@
         "speaker": "B"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "rot",
+            "concept": "c:colores.rojo",
+            "options": [
+              "grün",
+              "rot",
+              "Weiß",
+              "orange"
+            ],
+            "prompt": "rojo"
+          },
+          {
+            "answer": "Blau",
+            "concept": "c:colores.azul",
+            "options": [
+              "Gold",
+              "Blau",
+              "rosafarben",
+              "orange"
+            ],
+            "prompt": "azul"
+          },
+          {
+            "answer": "grün",
+            "concept": "c:colores.verde",
+            "options": [
+              "orange",
+              "grau",
+              "grün",
+              "violett/violett"
+            ],
+            "prompt": "verde"
+          },
+          {
+            "answer": "gelb",
+            "concept": "c:colores.amarillo",
+            "options": [
+              "Braun",
+              "rot",
+              "grau",
+              "gelb"
+            ],
+            "prompt": "amarillo"
+          },
+          {
+            "answer": "Schwarz",
+            "concept": "c:colores.negro",
+            "options": [
+              "Blau",
+              "Schwarz",
+              "Braun",
+              "orange"
+            ],
+            "prompt": "negro"
+          },
+          {
+            "answer": "Weiß",
+            "concept": "c:colores.blanco",
+            "options": [
+              "grau",
+              "gelb",
+              "Gold",
+              "Weiß"
+            ],
+            "prompt": "blanco"
+          },
+          {
+            "answer": "orange",
+            "concept": "c:colores.naranja",
+            "options": [
+              "Weiß",
+              "Braun",
+              "orange",
+              "Gold"
+            ],
+            "prompt": "naranja"
+          },
+          {
+            "answer": "rosafarben",
+            "concept": "c:colores.rosa",
+            "options": [
+              "rot",
+              "Schwarz",
+              "rosafarben",
+              "gelb"
+            ],
+            "prompt": "rosa"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Die Farben dienen dazu, Objekte, Kleidung und Orte zu beschreiben.",
       "en": "Colours are used to describe objects, clothes and places.",
       "es": "Los colores sirven para describir objetos, ropa y lugares."
     },
@@ -1123,10 +4056,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Nennen Sie die Grundfarben",
-        "Objekte nach Farbe beschreiben"
-      ],
       "en": [
         "Name basic colours",
         "Describe objects by colour"
@@ -1210,7 +4139,6 @@
       }
     ],
     "title": {
-      "de": "Die Farben",
       "en": "Colours",
       "es": "Los colores"
     },
@@ -1317,9 +4245,106 @@
         "speaker": "B"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Familie",
+            "concept": "c:familia-y-personas.familia",
+            "options": [
+              "Brüder",
+              "Bruder",
+              "Großmutter des Vaters",
+              "Familie"
+            ],
+            "prompt": "familia"
+          },
+          {
+            "answer": "Mutter",
+            "concept": "c:familia-y-personas.madre",
+            "options": [
+              "Großmutter des Vaters",
+              "Tochter",
+              "Familie",
+              "Mutter"
+            ],
+            "prompt": "madre"
+          },
+          {
+            "answer": "Vater",
+            "concept": "c:familia-y-personas.padre",
+            "options": [
+              "Großmutter des Vaters",
+              "Brüder",
+              "Vater",
+              "Eltern"
+            ],
+            "prompt": "padre"
+          },
+          {
+            "answer": "Eltern",
+            "concept": "c:familia-y-personas.padres",
+            "options": [
+              "Bruder",
+              "Eltern",
+              "Familie",
+              "Kind"
+            ],
+            "prompt": "padres"
+          },
+          {
+            "answer": "Kind",
+            "concept": "c:familia-y-personas.hijo",
+            "options": [
+              "Tochter",
+              "Großvater väterlicherseits",
+              "Mutter",
+              "Kind"
+            ],
+            "prompt": "hijo"
+          },
+          {
+            "answer": "Tochter",
+            "concept": "c:familia-y-personas.hija",
+            "options": [
+              "Kind",
+              "Tochter",
+              "Mutter",
+              "Eltern"
+            ],
+            "prompt": "hija"
+          },
+          {
+            "answer": "Kind",
+            "concept": "c:familia-y-personas.nino-a",
+            "options": [
+              "Kind",
+              "Brüder",
+              "Großvater väterlicherseits",
+              "Eltern"
+            ],
+            "prompt": "niño/a"
+          },
+          {
+            "answer": "Bruder",
+            "concept": "c:familia-y-personas.hermano",
+            "options": [
+              "Mutter",
+              "Bruder",
+              "Kind",
+              "Brüder"
+            ],
+            "prompt": "hermano"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Worte, um über die Familie und Menschen in der Nähe zu verweisen.",
       "en": "Words to refer to family and the people around you.",
       "es": "Palabras para referirse a la familia y a las personas cercanas."
     },
@@ -1328,10 +4353,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Ernennung von Familienmitgliedern",
-        "Sprechen Sie über Menschen"
-      ],
       "en": [
         "Name family members",
         "Talk about people"
@@ -1415,7 +4436,6 @@
       }
     ],
     "title": {
-      "de": "Familie und Einzelpersonen",
       "en": "Family and people",
       "es": "La familia y las personas"
     },
@@ -1522,9 +4542,106 @@
         "speaker": "B"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Körper",
+            "concept": "c:cuerpo-humano.cuerpo",
+            "options": [
+              "Augen",
+              "Körper",
+              "vorn",
+              "Augenlid/Tab"
+            ],
+            "prompt": "cuerpo"
+          },
+          {
+            "answer": "Kopf",
+            "concept": "c:cuerpo-humano.cabeza",
+            "options": [
+              "Auge",
+              "Kopf",
+              "Mund",
+              "Augen"
+            ],
+            "prompt": "cabeza"
+          },
+          {
+            "answer": "Haare/Haare-",
+            "concept": "c:cuerpo-humano.cabello-pelo",
+            "options": [
+              "Nase",
+              "Rindfleisch",
+              "Haare/Haare-",
+              "vorn"
+            ],
+            "prompt": "cabello / pelo"
+          },
+          {
+            "answer": "Fläche/Seite",
+            "concept": "c:cuerpo-humano.cara-rostro",
+            "options": [
+              "Körper",
+              "Fläche/Seite",
+              "Haare/Haare-",
+              "Augen"
+            ],
+            "prompt": "cara / rostro"
+          },
+          {
+            "answer": "vorn",
+            "concept": "c:cuerpo-humano.frente",
+            "options": [
+              "Haare/Haare-",
+              "vorn",
+              "Auge",
+              "Augen"
+            ],
+            "prompt": "frente"
+          },
+          {
+            "answer": "Auge",
+            "concept": "c:cuerpo-humano.ojo",
+            "options": [
+              "vorn",
+              "Auge",
+              "Augenlid/Tab",
+              "Kopf"
+            ],
+            "prompt": "ojo"
+          },
+          {
+            "answer": "Augen",
+            "concept": "c:cuerpo-humano.ojos",
+            "options": [
+              "Augen",
+              "Ohr/Ohren",
+              "Kopf",
+              "Nase"
+            ],
+            "prompt": "ojos"
+          },
+          {
+            "answer": "Rindfleisch",
+            "concept": "c:cuerpo-humano.ceja",
+            "options": [
+              "Rindfleisch",
+              "vorn",
+              "Kopf",
+              "Augenlid/Tab"
+            ],
+            "prompt": "ceja"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Die Körperteile, nützlich für das Sprechen über Gesundheit und Pflege.",
       "en": "Parts of the body, useful to talk about health and care.",
       "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
     },
@@ -1533,10 +4650,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Benennt die Körperteile",
-        "Sprechen Sie über Gesundheit"
-      ],
       "en": [
         "Name parts of the body",
         "Talk about health"
@@ -1620,7 +4733,6 @@
       }
     ],
     "title": {
-      "de": "Der menschliche Körper",
       "en": "The human body",
       "es": "El cuerpo humano"
     },
@@ -1727,9 +4839,106 @@
         "speaker": "B"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Nahrung / essen",
+            "concept": "c:comida-y-bebida.comida-comer",
+            "options": [
+              "Saft/Säfte",
+              "Nahrung / essen",
+              "Alkohol/Wein",
+              "Kaffee"
+            ],
+            "prompt": "comida / comer"
+          },
+          {
+            "answer": "Lebensmittel (formal)",
+            "concept": "c:comida-y-bebida.comida-formal",
+            "options": [
+              "Kaffee",
+              "Nahrung / essen",
+              "Lebensmittel (formal)",
+              "Alkohol/Wein"
+            ],
+            "prompt": "comida (formal)"
+          },
+          {
+            "answer": "Frühstück",
+            "concept": "c:comida-y-bebida.desayuno",
+            "options": [
+              "Lebensmittel (formal)",
+              "Frühstück",
+              "Kaffee",
+              "Nahrung / essen"
+            ],
+            "prompt": "desayuno"
+          },
+          {
+            "answer": "Mittagessen",
+            "concept": "c:comida-y-bebida.almuerzo",
+            "options": [
+              "Wasser",
+              "Mittagessen",
+              "Lebensmittel (formal)",
+              "Nahrung / essen"
+            ],
+            "prompt": "almuerzo"
+          },
+          {
+            "answer": "Abendessen",
+            "concept": "c:comida-y-bebida.cena",
+            "options": [
+              "Tee",
+              "Wasser",
+              "Frühstück",
+              "Abendessen"
+            ],
+            "prompt": "cena"
+          },
+          {
+            "answer": "Wasser",
+            "concept": "c:comida-y-bebida.agua",
+            "options": [
+              "Wasser",
+              "Kaffee",
+              "Milch",
+              "Frühstück"
+            ],
+            "prompt": "agua"
+          },
+          {
+            "answer": "Milch",
+            "concept": "c:comida-y-bebida.leche",
+            "options": [
+              "Abendessen",
+              "Lassi (Joghurt geschlagen)",
+              "Milch",
+              "Alkohol/Wein"
+            ],
+            "prompt": "leche"
+          },
+          {
+            "answer": "Tee",
+            "concept": "c:comida-y-bebida.te",
+            "options": [
+              "Abendessen",
+              "Kaffee",
+              "Tee",
+              "Mittagessen"
+            ],
+            "prompt": "té"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Grundnahrungsmittel und Getränke, sehr nützlich beim Kauf oder Essen außerhalb von zu Hause.",
       "en": "Basic foods and drinks, very useful when shopping or eating out.",
       "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
     },
@@ -1738,10 +4947,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Bezeichnete Speisen und Getränke",
-        "Fragen Sie in einem Restaurant"
-      ],
       "en": [
         "Name food and drinks",
         "Order in a restaurant"
@@ -1825,7 +5030,6 @@
       }
     ],
     "title": {
-      "de": "Speisen und Getränke",
       "en": "Food and drink",
       "es": "La comida y la bebida"
     },
@@ -1932,9 +5136,106 @@
         "speaker": "B"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Home / Haus",
+            "concept": "c:casa-y-hogar.casa-hogar",
+            "options": [
+              "Dach/Dach",
+              "Wohnzimmer",
+              "Wohnung",
+              "Home / Haus"
+            ],
+            "prompt": "casa / hogar"
+          },
+          {
+            "answer": "Gebäude / Haus",
+            "concept": "c:casa-y-hogar.edificio-casa",
+            "options": [
+              "Toilette/Sink",
+              "Gebäude / Haus",
+              "Zimmer/Schlafzimmer",
+              "Balkon"
+            ],
+            "prompt": "edificio / casa"
+          },
+          {
+            "answer": "Wohnung",
+            "concept": "c:casa-y-hogar.apartamento",
+            "options": [
+              "Schlafzimmer",
+              "Wohnung",
+              "Dach/Dach",
+              "Home / Haus"
+            ],
+            "prompt": "apartamento"
+          },
+          {
+            "answer": "Zimmer/Schlafzimmer",
+            "concept": "c:casa-y-hogar.habitacion-cuarto",
+            "options": [
+              "Zimmer/Schlafzimmer",
+              "Wand",
+              "Wohnzimmer",
+              "Badezimmer"
+            ],
+            "prompt": "habitación / cuarto"
+          },
+          {
+            "answer": "Wohnzimmer",
+            "concept": "c:casa-y-hogar.sala-de-estar",
+            "options": [
+              "Toilette/Sink",
+              "Schlafzimmer",
+              "Wand",
+              "Wohnzimmer"
+            ],
+            "prompt": "sala de estar"
+          },
+          {
+            "answer": "Schlafzimmer",
+            "concept": "c:casa-y-hogar.dormitorio",
+            "options": [
+              "Schlafzimmer",
+              "Wohnung",
+              "Badezimmer",
+              "Wand"
+            ],
+            "prompt": "dormitorio"
+          },
+          {
+            "answer": "Küche (Zimmer)",
+            "concept": "c:casa-y-hogar.cocina-habitacion",
+            "options": [
+              "Dach/Dach",
+              "Küche (Zimmer)",
+              "Balkon",
+              "Zimmer/Schlafzimmer"
+            ],
+            "prompt": "cocina (habitación)"
+          },
+          {
+            "answer": "Badezimmer",
+            "concept": "c:casa-y-hogar.bano",
+            "options": [
+              "Badezimmer",
+              "Wand",
+              "Wohnzimmer",
+              "Dach/Dach"
+            ],
+            "prompt": "baño"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Vokabular des Hauses: Räume, Möbel und Alltagsgegenstände.",
       "en": "House vocabulary: rooms, furniture and everyday objects.",
       "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
     },
@@ -1943,10 +5244,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Namensteile des Hauses",
-        "Beschreiben Sie Haushaltsgegenstände"
-      ],
       "en": [
         "Name parts of the house",
         "Describe household objects"
@@ -2030,7 +5327,6 @@
       }
     ],
     "title": {
-      "de": "Das Haus und das Zuhause",
       "en": "Home and household",
       "es": "La casa y el hogar"
     },
@@ -2137,9 +5433,106 @@
         "speaker": "B"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Zeit/Stunde",
+            "concept": "c:tiempo-y-calendario.tiempo-hora",
+            "options": [
+              "(früh)",
+              "Heute",
+              "Zeit/Stunde",
+              "Minute"
+            ],
+            "prompt": "tiempo / hora"
+          },
+          {
+            "answer": "Uhrzeit/Zeit",
+            "concept": "c:tiempo-y-calendario.reloj-hora",
+            "options": [
+              "Uhrzeit/Zeit",
+              "Mittag/Nachmittag",
+              "Nacht",
+              "Mitternacht"
+            ],
+            "prompt": "reloj / hora"
+          },
+          {
+            "answer": "Minute",
+            "concept": "c:tiempo-y-calendario.minuto",
+            "options": [
+              "Mittag/Nachmittag",
+              "zweite (Zeit)",
+              "Minute",
+              "Tag"
+            ],
+            "prompt": "minuto"
+          },
+          {
+            "answer": "zweite (Zeit)",
+            "concept": "c:tiempo-y-calendario.segundo-tiempo",
+            "options": [
+              "zweite (Zeit)",
+              "Nacht",
+              "Mitternacht",
+              "Tag"
+            ],
+            "prompt": "segundo (tiempo)"
+          },
+          {
+            "answer": "Zeit (Dauer)",
+            "concept": "c:tiempo-y-calendario.hora-duracion",
+            "options": [
+              "zweite (Zeit)",
+              "Uhrzeit/Zeit",
+              "Zeit (Dauer)",
+              "Minute"
+            ],
+            "prompt": "hora (duración)"
+          },
+          {
+            "answer": "(früh)",
+            "concept": "c:tiempo-y-calendario.manana-temprano",
+            "options": [
+              "(früh)",
+              "Tag",
+              "Zeit/Stunde",
+              "Mittag/Nachmittag"
+            ],
+            "prompt": "mañana (temprano)"
+          },
+          {
+            "answer": "Mittag/Nachmittag",
+            "concept": "c:tiempo-y-calendario.mediodia-tarde",
+            "options": [
+              "Zeit/Stunde",
+              "Minute",
+              "Mittag/Nachmittag",
+              "Heute"
+            ],
+            "prompt": "mediodía / tarde"
+          },
+          {
+            "answer": "spät/abends",
+            "concept": "c:tiempo-y-calendario.tarde-atardecer",
+            "options": [
+              "Uhrzeit/Zeit",
+              "Mittag/Nachmittag",
+              "spät/abends",
+              "Minute"
+            ],
+            "prompt": "tarde / atardecer"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Wörter, um Aktionen in der Zeit zu platzieren: Tage, Monate und Jahreszeiten.",
       "en": "Words to place actions in time: days, months and seasons.",
       "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."
     },
@@ -2148,10 +5541,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Sagen Sie Tage, Monate und Jahreszeiten",
-        "Sprechen Sie über Termine"
-      ],
       "en": [
         "Say days, months and seasons",
         "Talk about dates"
@@ -2235,7 +5624,6 @@
       }
     ],
     "title": {
-      "de": "Uhrzeit und Kalender",
       "en": "Time and calendar",
       "es": "El tiempo y el calendario"
     },
@@ -2342,9 +5730,106 @@
         "speaker": "B"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "Tier",
+            "concept": "c:animales.animal",
+            "options": [
+              "Pferd",
+              "Tier",
+              "Katze",
+              "Schwein"
+            ],
+            "prompt": "animal"
+          },
+          {
+            "answer": "Hund",
+            "concept": "c:animales.perro",
+            "options": [
+              "Huhn",
+              "Hund",
+              "Schwein",
+              "Tier"
+            ],
+            "prompt": "perro"
+          },
+          {
+            "answer": "Katze",
+            "concept": "c:animales.gato",
+            "options": [
+              "Katze",
+              "Schwein",
+              "Pferd",
+              "Tier"
+            ],
+            "prompt": "gato"
+          },
+          {
+            "answer": "Kuh",
+            "concept": "c:animales.vaca",
+            "options": [
+              "Kuh",
+              "Ochse/Stier",
+              "Katze",
+              "Schwein"
+            ],
+            "prompt": "vaca"
+          },
+          {
+            "answer": "Ochse/Stier",
+            "concept": "c:animales.buey-toro",
+            "options": [
+              "Büffel",
+              "Esel/Esels",
+              "Ochse/Stier",
+              "Hund"
+            ],
+            "prompt": "buey / toro"
+          },
+          {
+            "answer": "Büffel",
+            "concept": "c:animales.bufalo",
+            "options": [
+              "Büffel",
+              "Ziege",
+              "Huhn",
+              "Tier"
+            ],
+            "prompt": "búfalo"
+          },
+          {
+            "answer": "Pferd",
+            "concept": "c:animales.caballo",
+            "options": [
+              "Ochse/Stier",
+              "Huhn",
+              "Tier",
+              "Pferd"
+            ],
+            "prompt": "caballo"
+          },
+          {
+            "answer": "Esel/Esels",
+            "concept": "c:animales.burro-asno",
+            "options": [
+              "Schafe",
+              "Hund",
+              "Kuh",
+              "Esel/Esels"
+            ],
+            "prompt": "burro / asno"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
-      "de": "Häufige Tiere, sowohl Haus- als auch Wildtiere.",
       "en": "Common animals, both domestic and wild.",
       "es": "Animales frecuentes, tanto domésticos como salvajes."
     },
@@ -2353,10 +5838,6 @@
     "lang": "de",
     "lesson": 1,
     "objectives": {
-      "de": [
-        "Name Gemeine Tiere",
-        "Beschreibung der Tiere"
-      ],
       "en": [
         "Name common animals",
         "Describe animals"
@@ -2440,7 +5921,6 @@
       }
     ],
     "title": {
-      "de": "Tiere",
       "en": "Animals",
       "es": "Los animales"
     },

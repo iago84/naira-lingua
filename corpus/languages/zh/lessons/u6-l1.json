@@ -19,6 +19,7 @@
       "en": "food / eat",
       "es": "comida / comer",
       "speaker": "A",
+      "translit": "shí wù / jìn shí",
       "zh": "食物/进食"
     },
     {
@@ -26,6 +27,7 @@
       "en": "food (formal)",
       "es": "comida (formal)",
       "speaker": "B",
+      "translit": "liáng shí ( zhèng guī )",
       "zh": "粮食(正规)"
     },
     {
@@ -33,6 +35,7 @@
       "en": "breakfast",
       "es": "desayuno",
       "speaker": "A",
+      "translit": "zǎo cān   zǎo fàn",
       "zh": "早餐 早饭"
     },
     {
@@ -40,6 +43,7 @@
       "en": "lunch",
       "es": "almuerzo",
       "speaker": "B",
+      "translit": "wǔ fàn",
       "zh": "午饭"
     },
     {
@@ -47,6 +51,7 @@
       "en": "dinner",
       "es": "cena",
       "speaker": "A",
+      "translit": "wǎn fàn",
       "zh": "晚饭"
     },
     {
@@ -54,6 +59,7 @@
       "en": "water",
       "es": "agua",
       "speaker": "B",
+      "translit": "shuǐ   shuǐ",
       "zh": "水 水"
     },
     {
@@ -61,6 +67,7 @@
       "en": "milk",
       "es": "leche",
       "speaker": "A",
+      "translit": "niú nǎi   niú nǎi",
       "zh": "牛奶 牛奶"
     },
     {
@@ -68,6 +75,7 @@
       "en": "tea",
       "es": "té",
       "speaker": "B",
+      "translit": "chá yè",
       "zh": "茶叶"
     },
     {
@@ -75,6 +83,7 @@
       "en": "coffee",
       "es": "café",
       "speaker": "A",
+      "translit": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
       "zh": "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡"
     },
     {
@@ -82,6 +91,7 @@
       "en": "juice / juices",
       "es": "zumo / jugo",
       "speaker": "B",
+      "translit": "guǒ zhī / guǒ zhī ( hán shuǐ )",
       "zh": "果汁/果汁(含水)"
     },
     {
@@ -89,6 +99,7 @@
       "en": "lassi (yoghurt beaten)",
       "es": "lassi (yogur batido)",
       "speaker": "A",
+      "translit": "là xī ( bèi yóu tài jiào ōu dǎ )",
       "zh": "腊西(被犹太教殴打)"
     },
     {
@@ -96,14 +107,168 @@
       "en": "alcohol / wine",
       "es": "alcohol / vino",
       "speaker": "B",
+      "translit": "jiǔ / jiǔ ( jiǔ )  jiǔ ( jiǔ )  jiǔ ( jiǔ )",
       "zh": "酒/酒(酒) 酒(酒) 酒(酒)"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "食物/进食",
+          "answerTranslit": "shí wù / jìn shí",
+          "concept": "c:comida-y-bebida.comida-comer",
+          "optionTranslit": {
+            "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
+            "果汁/果汁(含水)": "guǒ zhī / guǒ zhī ( hán shuǐ )",
+            "酒/酒(酒) 酒(酒) 酒(酒)": "jiǔ / jiǔ ( jiǔ )  jiǔ ( jiǔ )  jiǔ ( jiǔ )",
+            "食物/进食": "shí wù / jìn shí"
+          },
+          "options": [
+            "果汁/果汁(含水)",
+            "食物/进食",
+            "酒/酒(酒) 酒(酒) 酒(酒)",
+            "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡"
+          ],
+          "prompt": "comida / comer"
+        },
+        {
+          "answer": "粮食(正规)",
+          "answerTranslit": "liáng shí ( zhèng guī )",
+          "concept": "c:comida-y-bebida.comida-formal",
+          "optionTranslit": {
+            "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
+            "粮食(正规)": "liáng shí ( zhèng guī )",
+            "酒/酒(酒) 酒(酒) 酒(酒)": "jiǔ / jiǔ ( jiǔ )  jiǔ ( jiǔ )  jiǔ ( jiǔ )",
+            "食物/进食": "shí wù / jìn shí"
+          },
+          "options": [
+            "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡",
+            "食物/进食",
+            "粮食(正规)",
+            "酒/酒(酒) 酒(酒) 酒(酒)"
+          ],
+          "prompt": "comida (formal)"
+        },
+        {
+          "answer": "早餐 早饭",
+          "answerTranslit": "zǎo cān   zǎo fàn",
+          "concept": "c:comida-y-bebida.desayuno",
+          "optionTranslit": {
+            "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
+            "早餐 早饭": "zǎo cān   zǎo fàn",
+            "粮食(正规)": "liáng shí ( zhèng guī )",
+            "食物/进食": "shí wù / jìn shí"
+          },
+          "options": [
+            "粮食(正规)",
+            "早餐 早饭",
+            "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡",
+            "食物/进食"
+          ],
+          "prompt": "desayuno"
+        },
+        {
+          "answer": "午饭",
+          "answerTranslit": "wǔ fàn",
+          "concept": "c:comida-y-bebida.almuerzo",
+          "optionTranslit": {
+            "午饭": "wǔ fàn",
+            "水 水": "shuǐ   shuǐ",
+            "粮食(正规)": "liáng shí ( zhèng guī )",
+            "食物/进食": "shí wù / jìn shí"
+          },
+          "options": [
+            "水 水",
+            "午饭",
+            "粮食(正规)",
+            "食物/进食"
+          ],
+          "prompt": "almuerzo"
+        },
+        {
+          "answer": "晚饭",
+          "answerTranslit": "wǎn fàn",
+          "concept": "c:comida-y-bebida.cena",
+          "optionTranslit": {
+            "早餐 早饭": "zǎo cān   zǎo fàn",
+            "晚饭": "wǎn fàn",
+            "水 水": "shuǐ   shuǐ",
+            "茶叶": "chá yè"
+          },
+          "options": [
+            "茶叶",
+            "水 水",
+            "早餐 早饭",
+            "晚饭"
+          ],
+          "prompt": "cena"
+        },
+        {
+          "answer": "水 水",
+          "answerTranslit": "shuǐ   shuǐ",
+          "concept": "c:comida-y-bebida.agua",
+          "optionTranslit": {
+            "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
+            "早餐 早饭": "zǎo cān   zǎo fàn",
+            "水 水": "shuǐ   shuǐ",
+            "牛奶 牛奶": "niú nǎi   niú nǎi"
+          },
+          "options": [
+            "水 水",
+            "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡",
+            "牛奶 牛奶",
+            "早餐 早饭"
+          ],
+          "prompt": "agua"
+        },
+        {
+          "answer": "牛奶 牛奶",
+          "answerTranslit": "niú nǎi   niú nǎi",
+          "concept": "c:comida-y-bebida.leche",
+          "optionTranslit": {
+            "晚饭": "wǎn fàn",
+            "牛奶 牛奶": "niú nǎi   niú nǎi",
+            "腊西(被犹太教殴打)": "là xī ( bèi yóu tài jiào ōu dǎ )",
+            "酒/酒(酒) 酒(酒) 酒(酒)": "jiǔ / jiǔ ( jiǔ )  jiǔ ( jiǔ )  jiǔ ( jiǔ )"
+          },
+          "options": [
+            "晚饭",
+            "腊西(被犹太教殴打)",
+            "牛奶 牛奶",
+            "酒/酒(酒) 酒(酒) 酒(酒)"
+          ],
+          "prompt": "leche"
+        },
+        {
+          "answer": "茶叶",
+          "answerTranslit": "chá yè",
+          "concept": "c:comida-y-bebida.te",
+          "optionTranslit": {
+            "午饭": "wǔ fàn",
+            "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡": "kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi   kā fēi",
+            "晚饭": "wǎn fàn",
+            "茶叶": "chá yè"
+          },
+          "options": [
+            "晚饭",
+            "咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡 咖啡",
+            "茶叶",
+            "午饭"
+          ],
+          "prompt": "té"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic foods and drinks, very useful when shopping or eating out.",
-    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
-    "zh": "基本食物和饮料,在外购入或吃时非常有用."
+    "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
   },
   "generator": "build_lessons",
   "id": "zh-u6-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar alimentos y bebidas",
       "Pedir en un restaurante"
-    ],
-    "zh": [
-      "指定食物和饮料",
-      "问问餐厅"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Food and drink",
-    "es": "La comida y la bebida",
-    "zh": "食物和饮料"
+    "es": "La comida y la bebida"
   },
   "unit": 6
 }

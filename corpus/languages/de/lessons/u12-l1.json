@@ -99,9 +99,106 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Arbeit /",
+          "concept": "c:trabajo-y-profesiones.trabajo-labor",
+          "options": [
+            "Büro/",
+            "Arbeitnehmer",
+            "Arbeit /",
+            "Ausrüstung"
+          ],
+          "prompt": "trabajo / labor"
+        },
+        {
+          "answer": "Beschäftigung/Arbeit",
+          "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+          "options": [
+            "Beschäftigung/Arbeit",
+            "Arbeitnehmer",
+            "Büro",
+            "Unternehmen/Unternehmen"
+          ],
+          "prompt": "empleo / trabajo"
+        },
+        {
+          "answer": "Beruf/Handel",
+          "concept": "c:trabajo-y-profesiones.profesion-oficio",
+          "options": [
+            "Beruf/Handel",
+            "Arbeit /",
+            "Büro",
+            "Arbeitnehmer"
+          ],
+          "prompt": "profesión / oficio"
+        },
+        {
+          "answer": "Gewerbe/Beruf",
+          "concept": "c:trabajo-y-profesiones.negocio-profesion",
+          "options": [
+            "Arbeit /",
+            "Chef",
+            "Arbeitnehmer",
+            "Gewerbe/Beruf"
+          ],
+          "prompt": "negocio / profesión"
+        },
+        {
+          "answer": "Unternehmen/Unternehmen",
+          "concept": "c:trabajo-y-profesiones.empresa-compania",
+          "options": [
+            "Unternehmen/Unternehmen",
+            "Gewerbe/Beruf",
+            "Eigentümer/Eigentümer",
+            "Arbeit /"
+          ],
+          "prompt": "empresa / compañía"
+        },
+        {
+          "answer": "Büro",
+          "concept": "c:trabajo-y-profesiones.oficina",
+          "options": [
+            "Eigentümer/Eigentümer",
+            "Büro",
+            "Ausrüstung",
+            "Büro/"
+          ],
+          "prompt": "oficina"
+        },
+        {
+          "answer": "Büro/",
+          "concept": "c:trabajo-y-profesiones.oficina-despacho",
+          "options": [
+            "Beschäftigung/Arbeit",
+            "Büro/",
+            "Arbeit /",
+            "Büro"
+          ],
+          "prompt": "oficina / despacho"
+        },
+        {
+          "answer": "Eigentümer/Eigentümer",
+          "concept": "c:trabajo-y-profesiones.dueno-propietario",
+          "options": [
+            "Beruf/Handel",
+            "Büro",
+            "Eigentümer/Eigentümer",
+            "Arbeitnehmer"
+          ],
+          "prompt": "dueño / propietario"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
-    "de": "Berufe und Worte der Weltarbeit.",
     "en": "Professions and words from the world of work.",
     "es": "Profesiones y palabras del mundo laboral."
   },
@@ -110,10 +207,6 @@
   "lang": "de",
   "lesson": 1,
   "objectives": {
-    "de": [
-      "Berufe",
-      "Sprechen Sie über Arbeit"
-    ],
     "en": [
       "Name professions",
       "Talk about work"
@@ -197,7 +290,6 @@
     }
   ],
   "title": {
-    "de": "Arbeit und Berufe",
     "en": "Work and professions",
     "es": "El trabajo y las profesiones"
   },

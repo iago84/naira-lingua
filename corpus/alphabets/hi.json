@@ -1,0 +1,54 @@
+{
+  "lang": "hi",
+  "script": "devanagari",
+  "direction": "ltr",
+  "title": {"es": "Hindi: el alfabeto devanagari", "en": "Hindi: the Devanagari script"},
+  "intro": {
+    "es": "El hindi se escribe con devanagari (देवनागरी), un sistema silábico: cada consonante lleva una vocal «a» implícita salvo que se marque otra. Se escribe de izquierda a derecha y cuelga de una línea superior continua.",
+    "en": "Hindi is written in Devanagari (देवनागरी), an abugida: each consonant carries an inherent «a» vowel unless another is marked. It runs left to right and hangs from a continuous top line."
+  },
+  "sections": [
+    {
+      "title": {"es": "Vocales (स्वर svar)", "en": "Vowels (स्वर svar)"},
+      "columns": [
+        {"key": "char", "label": {"es": "Signo", "en": "Glyph"}},
+        {"key": "translit", "label": {"es": "Romanización", "en": "Romanisation"}}
+      ],
+      "items": [
+        {"char": "अ", "translit": "a"}, {"char": "आ", "translit": "ā (a larga)"},
+        {"char": "इ", "translit": "i"}, {"char": "ई", "translit": "ī (i larga)"},
+        {"char": "उ", "translit": "u"}, {"char": "ऊ", "translit": "ū (u larga)"},
+        {"char": "ऋ", "translit": "ṛ"}, {"char": "ए", "translit": "e"},
+        {"char": "ऐ", "translit": "ai"}, {"char": "ओ", "translit": "o"}, {"char": "औ", "translit": "au"}
+      ]
+    },
+    {
+      "title": {"es": "Consonantes (व्यंजन vyañjan)", "en": "Consonants (व्यंजन vyañjan)"},
+      "columns": [
+        {"key": "char", "label": {"es": "Signo", "en": "Glyph"}},
+        {"key": "translit", "label": {"es": "Romanización", "en": "Romanisation"}}
+      ],
+      "items": [
+        {"char": "क", "translit": "ka"}, {"char": "ख", "translit": "kha"}, {"char": "ग", "translit": "ga"}, {"char": "घ", "translit": "gha"}, {"char": "ङ", "translit": "ṅa"},
+        {"char": "च", "translit": "ca"}, {"char": "छ", "translit": "cha"}, {"char": "ज", "translit": "ja"}, {"char": "झ", "translit": "jha"}, {"char": "ञ", "translit": "ña"},
+        {"char": "ट", "translit": "ṭa"}, {"char": "ठ", "translit": "ṭha"}, {"char": "ड", "translit": "ḍa"}, {"char": "ढ", "translit": "ḍha"}, {"char": "ण", "translit": "ṇa"},
+        {"char": "त", "translit": "ta"}, {"char": "थ", "translit": "tha"}, {"char": "द", "translit": "da"}, {"char": "ध", "translit": "dha"}, {"char": "न", "translit": "na"},
+        {"char": "प", "translit": "pa"}, {"char": "फ", "translit": "pha"}, {"char": "ब", "translit": "ba"}, {"char": "भ", "translit": "bha"}, {"char": "म", "translit": "ma"},
+        {"char": "य", "translit": "ya"}, {"char": "र", "translit": "ra"}, {"char": "ल", "translit": "la"}, {"char": "व", "translit": "va"},
+        {"char": "श", "translit": "śa"}, {"char": "ष", "translit": "ṣa"}, {"char": "स", "translit": "sa"}, {"char": "ह", "translit": "ha"}
+      ]
+    },
+    {
+      "title": {"es": "Números (अंक aṅk)", "en": "Numerals (अंक aṅk)"},
+      "columns": [
+        {"key": "char", "label": {"es": "Signo", "en": "Glyph"}},
+        {"key": "translit", "label": {"es": "Valor", "en": "Value"}}
+      ],
+      "items": [
+        {"char": "०", "translit": "0"}, {"char": "१", "translit": "1"}, {"char": "२", "translit": "2"},
+        {"char": "३", "translit": "3"}, {"char": "४", "translit": "4"}, {"char": "५", "translit": "5"},
+        {"char": "६", "translit": "6"}, {"char": "७", "translit": "7"}, {"char": "८", "translit": "8"}, {"char": "९", "translit": "9"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "direction": "ltr",
+  "intro": {
+    "en": "Swahili uses the Latin alphabet without q or x. It uses digraphs such as ch, ny, ng and sh, and every word is read as written.",
+    "es": "El suajili usa el alfabeto latino sin q ni x. Emplea dígrafos como ch, ny, ng y sh, y cada palabra se lee como se escribe."
+  },
+  "lang": "sw",
+  "script": "latin",
+  "sections": [
+    {
+      "columns": [
+        {
+          "key": "char",
+          "label": {
+            "en": "Glyph",
+            "es": "Signo"
+          }
+        },
+        {
+          "key": "translit",
+          "label": {
+            "en": "Letter",
+            "es": "Letra"
+          }
+        }
+      ],
+      "items": [
+        {
+          "char": "a",
+          "translit": "a"
+        },
+        {
+          "char": "b",
+          "translit": "b"
+        },
+        {
+          "char": "c",
+          "translit": "c"
+        },
+        {
+          "char": "d",
+          "translit": "d"
+        },
+        {
+          "char": "e",
+          "translit": "e"
+        },
+        {
+          "char": "f",
+          "translit": "f"
+        },
+        {
+          "char": "g",
+          "translit": "g"
+        },
+        {
+          "char": "h",
+          "translit": "h"
+        },
+        {
+          "char": "i",
+          "translit": "i"
+        },
+        {
+          "char": "j",
+          "translit": "j"
+        },
+        {
+          "char": "k",
+          "translit": "k"
+        },
+        {
+          "char": "l",
+          "translit": "l"
+        },
+        {
+          "char": "m",
+          "translit": "m"
+        },
+        {
+          "char": "n",
+          "translit": "n"
+        },
+        {
+          "char": "o",
+          "translit": "o"
+        },
+        {
+          "char": "p",
+          "translit": "p"
+        },
+        {
+          "char": "r",
+          "translit": "r"
+        },
+        {
+          "char": "s",
+          "translit": "s"
+        },
+        {
+          "char": "t",
+          "translit": "t"
+        },
+        {
+          "char": "u",
+          "translit": "u"
+        },
+        {
+          "char": "v",
+          "translit": "v"
+        },
+        {
+          "char": "w",
+          "translit": "w"
+        },
+        {
+          "char": "y",
+          "translit": "y"
+        },
+        {
+          "char": "z",
+          "translit": "z"
+        },
+        {
+          "char": "ch",
+          "note": {
+            "en": "Digraph: like «ch».",
+            "es": "Dígrafo: como «ch»."
+          },
+          "translit": "ch"
+        },
+        {
+          "char": "ny",
+          "note": {
+            "en": "Digraph: like «ny» in canyon.",
+            "es": "Dígrafo: como «ñ»."
+          },
+          "translit": "ny"
+        },
+        {
+          "char": "ng",
+          "note": {
+            "en": "Digraph: nasal, as in «sing».",
+            "es": "Dígrafo: nasal, como en «sing»."
+          },
+          "translit": "ng"
+        },
+        {
+          "char": "sh",
+          "note": {
+            "en": "Digraph: like «sh».",
+            "es": "Dígrafo: como «sh»."
+          },
+          "translit": "sh"
+        }
+      ],
+      "title": {
+        "en": "Alphabet",
+        "es": "Alfabeto"
+      }
+    }
+  ],
+  "title": {
+    "en": "Kiswahili: the alphabet",
+    "es": "Kiswahili: the alphabet"
+  }
+}

@@ -19,91 +19,256 @@
       "en": "city",
       "es": "ciudad",
       "ja": "市町村",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "shichouson"
     },
     {
       "concept": "c:ciudad-y-lugares.pueblo-aldea",
       "en": "village / town",
       "es": "pueblo / aldea",
       "ja": "村 / 都市",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "mura / toshi"
     },
     {
       "concept": "c:ciudad-y-lugares.pais",
       "en": "country",
       "es": "país",
       "ja": "カントリー",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "kantorii"
     },
     {
       "concept": "c:ciudad-y-lugares.estado-provincia",
       "en": "State / province",
       "es": "estado / provincia",
       "ja": "州/地域",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "shuu / chiiki"
     },
     {
       "concept": "c:ciudad-y-lugares.capital",
       "en": "capital",
       "es": "capital",
       "ja": "資本金:",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "shihonkin :"
     },
     {
       "concept": "c:ciudad-y-lugares.zona-area",
       "en": "area / zone",
       "es": "zona / área",
       "ja": "区域/地帯",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "kuiki / chitai"
     },
     {
       "concept": "c:ciudad-y-lugares.calle-carretera",
       "en": "Street / road",
       "es": "calle / carretera",
       "ja": "通り/道",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "touri / michi"
     },
     {
       "concept": "c:ciudad-y-lugares.callejon",
       "en": "alley",
       "es": "callejón",
       "ja": "セイア",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "seia"
     },
     {
       "concept": "c:ciudad-y-lugares.cruce-interseccion",
       "en": "cross / intersection",
       "es": "cruce / intersección",
       "ja": "クロス/交差点",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "kurosu / kousaten"
     },
     {
       "concept": "c:ciudad-y-lugares.puente",
       "en": "bridge",
       "es": "puente",
       "ja": "ブリッジ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "burijji"
     },
     {
       "concept": "c:ciudad-y-lugares.plaza",
       "en": "square",
       "es": "plaza",
       "ja": "スクエア",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "sukuea"
     },
     {
       "concept": "c:ciudad-y-lugares.mercado",
       "en": "market",
       "es": "mercado",
       "ja": "マーケット",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "maaketto"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "市町村",
+          "answerTranslit": "shichouson",
+          "concept": "c:ciudad-y-lugares.ciudad",
+          "optionTranslit": {
+            "カントリー": "kantorii",
+            "ブリッジ": "burijji",
+            "区域/地帯": "kuiki / chitai",
+            "市町村": "shichouson"
+          },
+          "options": [
+            "カントリー",
+            "区域/地帯",
+            "ブリッジ",
+            "市町村"
+          ],
+          "prompt": "ciudad"
+        },
+        {
+          "answer": "村 / 都市",
+          "answerTranslit": "mura / toshi",
+          "concept": "c:ciudad-y-lugares.pueblo-aldea",
+          "optionTranslit": {
+            "スクエア": "sukuea",
+            "ブリッジ": "burijji",
+            "村 / 都市": "mura / toshi",
+            "資本金:": "shihonkin :"
+          },
+          "options": [
+            "資本金:",
+            "村 / 都市",
+            "ブリッジ",
+            "スクエア"
+          ],
+          "prompt": "pueblo / aldea"
+        },
+        {
+          "answer": "カントリー",
+          "answerTranslit": "kantorii",
+          "concept": "c:ciudad-y-lugares.pais",
+          "optionTranslit": {
+            "カントリー": "kantorii",
+            "セイア": "seia",
+            "州/地域": "shuu / chiiki",
+            "通り/道": "touri / michi"
+          },
+          "options": [
+            "通り/道",
+            "カントリー",
+            "州/地域",
+            "セイア"
+          ],
+          "prompt": "país"
+        },
+        {
+          "answer": "州/地域",
+          "answerTranslit": "shuu / chiiki",
+          "concept": "c:ciudad-y-lugares.estado-provincia",
+          "optionTranslit": {
+            "クロス/交差点": "kurosu / kousaten",
+            "マーケット": "maaketto",
+            "州/地域": "shuu / chiiki",
+            "市町村": "shichouson"
+          },
+          "options": [
+            "マーケット",
+            "市町村",
+            "州/地域",
+            "クロス/交差点"
+          ],
+          "prompt": "estado / provincia"
+        },
+        {
+          "answer": "資本金:",
+          "answerTranslit": "shihonkin :",
+          "concept": "c:ciudad-y-lugares.capital",
+          "optionTranslit": {
+            "スクエア": "sukuea",
+            "ブリッジ": "burijji",
+            "州/地域": "shuu / chiiki",
+            "資本金:": "shihonkin :"
+          },
+          "options": [
+            "ブリッジ",
+            "州/地域",
+            "資本金:",
+            "スクエア"
+          ],
+          "prompt": "capital"
+        },
+        {
+          "answer": "区域/地帯",
+          "answerTranslit": "kuiki / chitai",
+          "concept": "c:ciudad-y-lugares.zona-area",
+          "optionTranslit": {
+            "カントリー": "kantorii",
+            "区域/地帯": "kuiki / chitai",
+            "州/地域": "shuu / chiiki",
+            "通り/道": "touri / michi"
+          },
+          "options": [
+            "通り/道",
+            "州/地域",
+            "カントリー",
+            "区域/地帯"
+          ],
+          "prompt": "zona / área"
+        },
+        {
+          "answer": "通り/道",
+          "answerTranslit": "touri / michi",
+          "concept": "c:ciudad-y-lugares.calle-carretera",
+          "optionTranslit": {
+            "カントリー": "kantorii",
+            "ブリッジ": "burijji",
+            "市町村": "shichouson",
+            "通り/道": "touri / michi"
+          },
+          "options": [
+            "カントリー",
+            "通り/道",
+            "市町村",
+            "ブリッジ"
+          ],
+          "prompt": "calle / carretera"
+        },
+        {
+          "answer": "セイア",
+          "answerTranslit": "seia",
+          "concept": "c:ciudad-y-lugares.callejon",
+          "optionTranslit": {
+            "スクエア": "sukuea",
+            "セイア": "seia",
+            "区域/地帯": "kuiki / chitai",
+            "通り/道": "touri / michi"
+          },
+          "options": [
+            "スクエア",
+            "区域/地帯",
+            "セイア",
+            "通り/道"
+          ],
+          "prompt": "callejón"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Places in the city to move around and ask for directions.",
-    "es": "Lugares de la ciudad para moverse y pedir indicaciones.",
-    "ja": "街中を舞台に、方向性を求めます。"
+    "es": "Lugares de la ciudad para moverse y pedir indicaciones."
   },
   "generator": "build_lessons",
   "id": "ja-u10-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar lugares de la ciudad",
       "Pedir direcciones"
-    ],
-    "ja": [
-      "市街地名",
-      "アドレスを尋ねる"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "City and places",
-    "es": "La ciudad y los lugares",
-    "ja": "街と場所"
+    "es": "La ciudad y los lugares"
   },
   "unit": 10
 }

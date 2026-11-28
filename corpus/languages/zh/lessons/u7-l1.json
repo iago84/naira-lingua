@@ -19,6 +19,7 @@
       "en": "Home / home",
       "es": "casa / hogar",
       "speaker": "A",
+      "translit": "jiā / jiā   jiā  ( zhōng wén ( jiǎn tǐ ) ).",
       "zh": "家/家 家 (中文(简体) )."
     },
     {
@@ -26,6 +27,7 @@
       "en": "building / house",
       "es": "edificio / casa",
       "speaker": "B",
+      "translit": "jiàn zhù / zhù fáng",
       "zh": "建筑/住房"
     },
     {
@@ -33,6 +35,7 @@
       "en": "apartment",
       "es": "apartamento",
       "speaker": "A",
+      "translit": "gōng yù (  gōng yù )",
       "zh": "公寓( 公寓)"
     },
     {
@@ -40,6 +43,7 @@
       "en": "room / bedroom",
       "es": "habitación / cuarto",
       "speaker": "B",
+      "translit": "fáng jiān / wò shì",
       "zh": "房间/卧室"
     },
     {
@@ -47,6 +51,7 @@
       "en": "living room",
       "es": "sala de estar",
       "speaker": "A",
+      "translit": "kè tīng",
       "zh": "客厅"
     },
     {
@@ -54,6 +59,7 @@
       "en": "bedroom",
       "es": "dormitorio",
       "speaker": "B",
+      "translit": "wò shì",
       "zh": "卧室"
     },
     {
@@ -61,6 +67,7 @@
       "en": "kitchen (room)",
       "es": "cocina (habitación)",
       "speaker": "A",
+      "translit": "chú fáng ( fáng jiān )",
       "zh": "厨房(房间)"
     },
     {
@@ -68,6 +75,7 @@
       "en": "bathroom",
       "es": "baño",
       "speaker": "B",
+      "translit": "wèi shēng jiān",
       "zh": "卫生间"
     },
     {
@@ -75,6 +83,7 @@
       "en": "toilet / sink",
       "es": "inodoro / lavabo",
       "speaker": "A",
+      "translit": "cè suǒ / shuǐ cáo",
       "zh": "厕所/水槽"
     },
     {
@@ -82,6 +91,7 @@
       "en": "balcony",
       "es": "balcón",
       "speaker": "B",
+      "translit": "yáng tái",
       "zh": "阳台"
     },
     {
@@ -89,6 +99,7 @@
       "en": "roof / rooftop",
       "es": "techo / azotea",
       "speaker": "A",
+      "translit": "wū dǐng / wū dǐng",
       "zh": "屋顶/屋顶"
     },
     {
@@ -96,14 +107,168 @@
       "en": "wall",
       "es": "pared",
       "speaker": "B",
+      "translit": "qiáng",
       "zh": "墙"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "家/家 家 (中文(简体) ).",
+          "answerTranslit": "jiā / jiā   jiā  ( zhōng wén ( jiǎn tǐ ) ).",
+          "concept": "c:casa-y-hogar.casa-hogar",
+          "optionTranslit": {
+            "公寓( 公寓)": "gōng yù (  gōng yù )",
+            "客厅": "kè tīng",
+            "家/家 家 (中文(简体) ).": "jiā / jiā   jiā  ( zhōng wén ( jiǎn tǐ ) ).",
+            "屋顶/屋顶": "wū dǐng / wū dǐng"
+          },
+          "options": [
+            "屋顶/屋顶",
+            "客厅",
+            "公寓( 公寓)",
+            "家/家 家 (中文(简体) )."
+          ],
+          "prompt": "casa / hogar"
+        },
+        {
+          "answer": "建筑/住房",
+          "answerTranslit": "jiàn zhù / zhù fáng",
+          "concept": "c:casa-y-hogar.edificio-casa",
+          "optionTranslit": {
+            "厕所/水槽": "cè suǒ / shuǐ cáo",
+            "建筑/住房": "jiàn zhù / zhù fáng",
+            "房间/卧室": "fáng jiān / wò shì",
+            "阳台": "yáng tái"
+          },
+          "options": [
+            "厕所/水槽",
+            "建筑/住房",
+            "房间/卧室",
+            "阳台"
+          ],
+          "prompt": "edificio / casa"
+        },
+        {
+          "answer": "公寓( 公寓)",
+          "answerTranslit": "gōng yù (  gōng yù )",
+          "concept": "c:casa-y-hogar.apartamento",
+          "optionTranslit": {
+            "公寓( 公寓)": "gōng yù (  gōng yù )",
+            "卧室": "wò shì",
+            "家/家 家 (中文(简体) ).": "jiā / jiā   jiā  ( zhōng wén ( jiǎn tǐ ) ).",
+            "屋顶/屋顶": "wū dǐng / wū dǐng"
+          },
+          "options": [
+            "卧室",
+            "公寓( 公寓)",
+            "屋顶/屋顶",
+            "家/家 家 (中文(简体) )."
+          ],
+          "prompt": "apartamento"
+        },
+        {
+          "answer": "房间/卧室",
+          "answerTranslit": "fáng jiān / wò shì",
+          "concept": "c:casa-y-hogar.habitacion-cuarto",
+          "optionTranslit": {
+            "卫生间": "wèi shēng jiān",
+            "墙": "qiáng",
+            "客厅": "kè tīng",
+            "房间/卧室": "fáng jiān / wò shì"
+          },
+          "options": [
+            "房间/卧室",
+            "墙",
+            "客厅",
+            "卫生间"
+          ],
+          "prompt": "habitación / cuarto"
+        },
+        {
+          "answer": "客厅",
+          "answerTranslit": "kè tīng",
+          "concept": "c:casa-y-hogar.sala-de-estar",
+          "optionTranslit": {
+            "卧室": "wò shì",
+            "厕所/水槽": "cè suǒ / shuǐ cáo",
+            "墙": "qiáng",
+            "客厅": "kè tīng"
+          },
+          "options": [
+            "厕所/水槽",
+            "卧室",
+            "墙",
+            "客厅"
+          ],
+          "prompt": "sala de estar"
+        },
+        {
+          "answer": "卧室",
+          "answerTranslit": "wò shì",
+          "concept": "c:casa-y-hogar.dormitorio",
+          "optionTranslit": {
+            "公寓( 公寓)": "gōng yù (  gōng yù )",
+            "卧室": "wò shì",
+            "卫生间": "wèi shēng jiān",
+            "墙": "qiáng"
+          },
+          "options": [
+            "卧室",
+            "公寓( 公寓)",
+            "卫生间",
+            "墙"
+          ],
+          "prompt": "dormitorio"
+        },
+        {
+          "answer": "厨房(房间)",
+          "answerTranslit": "chú fáng ( fáng jiān )",
+          "concept": "c:casa-y-hogar.cocina-habitacion",
+          "optionTranslit": {
+            "厨房(房间)": "chú fáng ( fáng jiān )",
+            "屋顶/屋顶": "wū dǐng / wū dǐng",
+            "房间/卧室": "fáng jiān / wò shì",
+            "阳台": "yáng tái"
+          },
+          "options": [
+            "屋顶/屋顶",
+            "厨房(房间)",
+            "阳台",
+            "房间/卧室"
+          ],
+          "prompt": "cocina (habitación)"
+        },
+        {
+          "answer": "卫生间",
+          "answerTranslit": "wèi shēng jiān",
+          "concept": "c:casa-y-hogar.bano",
+          "optionTranslit": {
+            "卫生间": "wèi shēng jiān",
+            "墙": "qiáng",
+            "客厅": "kè tīng",
+            "屋顶/屋顶": "wū dǐng / wū dǐng"
+          },
+          "options": [
+            "卫生间",
+            "墙",
+            "客厅",
+            "屋顶/屋顶"
+          ],
+          "prompt": "baño"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "House vocabulary: rooms, furniture and everyday objects.",
-    "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos.",
-    "zh": "房屋词汇:房间,家具和日常物品."
+    "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
   },
   "generator": "build_lessons",
   "id": "zh-u7-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar partes de la casa",
       "Describir objetos del hogar"
-    ],
-    "zh": [
-      "房子的单位名称",
-      "描述家庭对象"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Home and household",
-    "es": "La casa y el hogar",
-    "zh": "房子和家 房子和家 房子和家 房子和家 房子和家 房子和家 房子和家"
+    "es": "La casa y el hogar"
   },
   "unit": 7
 }

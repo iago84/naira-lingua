@@ -99,9 +99,106 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Zeit/Stunde",
+          "concept": "c:tiempo-y-calendario.tiempo-hora",
+          "options": [
+            "(früh)",
+            "Heute",
+            "Zeit/Stunde",
+            "Minute"
+          ],
+          "prompt": "tiempo / hora"
+        },
+        {
+          "answer": "Uhrzeit/Zeit",
+          "concept": "c:tiempo-y-calendario.reloj-hora",
+          "options": [
+            "Uhrzeit/Zeit",
+            "Mittag/Nachmittag",
+            "Nacht",
+            "Mitternacht"
+          ],
+          "prompt": "reloj / hora"
+        },
+        {
+          "answer": "Minute",
+          "concept": "c:tiempo-y-calendario.minuto",
+          "options": [
+            "Mittag/Nachmittag",
+            "zweite (Zeit)",
+            "Minute",
+            "Tag"
+          ],
+          "prompt": "minuto"
+        },
+        {
+          "answer": "zweite (Zeit)",
+          "concept": "c:tiempo-y-calendario.segundo-tiempo",
+          "options": [
+            "zweite (Zeit)",
+            "Nacht",
+            "Mitternacht",
+            "Tag"
+          ],
+          "prompt": "segundo (tiempo)"
+        },
+        {
+          "answer": "Zeit (Dauer)",
+          "concept": "c:tiempo-y-calendario.hora-duracion",
+          "options": [
+            "zweite (Zeit)",
+            "Uhrzeit/Zeit",
+            "Zeit (Dauer)",
+            "Minute"
+          ],
+          "prompt": "hora (duración)"
+        },
+        {
+          "answer": "(früh)",
+          "concept": "c:tiempo-y-calendario.manana-temprano",
+          "options": [
+            "(früh)",
+            "Tag",
+            "Zeit/Stunde",
+            "Mittag/Nachmittag"
+          ],
+          "prompt": "mañana (temprano)"
+        },
+        {
+          "answer": "Mittag/Nachmittag",
+          "concept": "c:tiempo-y-calendario.mediodia-tarde",
+          "options": [
+            "Zeit/Stunde",
+            "Minute",
+            "Mittag/Nachmittag",
+            "Heute"
+          ],
+          "prompt": "mediodía / tarde"
+        },
+        {
+          "answer": "spät/abends",
+          "concept": "c:tiempo-y-calendario.tarde-atardecer",
+          "options": [
+            "Uhrzeit/Zeit",
+            "Mittag/Nachmittag",
+            "spät/abends",
+            "Minute"
+          ],
+          "prompt": "tarde / atardecer"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
-    "de": "Wörter, um Aktionen in der Zeit zu platzieren: Tage, Monate und Jahreszeiten.",
     "en": "Words to place actions in time: days, months and seasons.",
     "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."
   },
@@ -110,10 +207,6 @@
   "lang": "de",
   "lesson": 1,
   "objectives": {
-    "de": [
-      "Sagen Sie Tage, Monate und Jahreszeiten",
-      "Sprechen Sie über Termine"
-    ],
     "en": [
       "Say days, months and seasons",
       "Talk about dates"
@@ -197,7 +290,6 @@
     }
   ],
   "title": {
-    "de": "Uhrzeit und Kalender",
     "en": "Time and calendar",
     "es": "El tiempo y el calendario"
   },

@@ -19,91 +19,256 @@
       "en": "Family",
       "es": "familia",
       "hi": "परिवार",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "parivār"
     },
     {
       "concept": "c:familia-y-personas.madre",
       "en": "Mother",
       "es": "madre",
       "hi": "माँ",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "mā̃"
     },
     {
       "concept": "c:familia-y-personas.padre",
       "en": "Father",
       "es": "padre",
       "hi": "पिता",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "pitā"
     },
     {
       "concept": "c:familia-y-personas.padres",
       "en": "parents",
       "es": "padres",
       "hi": "माता-पिता",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "mātā-pitā"
     },
     {
       "concept": "c:familia-y-personas.hijo",
       "en": "child",
       "es": "hijo",
       "hi": "बेटा",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "beṭā"
     },
     {
       "concept": "c:familia-y-personas.hija",
       "en": "daughter",
       "es": "hija",
       "hi": "बेटी",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "beṭī"
     },
     {
       "concept": "c:familia-y-personas.nino-a",
       "en": "child",
       "es": "niño/a",
       "hi": "बच्चा",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "baccā"
     },
     {
       "concept": "c:familia-y-personas.hermano",
       "en": "brother",
       "es": "hermano",
       "hi": "भाई",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "bhāī"
     },
     {
       "concept": "c:familia-y-personas.hermana",
       "en": "sister",
       "es": "hermana",
       "hi": "बहन",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "bahan"
     },
     {
       "concept": "c:familia-y-personas.hermanos",
       "en": "brothers",
       "es": "hermanos",
       "hi": "भाई-बहन",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "bhāī-bahan"
     },
     {
       "concept": "c:familia-y-personas.abuelo-paterno",
       "en": "paternal grandfather",
       "es": "abuelo paterno",
       "hi": "दादा",
-      "speaker": "A"
+      "speaker": "A",
+      "translit": "dādā"
     },
     {
       "concept": "c:familia-y-personas.abuela-paterna",
       "en": "Father's grandmother",
       "es": "abuela paterna",
       "hi": "दादी",
-      "speaker": "B"
+      "speaker": "B",
+      "translit": "dādī"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "परिवार",
+          "answerTranslit": "parivār",
+          "concept": "c:familia-y-personas.familia",
+          "optionTranslit": {
+            "दादा": "dādā",
+            "दादी": "dādī",
+            "परिवार": "parivār",
+            "बच्चा": "baccā"
+          },
+          "options": [
+            "दादा",
+            "बच्चा",
+            "दादी",
+            "परिवार"
+          ],
+          "prompt": "familia"
+        },
+        {
+          "answer": "माँ",
+          "answerTranslit": "mā̃",
+          "concept": "c:familia-y-personas.madre",
+          "optionTranslit": {
+            "दादी": "dādī",
+            "परिवार": "parivār",
+            "बेटी": "beṭī",
+            "माँ": "mā̃"
+          },
+          "options": [
+            "दादी",
+            "बेटी",
+            "परिवार",
+            "माँ"
+          ],
+          "prompt": "madre"
+        },
+        {
+          "answer": "पिता",
+          "answerTranslit": "pitā",
+          "concept": "c:familia-y-personas.padre",
+          "optionTranslit": {
+            "दादा": "dādā",
+            "पिता": "pitā",
+            "बहन": "bahan",
+            "माता-पिता": "mātā-pitā"
+          },
+          "options": [
+            "दादा",
+            "बहन",
+            "पिता",
+            "माता-पिता"
+          ],
+          "prompt": "padre"
+        },
+        {
+          "answer": "माता-पिता",
+          "answerTranslit": "mātā-pitā",
+          "concept": "c:familia-y-personas.padres",
+          "optionTranslit": {
+            "परिवार": "parivār",
+            "बच्चा": "baccā",
+            "बेटा": "beṭā",
+            "माता-पिता": "mātā-pitā"
+          },
+          "options": [
+            "बच्चा",
+            "माता-पिता",
+            "परिवार",
+            "बेटा"
+          ],
+          "prompt": "padres"
+        },
+        {
+          "answer": "बेटा",
+          "answerTranslit": "beṭā",
+          "concept": "c:familia-y-personas.hijo",
+          "optionTranslit": {
+            "बेटा": "beṭā",
+            "बेटी": "beṭī",
+            "भाई-बहन": "bhāī-bahan",
+            "माँ": "mā̃"
+          },
+          "options": [
+            "बेटी",
+            "भाई-बहन",
+            "माँ",
+            "बेटा"
+          ],
+          "prompt": "hijo"
+        },
+        {
+          "answer": "बेटी",
+          "answerTranslit": "beṭī",
+          "concept": "c:familia-y-personas.hija",
+          "optionTranslit": {
+            "दादी": "dādī",
+            "बेटा": "beṭā",
+            "बेटी": "beṭī",
+            "माता-पिता": "mātā-pitā"
+          },
+          "options": [
+            "बेटी",
+            "माता-पिता",
+            "बेटा",
+            "दादी"
+          ],
+          "prompt": "hija"
+        },
+        {
+          "answer": "बच्चा",
+          "answerTranslit": "baccā",
+          "concept": "c:familia-y-personas.nino-a",
+          "optionTranslit": {
+            "दादा": "dādā",
+            "बच्चा": "baccā",
+            "बहन": "bahan",
+            "माता-पिता": "mātā-pitā"
+          },
+          "options": [
+            "बच्चा",
+            "बहन",
+            "दादा",
+            "माता-पिता"
+          ],
+          "prompt": "niño/a"
+        },
+        {
+          "answer": "भाई",
+          "answerTranslit": "bhāī",
+          "concept": "c:familia-y-personas.hermano",
+          "optionTranslit": {
+            "बहन": "bahan",
+            "बेटा": "beṭā",
+            "भाई": "bhāī",
+            "माँ": "mā̃"
+          },
+          "options": [
+            "माँ",
+            "भाई",
+            "बेटा",
+            "बहन"
+          ],
+          "prompt": "hermano"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to refer to family and the people around you.",
-    "es": "Palabras para referirse a la familia y a las personas cercanas.",
-    "hi": "उनके पास परिवार और लोगों के बारे में जानने का शब्द है।"
+    "es": "Palabras para referirse a la familia y a las personas cercanas."
   },
   "generator": "build_lessons",
   "id": "hi-u4-l1",
@@ -117,10 +282,6 @@
     "es": [
       "Nombrar a los miembros de la familia",
       "Hablar de personas"
-    ],
-    "hi": [
-      "परिवार के सदस्यों को नियुक्त करना",
-      "लोगों के बारे में बात करें"
     ]
   },
   "tables": [
@@ -198,8 +359,7 @@
   ],
   "title": {
     "en": "Family and people",
-    "es": "La familia y las personas",
-    "hi": "परिवार और व्यक्ति"
+    "es": "La familia y las personas"
   },
   "unit": 4
 }

@@ -44,3 +44,23 @@ table{border-collapse:collapse;width:100%;margin-top:8px}
 th,td{border:1px solid var(--line);padding:6px 10px;text-align:left}
 .pair-selector{display:flex;gap:16px;flex-wrap:wrap;align-items:end}
 .pair-selector select{padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink)}
+.toggle-btn{margin-left:6px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;
+  background:var(--panel);color:var(--ink);cursor:pointer;font:600 14px system-ui}
+.toggle-btn[aria-pressed="false"]{opacity:.5}
+.translit{font-style:italic}
+.opt-translit{display:block;font-size:.85em;font-weight:400;margin-top:2px}
+.table-wrap{overflow-x:auto}
+.alphabet td,.alphabet th{vertical-align:middle}
+.alphabet .glyph{border:1px solid transparent;background:transparent;color:var(--ink);
+  cursor:pointer;font-size:26px;line-height:1;padding:6px 10px;border-radius:8px}
+.alphabet .glyph:hover{border-color:var(--accent);color:var(--accent)}
+.alphabet .note{display:block;font-size:.8em;font-style:italic}
+.glyph-box{position:fixed;inset:0;z-index:50;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:20px;padding:24px;background:rgba(0,0,0,.55)}
+.glyph-box[hidden]{display:none}
+.glyph-big{background:var(--panel);color:var(--ink);border-radius:16px;
+  padding:32px 48px;min-width:180px;font-size:120px;line-height:1.1;text-align:center}
+.script-japanese .glyph,.script-japanese .glyph-big{font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,"Noto Sans JP",sans-serif}
+.script-han .glyph,.script-han .glyph-big{font-family:"Noto Sans SC","Microsoft YaHei","PingFang SC",sans-serif}
+.script-arabic .glyph,.script-arabic .glyph-big{font-family:"Noto Naskh Arabic","Segoe UI",Tahoma,serif}
+.script-devanagari .glyph,.script-devanagari .glyph-big{font-family:"Noto Sans Devanagari","Nirmala UI",sans-serif}

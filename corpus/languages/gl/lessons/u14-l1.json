@@ -1,0 +1,297 @@
+{
+  "concepts": [
+    "c:adjetivos.bueno",
+    "c:adjetivos.malo",
+    "c:adjetivos.grande",
+    "c:adjetivos.pequeno",
+    "c:adjetivos.largo-alto",
+    "c:adjetivos.bajo-corto",
+    "c:adjetivos.nuevo",
+    "c:adjetivos.viejo-antiguo",
+    "c:adjetivos.joven",
+    "c:adjetivos.viejo-persona",
+    "c:adjetivos.hermoso-bonito",
+    "c:adjetivos.feo"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:adjetivos.bueno",
+      "en": "Good.",
+      "es": "bueno",
+      "gl": "Ben.",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.malo",
+      "en": "bad",
+      "es": "malo",
+      "gl": "Mal",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.grande",
+      "en": "large",
+      "es": "grande",
+      "gl": "grande",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.pequeno",
+      "en": "small",
+      "es": "pequeño",
+      "gl": "Pequeno",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.largo-alto",
+      "en": "long / high",
+      "es": "largo / alto",
+      "gl": "longo / alto",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.bajo-corto",
+      "en": "low / short",
+      "es": "bajo / corto",
+      "gl": "Baixo / curto",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.nuevo",
+      "en": "new",
+      "es": "nuevo",
+      "gl": "nova",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.viejo-antiguo",
+      "en": "old / ancient",
+      "es": "viejo / antiguo",
+      "gl": "Antigo / vello",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.joven",
+      "en": "young",
+      "es": "joven",
+      "gl": "Mozo",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.viejo-persona",
+      "en": "old (person)",
+      "es": "viejo (persona)",
+      "gl": "Vello (persoa)",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:adjetivos.hermoso-bonito",
+      "en": "beautiful / pretty",
+      "es": "hermoso / bonito",
+      "gl": "Bonito / bonito",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:adjetivos.feo",
+      "en": "ugly",
+      "es": "feo",
+      "gl": "Fea",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Ben.",
+          "concept": "c:adjetivos.bueno",
+          "options": [
+            "Mozo",
+            "nova",
+            "Baixo / curto",
+            "Ben."
+          ],
+          "prompt": "bueno"
+        },
+        {
+          "answer": "Mal",
+          "concept": "c:adjetivos.malo",
+          "options": [
+            "Pequeno",
+            "Baixo / curto",
+            "Mal",
+            "nova"
+          ],
+          "prompt": "malo"
+        },
+        {
+          "answer": "grande",
+          "concept": "c:adjetivos.grande",
+          "options": [
+            "longo / alto",
+            "Ben.",
+            "Mal",
+            "grande"
+          ],
+          "prompt": "grande"
+        },
+        {
+          "answer": "Pequeno",
+          "concept": "c:adjetivos.pequeno",
+          "options": [
+            "Mal",
+            "Pequeno",
+            "nova",
+            "Vello (persoa)"
+          ],
+          "prompt": "pequeño"
+        },
+        {
+          "answer": "longo / alto",
+          "concept": "c:adjetivos.largo-alto",
+          "options": [
+            "longo / alto",
+            "Ben.",
+            "Mozo",
+            "Bonito / bonito"
+          ],
+          "prompt": "largo / alto"
+        },
+        {
+          "answer": "Baixo / curto",
+          "concept": "c:adjetivos.bajo-corto",
+          "options": [
+            "grande",
+            "longo / alto",
+            "Baixo / curto",
+            "Antigo / vello"
+          ],
+          "prompt": "bajo / corto"
+        },
+        {
+          "answer": "nova",
+          "concept": "c:adjetivos.nuevo",
+          "options": [
+            "Vello (persoa)",
+            "nova",
+            "Fea",
+            "Baixo / curto"
+          ],
+          "prompt": "nuevo"
+        },
+        {
+          "answer": "Antigo / vello",
+          "concept": "c:adjetivos.viejo-antiguo",
+          "options": [
+            "Mal",
+            "Mozo",
+            "Antigo / vello",
+            "Bonito / bonito"
+          ],
+          "prompt": "viejo / antiguo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Adjectives to describe size, character, state and qualities.",
+    "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+  },
+  "generator": "build_lessons",
+  "id": "gl-u14-l1",
+  "lang": "gl",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Describe with adjectives",
+      "Give opinions about things and people"
+    ],
+    "es": [
+      "Describir con adjetivos",
+      "Opinar sobre cosas y personas"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "gl"
+      ],
+      "rows": [
+        [
+          "bueno",
+          "Good.",
+          "Ben."
+        ],
+        [
+          "malo",
+          "bad",
+          "Mal"
+        ],
+        [
+          "grande",
+          "large",
+          "grande"
+        ],
+        [
+          "pequeño",
+          "small",
+          "Pequeno"
+        ],
+        [
+          "largo / alto",
+          "long / high",
+          "longo / alto"
+        ],
+        [
+          "bajo / corto",
+          "low / short",
+          "Baixo / curto"
+        ],
+        [
+          "nuevo",
+          "new",
+          "nova"
+        ],
+        [
+          "viejo / antiguo",
+          "old / ancient",
+          "Antigo / vello"
+        ],
+        [
+          "joven",
+          "young",
+          "Mozo"
+        ],
+        [
+          "viejo (persona)",
+          "old (person)",
+          "Vello (persoa)"
+        ],
+        [
+          "hermoso / bonito",
+          "beautiful / pretty",
+          "Bonito / bonito"
+        ],
+        [
+          "feo",
+          "ugly",
+          "Fea"
+        ]
+      ],
+      "title": "es · en · gl",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Adjectives",
+    "es": "Los adjetivos"
+  },
+  "unit": 14
+}

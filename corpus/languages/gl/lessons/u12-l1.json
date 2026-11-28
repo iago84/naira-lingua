@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Traballo /",
+          "concept": "c:trabajo-y-profesiones.trabajo-labor",
+          "options": [
+            "Oficina /",
+            "empregado",
+            "Traballo /",
+            "Equipamento"
+          ],
+          "prompt": "trabajo / labor"
+        },
+        {
+          "answer": "Emprego / Traballo",
+          "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+          "options": [
+            "Emprego / Traballo",
+            "empregado",
+            "Oficina",
+            "Empresa / empresa"
+          ],
+          "prompt": "empleo / trabajo"
+        },
+        {
+          "answer": "Profesión / Comercio",
+          "concept": "c:trabajo-y-profesiones.profesion-oficio",
+          "options": [
+            "Profesión / Comercio",
+            "Traballo /",
+            "Oficina",
+            "empregado"
+          ],
+          "prompt": "profesión / oficio"
+        },
+        {
+          "answer": "Empresa / Profesión",
+          "concept": "c:trabajo-y-profesiones.negocio-profesion",
+          "options": [
+            "Traballo /",
+            "Xefe",
+            "empregado",
+            "Empresa / Profesión"
+          ],
+          "prompt": "negocio / profesión"
+        },
+        {
+          "answer": "Empresa / empresa",
+          "concept": "c:trabajo-y-profesiones.empresa-compania",
+          "options": [
+            "Empresa / empresa",
+            "Empresa / Profesión",
+            "Propietario / propietario",
+            "Traballo /"
+          ],
+          "prompt": "empresa / compañía"
+        },
+        {
+          "answer": "Oficina",
+          "concept": "c:trabajo-y-profesiones.oficina",
+          "options": [
+            "Propietario / propietario",
+            "Oficina",
+            "Equipamento",
+            "Oficina /"
+          ],
+          "prompt": "oficina"
+        },
+        {
+          "answer": "Oficina /",
+          "concept": "c:trabajo-y-profesiones.oficina-despacho",
+          "options": [
+            "Emprego / Traballo",
+            "Oficina /",
+            "Traballo /",
+            "Oficina"
+          ],
+          "prompt": "oficina / despacho"
+        },
+        {
+          "answer": "Propietario / propietario",
+          "concept": "c:trabajo-y-profesiones.dueno-propietario",
+          "options": [
+            "Profesión / Comercio",
+            "Oficina",
+            "Propietario / propietario",
+            "empregado"
+          ],
+          "prompt": "dueño / propietario"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Professions and words from the world of work.",
-    "es": "Profesiones y palabras del mundo laboral.",
-    "gl": "As palabras e as profesións do mundo funcionan."
+    "es": "Profesiones y palabras del mundo laboral."
   },
   "generator": "build_lessons",
   "id": "gl-u12-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar profesiones",
       "Hablar del trabajo"
-    ],
-    "gl": [
-      "Nomeamento de profesións",
-      "Falar do traballo"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Work and professions",
-    "es": "El trabajo y las profesiones",
-    "gl": "Traballo e profesións"
+    "es": "El trabajo y las profesiones"
   },
   "unit": 12
 }

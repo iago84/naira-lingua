@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:educacion-y-aprendizaje.educacion",
+    "c:educacion-y-aprendizaje.escuela",
+    "c:educacion-y-aprendizaje.clase-aula-grado",
+    "c:educacion-y-aprendizaje.leccion",
+    "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+    "c:educacion-y-aprendizaje.materia-tema-asunto",
+    "c:educacion-y-aprendizaje.matematicas",
+    "c:educacion-y-aprendizaje.ciencia",
+    "c:educacion-y-aprendizaje.historia",
+    "c:educacion-y-aprendizaje.geografia",
+    "c:educacion-y-aprendizaje.literatura",
+    "c:educacion-y-aprendizaje.idioma-lengua"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:educacion-y-aprendizaje.educacion",
+      "en": "education",
+      "es": "educación",
+      "ja": "教育・研修",
+      "speaker": "A",
+      "translit": "kyouiku ・ kenshuu"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.escuela",
+      "en": "school",
+      "es": "escuela",
+      "ja": "スクール",
+      "speaker": "B",
+      "translit": "sukuuru"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+      "en": "class / classroom",
+      "es": "clase / aula / grado",
+      "ja": "教室・授業",
+      "speaker": "A",
+      "translit": "kyoushitsu ・ jugyou"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.leccion",
+      "en": "lesson",
+      "es": "lección",
+      "ja": "レッスン",
+      "speaker": "B",
+      "translit": "ressun"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "en": "curriculum / course",
+      "es": "plan de estudios / curso",
+      "ja": "カリキュラム・コース",
+      "speaker": "A",
+      "translit": "karikyuramu・koosu"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "en": "subject / topic",
+      "es": "materia / tema / asunto",
+      "ja": "トピック/テーマ",
+      "speaker": "B",
+      "translit": "topikku / teema"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.matematicas",
+      "en": "mathematics",
+      "es": "matemáticas",
+      "ja": "数学",
+      "speaker": "A",
+      "translit": "suugaku"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.ciencia",
+      "en": "science",
+      "es": "ciencia",
+      "ja": "科学分野",
+      "speaker": "B",
+      "translit": "kagakubunya"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.historia",
+      "en": "history",
+      "es": "historia",
+      "ja": "歴史・文化",
+      "speaker": "A",
+      "translit": "rekishi ・ bunka"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.geografia",
+      "en": "geography",
+      "es": "geografía",
+      "ja": "地理学",
+      "speaker": "B",
+      "translit": "chirigaku"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.literatura",
+      "en": "literature",
+      "es": "literatura",
+      "ja": "文献",
+      "speaker": "A",
+      "translit": "bunken"
+    },
+    {
+      "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+      "en": "language / tongue",
+      "es": "idioma / lengua",
+      "ja": "言語/舌",
+      "speaker": "B",
+      "translit": "gengo / shita"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "教育・研修",
+          "answerTranslit": "kyouiku ・ kenshuu",
+          "concept": "c:educacion-y-aprendizaje.educacion",
+          "optionTranslit": {
+            "カリキュラム・コース": "karikyuramu・koosu",
+            "トピック/テーマ": "topikku / teema",
+            "教育・研修": "kyouiku ・ kenshuu",
+            "言語/舌": "gengo / shita"
+          },
+          "options": [
+            "トピック/テーマ",
+            "カリキュラム・コース",
+            "言語/舌",
+            "教育・研修"
+          ],
+          "prompt": "educación"
+        },
+        {
+          "answer": "スクール",
+          "answerTranslit": "sukuuru",
+          "concept": "c:educacion-y-aprendizaje.escuela",
+          "optionTranslit": {
+            "スクール": "sukuuru",
+            "トピック/テーマ": "topikku / teema",
+            "地理学": "chirigaku",
+            "数学": "suugaku"
+          },
+          "options": [
+            "トピック/テーマ",
+            "地理学",
+            "数学",
+            "スクール"
+          ],
+          "prompt": "escuela"
+        },
+        {
+          "answer": "教室・授業",
+          "answerTranslit": "kyoushitsu ・ jugyou",
+          "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+          "optionTranslit": {
+            "トピック/テーマ": "topikku / teema",
+            "地理学": "chirigaku",
+            "教室・授業": "kyoushitsu ・ jugyou",
+            "歴史・文化": "rekishi ・ bunka"
+          },
+          "options": [
+            "トピック/テーマ",
+            "地理学",
+            "歴史・文化",
+            "教室・授業"
+          ],
+          "prompt": "clase / aula / grado"
+        },
+        {
+          "answer": "レッスン",
+          "answerTranslit": "ressun",
+          "concept": "c:educacion-y-aprendizaje.leccion",
+          "optionTranslit": {
+            "トピック/テーマ": "topikku / teema",
+            "レッスン": "ressun",
+            "歴史・文化": "rekishi ・ bunka",
+            "言語/舌": "gengo / shita"
+          },
+          "options": [
+            "歴史・文化",
+            "言語/舌",
+            "トピック/テーマ",
+            "レッスン"
+          ],
+          "prompt": "lección"
+        },
+        {
+          "answer": "カリキュラム・コース",
+          "answerTranslit": "karikyuramu・koosu",
+          "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+          "optionTranslit": {
+            "カリキュラム・コース": "karikyuramu・koosu",
+            "スクール": "sukuuru",
+            "地理学": "chirigaku",
+            "数学": "suugaku"
+          },
+          "options": [
+            "スクール",
+            "地理学",
+            "数学",
+            "カリキュラム・コース"
+          ],
+          "prompt": "plan de estudios / curso"
+        },
+        {
+          "answer": "トピック/テーマ",
+          "answerTranslit": "topikku / teema",
+          "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+          "optionTranslit": {
+            "スクール": "sukuuru",
+            "トピック/テーマ": "topikku / teema",
+            "地理学": "chirigaku",
+            "文献": "bunken"
+          },
+          "options": [
+            "トピック/テーマ",
+            "スクール",
+            "地理学",
+            "文献"
+          ],
+          "prompt": "materia / tema / asunto"
+        },
+        {
+          "answer": "数学",
+          "answerTranslit": "suugaku",
+          "concept": "c:educacion-y-aprendizaje.matematicas",
+          "optionTranslit": {
+            "スクール": "sukuuru",
+            "地理学": "chirigaku",
+            "数学": "suugaku",
+            "言語/舌": "gengo / shita"
+          },
+          "options": [
+            "言語/舌",
+            "地理学",
+            "数学",
+            "スクール"
+          ],
+          "prompt": "matemáticas"
+        },
+        {
+          "answer": "科学分野",
+          "answerTranslit": "kagakubunya",
+          "concept": "c:educacion-y-aprendizaje.ciencia",
+          "optionTranslit": {
+            "教育・研修": "kyouiku ・ kenshuu",
+            "数学": "suugaku",
+            "科学分野": "kagakubunya",
+            "言語/舌": "gengo / shita"
+          },
+          "options": [
+            "教育・研修",
+            "数学",
+            "言語/舌",
+            "科学分野"
+          ],
+          "prompt": "ciencia"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Words from school and learning.",
+    "es": "Palabras de la escuela y del aprendizaje."
+  },
+  "generator": "build_lessons",
+  "id": "ja-u17-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Talk about studies",
+      "Name school and its objects"
+    ],
+    "es": [
+      "Hablar de estudios",
+      "Nombrar la escuela y sus objetos"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "educación",
+          "education",
+          "教育・研修"
+        ],
+        [
+          "escuela",
+          "school",
+          "スクール"
+        ],
+        [
+          "clase / aula / grado",
+          "class / classroom",
+          "教室・授業"
+        ],
+        [
+          "lección",
+          "lesson",
+          "レッスン"
+        ],
+        [
+          "plan de estudios / curso",
+          "curriculum / course",
+          "カリキュラム・コース"
+        ],
+        [
+          "materia / tema / asunto",
+          "subject / topic",
+          "トピック/テーマ"
+        ],
+        [
+          "matemáticas",
+          "mathematics",
+          "数学"
+        ],
+        [
+          "ciencia",
+          "science",
+          "科学分野"
+        ],
+        [
+          "historia",
+          "history",
+          "歴史・文化"
+        ],
+        [
+          "geografía",
+          "geography",
+          "地理学"
+        ],
+        [
+          "literatura",
+          "literature",
+          "文献"
+        ],
+        [
+          "idioma / lengua",
+          "language / tongue",
+          "言語/舌"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Education and learning",
+    "es": "La educación y el aprendizaje"
+  },
+  "unit": 17
+}

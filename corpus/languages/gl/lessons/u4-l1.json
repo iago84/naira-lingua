@@ -99,11 +99,108 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Familia",
+          "concept": "c:familia-y-personas.familia",
+          "options": [
+            "irmáns",
+            "Irmán",
+            "Avó da avoa do pai",
+            "Familia"
+          ],
+          "prompt": "familia"
+        },
+        {
+          "answer": "Mamá",
+          "concept": "c:familia-y-personas.madre",
+          "options": [
+            "Avó da avoa do pai",
+            "filla",
+            "Familia",
+            "Mamá"
+          ],
+          "prompt": "madre"
+        },
+        {
+          "answer": "Pai",
+          "concept": "c:familia-y-personas.padre",
+          "options": [
+            "Avó da avoa do pai",
+            "irmáns",
+            "Pai",
+            "pais"
+          ],
+          "prompt": "padre"
+        },
+        {
+          "answer": "pais",
+          "concept": "c:familia-y-personas.padres",
+          "options": [
+            "Irmán",
+            "pais",
+            "Familia",
+            "Neno"
+          ],
+          "prompt": "padres"
+        },
+        {
+          "answer": "Neno",
+          "concept": "c:familia-y-personas.hijo",
+          "options": [
+            "filla",
+            "Avó materno",
+            "Mamá",
+            "Neno"
+          ],
+          "prompt": "hijo"
+        },
+        {
+          "answer": "filla",
+          "concept": "c:familia-y-personas.hija",
+          "options": [
+            "Neno",
+            "filla",
+            "Mamá",
+            "pais"
+          ],
+          "prompt": "hija"
+        },
+        {
+          "answer": "Neno",
+          "concept": "c:familia-y-personas.nino-a",
+          "options": [
+            "Neno",
+            "irmáns",
+            "Avó materno",
+            "pais"
+          ],
+          "prompt": "niño/a"
+        },
+        {
+          "answer": "Irmán",
+          "concept": "c:familia-y-personas.hermano",
+          "options": [
+            "Mamá",
+            "Irmán",
+            "Neno",
+            "irmáns"
+          ],
+          "prompt": "hermano"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to refer to family and the people around you.",
-    "es": "Palabras para referirse a la familia y a las personas cercanas.",
-    "gl": "Palabras para falar da familia e das persoas próximas."
+    "es": "Palabras para referirse a la familia y a las personas cercanas."
   },
   "generator": "build_lessons",
   "id": "gl-u4-l1",
@@ -117,10 +214,6 @@
     "es": [
       "Nombrar a los miembros de la familia",
       "Hablar de personas"
-    ],
-    "gl": [
-      "Nomeamento de membros da familia",
-      "Falar sobre a xente"
     ]
   },
   "tables": [
@@ -198,8 +291,7 @@
   ],
   "title": {
     "en": "Family and people",
-    "es": "La familia y las personas",
-    "gl": "Familia e individuos"
+    "es": "La familia y las personas"
   },
   "unit": 4
 }

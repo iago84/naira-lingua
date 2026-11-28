@@ -1,0 +1,2618 @@
+{
+  "de": {
+    "direction": "ltr",
+    "intro": {
+      "en": "German uses 26 letters plus three umlaut vowels (ä, ö, ü) and the eszett (ß). All nouns are capitalised.",
+      "es": "El alemán usa 26 letras más tres vocales con diéresis (ä, ö, ü) y la eszett (ß). Todas las sustantivos se escriben con mayúscula."
+    },
+    "lang": "de",
+    "script": "latin",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Letter",
+              "es": "Letra"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "a",
+            "translit": "a"
+          },
+          {
+            "char": "b",
+            "translit": "b"
+          },
+          {
+            "char": "c",
+            "translit": "c"
+          },
+          {
+            "char": "d",
+            "translit": "d"
+          },
+          {
+            "char": "e",
+            "translit": "e"
+          },
+          {
+            "char": "f",
+            "translit": "f"
+          },
+          {
+            "char": "g",
+            "translit": "g"
+          },
+          {
+            "char": "h",
+            "translit": "h"
+          },
+          {
+            "char": "i",
+            "translit": "i"
+          },
+          {
+            "char": "j",
+            "translit": "j"
+          },
+          {
+            "char": "k",
+            "translit": "k"
+          },
+          {
+            "char": "l",
+            "translit": "l"
+          },
+          {
+            "char": "m",
+            "translit": "m"
+          },
+          {
+            "char": "n",
+            "translit": "n"
+          },
+          {
+            "char": "o",
+            "translit": "o"
+          },
+          {
+            "char": "p",
+            "translit": "p"
+          },
+          {
+            "char": "q",
+            "translit": "q"
+          },
+          {
+            "char": "r",
+            "translit": "r"
+          },
+          {
+            "char": "s",
+            "translit": "s"
+          },
+          {
+            "char": "t",
+            "translit": "t"
+          },
+          {
+            "char": "u",
+            "translit": "u"
+          },
+          {
+            "char": "v",
+            "translit": "v"
+          },
+          {
+            "char": "w",
+            "translit": "w"
+          },
+          {
+            "char": "x",
+            "translit": "x"
+          },
+          {
+            "char": "y",
+            "translit": "y"
+          },
+          {
+            "char": "z",
+            "translit": "z"
+          },
+          {
+            "char": "ä",
+            "note": {
+              "en": "«a-Umlaut»: rounded e.",
+              "es": "«a-Umlaut»: e redondeada."
+            },
+            "translit": "ä"
+          },
+          {
+            "char": "ö",
+            "note": {
+              "en": "«o-Umlaut».",
+              "es": "«o-Umlaut»."
+            },
+            "translit": "ö"
+          },
+          {
+            "char": "ü",
+            "note": {
+              "en": "«u-Umlaut»: u with i lips.",
+              "es": "«u-Umlaut»: u con labios de i."
+            },
+            "translit": "ü"
+          },
+          {
+            "char": "ß",
+            "note": {
+              "en": "«Eszett»: voiceless double s.",
+              "es": "«Eszett»: doble s sorda."
+            },
+            "translit": "ß"
+          }
+        ],
+        "title": {
+          "en": "Alphabet",
+          "es": "Alfabeto"
+        }
+      }
+    ],
+    "title": {
+      "en": "German: the alphabet",
+      "es": "Deutsch: das Alphabet"
+    }
+  },
+  "en": {
+    "direction": "ltr",
+    "intro": {
+      "en": "English uses the 26-letter Latin alphabet, with no diacritics of its own. Spelling keeps historical forms.",
+      "es": "El inglés usa el alfabeto latino de 26 letras, sin signos diacríticos propios. La ortografía conserva grafías históricas."
+    },
+    "lang": "en",
+    "script": "latin",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Letter",
+              "es": "Letra"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "a",
+            "translit": "a"
+          },
+          {
+            "char": "b",
+            "translit": "b"
+          },
+          {
+            "char": "c",
+            "translit": "c"
+          },
+          {
+            "char": "d",
+            "translit": "d"
+          },
+          {
+            "char": "e",
+            "translit": "e"
+          },
+          {
+            "char": "f",
+            "translit": "f"
+          },
+          {
+            "char": "g",
+            "translit": "g"
+          },
+          {
+            "char": "h",
+            "translit": "h"
+          },
+          {
+            "char": "i",
+            "translit": "i"
+          },
+          {
+            "char": "j",
+            "translit": "j"
+          },
+          {
+            "char": "k",
+            "translit": "k"
+          },
+          {
+            "char": "l",
+            "translit": "l"
+          },
+          {
+            "char": "m",
+            "translit": "m"
+          },
+          {
+            "char": "n",
+            "translit": "n"
+          },
+          {
+            "char": "o",
+            "translit": "o"
+          },
+          {
+            "char": "p",
+            "translit": "p"
+          },
+          {
+            "char": "q",
+            "translit": "q"
+          },
+          {
+            "char": "r",
+            "translit": "r"
+          },
+          {
+            "char": "s",
+            "translit": "s"
+          },
+          {
+            "char": "t",
+            "translit": "t"
+          },
+          {
+            "char": "u",
+            "translit": "u"
+          },
+          {
+            "char": "v",
+            "translit": "v"
+          },
+          {
+            "char": "w",
+            "translit": "w"
+          },
+          {
+            "char": "x",
+            "translit": "x"
+          },
+          {
+            "char": "y",
+            "translit": "y"
+          },
+          {
+            "char": "z",
+            "translit": "z"
+          }
+        ],
+        "title": {
+          "en": "Alphabet",
+          "es": "Alfabeto"
+        }
+      }
+    ],
+    "title": {
+      "en": "English: the Latin alphabet",
+      "es": "English: the Latin alphabet"
+    }
+  },
+  "es": {
+    "direction": "ltr",
+    "intro": {
+      "en": "Spanish uses the 27-letter Latin alphabet. Its only own letter is eñe (ñ). The digraphs «ch» and «ll» are no longer counted as separate letters.",
+      "es": "El español usa el alfabeto latino de 27 letras. La única letra propia es la eñe (ñ). Los dígrafos «ch» y «ll» ya no cuentan como letras sueltas."
+    },
+    "lang": "es",
+    "script": "latin",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Letter",
+              "es": "Letra"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "a",
+            "translit": "a"
+          },
+          {
+            "char": "b",
+            "translit": "b"
+          },
+          {
+            "char": "c",
+            "translit": "c"
+          },
+          {
+            "char": "d",
+            "translit": "d"
+          },
+          {
+            "char": "e",
+            "translit": "e"
+          },
+          {
+            "char": "f",
+            "translit": "f"
+          },
+          {
+            "char": "g",
+            "translit": "g"
+          },
+          {
+            "char": "h",
+            "translit": "h"
+          },
+          {
+            "char": "i",
+            "translit": "i"
+          },
+          {
+            "char": "j",
+            "translit": "j"
+          },
+          {
+            "char": "k",
+            "translit": "k"
+          },
+          {
+            "char": "l",
+            "translit": "l"
+          },
+          {
+            "char": "m",
+            "translit": "m"
+          },
+          {
+            "char": "n",
+            "translit": "n"
+          },
+          {
+            "char": "o",
+            "translit": "o"
+          },
+          {
+            "char": "p",
+            "translit": "p"
+          },
+          {
+            "char": "q",
+            "translit": "q"
+          },
+          {
+            "char": "r",
+            "translit": "r"
+          },
+          {
+            "char": "s",
+            "translit": "s"
+          },
+          {
+            "char": "t",
+            "translit": "t"
+          },
+          {
+            "char": "u",
+            "translit": "u"
+          },
+          {
+            "char": "v",
+            "translit": "v"
+          },
+          {
+            "char": "w",
+            "translit": "w"
+          },
+          {
+            "char": "x",
+            "translit": "x"
+          },
+          {
+            "char": "y",
+            "translit": "y"
+          },
+          {
+            "char": "z",
+            "translit": "z"
+          },
+          {
+            "char": "ñ",
+            "note": {
+              "en": "«eñe»: sounds like the «ny» in canyon.",
+              "es": "«eñe»: suena como la «ny» de «cañón»."
+            },
+            "translit": "ñ"
+          }
+        ],
+        "title": {
+          "en": "Alphabet",
+          "es": "Alfabeto"
+        }
+      }
+    ],
+    "title": {
+      "en": "Spanish: the Latin alphabet",
+      "es": "Español: el alfabeto latino"
+    }
+  },
+  "fr": {
+    "direction": "ltr",
+    "intro": {
+      "en": "French uses 26 letters plus five accents (acute, grave, circumflex, diaeresis and cedilla), which change pronunciation.",
+      "es": "El francés usa 26 letras más cinco acentos (agudo, grave, circunflejo, diéresis y cedilla), que cambian la pronunciación."
+    },
+    "lang": "fr",
+    "script": "latin",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Letter",
+              "es": "Letra"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "a",
+            "translit": "a"
+          },
+          {
+            "char": "b",
+            "translit": "b"
+          },
+          {
+            "char": "c",
+            "translit": "c"
+          },
+          {
+            "char": "d",
+            "translit": "d"
+          },
+          {
+            "char": "e",
+            "translit": "e"
+          },
+          {
+            "char": "f",
+            "translit": "f"
+          },
+          {
+            "char": "g",
+            "translit": "g"
+          },
+          {
+            "char": "h",
+            "translit": "h"
+          },
+          {
+            "char": "i",
+            "translit": "i"
+          },
+          {
+            "char": "j",
+            "translit": "j"
+          },
+          {
+            "char": "k",
+            "translit": "k"
+          },
+          {
+            "char": "l",
+            "translit": "l"
+          },
+          {
+            "char": "m",
+            "translit": "m"
+          },
+          {
+            "char": "n",
+            "translit": "n"
+          },
+          {
+            "char": "o",
+            "translit": "o"
+          },
+          {
+            "char": "p",
+            "translit": "p"
+          },
+          {
+            "char": "q",
+            "translit": "q"
+          },
+          {
+            "char": "r",
+            "translit": "r"
+          },
+          {
+            "char": "s",
+            "translit": "s"
+          },
+          {
+            "char": "t",
+            "translit": "t"
+          },
+          {
+            "char": "u",
+            "translit": "u"
+          },
+          {
+            "char": "v",
+            "translit": "v"
+          },
+          {
+            "char": "w",
+            "translit": "w"
+          },
+          {
+            "char": "x",
+            "translit": "x"
+          },
+          {
+            "char": "y",
+            "translit": "y"
+          },
+          {
+            "char": "z",
+            "translit": "z"
+          },
+          {
+            "char": "é",
+            "note": {
+              "en": "«e accent aigu»: closed e.",
+              "es": "«e accent aigu»: e cerrada."
+            },
+            "translit": "é"
+          },
+          {
+            "char": "è",
+            "note": {
+              "en": "«e accent grave»: open e.",
+              "es": "«e accent grave»: e abierta."
+            },
+            "translit": "è"
+          },
+          {
+            "char": "ê",
+            "translit": "ê"
+          },
+          {
+            "char": "ë",
+            "translit": "ë"
+          },
+          {
+            "char": "à",
+            "translit": "à"
+          },
+          {
+            "char": "â",
+            "translit": "â"
+          },
+          {
+            "char": "ç",
+            "note": {
+              "en": "«c cédille»: sounds like «s».",
+              "es": "«c cédille»: suena como «s»."
+            },
+            "translit": "ç"
+          },
+          {
+            "char": "î",
+            "translit": "î"
+          },
+          {
+            "char": "ï",
+            "translit": "ï"
+          },
+          {
+            "char": "ô",
+            "translit": "ô"
+          },
+          {
+            "char": "û",
+            "translit": "û"
+          },
+          {
+            "char": "ù",
+            "translit": "ù"
+          },
+          {
+            "char": "œ",
+            "note": {
+              "en": "Digraph: e + u, as in «œuf».",
+              "es": "Dígrafo: e + u, como en «œuf»."
+            },
+            "translit": "œ"
+          }
+        ],
+        "title": {
+          "en": "Alphabet",
+          "es": "Alfabeto"
+        }
+      }
+    ],
+    "title": {
+      "en": "French: Latin alphabet and accents",
+      "es": "Français : alphabet latin et accents"
+    }
+  },
+  "gl": {
+    "direction": "ltr",
+    "intro": {
+      "en": "Galician uses the Latin alphabet with eñe (ñ) and accented vowels to mark the stressed syllable.",
+      "es": "El gallego usa el alfabeto latino con la eñe (ñ) y vocales acentuadas para marcar la sílaba tónica."
+    },
+    "lang": "gl",
+    "script": "latin",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Letter",
+              "es": "Letra"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "a",
+            "translit": "a"
+          },
+          {
+            "char": "b",
+            "translit": "b"
+          },
+          {
+            "char": "c",
+            "translit": "c"
+          },
+          {
+            "char": "d",
+            "translit": "d"
+          },
+          {
+            "char": "e",
+            "translit": "e"
+          },
+          {
+            "char": "f",
+            "translit": "f"
+          },
+          {
+            "char": "g",
+            "translit": "g"
+          },
+          {
+            "char": "h",
+            "translit": "h"
+          },
+          {
+            "char": "i",
+            "translit": "i"
+          },
+          {
+            "char": "j",
+            "translit": "j"
+          },
+          {
+            "char": "k",
+            "translit": "k"
+          },
+          {
+            "char": "l",
+            "translit": "l"
+          },
+          {
+            "char": "m",
+            "translit": "m"
+          },
+          {
+            "char": "n",
+            "translit": "n"
+          },
+          {
+            "char": "o",
+            "translit": "o"
+          },
+          {
+            "char": "p",
+            "translit": "p"
+          },
+          {
+            "char": "q",
+            "translit": "q"
+          },
+          {
+            "char": "r",
+            "translit": "r"
+          },
+          {
+            "char": "s",
+            "translit": "s"
+          },
+          {
+            "char": "t",
+            "translit": "t"
+          },
+          {
+            "char": "u",
+            "translit": "u"
+          },
+          {
+            "char": "v",
+            "translit": "v"
+          },
+          {
+            "char": "w",
+            "translit": "w"
+          },
+          {
+            "char": "x",
+            "translit": "x"
+          },
+          {
+            "char": "y",
+            "translit": "y"
+          },
+          {
+            "char": "z",
+            "translit": "z"
+          },
+          {
+            "char": "ñ",
+            "note": {
+              "en": "«eñe»: like the «ny» in canyon.",
+              "es": "«eñe»: como la «ny» de «cañón»."
+            },
+            "translit": "ñ"
+          },
+          {
+            "char": "á",
+            "translit": "á"
+          },
+          {
+            "char": "é",
+            "translit": "é"
+          },
+          {
+            "char": "í",
+            "translit": "í"
+          },
+          {
+            "char": "ó",
+            "translit": "ó"
+          },
+          {
+            "char": "ú",
+            "translit": "ú"
+          },
+          {
+            "char": "ü",
+            "translit": "ü"
+          }
+        ],
+        "title": {
+          "en": "Alphabet",
+          "es": "Alfabeto"
+        }
+      }
+    ],
+    "title": {
+      "en": "Galician: the alphabet",
+      "es": "Galego: o alfabeto"
+    }
+  },
+  "hi": {
+    "direction": "ltr",
+    "intro": {
+      "en": "Hindi is written in Devanagari (देवनागरी), an abugida: each consonant carries an inherent «a» vowel unless another is marked. It runs left to right and hangs from a continuous top line.",
+      "es": "El hindi se escribe con devanagari (देवनागरी), un sistema silábico: cada consonante lleva una vocal «a» implícita salvo que se marque otra. Se escribe de izquierda a derecha y cuelga de una línea superior continua."
+    },
+    "lang": "hi",
+    "script": "devanagari",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Romanisation",
+              "es": "Romanización"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "अ",
+            "translit": "a"
+          },
+          {
+            "char": "आ",
+            "translit": "ā (a larga)"
+          },
+          {
+            "char": "इ",
+            "translit": "i"
+          },
+          {
+            "char": "ई",
+            "translit": "ī (i larga)"
+          },
+          {
+            "char": "उ",
+            "translit": "u"
+          },
+          {
+            "char": "ऊ",
+            "translit": "ū (u larga)"
+          },
+          {
+            "char": "ऋ",
+            "translit": "ṛ"
+          },
+          {
+            "char": "ए",
+            "translit": "e"
+          },
+          {
+            "char": "ऐ",
+            "translit": "ai"
+          },
+          {
+            "char": "ओ",
+            "translit": "o"
+          },
+          {
+            "char": "औ",
+            "translit": "au"
+          }
+        ],
+        "title": {
+          "en": "Vowels (स्वर svar)",
+          "es": "Vocales (स्वर svar)"
+        }
+      },
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Romanisation",
+              "es": "Romanización"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "क",
+            "translit": "ka"
+          },
+          {
+            "char": "ख",
+            "translit": "kha"
+          },
+          {
+            "char": "ग",
+            "translit": "ga"
+          },
+          {
+            "char": "घ",
+            "translit": "gha"
+          },
+          {
+            "char": "ङ",
+            "translit": "ṅa"
+          },
+          {
+            "char": "च",
+            "translit": "ca"
+          },
+          {
+            "char": "छ",
+            "translit": "cha"
+          },
+          {
+            "char": "ज",
+            "translit": "ja"
+          },
+          {
+            "char": "झ",
+            "translit": "jha"
+          },
+          {
+            "char": "ञ",
+            "translit": "ña"
+          },
+          {
+            "char": "ट",
+            "translit": "ṭa"
+          },
+          {
+            "char": "ठ",
+            "translit": "ṭha"
+          },
+          {
+            "char": "ड",
+            "translit": "ḍa"
+          },
+          {
+            "char": "ढ",
+            "translit": "ḍha"
+          },
+          {
+            "char": "ण",
+            "translit": "ṇa"
+          },
+          {
+            "char": "त",
+            "translit": "ta"
+          },
+          {
+            "char": "थ",
+            "translit": "tha"
+          },
+          {
+            "char": "द",
+            "translit": "da"
+          },
+          {
+            "char": "ध",
+            "translit": "dha"
+          },
+          {
+            "char": "न",
+            "translit": "na"
+          },
+          {
+            "char": "प",
+            "translit": "pa"
+          },
+          {
+            "char": "फ",
+            "translit": "pha"
+          },
+          {
+            "char": "ब",
+            "translit": "ba"
+          },
+          {
+            "char": "भ",
+            "translit": "bha"
+          },
+          {
+            "char": "म",
+            "translit": "ma"
+          },
+          {
+            "char": "य",
+            "translit": "ya"
+          },
+          {
+            "char": "र",
+            "translit": "ra"
+          },
+          {
+            "char": "ल",
+            "translit": "la"
+          },
+          {
+            "char": "व",
+            "translit": "va"
+          },
+          {
+            "char": "श",
+            "translit": "śa"
+          },
+          {
+            "char": "ष",
+            "translit": "ṣa"
+          },
+          {
+            "char": "स",
+            "translit": "sa"
+          },
+          {
+            "char": "ह",
+            "translit": "ha"
+          }
+        ],
+        "title": {
+          "en": "Consonants (व्यंजन vyañjan)",
+          "es": "Consonantes (व्यंजन vyañjan)"
+        }
+      },
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Value",
+              "es": "Valor"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "०",
+            "translit": "0"
+          },
+          {
+            "char": "१",
+            "translit": "1"
+          },
+          {
+            "char": "२",
+            "translit": "2"
+          },
+          {
+            "char": "३",
+            "translit": "3"
+          },
+          {
+            "char": "४",
+            "translit": "4"
+          },
+          {
+            "char": "५",
+            "translit": "5"
+          },
+          {
+            "char": "६",
+            "translit": "6"
+          },
+          {
+            "char": "७",
+            "translit": "7"
+          },
+          {
+            "char": "८",
+            "translit": "8"
+          },
+          {
+            "char": "९",
+            "translit": "9"
+          }
+        ],
+        "title": {
+          "en": "Numerals (अंक aṅk)",
+          "es": "Números (अंक aṅk)"
+        }
+      }
+    ],
+    "title": {
+      "en": "Hindi: the Devanagari script",
+      "es": "Hindi: el alfabeto devanagari"
+    }
+  },
+  "it": {
+    "direction": "ltr",
+    "intro": {
+      "en": "Italian has 21 letters of its own; j, k, w, x and y appear only in foreign words. It barely uses accents, except the final grave accent (à, è, ì, ò, ù).",
+      "es": "El italiano tiene 21 letras propias; j, k, w, x e y solo aparecen en palabras extranjeras. Apenas usa acentos, salvo la tilde final (à, è, ì, ò, ù)."
+    },
+    "lang": "it",
+    "script": "latin",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Letter",
+              "es": "Letra"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "a",
+            "translit": "a"
+          },
+          {
+            "char": "b",
+            "translit": "b"
+          },
+          {
+            "char": "c",
+            "translit": "c"
+          },
+          {
+            "char": "d",
+            "translit": "d"
+          },
+          {
+            "char": "e",
+            "translit": "e"
+          },
+          {
+            "char": "f",
+            "translit": "f"
+          },
+          {
+            "char": "g",
+            "translit": "g"
+          },
+          {
+            "char": "h",
+            "translit": "h"
+          },
+          {
+            "char": "i",
+            "translit": "i"
+          },
+          {
+            "char": "l",
+            "translit": "l"
+          },
+          {
+            "char": "m",
+            "translit": "m"
+          },
+          {
+            "char": "n",
+            "translit": "n"
+          },
+          {
+            "char": "o",
+            "translit": "o"
+          },
+          {
+            "char": "p",
+            "translit": "p"
+          },
+          {
+            "char": "q",
+            "translit": "q"
+          },
+          {
+            "char": "r",
+            "translit": "r"
+          },
+          {
+            "char": "s",
+            "translit": "s"
+          },
+          {
+            "char": "t",
+            "translit": "t"
+          },
+          {
+            "char": "u",
+            "translit": "u"
+          },
+          {
+            "char": "v",
+            "translit": "v"
+          },
+          {
+            "char": "z",
+            "translit": "z"
+          }
+        ],
+        "title": {
+          "en": "Alphabet",
+          "es": "Alfabeto"
+        }
+      }
+    ],
+    "title": {
+      "en": "Italian: the alphabet",
+      "es": "Italiano: l'alfabeto"
+    }
+  },
+  "ja": {
+    "direction": "ltr",
+    "intro": {
+      "en": "Japanese mixes three scripts: hiragana (curved, for grammar and native words), katakana (angular, for loanwords and foreign names) and kanji (characters of Chinese origin). Here are the two basic syllabaries. Each sign is a full syllable with its rōmaji reading.",
+      "es": "El japonés combina tres escrituras: hiragana (curvo, para gramática y palabras nativas), katakana (anguloso, para préstamos y nombres extranjeros) y kanji (caracteres de origen chino). Aquí tienes los dos silabarios básicos. Cada signo es una sílaba completa con la lectura en rōmaji."
+    },
+    "lang": "ja",
+    "script": "japanese",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Reading",
+              "es": "Lectura"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "あ",
+            "translit": "a"
+          },
+          {
+            "char": "い",
+            "translit": "i"
+          },
+          {
+            "char": "う",
+            "translit": "u"
+          },
+          {
+            "char": "え",
+            "translit": "e"
+          },
+          {
+            "char": "お",
+            "translit": "o"
+          },
+          {
+            "char": "か",
+            "translit": "ka"
+          },
+          {
+            "char": "き",
+            "translit": "ki"
+          },
+          {
+            "char": "く",
+            "translit": "ku"
+          },
+          {
+            "char": "け",
+            "translit": "ke"
+          },
+          {
+            "char": "こ",
+            "translit": "ko"
+          },
+          {
+            "char": "さ",
+            "translit": "sa"
+          },
+          {
+            "char": "し",
+            "translit": "shi"
+          },
+          {
+            "char": "す",
+            "translit": "su"
+          },
+          {
+            "char": "せ",
+            "translit": "se"
+          },
+          {
+            "char": "そ",
+            "translit": "so"
+          },
+          {
+            "char": "た",
+            "translit": "ta"
+          },
+          {
+            "char": "ち",
+            "translit": "chi"
+          },
+          {
+            "char": "つ",
+            "translit": "tsu"
+          },
+          {
+            "char": "て",
+            "translit": "te"
+          },
+          {
+            "char": "と",
+            "translit": "to"
+          },
+          {
+            "char": "な",
+            "translit": "na"
+          },
+          {
+            "char": "に",
+            "translit": "ni"
+          },
+          {
+            "char": "ぬ",
+            "translit": "nu"
+          },
+          {
+            "char": "ね",
+            "translit": "ne"
+          },
+          {
+            "char": "の",
+            "translit": "no"
+          },
+          {
+            "char": "は",
+            "translit": "ha"
+          },
+          {
+            "char": "ひ",
+            "translit": "hi"
+          },
+          {
+            "char": "ふ",
+            "translit": "fu"
+          },
+          {
+            "char": "へ",
+            "translit": "he"
+          },
+          {
+            "char": "ほ",
+            "translit": "ho"
+          },
+          {
+            "char": "ま",
+            "translit": "ma"
+          },
+          {
+            "char": "み",
+            "translit": "mi"
+          },
+          {
+            "char": "む",
+            "translit": "mu"
+          },
+          {
+            "char": "め",
+            "translit": "me"
+          },
+          {
+            "char": "も",
+            "translit": "mo"
+          },
+          {
+            "char": "や",
+            "translit": "ya"
+          },
+          {
+            "char": "ゆ",
+            "translit": "yu"
+          },
+          {
+            "char": "よ",
+            "translit": "yo"
+          },
+          {
+            "char": "ら",
+            "translit": "ra"
+          },
+          {
+            "char": "り",
+            "translit": "ri"
+          },
+          {
+            "char": "る",
+            "translit": "ru"
+          },
+          {
+            "char": "れ",
+            "translit": "re"
+          },
+          {
+            "char": "ろ",
+            "translit": "ro"
+          },
+          {
+            "char": "わ",
+            "translit": "wa"
+          },
+          {
+            "char": "を",
+            "translit": "o (wo)"
+          },
+          {
+            "char": "ん",
+            "translit": "n"
+          }
+        ],
+        "title": {
+          "en": "Hiragana (ひらがな)",
+          "es": "Hiragana (ひらがな)"
+        }
+      },
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Reading",
+              "es": "Lectura"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "ア",
+            "translit": "a"
+          },
+          {
+            "char": "イ",
+            "translit": "i"
+          },
+          {
+            "char": "ウ",
+            "translit": "u"
+          },
+          {
+            "char": "エ",
+            "translit": "e"
+          },
+          {
+            "char": "オ",
+            "translit": "o"
+          },
+          {
+            "char": "カ",
+            "translit": "ka"
+          },
+          {
+            "char": "キ",
+            "translit": "ki"
+          },
+          {
+            "char": "ク",
+            "translit": "ku"
+          },
+          {
+            "char": "ケ",
+            "translit": "ke"
+          },
+          {
+            "char": "コ",
+            "translit": "ko"
+          },
+          {
+            "char": "サ",
+            "translit": "sa"
+          },
+          {
+            "char": "シ",
+            "translit": "shi"
+          },
+          {
+            "char": "ス",
+            "translit": "su"
+          },
+          {
+            "char": "セ",
+            "translit": "se"
+          },
+          {
+            "char": "ソ",
+            "translit": "so"
+          },
+          {
+            "char": "タ",
+            "translit": "ta"
+          },
+          {
+            "char": "チ",
+            "translit": "chi"
+          },
+          {
+            "char": "ツ",
+            "translit": "tsu"
+          },
+          {
+            "char": "テ",
+            "translit": "te"
+          },
+          {
+            "char": "ト",
+            "translit": "to"
+          },
+          {
+            "char": "ナ",
+            "translit": "na"
+          },
+          {
+            "char": "ニ",
+            "translit": "ni"
+          },
+          {
+            "char": "ヌ",
+            "translit": "nu"
+          },
+          {
+            "char": "ネ",
+            "translit": "ne"
+          },
+          {
+            "char": "ノ",
+            "translit": "no"
+          },
+          {
+            "char": "ハ",
+            "translit": "ha"
+          },
+          {
+            "char": "ヒ",
+            "translit": "hi"
+          },
+          {
+            "char": "フ",
+            "translit": "fu"
+          },
+          {
+            "char": "ヘ",
+            "translit": "he"
+          },
+          {
+            "char": "ホ",
+            "translit": "ho"
+          },
+          {
+            "char": "マ",
+            "translit": "ma"
+          },
+          {
+            "char": "ミ",
+            "translit": "mi"
+          },
+          {
+            "char": "ム",
+            "translit": "mu"
+          },
+          {
+            "char": "メ",
+            "translit": "me"
+          },
+          {
+            "char": "モ",
+            "translit": "mo"
+          },
+          {
+            "char": "ヤ",
+            "translit": "ya"
+          },
+          {
+            "char": "ユ",
+            "translit": "yu"
+          },
+          {
+            "char": "ヨ",
+            "translit": "yo"
+          },
+          {
+            "char": "ラ",
+            "translit": "ra"
+          },
+          {
+            "char": "リ",
+            "translit": "ri"
+          },
+          {
+            "char": "ル",
+            "translit": "ru"
+          },
+          {
+            "char": "レ",
+            "translit": "re"
+          },
+          {
+            "char": "ロ",
+            "translit": "ro"
+          },
+          {
+            "char": "ワ",
+            "translit": "wa"
+          },
+          {
+            "char": "ヲ",
+            "translit": "o (wo)"
+          },
+          {
+            "char": "ン",
+            "translit": "n"
+          }
+        ],
+        "title": {
+          "en": "Katakana (カタカナ)",
+          "es": "Katakana (カタカナ)"
+        }
+      },
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Reading",
+              "es": "Lectura"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "が",
+            "translit": "ga"
+          },
+          {
+            "char": "ざ",
+            "translit": "za"
+          },
+          {
+            "char": "だ",
+            "translit": "da"
+          },
+          {
+            "char": "ば",
+            "translit": "ba"
+          },
+          {
+            "char": "ぱ",
+            "translit": "pa"
+          }
+        ],
+        "title": {
+          "en": "Dakuten (゛) and handakuten (゜) marks",
+          "es": "Signos con dakuten (゛) y handakuten (゜)"
+        }
+      }
+    ],
+    "title": {
+      "en": "Japanese writing: the kana",
+      "es": "Escritura japonesa: los kana"
+    }
+  },
+  "pt": {
+    "direction": "ltr",
+    "intro": {
+      "en": "Portuguese uses 26 letters and several diacritics (acute, circumflex, tilde, grave, cedilla), marking stress or nasality.",
+      "es": "El portugués usa 26 letras y varios diacríticos (agudo, circunflejo, til, grave, cedilla), que marcan la sílaba tónica o la nasalidad."
+    },
+    "lang": "pt",
+    "script": "latin",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Letter",
+              "es": "Letra"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "a",
+            "translit": "a"
+          },
+          {
+            "char": "b",
+            "translit": "b"
+          },
+          {
+            "char": "c",
+            "translit": "c"
+          },
+          {
+            "char": "d",
+            "translit": "d"
+          },
+          {
+            "char": "e",
+            "translit": "e"
+          },
+          {
+            "char": "f",
+            "translit": "f"
+          },
+          {
+            "char": "g",
+            "translit": "g"
+          },
+          {
+            "char": "h",
+            "translit": "h"
+          },
+          {
+            "char": "i",
+            "translit": "i"
+          },
+          {
+            "char": "j",
+            "translit": "j"
+          },
+          {
+            "char": "k",
+            "translit": "k"
+          },
+          {
+            "char": "l",
+            "translit": "l"
+          },
+          {
+            "char": "m",
+            "translit": "m"
+          },
+          {
+            "char": "n",
+            "translit": "n"
+          },
+          {
+            "char": "o",
+            "translit": "o"
+          },
+          {
+            "char": "p",
+            "translit": "p"
+          },
+          {
+            "char": "q",
+            "translit": "q"
+          },
+          {
+            "char": "r",
+            "translit": "r"
+          },
+          {
+            "char": "s",
+            "translit": "s"
+          },
+          {
+            "char": "t",
+            "translit": "t"
+          },
+          {
+            "char": "u",
+            "translit": "u"
+          },
+          {
+            "char": "v",
+            "translit": "v"
+          },
+          {
+            "char": "w",
+            "translit": "w"
+          },
+          {
+            "char": "x",
+            "translit": "x"
+          },
+          {
+            "char": "y",
+            "translit": "y"
+          },
+          {
+            "char": "z",
+            "translit": "z"
+          },
+          {
+            "char": "á",
+            "translit": "á"
+          },
+          {
+            "char": "â",
+            "translit": "â"
+          },
+          {
+            "char": "ã",
+            "note": {
+              "en": "nasal a, as in «maçã».",
+              "es": "a nasal, como en «maçã»."
+            },
+            "translit": "ã"
+          },
+          {
+            "char": "à",
+            "translit": "à"
+          },
+          {
+            "char": "é",
+            "translit": "é"
+          },
+          {
+            "char": "ê",
+            "translit": "ê"
+          },
+          {
+            "char": "í",
+            "translit": "í"
+          },
+          {
+            "char": "ó",
+            "translit": "ó"
+          },
+          {
+            "char": "ô",
+            "translit": "ô"
+          },
+          {
+            "char": "õ",
+            "translit": "õ"
+          },
+          {
+            "char": "ú",
+            "translit": "ú"
+          },
+          {
+            "char": "ç",
+            "note": {
+              "en": "«c cedilha»: sounds like «s».",
+              "es": "«c cedilha»: suena como «s»."
+            },
+            "translit": "ç"
+          }
+        ],
+        "title": {
+          "en": "Alphabet",
+          "es": "Alfabeto"
+        }
+      }
+    ],
+    "title": {
+      "en": "Portuguese: alphabet and diacritics",
+      "es": "Português: alfabeto e diacríticos"
+    }
+  },
+  "sw": {
+    "direction": "ltr",
+    "intro": {
+      "en": "Swahili uses the Latin alphabet without q or x. It uses digraphs such as ch, ny, ng and sh, and every word is read as written.",
+      "es": "El suajili usa el alfabeto latino sin q ni x. Emplea dígrafos como ch, ny, ng y sh, y cada palabra se lee como se escribe."
+    },
+    "lang": "sw",
+    "script": "latin",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Glyph",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Letter",
+              "es": "Letra"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "a",
+            "translit": "a"
+          },
+          {
+            "char": "b",
+            "translit": "b"
+          },
+          {
+            "char": "c",
+            "translit": "c"
+          },
+          {
+            "char": "d",
+            "translit": "d"
+          },
+          {
+            "char": "e",
+            "translit": "e"
+          },
+          {
+            "char": "f",
+            "translit": "f"
+          },
+          {
+            "char": "g",
+            "translit": "g"
+          },
+          {
+            "char": "h",
+            "translit": "h"
+          },
+          {
+            "char": "i",
+            "translit": "i"
+          },
+          {
+            "char": "j",
+            "translit": "j"
+          },
+          {
+            "char": "k",
+            "translit": "k"
+          },
+          {
+            "char": "l",
+            "translit": "l"
+          },
+          {
+            "char": "m",
+            "translit": "m"
+          },
+          {
+            "char": "n",
+            "translit": "n"
+          },
+          {
+            "char": "o",
+            "translit": "o"
+          },
+          {
+            "char": "p",
+            "translit": "p"
+          },
+          {
+            "char": "r",
+            "translit": "r"
+          },
+          {
+            "char": "s",
+            "translit": "s"
+          },
+          {
+            "char": "t",
+            "translit": "t"
+          },
+          {
+            "char": "u",
+            "translit": "u"
+          },
+          {
+            "char": "v",
+            "translit": "v"
+          },
+          {
+            "char": "w",
+            "translit": "w"
+          },
+          {
+            "char": "y",
+            "translit": "y"
+          },
+          {
+            "char": "z",
+            "translit": "z"
+          },
+          {
+            "char": "ch",
+            "note": {
+              "en": "Digraph: like «ch».",
+              "es": "Dígrafo: como «ch»."
+            },
+            "translit": "ch"
+          },
+          {
+            "char": "ny",
+            "note": {
+              "en": "Digraph: like «ny» in canyon.",
+              "es": "Dígrafo: como «ñ»."
+            },
+            "translit": "ny"
+          },
+          {
+            "char": "ng",
+            "note": {
+              "en": "Digraph: nasal, as in «sing».",
+              "es": "Dígrafo: nasal, como en «sing»."
+            },
+            "translit": "ng"
+          },
+          {
+            "char": "sh",
+            "note": {
+              "en": "Digraph: like «sh».",
+              "es": "Dígrafo: como «sh»."
+            },
+            "translit": "sh"
+          }
+        ],
+        "title": {
+          "en": "Alphabet",
+          "es": "Alfabeto"
+        }
+      }
+    ],
+    "title": {
+      "en": "Kiswahili: the alphabet",
+      "es": "Kiswahili: the alphabet"
+    }
+  },
+  "ur": {
+    "direction": "rtl",
+    "intro": {
+      "en": "Urdu is written in the Arabic alphabet in the Nastaliq style, right to left. It has about 39 letters, each changing shape slightly depending on its position (initial, medial, final or isolated). Here you see them in isolated form with their romanisation.",
+      "es": "El urdu se escribe con el alfabeto árabe en estilo nastaliq, de derecha a izquierda. Tiene unas 39 letras y cada una cambia algo de forma según su posición (inicial, media, final o aislada). Aquí las verás en forma aislada con su romanización."
+    },
+    "lang": "ur",
+    "script": "arabic",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Letter",
+              "es": "Letra"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Romanisation",
+              "es": "Romanización"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "ا",
+            "translit": "alif (ā)"
+          },
+          {
+            "char": "ب",
+            "translit": "be (b)"
+          },
+          {
+            "char": "پ",
+            "translit": "pe (p)"
+          },
+          {
+            "char": "ت",
+            "translit": "te (t)"
+          },
+          {
+            "char": "ٹ",
+            "translit": "ṭe (ṭ)"
+          },
+          {
+            "char": "ث",
+            "translit": "se (s)"
+          },
+          {
+            "char": "ج",
+            "translit": "jim (j)"
+          },
+          {
+            "char": "چ",
+            "translit": "che (ch)"
+          },
+          {
+            "char": "ح",
+            "translit": "he (ḥ)"
+          },
+          {
+            "char": "خ",
+            "translit": "khe (kh)"
+          },
+          {
+            "char": "د",
+            "translit": "dāl (d)"
+          },
+          {
+            "char": "ڈ",
+            "translit": "ḍāl (ḍ)"
+          },
+          {
+            "char": "ذ",
+            "translit": "zāl (z)"
+          },
+          {
+            "char": "ر",
+            "translit": "re (r)"
+          },
+          {
+            "char": "ڑ",
+            "translit": "ṛe (ṛ)"
+          },
+          {
+            "char": "ز",
+            "translit": "ze (z)"
+          },
+          {
+            "char": "ژ",
+            "translit": "zhe (zh)"
+          },
+          {
+            "char": "س",
+            "translit": "sīn (s)"
+          },
+          {
+            "char": "ش",
+            "translit": "shīn (sh)"
+          },
+          {
+            "char": "ص",
+            "translit": "suād (s)"
+          },
+          {
+            "char": "ض",
+            "translit": "zuād (z)"
+          },
+          {
+            "char": "ط",
+            "translit": "to'e (t)"
+          },
+          {
+            "char": "ظ",
+            "translit": "zo'e (z)"
+          },
+          {
+            "char": "ع",
+            "translit": "ain ('a)"
+          },
+          {
+            "char": "غ",
+            "translit": "ghain (gh)"
+          },
+          {
+            "char": "ف",
+            "translit": "fe (f)"
+          },
+          {
+            "char": "ق",
+            "translit": "qāf (q)"
+          },
+          {
+            "char": "ک",
+            "translit": "kāf (k)"
+          },
+          {
+            "char": "گ",
+            "translit": "gāf (g)"
+          },
+          {
+            "char": "ل",
+            "translit": "lām (l)"
+          },
+          {
+            "char": "م",
+            "translit": "mīm (m)"
+          },
+          {
+            "char": "ن",
+            "translit": "nūn (n)"
+          },
+          {
+            "char": "ں",
+            "translit": "nūn ghunna (nasal)"
+          },
+          {
+            "char": "و",
+            "translit": "wāo (w/v)"
+          },
+          {
+            "char": "ہ",
+            "translit": "he gol (h)"
+          },
+          {
+            "char": "ھ",
+            "translit": "he do chashmi (aspiración)"
+          },
+          {
+            "char": "ء",
+            "translit": "hamza (ʼ)"
+          },
+          {
+            "char": "ی",
+            "translit": "ye (y)"
+          },
+          {
+            "char": "ے",
+            "translit": "ye barrī (e)"
+          }
+        ],
+        "title": {
+          "en": "Alphabet (حروف تہجی)",
+          "es": "Alfabeto (حروف تہجی)"
+        }
+      },
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Mark",
+              "es": "Signo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Sound",
+              "es": "Sonido"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "َ",
+            "translit": "zabar: a corta"
+          },
+          {
+            "char": "ِ",
+            "translit": "zer: i corta"
+          },
+          {
+            "char": "ُ",
+            "translit": "pesh: u corta"
+          },
+          {
+            "char": "ّ",
+            "translit": "tashdīd: duplica la consonante"
+          },
+          {
+            "char": "ْ",
+            "translit": "jazm: sin vocal"
+          }
+        ],
+        "title": {
+          "en": "Vowels and diacritics (اِعراب)",
+          "es": "Vocales y diacríticos (اِعراب)"
+        }
+      }
+    ],
+    "title": {
+      "en": "Urdu: the Arabic-Urdu alphabet",
+      "es": "Urdu: el alfabeto árabe-urdu"
+    }
+  },
+  "zh": {
+    "direction": "ltr",
+    "intro": {
+      "en": "Chinese has no alphabet: it is written with characters (汉字 hànzì), each carrying meaning. To read it, the official romanisation pinyin is used, with tone marks. Learning pinyin is the first step to pronounce and type any character.",
+      "es": "El chino no tiene alfabeto: se escribe con caracteres (汉字 hànzì), cada uno con un significado. Para leerlo se usa el pinyin, su romanización oficial con marcas de tono. Aprender el pinyin es el primer paso para poder pronunciar y teclear cualquier carácter."
+    },
+    "lang": "zh",
+    "script": "han",
+    "sections": [
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Pinyin",
+              "es": "Pinyin"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Approximate sound",
+              "es": "Sonido aproximado"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "b",
+            "translit": "p (como en «spa»)"
+          },
+          {
+            "char": "p",
+            "translit": "p aspirada"
+          },
+          {
+            "char": "m",
+            "translit": "m"
+          },
+          {
+            "char": "f",
+            "translit": "f"
+          },
+          {
+            "char": "d",
+            "translit": "t (como en «stop»)"
+          },
+          {
+            "char": "t",
+            "translit": "t aspirada"
+          },
+          {
+            "char": "n",
+            "translit": "n"
+          },
+          {
+            "char": "l",
+            "translit": "l"
+          },
+          {
+            "char": "g",
+            "translit": "k (como en «skate»)"
+          },
+          {
+            "char": "k",
+            "translit": "k aspirada"
+          },
+          {
+            "char": "h",
+            "translit": "j suave / j"
+          },
+          {
+            "char": "j",
+            "translit": "ch palatal (como «ch» suave)"
+          },
+          {
+            "char": "q",
+            "translit": "ch aspirada"
+          },
+          {
+            "char": "x",
+            "translit": "sh palatal"
+          },
+          {
+            "char": "zh",
+            "translit": "ch retrofleja (lengua al paladar)"
+          },
+          {
+            "char": "ch",
+            "translit": "ch retrofleja aspirada"
+          },
+          {
+            "char": "sh",
+            "translit": "sh retrofleja"
+          },
+          {
+            "char": "r",
+            "translit": "r retrofleja"
+          },
+          {
+            "char": "z",
+            "translit": "ts (como «pizza»)"
+          },
+          {
+            "char": "c",
+            "translit": "ts aspirada"
+          },
+          {
+            "char": "s",
+            "translit": "s"
+          }
+        ],
+        "title": {
+          "en": "Initials (声母 shēngmǔ)",
+          "es": "Iniciales (声母 shēngmǔ)"
+        }
+      },
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Pinyin",
+              "es": "Pinyin"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Approximate sound",
+              "es": "Sonido aproximado"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "a",
+            "translit": "a"
+          },
+          {
+            "char": "o",
+            "translit": "o"
+          },
+          {
+            "char": "e",
+            "translit": "e gutural («e» ratera)"
+          },
+          {
+            "char": "i",
+            "translit": "i"
+          },
+          {
+            "char": "u",
+            "translit": "u"
+          },
+          {
+            "char": "ü",
+            "translit": "u con labios de i (como «tu» francés)"
+          },
+          {
+            "char": "ai",
+            "translit": "ai"
+          },
+          {
+            "char": "ei",
+            "translit": "ei"
+          },
+          {
+            "char": "ao",
+            "translit": "ao"
+          },
+          {
+            "char": "ou",
+            "translit": "ou"
+          },
+          {
+            "char": "an",
+            "translit": "an"
+          },
+          {
+            "char": "en",
+            "translit": "en"
+          },
+          {
+            "char": "ang",
+            "translit": "ang nasal"
+          },
+          {
+            "char": "eng",
+            "translit": "eng nasal"
+          },
+          {
+            "char": "ong",
+            "translit": "ong nasal"
+          },
+          {
+            "char": "er",
+            "translit": "ar (sonido «er»)"
+          }
+        ],
+        "title": {
+          "en": "Finals (韵母 yùnmǔ)",
+          "es": "Finales (韵母 yùnmǔ)"
+        }
+      },
+      {
+        "columns": [
+          {
+            "key": "char",
+            "label": {
+              "en": "Example",
+              "es": "Ejemplo"
+            }
+          },
+          {
+            "key": "translit",
+            "label": {
+              "en": "Tone",
+              "es": "Tono"
+            }
+          }
+        ],
+        "items": [
+          {
+            "char": "mā",
+            "translit": "1.º: alto y plano"
+          },
+          {
+            "char": "má",
+            "translit": "2.º: ascendente"
+          },
+          {
+            "char": "mǎ",
+            "translit": "3.º: baja y sube"
+          },
+          {
+            "char": "mà",
+            "translit": "4.º: descendente y fuerte"
+          },
+          {
+            "char": "ma",
+            "translit": "neutro: breve y suave"
+          }
+        ],
+        "title": {
+          "en": "Tones (声调 shēngdiào)",
+          "es": "Tonos (声调 shēngdiào)"
+        }
+      }
+    ],
+    "title": {
+      "en": "Chinese: hanzi and pinyin",
+      "es": "Chino: hanzi y pinyin"
+    }
+  }
+}

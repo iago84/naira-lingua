@@ -19,84 +19,248 @@
         "en": "Hello.",
         "es": "hola",
         "hi": "नमस्ते",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "namaste"
       },
       {
         "concept": "c:saludos-y-expresiones.buenos-dias",
         "en": "Good morning.",
         "es": "buenos días",
         "hi": "शुभ प्रभात",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "śubh prabhāt"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-tardes",
         "en": "Good afternoon.",
         "es": "buenas tardes",
         "hi": "शुभ संध्या",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "śubh sandhyā"
       },
       {
         "concept": "c:saludos-y-expresiones.buenas-noches",
         "en": "Good night.",
         "es": "buenas noches",
         "hi": "शुभ रात्रि",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "śubh rātri"
       },
       {
         "concept": "c:saludos-y-expresiones.gracias",
         "en": "Thank you.",
         "es": "gracias",
         "hi": "धन्यवाद",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "dhanyavād"
       },
       {
         "concept": "c:saludos-y-expresiones.por-favor",
         "en": "Please.",
         "es": "por favor",
         "hi": "कृपया",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "kripayā"
       },
       {
         "concept": "c:saludos-y-expresiones.perdon-disculpe",
         "en": "Excuse me / excuse",
         "es": "perdón / disculpe",
         "hi": "माफ़ कीजिए",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "māf kījie"
       },
       {
         "concept": "c:saludos-y-expresiones.adios",
         "en": "Bye.",
         "es": "adiós",
         "hi": "अलविदा",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "alvidā"
       },
       {
         "concept": "c:saludos-y-expresiones.hasta-luego",
         "en": "See you later.",
         "es": "hasta luego",
         "hi": "फिर मिलेंगे",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "phir milenge"
       },
       {
         "concept": "c:saludos-y-expresiones.si",
         "en": "Yes",
         "es": "sí",
         "hi": "हाँ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "hā̃"
       },
       {
         "concept": "c:saludos-y-expresiones.no",
         "en": "No.",
         "es": "no",
         "hi": "नहीं",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "nahī̃"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "नमस्ते",
+            "answerTranslit": "namaste",
+            "concept": "c:saludos-y-expresiones.hola",
+            "optionTranslit": {
+              "कृपया": "kripayā",
+              "नमस्ते": "namaste",
+              "फिर मिलेंगे": "phir milenge",
+              "शुभ संध्या": "śubh sandhyā"
+            },
+            "options": [
+              "फिर मिलेंगे",
+              "नमस्ते",
+              "कृपया",
+              "शुभ संध्या"
+            ],
+            "prompt": "hola"
+          },
+          {
+            "answer": "शुभ प्रभात",
+            "answerTranslit": "śubh prabhāt",
+            "concept": "c:saludos-y-expresiones.buenos-dias",
+            "optionTranslit": {
+              "कृपया": "kripayā",
+              "माफ़ कीजिए": "māf kījie",
+              "शुभ प्रभात": "śubh prabhāt",
+              "हाँ": "hā̃"
+            },
+            "options": [
+              "हाँ",
+              "माफ़ कीजिए",
+              "शुभ प्रभात",
+              "कृपया"
+            ],
+            "prompt": "buenos días"
+          },
+          {
+            "answer": "शुभ संध्या",
+            "answerTranslit": "śubh sandhyā",
+            "concept": "c:saludos-y-expresiones.buenas-tardes",
+            "optionTranslit": {
+              "अलविदा": "alvidā",
+              "धन्यवाद": "dhanyavād",
+              "फिर मिलेंगे": "phir milenge",
+              "शुभ संध्या": "śubh sandhyā"
+            },
+            "options": [
+              "शुभ संध्या",
+              "फिर मिलेंगे",
+              "अलविदा",
+              "धन्यवाद"
+            ],
+            "prompt": "buenas tardes"
+          },
+          {
+            "answer": "शुभ रात्रि",
+            "answerTranslit": "śubh rātri",
+            "concept": "c:saludos-y-expresiones.buenas-noches",
+            "optionTranslit": {
+              "अलविदा": "alvidā",
+              "नमस्ते": "namaste",
+              "फिर मिलेंगे": "phir milenge",
+              "शुभ रात्रि": "śubh rātri"
+            },
+            "options": [
+              "फिर मिलेंगे",
+              "नमस्ते",
+              "शुभ रात्रि",
+              "अलविदा"
+            ],
+            "prompt": "buenas noches"
+          },
+          {
+            "answer": "धन्यवाद",
+            "answerTranslit": "dhanyavād",
+            "concept": "c:saludos-y-expresiones.gracias",
+            "optionTranslit": {
+              "धन्यवाद": "dhanyavād",
+              "नमस्ते": "namaste",
+              "फिर मिलेंगे": "phir milenge",
+              "शुभ संध्या": "śubh sandhyā"
+            },
+            "options": [
+              "धन्यवाद",
+              "फिर मिलेंगे",
+              "नमस्ते",
+              "शुभ संध्या"
+            ],
+            "prompt": "gracias"
+          },
+          {
+            "answer": "कृपया",
+            "answerTranslit": "kripayā",
+            "concept": "c:saludos-y-expresiones.por-favor",
+            "optionTranslit": {
+              "कृपया": "kripayā",
+              "धन्यवाद": "dhanyavād",
+              "नमस्ते": "namaste",
+              "शुभ प्रभात": "śubh prabhāt"
+            },
+            "options": [
+              "कृपया",
+              "धन्यवाद",
+              "शुभ प्रभात",
+              "नमस्ते"
+            ],
+            "prompt": "por favor"
+          },
+          {
+            "answer": "माफ़ कीजिए",
+            "answerTranslit": "māf kījie",
+            "concept": "c:saludos-y-expresiones.perdon-disculpe",
+            "optionTranslit": {
+              "नमस्ते": "namaste",
+              "नहीं": "nahī̃",
+              "फिर मिलेंगे": "phir milenge",
+              "माफ़ कीजिए": "māf kījie"
+            },
+            "options": [
+              "नमस्ते",
+              "माफ़ कीजिए",
+              "फिर मिलेंगे",
+              "नहीं"
+            ],
+            "prompt": "perdón / disculpe"
+          },
+          {
+            "answer": "अलविदा",
+            "answerTranslit": "alvidā",
+            "concept": "c:saludos-y-expresiones.adios",
+            "optionTranslit": {
+              "अलविदा": "alvidā",
+              "नहीं": "nahī̃",
+              "फिर मिलेंगे": "phir milenge",
+              "माफ़ कीजिए": "māf kījie"
+            },
+            "options": [
+              "अलविदा",
+              "माफ़ कीजिए",
+              "फिर मिलेंगे",
+              "नहीं"
+            ],
+            "prompt": "adiós"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Basic courtesy expressions to open and close a conversation.",
-      "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación.",
-      "hi": "एक संवाद खोलने और बंद करने के लिए सौजन्य की मूल अभिव्यक्ति।"
+      "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."
     },
     "generator": "build_lessons",
     "id": "hi-u1-l1",
@@ -110,10 +274,6 @@
       "es": [
         "Saludar y despedirse",
         "Dar las gracias y pedir por favor"
-      ],
-      "hi": [
-        "नमस्ते और अलविदा कह",
-        "धन्यवाद और पूछो"
       ]
     },
     "tables": [
@@ -186,8 +346,7 @@
     ],
     "title": {
       "en": "Greetings and courtesy",
-      "es": "Saludos y cortesía",
-      "hi": "बधाई और सौजन्य"
+      "es": "Saludos y cortesía"
     },
     "unit": 1
   },
@@ -212,91 +371,256 @@
         "en": "city",
         "es": "ciudad",
         "hi": "शहर",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "śahar"
       },
       {
         "concept": "c:ciudad-y-lugares.pueblo-aldea",
         "en": "village / town",
         "es": "pueblo / aldea",
         "hi": "गाँव",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "gā̃v"
       },
       {
         "concept": "c:ciudad-y-lugares.pais",
         "en": "country",
         "es": "país",
         "hi": "देश",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "deś"
       },
       {
         "concept": "c:ciudad-y-lugares.estado-provincia",
         "en": "State / province",
         "es": "estado / provincia",
         "hi": "राज्य",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "rājya"
       },
       {
         "concept": "c:ciudad-y-lugares.capital",
         "en": "capital",
         "es": "capital",
         "hi": "राजधानी",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "rājdhānī"
       },
       {
         "concept": "c:ciudad-y-lugares.zona-area",
         "en": "area / zone",
         "es": "zona / área",
         "hi": "इलाका",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ilākā"
       },
       {
         "concept": "c:ciudad-y-lugares.calle-carretera",
         "en": "Street / road",
         "es": "calle / carretera",
         "hi": "सड़क",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "saṛak"
       },
       {
         "concept": "c:ciudad-y-lugares.callejon",
         "en": "alley",
         "es": "callejón",
         "hi": "गली",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "galī"
       },
       {
         "concept": "c:ciudad-y-lugares.cruce-interseccion",
         "en": "cross / intersection",
         "es": "cruce / intersección",
         "hi": "चौराहा",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "caurāhā"
       },
       {
         "concept": "c:ciudad-y-lugares.puente",
         "en": "bridge",
         "es": "puente",
         "hi": "पुल",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "pul"
       },
       {
         "concept": "c:ciudad-y-lugares.plaza",
         "en": "square",
         "es": "plaza",
         "hi": "चौक",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "cauk"
       },
       {
         "concept": "c:ciudad-y-lugares.mercado",
         "en": "market",
         "es": "mercado",
         "hi": "बाज़ार",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "bāzār"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "शहर",
+            "answerTranslit": "śahar",
+            "concept": "c:ciudad-y-lugares.ciudad",
+            "optionTranslit": {
+              "इलाका": "ilākā",
+              "देश": "deś",
+              "पुल": "pul",
+              "शहर": "śahar"
+            },
+            "options": [
+              "देश",
+              "इलाका",
+              "पुल",
+              "शहर"
+            ],
+            "prompt": "ciudad"
+          },
+          {
+            "answer": "गाँव",
+            "answerTranslit": "gā̃v",
+            "concept": "c:ciudad-y-lugares.pueblo-aldea",
+            "optionTranslit": {
+              "गाँव": "gā̃v",
+              "चौक": "cauk",
+              "पुल": "pul",
+              "राजधानी": "rājdhānī"
+            },
+            "options": [
+              "राजधानी",
+              "गाँव",
+              "पुल",
+              "चौक"
+            ],
+            "prompt": "pueblo / aldea"
+          },
+          {
+            "answer": "देश",
+            "answerTranslit": "deś",
+            "concept": "c:ciudad-y-lugares.pais",
+            "optionTranslit": {
+              "गली": "galī",
+              "देश": "deś",
+              "राज्य": "rājya",
+              "सड़क": "saṛak"
+            },
+            "options": [
+              "सड़क",
+              "देश",
+              "राज्य",
+              "गली"
+            ],
+            "prompt": "país"
+          },
+          {
+            "answer": "राज्य",
+            "answerTranslit": "rājya",
+            "concept": "c:ciudad-y-lugares.estado-provincia",
+            "optionTranslit": {
+              "चौराहा": "caurāhā",
+              "बाज़ार": "bāzār",
+              "राज्य": "rājya",
+              "शहर": "śahar"
+            },
+            "options": [
+              "बाज़ार",
+              "शहर",
+              "राज्य",
+              "चौराहा"
+            ],
+            "prompt": "estado / provincia"
+          },
+          {
+            "answer": "राजधानी",
+            "answerTranslit": "rājdhānī",
+            "concept": "c:ciudad-y-lugares.capital",
+            "optionTranslit": {
+              "चौक": "cauk",
+              "पुल": "pul",
+              "राजधानी": "rājdhānī",
+              "राज्य": "rājya"
+            },
+            "options": [
+              "पुल",
+              "राज्य",
+              "राजधानी",
+              "चौक"
+            ],
+            "prompt": "capital"
+          },
+          {
+            "answer": "इलाका",
+            "answerTranslit": "ilākā",
+            "concept": "c:ciudad-y-lugares.zona-area",
+            "optionTranslit": {
+              "इलाका": "ilākā",
+              "देश": "deś",
+              "राज्य": "rājya",
+              "सड़क": "saṛak"
+            },
+            "options": [
+              "सड़क",
+              "राज्य",
+              "देश",
+              "इलाका"
+            ],
+            "prompt": "zona / área"
+          },
+          {
+            "answer": "सड़क",
+            "answerTranslit": "saṛak",
+            "concept": "c:ciudad-y-lugares.calle-carretera",
+            "optionTranslit": {
+              "देश": "deś",
+              "पुल": "pul",
+              "शहर": "śahar",
+              "सड़क": "saṛak"
+            },
+            "options": [
+              "देश",
+              "सड़क",
+              "शहर",
+              "पुल"
+            ],
+            "prompt": "calle / carretera"
+          },
+          {
+            "answer": "गली",
+            "answerTranslit": "galī",
+            "concept": "c:ciudad-y-lugares.callejon",
+            "optionTranslit": {
+              "इलाका": "ilākā",
+              "गली": "galī",
+              "चौक": "cauk",
+              "सड़क": "saṛak"
+            },
+            "options": [
+              "चौक",
+              "इलाका",
+              "गली",
+              "सड़क"
+            ],
+            "prompt": "callejón"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Places in the city to move around and ask for directions.",
-      "es": "Lugares de la ciudad para moverse y pedir indicaciones.",
-      "hi": "शहर में स्थानों को स्थानांतरित करने और दिशा के लिए पूछने के लिए।"
+      "es": "Lugares de la ciudad para moverse y pedir indicaciones."
     },
     "generator": "build_lessons",
     "id": "hi-u10-l1",
@@ -310,10 +634,6 @@
       "es": [
         "Nombrar lugares de la ciudad",
         "Pedir direcciones"
-      ],
-      "hi": [
-        "शहर में नाम स्थान",
-        "पते के लिए पूछो"
       ]
     },
     "tables": [
@@ -391,8 +711,7 @@
     ],
     "title": {
       "en": "City and places",
-      "es": "La ciudad y los lugares",
-      "hi": "शहर और जगह"
+      "es": "La ciudad y los lugares"
     },
     "unit": 10
   },
@@ -417,91 +736,256 @@
         "en": "clothing",
         "es": "ropa",
         "hi": "कपड़े",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kapṛe"
       },
       {
         "concept": "c:ropa-y-accesorios.camisa",
         "en": "shirt",
         "es": "camisa",
         "hi": "शर्ट",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "śarṭ"
       },
       {
         "concept": "c:ropa-y-accesorios.camiseta",
         "en": "T-shirt",
         "es": "camiseta",
         "hi": "टी-शर्ट",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "ṭī-śarṭ"
       },
       {
         "concept": "c:ropa-y-accesorios.pantalon",
         "en": "Pants",
         "es": "pantalón",
         "hi": "पैंट",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "paiṇṭ"
       },
       {
         "concept": "c:ropa-y-accesorios.vaqueros-jeans",
         "en": "jeans / jans",
         "es": "vaqueros / jeans",
         "hi": "जींस",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "jīns"
       },
       {
         "concept": "c:ropa-y-accesorios.pantalones-cortos",
         "en": "Short pants",
         "es": "pantalones cortos",
         "hi": "शॉर्ट्स",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "śôrṭs"
       },
       {
         "concept": "c:ropa-y-accesorios.falda",
         "en": "skirt",
         "es": "falda",
         "hi": "स्कर्ट",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "skarṭ"
       },
       {
         "concept": "c:ropa-y-accesorios.vestido",
         "en": "dress up",
         "es": "vestido",
         "hi": "ड्रेस",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ḍres"
       },
       {
         "concept": "c:ropa-y-accesorios.sari",
         "en": "sari",
         "es": "sari",
         "hi": "साड़ी",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "sāṛī"
       },
       {
         "concept": "c:ropa-y-accesorios.salwar-kameez",
         "en": "salwar kameez",
         "es": "salwar kameez",
         "hi": "सलवार कमीज़",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "salvār kamīz"
       },
       {
         "concept": "c:ropa-y-accesorios.kurta",
         "en": "kurta",
         "es": "kurta",
         "hi": "कुर्ता",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kurtā"
       },
       {
         "concept": "c:ropa-y-accesorios.pijama",
         "en": "pajamas",
         "es": "pijama",
         "hi": "पायजामा",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "pāyjāmā"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "कपड़े",
+            "answerTranslit": "kapṛe",
+            "concept": "c:ropa-y-accesorios.ropa",
+            "optionTranslit": {
+              "कपड़े": "kapṛe",
+              "जींस": "jīns",
+              "टी-शर्ट": "ṭī-śarṭ",
+              "ड्रेस": "ḍres"
+            },
+            "options": [
+              "जींस",
+              "ड्रेस",
+              "टी-शर्ट",
+              "कपड़े"
+            ],
+            "prompt": "ropa"
+          },
+          {
+            "answer": "शर्ट",
+            "answerTranslit": "śarṭ",
+            "concept": "c:ropa-y-accesorios.camisa",
+            "optionTranslit": {
+              "ड्रेस": "ḍres",
+              "पायजामा": "pāyjāmā",
+              "शर्ट": "śarṭ",
+              "शॉर्ट्स": "śôrṭs"
+            },
+            "options": [
+              "शर्ट",
+              "शॉर्ट्स",
+              "पायजामा",
+              "ड्रेस"
+            ],
+            "prompt": "camisa"
+          },
+          {
+            "answer": "टी-शर्ट",
+            "answerTranslit": "ṭī-śarṭ",
+            "concept": "c:ropa-y-accesorios.camiseta",
+            "optionTranslit": {
+              "कुर्ता": "kurtā",
+              "टी-शर्ट": "ṭī-śarṭ",
+              "ड्रेस": "ḍres",
+              "पायजामा": "pāyjāmā"
+            },
+            "options": [
+              "टी-शर्ट",
+              "पायजामा",
+              "ड्रेस",
+              "कुर्ता"
+            ],
+            "prompt": "camiseta"
+          },
+          {
+            "answer": "पैंट",
+            "answerTranslit": "paiṇṭ",
+            "concept": "c:ropa-y-accesorios.pantalon",
+            "optionTranslit": {
+              "कपड़े": "kapṛe",
+              "पायजामा": "pāyjāmā",
+              "पैंट": "paiṇṭ",
+              "सलवार कमीज़": "salvār kamīz"
+            },
+            "options": [
+              "कपड़े",
+              "पैंट",
+              "पायजामा",
+              "सलवार कमीज़"
+            ],
+            "prompt": "pantalón"
+          },
+          {
+            "answer": "जींस",
+            "answerTranslit": "jīns",
+            "concept": "c:ropa-y-accesorios.vaqueros-jeans",
+            "optionTranslit": {
+              "जींस": "jīns",
+              "टी-शर्ट": "ṭī-śarṭ",
+              "साड़ी": "sāṛī",
+              "स्कर्ट": "skarṭ"
+            },
+            "options": [
+              "साड़ी",
+              "टी-शर्ट",
+              "जींस",
+              "स्कर्ट"
+            ],
+            "prompt": "vaqueros / jeans"
+          },
+          {
+            "answer": "शॉर्ट्स",
+            "answerTranslit": "śôrṭs",
+            "concept": "c:ropa-y-accesorios.pantalones-cortos",
+            "optionTranslit": {
+              "कुर्ता": "kurtā",
+              "टी-शर्ट": "ṭī-śarṭ",
+              "पैंट": "paiṇṭ",
+              "शॉर्ट्स": "śôrṭs"
+            },
+            "options": [
+              "टी-शर्ट",
+              "शॉर्ट्स",
+              "पैंट",
+              "कुर्ता"
+            ],
+            "prompt": "pantalones cortos"
+          },
+          {
+            "answer": "स्कर्ट",
+            "answerTranslit": "skarṭ",
+            "concept": "c:ropa-y-accesorios.falda",
+            "optionTranslit": {
+              "कपड़े": "kapṛe",
+              "ड्रेस": "ḍres",
+              "साड़ी": "sāṛī",
+              "स्कर्ट": "skarṭ"
+            },
+            "options": [
+              "स्कर्ट",
+              "ड्रेस",
+              "साड़ी",
+              "कपड़े"
+            ],
+            "prompt": "falda"
+          },
+          {
+            "answer": "ड्रेस",
+            "answerTranslit": "ḍres",
+            "concept": "c:ropa-y-accesorios.vestido",
+            "optionTranslit": {
+              "कपड़े": "kapṛe",
+              "ड्रेस": "ḍres",
+              "पायजामा": "pāyjāmā",
+              "पैंट": "paiṇṭ"
+            },
+            "options": [
+              "कपड़े",
+              "ड्रेस",
+              "पायजामा",
+              "पैंट"
+            ],
+            "prompt": "vestido"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Clothes and accessories, with words useful for clothes shopping.",
-      "es": "Prendas y accesorios, con palabras útiles para comprar ropa.",
-      "hi": "कलम और सामान, उपयोगी शब्दों के साथ कपड़े खरीदने के लिए।"
+      "es": "Prendas y accesorios, con palabras útiles para comprar ropa."
     },
     "generator": "build_lessons",
     "id": "hi-u11-l1",
@@ -515,10 +999,6 @@
       "es": [
         "Nombrar prendas de ropa",
         "Ir de compras"
-      ],
-      "hi": [
-        "Appoint clothes",
-        "खरीदारी"
       ]
     },
     "tables": [
@@ -596,8 +1076,7 @@
     ],
     "title": {
       "en": "Clothing and accessories",
-      "es": "La ropa y los accesorios",
-      "hi": "वस्त्र और सामान"
+      "es": "La ropa y los accesorios"
     },
     "unit": 11
   },
@@ -622,91 +1101,256 @@
         "en": "work /",
         "es": "trabajo / labor",
         "hi": "काम",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kām"
       },
       {
         "concept": "c:trabajo-y-profesiones.empleo-trabajo",
         "en": "employment / work",
         "es": "empleo / trabajo",
         "hi": "नौकरी",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "naukrī"
       },
       {
         "concept": "c:trabajo-y-profesiones.profesion-oficio",
         "en": "profession / trade",
         "es": "profesión / oficio",
         "hi": "पेशा",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "peśā"
       },
       {
         "concept": "c:trabajo-y-profesiones.negocio-profesion",
         "en": "business / profession",
         "es": "negocio / profesión",
         "hi": "व्यवसाय",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "vyavsāy"
       },
       {
         "concept": "c:trabajo-y-profesiones.empresa-compania",
         "en": "company / enterprise",
         "es": "empresa / compañía",
         "hi": "कंपनी",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kampanī"
       },
       {
         "concept": "c:trabajo-y-profesiones.oficina",
         "en": "office",
         "es": "oficina",
         "hi": "कार्यालय",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "kāryālay"
       },
       {
         "concept": "c:trabajo-y-profesiones.oficina-despacho",
         "en": "office /",
         "es": "oficina / despacho",
         "hi": "दफ़्तर",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "daftar"
       },
       {
         "concept": "c:trabajo-y-profesiones.dueno-propietario",
         "en": "owner / proprietor",
         "es": "dueño / propietario",
         "hi": "मालिक",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "mālik"
       },
       {
         "concept": "c:trabajo-y-profesiones.jefe-a",
         "en": "Chief",
         "es": "jefe/a",
         "hi": "बॉस",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "bôs"
       },
       {
         "concept": "c:trabajo-y-profesiones.empleado-a",
         "en": "employee",
         "es": "empleado/a",
         "hi": "कर्मचारी",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "karmacārī"
       },
       {
         "concept": "c:trabajo-y-profesiones.colega",
         "en": "- I'm sorry, buddy.",
         "es": "colega",
         "hi": "सहकर्मी",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "sahkarmī"
       },
       {
         "concept": "c:trabajo-y-profesiones.equipo",
         "en": "equipment",
         "es": "equipo",
         "hi": "टीम",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ṭīm"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "काम",
+            "answerTranslit": "kām",
+            "concept": "c:trabajo-y-profesiones.trabajo-labor",
+            "optionTranslit": {
+              "कर्मचारी": "karmacārī",
+              "काम": "kām",
+              "टीम": "ṭīm",
+              "दफ़्तर": "daftar"
+            },
+            "options": [
+              "दफ़्तर",
+              "कर्मचारी",
+              "काम",
+              "टीम"
+            ],
+            "prompt": "trabajo / labor"
+          },
+          {
+            "answer": "नौकरी",
+            "answerTranslit": "naukrī",
+            "concept": "c:trabajo-y-profesiones.empleo-trabajo",
+            "optionTranslit": {
+              "कंपनी": "kampanī",
+              "कर्मचारी": "karmacārī",
+              "कार्यालय": "kāryālay",
+              "नौकरी": "naukrī"
+            },
+            "options": [
+              "नौकरी",
+              "कर्मचारी",
+              "कार्यालय",
+              "कंपनी"
+            ],
+            "prompt": "empleo / trabajo"
+          },
+          {
+            "answer": "पेशा",
+            "answerTranslit": "peśā",
+            "concept": "c:trabajo-y-profesiones.profesion-oficio",
+            "optionTranslit": {
+              "कर्मचारी": "karmacārī",
+              "काम": "kām",
+              "कार्यालय": "kāryālay",
+              "पेशा": "peśā"
+            },
+            "options": [
+              "पेशा",
+              "काम",
+              "कार्यालय",
+              "कर्मचारी"
+            ],
+            "prompt": "profesión / oficio"
+          },
+          {
+            "answer": "व्यवसाय",
+            "answerTranslit": "vyavsāy",
+            "concept": "c:trabajo-y-profesiones.negocio-profesion",
+            "optionTranslit": {
+              "कर्मचारी": "karmacārī",
+              "काम": "kām",
+              "बॉस": "bôs",
+              "व्यवसाय": "vyavsāy"
+            },
+            "options": [
+              "काम",
+              "बॉस",
+              "कर्मचारी",
+              "व्यवसाय"
+            ],
+            "prompt": "negocio / profesión"
+          },
+          {
+            "answer": "कंपनी",
+            "answerTranslit": "kampanī",
+            "concept": "c:trabajo-y-profesiones.empresa-compania",
+            "optionTranslit": {
+              "कंपनी": "kampanī",
+              "काम": "kām",
+              "मालिक": "mālik",
+              "व्यवसाय": "vyavsāy"
+            },
+            "options": [
+              "कंपनी",
+              "व्यवसाय",
+              "मालिक",
+              "काम"
+            ],
+            "prompt": "empresa / compañía"
+          },
+          {
+            "answer": "कार्यालय",
+            "answerTranslit": "kāryālay",
+            "concept": "c:trabajo-y-profesiones.oficina",
+            "optionTranslit": {
+              "कार्यालय": "kāryālay",
+              "टीम": "ṭīm",
+              "दफ़्तर": "daftar",
+              "मालिक": "mālik"
+            },
+            "options": [
+              "मालिक",
+              "कार्यालय",
+              "टीम",
+              "दफ़्तर"
+            ],
+            "prompt": "oficina"
+          },
+          {
+            "answer": "दफ़्तर",
+            "answerTranslit": "daftar",
+            "concept": "c:trabajo-y-profesiones.oficina-despacho",
+            "optionTranslit": {
+              "काम": "kām",
+              "कार्यालय": "kāryālay",
+              "दफ़्तर": "daftar",
+              "नौकरी": "naukrī"
+            },
+            "options": [
+              "नौकरी",
+              "दफ़्तर",
+              "काम",
+              "कार्यालय"
+            ],
+            "prompt": "oficina / despacho"
+          },
+          {
+            "answer": "मालिक",
+            "answerTranslit": "mālik",
+            "concept": "c:trabajo-y-profesiones.dueno-propietario",
+            "optionTranslit": {
+              "कर्मचारी": "karmacārī",
+              "कार्यालय": "kāryālay",
+              "पेशा": "peśā",
+              "मालिक": "mālik"
+            },
+            "options": [
+              "पेशा",
+              "कार्यालय",
+              "मालिक",
+              "कर्मचारी"
+            ],
+            "prompt": "dueño / propietario"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Professions and words from the world of work.",
-      "es": "Profesiones y palabras del mundo laboral.",
-      "hi": "दुनिया के कार्यों का प्रचार और वचन।"
+      "es": "Profesiones y palabras del mundo laboral."
     },
     "generator": "build_lessons",
     "id": "hi-u12-l1",
@@ -720,10 +1364,6 @@
       "es": [
         "Nombrar profesiones",
         "Hablar del trabajo"
-      ],
-      "hi": [
-        "Appoint पेशे",
-        "काम के बारे में बात करें"
       ]
     },
     "tables": [
@@ -801,10 +1441,2564 @@
     ],
     "title": {
       "en": "Work and professions",
-      "es": "El trabajo y las profesiones",
-      "hi": "कार्य और व्यवसाय"
+      "es": "El trabajo y las profesiones"
     },
     "unit": 12
+  },
+  {
+    "concepts": [
+      "c:verbos-comunes.ser-estar-haber",
+      "c:verbos-comunes.hacer",
+      "c:verbos-comunes.ir",
+      "c:verbos-comunes.venir",
+      "c:verbos-comunes.ver-mirar",
+      "c:verbos-comunes.oir-escuchar",
+      "c:verbos-comunes.hablar-decir",
+      "c:verbos-comunes.decir",
+      "c:verbos-comunes.preguntar",
+      "c:verbos-comunes.contar-explicar",
+      "c:verbos-comunes.entender-comprender",
+      "c:verbos-comunes.saber-conocer"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:verbos-comunes.ser-estar-haber",
+        "en": "be / are",
+        "es": "ser / estar / haber",
+        "hi": "होना",
+        "speaker": "A",
+        "translit": "honā"
+      },
+      {
+        "concept": "c:verbos-comunes.hacer",
+        "en": "do",
+        "es": "hacer",
+        "hi": "करना",
+        "speaker": "B",
+        "translit": "karnā"
+      },
+      {
+        "concept": "c:verbos-comunes.ir",
+        "en": "go",
+        "es": "ir",
+        "hi": "जाना",
+        "speaker": "A",
+        "translit": "jānā"
+      },
+      {
+        "concept": "c:verbos-comunes.venir",
+        "en": "Come",
+        "es": "venir",
+        "hi": "आना",
+        "speaker": "B",
+        "translit": "ānā"
+      },
+      {
+        "concept": "c:verbos-comunes.ver-mirar",
+        "en": "see / watch",
+        "es": "ver / mirar",
+        "hi": "देखना",
+        "speaker": "A",
+        "translit": "dekhnā"
+      },
+      {
+        "concept": "c:verbos-comunes.oir-escuchar",
+        "en": "hear / listen",
+        "es": "oír / escuchar",
+        "hi": "सुनना",
+        "speaker": "B",
+        "translit": "sunnā"
+      },
+      {
+        "concept": "c:verbos-comunes.hablar-decir",
+        "en": "speak / say",
+        "es": "hablar / decir",
+        "hi": "बोलना",
+        "speaker": "A",
+        "translit": "bolnā"
+      },
+      {
+        "concept": "c:verbos-comunes.decir",
+        "en": "say",
+        "es": "decir",
+        "hi": "कहना",
+        "speaker": "B",
+        "translit": "kahnā"
+      },
+      {
+        "concept": "c:verbos-comunes.preguntar",
+        "en": "ask",
+        "es": "preguntar",
+        "hi": "पूछना",
+        "speaker": "A",
+        "translit": "pūchnā"
+      },
+      {
+        "concept": "c:verbos-comunes.contar-explicar",
+        "en": "count / explain",
+        "es": "contar / explicar",
+        "hi": "बताना",
+        "speaker": "B",
+        "translit": "batānā"
+      },
+      {
+        "concept": "c:verbos-comunes.entender-comprender",
+        "en": "understand / comprehend",
+        "es": "entender / comprender",
+        "hi": "समझना",
+        "speaker": "A",
+        "translit": "samajhnā"
+      },
+      {
+        "concept": "c:verbos-comunes.saber-conocer",
+        "en": "know / understand",
+        "es": "saber / conocer",
+        "hi": "जानना",
+        "speaker": "B",
+        "translit": "jānnā"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "होना",
+            "answerTranslit": "honā",
+            "concept": "c:verbos-comunes.ser-estar-haber",
+            "optionTranslit": {
+              "आना": "ānā",
+              "देखना": "dekhnā",
+              "पूछना": "pūchnā",
+              "होना": "honā"
+            },
+            "options": [
+              "होना",
+              "देखना",
+              "आना",
+              "पूछना"
+            ],
+            "prompt": "ser / estar / haber"
+          },
+          {
+            "answer": "करना",
+            "answerTranslit": "karnā",
+            "concept": "c:verbos-comunes.hacer",
+            "optionTranslit": {
+              "करना": "karnā",
+              "कहना": "kahnā",
+              "देखना": "dekhnā",
+              "बताना": "batānā"
+            },
+            "options": [
+              "देखना",
+              "करना",
+              "बताना",
+              "कहना"
+            ],
+            "prompt": "hacer"
+          },
+          {
+            "answer": "जाना",
+            "answerTranslit": "jānā",
+            "concept": "c:verbos-comunes.ir",
+            "optionTranslit": {
+              "आना": "ānā",
+              "जाना": "jānā",
+              "समझना": "samajhnā",
+              "होना": "honā"
+            },
+            "options": [
+              "जाना",
+              "होना",
+              "समझना",
+              "आना"
+            ],
+            "prompt": "ir"
+          },
+          {
+            "answer": "आना",
+            "answerTranslit": "ānā",
+            "concept": "c:verbos-comunes.venir",
+            "optionTranslit": {
+              "आना": "ānā",
+              "कहना": "kahnā",
+              "देखना": "dekhnā",
+              "समझना": "samajhnā"
+            },
+            "options": [
+              "कहना",
+              "आना",
+              "समझना",
+              "देखना"
+            ],
+            "prompt": "venir"
+          },
+          {
+            "answer": "देखना",
+            "answerTranslit": "dekhnā",
+            "concept": "c:verbos-comunes.ver-mirar",
+            "optionTranslit": {
+              "जानना": "jānnā",
+              "जाना": "jānā",
+              "देखना": "dekhnā",
+              "बोलना": "bolnā"
+            },
+            "options": [
+              "देखना",
+              "बोलना",
+              "जानना",
+              "जाना"
+            ],
+            "prompt": "ver / mirar"
+          },
+          {
+            "answer": "सुनना",
+            "answerTranslit": "sunnā",
+            "concept": "c:verbos-comunes.oir-escuchar",
+            "optionTranslit": {
+              "पूछना": "pūchnā",
+              "बताना": "batānā",
+              "समझना": "samajhnā",
+              "सुनना": "sunnā"
+            },
+            "options": [
+              "सुनना",
+              "पूछना",
+              "बताना",
+              "समझना"
+            ],
+            "prompt": "oír / escuchar"
+          },
+          {
+            "answer": "बोलना",
+            "answerTranslit": "bolnā",
+            "concept": "c:verbos-comunes.hablar-decir",
+            "optionTranslit": {
+              "जानना": "jānnā",
+              "बोलना": "bolnā",
+              "समझना": "samajhnā",
+              "होना": "honā"
+            },
+            "options": [
+              "समझना",
+              "बोलना",
+              "होना",
+              "जानना"
+            ],
+            "prompt": "hablar / decir"
+          },
+          {
+            "answer": "कहना",
+            "answerTranslit": "kahnā",
+            "concept": "c:verbos-comunes.decir",
+            "optionTranslit": {
+              "करना": "karnā",
+              "कहना": "kahnā",
+              "जाना": "jānā",
+              "देखना": "dekhnā"
+            },
+            "options": [
+              "जाना",
+              "करना",
+              "देखना",
+              "कहना"
+            ],
+            "prompt": "decir"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "The most frequent verbs, the base for building sentences.",
+      "es": "Los verbos más frecuentes, la base para formar frases."
+    },
+    "generator": "build_lessons",
+    "id": "hi-u13-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Recognise the most common verbs",
+        "Name everyday actions"
+      ],
+      "es": [
+        "Reconocer los verbos más usados",
+        "Nombrar acciones del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "ser / estar / haber",
+            "be / are",
+            "होना"
+          ],
+          [
+            "hacer",
+            "do",
+            "करना"
+          ],
+          [
+            "ir",
+            "go",
+            "जाना"
+          ],
+          [
+            "venir",
+            "Come",
+            "आना"
+          ],
+          [
+            "ver / mirar",
+            "see / watch",
+            "देखना"
+          ],
+          [
+            "oír / escuchar",
+            "hear / listen",
+            "सुनना"
+          ],
+          [
+            "hablar / decir",
+            "speak / say",
+            "बोलना"
+          ],
+          [
+            "decir",
+            "say",
+            "कहना"
+          ],
+          [
+            "preguntar",
+            "ask",
+            "पूछना"
+          ],
+          [
+            "contar / explicar",
+            "count / explain",
+            "बताना"
+          ],
+          [
+            "entender / comprender",
+            "understand / comprehend",
+            "समझना"
+          ],
+          [
+            "saber / conocer",
+            "know / understand",
+            "जानना"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Common verbs",
+      "es": "Los verbos comunes"
+    },
+    "unit": 13
+  },
+  {
+    "concepts": [
+      "c:adjetivos.bueno",
+      "c:adjetivos.malo",
+      "c:adjetivos.grande",
+      "c:adjetivos.pequeno",
+      "c:adjetivos.largo-alto",
+      "c:adjetivos.bajo-corto",
+      "c:adjetivos.nuevo",
+      "c:adjetivos.viejo-antiguo",
+      "c:adjetivos.joven",
+      "c:adjetivos.viejo-persona",
+      "c:adjetivos.hermoso-bonito",
+      "c:adjetivos.feo"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:adjetivos.bueno",
+        "en": "Good.",
+        "es": "bueno",
+        "hi": "अच्छा",
+        "speaker": "A",
+        "translit": "acchā"
+      },
+      {
+        "concept": "c:adjetivos.malo",
+        "en": "bad",
+        "es": "malo",
+        "hi": "बुरा",
+        "speaker": "B",
+        "translit": "burā"
+      },
+      {
+        "concept": "c:adjetivos.grande",
+        "en": "large",
+        "es": "grande",
+        "hi": "बड़ा",
+        "speaker": "A",
+        "translit": "baṛā"
+      },
+      {
+        "concept": "c:adjetivos.pequeno",
+        "en": "small",
+        "es": "pequeño",
+        "hi": "छोटा",
+        "speaker": "B",
+        "translit": "choṭā"
+      },
+      {
+        "concept": "c:adjetivos.largo-alto",
+        "en": "long / high",
+        "es": "largo / alto",
+        "hi": "लंबा",
+        "speaker": "A",
+        "translit": "lambā"
+      },
+      {
+        "concept": "c:adjetivos.bajo-corto",
+        "en": "low / short",
+        "es": "bajo / corto",
+        "hi": "छोटा (ऊँचाई)",
+        "speaker": "B",
+        "translit": "choṭā (ū̃cāī)"
+      },
+      {
+        "concept": "c:adjetivos.nuevo",
+        "en": "new",
+        "es": "nuevo",
+        "hi": "नया",
+        "speaker": "A",
+        "translit": "nayā"
+      },
+      {
+        "concept": "c:adjetivos.viejo-antiguo",
+        "en": "old / ancient",
+        "es": "viejo / antiguo",
+        "hi": "पुराना",
+        "speaker": "B",
+        "translit": "purānā"
+      },
+      {
+        "concept": "c:adjetivos.joven",
+        "en": "young",
+        "es": "joven",
+        "hi": "युवा",
+        "speaker": "A",
+        "translit": "yuvā"
+      },
+      {
+        "concept": "c:adjetivos.viejo-persona",
+        "en": "old (person)",
+        "es": "viejo (persona)",
+        "hi": "बूढ़ा",
+        "speaker": "B",
+        "translit": "būṛhā"
+      },
+      {
+        "concept": "c:adjetivos.hermoso-bonito",
+        "en": "beautiful / pretty",
+        "es": "hermoso / bonito",
+        "hi": "सुंदर",
+        "speaker": "A",
+        "translit": "sundar"
+      },
+      {
+        "concept": "c:adjetivos.feo",
+        "en": "ugly",
+        "es": "feo",
+        "hi": "बदसूरत",
+        "speaker": "B",
+        "translit": "badsūrat"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "अच्छा",
+            "answerTranslit": "acchā",
+            "concept": "c:adjetivos.bueno",
+            "optionTranslit": {
+              "अच्छा": "acchā",
+              "छोटा (ऊँचाई)": "choṭā (ū̃cāī)",
+              "नया": "nayā",
+              "युवा": "yuvā"
+            },
+            "options": [
+              "युवा",
+              "नया",
+              "छोटा (ऊँचाई)",
+              "अच्छा"
+            ],
+            "prompt": "bueno"
+          },
+          {
+            "answer": "बुरा",
+            "answerTranslit": "burā",
+            "concept": "c:adjetivos.malo",
+            "optionTranslit": {
+              "छोटा": "choṭā",
+              "छोटा (ऊँचाई)": "choṭā (ū̃cāī)",
+              "नया": "nayā",
+              "बुरा": "burā"
+            },
+            "options": [
+              "छोटा",
+              "छोटा (ऊँचाई)",
+              "बुरा",
+              "नया"
+            ],
+            "prompt": "malo"
+          },
+          {
+            "answer": "बड़ा",
+            "answerTranslit": "baṛā",
+            "concept": "c:adjetivos.grande",
+            "optionTranslit": {
+              "अच्छा": "acchā",
+              "बड़ा": "baṛā",
+              "बुरा": "burā",
+              "लंबा": "lambā"
+            },
+            "options": [
+              "लंबा",
+              "अच्छा",
+              "बुरा",
+              "बड़ा"
+            ],
+            "prompt": "grande"
+          },
+          {
+            "answer": "छोटा",
+            "answerTranslit": "choṭā",
+            "concept": "c:adjetivos.pequeno",
+            "optionTranslit": {
+              "छोटा": "choṭā",
+              "नया": "nayā",
+              "बुरा": "burā",
+              "बूढ़ा": "būṛhā"
+            },
+            "options": [
+              "बुरा",
+              "छोटा",
+              "नया",
+              "बूढ़ा"
+            ],
+            "prompt": "pequeño"
+          },
+          {
+            "answer": "लंबा",
+            "answerTranslit": "lambā",
+            "concept": "c:adjetivos.largo-alto",
+            "optionTranslit": {
+              "अच्छा": "acchā",
+              "युवा": "yuvā",
+              "लंबा": "lambā",
+              "सुंदर": "sundar"
+            },
+            "options": [
+              "लंबा",
+              "अच्छा",
+              "युवा",
+              "सुंदर"
+            ],
+            "prompt": "largo / alto"
+          },
+          {
+            "answer": "छोटा (ऊँचाई)",
+            "answerTranslit": "choṭā (ū̃cāī)",
+            "concept": "c:adjetivos.bajo-corto",
+            "optionTranslit": {
+              "छोटा (ऊँचाई)": "choṭā (ū̃cāī)",
+              "पुराना": "purānā",
+              "बड़ा": "baṛā",
+              "लंबा": "lambā"
+            },
+            "options": [
+              "बड़ा",
+              "लंबा",
+              "छोटा (ऊँचाई)",
+              "पुराना"
+            ],
+            "prompt": "bajo / corto"
+          },
+          {
+            "answer": "नया",
+            "answerTranslit": "nayā",
+            "concept": "c:adjetivos.nuevo",
+            "optionTranslit": {
+              "छोटा (ऊँचाई)": "choṭā (ū̃cāī)",
+              "नया": "nayā",
+              "बदसूरत": "badsūrat",
+              "बूढ़ा": "būṛhā"
+            },
+            "options": [
+              "बूढ़ा",
+              "नया",
+              "बदसूरत",
+              "छोटा (ऊँचाई)"
+            ],
+            "prompt": "nuevo"
+          },
+          {
+            "answer": "पुराना",
+            "answerTranslit": "purānā",
+            "concept": "c:adjetivos.viejo-antiguo",
+            "optionTranslit": {
+              "पुराना": "purānā",
+              "बुरा": "burā",
+              "युवा": "yuvā",
+              "सुंदर": "sundar"
+            },
+            "options": [
+              "बुरा",
+              "युवा",
+              "पुराना",
+              "सुंदर"
+            ],
+            "prompt": "viejo / antiguo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Adjectives to describe size, character, state and qualities.",
+      "es": "Adjetivos para describir tamaño, carácter, estado y cualidades."
+    },
+    "generator": "build_lessons",
+    "id": "hi-u14-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Describe with adjectives",
+        "Give opinions about things and people"
+      ],
+      "es": [
+        "Describir con adjetivos",
+        "Opinar sobre cosas y personas"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "bueno",
+            "Good.",
+            "अच्छा"
+          ],
+          [
+            "malo",
+            "bad",
+            "बुरा"
+          ],
+          [
+            "grande",
+            "large",
+            "बड़ा"
+          ],
+          [
+            "pequeño",
+            "small",
+            "छोटा"
+          ],
+          [
+            "largo / alto",
+            "long / high",
+            "लंबा"
+          ],
+          [
+            "bajo / corto",
+            "low / short",
+            "छोटा (ऊँचाई)"
+          ],
+          [
+            "nuevo",
+            "new",
+            "नया"
+          ],
+          [
+            "viejo / antiguo",
+            "old / ancient",
+            "पुराना"
+          ],
+          [
+            "joven",
+            "young",
+            "युवा"
+          ],
+          [
+            "viejo (persona)",
+            "old (person)",
+            "बूढ़ा"
+          ],
+          [
+            "hermoso / bonito",
+            "beautiful / pretty",
+            "सुंदर"
+          ],
+          [
+            "feo",
+            "ugly",
+            "बदसूरत"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Adjectives",
+      "es": "Los adjetivos"
+    },
+    "unit": 14
+  },
+  {
+    "concepts": [
+      "c:viajes-compras-y-servicios.compras-ir-de-compras",
+      "c:viajes-compras-y-servicios.tienda",
+      "c:viajes-compras-y-servicios.mercado",
+      "c:viajes-compras-y-servicios.supermercado",
+      "c:viajes-compras-y-servicios.centro-comercial",
+      "c:viajes-compras-y-servicios.vendedor-tendero",
+      "c:viajes-compras-y-servicios.cliente-comprador",
+      "c:viajes-compras-y-servicios.precio",
+      "c:viajes-compras-y-servicios.dinero",
+      "c:viajes-compras-y-servicios.rupia-india-inr",
+      "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+      "c:viajes-compras-y-servicios.tarjeta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+        "en": "shopping / going for purchases",
+        "es": "compras / ir de compras",
+        "hi": "खरीदारी",
+        "speaker": "A",
+        "translit": "kharīdārī"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tienda",
+        "en": "shop",
+        "es": "tienda",
+        "hi": "दुकान",
+        "speaker": "B",
+        "translit": "dukān"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.mercado",
+        "en": "market",
+        "es": "mercado",
+        "hi": "बाज़ार",
+        "speaker": "A",
+        "translit": "bāzār"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.supermercado",
+        "en": "supermarket",
+        "es": "supermercado",
+        "hi": "सुपरमार्केट",
+        "speaker": "B",
+        "translit": "suparmārkeṭ"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.centro-comercial",
+        "en": "shopping centre",
+        "es": "centro comercial",
+        "hi": "मॉल",
+        "speaker": "A",
+        "translit": "môl"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+        "en": "seller / tenderer",
+        "es": "vendedor / tendero",
+        "hi": "दुकानदार",
+        "speaker": "B",
+        "translit": "dukāndār"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+        "en": "customer / buyer",
+        "es": "cliente / comprador",
+        "hi": "ग्राहक",
+        "speaker": "A",
+        "translit": "grāhak"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.precio",
+        "en": "price",
+        "es": "precio",
+        "hi": "कीमत",
+        "speaker": "B",
+        "translit": "kīmat"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.dinero",
+        "en": "money",
+        "es": "dinero",
+        "hi": "पैसा",
+        "speaker": "A",
+        "translit": "paisā"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.rupia-india-inr",
+        "en": "Indian rupee (INR)",
+        "es": "rupia india (INR)",
+        "hi": "रुपया",
+        "speaker": "B",
+        "translit": "rupayā"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.efectivo-dinero-en-efectivo",
+        "en": "cash / money in the form of",
+        "es": "efectivo / dinero en efectivo",
+        "hi": "नकद",
+        "speaker": "A",
+        "translit": "nakad"
+      },
+      {
+        "concept": "c:viajes-compras-y-servicios.tarjeta",
+        "en": "card",
+        "es": "tarjeta",
+        "hi": "कार्ड",
+        "speaker": "B",
+        "translit": "kārḍ"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "खरीदारी",
+            "answerTranslit": "kharīdārī",
+            "concept": "c:viajes-compras-y-servicios.compras-ir-de-compras",
+            "optionTranslit": {
+              "खरीदारी": "kharīdārī",
+              "ग्राहक": "grāhak",
+              "मॉल": "môl",
+              "सुपरमार्केट": "suparmārkeṭ"
+            },
+            "options": [
+              "सुपरमार्केट",
+              "ग्राहक",
+              "खरीदारी",
+              "मॉल"
+            ],
+            "prompt": "compras / ir de compras"
+          },
+          {
+            "answer": "दुकान",
+            "answerTranslit": "dukān",
+            "concept": "c:viajes-compras-y-servicios.tienda",
+            "optionTranslit": {
+              "कार्ड": "kārḍ",
+              "दुकान": "dukān",
+              "दुकानदार": "dukāndār",
+              "नकद": "nakad"
+            },
+            "options": [
+              "दुकानदार",
+              "दुकान",
+              "कार्ड",
+              "नकद"
+            ],
+            "prompt": "tienda"
+          },
+          {
+            "answer": "बाज़ार",
+            "answerTranslit": "bāzār",
+            "concept": "c:viajes-compras-y-servicios.mercado",
+            "optionTranslit": {
+              "कार्ड": "kārḍ",
+              "दुकान": "dukān",
+              "बाज़ार": "bāzār",
+              "रुपया": "rupayā"
+            },
+            "options": [
+              "रुपया",
+              "दुकान",
+              "बाज़ार",
+              "कार्ड"
+            ],
+            "prompt": "mercado"
+          },
+          {
+            "answer": "सुपरमार्केट",
+            "answerTranslit": "suparmārkeṭ",
+            "concept": "c:viajes-compras-y-servicios.supermercado",
+            "optionTranslit": {
+              "कीमत": "kīmat",
+              "दुकान": "dukān",
+              "रुपया": "rupayā",
+              "सुपरमार्केट": "suparmārkeṭ"
+            },
+            "options": [
+              "रुपया",
+              "कीमत",
+              "दुकान",
+              "सुपरमार्केट"
+            ],
+            "prompt": "supermercado"
+          },
+          {
+            "answer": "मॉल",
+            "answerTranslit": "môl",
+            "concept": "c:viajes-compras-y-servicios.centro-comercial",
+            "optionTranslit": {
+              "दुकानदार": "dukāndār",
+              "बाज़ार": "bāzār",
+              "मॉल": "môl",
+              "सुपरमार्केट": "suparmārkeṭ"
+            },
+            "options": [
+              "सुपरमार्केट",
+              "दुकानदार",
+              "मॉल",
+              "बाज़ार"
+            ],
+            "prompt": "centro comercial"
+          },
+          {
+            "answer": "दुकानदार",
+            "answerTranslit": "dukāndār",
+            "concept": "c:viajes-compras-y-servicios.vendedor-tendero",
+            "optionTranslit": {
+              "खरीदारी": "kharīdārī",
+              "दुकानदार": "dukāndār",
+              "रुपया": "rupayā",
+              "सुपरमार्केट": "suparmārkeṭ"
+            },
+            "options": [
+              "खरीदारी",
+              "रुपया",
+              "दुकानदार",
+              "सुपरमार्केट"
+            ],
+            "prompt": "vendedor / tendero"
+          },
+          {
+            "answer": "ग्राहक",
+            "answerTranslit": "grāhak",
+            "concept": "c:viajes-compras-y-servicios.cliente-comprador",
+            "optionTranslit": {
+              "कीमत": "kīmat",
+              "खरीदारी": "kharīdārī",
+              "ग्राहक": "grāhak",
+              "नकद": "nakad"
+            },
+            "options": [
+              "खरीदारी",
+              "कीमत",
+              "नकद",
+              "ग्राहक"
+            ],
+            "prompt": "cliente / comprador"
+          },
+          {
+            "answer": "कीमत",
+            "answerTranslit": "kīmat",
+            "concept": "c:viajes-compras-y-servicios.precio",
+            "optionTranslit": {
+              "कीमत": "kīmat",
+              "खरीदारी": "kharīdārī",
+              "नकद": "nakad",
+              "पैसा": "paisā"
+            },
+            "options": [
+              "पैसा",
+              "नकद",
+              "खरीदारी",
+              "कीमत"
+            ],
+            "prompt": "precio"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words to shop, pay and use services during a trip.",
+      "es": "Palabras para comprar, pagar y usar servicios durante un viaje."
+    },
+    "generator": "build_lessons",
+    "id": "hi-u15-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Handle shopping and services",
+        "Ask about prices and opening hours"
+      ],
+      "es": [
+        "Resolver compras y servicios",
+        "Preguntar precios y horarios"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "compras / ir de compras",
+            "shopping / going for purchases",
+            "खरीदारी"
+          ],
+          [
+            "tienda",
+            "shop",
+            "दुकान"
+          ],
+          [
+            "mercado",
+            "market",
+            "बाज़ार"
+          ],
+          [
+            "supermercado",
+            "supermarket",
+            "सुपरमार्केट"
+          ],
+          [
+            "centro comercial",
+            "shopping centre",
+            "मॉल"
+          ],
+          [
+            "vendedor / tendero",
+            "seller / tenderer",
+            "दुकानदार"
+          ],
+          [
+            "cliente / comprador",
+            "customer / buyer",
+            "ग्राहक"
+          ],
+          [
+            "precio",
+            "price",
+            "कीमत"
+          ],
+          [
+            "dinero",
+            "money",
+            "पैसा"
+          ],
+          [
+            "rupia india (INR)",
+            "Indian rupee (INR)",
+            "रुपया"
+          ],
+          [
+            "efectivo / dinero en efectivo",
+            "cash / money in the form of",
+            "नकद"
+          ],
+          [
+            "tarjeta",
+            "card",
+            "कार्ड"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Travel, shopping and services",
+      "es": "Viajes, compras y servicios"
+    },
+    "unit": 15
+  },
+  {
+    "concepts": [
+      "c:transporte-y-viajes.viaje",
+      "c:transporte-y-viajes.viaje-trayecto",
+      "c:transporte-y-viajes.turismo",
+      "c:transporte-y-viajes.coche-auto",
+      "c:transporte-y-viajes.taxi",
+      "c:transporte-y-viajes.autobus",
+      "c:transporte-y-viajes.tren",
+      "c:transporte-y-viajes.metro",
+      "c:transporte-y-viajes.avion",
+      "c:transporte-y-viajes.barco-avion",
+      "c:transporte-y-viajes.barco-bote",
+      "c:transporte-y-viajes.bicicleta"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:transporte-y-viajes.viaje",
+        "en": "travel",
+        "es": "viaje",
+        "hi": "यात्रा",
+        "speaker": "A",
+        "translit": "yātrā"
+      },
+      {
+        "concept": "c:transporte-y-viajes.viaje-trayecto",
+        "en": "travel / journey",
+        "es": "viaje / trayecto",
+        "hi": "सफ़र",
+        "speaker": "B",
+        "translit": "safar"
+      },
+      {
+        "concept": "c:transporte-y-viajes.turismo",
+        "en": "tourism",
+        "es": "turismo",
+        "hi": "पर्यटन",
+        "speaker": "A",
+        "translit": "paryaṭan"
+      },
+      {
+        "concept": "c:transporte-y-viajes.coche-auto",
+        "en": "car / vehicle",
+        "es": "coche / auto",
+        "hi": "कार",
+        "speaker": "B",
+        "translit": "kār"
+      },
+      {
+        "concept": "c:transporte-y-viajes.taxi",
+        "en": "taxi",
+        "es": "taxi",
+        "hi": "टैक्सी",
+        "speaker": "A",
+        "translit": "ṭaiksī"
+      },
+      {
+        "concept": "c:transporte-y-viajes.autobus",
+        "en": "bus",
+        "es": "autobús",
+        "hi": "बस",
+        "speaker": "B",
+        "translit": "bas"
+      },
+      {
+        "concept": "c:transporte-y-viajes.tren",
+        "en": "train",
+        "es": "tren",
+        "hi": "ट्रेन",
+        "speaker": "A",
+        "translit": "ṭren"
+      },
+      {
+        "concept": "c:transporte-y-viajes.metro",
+        "en": "Subway",
+        "es": "metro",
+        "hi": "मेट्रो",
+        "speaker": "B",
+        "translit": "meṭro"
+      },
+      {
+        "concept": "c:transporte-y-viajes.avion",
+        "en": "aircraft",
+        "es": "avión",
+        "hi": "हवाई जहाज़",
+        "speaker": "A",
+        "translit": "havāī jahāz"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-avion",
+        "en": "boat / aircraft",
+        "es": "barco / avión",
+        "hi": "जहाज़",
+        "speaker": "B",
+        "translit": "jahāz"
+      },
+      {
+        "concept": "c:transporte-y-viajes.barco-bote",
+        "en": "boat / ship",
+        "es": "barco / bote",
+        "hi": "नाव",
+        "speaker": "A",
+        "translit": "nāv"
+      },
+      {
+        "concept": "c:transporte-y-viajes.bicicleta",
+        "en": "bicycle",
+        "es": "bicicleta",
+        "hi": "साइकिल",
+        "speaker": "B",
+        "translit": "sāikil"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "यात्रा",
+            "answerTranslit": "yātrā",
+            "concept": "c:transporte-y-viajes.viaje",
+            "optionTranslit": {
+              "जहाज़": "jahāz",
+              "टैक्सी": "ṭaiksī",
+              "नाव": "nāv",
+              "यात्रा": "yātrā"
+            },
+            "options": [
+              "टैक्सी",
+              "जहाज़",
+              "नाव",
+              "यात्रा"
+            ],
+            "prompt": "viaje"
+          },
+          {
+            "answer": "सफ़र",
+            "answerTranslit": "safar",
+            "concept": "c:transporte-y-viajes.viaje-trayecto",
+            "optionTranslit": {
+              "नाव": "nāv",
+              "पर्यटन": "paryaṭan",
+              "मेट्रो": "meṭro",
+              "सफ़र": "safar"
+            },
+            "options": [
+              "मेट्रो",
+              "पर्यटन",
+              "नाव",
+              "सफ़र"
+            ],
+            "prompt": "viaje / trayecto"
+          },
+          {
+            "answer": "पर्यटन",
+            "answerTranslit": "paryaṭan",
+            "concept": "c:transporte-y-viajes.turismo",
+            "optionTranslit": {
+              "जहाज़": "jahāz",
+              "पर्यटन": "paryaṭan",
+              "मेट्रो": "meṭro",
+              "सफ़र": "safar"
+            },
+            "options": [
+              "सफ़र",
+              "जहाज़",
+              "मेट्रो",
+              "पर्यटन"
+            ],
+            "prompt": "turismo"
+          },
+          {
+            "answer": "कार",
+            "answerTranslit": "kār",
+            "concept": "c:transporte-y-viajes.coche-auto",
+            "optionTranslit": {
+              "कार": "kār",
+              "जहाज़": "jahāz",
+              "यात्रा": "yātrā",
+              "हवाई जहाज़": "havāī jahāz"
+            },
+            "options": [
+              "कार",
+              "हवाई जहाज़",
+              "जहाज़",
+              "यात्रा"
+            ],
+            "prompt": "coche / auto"
+          },
+          {
+            "answer": "टैक्सी",
+            "answerTranslit": "ṭaiksī",
+            "concept": "c:transporte-y-viajes.taxi",
+            "optionTranslit": {
+              "टैक्सी": "ṭaiksī",
+              "पर्यटन": "paryaṭan",
+              "यात्रा": "yātrā",
+              "सफ़र": "safar"
+            },
+            "options": [
+              "यात्रा",
+              "पर्यटन",
+              "टैक्सी",
+              "सफ़र"
+            ],
+            "prompt": "taxi"
+          },
+          {
+            "answer": "बस",
+            "answerTranslit": "bas",
+            "concept": "c:transporte-y-viajes.autobus",
+            "optionTranslit": {
+              "कार": "kār",
+              "टैक्सी": "ṭaiksī",
+              "बस": "bas",
+              "साइकिल": "sāikil"
+            },
+            "options": [
+              "कार",
+              "टैक्सी",
+              "बस",
+              "साइकिल"
+            ],
+            "prompt": "autobús"
+          },
+          {
+            "answer": "ट्रेन",
+            "answerTranslit": "ṭren",
+            "concept": "c:transporte-y-viajes.tren",
+            "optionTranslit": {
+              "जहाज़": "jahāz",
+              "ट्रेन": "ṭren",
+              "बस": "bas",
+              "साइकिल": "sāikil"
+            },
+            "options": [
+              "जहाज़",
+              "बस",
+              "ट्रेन",
+              "साइकिल"
+            ],
+            "prompt": "tren"
+          },
+          {
+            "answer": "मेट्रो",
+            "answerTranslit": "meṭro",
+            "concept": "c:transporte-y-viajes.metro",
+            "optionTranslit": {
+              "जहाज़": "jahāz",
+              "मेट्रो": "meṭro",
+              "यात्रा": "yātrā",
+              "हवाई जहाज़": "havāī jahāz"
+            },
+            "options": [
+              "यात्रा",
+              "मेट्रो",
+              "जहाज़",
+              "हवाई जहाज़"
+            ],
+            "prompt": "metro"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Means of transport and words useful to get around.",
+      "es": "Medios de transporte y palabras útiles para desplazarse."
+    },
+    "generator": "build_lessons",
+    "id": "hi-u16-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name means of transport",
+        "Get around and travel"
+      ],
+      "es": [
+        "Nombrar medios de transporte",
+        "Moverse y viajar"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "viaje",
+            "travel",
+            "यात्रा"
+          ],
+          [
+            "viaje / trayecto",
+            "travel / journey",
+            "सफ़र"
+          ],
+          [
+            "turismo",
+            "tourism",
+            "पर्यटन"
+          ],
+          [
+            "coche / auto",
+            "car / vehicle",
+            "कार"
+          ],
+          [
+            "taxi",
+            "taxi",
+            "टैक्सी"
+          ],
+          [
+            "autobús",
+            "bus",
+            "बस"
+          ],
+          [
+            "tren",
+            "train",
+            "ट्रेन"
+          ],
+          [
+            "metro",
+            "Subway",
+            "मेट्रो"
+          ],
+          [
+            "avión",
+            "aircraft",
+            "हवाई जहाज़"
+          ],
+          [
+            "barco / avión",
+            "boat / aircraft",
+            "जहाज़"
+          ],
+          [
+            "barco / bote",
+            "boat / ship",
+            "नाव"
+          ],
+          [
+            "bicicleta",
+            "bicycle",
+            "साइकिल"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Transport and travel",
+      "es": "El transporte y los viajes"
+    },
+    "unit": 16
+  },
+  {
+    "concepts": [
+      "c:educacion-y-aprendizaje.educacion",
+      "c:educacion-y-aprendizaje.escuela",
+      "c:educacion-y-aprendizaje.clase-aula-grado",
+      "c:educacion-y-aprendizaje.leccion",
+      "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+      "c:educacion-y-aprendizaje.materia-tema-asunto",
+      "c:educacion-y-aprendizaje.matematicas",
+      "c:educacion-y-aprendizaje.ciencia",
+      "c:educacion-y-aprendizaje.historia",
+      "c:educacion-y-aprendizaje.geografia",
+      "c:educacion-y-aprendizaje.literatura",
+      "c:educacion-y-aprendizaje.idioma-lengua"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:educacion-y-aprendizaje.educacion",
+        "en": "education",
+        "es": "educación",
+        "hi": "शिक्षा",
+        "speaker": "A",
+        "translit": "śikṣā"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.escuela",
+        "en": "school",
+        "es": "escuela",
+        "hi": "स्कूल",
+        "speaker": "B",
+        "translit": "skūl"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+        "en": "class / classroom",
+        "es": "clase / aula / grado",
+        "hi": "कक्षा",
+        "speaker": "A",
+        "translit": "kakṣā"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.leccion",
+        "en": "lesson",
+        "es": "lección",
+        "hi": "पाठ",
+        "speaker": "B",
+        "translit": "pāṭh"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+        "en": "curriculum / course",
+        "es": "plan de estudios / curso",
+        "hi": "पाठ्यक्रम",
+        "speaker": "A",
+        "translit": "pāṭhyakram"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+        "en": "subject / topic",
+        "es": "materia / tema / asunto",
+        "hi": "विषय",
+        "speaker": "B",
+        "translit": "viṣay"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.matematicas",
+        "en": "mathematics",
+        "es": "matemáticas",
+        "hi": "गणित",
+        "speaker": "A",
+        "translit": "gaṇit"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.ciencia",
+        "en": "science",
+        "es": "ciencia",
+        "hi": "विज्ञान",
+        "speaker": "B",
+        "translit": "vijñān"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.historia",
+        "en": "history",
+        "es": "historia",
+        "hi": "इतिहास",
+        "speaker": "A",
+        "translit": "itihās"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.geografia",
+        "en": "geography",
+        "es": "geografía",
+        "hi": "भूगोल",
+        "speaker": "B",
+        "translit": "bhūgol"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.literatura",
+        "en": "literature",
+        "es": "literatura",
+        "hi": "साहित्य",
+        "speaker": "A",
+        "translit": "sāhitya"
+      },
+      {
+        "concept": "c:educacion-y-aprendizaje.idioma-lengua",
+        "en": "language / tongue",
+        "es": "idioma / lengua",
+        "hi": "भाषा",
+        "speaker": "B",
+        "translit": "bhāṣā"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "शिक्षा",
+            "answerTranslit": "śikṣā",
+            "concept": "c:educacion-y-aprendizaje.educacion",
+            "optionTranslit": {
+              "पाठ्यक्रम": "pāṭhyakram",
+              "भाषा": "bhāṣā",
+              "विषय": "viṣay",
+              "शिक्षा": "śikṣā"
+            },
+            "options": [
+              "विषय",
+              "पाठ्यक्रम",
+              "भाषा",
+              "शिक्षा"
+            ],
+            "prompt": "educación"
+          },
+          {
+            "answer": "स्कूल",
+            "answerTranslit": "skūl",
+            "concept": "c:educacion-y-aprendizaje.escuela",
+            "optionTranslit": {
+              "गणित": "gaṇit",
+              "भूगोल": "bhūgol",
+              "विषय": "viṣay",
+              "स्कूल": "skūl"
+            },
+            "options": [
+              "विषय",
+              "भूगोल",
+              "गणित",
+              "स्कूल"
+            ],
+            "prompt": "escuela"
+          },
+          {
+            "answer": "कक्षा",
+            "answerTranslit": "kakṣā",
+            "concept": "c:educacion-y-aprendizaje.clase-aula-grado",
+            "optionTranslit": {
+              "इतिहास": "itihās",
+              "कक्षा": "kakṣā",
+              "भूगोल": "bhūgol",
+              "विषय": "viṣay"
+            },
+            "options": [
+              "विषय",
+              "भूगोल",
+              "इतिहास",
+              "कक्षा"
+            ],
+            "prompt": "clase / aula / grado"
+          },
+          {
+            "answer": "पाठ",
+            "answerTranslit": "pāṭh",
+            "concept": "c:educacion-y-aprendizaje.leccion",
+            "optionTranslit": {
+              "इतिहास": "itihās",
+              "पाठ": "pāṭh",
+              "भाषा": "bhāṣā",
+              "विषय": "viṣay"
+            },
+            "options": [
+              "इतिहास",
+              "भाषा",
+              "विषय",
+              "पाठ"
+            ],
+            "prompt": "lección"
+          },
+          {
+            "answer": "पाठ्यक्रम",
+            "answerTranslit": "pāṭhyakram",
+            "concept": "c:educacion-y-aprendizaje.plan-de-estudios-curso",
+            "optionTranslit": {
+              "गणित": "gaṇit",
+              "पाठ्यक्रम": "pāṭhyakram",
+              "भूगोल": "bhūgol",
+              "स्कूल": "skūl"
+            },
+            "options": [
+              "स्कूल",
+              "भूगोल",
+              "गणित",
+              "पाठ्यक्रम"
+            ],
+            "prompt": "plan de estudios / curso"
+          },
+          {
+            "answer": "विषय",
+            "answerTranslit": "viṣay",
+            "concept": "c:educacion-y-aprendizaje.materia-tema-asunto",
+            "optionTranslit": {
+              "भूगोल": "bhūgol",
+              "विषय": "viṣay",
+              "साहित्य": "sāhitya",
+              "स्कूल": "skūl"
+            },
+            "options": [
+              "विषय",
+              "स्कूल",
+              "भूगोल",
+              "साहित्य"
+            ],
+            "prompt": "materia / tema / asunto"
+          },
+          {
+            "answer": "गणित",
+            "answerTranslit": "gaṇit",
+            "concept": "c:educacion-y-aprendizaje.matematicas",
+            "optionTranslit": {
+              "गणित": "gaṇit",
+              "भाषा": "bhāṣā",
+              "भूगोल": "bhūgol",
+              "स्कूल": "skūl"
+            },
+            "options": [
+              "भाषा",
+              "भूगोल",
+              "गणित",
+              "स्कूल"
+            ],
+            "prompt": "matemáticas"
+          },
+          {
+            "answer": "विज्ञान",
+            "answerTranslit": "vijñān",
+            "concept": "c:educacion-y-aprendizaje.ciencia",
+            "optionTranslit": {
+              "गणित": "gaṇit",
+              "भाषा": "bhāṣā",
+              "विज्ञान": "vijñān",
+              "शिक्षा": "śikṣā"
+            },
+            "options": [
+              "शिक्षा",
+              "गणित",
+              "भाषा",
+              "विज्ञान"
+            ],
+            "prompt": "ciencia"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Words from school and learning.",
+      "es": "Palabras de la escuela y del aprendizaje."
+    },
+    "generator": "build_lessons",
+    "id": "hi-u17-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Talk about studies",
+        "Name school and its objects"
+      ],
+      "es": [
+        "Hablar de estudios",
+        "Nombrar la escuela y sus objetos"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "educación",
+            "education",
+            "शिक्षा"
+          ],
+          [
+            "escuela",
+            "school",
+            "स्कूल"
+          ],
+          [
+            "clase / aula / grado",
+            "class / classroom",
+            "कक्षा"
+          ],
+          [
+            "lección",
+            "lesson",
+            "पाठ"
+          ],
+          [
+            "plan de estudios / curso",
+            "curriculum / course",
+            "पाठ्यक्रम"
+          ],
+          [
+            "materia / tema / asunto",
+            "subject / topic",
+            "विषय"
+          ],
+          [
+            "matemáticas",
+            "mathematics",
+            "गणित"
+          ],
+          [
+            "ciencia",
+            "science",
+            "विज्ञान"
+          ],
+          [
+            "historia",
+            "history",
+            "इतिहास"
+          ],
+          [
+            "geografía",
+            "geography",
+            "भूगोल"
+          ],
+          [
+            "literatura",
+            "literature",
+            "साहित्य"
+          ],
+          [
+            "idioma / lengua",
+            "language / tongue",
+            "भाषा"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Education and learning",
+      "es": "La educación y el aprendizaje"
+    },
+    "unit": 17
+  },
+  {
+    "concepts": [
+      "c:tecnologia-y-comunicacion.tecnologia",
+      "c:tecnologia-y-comunicacion.computadora-ordenador",
+      "c:tecnologia-y-comunicacion.portatil-laptop",
+      "c:tecnologia-y-comunicacion.tableta",
+      "c:tecnologia-y-comunicacion.telefono-movil-celular",
+      "c:tecnologia-y-comunicacion.telefono",
+      "c:tecnologia-y-comunicacion.pantalla",
+      "c:tecnologia-y-comunicacion.teclado",
+      "c:tecnologia-y-comunicacion.raton-informatica",
+      "c:tecnologia-y-comunicacion.impresora",
+      "c:tecnologia-y-comunicacion.camara",
+      "c:tecnologia-y-comunicacion.microfono"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:tecnologia-y-comunicacion.tecnologia",
+        "en": "technology",
+        "es": "tecnología",
+        "hi": "तकनीक",
+        "speaker": "A",
+        "translit": "taknīk"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+        "en": "computer / PC",
+        "es": "computadora / ordenador",
+        "hi": "कंप्यूटर",
+        "speaker": "B",
+        "translit": "kampyūṭar"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+        "en": "laptop / laptop",
+        "es": "portátil / laptop",
+        "hi": "लैपटॉप",
+        "speaker": "A",
+        "translit": "laipṭôp"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.tableta",
+        "en": "tablet",
+        "es": "tableta",
+        "hi": "टैबलेट",
+        "speaker": "B",
+        "translit": "ṭaibleṭ"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+        "en": "mobile / cell phone",
+        "es": "teléfono móvil / celular",
+        "hi": "मोबाइल",
+        "speaker": "A",
+        "translit": "mobāil"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.telefono",
+        "en": "phone",
+        "es": "teléfono",
+        "hi": "फ़ोन",
+        "speaker": "B",
+        "translit": "fon"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.pantalla",
+        "en": "screen",
+        "es": "pantalla",
+        "hi": "स्क्रीन",
+        "speaker": "A",
+        "translit": "skrīn"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.teclado",
+        "en": "keyboard",
+        "es": "teclado",
+        "hi": "कीबोर्ड",
+        "speaker": "B",
+        "translit": "kīborḍ"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.raton-informatica",
+        "en": "mouse (computer)",
+        "es": "ratón (informática)",
+        "hi": "माउस",
+        "speaker": "A",
+        "translit": "māus"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.impresora",
+        "en": "printer",
+        "es": "impresora",
+        "hi": "प्रिंटर",
+        "speaker": "B",
+        "translit": "prinṭar"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.camara",
+        "en": "camera",
+        "es": "cámara",
+        "hi": "कैमरा",
+        "speaker": "A",
+        "translit": "kaimrā"
+      },
+      {
+        "concept": "c:tecnologia-y-comunicacion.microfono",
+        "en": "microphone",
+        "es": "micrófono",
+        "hi": "माइक्रोफ़ोन",
+        "speaker": "B",
+        "translit": "māikrofon"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "तकनीक",
+            "answerTranslit": "taknīk",
+            "concept": "c:tecnologia-y-comunicacion.tecnologia",
+            "optionTranslit": {
+              "कंप्यूटर": "kampyūṭar",
+              "तकनीक": "taknīk",
+              "माउस": "māus",
+              "लैपटॉप": "laipṭôp"
+            },
+            "options": [
+              "तकनीक",
+              "कंप्यूटर",
+              "लैपटॉप",
+              "माउस"
+            ],
+            "prompt": "tecnología"
+          },
+          {
+            "answer": "कंप्यूटर",
+            "answerTranslit": "kampyūṭar",
+            "concept": "c:tecnologia-y-comunicacion.computadora-ordenador",
+            "optionTranslit": {
+              "कंप्यूटर": "kampyūṭar",
+              "कीबोर्ड": "kīborḍ",
+              "टैबलेट": "ṭaibleṭ",
+              "लैपटॉप": "laipṭôp"
+            },
+            "options": [
+              "लैपटॉप",
+              "कीबोर्ड",
+              "टैबलेट",
+              "कंप्यूटर"
+            ],
+            "prompt": "computadora / ordenador"
+          },
+          {
+            "answer": "लैपटॉप",
+            "answerTranslit": "laipṭôp",
+            "concept": "c:tecnologia-y-comunicacion.portatil-laptop",
+            "optionTranslit": {
+              "तकनीक": "taknīk",
+              "फ़ोन": "fon",
+              "मोबाइल": "mobāil",
+              "लैपटॉप": "laipṭôp"
+            },
+            "options": [
+              "तकनीक",
+              "लैपटॉप",
+              "मोबाइल",
+              "फ़ोन"
+            ],
+            "prompt": "portátil / laptop"
+          },
+          {
+            "answer": "टैबलेट",
+            "answerTranslit": "ṭaibleṭ",
+            "concept": "c:tecnologia-y-comunicacion.tableta",
+            "optionTranslit": {
+              "टैबलेट": "ṭaibleṭ",
+              "प्रिंटर": "prinṭar",
+              "फ़ोन": "fon",
+              "माइक्रोफ़ोन": "māikrofon"
+            },
+            "options": [
+              "माइक्रोफ़ोन",
+              "प्रिंटर",
+              "फ़ोन",
+              "टैबलेट"
+            ],
+            "prompt": "tableta"
+          },
+          {
+            "answer": "मोबाइल",
+            "answerTranslit": "mobāil",
+            "concept": "c:tecnologia-y-comunicacion.telefono-movil-celular",
+            "optionTranslit": {
+              "कंप्यूटर": "kampyūṭar",
+              "कीबोर्ड": "kīborḍ",
+              "टैबलेट": "ṭaibleṭ",
+              "मोबाइल": "mobāil"
+            },
+            "options": [
+              "कीबोर्ड",
+              "कंप्यूटर",
+              "टैबलेट",
+              "मोबाइल"
+            ],
+            "prompt": "teléfono móvil / celular"
+          },
+          {
+            "answer": "फ़ोन",
+            "answerTranslit": "fon",
+            "concept": "c:tecnologia-y-comunicacion.telefono",
+            "optionTranslit": {
+              "कीबोर्ड": "kīborḍ",
+              "प्रिंटर": "prinṭar",
+              "फ़ोन": "fon",
+              "लैपटॉप": "laipṭôp"
+            },
+            "options": [
+              "प्रिंटर",
+              "लैपटॉप",
+              "फ़ोन",
+              "कीबोर्ड"
+            ],
+            "prompt": "teléfono"
+          },
+          {
+            "answer": "स्क्रीन",
+            "answerTranslit": "skrīn",
+            "concept": "c:tecnologia-y-comunicacion.pantalla",
+            "optionTranslit": {
+              "कीबोर्ड": "kīborḍ",
+              "कैमरा": "kaimrā",
+              "तकनीक": "taknīk",
+              "स्क्रीन": "skrīn"
+            },
+            "options": [
+              "तकनीक",
+              "कीबोर्ड",
+              "स्क्रीन",
+              "कैमरा"
+            ],
+            "prompt": "pantalla"
+          },
+          {
+            "answer": "कीबोर्ड",
+            "answerTranslit": "kīborḍ",
+            "concept": "c:tecnologia-y-comunicacion.teclado",
+            "optionTranslit": {
+              "कंप्यूटर": "kampyūṭar",
+              "कीबोर्ड": "kīborḍ",
+              "टैबलेट": "ṭaibleṭ",
+              "स्क्रीन": "skrīn"
+            },
+            "options": [
+              "टैबलेट",
+              "स्क्रीन",
+              "कीबोर्ड",
+              "कंप्यूटर"
+            ],
+            "prompt": "teclado"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Devices, internet and everyday communication.",
+      "es": "Aparatos, internet y comunicación del día a día."
+    },
+    "generator": "build_lessons",
+    "id": "hi-u18-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name devices and services",
+        "Talk on the phone and online"
+      ],
+      "es": [
+        "Nombrar aparatos y servicios",
+        "Hablar por teléfono e internet"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "tecnología",
+            "technology",
+            "तकनीक"
+          ],
+          [
+            "computadora / ordenador",
+            "computer / PC",
+            "कंप्यूटर"
+          ],
+          [
+            "portátil / laptop",
+            "laptop / laptop",
+            "लैपटॉप"
+          ],
+          [
+            "tableta",
+            "tablet",
+            "टैबलेट"
+          ],
+          [
+            "teléfono móvil / celular",
+            "mobile / cell phone",
+            "मोबाइल"
+          ],
+          [
+            "teléfono",
+            "phone",
+            "फ़ोन"
+          ],
+          [
+            "pantalla",
+            "screen",
+            "स्क्रीन"
+          ],
+          [
+            "teclado",
+            "keyboard",
+            "कीबोर्ड"
+          ],
+          [
+            "ratón (informática)",
+            "mouse (computer)",
+            "माउस"
+          ],
+          [
+            "impresora",
+            "printer",
+            "प्रिंटर"
+          ],
+          [
+            "cámara",
+            "camera",
+            "कैमरा"
+          ],
+          [
+            "micrófono",
+            "microphone",
+            "माइक्रोफ़ोन"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Technology and communication",
+      "es": "La tecnología y la comunicación"
+    },
+    "unit": 18
+  },
+  {
+    "concepts": [
+      "c:naturaleza-y-clima.naturaleza",
+      "c:naturaleza-y-clima.arbol",
+      "c:naturaleza-y-clima.planta",
+      "c:naturaleza-y-clima.flor",
+      "c:naturaleza-y-clima.hoja",
+      "c:naturaleza-y-clima.raiz",
+      "c:naturaleza-y-clima.rama",
+      "c:naturaleza-y-clima.tronco-tallo",
+      "c:naturaleza-y-clima.semilla",
+      "c:naturaleza-y-clima.hierba-cesped",
+      "c:naturaleza-y-clima.bosque-selva",
+      "c:naturaleza-y-clima.montana"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:naturaleza-y-clima.naturaleza",
+        "en": "nature",
+        "es": "naturaleza",
+        "hi": "प्रकृति",
+        "speaker": "A",
+        "translit": "prakṛti"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.arbol",
+        "en": "tree",
+        "es": "árbol",
+        "hi": "पेड़",
+        "speaker": "B",
+        "translit": "peṛ"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.planta",
+        "en": "plant",
+        "es": "planta",
+        "hi": "पौधा",
+        "speaker": "A",
+        "translit": "paudhā"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.flor",
+        "en": "flower",
+        "es": "flor",
+        "hi": "फूल",
+        "speaker": "B",
+        "translit": "phūl"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hoja",
+        "en": "leaf",
+        "es": "hoja",
+        "hi": "पत्ता",
+        "speaker": "A",
+        "translit": "pattā"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.raiz",
+        "en": "root",
+        "es": "raíz",
+        "hi": "जड़",
+        "speaker": "B",
+        "translit": "jaṛ"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.rama",
+        "en": "branch",
+        "es": "rama",
+        "hi": "डाली",
+        "speaker": "A",
+        "translit": "ḍālī"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.tronco-tallo",
+        "en": "trunk / stem",
+        "es": "tronco / tallo",
+        "hi": "तना",
+        "speaker": "B",
+        "translit": "tanā"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.semilla",
+        "en": "seed",
+        "es": "semilla",
+        "hi": "बीज",
+        "speaker": "A",
+        "translit": "bīj"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.hierba-cesped",
+        "en": "grass / lawn",
+        "es": "hierba / césped",
+        "hi": "घास",
+        "speaker": "B",
+        "translit": "ghās"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.bosque-selva",
+        "en": "forest / jungle",
+        "es": "bosque / selva",
+        "hi": "जंगल",
+        "speaker": "A",
+        "translit": "jaṅgal"
+      },
+      {
+        "concept": "c:naturaleza-y-clima.montana",
+        "en": "mountain",
+        "es": "montaña",
+        "hi": "पहाड़",
+        "speaker": "B",
+        "translit": "pahāṛ"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "प्रकृति",
+            "answerTranslit": "prakṛti",
+            "concept": "c:naturaleza-y-clima.naturaleza",
+            "optionTranslit": {
+              "जड़": "jaṛ",
+              "पौधा": "paudhā",
+              "प्रकृति": "prakṛti",
+              "बीज": "bīj"
+            },
+            "options": [
+              "प्रकृति",
+              "बीज",
+              "पौधा",
+              "जड़"
+            ],
+            "prompt": "naturaleza"
+          },
+          {
+            "answer": "पेड़",
+            "answerTranslit": "peṛ",
+            "concept": "c:naturaleza-y-clima.arbol",
+            "optionTranslit": {
+              "डाली": "ḍālī",
+              "पहाड़": "pahāṛ",
+              "पेड़": "peṛ",
+              "प्रकृति": "prakṛti"
+            },
+            "options": [
+              "पहाड़",
+              "पेड़",
+              "प्रकृति",
+              "डाली"
+            ],
+            "prompt": "árbol"
+          },
+          {
+            "answer": "पौधा",
+            "answerTranslit": "paudhā",
+            "concept": "c:naturaleza-y-clima.planta",
+            "optionTranslit": {
+              "घास": "ghās",
+              "पेड़": "peṛ",
+              "पौधा": "paudhā",
+              "बीज": "bīj"
+            },
+            "options": [
+              "घास",
+              "पेड़",
+              "बीज",
+              "पौधा"
+            ],
+            "prompt": "planta"
+          },
+          {
+            "answer": "फूल",
+            "answerTranslit": "phūl",
+            "concept": "c:naturaleza-y-clima.flor",
+            "optionTranslit": {
+              "जंगल": "jaṅgal",
+              "डाली": "ḍālī",
+              "तना": "tanā",
+              "फूल": "phūl"
+            },
+            "options": [
+              "डाली",
+              "तना",
+              "जंगल",
+              "फूल"
+            ],
+            "prompt": "flor"
+          },
+          {
+            "answer": "पत्ता",
+            "answerTranslit": "pattā",
+            "concept": "c:naturaleza-y-clima.hoja",
+            "optionTranslit": {
+              "घास": "ghās",
+              "पत्ता": "pattā",
+              "पेड़": "peṛ",
+              "बीज": "bīj"
+            },
+            "options": [
+              "पत्ता",
+              "पेड़",
+              "बीज",
+              "घास"
+            ],
+            "prompt": "hoja"
+          },
+          {
+            "answer": "जड़",
+            "answerTranslit": "jaṛ",
+            "concept": "c:naturaleza-y-clima.raiz",
+            "optionTranslit": {
+              "जड़": "jaṛ",
+              "डाली": "ḍālī",
+              "तना": "tanā",
+              "फूल": "phūl"
+            },
+            "options": [
+              "तना",
+              "फूल",
+              "डाली",
+              "जड़"
+            ],
+            "prompt": "raíz"
+          },
+          {
+            "answer": "डाली",
+            "answerTranslit": "ḍālī",
+            "concept": "c:naturaleza-y-clima.rama",
+            "optionTranslit": {
+              "घास": "ghās",
+              "डाली": "ḍālī",
+              "पत्ता": "pattā",
+              "पौधा": "paudhā"
+            },
+            "options": [
+              "पत्ता",
+              "डाली",
+              "घास",
+              "पौधा"
+            ],
+            "prompt": "rama"
+          },
+          {
+            "answer": "तना",
+            "answerTranslit": "tanā",
+            "concept": "c:naturaleza-y-clima.tronco-tallo",
+            "optionTranslit": {
+              "घास": "ghās",
+              "तना": "tanā",
+              "पत्ता": "pattā",
+              "बीज": "bīj"
+            },
+            "options": [
+              "तना",
+              "पत्ता",
+              "बीज",
+              "घास"
+            ],
+            "prompt": "tronco / tallo"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Nature, landscapes and weather to talk about the environment.",
+      "es": "Naturaleza, paisajes y clima para hablar del entorno."
+    },
+    "generator": "build_lessons",
+    "id": "hi-u19-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Name natural elements",
+        "Talk about weather and seasons"
+      ],
+      "es": [
+        "Nombrar elementos naturales",
+        "Hablar del tiempo y las estaciones"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "naturaleza",
+            "nature",
+            "प्रकृति"
+          ],
+          [
+            "árbol",
+            "tree",
+            "पेड़"
+          ],
+          [
+            "planta",
+            "plant",
+            "पौधा"
+          ],
+          [
+            "flor",
+            "flower",
+            "फूल"
+          ],
+          [
+            "hoja",
+            "leaf",
+            "पत्ता"
+          ],
+          [
+            "raíz",
+            "root",
+            "जड़"
+          ],
+          [
+            "rama",
+            "branch",
+            "डाली"
+          ],
+          [
+            "tronco / tallo",
+            "trunk / stem",
+            "तना"
+          ],
+          [
+            "semilla",
+            "seed",
+            "बीज"
+          ],
+          [
+            "hierba / césped",
+            "grass / lawn",
+            "घास"
+          ],
+          [
+            "bosque / selva",
+            "forest / jungle",
+            "जंगल"
+          ],
+          [
+            "montaña",
+            "mountain",
+            "पहाड़"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Nature and weather",
+      "es": "La naturaleza y el clima"
+    },
+    "unit": 19
   },
   {
     "concepts": [
@@ -827,91 +4021,256 @@
         "en": "zero",
         "es": "cero",
         "hi": "शून्य",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "śūnya"
       },
       {
         "concept": "c:numeros.uno",
         "en": "one",
         "es": "uno",
         "hi": "एक",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ek"
       },
       {
         "concept": "c:numeros.dos",
         "en": "two",
         "es": "dos",
         "hi": "दो",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "do"
       },
       {
         "concept": "c:numeros.tres",
         "en": "three",
         "es": "tres",
         "hi": "तीन",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "tīn"
       },
       {
         "concept": "c:numeros.cuatro",
         "en": "4",
         "es": "cuatro",
         "hi": "चार",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "cār"
       },
       {
         "concept": "c:numeros.cinco",
         "en": "five",
         "es": "cinco",
         "hi": "पाँच",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "pā̃c"
       },
       {
         "concept": "c:numeros.seis",
         "en": "6",
         "es": "seis",
         "hi": "छह",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "chah"
       },
       {
         "concept": "c:numeros.siete",
         "en": "seven",
         "es": "siete",
         "hi": "सात",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "sāt"
       },
       {
         "concept": "c:numeros.ocho",
         "en": "8",
         "es": "ocho",
         "hi": "आठ",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "āṭh"
       },
       {
         "concept": "c:numeros.nueve",
         "en": "9",
         "es": "nueve",
         "hi": "नौ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "nau"
       },
       {
         "concept": "c:numeros.diez",
         "en": "10",
         "es": "diez",
         "hi": "दस",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "das"
       },
       {
         "concept": "c:numeros.once",
         "en": "11",
         "es": "once",
         "hi": "ग्यारह",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "gyārah"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "शून्य",
+            "answerTranslit": "śūnya",
+            "concept": "c:numeros.cero",
+            "optionTranslit": {
+              "एक": "ek",
+              "नौ": "nau",
+              "शून्य": "śūnya",
+              "सात": "sāt"
+            },
+            "options": [
+              "नौ",
+              "शून्य",
+              "सात",
+              "एक"
+            ],
+            "prompt": "cero"
+          },
+          {
+            "answer": "एक",
+            "answerTranslit": "ek",
+            "concept": "c:numeros.uno",
+            "optionTranslit": {
+              "एक": "ek",
+              "दस": "das",
+              "दो": "do",
+              "पाँच": "pā̃c"
+            },
+            "options": [
+              "पाँच",
+              "दो",
+              "दस",
+              "एक"
+            ],
+            "prompt": "uno"
+          },
+          {
+            "answer": "दो",
+            "answerTranslit": "do",
+            "concept": "c:numeros.dos",
+            "optionTranslit": {
+              "छह": "chah",
+              "दो": "do",
+              "नौ": "nau",
+              "पाँच": "pā̃c"
+            },
+            "options": [
+              "छह",
+              "नौ",
+              "पाँच",
+              "दो"
+            ],
+            "prompt": "dos"
+          },
+          {
+            "answer": "तीन",
+            "answerTranslit": "tīn",
+            "concept": "c:numeros.tres",
+            "optionTranslit": {
+              "छह": "chah",
+              "तीन": "tīn",
+              "दस": "das",
+              "दो": "do"
+            },
+            "options": [
+              "दस",
+              "छह",
+              "दो",
+              "तीन"
+            ],
+            "prompt": "tres"
+          },
+          {
+            "answer": "चार",
+            "answerTranslit": "cār",
+            "concept": "c:numeros.cuatro",
+            "optionTranslit": {
+              "आठ": "āṭh",
+              "चार": "cār",
+              "दस": "das",
+              "पाँच": "pā̃c"
+            },
+            "options": [
+              "चार",
+              "पाँच",
+              "दस",
+              "आठ"
+            ],
+            "prompt": "cuatro"
+          },
+          {
+            "answer": "पाँच",
+            "answerTranslit": "pā̃c",
+            "concept": "c:numeros.cinco",
+            "optionTranslit": {
+              "चार": "cār",
+              "पाँच": "pā̃c",
+              "शून्य": "śūnya",
+              "सात": "sāt"
+            },
+            "options": [
+              "चार",
+              "शून्य",
+              "सात",
+              "पाँच"
+            ],
+            "prompt": "cinco"
+          },
+          {
+            "answer": "छह",
+            "answerTranslit": "chah",
+            "concept": "c:numeros.seis",
+            "optionTranslit": {
+              "ग्यारह": "gyārah",
+              "छह": "chah",
+              "दो": "do",
+              "शून्य": "śūnya"
+            },
+            "options": [
+              "दो",
+              "ग्यारह",
+              "छह",
+              "शून्य"
+            ],
+            "prompt": "seis"
+          },
+          {
+            "answer": "सात",
+            "answerTranslit": "sāt",
+            "concept": "c:numeros.siete",
+            "optionTranslit": {
+              "आठ": "āṭh",
+              "चार": "cār",
+              "पाँच": "pā̃c",
+              "सात": "sāt"
+            },
+            "options": [
+              "आठ",
+              "सात",
+              "पाँच",
+              "चार"
+            ],
+            "prompt": "siete"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Everyday numbers: used to count, give your age and talk about prices.",
-      "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios.",
-      "hi": "दिन की संख्या आज तक: वे गिनती, उम्र और मूल्य के लिए उपयोग किए जाते हैं।"
+      "es": "Los números del día a día: sirven para contar, decir la edad y hablar de precios."
     },
     "generator": "build_lessons",
     "id": "hi-u2-l1",
@@ -925,10 +4284,6 @@
       "es": [
         "Contar del cero al diez",
         "Reconocer los números básicos"
-      ],
-      "hi": [
-        "शून्य से दस तक की गणना",
-        "बुनियादी संख्याओं को पहचानें"
       ]
     },
     "tables": [
@@ -1006,10 +4361,374 @@
     ],
     "title": {
       "en": "Numbers",
-      "es": "Los números",
-      "hi": "संख्या"
+      "es": "Los números"
     },
     "unit": 2
+  },
+  {
+    "concepts": [
+      "c:vocabulario-extra-y-frases-utiles.amor",
+      "c:vocabulario-extra-y-frases-utiles.odio",
+      "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "c:vocabulario-extra-y-frases-utiles.mentira",
+      "c:vocabulario-extra-y-frases-utiles.verdad",
+      "c:vocabulario-extra-y-frases-utiles.justicia",
+      "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "c:vocabulario-extra-y-frases-utiles.miedo",
+      "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+    ],
+    "dialogue": [
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+        "en": "love",
+        "es": "amor",
+        "hi": "प्रेम",
+        "speaker": "A",
+        "translit": "prem"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+        "en": "I hate it.",
+        "es": "odio",
+        "hi": "घृणा",
+        "speaker": "B",
+        "translit": "ghṛṇā"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+        "en": "honesty",
+        "es": "honestidad",
+        "hi": "ईमानदारी",
+        "speaker": "A",
+        "translit": "īmāndārī"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+        "en": "lie",
+        "es": "mentira",
+        "hi": "झूठ",
+        "speaker": "B",
+        "translit": "jhūṭh"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+        "en": "truth",
+        "es": "verdad",
+        "hi": "सच्चाई",
+        "speaker": "A",
+        "translit": "saccāī"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+        "en": "justice",
+        "es": "justicia",
+        "hi": "न्याय",
+        "speaker": "B",
+        "translit": "nyāy"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+        "en": "injustice",
+        "es": "injusticia",
+        "hi": "अन्याय",
+        "speaker": "A",
+        "translit": "anyāy"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+        "en": "value / courage",
+        "es": "valor / coraje",
+        "hi": "साहस",
+        "speaker": "B",
+        "translit": "sāhas"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+        "en": "fear",
+        "es": "miedo",
+        "hi": "डर",
+        "speaker": "A",
+        "translit": "ḍar"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+        "en": "hope",
+        "es": "esperanza",
+        "hi": "आशा",
+        "speaker": "B",
+        "translit": "āśā"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+        "en": "disappointment",
+        "es": "decepción",
+        "hi": "निराशा",
+        "speaker": "A",
+        "translit": "nirāśā"
+      },
+      {
+        "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+        "en": "anger / angry",
+        "es": "ira / enfado",
+        "hi": "गुस्सा",
+        "speaker": "B",
+        "translit": "gussā"
+      }
+    ],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "प्रेम",
+            "answerTranslit": "prem",
+            "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+            "optionTranslit": {
+              "निराशा": "nirāśā",
+              "न्याय": "nyāy",
+              "प्रेम": "prem",
+              "सच्चाई": "saccāī"
+            },
+            "options": [
+              "न्याय",
+              "प्रेम",
+              "सच्चाई",
+              "निराशा"
+            ],
+            "prompt": "amor"
+          },
+          {
+            "answer": "घृणा",
+            "answerTranslit": "ghṛṇā",
+            "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+            "optionTranslit": {
+              "अन्याय": "anyāy",
+              "आशा": "āśā",
+              "ईमानदारी": "īmāndārī",
+              "घृणा": "ghṛṇā"
+            },
+            "options": [
+              "ईमानदारी",
+              "आशा",
+              "घृणा",
+              "अन्याय"
+            ],
+            "prompt": "odio"
+          },
+          {
+            "answer": "ईमानदारी",
+            "answerTranslit": "īmāndārī",
+            "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+            "optionTranslit": {
+              "ईमानदारी": "īmāndārī",
+              "गुस्सा": "gussā",
+              "झूठ": "jhūṭh",
+              "सच्चाई": "saccāī"
+            },
+            "options": [
+              "सच्चाई",
+              "ईमानदारी",
+              "गुस्सा",
+              "झूठ"
+            ],
+            "prompt": "honestidad"
+          },
+          {
+            "answer": "झूठ",
+            "answerTranslit": "jhūṭh",
+            "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+            "optionTranslit": {
+              "ईमानदारी": "īmāndārī",
+              "झूठ": "jhūṭh",
+              "प्रेम": "prem",
+              "सच्चाई": "saccāī"
+            },
+            "options": [
+              "सच्चाई",
+              "ईमानदारी",
+              "प्रेम",
+              "झूठ"
+            ],
+            "prompt": "mentira"
+          },
+          {
+            "answer": "सच्चाई",
+            "answerTranslit": "saccāī",
+            "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+            "optionTranslit": {
+              "ईमानदारी": "īmāndārī",
+              "गुस्सा": "gussā",
+              "न्याय": "nyāy",
+              "सच्चाई": "saccāī"
+            },
+            "options": [
+              "सच्चाई",
+              "न्याय",
+              "ईमानदारी",
+              "गुस्सा"
+            ],
+            "prompt": "verdad"
+          },
+          {
+            "answer": "न्याय",
+            "answerTranslit": "nyāy",
+            "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+            "optionTranslit": {
+              "अन्याय": "anyāy",
+              "गुस्सा": "gussā",
+              "निराशा": "nirāśā",
+              "न्याय": "nyāy"
+            },
+            "options": [
+              "गुस्सा",
+              "अन्याय",
+              "न्याय",
+              "निराशा"
+            ],
+            "prompt": "justicia"
+          },
+          {
+            "answer": "अन्याय",
+            "answerTranslit": "anyāy",
+            "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+            "optionTranslit": {
+              "अन्याय": "anyāy",
+              "ईमानदारी": "īmāndārī",
+              "निराशा": "nirāśā",
+              "सच्चाई": "saccāī"
+            },
+            "options": [
+              "सच्चाई",
+              "ईमानदारी",
+              "अन्याय",
+              "निराशा"
+            ],
+            "prompt": "injusticia"
+          },
+          {
+            "answer": "साहस",
+            "answerTranslit": "sāhas",
+            "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+            "optionTranslit": {
+              "अन्याय": "anyāy",
+              "आशा": "āśā",
+              "न्याय": "nyāy",
+              "साहस": "sāhas"
+            },
+            "options": [
+              "साहस",
+              "अन्याय",
+              "आशा",
+              "न्याय"
+            ],
+            "prompt": "valor / coraje"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
+    "explanation": {
+      "en": "Support words and phrases that appear in many conversations.",
+      "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+    },
+    "generator": "build_lessons",
+    "id": "hi-u20-l1",
+    "lang": "hi",
+    "lesson": 1,
+    "objectives": {
+      "en": [
+        "Expand vocabulary",
+        "Use common everyday phrases"
+      ],
+      "es": [
+        "Ampliar vocabulario",
+        "Usar frases comunes del día a día"
+      ]
+    },
+    "tables": [
+      {
+        "columns": [
+          "es",
+          "en",
+          "hi"
+        ],
+        "rows": [
+          [
+            "amor",
+            "love",
+            "प्रेम"
+          ],
+          [
+            "odio",
+            "I hate it.",
+            "घृणा"
+          ],
+          [
+            "honestidad",
+            "honesty",
+            "ईमानदारी"
+          ],
+          [
+            "mentira",
+            "lie",
+            "झूठ"
+          ],
+          [
+            "verdad",
+            "truth",
+            "सच्चाई"
+          ],
+          [
+            "justicia",
+            "justice",
+            "न्याय"
+          ],
+          [
+            "injusticia",
+            "injustice",
+            "अन्याय"
+          ],
+          [
+            "valor / coraje",
+            "value / courage",
+            "साहस"
+          ],
+          [
+            "miedo",
+            "fear",
+            "डर"
+          ],
+          [
+            "esperanza",
+            "hope",
+            "आशा"
+          ],
+          [
+            "decepción",
+            "disappointment",
+            "निराशा"
+          ],
+          [
+            "ira / enfado",
+            "anger / angry",
+            "गुस्सा"
+          ]
+        ],
+        "title": "es · en · hi",
+        "type": "vocabulary"
+      }
+    ],
+    "title": {
+      "en": "Extra vocabulary and useful phrases",
+      "es": "Vocabulario extra y frases útiles"
+    },
+    "unit": 20
   },
   {
     "concepts": [
@@ -1032,91 +4751,256 @@
         "en": "red",
         "es": "rojo",
         "hi": "लाल",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "lāl"
       },
       {
         "concept": "c:colores.azul",
         "en": "blue",
         "es": "azul",
         "hi": "नीला",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "nīlā"
       },
       {
         "concept": "c:colores.verde",
         "en": "green",
         "es": "verde",
         "hi": "हरा",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "harā"
       },
       {
         "concept": "c:colores.amarillo",
         "en": "yellow",
         "es": "amarillo",
         "hi": "पीला",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "pīlā"
       },
       {
         "concept": "c:colores.negro",
         "en": "black",
         "es": "negro",
         "hi": "काला",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kālā"
       },
       {
         "concept": "c:colores.blanco",
         "en": "white",
         "es": "blanco",
         "hi": "सफ़ेद",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "safed"
       },
       {
         "concept": "c:colores.naranja",
         "en": "orange",
         "es": "naranja",
         "hi": "नारंगी",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "nāraṅgī"
       },
       {
         "concept": "c:colores.rosa",
         "en": "pink",
         "es": "rosa",
         "hi": "गुलाबी",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "gulābī"
       },
       {
         "concept": "c:colores.morado-violeta",
         "en": "purple / violet",
         "es": "morado / violeta",
         "hi": "बैंगनी",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "baiṅganī"
       },
       {
         "concept": "c:colores.marron",
         "en": "brown",
         "es": "marrón",
         "hi": "भूरा",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "bhūrā"
       },
       {
         "concept": "c:colores.gris",
         "en": "grey",
         "es": "gris",
         "hi": "स्लेटी",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "sleṭī"
       },
       {
         "concept": "c:colores.dorado",
         "en": "gold",
         "es": "dorado",
         "hi": "सुनहरा",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "sunahrā"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "लाल",
+            "answerTranslit": "lāl",
+            "concept": "c:colores.rojo",
+            "optionTranslit": {
+              "नारंगी": "nāraṅgī",
+              "लाल": "lāl",
+              "सफ़ेद": "safed",
+              "हरा": "harā"
+            },
+            "options": [
+              "हरा",
+              "लाल",
+              "सफ़ेद",
+              "नारंगी"
+            ],
+            "prompt": "rojo"
+          },
+          {
+            "answer": "नीला",
+            "answerTranslit": "nīlā",
+            "concept": "c:colores.azul",
+            "optionTranslit": {
+              "गुलाबी": "gulābī",
+              "नारंगी": "nāraṅgī",
+              "नीला": "nīlā",
+              "सुनहरा": "sunahrā"
+            },
+            "options": [
+              "सुनहरा",
+              "नीला",
+              "गुलाबी",
+              "नारंगी"
+            ],
+            "prompt": "azul"
+          },
+          {
+            "answer": "हरा",
+            "answerTranslit": "harā",
+            "concept": "c:colores.verde",
+            "optionTranslit": {
+              "नारंगी": "nāraṅgī",
+              "बैंगनी": "baiṅganī",
+              "स्लेटी": "sleṭī",
+              "हरा": "harā"
+            },
+            "options": [
+              "नारंगी",
+              "स्लेटी",
+              "हरा",
+              "बैंगनी"
+            ],
+            "prompt": "verde"
+          },
+          {
+            "answer": "पीला",
+            "answerTranslit": "pīlā",
+            "concept": "c:colores.amarillo",
+            "optionTranslit": {
+              "पीला": "pīlā",
+              "भूरा": "bhūrā",
+              "लाल": "lāl",
+              "स्लेटी": "sleṭī"
+            },
+            "options": [
+              "भूरा",
+              "लाल",
+              "स्लेटी",
+              "पीला"
+            ],
+            "prompt": "amarillo"
+          },
+          {
+            "answer": "काला",
+            "answerTranslit": "kālā",
+            "concept": "c:colores.negro",
+            "optionTranslit": {
+              "काला": "kālā",
+              "नारंगी": "nāraṅgī",
+              "नीला": "nīlā",
+              "भूरा": "bhūrā"
+            },
+            "options": [
+              "नीला",
+              "काला",
+              "भूरा",
+              "नारंगी"
+            ],
+            "prompt": "negro"
+          },
+          {
+            "answer": "सफ़ेद",
+            "answerTranslit": "safed",
+            "concept": "c:colores.blanco",
+            "optionTranslit": {
+              "पीला": "pīlā",
+              "सफ़ेद": "safed",
+              "सुनहरा": "sunahrā",
+              "स्लेटी": "sleṭī"
+            },
+            "options": [
+              "स्लेटी",
+              "पीला",
+              "सुनहरा",
+              "सफ़ेद"
+            ],
+            "prompt": "blanco"
+          },
+          {
+            "answer": "नारंगी",
+            "answerTranslit": "nāraṅgī",
+            "concept": "c:colores.naranja",
+            "optionTranslit": {
+              "नारंगी": "nāraṅgī",
+              "भूरा": "bhūrā",
+              "सफ़ेद": "safed",
+              "सुनहरा": "sunahrā"
+            },
+            "options": [
+              "सफ़ेद",
+              "भूरा",
+              "नारंगी",
+              "सुनहरा"
+            ],
+            "prompt": "naranja"
+          },
+          {
+            "answer": "गुलाबी",
+            "answerTranslit": "gulābī",
+            "concept": "c:colores.rosa",
+            "optionTranslit": {
+              "काला": "kālā",
+              "गुलाबी": "gulābī",
+              "पीला": "pīlā",
+              "लाल": "lāl"
+            },
+            "options": [
+              "लाल",
+              "काला",
+              "गुलाबी",
+              "पीला"
+            ],
+            "prompt": "rosa"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Colours are used to describe objects, clothes and places.",
-      "es": "Los colores sirven para describir objetos, ropa y lugares.",
-      "hi": "रंग वस्तुओं, कपड़े और स्थानों का वर्णन करने के लिए काम करते हैं।"
+      "es": "Los colores sirven para describir objetos, ropa y lugares."
     },
     "generator": "build_lessons",
     "id": "hi-u3-l1",
@@ -1130,10 +5014,6 @@
       "es": [
         "Nombrar los colores básicos",
         "Describir objetos por su color"
-      ],
-      "hi": [
-        "मूल रंग नाम",
-        "रंग से ऑब्जेक्ट्स का वर्णन करें"
       ]
     },
     "tables": [
@@ -1211,8 +5091,7 @@
     ],
     "title": {
       "en": "Colours",
-      "es": "Los colores",
-      "hi": "रंग"
+      "es": "Los colores"
     },
     "unit": 3
   },
@@ -1237,91 +5116,256 @@
         "en": "Family",
         "es": "familia",
         "hi": "परिवार",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "parivār"
       },
       {
         "concept": "c:familia-y-personas.madre",
         "en": "Mother",
         "es": "madre",
         "hi": "माँ",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "mā̃"
       },
       {
         "concept": "c:familia-y-personas.padre",
         "en": "Father",
         "es": "padre",
         "hi": "पिता",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "pitā"
       },
       {
         "concept": "c:familia-y-personas.padres",
         "en": "parents",
         "es": "padres",
         "hi": "माता-पिता",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "mātā-pitā"
       },
       {
         "concept": "c:familia-y-personas.hijo",
         "en": "child",
         "es": "hijo",
         "hi": "बेटा",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "beṭā"
       },
       {
         "concept": "c:familia-y-personas.hija",
         "en": "daughter",
         "es": "hija",
         "hi": "बेटी",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "beṭī"
       },
       {
         "concept": "c:familia-y-personas.nino-a",
         "en": "child",
         "es": "niño/a",
         "hi": "बच्चा",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "baccā"
       },
       {
         "concept": "c:familia-y-personas.hermano",
         "en": "brother",
         "es": "hermano",
         "hi": "भाई",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "bhāī"
       },
       {
         "concept": "c:familia-y-personas.hermana",
         "en": "sister",
         "es": "hermana",
         "hi": "बहन",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "bahan"
       },
       {
         "concept": "c:familia-y-personas.hermanos",
         "en": "brothers",
         "es": "hermanos",
         "hi": "भाई-बहन",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "bhāī-bahan"
       },
       {
         "concept": "c:familia-y-personas.abuelo-paterno",
         "en": "paternal grandfather",
         "es": "abuelo paterno",
         "hi": "दादा",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "dādā"
       },
       {
         "concept": "c:familia-y-personas.abuela-paterna",
         "en": "Father's grandmother",
         "es": "abuela paterna",
         "hi": "दादी",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "dādī"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "परिवार",
+            "answerTranslit": "parivār",
+            "concept": "c:familia-y-personas.familia",
+            "optionTranslit": {
+              "दादा": "dādā",
+              "दादी": "dādī",
+              "परिवार": "parivār",
+              "बच्चा": "baccā"
+            },
+            "options": [
+              "दादा",
+              "बच्चा",
+              "दादी",
+              "परिवार"
+            ],
+            "prompt": "familia"
+          },
+          {
+            "answer": "माँ",
+            "answerTranslit": "mā̃",
+            "concept": "c:familia-y-personas.madre",
+            "optionTranslit": {
+              "दादी": "dādī",
+              "परिवार": "parivār",
+              "बेटी": "beṭī",
+              "माँ": "mā̃"
+            },
+            "options": [
+              "दादी",
+              "बेटी",
+              "परिवार",
+              "माँ"
+            ],
+            "prompt": "madre"
+          },
+          {
+            "answer": "पिता",
+            "answerTranslit": "pitā",
+            "concept": "c:familia-y-personas.padre",
+            "optionTranslit": {
+              "दादा": "dādā",
+              "पिता": "pitā",
+              "बहन": "bahan",
+              "माता-पिता": "mātā-pitā"
+            },
+            "options": [
+              "दादा",
+              "बहन",
+              "पिता",
+              "माता-पिता"
+            ],
+            "prompt": "padre"
+          },
+          {
+            "answer": "माता-पिता",
+            "answerTranslit": "mātā-pitā",
+            "concept": "c:familia-y-personas.padres",
+            "optionTranslit": {
+              "परिवार": "parivār",
+              "बच्चा": "baccā",
+              "बेटा": "beṭā",
+              "माता-पिता": "mātā-pitā"
+            },
+            "options": [
+              "बच्चा",
+              "माता-पिता",
+              "परिवार",
+              "बेटा"
+            ],
+            "prompt": "padres"
+          },
+          {
+            "answer": "बेटा",
+            "answerTranslit": "beṭā",
+            "concept": "c:familia-y-personas.hijo",
+            "optionTranslit": {
+              "बेटा": "beṭā",
+              "बेटी": "beṭī",
+              "भाई-बहन": "bhāī-bahan",
+              "माँ": "mā̃"
+            },
+            "options": [
+              "बेटी",
+              "भाई-बहन",
+              "माँ",
+              "बेटा"
+            ],
+            "prompt": "hijo"
+          },
+          {
+            "answer": "बेटी",
+            "answerTranslit": "beṭī",
+            "concept": "c:familia-y-personas.hija",
+            "optionTranslit": {
+              "दादी": "dādī",
+              "बेटा": "beṭā",
+              "बेटी": "beṭī",
+              "माता-पिता": "mātā-pitā"
+            },
+            "options": [
+              "बेटी",
+              "माता-पिता",
+              "बेटा",
+              "दादी"
+            ],
+            "prompt": "hija"
+          },
+          {
+            "answer": "बच्चा",
+            "answerTranslit": "baccā",
+            "concept": "c:familia-y-personas.nino-a",
+            "optionTranslit": {
+              "दादा": "dādā",
+              "बच्चा": "baccā",
+              "बहन": "bahan",
+              "माता-पिता": "mātā-pitā"
+            },
+            "options": [
+              "बच्चा",
+              "बहन",
+              "दादा",
+              "माता-पिता"
+            ],
+            "prompt": "niño/a"
+          },
+          {
+            "answer": "भाई",
+            "answerTranslit": "bhāī",
+            "concept": "c:familia-y-personas.hermano",
+            "optionTranslit": {
+              "बहन": "bahan",
+              "बेटा": "beṭā",
+              "भाई": "bhāī",
+              "माँ": "mā̃"
+            },
+            "options": [
+              "माँ",
+              "भाई",
+              "बेटा",
+              "बहन"
+            ],
+            "prompt": "hermano"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Words to refer to family and the people around you.",
-      "es": "Palabras para referirse a la familia y a las personas cercanas.",
-      "hi": "उनके पास परिवार और लोगों के बारे में जानने का शब्द है।"
+      "es": "Palabras para referirse a la familia y a las personas cercanas."
     },
     "generator": "build_lessons",
     "id": "hi-u4-l1",
@@ -1335,10 +5379,6 @@
       "es": [
         "Nombrar a los miembros de la familia",
         "Hablar de personas"
-      ],
-      "hi": [
-        "परिवार के सदस्यों को नियुक्त करना",
-        "लोगों के बारे में बात करें"
       ]
     },
     "tables": [
@@ -1416,8 +5456,7 @@
     ],
     "title": {
       "en": "Family and people",
-      "es": "La familia y las personas",
-      "hi": "परिवार और व्यक्ति"
+      "es": "La familia y las personas"
     },
     "unit": 4
   },
@@ -1442,91 +5481,256 @@
         "en": "body",
         "es": "cuerpo",
         "hi": "शरीर",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "śarīr"
       },
       {
         "concept": "c:cuerpo-humano.cabeza",
         "en": "head",
         "es": "cabeza",
         "hi": "सिर",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "sir"
       },
       {
         "concept": "c:cuerpo-humano.cabello-pelo",
         "en": "hair / hair-",
         "es": "cabello / pelo",
         "hi": "बाल",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "bāl"
       },
       {
         "concept": "c:cuerpo-humano.cara-rostro",
         "en": "face / side",
         "es": "cara / rostro",
         "hi": "चेहरा",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "cehrā"
       },
       {
         "concept": "c:cuerpo-humano.frente",
         "en": "front",
         "es": "frente",
         "hi": "माथा",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "māthā"
       },
       {
         "concept": "c:cuerpo-humano.ojo",
         "en": "eye",
         "es": "ojo",
         "hi": "आँख",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ā̃kh"
       },
       {
         "concept": "c:cuerpo-humano.ojos",
         "en": "eyes",
         "es": "ojos",
         "hi": "आँखें",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "ā̃khẽ"
       },
       {
         "concept": "c:cuerpo-humano.ceja",
         "en": "Beef",
         "es": "ceja",
         "hi": "भौंह",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "bhaũh"
       },
       {
         "concept": "c:cuerpo-humano.parpado-pestana",
         "en": "eyelid / tab",
         "es": "párpado / pestaña",
         "hi": "पलक",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "palak"
       },
       {
         "concept": "c:cuerpo-humano.oreja-oido",
         "en": "ear / ears",
         "es": "oreja / oído",
         "hi": "कान",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "kān"
       },
       {
         "concept": "c:cuerpo-humano.nariz",
         "en": "nose",
         "es": "nariz",
         "hi": "नाक",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "nāk"
       },
       {
         "concept": "c:cuerpo-humano.boca",
         "en": "mouth",
         "es": "boca",
         "hi": "मुँह",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "mũh"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "शरीर",
+            "answerTranslit": "śarīr",
+            "concept": "c:cuerpo-humano.cuerpo",
+            "optionTranslit": {
+              "आँखें": "ā̃khẽ",
+              "पलक": "palak",
+              "माथा": "māthā",
+              "शरीर": "śarīr"
+            },
+            "options": [
+              "आँखें",
+              "शरीर",
+              "माथा",
+              "पलक"
+            ],
+            "prompt": "cuerpo"
+          },
+          {
+            "answer": "सिर",
+            "answerTranslit": "sir",
+            "concept": "c:cuerpo-humano.cabeza",
+            "optionTranslit": {
+              "आँख": "ā̃kh",
+              "आँखें": "ā̃khẽ",
+              "मुँह": "mũh",
+              "सिर": "sir"
+            },
+            "options": [
+              "आँख",
+              "सिर",
+              "मुँह",
+              "आँखें"
+            ],
+            "prompt": "cabeza"
+          },
+          {
+            "answer": "बाल",
+            "answerTranslit": "bāl",
+            "concept": "c:cuerpo-humano.cabello-pelo",
+            "optionTranslit": {
+              "नाक": "nāk",
+              "बाल": "bāl",
+              "भौंह": "bhaũh",
+              "माथा": "māthā"
+            },
+            "options": [
+              "नाक",
+              "भौंह",
+              "बाल",
+              "माथा"
+            ],
+            "prompt": "cabello / pelo"
+          },
+          {
+            "answer": "चेहरा",
+            "answerTranslit": "cehrā",
+            "concept": "c:cuerpo-humano.cara-rostro",
+            "optionTranslit": {
+              "आँखें": "ā̃khẽ",
+              "चेहरा": "cehrā",
+              "बाल": "bāl",
+              "शरीर": "śarīr"
+            },
+            "options": [
+              "शरीर",
+              "चेहरा",
+              "बाल",
+              "आँखें"
+            ],
+            "prompt": "cara / rostro"
+          },
+          {
+            "answer": "माथा",
+            "answerTranslit": "māthā",
+            "concept": "c:cuerpo-humano.frente",
+            "optionTranslit": {
+              "आँख": "ā̃kh",
+              "आँखें": "ā̃khẽ",
+              "बाल": "bāl",
+              "माथा": "māthā"
+            },
+            "options": [
+              "बाल",
+              "माथा",
+              "आँख",
+              "आँखें"
+            ],
+            "prompt": "frente"
+          },
+          {
+            "answer": "आँख",
+            "answerTranslit": "ā̃kh",
+            "concept": "c:cuerpo-humano.ojo",
+            "optionTranslit": {
+              "आँख": "ā̃kh",
+              "पलक": "palak",
+              "माथा": "māthā",
+              "सिर": "sir"
+            },
+            "options": [
+              "माथा",
+              "आँख",
+              "पलक",
+              "सिर"
+            ],
+            "prompt": "ojo"
+          },
+          {
+            "answer": "आँखें",
+            "answerTranslit": "ā̃khẽ",
+            "concept": "c:cuerpo-humano.ojos",
+            "optionTranslit": {
+              "आँखें": "ā̃khẽ",
+              "कान": "kān",
+              "नाक": "nāk",
+              "सिर": "sir"
+            },
+            "options": [
+              "आँखें",
+              "कान",
+              "सिर",
+              "नाक"
+            ],
+            "prompt": "ojos"
+          },
+          {
+            "answer": "भौंह",
+            "answerTranslit": "bhaũh",
+            "concept": "c:cuerpo-humano.ceja",
+            "optionTranslit": {
+              "पलक": "palak",
+              "भौंह": "bhaũh",
+              "माथा": "māthā",
+              "सिर": "sir"
+            },
+            "options": [
+              "भौंह",
+              "माथा",
+              "सिर",
+              "पलक"
+            ],
+            "prompt": "ceja"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Parts of the body, useful to talk about health and care.",
-      "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados.",
-      "hi": "शरीर के अंगों, स्वास्थ्य और देखभाल की बात करने में उपयोगी है।"
+      "es": "Las partes del cuerpo, útiles para hablar de salud y cuidados."
     },
     "generator": "build_lessons",
     "id": "hi-u5-l1",
@@ -1540,10 +5744,6 @@
       "es": [
         "Nombrar las partes del cuerpo",
         "Hablar de la salud"
-      ],
-      "hi": [
-        "शरीर के अंगों का नाम",
-        "स्वास्थ्य के बारे में बात करें"
       ]
     },
     "tables": [
@@ -1621,8 +5821,7 @@
     ],
     "title": {
       "en": "The human body",
-      "es": "El cuerpo humano",
-      "hi": "मानव शरीर"
+      "es": "El cuerpo humano"
     },
     "unit": 5
   },
@@ -1647,91 +5846,256 @@
         "en": "food / eat",
         "es": "comida / comer",
         "hi": "खाना",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "khānā"
       },
       {
         "concept": "c:comida-y-bebida.comida-formal",
         "en": "food (formal)",
         "es": "comida (formal)",
         "hi": "भोजन",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "bhojan"
       },
       {
         "concept": "c:comida-y-bebida.desayuno",
         "en": "breakfast",
         "es": "desayuno",
         "hi": "नाश्ता",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "nāśtā"
       },
       {
         "concept": "c:comida-y-bebida.almuerzo",
         "en": "lunch",
         "es": "almuerzo",
         "hi": "दोपहर का खाना",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "dopahar kā khānā"
       },
       {
         "concept": "c:comida-y-bebida.cena",
         "en": "dinner",
         "es": "cena",
         "hi": "रात का खाना",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "rāt kā khānā"
       },
       {
         "concept": "c:comida-y-bebida.agua",
         "en": "water",
         "es": "agua",
         "hi": "पानी",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "pānī"
       },
       {
         "concept": "c:comida-y-bebida.leche",
         "en": "milk",
         "es": "leche",
         "hi": "दूध",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "dūdh"
       },
       {
         "concept": "c:comida-y-bebida.te",
         "en": "tea",
         "es": "té",
         "hi": "चाय",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "cāy"
       },
       {
         "concept": "c:comida-y-bebida.cafe",
         "en": "coffee",
         "es": "café",
         "hi": "कॉफ़ी",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "kôfī"
       },
       {
         "concept": "c:comida-y-bebida.zumo-jugo",
         "en": "juice / juices",
         "es": "zumo / jugo",
         "hi": "जूस",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "jūs"
       },
       {
         "concept": "c:comida-y-bebida.lassi-yogur-batido",
         "en": "lassi (yoghurt beaten)",
         "es": "lassi (yogur batido)",
         "hi": "लस्सी",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "lassī"
       },
       {
         "concept": "c:comida-y-bebida.alcohol-vino",
         "en": "alcohol / wine",
         "es": "alcohol / vino",
         "hi": "शराब",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "śarāb"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "खाना",
+            "answerTranslit": "khānā",
+            "concept": "c:comida-y-bebida.comida-comer",
+            "optionTranslit": {
+              "कॉफ़ी": "kôfī",
+              "खाना": "khānā",
+              "जूस": "jūs",
+              "शराब": "śarāb"
+            },
+            "options": [
+              "जूस",
+              "खाना",
+              "शराब",
+              "कॉफ़ी"
+            ],
+            "prompt": "comida / comer"
+          },
+          {
+            "answer": "भोजन",
+            "answerTranslit": "bhojan",
+            "concept": "c:comida-y-bebida.comida-formal",
+            "optionTranslit": {
+              "कॉफ़ी": "kôfī",
+              "खाना": "khānā",
+              "भोजन": "bhojan",
+              "शराब": "śarāb"
+            },
+            "options": [
+              "कॉफ़ी",
+              "खाना",
+              "भोजन",
+              "शराब"
+            ],
+            "prompt": "comida (formal)"
+          },
+          {
+            "answer": "नाश्ता",
+            "answerTranslit": "nāśtā",
+            "concept": "c:comida-y-bebida.desayuno",
+            "optionTranslit": {
+              "कॉफ़ी": "kôfī",
+              "खाना": "khānā",
+              "नाश्ता": "nāśtā",
+              "भोजन": "bhojan"
+            },
+            "options": [
+              "भोजन",
+              "नाश्ता",
+              "कॉफ़ी",
+              "खाना"
+            ],
+            "prompt": "desayuno"
+          },
+          {
+            "answer": "दोपहर का खाना",
+            "answerTranslit": "dopahar kā khānā",
+            "concept": "c:comida-y-bebida.almuerzo",
+            "optionTranslit": {
+              "खाना": "khānā",
+              "दोपहर का खाना": "dopahar kā khānā",
+              "पानी": "pānī",
+              "भोजन": "bhojan"
+            },
+            "options": [
+              "पानी",
+              "दोपहर का खाना",
+              "भोजन",
+              "खाना"
+            ],
+            "prompt": "almuerzo"
+          },
+          {
+            "answer": "रात का खाना",
+            "answerTranslit": "rāt kā khānā",
+            "concept": "c:comida-y-bebida.cena",
+            "optionTranslit": {
+              "चाय": "cāy",
+              "नाश्ता": "nāśtā",
+              "पानी": "pānī",
+              "रात का खाना": "rāt kā khānā"
+            },
+            "options": [
+              "चाय",
+              "पानी",
+              "नाश्ता",
+              "रात का खाना"
+            ],
+            "prompt": "cena"
+          },
+          {
+            "answer": "पानी",
+            "answerTranslit": "pānī",
+            "concept": "c:comida-y-bebida.agua",
+            "optionTranslit": {
+              "कॉफ़ी": "kôfī",
+              "दूध": "dūdh",
+              "नाश्ता": "nāśtā",
+              "पानी": "pānī"
+            },
+            "options": [
+              "पानी",
+              "कॉफ़ी",
+              "दूध",
+              "नाश्ता"
+            ],
+            "prompt": "agua"
+          },
+          {
+            "answer": "दूध",
+            "answerTranslit": "dūdh",
+            "concept": "c:comida-y-bebida.leche",
+            "optionTranslit": {
+              "दूध": "dūdh",
+              "रात का खाना": "rāt kā khānā",
+              "लस्सी": "lassī",
+              "शराब": "śarāb"
+            },
+            "options": [
+              "रात का खाना",
+              "लस्सी",
+              "दूध",
+              "शराब"
+            ],
+            "prompt": "leche"
+          },
+          {
+            "answer": "चाय",
+            "answerTranslit": "cāy",
+            "concept": "c:comida-y-bebida.te",
+            "optionTranslit": {
+              "कॉफ़ी": "kôfī",
+              "चाय": "cāy",
+              "दोपहर का खाना": "dopahar kā khānā",
+              "रात का खाना": "rāt kā khānā"
+            },
+            "options": [
+              "रात का खाना",
+              "कॉफ़ी",
+              "चाय",
+              "दोपहर का खाना"
+            ],
+            "prompt": "té"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Basic foods and drinks, very useful when shopping or eating out.",
-      "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa.",
-      "hi": "मूल भोजन और पेय, घर के बाहर खरीद या खाने पर बहुत उपयोगी होते हैं।"
+      "es": "Alimentos y bebidas básicos, muy útiles al comprar o comer fuera de casa."
     },
     "generator": "build_lessons",
     "id": "hi-u6-l1",
@@ -1745,10 +6109,6 @@
       "es": [
         "Nombrar alimentos y bebidas",
         "Pedir en un restaurante"
-      ],
-      "hi": [
-        "भोजन और पेय",
-        "एक रेस्तरां में पूछो"
       ]
     },
     "tables": [
@@ -1826,8 +6186,7 @@
     ],
     "title": {
       "en": "Food and drink",
-      "es": "La comida y la bebida",
-      "hi": "खाद्य और पेय"
+      "es": "La comida y la bebida"
     },
     "unit": 6
   },
@@ -1852,91 +6211,256 @@
         "en": "Home / home",
         "es": "casa / hogar",
         "hi": "घर",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "ghar"
       },
       {
         "concept": "c:casa-y-hogar.edificio-casa",
         "en": "building / house",
         "es": "edificio / casa",
         "hi": "मकान",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "makān"
       },
       {
         "concept": "c:casa-y-hogar.apartamento",
         "en": "apartment",
         "es": "apartamento",
         "hi": "अपार्टमेंट",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "apārṭmeṇṭ"
       },
       {
         "concept": "c:casa-y-hogar.habitacion-cuarto",
         "en": "room / bedroom",
         "es": "habitación / cuarto",
         "hi": "कमरा",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "kamrā"
       },
       {
         "concept": "c:casa-y-hogar.sala-de-estar",
         "en": "living room",
         "es": "sala de estar",
         "hi": "बैठक",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "baiṭhak"
       },
       {
         "concept": "c:casa-y-hogar.dormitorio",
         "en": "bedroom",
         "es": "dormitorio",
         "hi": "शयनकक्ष",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "śayanakakṣ"
       },
       {
         "concept": "c:casa-y-hogar.cocina-habitacion",
         "en": "kitchen (room)",
         "es": "cocina (habitación)",
         "hi": "रसोई",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "rasoī"
       },
       {
         "concept": "c:casa-y-hogar.bano",
         "en": "bathroom",
         "es": "baño",
         "hi": "बाथरूम",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "bāthrūm"
       },
       {
         "concept": "c:casa-y-hogar.inodoro-lavabo",
         "en": "toilet / sink",
         "es": "inodoro / lavabo",
         "hi": "शौचालय",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "śaucālay"
       },
       {
         "concept": "c:casa-y-hogar.balcon",
         "en": "balcony",
         "es": "balcón",
         "hi": "बालकनी",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "bālkanī"
       },
       {
         "concept": "c:casa-y-hogar.techo-azotea",
         "en": "roof / rooftop",
         "es": "techo / azotea",
         "hi": "छत",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "chat"
       },
       {
         "concept": "c:casa-y-hogar.pared",
         "en": "wall",
         "es": "pared",
         "hi": "दीवार",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "dīvār"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "घर",
+            "answerTranslit": "ghar",
+            "concept": "c:casa-y-hogar.casa-hogar",
+            "optionTranslit": {
+              "अपार्टमेंट": "apārṭmeṇṭ",
+              "घर": "ghar",
+              "छत": "chat",
+              "बैठक": "baiṭhak"
+            },
+            "options": [
+              "छत",
+              "बैठक",
+              "अपार्टमेंट",
+              "घर"
+            ],
+            "prompt": "casa / hogar"
+          },
+          {
+            "answer": "मकान",
+            "answerTranslit": "makān",
+            "concept": "c:casa-y-hogar.edificio-casa",
+            "optionTranslit": {
+              "कमरा": "kamrā",
+              "बालकनी": "bālkanī",
+              "मकान": "makān",
+              "शौचालय": "śaucālay"
+            },
+            "options": [
+              "शौचालय",
+              "मकान",
+              "कमरा",
+              "बालकनी"
+            ],
+            "prompt": "edificio / casa"
+          },
+          {
+            "answer": "अपार्टमेंट",
+            "answerTranslit": "apārṭmeṇṭ",
+            "concept": "c:casa-y-hogar.apartamento",
+            "optionTranslit": {
+              "अपार्टमेंट": "apārṭmeṇṭ",
+              "घर": "ghar",
+              "छत": "chat",
+              "शयनकक्ष": "śayanakakṣ"
+            },
+            "options": [
+              "शयनकक्ष",
+              "अपार्टमेंट",
+              "छत",
+              "घर"
+            ],
+            "prompt": "apartamento"
+          },
+          {
+            "answer": "कमरा",
+            "answerTranslit": "kamrā",
+            "concept": "c:casa-y-hogar.habitacion-cuarto",
+            "optionTranslit": {
+              "कमरा": "kamrā",
+              "दीवार": "dīvār",
+              "बाथरूम": "bāthrūm",
+              "बैठक": "baiṭhak"
+            },
+            "options": [
+              "कमरा",
+              "दीवार",
+              "बैठक",
+              "बाथरूम"
+            ],
+            "prompt": "habitación / cuarto"
+          },
+          {
+            "answer": "बैठक",
+            "answerTranslit": "baiṭhak",
+            "concept": "c:casa-y-hogar.sala-de-estar",
+            "optionTranslit": {
+              "दीवार": "dīvār",
+              "बैठक": "baiṭhak",
+              "शयनकक्ष": "śayanakakṣ",
+              "शौचालय": "śaucālay"
+            },
+            "options": [
+              "शौचालय",
+              "शयनकक्ष",
+              "दीवार",
+              "बैठक"
+            ],
+            "prompt": "sala de estar"
+          },
+          {
+            "answer": "शयनकक्ष",
+            "answerTranslit": "śayanakakṣ",
+            "concept": "c:casa-y-hogar.dormitorio",
+            "optionTranslit": {
+              "अपार्टमेंट": "apārṭmeṇṭ",
+              "दीवार": "dīvār",
+              "बाथरूम": "bāthrūm",
+              "शयनकक्ष": "śayanakakṣ"
+            },
+            "options": [
+              "शयनकक्ष",
+              "अपार्टमेंट",
+              "बाथरूम",
+              "दीवार"
+            ],
+            "prompt": "dormitorio"
+          },
+          {
+            "answer": "रसोई",
+            "answerTranslit": "rasoī",
+            "concept": "c:casa-y-hogar.cocina-habitacion",
+            "optionTranslit": {
+              "कमरा": "kamrā",
+              "छत": "chat",
+              "बालकनी": "bālkanī",
+              "रसोई": "rasoī"
+            },
+            "options": [
+              "छत",
+              "रसोई",
+              "बालकनी",
+              "कमरा"
+            ],
+            "prompt": "cocina (habitación)"
+          },
+          {
+            "answer": "बाथरूम",
+            "answerTranslit": "bāthrūm",
+            "concept": "c:casa-y-hogar.bano",
+            "optionTranslit": {
+              "छत": "chat",
+              "दीवार": "dīvār",
+              "बाथरूम": "bāthrūm",
+              "बैठक": "baiṭhak"
+            },
+            "options": [
+              "बाथरूम",
+              "दीवार",
+              "बैठक",
+              "छत"
+            ],
+            "prompt": "baño"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "House vocabulary: rooms, furniture and everyday objects.",
-      "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos.",
-      "hi": "घर का शब्दावली: कमरे, फर्नीचर और दैनिक वस्तुएं।"
+      "es": "Vocabulario de la casa: habitaciones, muebles y objetos cotidianos."
     },
     "generator": "build_lessons",
     "id": "hi-u7-l1",
@@ -1950,10 +6474,6 @@
       "es": [
         "Nombrar partes de la casa",
         "Describir objetos del hogar"
-      ],
-      "hi": [
-        "घर के नाम भागों",
-        "घरेलू वस्तुओं का वर्णन करें"
       ]
     },
     "tables": [
@@ -2031,8 +6551,7 @@
     ],
     "title": {
       "en": "Home and household",
-      "es": "La casa y el hogar",
-      "hi": "घर और घर"
+      "es": "La casa y el hogar"
     },
     "unit": 7
   },
@@ -2057,91 +6576,256 @@
         "en": "time / hour",
         "es": "tiempo / hora",
         "hi": "समय",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "samay"
       },
       {
         "concept": "c:tiempo-y-calendario.reloj-hora",
         "en": "clock / time",
         "es": "reloj / hora",
         "hi": "घड़ी",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ghaṛī"
       },
       {
         "concept": "c:tiempo-y-calendario.minuto",
         "en": "minute",
         "es": "minuto",
         "hi": "मिनट",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "minaṭ"
       },
       {
         "concept": "c:tiempo-y-calendario.segundo-tiempo",
         "en": "second (time)",
         "es": "segundo (tiempo)",
         "hi": "सेकंड",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "sekaṇḍ"
       },
       {
         "concept": "c:tiempo-y-calendario.hora-duracion",
         "en": "time (duration)",
         "es": "hora (duración)",
         "hi": "घंटा",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "ghaṇṭā"
       },
       {
         "concept": "c:tiempo-y-calendario.manana-temprano",
         "en": "(early)",
         "es": "mañana (temprano)",
         "hi": "सुबह",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "subah"
       },
       {
         "concept": "c:tiempo-y-calendario.mediodia-tarde",
         "en": "noon / afternoon",
         "es": "mediodía / tarde",
         "hi": "दोपहर",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "dopahar"
       },
       {
         "concept": "c:tiempo-y-calendario.tarde-atardecer",
         "en": "late / evening",
         "es": "tarde / atardecer",
         "hi": "शाम",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "śām"
       },
       {
         "concept": "c:tiempo-y-calendario.noche",
         "en": "night",
         "es": "noche",
         "hi": "रात",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "rāt"
       },
       {
         "concept": "c:tiempo-y-calendario.medianoche",
         "en": "midnight",
         "es": "medianoche",
         "hi": "आधी रात",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "ādhī rāt"
       },
       {
         "concept": "c:tiempo-y-calendario.dia",
         "en": "day",
         "es": "día",
         "hi": "दिन",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "din"
       },
       {
         "concept": "c:tiempo-y-calendario.hoy",
         "en": "Today",
         "es": "hoy",
         "hi": "आज",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "āj"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "समय",
+            "answerTranslit": "samay",
+            "concept": "c:tiempo-y-calendario.tiempo-hora",
+            "optionTranslit": {
+              "आज": "āj",
+              "मिनट": "minaṭ",
+              "समय": "samay",
+              "सुबह": "subah"
+            },
+            "options": [
+              "सुबह",
+              "आज",
+              "समय",
+              "मिनट"
+            ],
+            "prompt": "tiempo / hora"
+          },
+          {
+            "answer": "घड़ी",
+            "answerTranslit": "ghaṛī",
+            "concept": "c:tiempo-y-calendario.reloj-hora",
+            "optionTranslit": {
+              "आधी रात": "ādhī rāt",
+              "घड़ी": "ghaṛī",
+              "दोपहर": "dopahar",
+              "रात": "rāt"
+            },
+            "options": [
+              "घड़ी",
+              "दोपहर",
+              "रात",
+              "आधी रात"
+            ],
+            "prompt": "reloj / hora"
+          },
+          {
+            "answer": "मिनट",
+            "answerTranslit": "minaṭ",
+            "concept": "c:tiempo-y-calendario.minuto",
+            "optionTranslit": {
+              "दिन": "din",
+              "दोपहर": "dopahar",
+              "मिनट": "minaṭ",
+              "सेकंड": "sekaṇḍ"
+            },
+            "options": [
+              "दोपहर",
+              "सेकंड",
+              "मिनट",
+              "दिन"
+            ],
+            "prompt": "minuto"
+          },
+          {
+            "answer": "सेकंड",
+            "answerTranslit": "sekaṇḍ",
+            "concept": "c:tiempo-y-calendario.segundo-tiempo",
+            "optionTranslit": {
+              "आधी रात": "ādhī rāt",
+              "दिन": "din",
+              "रात": "rāt",
+              "सेकंड": "sekaṇḍ"
+            },
+            "options": [
+              "सेकंड",
+              "रात",
+              "आधी रात",
+              "दिन"
+            ],
+            "prompt": "segundo (tiempo)"
+          },
+          {
+            "answer": "घंटा",
+            "answerTranslit": "ghaṇṭā",
+            "concept": "c:tiempo-y-calendario.hora-duracion",
+            "optionTranslit": {
+              "घंटा": "ghaṇṭā",
+              "घड़ी": "ghaṛī",
+              "मिनट": "minaṭ",
+              "सेकंड": "sekaṇḍ"
+            },
+            "options": [
+              "सेकंड",
+              "घड़ी",
+              "घंटा",
+              "मिनट"
+            ],
+            "prompt": "hora (duración)"
+          },
+          {
+            "answer": "सुबह",
+            "answerTranslit": "subah",
+            "concept": "c:tiempo-y-calendario.manana-temprano",
+            "optionTranslit": {
+              "दिन": "din",
+              "दोपहर": "dopahar",
+              "समय": "samay",
+              "सुबह": "subah"
+            },
+            "options": [
+              "सुबह",
+              "दिन",
+              "समय",
+              "दोपहर"
+            ],
+            "prompt": "mañana (temprano)"
+          },
+          {
+            "answer": "दोपहर",
+            "answerTranslit": "dopahar",
+            "concept": "c:tiempo-y-calendario.mediodia-tarde",
+            "optionTranslit": {
+              "आज": "āj",
+              "दोपहर": "dopahar",
+              "मिनट": "minaṭ",
+              "समय": "samay"
+            },
+            "options": [
+              "समय",
+              "मिनट",
+              "दोपहर",
+              "आज"
+            ],
+            "prompt": "mediodía / tarde"
+          },
+          {
+            "answer": "शाम",
+            "answerTranslit": "śām",
+            "concept": "c:tiempo-y-calendario.tarde-atardecer",
+            "optionTranslit": {
+              "घड़ी": "ghaṛī",
+              "दोपहर": "dopahar",
+              "मिनट": "minaṭ",
+              "शाम": "śām"
+            },
+            "options": [
+              "घड़ी",
+              "दोपहर",
+              "शाम",
+              "मिनट"
+            ],
+            "prompt": "tarde / atardecer"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Words to place actions in time: days, months and seasons.",
-      "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones.",
-      "hi": "समय में क्रियाओं को रखने के लिए शब्द: दिन, महीने और मौसम।"
+      "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."
     },
     "generator": "build_lessons",
     "id": "hi-u8-l1",
@@ -2155,10 +6839,6 @@
       "es": [
         "Decir días, meses y estaciones",
         "Hablar de fechas"
-      ],
-      "hi": [
-        "दिन, महीने और मौसम",
-        "तारीखों के बारे में बात करें"
       ]
     },
     "tables": [
@@ -2236,8 +6916,7 @@
     ],
     "title": {
       "en": "Time and calendar",
-      "es": "El tiempo y el calendario",
-      "hi": "समय और कैलेंडर"
+      "es": "El tiempo y el calendario"
     },
     "unit": 8
   },
@@ -2262,91 +6941,256 @@
         "en": "animal",
         "es": "animal",
         "hi": "जानवर",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "jānvar"
       },
       {
         "concept": "c:animales.perro",
         "en": "dog",
         "es": "perro",
         "hi": "कुत्ता",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "kuttā"
       },
       {
         "concept": "c:animales.gato",
         "en": "cat",
         "es": "gato",
         "hi": "बिल्ली",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "billī"
       },
       {
         "concept": "c:animales.vaca",
         "en": "cow",
         "es": "vaca",
         "hi": "गाय",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "gāy"
       },
       {
         "concept": "c:animales.buey-toro",
         "en": "ox / bull",
         "es": "buey / toro",
         "hi": "बैल",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "bail"
       },
       {
         "concept": "c:animales.bufalo",
         "en": "buffalo",
         "es": "búfalo",
         "hi": "भैंस",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "bhaĩs"
       },
       {
         "concept": "c:animales.caballo",
         "en": "horse",
         "es": "caballo",
         "hi": "घोड़ा",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "ghoṛā"
       },
       {
         "concept": "c:animales.burro-asno",
         "en": "donkey / ass",
         "es": "burro / asno",
         "hi": "गधा",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "gadhā"
       },
       {
         "concept": "c:animales.cabra",
         "en": "goat",
         "es": "cabra",
         "hi": "बकरी",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "bakrī"
       },
       {
         "concept": "c:animales.oveja",
         "en": "sheep",
         "es": "oveja",
         "hi": "भेड़",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "bheṛ"
       },
       {
         "concept": "c:animales.cerdo",
         "en": "pig",
         "es": "cerdo",
         "hi": "सूअर",
-        "speaker": "A"
+        "speaker": "A",
+        "translit": "sūar"
       },
       {
         "concept": "c:animales.gallina",
         "en": "chicken",
         "es": "gallina",
         "hi": "मुर्गी",
-        "speaker": "B"
+        "speaker": "B",
+        "translit": "murgī"
       }
     ],
-    "exercises": [],
+    "exercises": [
+      {
+        "items": [
+          {
+            "answer": "जानवर",
+            "answerTranslit": "jānvar",
+            "concept": "c:animales.animal",
+            "optionTranslit": {
+              "घोड़ा": "ghoṛā",
+              "जानवर": "jānvar",
+              "बिल्ली": "billī",
+              "सूअर": "sūar"
+            },
+            "options": [
+              "घोड़ा",
+              "जानवर",
+              "बिल्ली",
+              "सूअर"
+            ],
+            "prompt": "animal"
+          },
+          {
+            "answer": "कुत्ता",
+            "answerTranslit": "kuttā",
+            "concept": "c:animales.perro",
+            "optionTranslit": {
+              "कुत्ता": "kuttā",
+              "जानवर": "jānvar",
+              "मुर्गी": "murgī",
+              "सूअर": "sūar"
+            },
+            "options": [
+              "मुर्गी",
+              "कुत्ता",
+              "सूअर",
+              "जानवर"
+            ],
+            "prompt": "perro"
+          },
+          {
+            "answer": "बिल्ली",
+            "answerTranslit": "billī",
+            "concept": "c:animales.gato",
+            "optionTranslit": {
+              "घोड़ा": "ghoṛā",
+              "जानवर": "jānvar",
+              "बिल्ली": "billī",
+              "सूअर": "sūar"
+            },
+            "options": [
+              "बिल्ली",
+              "सूअर",
+              "घोड़ा",
+              "जानवर"
+            ],
+            "prompt": "gato"
+          },
+          {
+            "answer": "गाय",
+            "answerTranslit": "gāy",
+            "concept": "c:animales.vaca",
+            "optionTranslit": {
+              "गाय": "gāy",
+              "बिल्ली": "billī",
+              "बैल": "bail",
+              "सूअर": "sūar"
+            },
+            "options": [
+              "गाय",
+              "बैल",
+              "बिल्ली",
+              "सूअर"
+            ],
+            "prompt": "vaca"
+          },
+          {
+            "answer": "बैल",
+            "answerTranslit": "bail",
+            "concept": "c:animales.buey-toro",
+            "optionTranslit": {
+              "कुत्ता": "kuttā",
+              "गधा": "gadhā",
+              "बैल": "bail",
+              "भैंस": "bhaĩs"
+            },
+            "options": [
+              "भैंस",
+              "गधा",
+              "बैल",
+              "कुत्ता"
+            ],
+            "prompt": "buey / toro"
+          },
+          {
+            "answer": "भैंस",
+            "answerTranslit": "bhaĩs",
+            "concept": "c:animales.bufalo",
+            "optionTranslit": {
+              "जानवर": "jānvar",
+              "बकरी": "bakrī",
+              "भैंस": "bhaĩs",
+              "मुर्गी": "murgī"
+            },
+            "options": [
+              "भैंस",
+              "बकरी",
+              "मुर्गी",
+              "जानवर"
+            ],
+            "prompt": "búfalo"
+          },
+          {
+            "answer": "घोड़ा",
+            "answerTranslit": "ghoṛā",
+            "concept": "c:animales.caballo",
+            "optionTranslit": {
+              "घोड़ा": "ghoṛā",
+              "जानवर": "jānvar",
+              "बैल": "bail",
+              "मुर्गी": "murgī"
+            },
+            "options": [
+              "बैल",
+              "मुर्गी",
+              "जानवर",
+              "घोड़ा"
+            ],
+            "prompt": "caballo"
+          },
+          {
+            "answer": "गधा",
+            "answerTranslit": "gadhā",
+            "concept": "c:animales.burro-asno",
+            "optionTranslit": {
+              "कुत्ता": "kuttā",
+              "गधा": "gadhā",
+              "गाय": "gāy",
+              "भेड़": "bheṛ"
+            },
+            "options": [
+              "भेड़",
+              "कुत्ता",
+              "गाय",
+              "गधा"
+            ],
+            "prompt": "burro / asno"
+          }
+        ],
+        "title": {
+          "en": "Choose the correct word",
+          "es": "Elige la palabra correcta"
+        },
+        "type": "choice"
+      }
+    ],
     "explanation": {
       "en": "Common animals, both domestic and wild.",
-      "es": "Animales frecuentes, tanto domésticos como salvajes.",
-      "hi": "अक्सर जानवरों, घरेलू और जंगली दोनों।"
+      "es": "Animales frecuentes, tanto domésticos como salvajes."
     },
     "generator": "build_lessons",
     "id": "hi-u9-l1",
@@ -2360,10 +7204,6 @@
       "es": [
         "Nombrar animales comunes",
         "Describir animales"
-      ],
-      "hi": [
-        "नाम आम जानवर",
-        "जानवरों का वर्णन करें"
       ]
     },
     "tables": [
@@ -2441,8 +7281,7 @@
     ],
     "title": {
       "en": "Animals",
-      "es": "Los animales",
-      "hi": "पशु"
+      "es": "Los animales"
     },
     "unit": 9
   }

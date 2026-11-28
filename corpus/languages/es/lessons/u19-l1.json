@@ -1,0 +1,272 @@
+{
+  "concepts": [
+    "c:naturaleza-y-clima.naturaleza",
+    "c:naturaleza-y-clima.arbol",
+    "c:naturaleza-y-clima.planta",
+    "c:naturaleza-y-clima.flor",
+    "c:naturaleza-y-clima.hoja",
+    "c:naturaleza-y-clima.raiz",
+    "c:naturaleza-y-clima.rama",
+    "c:naturaleza-y-clima.tronco-tallo",
+    "c:naturaleza-y-clima.semilla",
+    "c:naturaleza-y-clima.hierba-cesped",
+    "c:naturaleza-y-clima.bosque-selva",
+    "c:naturaleza-y-clima.montana"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:naturaleza-y-clima.naturaleza",
+      "en": "nature",
+      "es": "naturaleza",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.arbol",
+      "en": "tree",
+      "es": "árbol",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.planta",
+      "en": "plant",
+      "es": "planta",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.flor",
+      "en": "flower",
+      "es": "flor",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.hoja",
+      "en": "leaf",
+      "es": "hoja",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.raiz",
+      "en": "root",
+      "es": "raíz",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.rama",
+      "en": "branch",
+      "es": "rama",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.tronco-tallo",
+      "en": "trunk / stem",
+      "es": "tronco / tallo",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.semilla",
+      "en": "seed",
+      "es": "semilla",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.hierba-cesped",
+      "en": "grass / lawn",
+      "es": "hierba / césped",
+      "speaker": "B"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.bosque-selva",
+      "en": "forest / jungle",
+      "es": "bosque / selva",
+      "speaker": "A"
+    },
+    {
+      "concept": "c:naturaleza-y-clima.montana",
+      "en": "mountain",
+      "es": "montaña",
+      "speaker": "B"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "naturaleza",
+          "concept": "c:naturaleza-y-clima.naturaleza",
+          "options": [
+            "naturaleza",
+            "semilla",
+            "planta",
+            "raíz"
+          ],
+          "prompt": "naturaleza"
+        },
+        {
+          "answer": "árbol",
+          "concept": "c:naturaleza-y-clima.arbol",
+          "options": [
+            "montaña",
+            "árbol",
+            "naturaleza",
+            "rama"
+          ],
+          "prompt": "árbol"
+        },
+        {
+          "answer": "planta",
+          "concept": "c:naturaleza-y-clima.planta",
+          "options": [
+            "hierba / césped",
+            "árbol",
+            "semilla",
+            "planta"
+          ],
+          "prompt": "planta"
+        },
+        {
+          "answer": "flor",
+          "concept": "c:naturaleza-y-clima.flor",
+          "options": [
+            "rama",
+            "tronco / tallo",
+            "bosque / selva",
+            "flor"
+          ],
+          "prompt": "flor"
+        },
+        {
+          "answer": "hoja",
+          "concept": "c:naturaleza-y-clima.hoja",
+          "options": [
+            "hoja",
+            "árbol",
+            "semilla",
+            "hierba / césped"
+          ],
+          "prompt": "hoja"
+        },
+        {
+          "answer": "raíz",
+          "concept": "c:naturaleza-y-clima.raiz",
+          "options": [
+            "tronco / tallo",
+            "flor",
+            "rama",
+            "raíz"
+          ],
+          "prompt": "raíz"
+        },
+        {
+          "answer": "rama",
+          "concept": "c:naturaleza-y-clima.rama",
+          "options": [
+            "hoja",
+            "rama",
+            "hierba / césped",
+            "planta"
+          ],
+          "prompt": "rama"
+        },
+        {
+          "answer": "tronco / tallo",
+          "concept": "c:naturaleza-y-clima.tronco-tallo",
+          "options": [
+            "tronco / tallo",
+            "hoja",
+            "semilla",
+            "hierba / césped"
+          ],
+          "prompt": "tronco / tallo"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Nature, landscapes and weather to talk about the environment.",
+    "es": "Naturaleza, paisajes y clima para hablar del entorno."
+  },
+  "generator": "build_lessons",
+  "id": "es-u19-l1",
+  "lang": "es",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name natural elements",
+      "Talk about weather and seasons"
+    ],
+    "es": [
+      "Nombrar elementos naturales",
+      "Hablar del tiempo y las estaciones"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en"
+      ],
+      "rows": [
+        [
+          "naturaleza",
+          "nature"
+        ],
+        [
+          "árbol",
+          "tree"
+        ],
+        [
+          "planta",
+          "plant"
+        ],
+        [
+          "flor",
+          "flower"
+        ],
+        [
+          "hoja",
+          "leaf"
+        ],
+        [
+          "raíz",
+          "root"
+        ],
+        [
+          "rama",
+          "branch"
+        ],
+        [
+          "tronco / tallo",
+          "trunk / stem"
+        ],
+        [
+          "semilla",
+          "seed"
+        ],
+        [
+          "hierba / césped",
+          "grass / lawn"
+        ],
+        [
+          "bosque / selva",
+          "forest / jungle"
+        ],
+        [
+          "montaña",
+          "mountain"
+        ]
+      ],
+      "title": "es · en",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Nature and weather",
+    "es": "La naturaleza y el clima"
+  },
+  "unit": 19
+}

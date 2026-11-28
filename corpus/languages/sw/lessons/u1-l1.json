@@ -18,80 +18,245 @@
       "en": "Hello.",
       "es": "hola",
       "speaker": "A",
-      "sw": "Habari / Hujambo"
+      "sw": "Habari / Hujambo",
+      "translit": "ha-ba-ri"
     },
     {
       "concept": "c:saludos-y-expresiones.buenos-dias",
       "en": "Good morning.",
       "es": "buenos días",
       "speaker": "B",
-      "sw": "Habari za asubuhi"
+      "sw": "Habari za asubuhi",
+      "translit": "a-su-bu-hi"
     },
     {
       "concept": "c:saludos-y-expresiones.buenas-tardes",
       "en": "Good afternoon.",
       "es": "buenas tardes",
       "speaker": "A",
-      "sw": "Habari za mchana"
+      "sw": "Habari za mchana",
+      "translit": "m-cha-na"
     },
     {
       "concept": "c:saludos-y-expresiones.buenas-noches",
       "en": "Good night.",
       "es": "buenas noches",
       "speaker": "B",
-      "sw": "Usiku mwema / Habari za usiku"
+      "sw": "Usiku mwema / Habari za usiku",
+      "translit": "u-si-ku mwe-ma"
     },
     {
       "concept": "c:saludos-y-expresiones.gracias",
       "en": "Thank you.",
       "es": "gracias",
       "speaker": "A",
-      "sw": "Asante"
+      "sw": "Asante",
+      "translit": "a-san-te"
     },
     {
       "concept": "c:saludos-y-expresiones.por-favor",
       "en": "Please.",
       "es": "por favor",
       "speaker": "B",
-      "sw": "Tafadhali"
+      "sw": "Tafadhali",
+      "translit": "ta-fa-dha-li"
     },
     {
       "concept": "c:saludos-y-expresiones.perdon-disculpe",
       "en": "Excuse me / excuse",
       "es": "perdón / disculpe",
       "speaker": "A",
-      "sw": "Samahani"
+      "sw": "Samahani",
+      "translit": "sa-ma-ha-ni"
     },
     {
       "concept": "c:saludos-y-expresiones.adios",
       "en": "Bye.",
       "es": "adiós",
       "speaker": "B",
-      "sw": "Kwaheri"
+      "sw": "Kwaheri",
+      "translit": "kwa-he-ri"
     },
     {
       "concept": "c:saludos-y-expresiones.hasta-luego",
       "en": "See you later.",
       "es": "hasta luego",
       "speaker": "A",
-      "sw": "Tutaonana"
+      "sw": "Tutaonana",
+      "translit": "tu-ta-o-na-na"
     },
     {
       "concept": "c:saludos-y-expresiones.si",
       "en": "Yes",
       "es": "sí",
       "speaker": "B",
-      "sw": "Ndiyo"
+      "sw": "Ndiyo",
+      "translit": "ndi-yo"
     },
     {
       "concept": "c:saludos-y-expresiones.no",
       "en": "No.",
       "es": "no",
       "speaker": "A",
-      "sw": "Hapana"
+      "sw": "Hapana",
+      "translit": "ha-pa-na"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "Habari / Hujambo",
+          "answerTranslit": "ha-ba-ri",
+          "concept": "c:saludos-y-expresiones.hola",
+          "optionTranslit": {
+            "Habari / Hujambo": "ha-ba-ri",
+            "Habari za mchana": "m-cha-na",
+            "Tafadhali": "ta-fa-dha-li",
+            "Tutaonana": "tu-ta-o-na-na"
+          },
+          "options": [
+            "Tutaonana",
+            "Habari / Hujambo",
+            "Tafadhali",
+            "Habari za mchana"
+          ],
+          "prompt": "hola"
+        },
+        {
+          "answer": "Habari za asubuhi",
+          "answerTranslit": "a-su-bu-hi",
+          "concept": "c:saludos-y-expresiones.buenos-dias",
+          "optionTranslit": {
+            "Habari za asubuhi": "a-su-bu-hi",
+            "Ndiyo": "ndi-yo",
+            "Samahani": "sa-ma-ha-ni",
+            "Tafadhali": "ta-fa-dha-li"
+          },
+          "options": [
+            "Ndiyo",
+            "Samahani",
+            "Habari za asubuhi",
+            "Tafadhali"
+          ],
+          "prompt": "buenos días"
+        },
+        {
+          "answer": "Habari za mchana",
+          "answerTranslit": "m-cha-na",
+          "concept": "c:saludos-y-expresiones.buenas-tardes",
+          "optionTranslit": {
+            "Asante": "a-san-te",
+            "Habari za mchana": "m-cha-na",
+            "Kwaheri": "kwa-he-ri",
+            "Tutaonana": "tu-ta-o-na-na"
+          },
+          "options": [
+            "Habari za mchana",
+            "Tutaonana",
+            "Kwaheri",
+            "Asante"
+          ],
+          "prompt": "buenas tardes"
+        },
+        {
+          "answer": "Usiku mwema / Habari za usiku",
+          "answerTranslit": "u-si-ku mwe-ma",
+          "concept": "c:saludos-y-expresiones.buenas-noches",
+          "optionTranslit": {
+            "Habari / Hujambo": "ha-ba-ri",
+            "Kwaheri": "kwa-he-ri",
+            "Tutaonana": "tu-ta-o-na-na",
+            "Usiku mwema / Habari za usiku": "u-si-ku mwe-ma"
+          },
+          "options": [
+            "Tutaonana",
+            "Habari / Hujambo",
+            "Usiku mwema / Habari za usiku",
+            "Kwaheri"
+          ],
+          "prompt": "buenas noches"
+        },
+        {
+          "answer": "Asante",
+          "answerTranslit": "a-san-te",
+          "concept": "c:saludos-y-expresiones.gracias",
+          "optionTranslit": {
+            "Asante": "a-san-te",
+            "Habari / Hujambo": "ha-ba-ri",
+            "Habari za mchana": "m-cha-na",
+            "Tutaonana": "tu-ta-o-na-na"
+          },
+          "options": [
+            "Asante",
+            "Tutaonana",
+            "Habari / Hujambo",
+            "Habari za mchana"
+          ],
+          "prompt": "gracias"
+        },
+        {
+          "answer": "Tafadhali",
+          "answerTranslit": "ta-fa-dha-li",
+          "concept": "c:saludos-y-expresiones.por-favor",
+          "optionTranslit": {
+            "Asante": "a-san-te",
+            "Habari / Hujambo": "ha-ba-ri",
+            "Habari za asubuhi": "a-su-bu-hi",
+            "Tafadhali": "ta-fa-dha-li"
+          },
+          "options": [
+            "Tafadhali",
+            "Asante",
+            "Habari za asubuhi",
+            "Habari / Hujambo"
+          ],
+          "prompt": "por favor"
+        },
+        {
+          "answer": "Samahani",
+          "answerTranslit": "sa-ma-ha-ni",
+          "concept": "c:saludos-y-expresiones.perdon-disculpe",
+          "optionTranslit": {
+            "Habari / Hujambo": "ha-ba-ri",
+            "Hapana": "ha-pa-na",
+            "Samahani": "sa-ma-ha-ni",
+            "Tutaonana": "tu-ta-o-na-na"
+          },
+          "options": [
+            "Habari / Hujambo",
+            "Samahani",
+            "Tutaonana",
+            "Hapana"
+          ],
+          "prompt": "perdón / disculpe"
+        },
+        {
+          "answer": "Kwaheri",
+          "answerTranslit": "kwa-he-ri",
+          "concept": "c:saludos-y-expresiones.adios",
+          "optionTranslit": {
+            "Hapana": "ha-pa-na",
+            "Kwaheri": "kwa-he-ri",
+            "Samahani": "sa-ma-ha-ni",
+            "Tutaonana": "tu-ta-o-na-na"
+          },
+          "options": [
+            "Kwaheri",
+            "Samahani",
+            "Tutaonana",
+            "Hapana"
+          ],
+          "prompt": "adiós"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Basic courtesy expressions to open and close a conversation.",
     "es": "Expresiones básicas de cortesía para abrir y cerrar una conversación."

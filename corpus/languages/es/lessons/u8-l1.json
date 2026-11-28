@@ -87,7 +87,105 @@
       "speaker": "B"
     }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "tiempo / hora",
+          "concept": "c:tiempo-y-calendario.tiempo-hora",
+          "options": [
+            "mañana (temprano)",
+            "hoy",
+            "tiempo / hora",
+            "minuto"
+          ],
+          "prompt": "tiempo / hora"
+        },
+        {
+          "answer": "reloj / hora",
+          "concept": "c:tiempo-y-calendario.reloj-hora",
+          "options": [
+            "reloj / hora",
+            "mediodía / tarde",
+            "noche",
+            "medianoche"
+          ],
+          "prompt": "reloj / hora"
+        },
+        {
+          "answer": "minuto",
+          "concept": "c:tiempo-y-calendario.minuto",
+          "options": [
+            "mediodía / tarde",
+            "segundo (tiempo)",
+            "minuto",
+            "día"
+          ],
+          "prompt": "minuto"
+        },
+        {
+          "answer": "segundo (tiempo)",
+          "concept": "c:tiempo-y-calendario.segundo-tiempo",
+          "options": [
+            "segundo (tiempo)",
+            "noche",
+            "medianoche",
+            "día"
+          ],
+          "prompt": "segundo (tiempo)"
+        },
+        {
+          "answer": "hora (duración)",
+          "concept": "c:tiempo-y-calendario.hora-duracion",
+          "options": [
+            "segundo (tiempo)",
+            "reloj / hora",
+            "hora (duración)",
+            "minuto"
+          ],
+          "prompt": "hora (duración)"
+        },
+        {
+          "answer": "mañana (temprano)",
+          "concept": "c:tiempo-y-calendario.manana-temprano",
+          "options": [
+            "mañana (temprano)",
+            "día",
+            "tiempo / hora",
+            "mediodía / tarde"
+          ],
+          "prompt": "mañana (temprano)"
+        },
+        {
+          "answer": "mediodía / tarde",
+          "concept": "c:tiempo-y-calendario.mediodia-tarde",
+          "options": [
+            "tiempo / hora",
+            "minuto",
+            "mediodía / tarde",
+            "hoy"
+          ],
+          "prompt": "mediodía / tarde"
+        },
+        {
+          "answer": "tarde / atardecer",
+          "concept": "c:tiempo-y-calendario.tarde-atardecer",
+          "options": [
+            "reloj / hora",
+            "mediodía / tarde",
+            "tarde / atardecer",
+            "minuto"
+          ],
+          "prompt": "tarde / atardecer"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
   "explanation": {
     "en": "Words to place actions in time: days, months and seasons.",
     "es": "Palabras para situar acciones en el tiempo: días, meses y estaciones."

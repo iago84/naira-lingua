@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:transporte-y-viajes.viaje",
+    "c:transporte-y-viajes.viaje-trayecto",
+    "c:transporte-y-viajes.turismo",
+    "c:transporte-y-viajes.coche-auto",
+    "c:transporte-y-viajes.taxi",
+    "c:transporte-y-viajes.autobus",
+    "c:transporte-y-viajes.tren",
+    "c:transporte-y-viajes.metro",
+    "c:transporte-y-viajes.avion",
+    "c:transporte-y-viajes.barco-avion",
+    "c:transporte-y-viajes.barco-bote",
+    "c:transporte-y-viajes.bicicleta"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:transporte-y-viajes.viaje",
+      "en": "travel",
+      "es": "viaje",
+      "ja": "旅行案内",
+      "speaker": "A",
+      "translit": "ryokou annai"
+    },
+    {
+      "concept": "c:transporte-y-viajes.viaje-trayecto",
+      "en": "travel / journey",
+      "es": "viaje / trayecto",
+      "ja": "旅行・旅",
+      "speaker": "B",
+      "translit": "ryokou ・ tabi"
+    },
+    {
+      "concept": "c:transporte-y-viajes.turismo",
+      "en": "tourism",
+      "es": "turismo",
+      "ja": "観光案内",
+      "speaker": "A",
+      "translit": "kankouannai"
+    },
+    {
+      "concept": "c:transporte-y-viajes.coche-auto",
+      "en": "car / vehicle",
+      "es": "coche / auto",
+      "ja": "車/車",
+      "speaker": "B",
+      "translit": "kuruma / kuruma"
+    },
+    {
+      "concept": "c:transporte-y-viajes.taxi",
+      "en": "taxi",
+      "es": "taxi",
+      "ja": "タクシー",
+      "speaker": "A",
+      "translit": "takushii"
+    },
+    {
+      "concept": "c:transporte-y-viajes.autobus",
+      "en": "bus",
+      "es": "autobús",
+      "ja": "バスバス",
+      "speaker": "B",
+      "translit": "basubasu"
+    },
+    {
+      "concept": "c:transporte-y-viajes.tren",
+      "en": "train",
+      "es": "tren",
+      "ja": "電車",
+      "speaker": "A",
+      "translit": "densha"
+    },
+    {
+      "concept": "c:transporte-y-viajes.metro",
+      "en": "Subway",
+      "es": "metro",
+      "ja": "地下鉄:",
+      "speaker": "B",
+      "translit": "chikatetsu :"
+    },
+    {
+      "concept": "c:transporte-y-viajes.avion",
+      "en": "aircraft",
+      "es": "avión",
+      "ja": "航空機用",
+      "speaker": "A",
+      "translit": "koukuukiyou"
+    },
+    {
+      "concept": "c:transporte-y-viajes.barco-avion",
+      "en": "boat / aircraft",
+      "es": "barco / avión",
+      "ja": "ボート/航空機",
+      "speaker": "B",
+      "translit": "booto / koukuuki"
+    },
+    {
+      "concept": "c:transporte-y-viajes.barco-bote",
+      "en": "boat / ship",
+      "es": "barco / bote",
+      "ja": "ボート/船",
+      "speaker": "A",
+      "translit": "booto / fune"
+    },
+    {
+      "concept": "c:transporte-y-viajes.bicicleta",
+      "en": "bicycle",
+      "es": "bicicleta",
+      "ja": "自転車",
+      "speaker": "B",
+      "translit": "jitensha"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "旅行案内",
+          "answerTranslit": "ryokou annai",
+          "concept": "c:transporte-y-viajes.viaje",
+          "optionTranslit": {
+            "タクシー": "takushii",
+            "ボート/航空機": "booto / koukuuki",
+            "ボート/船": "booto / fune",
+            "旅行案内": "ryokou annai"
+          },
+          "options": [
+            "タクシー",
+            "ボート/航空機",
+            "ボート/船",
+            "旅行案内"
+          ],
+          "prompt": "viaje"
+        },
+        {
+          "answer": "旅行・旅",
+          "answerTranslit": "ryokou ・ tabi",
+          "concept": "c:transporte-y-viajes.viaje-trayecto",
+          "optionTranslit": {
+            "ボート/船": "booto / fune",
+            "地下鉄:": "chikatetsu :",
+            "旅行・旅": "ryokou ・ tabi",
+            "観光案内": "kankouannai"
+          },
+          "options": [
+            "地下鉄:",
+            "観光案内",
+            "ボート/船",
+            "旅行・旅"
+          ],
+          "prompt": "viaje / trayecto"
+        },
+        {
+          "answer": "観光案内",
+          "answerTranslit": "kankouannai",
+          "concept": "c:transporte-y-viajes.turismo",
+          "optionTranslit": {
+            "ボート/航空機": "booto / koukuuki",
+            "地下鉄:": "chikatetsu :",
+            "旅行・旅": "ryokou ・ tabi",
+            "観光案内": "kankouannai"
+          },
+          "options": [
+            "旅行・旅",
+            "ボート/航空機",
+            "地下鉄:",
+            "観光案内"
+          ],
+          "prompt": "turismo"
+        },
+        {
+          "answer": "車/車",
+          "answerTranslit": "kuruma / kuruma",
+          "concept": "c:transporte-y-viajes.coche-auto",
+          "optionTranslit": {
+            "ボート/航空機": "booto / koukuuki",
+            "旅行案内": "ryokou annai",
+            "航空機用": "koukuukiyou",
+            "車/車": "kuruma / kuruma"
+          },
+          "options": [
+            "車/車",
+            "航空機用",
+            "ボート/航空機",
+            "旅行案内"
+          ],
+          "prompt": "coche / auto"
+        },
+        {
+          "answer": "タクシー",
+          "answerTranslit": "takushii",
+          "concept": "c:transporte-y-viajes.taxi",
+          "optionTranslit": {
+            "タクシー": "takushii",
+            "旅行・旅": "ryokou ・ tabi",
+            "旅行案内": "ryokou annai",
+            "観光案内": "kankouannai"
+          },
+          "options": [
+            "旅行案内",
+            "観光案内",
+            "タクシー",
+            "旅行・旅"
+          ],
+          "prompt": "taxi"
+        },
+        {
+          "answer": "バスバス",
+          "answerTranslit": "basubasu",
+          "concept": "c:transporte-y-viajes.autobus",
+          "optionTranslit": {
+            "タクシー": "takushii",
+            "バスバス": "basubasu",
+            "自転車": "jitensha",
+            "車/車": "kuruma / kuruma"
+          },
+          "options": [
+            "車/車",
+            "タクシー",
+            "バスバス",
+            "自転車"
+          ],
+          "prompt": "autobús"
+        },
+        {
+          "answer": "電車",
+          "answerTranslit": "densha",
+          "concept": "c:transporte-y-viajes.tren",
+          "optionTranslit": {
+            "バスバス": "basubasu",
+            "ボート/航空機": "booto / koukuuki",
+            "自転車": "jitensha",
+            "電車": "densha"
+          },
+          "options": [
+            "ボート/航空機",
+            "バスバス",
+            "電車",
+            "自転車"
+          ],
+          "prompt": "tren"
+        },
+        {
+          "answer": "地下鉄:",
+          "answerTranslit": "chikatetsu :",
+          "concept": "c:transporte-y-viajes.metro",
+          "optionTranslit": {
+            "ボート/航空機": "booto / koukuuki",
+            "地下鉄:": "chikatetsu :",
+            "旅行案内": "ryokou annai",
+            "航空機用": "koukuukiyou"
+          },
+          "options": [
+            "旅行案内",
+            "地下鉄:",
+            "ボート/航空機",
+            "航空機用"
+          ],
+          "prompt": "metro"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Means of transport and words useful to get around.",
+    "es": "Medios de transporte y palabras útiles para desplazarse."
+  },
+  "generator": "build_lessons",
+  "id": "ja-u16-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name means of transport",
+      "Get around and travel"
+    ],
+    "es": [
+      "Nombrar medios de transporte",
+      "Moverse y viajar"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "viaje",
+          "travel",
+          "旅行案内"
+        ],
+        [
+          "viaje / trayecto",
+          "travel / journey",
+          "旅行・旅"
+        ],
+        [
+          "turismo",
+          "tourism",
+          "観光案内"
+        ],
+        [
+          "coche / auto",
+          "car / vehicle",
+          "車/車"
+        ],
+        [
+          "taxi",
+          "taxi",
+          "タクシー"
+        ],
+        [
+          "autobús",
+          "bus",
+          "バスバス"
+        ],
+        [
+          "tren",
+          "train",
+          "電車"
+        ],
+        [
+          "metro",
+          "Subway",
+          "地下鉄:"
+        ],
+        [
+          "avión",
+          "aircraft",
+          "航空機用"
+        ],
+        [
+          "barco / avión",
+          "boat / aircraft",
+          "ボート/航空機"
+        ],
+        [
+          "barco / bote",
+          "boat / ship",
+          "ボート/船"
+        ],
+        [
+          "bicicleta",
+          "bicycle",
+          "自転車"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Transport and travel",
+    "es": "El transporte y los viajes"
+  },
+  "unit": 16
+}

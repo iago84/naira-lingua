@@ -1,0 +1,81 @@
+{
+  "lang": "zh",
+  "script": "han",
+  "direction": "ltr",
+  "title": {"es": "Chino: hanzi y pinyin", "en": "Chinese: hanzi and pinyin"},
+  "intro": {
+    "es": "El chino no tiene alfabeto: se escribe con caracteres (汉字 hànzì), cada uno con un significado. Para leerlo se usa el pinyin, su romanización oficial con marcas de tono. Aprender el pinyin es el primer paso para poder pronunciar y teclear cualquier carácter.",
+    "en": "Chinese has no alphabet: it is written with characters (汉字 hànzì), each carrying meaning. To read it, the official romanisation pinyin is used, with tone marks. Learning pinyin is the first step to pronounce and type any character."
+  },
+  "sections": [
+    {
+      "title": {"es": "Iniciales (声母 shēngmǔ)", "en": "Initials (声母 shēngmǔ)"},
+      "columns": [
+        {"key": "char", "label": {"es": "Pinyin", "en": "Pinyin"}},
+        {"key": "translit", "label": {"es": "Sonido aproximado", "en": "Approximate sound"}}
+      ],
+      "items": [
+        {"char": "b", "translit": "p (como en «spa»)"},
+        {"char": "p", "translit": "p aspirada"},
+        {"char": "m", "translit": "m"},
+        {"char": "f", "translit": "f"},
+        {"char": "d", "translit": "t (como en «stop»)"},
+        {"char": "t", "translit": "t aspirada"},
+        {"char": "n", "translit": "n"},
+        {"char": "l", "translit": "l"},
+        {"char": "g", "translit": "k (como en «skate»)"},
+        {"char": "k", "translit": "k aspirada"},
+        {"char": "h", "translit": "j suave / j"},
+        {"char": "j", "translit": "ch palatal (como «ch» suave)"},
+        {"char": "q", "translit": "ch aspirada"},
+        {"char": "x", "translit": "sh palatal"},
+        {"char": "zh", "translit": "ch retrofleja (lengua al paladar)"},
+        {"char": "ch", "translit": "ch retrofleja aspirada"},
+        {"char": "sh", "translit": "sh retrofleja"},
+        {"char": "r", "translit": "r retrofleja"},
+        {"char": "z", "translit": "ts (como «pizza»)"},
+        {"char": "c", "translit": "ts aspirada"},
+        {"char": "s", "translit": "s"}
+      ]
+    },
+    {
+      "title": {"es": "Finales (韵母 yùnmǔ)", "en": "Finals (韵母 yùnmǔ)"},
+      "columns": [
+        {"key": "char", "label": {"es": "Pinyin", "en": "Pinyin"}},
+        {"key": "translit", "label": {"es": "Sonido aproximado", "en": "Approximate sound"}}
+      ],
+      "items": [
+        {"char": "a", "translit": "a"},
+        {"char": "o", "translit": "o"},
+        {"char": "e", "translit": "e gutural («e» ratera)"},
+        {"char": "i", "translit": "i"},
+        {"char": "u", "translit": "u"},
+        {"char": "ü", "translit": "u con labios de i (como «tu» francés)"},
+        {"char": "ai", "translit": "ai"},
+        {"char": "ei", "translit": "ei"},
+        {"char": "ao", "translit": "ao"},
+        {"char": "ou", "translit": "ou"},
+        {"char": "an", "translit": "an"},
+        {"char": "en", "translit": "en"},
+        {"char": "ang", "translit": "ang nasal"},
+        {"char": "eng", "translit": "eng nasal"},
+        {"char": "ong", "translit": "ong nasal"},
+        {"char": "er", "translit": "ar (sonido «er»)"}
+      ]
+    },
+    {
+      "title": {"es": "Tonos (声调 shēngdiào)", "en": "Tones (声调 shēngdiào)"},
+      "columns": [
+        {"key": "char", "label": {"es": "Ejemplo", "en": "Example"}},
+        {"key": "translit", "label": {"es": "Tono", "en": "Tone"}}
+      ],
+      "items": [
+        {"char": "mā", "translit": "1.º: alto y plano"},
+        {"char": "má", "translit": "2.º: ascendente"},
+        {"char": "mǎ", "translit": "3.º: baja y sube"},
+        {"char": "mà", "translit": "4.º: descendente y fuerte"},
+        {"char": "ma", "translit": "neutro: breve y suave"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:vocabulario-extra-y-frases-utiles.amor",
+    "c:vocabulario-extra-y-frases-utiles.odio",
+    "c:vocabulario-extra-y-frases-utiles.honestidad",
+    "c:vocabulario-extra-y-frases-utiles.mentira",
+    "c:vocabulario-extra-y-frases-utiles.verdad",
+    "c:vocabulario-extra-y-frases-utiles.justicia",
+    "c:vocabulario-extra-y-frases-utiles.injusticia",
+    "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+    "c:vocabulario-extra-y-frases-utiles.miedo",
+    "c:vocabulario-extra-y-frases-utiles.esperanza",
+    "c:vocabulario-extra-y-frases-utiles.decepcion",
+    "c:vocabulario-extra-y-frases-utiles.ira-enfado"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+      "en": "love",
+      "es": "amor",
+      "hi": "प्रेम",
+      "speaker": "A",
+      "translit": "prem"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+      "en": "I hate it.",
+      "es": "odio",
+      "hi": "घृणा",
+      "speaker": "B",
+      "translit": "ghṛṇā"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+      "en": "honesty",
+      "es": "honestidad",
+      "hi": "ईमानदारी",
+      "speaker": "A",
+      "translit": "īmāndārī"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+      "en": "lie",
+      "es": "mentira",
+      "hi": "झूठ",
+      "speaker": "B",
+      "translit": "jhūṭh"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+      "en": "truth",
+      "es": "verdad",
+      "hi": "सच्चाई",
+      "speaker": "A",
+      "translit": "saccāī"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+      "en": "justice",
+      "es": "justicia",
+      "hi": "न्याय",
+      "speaker": "B",
+      "translit": "nyāy"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+      "en": "injustice",
+      "es": "injusticia",
+      "hi": "अन्याय",
+      "speaker": "A",
+      "translit": "anyāy"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+      "en": "value / courage",
+      "es": "valor / coraje",
+      "hi": "साहस",
+      "speaker": "B",
+      "translit": "sāhas"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.miedo",
+      "en": "fear",
+      "es": "miedo",
+      "hi": "डर",
+      "speaker": "A",
+      "translit": "ḍar"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.esperanza",
+      "en": "hope",
+      "es": "esperanza",
+      "hi": "आशा",
+      "speaker": "B",
+      "translit": "āśā"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.decepcion",
+      "en": "disappointment",
+      "es": "decepción",
+      "hi": "निराशा",
+      "speaker": "A",
+      "translit": "nirāśā"
+    },
+    {
+      "concept": "c:vocabulario-extra-y-frases-utiles.ira-enfado",
+      "en": "anger / angry",
+      "es": "ira / enfado",
+      "hi": "गुस्सा",
+      "speaker": "B",
+      "translit": "gussā"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "प्रेम",
+          "answerTranslit": "prem",
+          "concept": "c:vocabulario-extra-y-frases-utiles.amor",
+          "optionTranslit": {
+            "निराशा": "nirāśā",
+            "न्याय": "nyāy",
+            "प्रेम": "prem",
+            "सच्चाई": "saccāī"
+          },
+          "options": [
+            "न्याय",
+            "प्रेम",
+            "सच्चाई",
+            "निराशा"
+          ],
+          "prompt": "amor"
+        },
+        {
+          "answer": "घृणा",
+          "answerTranslit": "ghṛṇā",
+          "concept": "c:vocabulario-extra-y-frases-utiles.odio",
+          "optionTranslit": {
+            "अन्याय": "anyāy",
+            "आशा": "āśā",
+            "ईमानदारी": "īmāndārī",
+            "घृणा": "ghṛṇā"
+          },
+          "options": [
+            "ईमानदारी",
+            "आशा",
+            "घृणा",
+            "अन्याय"
+          ],
+          "prompt": "odio"
+        },
+        {
+          "answer": "ईमानदारी",
+          "answerTranslit": "īmāndārī",
+          "concept": "c:vocabulario-extra-y-frases-utiles.honestidad",
+          "optionTranslit": {
+            "ईमानदारी": "īmāndārī",
+            "गुस्सा": "gussā",
+            "झूठ": "jhūṭh",
+            "सच्चाई": "saccāī"
+          },
+          "options": [
+            "सच्चाई",
+            "ईमानदारी",
+            "गुस्सा",
+            "झूठ"
+          ],
+          "prompt": "honestidad"
+        },
+        {
+          "answer": "झूठ",
+          "answerTranslit": "jhūṭh",
+          "concept": "c:vocabulario-extra-y-frases-utiles.mentira",
+          "optionTranslit": {
+            "ईमानदारी": "īmāndārī",
+            "झूठ": "jhūṭh",
+            "प्रेम": "prem",
+            "सच्चाई": "saccāī"
+          },
+          "options": [
+            "सच्चाई",
+            "ईमानदारी",
+            "प्रेम",
+            "झूठ"
+          ],
+          "prompt": "mentira"
+        },
+        {
+          "answer": "सच्चाई",
+          "answerTranslit": "saccāī",
+          "concept": "c:vocabulario-extra-y-frases-utiles.verdad",
+          "optionTranslit": {
+            "ईमानदारी": "īmāndārī",
+            "गुस्सा": "gussā",
+            "न्याय": "nyāy",
+            "सच्चाई": "saccāī"
+          },
+          "options": [
+            "सच्चाई",
+            "न्याय",
+            "ईमानदारी",
+            "गुस्सा"
+          ],
+          "prompt": "verdad"
+        },
+        {
+          "answer": "न्याय",
+          "answerTranslit": "nyāy",
+          "concept": "c:vocabulario-extra-y-frases-utiles.justicia",
+          "optionTranslit": {
+            "अन्याय": "anyāy",
+            "गुस्सा": "gussā",
+            "निराशा": "nirāśā",
+            "न्याय": "nyāy"
+          },
+          "options": [
+            "गुस्सा",
+            "अन्याय",
+            "न्याय",
+            "निराशा"
+          ],
+          "prompt": "justicia"
+        },
+        {
+          "answer": "अन्याय",
+          "answerTranslit": "anyāy",
+          "concept": "c:vocabulario-extra-y-frases-utiles.injusticia",
+          "optionTranslit": {
+            "अन्याय": "anyāy",
+            "ईमानदारी": "īmāndārī",
+            "निराशा": "nirāśā",
+            "सच्चाई": "saccāī"
+          },
+          "options": [
+            "सच्चाई",
+            "ईमानदारी",
+            "अन्याय",
+            "निराशा"
+          ],
+          "prompt": "injusticia"
+        },
+        {
+          "answer": "साहस",
+          "answerTranslit": "sāhas",
+          "concept": "c:vocabulario-extra-y-frases-utiles.valor-coraje",
+          "optionTranslit": {
+            "अन्याय": "anyāy",
+            "आशा": "āśā",
+            "न्याय": "nyāy",
+            "साहस": "sāhas"
+          },
+          "options": [
+            "साहस",
+            "अन्याय",
+            "आशा",
+            "न्याय"
+          ],
+          "prompt": "valor / coraje"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Support words and phrases that appear in many conversations.",
+    "es": "Palabras y frases de apoyo que aparecen en muchas conversaciones."
+  },
+  "generator": "build_lessons",
+  "id": "hi-u20-l1",
+  "lang": "hi",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Expand vocabulary",
+      "Use common everyday phrases"
+    ],
+    "es": [
+      "Ampliar vocabulario",
+      "Usar frases comunes del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "hi"
+      ],
+      "rows": [
+        [
+          "amor",
+          "love",
+          "प्रेम"
+        ],
+        [
+          "odio",
+          "I hate it.",
+          "घृणा"
+        ],
+        [
+          "honestidad",
+          "honesty",
+          "ईमानदारी"
+        ],
+        [
+          "mentira",
+          "lie",
+          "झूठ"
+        ],
+        [
+          "verdad",
+          "truth",
+          "सच्चाई"
+        ],
+        [
+          "justicia",
+          "justice",
+          "न्याय"
+        ],
+        [
+          "injusticia",
+          "injustice",
+          "अन्याय"
+        ],
+        [
+          "valor / coraje",
+          "value / courage",
+          "साहस"
+        ],
+        [
+          "miedo",
+          "fear",
+          "डर"
+        ],
+        [
+          "esperanza",
+          "hope",
+          "आशा"
+        ],
+        [
+          "decepción",
+          "disappointment",
+          "निराशा"
+        ],
+        [
+          "ira / enfado",
+          "anger / angry",
+          "गुस्सा"
+        ]
+      ],
+      "title": "es · en · hi",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Extra vocabulary and useful phrases",
+    "es": "Vocabulario extra y frases útiles"
+  },
+  "unit": 20
+}

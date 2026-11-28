@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:verbos-comunes.ser-estar-haber",
+    "c:verbos-comunes.hacer",
+    "c:verbos-comunes.ir",
+    "c:verbos-comunes.venir",
+    "c:verbos-comunes.ver-mirar",
+    "c:verbos-comunes.oir-escuchar",
+    "c:verbos-comunes.hablar-decir",
+    "c:verbos-comunes.decir",
+    "c:verbos-comunes.preguntar",
+    "c:verbos-comunes.contar-explicar",
+    "c:verbos-comunes.entender-comprender",
+    "c:verbos-comunes.saber-conocer"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:verbos-comunes.ser-estar-haber",
+      "en": "be / are",
+      "es": "ser / estar / haber",
+      "ja": "は /",
+      "speaker": "A",
+      "translit": "ha /"
+    },
+    {
+      "concept": "c:verbos-comunes.hacer",
+      "en": "do",
+      "es": "hacer",
+      "ja": "やる",
+      "speaker": "B",
+      "translit": "yaru"
+    },
+    {
+      "concept": "c:verbos-comunes.ir",
+      "en": "go",
+      "es": "ir",
+      "ja": "ふりがな",
+      "speaker": "A",
+      "translit": "furigana"
+    },
+    {
+      "concept": "c:verbos-comunes.venir",
+      "en": "Come",
+      "es": "venir",
+      "ja": "おすすめ",
+      "speaker": "B",
+      "translit": "osusume"
+    },
+    {
+      "concept": "c:verbos-comunes.ver-mirar",
+      "en": "see / watch",
+      "es": "ver / mirar",
+      "ja": "見る / watch",
+      "speaker": "A",
+      "translit": "miru / watch"
+    },
+    {
+      "concept": "c:verbos-comunes.oir-escuchar",
+      "en": "hear / listen",
+      "es": "oír / escuchar",
+      "ja": "聴く/聞く",
+      "speaker": "B",
+      "translit": "kiku / kiku"
+    },
+    {
+      "concept": "c:verbos-comunes.hablar-decir",
+      "en": "speak / say",
+      "es": "hablar / decir",
+      "ja": "話す/言う",
+      "speaker": "A",
+      "translit": "hanasu / iu"
+    },
+    {
+      "concept": "c:verbos-comunes.decir",
+      "en": "say",
+      "es": "decir",
+      "ja": "言う",
+      "speaker": "B",
+      "translit": "iu"
+    },
+    {
+      "concept": "c:verbos-comunes.preguntar",
+      "en": "ask",
+      "es": "preguntar",
+      "ja": "リクエスト",
+      "speaker": "A",
+      "translit": "rikuesuto"
+    },
+    {
+      "concept": "c:verbos-comunes.contar-explicar",
+      "en": "count / explain",
+      "es": "contar / explicar",
+      "ja": "カウント/説明",
+      "speaker": "B",
+      "translit": "kaunto / setsumei"
+    },
+    {
+      "concept": "c:verbos-comunes.entender-comprender",
+      "en": "understand / comprehend",
+      "es": "entender / comprender",
+      "ja": "理解/補完",
+      "speaker": "A",
+      "translit": "rikai / hokan"
+    },
+    {
+      "concept": "c:verbos-comunes.saber-conocer",
+      "en": "know / understand",
+      "es": "saber / conocer",
+      "ja": "知る・理解する",
+      "speaker": "B",
+      "translit": "shiru ・ rikai suru"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "は /",
+          "answerTranslit": "ha /",
+          "concept": "c:verbos-comunes.ser-estar-haber",
+          "optionTranslit": {
+            "おすすめ": "osusume",
+            "は /": "ha /",
+            "リクエスト": "rikuesuto",
+            "見る / watch": "miru / watch"
+          },
+          "options": [
+            "は /",
+            "見る / watch",
+            "おすすめ",
+            "リクエスト"
+          ],
+          "prompt": "ser / estar / haber"
+        },
+        {
+          "answer": "やる",
+          "answerTranslit": "yaru",
+          "concept": "c:verbos-comunes.hacer",
+          "optionTranslit": {
+            "やる": "yaru",
+            "カウント/説明": "kaunto / setsumei",
+            "見る / watch": "miru / watch",
+            "言う": "iu"
+          },
+          "options": [
+            "見る / watch",
+            "やる",
+            "カウント/説明",
+            "言う"
+          ],
+          "prompt": "hacer"
+        },
+        {
+          "answer": "ふりがな",
+          "answerTranslit": "furigana",
+          "concept": "c:verbos-comunes.ir",
+          "optionTranslit": {
+            "おすすめ": "osusume",
+            "は /": "ha /",
+            "ふりがな": "furigana",
+            "理解/補完": "rikai / hokan"
+          },
+          "options": [
+            "ふりがな",
+            "は /",
+            "理解/補完",
+            "おすすめ"
+          ],
+          "prompt": "ir"
+        },
+        {
+          "answer": "おすすめ",
+          "answerTranslit": "osusume",
+          "concept": "c:verbos-comunes.venir",
+          "optionTranslit": {
+            "おすすめ": "osusume",
+            "理解/補完": "rikai / hokan",
+            "見る / watch": "miru / watch",
+            "言う": "iu"
+          },
+          "options": [
+            "言う",
+            "おすすめ",
+            "理解/補完",
+            "見る / watch"
+          ],
+          "prompt": "venir"
+        },
+        {
+          "answer": "見る / watch",
+          "answerTranslit": "miru / watch",
+          "concept": "c:verbos-comunes.ver-mirar",
+          "optionTranslit": {
+            "ふりがな": "furigana",
+            "知る・理解する": "shiru ・ rikai suru",
+            "見る / watch": "miru / watch",
+            "話す/言う": "hanasu / iu"
+          },
+          "options": [
+            "見る / watch",
+            "話す/言う",
+            "知る・理解する",
+            "ふりがな"
+          ],
+          "prompt": "ver / mirar"
+        },
+        {
+          "answer": "聴く/聞く",
+          "answerTranslit": "kiku / kiku",
+          "concept": "c:verbos-comunes.oir-escuchar",
+          "optionTranslit": {
+            "カウント/説明": "kaunto / setsumei",
+            "リクエスト": "rikuesuto",
+            "理解/補完": "rikai / hokan",
+            "聴く/聞く": "kiku / kiku"
+          },
+          "options": [
+            "聴く/聞く",
+            "リクエスト",
+            "カウント/説明",
+            "理解/補完"
+          ],
+          "prompt": "oír / escuchar"
+        },
+        {
+          "answer": "話す/言う",
+          "answerTranslit": "hanasu / iu",
+          "concept": "c:verbos-comunes.hablar-decir",
+          "optionTranslit": {
+            "は /": "ha /",
+            "理解/補完": "rikai / hokan",
+            "知る・理解する": "shiru ・ rikai suru",
+            "話す/言う": "hanasu / iu"
+          },
+          "options": [
+            "理解/補完",
+            "話す/言う",
+            "は /",
+            "知る・理解する"
+          ],
+          "prompt": "hablar / decir"
+        },
+        {
+          "answer": "言う",
+          "answerTranslit": "iu",
+          "concept": "c:verbos-comunes.decir",
+          "optionTranslit": {
+            "ふりがな": "furigana",
+            "やる": "yaru",
+            "見る / watch": "miru / watch",
+            "言う": "iu"
+          },
+          "options": [
+            "ふりがな",
+            "やる",
+            "見る / watch",
+            "言う"
+          ],
+          "prompt": "decir"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "The most frequent verbs, the base for building sentences.",
+    "es": "Los verbos más frecuentes, la base para formar frases."
+  },
+  "generator": "build_lessons",
+  "id": "ja-u13-l1",
+  "lang": "ja",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Recognise the most common verbs",
+      "Name everyday actions"
+    ],
+    "es": [
+      "Reconocer los verbos más usados",
+      "Nombrar acciones del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ja"
+      ],
+      "rows": [
+        [
+          "ser / estar / haber",
+          "be / are",
+          "は /"
+        ],
+        [
+          "hacer",
+          "do",
+          "やる"
+        ],
+        [
+          "ir",
+          "go",
+          "ふりがな"
+        ],
+        [
+          "venir",
+          "Come",
+          "おすすめ"
+        ],
+        [
+          "ver / mirar",
+          "see / watch",
+          "見る / watch"
+        ],
+        [
+          "oír / escuchar",
+          "hear / listen",
+          "聴く/聞く"
+        ],
+        [
+          "hablar / decir",
+          "speak / say",
+          "話す/言う"
+        ],
+        [
+          "decir",
+          "say",
+          "言う"
+        ],
+        [
+          "preguntar",
+          "ask",
+          "リクエスト"
+        ],
+        [
+          "contar / explicar",
+          "count / explain",
+          "カウント/説明"
+        ],
+        [
+          "entender / comprender",
+          "understand / comprehend",
+          "理解/補完"
+        ],
+        [
+          "saber / conocer",
+          "know / understand",
+          "知る・理解する"
+        ]
+      ],
+      "title": "es · en · ja",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Common verbs",
+    "es": "Los verbos comunes"
+  },
+  "unit": 13
+}

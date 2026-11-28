@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:verbos-comunes.ser-estar-haber",
+    "c:verbos-comunes.hacer",
+    "c:verbos-comunes.ir",
+    "c:verbos-comunes.venir",
+    "c:verbos-comunes.ver-mirar",
+    "c:verbos-comunes.oir-escuchar",
+    "c:verbos-comunes.hablar-decir",
+    "c:verbos-comunes.decir",
+    "c:verbos-comunes.preguntar",
+    "c:verbos-comunes.contar-explicar",
+    "c:verbos-comunes.entender-comprender",
+    "c:verbos-comunes.saber-conocer"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:verbos-comunes.ser-estar-haber",
+      "en": "be / are",
+      "es": "ser / estar / haber",
+      "speaker": "A",
+      "translit": "/  shì   yǐ jīng",
+      "zh": "/ 是 已经"
+    },
+    {
+      "concept": "c:verbos-comunes.hacer",
+      "en": "do",
+      "es": "hacer",
+      "speaker": "B",
+      "translit": "zhè yàng zuò",
+      "zh": "这样做"
+    },
+    {
+      "concept": "c:verbos-comunes.ir",
+      "en": "go",
+      "es": "ir",
+      "speaker": "A",
+      "translit": "kāi shǐ",
+      "zh": "开始"
+    },
+    {
+      "concept": "c:verbos-comunes.venir",
+      "en": "Come",
+      "es": "venir",
+      "speaker": "B",
+      "translit": "lái",
+      "zh": "来"
+    },
+    {
+      "concept": "c:verbos-comunes.ver-mirar",
+      "en": "see / watch",
+      "es": "ver / mirar",
+      "speaker": "A",
+      "translit": "jiàn / biǎo",
+      "zh": "见/表"
+    },
+    {
+      "concept": "c:verbos-comunes.oir-escuchar",
+      "en": "hear / listen",
+      "es": "oír / escuchar",
+      "speaker": "B",
+      "translit": "tīng dào / tīng (  shēng yīn )",
+      "zh": "听到/听( 声音)"
+    },
+    {
+      "concept": "c:verbos-comunes.hablar-decir",
+      "en": "speak / say",
+      "es": "hablar / decir",
+      "speaker": "A",
+      "translit": "shuō",
+      "zh": "说"
+    },
+    {
+      "concept": "c:verbos-comunes.decir",
+      "en": "say",
+      "es": "decir",
+      "speaker": "B",
+      "translit": "shuō",
+      "zh": "说"
+    },
+    {
+      "concept": "c:verbos-comunes.preguntar",
+      "en": "ask",
+      "es": "preguntar",
+      "speaker": "A",
+      "translit": "xún wèn",
+      "zh": "询问"
+    },
+    {
+      "concept": "c:verbos-comunes.contar-explicar",
+      "en": "count / explain",
+      "es": "contar / explicar",
+      "speaker": "B",
+      "translit": "shù /  jiě shì",
+      "zh": "数/ 解释"
+    },
+    {
+      "concept": "c:verbos-comunes.entender-comprender",
+      "en": "understand / comprehend",
+      "es": "entender / comprender",
+      "speaker": "A",
+      "translit": "lǐ jiě / lǐ jiě ( I)",
+      "zh": "理解/理解( I)"
+    },
+    {
+      "concept": "c:verbos-comunes.saber-conocer",
+      "en": "know / understand",
+      "es": "saber / conocer",
+      "speaker": "B",
+      "translit": "liǎo jiě / lǐ jiě ( I)",
+      "zh": "了解/理解( I)"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "/ 是 已经",
+          "answerTranslit": "/  shì   yǐ jīng",
+          "concept": "c:verbos-comunes.ser-estar-haber",
+          "optionTranslit": {
+            "/ 是 已经": "/  shì   yǐ jīng",
+            "数/ 解释": "shù /  jiě shì",
+            "来": "lái",
+            "见/表": "jiàn / biǎo"
+          },
+          "options": [
+            "/ 是 已经",
+            "见/表",
+            "来",
+            "数/ 解释"
+          ],
+          "prompt": "ser / estar / haber"
+        },
+        {
+          "answer": "这样做",
+          "answerTranslit": "zhè yàng zuò",
+          "concept": "c:verbos-comunes.hacer",
+          "optionTranslit": {
+            "理解/理解( I)": "lǐ jiě / lǐ jiě ( I)",
+            "见/表": "jiàn / biǎo",
+            "询问": "xún wèn",
+            "这样做": "zhè yàng zuò"
+          },
+          "options": [
+            "见/表",
+            "这样做",
+            "理解/理解( I)",
+            "询问"
+          ],
+          "prompt": "hacer"
+        },
+        {
+          "answer": "开始",
+          "answerTranslit": "kāi shǐ",
+          "concept": "c:verbos-comunes.ir",
+          "optionTranslit": {
+            "/ 是 已经": "/  shì   yǐ jīng",
+            "开始": "kāi shǐ",
+            "来": "lái",
+            "理解/理解( I)": "lǐ jiě / lǐ jiě ( I)"
+          },
+          "options": [
+            "开始",
+            "/ 是 已经",
+            "理解/理解( I)",
+            "来"
+          ],
+          "prompt": "ir"
+        },
+        {
+          "answer": "来",
+          "answerTranslit": "lái",
+          "concept": "c:verbos-comunes.venir",
+          "optionTranslit": {
+            "了解/理解( I)": "liǎo jiě / lǐ jiě ( I)",
+            "来": "lái",
+            "见/表": "jiàn / biǎo",
+            "询问": "xún wèn"
+          },
+          "options": [
+            "询问",
+            "来",
+            "了解/理解( I)",
+            "见/表"
+          ],
+          "prompt": "venir"
+        },
+        {
+          "answer": "见/表",
+          "answerTranslit": "jiàn / biǎo",
+          "concept": "c:verbos-comunes.ver-mirar",
+          "optionTranslit": {
+            "了解/理解( I)": "liǎo jiě / lǐ jiě ( I)",
+            "开始": "kāi shǐ",
+            "见/表": "jiàn / biǎo",
+            "说": "shuō"
+          },
+          "options": [
+            "见/表",
+            "说",
+            "了解/理解( I)",
+            "开始"
+          ],
+          "prompt": "ver / mirar"
+        },
+        {
+          "answer": "听到/听( 声音)",
+          "answerTranslit": "tīng dào / tīng (  shēng yīn )",
+          "concept": "c:verbos-comunes.oir-escuchar",
+          "optionTranslit": {
+            "听到/听( 声音)": "tīng dào / tīng (  shēng yīn )",
+            "数/ 解释": "shù /  jiě shì",
+            "理解/理解( I)": "lǐ jiě / lǐ jiě ( I)",
+            "这样做": "zhè yàng zuò"
+          },
+          "options": [
+            "这样做",
+            "理解/理解( I)",
+            "数/ 解释",
+            "听到/听( 声音)"
+          ],
+          "prompt": "oír / escuchar"
+        },
+        {
+          "answer": "说",
+          "answerTranslit": "shuō",
+          "concept": "c:verbos-comunes.hablar-decir",
+          "optionTranslit": {
+            "/ 是 已经": "/  shì   yǐ jīng",
+            "了解/理解( I)": "liǎo jiě / lǐ jiě ( I)",
+            "询问": "xún wèn",
+            "说": "shuō"
+          },
+          "options": [
+            "/ 是 已经",
+            "了解/理解( I)",
+            "说",
+            "询问"
+          ],
+          "prompt": "hablar / decir"
+        },
+        {
+          "answer": "说",
+          "answerTranslit": "shuō",
+          "concept": "c:verbos-comunes.decir",
+          "optionTranslit": {
+            "开始": "kāi shǐ",
+            "见/表": "jiàn / biǎo",
+            "说": "shuō",
+            "这样做": "zhè yàng zuò"
+          },
+          "options": [
+            "开始",
+            "这样做",
+            "见/表",
+            "说"
+          ],
+          "prompt": "decir"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "The most frequent verbs, the base for building sentences.",
+    "es": "Los verbos más frecuentes, la base para formar frases."
+  },
+  "generator": "build_lessons",
+  "id": "zh-u13-l1",
+  "lang": "zh",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Recognise the most common verbs",
+      "Name everyday actions"
+    ],
+    "es": [
+      "Reconocer los verbos más usados",
+      "Nombrar acciones del día a día"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "zh"
+      ],
+      "rows": [
+        [
+          "ser / estar / haber",
+          "be / are",
+          "/ 是 已经"
+        ],
+        [
+          "hacer",
+          "do",
+          "这样做"
+        ],
+        [
+          "ir",
+          "go",
+          "开始"
+        ],
+        [
+          "venir",
+          "Come",
+          "来"
+        ],
+        [
+          "ver / mirar",
+          "see / watch",
+          "见/表"
+        ],
+        [
+          "oír / escuchar",
+          "hear / listen",
+          "听到/听( 声音)"
+        ],
+        [
+          "hablar / decir",
+          "speak / say",
+          "说"
+        ],
+        [
+          "decir",
+          "say",
+          "说"
+        ],
+        [
+          "preguntar",
+          "ask",
+          "询问"
+        ],
+        [
+          "contar / explicar",
+          "count / explain",
+          "数/ 解释"
+        ],
+        [
+          "entender / comprender",
+          "understand / comprehend",
+          "理解/理解( I)"
+        ],
+        [
+          "saber / conocer",
+          "know / understand",
+          "了解/理解( I)"
+        ]
+      ],
+      "title": "es · en · zh",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Common verbs",
+    "es": "Los verbos comunes"
+  },
+  "unit": 13
+}

@@ -1,0 +1,365 @@
+{
+  "concepts": [
+    "c:transporte-y-viajes.viaje",
+    "c:transporte-y-viajes.viaje-trayecto",
+    "c:transporte-y-viajes.turismo",
+    "c:transporte-y-viajes.coche-auto",
+    "c:transporte-y-viajes.taxi",
+    "c:transporte-y-viajes.autobus",
+    "c:transporte-y-viajes.tren",
+    "c:transporte-y-viajes.metro",
+    "c:transporte-y-viajes.avion",
+    "c:transporte-y-viajes.barco-avion",
+    "c:transporte-y-viajes.barco-bote",
+    "c:transporte-y-viajes.bicicleta"
+  ],
+  "dialogue": [
+    {
+      "concept": "c:transporte-y-viajes.viaje",
+      "en": "travel",
+      "es": "viaje",
+      "speaker": "A",
+      "translit": "yātrā",
+      "ur": "یاترا"
+    },
+    {
+      "concept": "c:transporte-y-viajes.viaje-trayecto",
+      "en": "travel / journey",
+      "es": "viaje / trayecto",
+      "speaker": "B",
+      "translit": "safar",
+      "ur": "سپھر"
+    },
+    {
+      "concept": "c:transporte-y-viajes.turismo",
+      "en": "tourism",
+      "es": "turismo",
+      "speaker": "A",
+      "translit": "paryaṭan",
+      "ur": "پریٹن"
+    },
+    {
+      "concept": "c:transporte-y-viajes.coche-auto",
+      "en": "car / vehicle",
+      "es": "coche / auto",
+      "speaker": "B",
+      "translit": "kār",
+      "ur": "کار"
+    },
+    {
+      "concept": "c:transporte-y-viajes.taxi",
+      "en": "taxi",
+      "es": "taxi",
+      "speaker": "A",
+      "translit": "ṭaiksī",
+      "ur": "ٹےکسی"
+    },
+    {
+      "concept": "c:transporte-y-viajes.autobus",
+      "en": "bus",
+      "es": "autobús",
+      "speaker": "B",
+      "translit": "bas",
+      "ur": "بس"
+    },
+    {
+      "concept": "c:transporte-y-viajes.tren",
+      "en": "train",
+      "es": "tren",
+      "speaker": "A",
+      "translit": "train / rail gaadi",
+      "ur": "ٹرین / ریل گاڑی"
+    },
+    {
+      "concept": "c:transporte-y-viajes.metro",
+      "en": "Subway",
+      "es": "metro",
+      "speaker": "B",
+      "translit": "meṭro",
+      "ur": "مےٹرو"
+    },
+    {
+      "concept": "c:transporte-y-viajes.avion",
+      "en": "aircraft",
+      "es": "avión",
+      "speaker": "A",
+      "translit": "hawai jahaaz",
+      "ur": "ہوائی جہاز"
+    },
+    {
+      "concept": "c:transporte-y-viajes.barco-avion",
+      "en": "boat / aircraft",
+      "es": "barco / avión",
+      "speaker": "B",
+      "translit": "hawai jahaaz",
+      "ur": "ہوائی جہاز"
+    },
+    {
+      "concept": "c:transporte-y-viajes.barco-bote",
+      "en": "boat / ship",
+      "es": "barco / bote",
+      "speaker": "A",
+      "translit": "nāv",
+      "ur": "ناو"
+    },
+    {
+      "concept": "c:transporte-y-viajes.bicicleta",
+      "en": "bicycle",
+      "es": "bicicleta",
+      "speaker": "B",
+      "translit": "sāikil",
+      "ur": "سااِکِل"
+    }
+  ],
+  "exercises": [
+    {
+      "items": [
+        {
+          "answer": "یاترا",
+          "answerTranslit": "yātrā",
+          "concept": "c:transporte-y-viajes.viaje",
+          "optionTranslit": {
+            "سااِکِل": "sāikil",
+            "ناو": "nāv",
+            "ٹےکسی": "ṭaiksī",
+            "یاترا": "yātrā"
+          },
+          "options": [
+            "ٹےکسی",
+            "ناو",
+            "سااِکِل",
+            "یاترا"
+          ],
+          "prompt": "viaje"
+        },
+        {
+          "answer": "سپھر",
+          "answerTranslit": "safar",
+          "concept": "c:transporte-y-viajes.viaje-trayecto",
+          "optionTranslit": {
+            "سپھر": "safar",
+            "مےٹرو": "meṭro",
+            "ناو": "nāv",
+            "پریٹن": "paryaṭan"
+          },
+          "options": [
+            "مےٹرو",
+            "پریٹن",
+            "ناو",
+            "سپھر"
+          ],
+          "prompt": "viaje / trayecto"
+        },
+        {
+          "answer": "پریٹن",
+          "answerTranslit": "paryaṭan",
+          "concept": "c:transporte-y-viajes.turismo",
+          "optionTranslit": {
+            "سپھر": "safar",
+            "مےٹرو": "meṭro",
+            "ٹرین / ریل گاڑی": "train / rail gaadi",
+            "پریٹن": "paryaṭan"
+          },
+          "options": [
+            "سپھر",
+            "پریٹن",
+            "ٹرین / ریل گاڑی",
+            "مےٹرو"
+          ],
+          "prompt": "turismo"
+        },
+        {
+          "answer": "کار",
+          "answerTranslit": "kār",
+          "concept": "c:transporte-y-viajes.coche-auto",
+          "optionTranslit": {
+            "ناو": "nāv",
+            "کار": "kār",
+            "ہوائی جہاز": "hawai jahaaz",
+            "یاترا": "yātrā"
+          },
+          "options": [
+            "کار",
+            "ہوائی جہاز",
+            "ناو",
+            "یاترا"
+          ],
+          "prompt": "coche / auto"
+        },
+        {
+          "answer": "ٹےکسی",
+          "answerTranslit": "ṭaiksī",
+          "concept": "c:transporte-y-viajes.taxi",
+          "optionTranslit": {
+            "سپھر": "safar",
+            "ٹےکسی": "ṭaiksī",
+            "پریٹن": "paryaṭan",
+            "یاترا": "yātrā"
+          },
+          "options": [
+            "یاترا",
+            "پریٹن",
+            "ٹےکسی",
+            "سپھر"
+          ],
+          "prompt": "taxi"
+        },
+        {
+          "answer": "بس",
+          "answerTranslit": "bas",
+          "concept": "c:transporte-y-viajes.autobus",
+          "optionTranslit": {
+            "بس": "bas",
+            "ناو": "nāv",
+            "ٹےکسی": "ṭaiksī",
+            "کار": "kār"
+          },
+          "options": [
+            "کار",
+            "ٹےکسی",
+            "بس",
+            "ناو"
+          ],
+          "prompt": "autobús"
+        },
+        {
+          "answer": "ٹرین / ریل گاڑی",
+          "answerTranslit": "train / rail gaadi",
+          "concept": "c:transporte-y-viajes.tren",
+          "optionTranslit": {
+            "بس": "bas",
+            "ناو": "nāv",
+            "ٹرین / ریل گاڑی": "train / rail gaadi",
+            "ہوائی جہاز": "hawai jahaaz"
+          },
+          "options": [
+            "ٹرین / ریل گاڑی",
+            "ہوائی جہاز",
+            "بس",
+            "ناو"
+          ],
+          "prompt": "tren"
+        },
+        {
+          "answer": "مےٹرو",
+          "answerTranslit": "meṭro",
+          "concept": "c:transporte-y-viajes.metro",
+          "optionTranslit": {
+            "مےٹرو": "meṭro",
+            "ناو": "nāv",
+            "ہوائی جہاز": "hawai jahaaz",
+            "یاترا": "yātrā"
+          },
+          "options": [
+            "یاترا",
+            "مےٹرو",
+            "ناو",
+            "ہوائی جہاز"
+          ],
+          "prompt": "metro"
+        }
+      ],
+      "title": {
+        "en": "Choose the correct word",
+        "es": "Elige la palabra correcta"
+      },
+      "type": "choice"
+    }
+  ],
+  "explanation": {
+    "en": "Means of transport and words useful to get around.",
+    "es": "Medios de transporte y palabras útiles para desplazarse."
+  },
+  "generator": "build_lessons",
+  "id": "ur-u16-l1",
+  "lang": "ur",
+  "lesson": 1,
+  "objectives": {
+    "en": [
+      "Name means of transport",
+      "Get around and travel"
+    ],
+    "es": [
+      "Nombrar medios de transporte",
+      "Moverse y viajar"
+    ]
+  },
+  "tables": [
+    {
+      "columns": [
+        "es",
+        "en",
+        "ur"
+      ],
+      "rows": [
+        [
+          "viaje",
+          "travel",
+          "یاترا"
+        ],
+        [
+          "viaje / trayecto",
+          "travel / journey",
+          "سپھر"
+        ],
+        [
+          "turismo",
+          "tourism",
+          "پریٹن"
+        ],
+        [
+          "coche / auto",
+          "car / vehicle",
+          "کار"
+        ],
+        [
+          "taxi",
+          "taxi",
+          "ٹےکسی"
+        ],
+        [
+          "autobús",
+          "bus",
+          "بس"
+        ],
+        [
+          "tren",
+          "train",
+          "ٹرین / ریل گاڑی"
+        ],
+        [
+          "metro",
+          "Subway",
+          "مےٹرو"
+        ],
+        [
+          "avión",
+          "aircraft",
+          "ہوائی جہاز"
+        ],
+        [
+          "barco / avión",
+          "boat / aircraft",
+          "ہوائی جہاز"
+        ],
+        [
+          "barco / bote",
+          "boat / ship",
+          "ناو"
+        ],
+        [
+          "bicicleta",
+          "bicycle",
+          "سااِکِل"
+        ]
+      ],
+      "title": "es · en · ur",
+      "type": "vocabulary"
+    }
+  ],
+  "title": {
+    "en": "Transport and travel",
+    "es": "El transporte y los viajes"
+  },
+  "unit": 16
+}
